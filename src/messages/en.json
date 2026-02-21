@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "topics": "Topics",
+    "paths": "Learning Paths",
+    "learn": "Learn",
+    "login": "Sign In",
+    "register": "Create Account",
+    "switchLanguage": "العربية",
+    "myAccount": "My Account",
+    "dashboard": "Dashboard"
+  },
+  "home": {
+    "hero": {
+      "title": "Path to Noor",
+      "subtitle": "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.",
+      "explorePaths": "Explore Learning Paths",
+      "createAccount": "Create Account"
+    },
+    "features": {
+      "title": "Why Path to Noor?",
+      "subtitle": "Everything you need to begin your journey of learning, beautifully organized and always accessible.",
+      "structuredPaths": {
+        "title": "Structured Learning Paths",
+        "description": "Follow curated paths from basics to deeper understanding, designed by knowledgeable educators."
+      },
+      "browseTopics": {
+        "title": "Browse by Topic",
+        "description": "Explore topics like Prayer, Quran, History, and more — organized in a clear hierarchy."
+      },
+      "trackProgress": {
+        "title": "Track Your Progress",
+        "description": "Mark lessons as complete, take quizzes, and see how far you've come on your learning journey."
+      },
+      "bilingual": {
+        "title": "Bilingual Support",
+        "description": "All content available in English and Arabic with full RTL support for Arabic readers."
+      }
+    }
+  },
+  "topics": {
+    "title": "Browse Topics",
+    "subtitle": "Explore Islamic knowledge organized by topic — from fundamentals to specialized subjects.",
+    "noTopics": "No topics available yet. Check back soon!",
+    "modules": "Modules",
+    "subtopics": "Subtopics",
+    "viewAll": "View All"
+  },
+  "paths": {
+    "title": "Learning Paths",
+    "subtitle": "Follow structured journeys from basics to mastery, curated by knowledgeable educators.",
+    "noPaths": "No learning paths available yet. Check back soon!",
+    "startPath": "Start Learning",
+    "continuePath": "Continue Learning",
+    "hours": "{count} hours",
+    "moduleCount": "{count} modules"
+  },
+  "lesson": {
+    "backToPath": "Back to Path",
+    "backToModule": "Back to Module",
+    "nextLesson": "Next Lesson",
+    "previousLesson": "Previous Lesson",
+    "notFound": "Lesson not found",
+    "notFoundDescription": "The lesson you're looking for doesn't exist or hasn't been published yet."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search...",
+    "noResults": "No results found"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "continueWithGoogle": "Continue with Google",
+    "or": "or",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "welcomeBack": "Welcome back",
+    "signInDescription": "Sign in to continue your learning journey",
+    "createAccountDescription": "Join Path to Noor and start your learning journey",
+    "errorDefault": "Something went wrong. Please try again.",
+    "errorCredentials": "Invalid email or password.",
+    "errorEmailExists": "An account with this email already exists.",
+    "registrationSuccess": "Account created! You can now sign in."
+  },
+  "learning": {
+    "lesson": "Lesson",
+    "lessons": "Lessons",
+    "module": "Module",
+    "modules": "Modules",
+    "topic": "Topic",
+    "topics": "Topics",
+    "path": "Learning Path",
+    "paths": "Learning Paths",
+    "quiz": "Quiz",
+    "quizzes": "Quizzes",
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "notStarted": "Not Started",
+    "markComplete": "Mark as Complete",
+    "estimatedTime": "{minutes} min read",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  }
+}
