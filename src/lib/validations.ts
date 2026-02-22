@@ -9,6 +9,12 @@ const bilingualString = z.object({
   ar: z.string().min(1, "Arabic text is required"),
 });
 
+/** English required, Arabic optional (defaults to "") */
+const bilingualStringArOptional = z.object({
+  en: z.string().min(1, "English text is required"),
+  ar: z.string().default(""),
+});
+
 const bilingualStringOptional = z.object({
   en: z.string().min(1, "English text is required").optional(),
   ar: z.string().min(1, "Arabic text is required").optional(),
@@ -60,8 +66,8 @@ export type PaginationParams = z.infer<typeof paginationSchema>;
 // ---------------------------------------------------------------------------
 
 export const createTopicSchema = z.object({
-  name: bilingualString,
-  description: bilingualString,
+  name: bilingualStringArOptional,
+  description: bilingualStringArOptional,
   slug: slugField.optional(),
   icon: z.string().default(""),
   parent: objectIdString.nullable().default(null),

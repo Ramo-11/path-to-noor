@@ -170,7 +170,7 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
             </div>
             <div>
               <label htmlFor="name-ar" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
-                Name (Arabic) *
+                Name (Arabic)
               </label>
               <input
                 id="name-ar"
@@ -181,7 +181,6 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
                   setForm((prev) => ({ ...prev, name: { ...prev.name, ar: e.target.value } }))
                 }
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-                required
               />
               {errors["name.ar"] && (
                 <p className="mt-1 text-xs text-red-500">{errors["name.ar"][0]}</p>
@@ -214,7 +213,7 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
             </div>
             <div>
               <label htmlFor="desc-ar" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
-                Description (Arabic) *
+                Description (Arabic)
               </label>
               <textarea
                 id="desc-ar"
@@ -228,7 +227,6 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
                   }))
                 }
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-                required
               />
               {errors["description.ar"] && (
                 <p className="mt-1 text-xs text-red-500">{errors["description.ar"][0]}</p>
