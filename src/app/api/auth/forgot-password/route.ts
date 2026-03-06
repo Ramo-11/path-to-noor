@@ -4,6 +4,7 @@ import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { sendPasswordResetEmail } from "@/lib/email";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { getSiteUrl } from "@/config/env";
 
 export async function POST(request: NextRequest) {
   try {
@@ -44,7 +45,7 @@ export async function POST(request: NextRequest) {
       user.resetTokenExpiry = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
       await user.save();
 
-      const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+      const siteUrl = getSiteUrl();
       const resetUrl = `${siteUrl}/en/reset-password?token=${token}`;
 
       await sendPasswordResetEmail(email, user.name, resetUrl);

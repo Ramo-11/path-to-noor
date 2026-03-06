@@ -32,6 +32,10 @@ const envSchema = z.object({
   // Analytics
   NEXT_PUBLIC_GA_MEASUREMENT_ID: z.string().optional(),
 
+  // Site URL
+  NEXT_PUBLIC_SITE_URL_DEV: z.string().default("http://localhost:3000"),
+  NEXT_PUBLIC_SITE_URL_PROD: z.string().default("https://pathtonoor.com"),
+
   // Resend (email)
   RESEND_API_KEY: z.string().optional(),
   RESEND_FROM: z.string().optional(),
@@ -64,6 +68,13 @@ export function getEnv(): Env {
     cachedEnv = validateEnv();
   }
   return cachedEnv;
+}
+
+export function getSiteUrl(): string {
+  const envVars = getEnv();
+  return envVars.NODE_ENV === "production"
+    ? envVars.NEXT_PUBLIC_SITE_URL_PROD
+    : envVars.NEXT_PUBLIC_SITE_URL_DEV;
 }
 
 export function getMongoUri(): string {

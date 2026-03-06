@@ -6,6 +6,7 @@ import { SessionProvider } from "next-auth/react";
 import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { getSiteUrl } from "@/config/env";
 import "@/app/globals.css";
 
 const notoSans = Noto_Sans({
@@ -27,9 +28,7 @@ export const metadata: Metadata = {
   },
   description:
     "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.",
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
-  ),
+  metadataBase: new URL(getSiteUrl()),
   openGraph: {
     type: "website",
     locale: "en_US",
