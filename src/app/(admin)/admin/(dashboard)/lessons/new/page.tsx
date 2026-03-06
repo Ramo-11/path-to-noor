@@ -119,7 +119,6 @@ export default function NewLessonPage() {
                 type="text"
                 value={form.titleAr}
                 onChange={(e) => updateField("titleAr", e.target.value)}
-                required
                 dir="rtl"
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
               />

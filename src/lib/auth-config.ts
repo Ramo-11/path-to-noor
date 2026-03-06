@@ -63,12 +63,27 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   },
 
   callbacks: {
-    async jwt({ token, user }) {
+    async jwt({ token, user, trigger }) {
       if (user) {
         token.role = user.role;
         token.id = user.id;
         token.preferredLanguage = user.preferredLanguage;
       }
+
+      // Refresh role from DB when session is explicitly updated
+      if (trigger === "update" && token.id) {
+        try {
+          await connectDB();
+          const dbUser = await User.findById(token.id).select("role preferredLanguage").lean();
+          if (dbUser) {
+            token.role = dbUser.role;
+            token.preferredLanguage = dbUser.preferredLanguage;
+          }
+        } catch {
+          // Silently continue with cached token values
+        }
+      }
+
       return token;
     },
 

@@ -1,5 +1,4 @@
-// Server-only data queries for admin CRUD operations.
-// This file should only be imported in server components and API routes.
+import "server-only";
 
 import { connectDB } from "@/db/connection";
 import { Topic } from "@/db/models/Topic";
@@ -267,12 +266,21 @@ export async function getQuizById(id: string) {
 // Users
 // ---------------------------------------------------------------------------
 
-export async function getUsers(params: QueryParams): Promise<PaginatedResult<InstanceType<typeof User>>> {
+export async function getUsers(
+  params: QueryParams,
+  roleFilter?: "users_only" | "admins_only"
+): Promise<PaginatedResult<InstanceType<typeof User>>> {
   await connectDB();
 
   const { page, limit, search, sort, order } = params;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const filter: Record<string, any> = {};
+
+  if (roleFilter === "users_only") {
+    filter.role = "user";
+  } else if (roleFilter === "admins_only") {
+    filter.role = { $in: ["admin", "super_admin"] };
+  }
 
   if (search) {
     const escaped = escapeRegex(search);
@@ -390,19 +398,323 @@ export async function getPublicLessonBySlug(slug: string) {
 }
 
 // ---------------------------------------------------------------------------
+// Public: Quiz by Lesson
+// ---------------------------------------------------------------------------
+
+export async function getPublicQuizByLessonId(lessonId: string) {
+  await connectDB();
+  return Quiz.findOne({ lessonId }).lean();
+}
+
+// ---------------------------------------------------------------------------
+// Public: Bookmarked Lessons
+// ---------------------------------------------------------------------------
+
+export async function getUserBookmarkedLessons(userId: string) {
+  await connectDB();
+  const user = await User.findById(userId)
+    .select("bookmarks")
+    .populate({
+      path: "bookmarks",
+      select: "title slug estimatedMinutes moduleId",
+      match: { published: true },
+    })
+    .lean();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return (user as any)?.bookmarks || [];
+}
+
+// ---------------------------------------------------------------------------
 // Dashboard Stats
 // ---------------------------------------------------------------------------
 
 export async function getDashboardStats() {
   await connectDB();
 
-  const [topics, modules, lessons, paths, users] = await Promise.all([
+  const [topics, modules, lessons, paths, quizzes, users] = await Promise.all([
     Topic.countDocuments(),
     Module.countDocuments(),
     Lesson.countDocuments(),
     LearningPath.countDocuments(),
+    Quiz.countDocuments(),
     User.countDocuments(),
   ]);
 
-  return { topics, modules, lessons, paths, users };
+  return { topics, modules, lessons, paths, quizzes, users };
+}
+
+// ---------------------------------------------------------------------------
+// Analytics: Signup Trends (last 30 days)
+// ---------------------------------------------------------------------------
+
+export async function getSignupTrends(days = 30) {
+  await connectDB();
+
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - days);
+  startDate.setHours(0, 0, 0, 0);
+
+  const results = await User.aggregate([
+    { $match: { createdAt: { $gte: startDate } } },
+    {
+      $group: {
+        _id: { $dateToString: { format: "%Y-%m-%d", date: "$createdAt" } },
+        count: { $sum: 1 },
+      },
+    },
+    { $sort: { _id: 1 } },
+  ]);
+
+  // Fill in missing days with 0
+  const filled: Array<{ date: string; count: number }> = [];
+  const current = new Date(startDate);
+  const now = new Date();
+  now.setHours(23, 59, 59, 999);
+
+  while (current <= now) {
+    const dateStr = current.toISOString().split("T")[0];
+    const found = results.find((r: { _id: string; count: number }) => r._id === dateStr);
+    filled.push({ date: dateStr, count: found?.count || 0 });
+    current.setDate(current.getDate() + 1);
+  }
+
+  return filled;
+}
+
+// ---------------------------------------------------------------------------
+// Analytics: Lesson Completion Trends (last 30 days)
+// ---------------------------------------------------------------------------
+
+export async function getCompletionTrends(days = 30) {
+  await connectDB();
+
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - days);
+  startDate.setHours(0, 0, 0, 0);
+
+  const results = await User.aggregate([
+    { $unwind: "$progress" },
+    { $match: { "progress.completedAt": { $gte: startDate } } },
+    {
+      $group: {
+        _id: { $dateToString: { format: "%Y-%m-%d", date: "$progress.completedAt" } },
+        count: { $sum: 1 },
+      },
+    },
+    { $sort: { _id: 1 } },
+  ]);
+
+  const filled: Array<{ date: string; count: number }> = [];
+  const current = new Date(startDate);
+  const now = new Date();
+  now.setHours(23, 59, 59, 999);
+
+  while (current <= now) {
+    const dateStr = current.toISOString().split("T")[0];
+    const found = results.find((r: { _id: string; count: number }) => r._id === dateStr);
+    filled.push({ date: dateStr, count: found?.count || 0 });
+    current.setDate(current.getDate() + 1);
+  }
+
+  return filled;
+}
+
+// ---------------------------------------------------------------------------
+// Analytics: Quiz Activity Trends (last 30 days)
+// ---------------------------------------------------------------------------
+
+export async function getQuizActivityTrends(days = 30) {
+  await connectDB();
+
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - days);
+  startDate.setHours(0, 0, 0, 0);
+
+  const results = await User.aggregate([
+    { $unwind: "$quizResults" },
+    { $match: { "quizResults.completedAt": { $gte: startDate } } },
+    {
+      $group: {
+        _id: { $dateToString: { format: "%Y-%m-%d", date: "$quizResults.completedAt" } },
+        total: { $sum: 1 },
+        passed: { $sum: { $cond: ["$quizResults.passed", 1, 0] } },
+      },
+    },
+    { $sort: { _id: 1 } },
+  ]);
+
+  const filled: Array<{ date: string; total: number; passed: number }> = [];
+  const current = new Date(startDate);
+  const now = new Date();
+  now.setHours(23, 59, 59, 999);
+
+  while (current <= now) {
+    const dateStr = current.toISOString().split("T")[0];
+    const found = results.find((r: { _id: string; total: number; passed: number }) => r._id === dateStr);
+    filled.push({ date: dateStr, total: found?.total || 0, passed: found?.passed || 0 });
+    current.setDate(current.getDate() + 1);
+  }
+
+  return filled;
+}
+
+// ---------------------------------------------------------------------------
+// Analytics: Popular Learning Paths (by enrollment/progress)
+// ---------------------------------------------------------------------------
+
+export async function getPopularPaths() {
+  await connectDB();
+
+  const paths = await LearningPath.find({ published: true })
+    .populate({
+      path: "modules.moduleId",
+      select: "title lessons",
+      populate: {
+        path: "lessons.lessonId",
+        select: "_id",
+      },
+    })
+    .lean();
+
+  // Get all users with progress
+  const usersWithProgress = await User.find(
+    { "progress.0": { $exists: true } },
+    { progress: 1 }
+  ).lean();
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return paths.map((path: any) => {
+    // Collect all lesson IDs in this path
+    const lessonIds = new Set<string>();
+    for (const mod of path.modules || []) {
+      if (!mod.moduleId) continue;
+      for (const lesson of mod.moduleId.lessons || []) {
+        if (lesson.lessonId?._id) {
+          lessonIds.add(lesson.lessonId._id.toString());
+        }
+      }
+    }
+
+    const totalLessons = lessonIds.size;
+    let enrolledUsers = 0;
+    let totalCompleted = 0;
+
+    for (const user of usersWithProgress) {
+      const userCompletedInPath = user.progress.filter((p) =>
+        lessonIds.has(p.lessonId.toString())
+      ).length;
+
+      if (userCompletedInPath > 0) {
+        enrolledUsers++;
+        totalCompleted += userCompletedInPath;
+      }
+    }
+
+    return {
+      _id: path._id.toString(),
+      title: path.title,
+      totalLessons,
+      enrolledUsers,
+      avgCompletion: enrolledUsers > 0 && totalLessons > 0
+        ? Math.round((totalCompleted / enrolledUsers / totalLessons) * 100)
+        : 0,
+    };
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Admin: User Detail (full profile with progress data)
+// ---------------------------------------------------------------------------
+
+export async function getAdminUserDetail(userId: string) {
+  await connectDB();
+
+  const user = await User.findById(userId)
+    .select("-password -resetToken -resetTokenExpiry")
+    .populate({
+      path: "progress.lessonId",
+      select: "title slug moduleId",
+    })
+    .populate({
+      path: "bookmarks",
+      select: "title slug",
+      match: { published: true },
+    })
+    .populate({
+      path: "quizResults.quizId",
+      select: "lessonId",
+      populate: {
+        path: "lessonId",
+        select: "title slug",
+      },
+    })
+    .lean();
+
+  if (!user) return null;
+
+  // Get all learning paths to compute path-level progress
+  const allPaths = await LearningPath.find({ published: true })
+    .populate({
+      path: "modules.moduleId",
+      select: "title lessons",
+      populate: {
+        path: "lessons.lessonId",
+        select: "_id title",
+      },
+    })
+    .lean();
+
+  const completedLessonIds = new Set(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (user as any).progress.map((p: any) =>
+      p.lessonId?._id?.toString() || p.lessonId?.toString()
+    )
+  );
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const pathProgress = allPaths.map((path: any) => {
+    const modules = (path.modules || [])
+      .filter((m: { moduleId: unknown }) => m.moduleId)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .map((m: any) => {
+        const lessons = (m.moduleId.lessons || [])
+          .filter((l: { lessonId: unknown }) => l.lessonId)
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          .map((l: any) => ({
+            _id: l.lessonId._id.toString(),
+            title: l.lessonId.title,
+            completed: completedLessonIds.has(l.lessonId._id.toString()),
+          }));
+
+        return {
+          _id: m.moduleId._id.toString(),
+          title: m.moduleId.title,
+          lessons,
+          completedCount: lessons.filter((l: { completed: boolean }) => l.completed).length,
+          totalLessons: lessons.length,
+        };
+      });
+
+    const totalLessons = modules.reduce((acc: number, m: { totalLessons: number }) => acc + m.totalLessons, 0);
+    const completedCount = modules.reduce((acc: number, m: { completedCount: number }) => acc + m.completedCount, 0);
+
+    return {
+      _id: path._id.toString(),
+      title: path.title,
+      difficulty: path.difficulty,
+      modules,
+      totalLessons,
+      completedCount,
+      percentage: totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0,
+    };
+  });
+
+  // Only include paths where user has started at least one lesson
+  const activePaths = pathProgress.filter((p) => p.completedCount > 0);
+
+  return {
+    user,
+    pathProgress: activePaths,
+    allPathProgress: pathProgress,
+  };
 }

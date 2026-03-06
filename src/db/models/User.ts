@@ -17,6 +17,14 @@ export interface IUser extends Document {
     completedAt: Date;
   }>;
   bookmarks: mongoose.Types.ObjectId[];
+  quizResults: Array<{
+    quizId: mongoose.Types.ObjectId;
+    score: number;
+    passed: boolean;
+    completedAt: Date;
+  }>;
+  resetToken?: string;
+  resetTokenExpiry?: Date;
   lastLoginAt?: Date;
   createdAt: Date;
   updatedAt: Date;
@@ -58,6 +66,16 @@ const UserSchema = new Schema<IUser>(
       },
     ],
     bookmarks: [{ type: Schema.Types.ObjectId, ref: "Lesson" }],
+    quizResults: [
+      {
+        quizId: { type: Schema.Types.ObjectId, ref: "Quiz" },
+        score: { type: Number, required: true },
+        passed: { type: Boolean, required: true },
+        completedAt: { type: Date, default: Date.now },
+      },
+    ],
+    resetToken: { type: String, select: false },
+    resetTokenExpiry: { type: Date, select: false },
     lastLoginAt: { type: Date },
   },
   { timestamps: true }

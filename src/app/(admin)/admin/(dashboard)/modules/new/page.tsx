@@ -4,6 +4,7 @@ import { useState, useEffect, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { ImageUpload } from "@/components/admin/ImageUpload";
 
 interface TopicOption {
   _id: string;
@@ -49,6 +50,12 @@ export default function NewModulePage() {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setError("");
+
+    if (selectedTopics.length === 0) {
+      setError("Please select at least one topic");
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -126,7 +133,6 @@ export default function NewModulePage() {
                 type="text"
                 value={form.titleAr}
                 onChange={(e) => updateField("titleAr", e.target.value)}
-                required
                 dir="rtl"
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
               />
@@ -136,7 +142,7 @@ export default function NewModulePage() {
           {/* Topic selection */}
           <div>
             <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
-              Topics
+              Topics *
             </label>
             <p className="text-xs text-slate-500 dark:text-slate-400 mb-2">
               Select which topics this module belongs to
@@ -187,7 +193,6 @@ export default function NewModulePage() {
                 id="descAr"
                 value={form.descriptionAr}
                 onChange={(e) => updateField("descriptionAr", e.target.value)}
-                required
                 rows={3}
                 dir="rtl"
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
@@ -196,16 +201,12 @@ export default function NewModulePage() {
           </div>
 
           <div>
-            <label htmlFor="thumbnail" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
-              Thumbnail URL (optional)
+            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+              Thumbnail
             </label>
-            <input
-              id="thumbnail"
-              type="url"
+            <ImageUpload
               value={form.thumbnail}
-              onChange={(e) => updateField("thumbnail", e.target.value)}
-              placeholder="https://res.cloudinary.com/..."
-              className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
+              onChange={(url) => updateField("thumbnail", url)}
             />
           </div>
 

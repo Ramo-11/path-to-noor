@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { Lesson } from "@/db/models/Lesson";
+import { Module } from "@/db/models/Module";
+import { Quiz } from "@/db/models/Quiz";
 import { updateLessonSchema } from "@/lib/validations";
 
 export async function GET(
@@ -103,6 +105,36 @@ export async function DELETE(
     const lesson = await Lesson.findById(id);
     if (!lesson) {
       return NextResponse.json({ error: "Lesson not found" }, { status: 404 });
+    }
+
+    // Check if any modules reference this lesson
+    const referencingModules = await Module.find(
+      { "lessons.lessonId": id },
+      { title: 1 }
+    ).lean();
+
+    if (referencingModules.length > 0) {
+      const moduleNames = referencingModules
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .map((m: any) => `"${m.title?.en || m.title}"`)
+        .join(", ");
+      return NextResponse.json(
+        {
+          error: `Cannot delete this lesson because it is used in modules: ${moduleNames}. Remove it from those modules first.`,
+        },
+        { status: 409 }
+      );
+    }
+
+    // Check if a quiz exists for this lesson
+    const quiz = await Quiz.findOne({ lessonId: id });
+    if (quiz) {
+      return NextResponse.json(
+        {
+          error: "Cannot delete this lesson because it has an associated quiz. Delete the quiz first.",
+        },
+        { status: 409 }
+      );
     }
 
     await Lesson.findByIdAndDelete(id);

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useSession } from "next-auth/react";
+import { useTranslations } from "next-intl";
 import { CheckCircle, Circle } from "lucide-react";
 
 interface MarkCompleteButtonProps {
@@ -14,10 +15,10 @@ export function MarkCompleteButton({
   initialCompleted = false,
 }: MarkCompleteButtonProps) {
   const { data: session } = useSession();
+  const t = useTranslations("learning");
   const [completed, setCompleted] = useState(initialCompleted);
   const [loading, setLoading] = useState(false);
 
-  // Don't show if not logged in
   if (!session?.user) return null;
 
   async function handleComplete() {
@@ -45,7 +46,7 @@ export function MarkCompleteButton({
     return (
       <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 text-sm font-medium">
         <CheckCircle className="h-4 w-4" />
-        Completed
+        {t("completed")}
       </div>
     );
   }
@@ -61,7 +62,7 @@ export function MarkCompleteButton({
       ) : (
         <Circle className="h-4 w-4" />
       )}
-      Mark as Complete
+      {t("markComplete")}
     </button>
   );
 }

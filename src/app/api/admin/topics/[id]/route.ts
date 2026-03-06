@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { Topic } from "@/db/models/Topic";
+import { Module } from "@/db/models/Module";
 import { updateTopicSchema } from "@/lib/validations";
 
 export async function GET(
@@ -103,6 +104,36 @@ export async function DELETE(
     const topic = await Topic.findById(id);
     if (!topic) {
       return NextResponse.json({ error: "Topic not found" }, { status: 404 });
+    }
+
+    // Check for subtopics
+    const subtopicCount = await Topic.countDocuments({ parent: id });
+    if (subtopicCount > 0) {
+      return NextResponse.json(
+        {
+          error: `Cannot delete this topic because it has ${subtopicCount} subtopic(s). Delete or reassign them first.`,
+        },
+        { status: 409 }
+      );
+    }
+
+    // Check if any modules reference this topic
+    const referencingModules = await Module.find(
+      { topics: id },
+      { title: 1 }
+    ).lean();
+
+    if (referencingModules.length > 0) {
+      const moduleNames = referencingModules
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .map((m: any) => `"${m.title?.en || m.title}"`)
+        .join(", ");
+      return NextResponse.json(
+        {
+          error: `Cannot delete this topic because it is used in modules: ${moduleNames}. Remove it from those modules first.`,
+        },
+        { status: 409 }
+      );
     }
 
     await Topic.findByIdAndDelete(id);

@@ -75,9 +75,14 @@ export const createTopicSchema = z.object({
   published: z.boolean().default(false),
 });
 
+const bilingualStringArOptionalPartial = z.object({
+  en: z.string().min(1, "English text is required").optional(),
+  ar: z.string().optional(),
+});
+
 export const updateTopicSchema = z.object({
-  name: bilingualStringOptional.optional(),
-  description: bilingualStringOptional.optional(),
+  name: bilingualStringArOptionalPartial.optional(),
+  description: bilingualStringArOptionalPartial.optional(),
   slug: slugField.optional(),
   icon: z.string().optional(),
   parent: objectIdString.nullable().optional(),
@@ -93,11 +98,11 @@ export type UpdateTopicInput = z.infer<typeof updateTopicSchema>;
 // ---------------------------------------------------------------------------
 
 export const createModuleSchema = z.object({
-  title: bilingualString,
-  description: bilingualString,
+  title: bilingualStringArOptional,
+  description: bilingualStringArOptional,
   slug: slugField.optional(),
   thumbnail: z.string().default(""),
-  topics: z.array(objectIdString).default([]),
+  topics: z.array(objectIdString).min(1, "At least one topic is required"),
   lessons: z
     .array(
       z.object({
@@ -110,8 +115,8 @@ export const createModuleSchema = z.object({
 });
 
 export const updateModuleSchema = z.object({
-  title: bilingualStringOptional.optional(),
-  description: bilingualStringOptional.optional(),
+  title: bilingualStringArOptionalPartial.optional(),
+  description: bilingualStringArOptionalPartial.optional(),
   slug: slugField.optional(),
   thumbnail: z.string().optional(),
   topics: z.array(objectIdString).optional(),
@@ -134,7 +139,7 @@ export type UpdateModuleInput = z.infer<typeof updateModuleSchema>;
 // ---------------------------------------------------------------------------
 
 export const createLessonSchema = z.object({
-  title: bilingualString,
+  title: bilingualStringArOptional,
   content: bilingualAny.default({ en: null, ar: null }),
   slug: slugField.optional(),
   moduleId: objectIdString,
@@ -143,7 +148,7 @@ export const createLessonSchema = z.object({
 });
 
 export const updateLessonSchema = z.object({
-  title: bilingualStringOptional.optional(),
+  title: bilingualStringArOptionalPartial.optional(),
   content: bilingualAny.optional(),
   slug: slugField.optional(),
   moduleId: objectIdString.optional(),
@@ -159,8 +164,8 @@ export type UpdateLessonInput = z.infer<typeof updateLessonSchema>;
 // ---------------------------------------------------------------------------
 
 export const createLearningPathSchema = z.object({
-  title: bilingualString,
-  description: bilingualString,
+  title: bilingualStringArOptional,
+  description: bilingualStringArOptional,
   slug: slugField.optional(),
   thumbnail: z.string().default(""),
   difficulty: z.enum(["beginner", "intermediate", "advanced"]).default("beginner"),
@@ -177,8 +182,8 @@ export const createLearningPathSchema = z.object({
 });
 
 export const updateLearningPathSchema = z.object({
-  title: bilingualStringOptional.optional(),
-  description: bilingualStringOptional.optional(),
+  title: bilingualStringArOptionalPartial.optional(),
+  description: bilingualStringArOptionalPartial.optional(),
   slug: slugField.optional(),
   thumbnail: z.string().optional(),
   difficulty: z.enum(["beginner", "intermediate", "advanced"]).optional(),
@@ -202,14 +207,14 @@ export type UpdateLearningPathInput = z.infer<typeof updateLearningPathSchema>;
 // ---------------------------------------------------------------------------
 
 const quizOptionSchema = z.object({
-  text: bilingualString,
+  text: bilingualStringArOptional,
   isCorrect: z.boolean(),
 });
 
 const quizQuestionSchema = z.object({
-  question: bilingualString,
+  question: bilingualStringArOptional,
   options: z.array(quizOptionSchema).min(2, "At least 2 options are required"),
-  explanation: bilingualString.optional().default({ en: "", ar: "" }),
+  explanation: bilingualStringArOptional.optional().default({ en: "", ar: "" }),
 });
 
 export const createQuizSchema = z.object({

@@ -15,7 +15,7 @@ const LessonSchema = new Schema<ILesson>(
   {
     title: {
       en: { type: String, required: true, trim: true },
-      ar: { type: String, required: true, trim: true },
+      ar: { type: String, default: "", trim: true },
     },
     content: {
       en: { type: Schema.Types.Mixed, default: null },

@@ -10,8 +10,10 @@ import {
   GraduationCap,
   HelpCircle,
   Users,
+  ShieldCheck,
   ChevronLeft,
   ChevronRight,
+  ExternalLink,
   type LucideIcon,
 } from "lucide-react";
 import { useState } from "react";
@@ -30,7 +32,8 @@ const navItems: NavItem[] = [
   { href: "/admin/modules", label: "Modules", icon: Library },
   { href: "/admin/lessons", label: "Lessons", icon: GraduationCap },
   { href: "/admin/quizzes", label: "Quizzes", icon: HelpCircle },
-  { href: "/admin/users", label: "Users", icon: Users, superAdminOnly: true },
+  { href: "/admin/users", label: "Users", icon: Users },
+  { href: "/admin/system-users", label: "System Users", icon: ShieldCheck, superAdminOnly: true },
 ];
 
 interface AdminSidebarProps {
@@ -94,15 +97,17 @@ export function AdminSidebar({ userRole }: AdminSidebarProps) {
         })}
       </nav>
 
-      <div className="p-4 border-t border-slate-800">
-        {!collapsed && (
-          <Link
-            href="/en"
-            className="text-xs text-slate-400 hover:text-white transition-colors"
-          >
-            View Public Site
-          </Link>
-        )}
+      <div className="p-3 border-t border-slate-800">
+        <Link
+          href="/en"
+          className={`flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-slate-400 hover:bg-slate-800 hover:text-white transition-colors ${
+            collapsed ? "justify-center" : ""
+          }`}
+          title={collapsed ? "View Public Site" : undefined}
+        >
+          <ExternalLink className="h-4 w-4 flex-shrink-0" />
+          {!collapsed && <span>View Public Site</span>}
+        </Link>
       </div>
     </aside>
   );

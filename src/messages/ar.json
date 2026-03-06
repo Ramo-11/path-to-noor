@@ -8,7 +8,10 @@
     "register": "إنشاء حساب",
     "switchLanguage": "English",
     "myAccount": "حسابي",
-    "dashboard": "لوحة التحكم"
+    "dashboard": "لوحة التحكم",
+    "bookmarks": "المحفوظات",
+    "adminPortal": "لوحة الإدارة",
+    "signOut": "تسجيل الخروج"
   },
   "home": {
     "hero": {
@@ -63,6 +66,75 @@
     "notFound": "الدرس غير موجود",
     "notFoundDescription": "الدرس الذي تبحث عنه غير موجود أو لم يُنشر بعد."
   },
+  "quiz": {
+    "title": "اختبار",
+    "hasQuiz": "يتوفر اختبار",
+    "takeQuiz": "ابدأ الاختبار",
+    "backToLesson": "العودة إلى الدرس",
+    "notFound": "لا يوجد اختبار لهذا الدرس.",
+    "loginRequired": "تحتاج إلى تسجيل الدخول لأداء الاختبارات.",
+    "signInToTakeQuiz": "سجّل الدخول لأداء الاختبار",
+    "questionOf": "السؤال {current} من {total}",
+    "answered": "تمت الإجابة",
+    "submit": "إرسال الاختبار",
+    "passed": "تهانينا!",
+    "notPassed": "واصل التعلم",
+    "scoreDetail": "{correct} من {total} صحيحة",
+    "passingScoreLabel": "درجة النجاح: {score}%",
+    "tryAgain": "حاول مرة أخرى"
+  },
+  "bookmarks": {
+    "title": "المحفوظات",
+    "subtitle": "الدروس التي حفظتها لوقت لاحق.",
+    "empty": "لم تحفظ أي دروس بعد.",
+    "explorePaths": "استكشف مسارات التعلم",
+    "remove": "إزالة من المحفوظات",
+    "loginRequired": "سجّل الدخول لعرض محفوظاتك.",
+    "signIn": "تسجيل الدخول"
+  },
+  "profile": {
+    "title": "ملفي الشخصي",
+    "loginRequired": "سجّل الدخول لعرض ملفك الشخصي.",
+    "personalInfo": "المعلومات الشخصية",
+    "preferredLanguage": "اللغة المفضلة",
+    "lessonsCompleted": "الدروس المكتملة",
+    "bookmarked": "المحفوظات",
+    "quizzesPassed": "الاختبارات المؤداة",
+    "memberSince": "عضو منذ {date}",
+    "saveChanges": "حفظ التغييرات",
+    "updateSuccess": "تم تحديث الملف الشخصي بنجاح.",
+    "updateFailed": "فشل تحديث الملف الشخصي.",
+    "changePassword": "تغيير كلمة المرور",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "minCharacters": "٨ أحرف على الأقل",
+    "updatePassword": "تحديث كلمة المرور",
+    "passwordSuccess": "تم تحديث كلمة المرور بنجاح.",
+    "passwordFailed": "فشل تحديث كلمة المرور."
+  },
+  "forgotPassword": {
+    "title": "نسيت كلمة المرور؟",
+    "description": "أدخل بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور.",
+    "submit": "إرسال رابط الإعادة",
+    "checkEmail": "تحقق من بريدك",
+    "checkEmailDescription": "إذا كان هناك حساب بهذا البريد الإلكتروني، فقد أرسلنا رابط إعادة تعيين كلمة المرور. ينتهي صلاحيته خلال ساعة.",
+    "backToLogin": "العودة لتسجيل الدخول",
+    "error": "حدث خطأ ما. حاول مرة أخرى."
+  },
+  "resetPassword": {
+    "title": "إعادة تعيين كلمة المرور",
+    "description": "أدخل كلمة المرور الجديدة أدناه.",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "submit": "إعادة تعيين كلمة المرور",
+    "success": "تم إعادة تعيين كلمة المرور!",
+    "successDescription": "تم تحديث كلمة المرور. يمكنك الآن تسجيل الدخول بكلمة المرور الجديدة.",
+    "invalidToken": "رابط غير صالح",
+    "invalidTokenDescription": "رابط إعادة تعيين كلمة المرور غير صالح أو منتهي الصلاحية.",
+    "requestNewLink": "طلب رابط جديد",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين.",
+    "error": "حدث خطأ ما. حاول مرة أخرى."
+  },
   "common": {
     "loading": "جارٍ التحميل...",
     "error": "حدث خطأ ما",
@@ -93,7 +165,8 @@
     "errorDefault": "حدث خطأ ما. حاول مرة أخرى.",
     "errorCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
     "errorEmailExists": "يوجد حساب بهذا البريد الإلكتروني بالفعل.",
-    "registrationSuccess": "تم إنشاء الحساب! يمكنك الآن تسجيل الدخول."
+    "registrationSuccess": "تم إنشاء الحساب! يمكنك الآن تسجيل الدخول.",
+    "forgotPassword": "نسيت كلمة المرور؟"
   },
   "learning": {
     "lesson": "درس",

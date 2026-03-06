@@ -8,7 +8,10 @@
     "register": "Create Account",
     "switchLanguage": "العربية",
     "myAccount": "My Account",
-    "dashboard": "Dashboard"
+    "dashboard": "Dashboard",
+    "bookmarks": "Bookmarks",
+    "adminPortal": "Admin Portal",
+    "signOut": "Sign Out"
   },
   "home": {
     "hero": {
@@ -63,6 +66,75 @@
     "notFound": "Lesson not found",
     "notFoundDescription": "The lesson you're looking for doesn't exist or hasn't been published yet."
   },
+  "quiz": {
+    "title": "Quiz",
+    "hasQuiz": "Quiz available",
+    "takeQuiz": "Take Quiz",
+    "backToLesson": "Back to Lesson",
+    "notFound": "No quiz available for this lesson.",
+    "loginRequired": "You need to sign in to take quizzes.",
+    "signInToTakeQuiz": "Sign In to Take Quiz",
+    "questionOf": "Question {current} of {total}",
+    "answered": "answered",
+    "submit": "Submit Quiz",
+    "passed": "Congratulations!",
+    "notPassed": "Keep Learning",
+    "scoreDetail": "{correct} out of {total} correct",
+    "passingScoreLabel": "Passing score: {score}%",
+    "tryAgain": "Try Again"
+  },
+  "bookmarks": {
+    "title": "Bookmarks",
+    "subtitle": "Lessons you've saved for later.",
+    "empty": "You haven't bookmarked any lessons yet.",
+    "explorePaths": "Explore learning paths",
+    "remove": "Remove bookmark",
+    "loginRequired": "Sign in to see your bookmarks.",
+    "signIn": "Sign In"
+  },
+  "profile": {
+    "title": "My Profile",
+    "loginRequired": "Sign in to view your profile.",
+    "personalInfo": "Personal Information",
+    "preferredLanguage": "Preferred Language",
+    "lessonsCompleted": "Lessons Completed",
+    "bookmarked": "Bookmarked",
+    "quizzesPassed": "Quizzes Taken",
+    "memberSince": "Member since {date}",
+    "saveChanges": "Save Changes",
+    "updateSuccess": "Profile updated successfully.",
+    "updateFailed": "Failed to update profile.",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "minCharacters": "Min. 8 characters",
+    "updatePassword": "Update Password",
+    "passwordSuccess": "Password updated successfully.",
+    "passwordFailed": "Failed to update password."
+  },
+  "forgotPassword": {
+    "title": "Forgot Password?",
+    "description": "Enter your email address and we'll send you a link to reset your password.",
+    "submit": "Send Reset Link",
+    "checkEmail": "Check Your Email",
+    "checkEmailDescription": "If an account with that email exists, we've sent a password reset link. It expires in 1 hour.",
+    "backToLogin": "Back to Sign In",
+    "error": "Something went wrong. Please try again."
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "description": "Enter your new password below.",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Reset Password",
+    "success": "Password Reset!",
+    "successDescription": "Your password has been updated. You can now sign in with your new password.",
+    "invalidToken": "Invalid Link",
+    "invalidTokenDescription": "This password reset link is invalid or has expired.",
+    "requestNewLink": "Request a new link",
+    "passwordMismatch": "Passwords do not match.",
+    "error": "Something went wrong. Please try again."
+  },
   "common": {
     "loading": "Loading...",
     "error": "Something went wrong",
@@ -93,7 +165,8 @@
     "errorDefault": "Something went wrong. Please try again.",
     "errorCredentials": "Invalid email or password.",
     "errorEmailExists": "An account with this email already exists.",
-    "registrationSuccess": "Account created! You can now sign in."
+    "registrationSuccess": "Account created! You can now sign in.",
+    "forgotPassword": "Forgot password?"
   },
   "learning": {
     "lesson": "Lesson",

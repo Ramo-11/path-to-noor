@@ -20,11 +20,11 @@ const LearningPathSchema = new Schema<ILearningPath>(
   {
     title: {
       en: { type: String, required: true, trim: true },
-      ar: { type: String, required: true, trim: true },
+      ar: { type: String, default: "", trim: true },
     },
     description: {
       en: { type: String, required: true },
-      ar: { type: String, required: true },
+      ar: { type: String, default: "" },
     },
     slug: { type: String, required: true, unique: true, lowercase: true },
     thumbnail: { type: String, default: "" },

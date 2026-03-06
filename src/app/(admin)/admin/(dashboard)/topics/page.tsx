@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { BookOpen, Pencil } from "lucide-react";
-import { getIconByName } from "@/components/admin/IconPicker";
+import { TopicIcon } from "@/components/admin/TopicIcon";
 import { getTopics } from "@/lib/data";
 import { paginationSchema } from "@/lib/validations";
 import { AdminPageHeader } from "@/components/admin/AdminPageHeader";
@@ -88,16 +88,7 @@ export default async function TopicsPage({
     {
       key: "icon",
       header: "Icon",
-      render: (item) => {
-        const Icon = item.icon ? getIconByName(item.icon) : null;
-        return Icon ? (
-          <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-primary-50 dark:bg-primary-900/20 text-primary-600">
-            <Icon className="h-4 w-4" />
-          </span>
-        ) : (
-          <span className="text-xs text-slate-400">—</span>
-        );
-      },
+      render: (item) => <TopicIcon name={item.icon} />,
     },
     {
       key: "published",

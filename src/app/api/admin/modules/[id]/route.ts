@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { Module } from "@/db/models/Module";
+import { LearningPath } from "@/db/models/LearningPath";
 import { updateModuleSchema } from "@/lib/validations";
 
 export async function GET(
@@ -98,6 +99,25 @@ export async function DELETE(
     const module = await Module.findById(id);
     if (!module) {
       return NextResponse.json({ error: "Module not found" }, { status: 404 });
+    }
+
+    // Check if this module is used in any learning path
+    const referencingPaths = await LearningPath.find(
+      { "modules.moduleId": id },
+      { title: 1 }
+    ).lean();
+
+    if (referencingPaths.length > 0) {
+      const pathNames = referencingPaths
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .map((p: any) => `"${p.title?.en || p.title}"`)
+        .join(", ");
+      return NextResponse.json(
+        {
+          error: `Cannot delete this module because it is used in: ${pathNames}. Remove it from those learning paths first.`,
+        },
+        { status: 409 }
+      );
     }
 
     await Module.findByIdAndDelete(id);

@@ -78,7 +78,8 @@ async function main() {
     process.exit(1);
   }
 
-  const role = existingCount === 0 ? "super_admin" : "admin";
+  const roleInput = await ask("Role (1 = super_admin, 2 = admin) [1]: ");
+  const role = roleInput.trim() === "2" ? "admin" : "super_admin";
   const hashedPassword = await bcrypt.hash(password, 12);
 
   await User.create({

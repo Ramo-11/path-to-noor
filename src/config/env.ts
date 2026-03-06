@@ -32,12 +32,9 @@ const envSchema = z.object({
   // Analytics
   NEXT_PUBLIC_GA_MEASUREMENT_ID: z.string().optional(),
 
-  // SMTP (optional)
-  SMTP_HOST: z.string().optional(),
-  SMTP_PORT: z.string().optional(),
-  SMTP_USER: z.string().optional(),
-  SMTP_PASS: z.string().optional(),
-  SMTP_FROM: z.string().optional(),
+  // Resend (email)
+  RESEND_API_KEY: z.string().optional(),
+  RESEND_FROM: z.string().optional(),
 });
 
 type Env = z.infer<typeof envSchema>;

@@ -4,14 +4,21 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
-import { Menu, X } from "lucide-react";
+import { Menu, X, User, LogOut, Bookmark, Shield } from "lucide-react";
 import { useLocale } from "next-intl";
+import { useSession, signOut } from "next-auth/react";
 
 export function Navbar() {
   const t = useTranslations("nav");
   const locale = useLocale();
   const pathname = usePathname();
+  const { data: session, status } = useSession();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [profileOpen, setProfileOpen] = useState(false);
+
+  const isLoading = status === "loading";
+  const isLoggedIn = status === "authenticated" && !!session?.user;
+  const isAdmin = isLoggedIn && (session.user.role === "admin" || session.user.role === "super_admin");
 
   const navLinks = [
     { href: "/", label: t("home") },
@@ -60,18 +67,86 @@ export function Navbar() {
               {t("switchLanguage")}
             </Link>
             <ThemeToggle />
-            <Link
-              href="/login"
-              className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
-            >
-              {t("login")}
-            </Link>
-            <Link
-              href="/register"
-              className="text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors"
-            >
-              {t("register")}
-            </Link>
+
+            {isLoading ? (
+              <div className="h-8 w-20 bg-slate-200 dark:bg-slate-700 rounded-lg animate-pulse" />
+            ) : isLoggedIn ? (
+              <div className="relative">
+                <button
+                  onClick={() => setProfileOpen(!profileOpen)}
+                  className="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-primary-700 dark:hover:text-primary-300 transition-colors px-2 py-1"
+                  aria-label={t("myAccount")}
+                  aria-expanded={profileOpen}
+                >
+                  <User className="h-4 w-4" />
+                  <span className="max-w-[120px] truncate">
+                    {session.user.name || t("myAccount")}
+                  </span>
+                </button>
+
+                {profileOpen && (
+                  <>
+                    <div
+                      className="fixed inset-0 z-30"
+                      onClick={() => setProfileOpen(false)}
+                    />
+                    <div className="absolute end-0 top-full mt-2 w-48 z-40 rounded-lg bg-white dark:bg-slate-900 shadow-lg border border-slate-200 dark:border-slate-800 py-1">
+                      <Link
+                        href="/profile"
+                        onClick={() => setProfileOpen(false)}
+                        className="flex items-center gap-2 px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        <User className="h-4 w-4" />
+                        {t("myAccount")}
+                      </Link>
+                      <Link
+                        href="/bookmarks"
+                        onClick={() => setProfileOpen(false)}
+                        className="flex items-center gap-2 px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        <Bookmark className="h-4 w-4" />
+                        {t("bookmarks")}
+                      </Link>
+                      {isAdmin && (
+                        <a
+                          href="/admin"
+                          className="flex items-center gap-2 px-4 py-2 text-sm text-primary-700 dark:text-primary-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                        >
+                          <Shield className="h-4 w-4" />
+                          {t("adminPortal")}
+                        </a>
+                      )}
+                      <hr className="my-1 border-slate-200 dark:border-slate-800" />
+                      <button
+                        onClick={() => {
+                          setProfileOpen(false);
+                          signOut({ callbackUrl: `/${locale}` });
+                        }}
+                        className="flex items-center gap-2 px-4 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors w-full text-start"
+                      >
+                        <LogOut className="h-4 w-4" />
+                        {t("signOut")}
+                      </button>
+                    </div>
+                  </>
+                )}
+              </div>
+            ) : (
+              <>
+                <Link
+                  href="/login"
+                  className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+                >
+                  {t("login")}
+                </Link>
+                <Link
+                  href="/register"
+                  className="text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors"
+                >
+                  {t("register")}
+                </Link>
+              </>
+            )}
           </div>
 
           {/* Mobile hamburger */}
@@ -83,7 +158,11 @@ export function Navbar() {
               aria-label="Toggle menu"
               aria-expanded={mobileOpen}
             >
-              {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {mobileOpen ? (
+                <X className="h-5 w-5" />
+              ) : (
+                <Menu className="h-5 w-5" />
+              )}
             </button>
           </div>
         </div>
@@ -105,6 +184,35 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
+
+            {!isLoading && isLoggedIn && (
+              <>
+                <Link
+                  href="/bookmarks"
+                  onClick={() => setMobileOpen(false)}
+                  className="block px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
+                >
+                  {t("bookmarks")}
+                </Link>
+                <Link
+                  href="/profile"
+                  onClick={() => setMobileOpen(false)}
+                  className="block px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
+                >
+                  {t("myAccount")}
+                </Link>
+                {isAdmin && (
+                  <a
+                    href="/admin"
+                    className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-primary-700 dark:text-primary-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
+                  >
+                    <Shield className="h-4 w-4" />
+                    {t("adminPortal")}
+                  </a>
+                )}
+              </>
+            )}
+
             <div className="flex items-center gap-3 px-3 pt-2 border-t border-slate-200 dark:border-slate-800 mt-2">
               <Link
                 href={pathname}
@@ -114,22 +222,39 @@ export function Navbar() {
                 {t("switchLanguage")}
               </Link>
             </div>
-            <div className="flex gap-2 px-3 pt-2">
-              <Link
-                href="/login"
-                onClick={() => setMobileOpen(false)}
-                className="flex-1 text-center text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 px-4 py-2 rounded-lg"
-              >
-                {t("login")}
-              </Link>
-              <Link
-                href="/register"
-                onClick={() => setMobileOpen(false)}
-                className="flex-1 text-center text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded-lg"
-              >
-                {t("register")}
-              </Link>
-            </div>
+
+            {!isLoading && (
+              <div className="flex gap-2 px-3 pt-2">
+                {isLoggedIn ? (
+                  <button
+                    onClick={() => {
+                      setMobileOpen(false);
+                      signOut({ callbackUrl: `/${locale}` });
+                    }}
+                    className="flex-1 text-center text-sm font-medium text-red-600 dark:text-red-400 border border-red-300 dark:border-red-700 px-4 py-2 rounded-lg"
+                  >
+                    {t("signOut")}
+                  </button>
+                ) : (
+                  <>
+                    <Link
+                      href="/login"
+                      onClick={() => setMobileOpen(false)}
+                      className="flex-1 text-center text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 px-4 py-2 rounded-lg"
+                    >
+                      {t("login")}
+                    </Link>
+                    <Link
+                      href="/register"
+                      onClick={() => setMobileOpen(false)}
+                      className="flex-1 text-center text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded-lg"
+                    >
+                      {t("register")}
+                    </Link>
+                  </>
+                )}
+              </div>
+            )}
           </div>
         )}
       </div>

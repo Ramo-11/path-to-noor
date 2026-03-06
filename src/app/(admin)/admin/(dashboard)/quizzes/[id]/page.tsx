@@ -338,7 +338,6 @@ export default function EditQuizPage({
                       type="text"
                       value={question.questionAr}
                       onChange={(e) => updateQuestion(qIndex, "questionAr", e.target.value)}
-                      required
                       dir="rtl"
                       className={inputClass}
                     />
@@ -378,7 +377,6 @@ export default function EditQuizPage({
                           value={option.textAr}
                           onChange={(e) => updateOption(qIndex, oIndex, "textAr", e.target.value)}
                           placeholder="Option (Arabic)"
-                          required
                           dir="rtl"
                           className={inputClass}
                         />

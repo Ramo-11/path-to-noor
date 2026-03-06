@@ -47,8 +47,10 @@ export async function POST(req: NextRequest) {
     const base64 = Buffer.from(bytes).toString("base64");
     const dataUri = `data:${file.type};base64,${base64}`;
 
+    const folder = (formData.get("folder") as string) || "path-to-noor/lessons";
+
     const result = await cloudinary.uploader.upload(dataUri, {
-      folder: "path-to-noor/lessons",
+      folder,
     });
 
     return NextResponse.json({

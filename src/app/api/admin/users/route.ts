@@ -1,8 +1,46 @@
 import { NextRequest, NextResponse } from "next/server";
-import { requireSuperAdmin, isAdminSession } from "@/lib/admin-auth";
+import { requireSuperAdmin, requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { updateUserSchema } from "@/lib/validations";
+
+export async function GET(request: NextRequest) {
+  const auth = await requireAdmin();
+  if (!isAdminSession(auth)) return auth;
+
+  try {
+    const { searchParams } = new URL(request.url);
+    const roleFilter = searchParams.get("roleFilter");
+
+    await connectDB();
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const filter: Record<string, any> = {};
+
+    if (roleFilter === "admins_only") {
+      // Only super_admin can list system users
+      if (auth.user.role !== "super_admin") {
+        return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+      }
+      filter.role = { $in: ["admin", "super_admin"] };
+    } else {
+      filter.role = "user";
+    }
+
+    const users = await User.find(filter)
+      .select("-progress -bookmarks -password")
+      .sort({ createdAt: -1 })
+      .lean();
+
+    return NextResponse.json({ data: users });
+  } catch (error) {
+    console.error("[API] GET /admin/users error:", error);
+    return NextResponse.json(
+      { error: "Failed to fetch users" },
+      { status: 500 }
+    );
+  }
+}
 
 export async function PUT(request: NextRequest) {
   const auth = await requireSuperAdmin();
