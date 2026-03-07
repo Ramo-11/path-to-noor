@@ -20,7 +20,7 @@ import {
   Clock,
   FileText,
 } from "lucide-react";
-import { getIconByName } from "@/components/admin/IconPicker";
+import { TopicIconPublic } from "@/components/shared/TopicIconPublic";
 
 export default async function TopicDetailPage({
   params,
@@ -40,7 +40,6 @@ export default async function TopicDetailPage({
   const modules = await getPublicModulesByTopic(topicAny._id.toString());
 
   const BackArrow = locale === "ar" ? ArrowRight : ArrowLeft;
-  const TopicIcon = getIconByName(topicAny.icon) || BookOpen;
 
   return (
     <section className="py-16 sm:py-24">
@@ -60,9 +59,7 @@ export default async function TopicDetailPage({
         <AnimateIn preset="fade-up" className="mb-16">
           <div className="flex items-start gap-4">
             {topicAny.icon && (
-            <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-primary-100 dark:bg-primary-900/30 text-primary-600 shrink-0">
-              <TopicIcon className="h-7 w-7" />
-            </div>
+              <TopicIconPublic name={topicAny.icon} size="lg" />
             )}
             <div>
               <h1 className="font-heading text-3xl font-bold sm:text-4xl tracking-tight text-slate-900 dark:text-white">

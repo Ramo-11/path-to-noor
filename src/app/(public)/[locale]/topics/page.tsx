@@ -7,8 +7,7 @@ import {
   StaggerContainer,
   StaggerItem,
 } from "@/components/shared/AnimateIn";
-import { BookOpen } from "lucide-react";
-import { getIconByName } from "@/components/admin/IconPicker";
+import { TopicIconPublic } from "@/components/shared/TopicIconPublic";
 
 export default async function TopicsPage({
   params,
@@ -48,9 +47,7 @@ export default async function TopicsPage({
                   <Link href={`/topics/${topic.slug}`} className="block group">
                     <div className="card-hover rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 h-full">
                       {topic.icon && (
-                        <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 text-primary-600 mb-4">
-                          <TopicIcon className="h-6 w-6" />
-                        </div>
+                        <TopicIconPublic name={topic.icon} />
                       )}
                       <h2 className="font-heading text-lg font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                         {(topic.name as any)[locale] || topic.name.en}
