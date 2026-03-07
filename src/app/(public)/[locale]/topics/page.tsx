@@ -41,7 +41,6 @@ export default async function TopicsPage({
         ) : (
           <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {rootTopics.map((topic: any) => {
-              const TopicIcon = getIconByName(topic.icon) || BookOpen;
               return (
                 <StaggerItem key={topic._id.toString()}>
                   <Link href={`/topics/${topic.slug}`} className="block group">
