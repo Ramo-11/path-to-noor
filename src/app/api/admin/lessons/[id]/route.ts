@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import mongoose from "mongoose";
 import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { Lesson } from "@/db/models/Lesson";
@@ -69,6 +70,27 @@ export async function PUT(
           { status: 409 }
         );
       }
+    }
+
+    // If moduleId is changing, update both old and new module's lessons arrays
+    const newModuleId = result.data.moduleId;
+    if (newModuleId && newModuleId.toString() !== existing.moduleId.toString()) {
+      // Remove from old module
+      await Module.findByIdAndUpdate(existing.moduleId, {
+        $pull: { lessons: { lessonId: id } },
+      });
+
+      // Add to new module
+      const maxOrder = await Module.aggregate([
+        { $match: { _id: new mongoose.Types.ObjectId(newModuleId.toString()) } },
+        { $unwind: { path: "$lessons", preserveNullAndEmptyArrays: true } },
+        { $group: { _id: null, maxOrder: { $max: "$lessons.order" } } },
+      ]);
+      const nextOrder = (maxOrder[0]?.maxOrder ?? 0) + 1;
+
+      await Module.findByIdAndUpdate(newModuleId, {
+        $push: { lessons: { lessonId: id, order: nextOrder } },
+      });
     }
 
     const updated = await Lesson.findByIdAndUpdate(

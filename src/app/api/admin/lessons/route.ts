@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { Lesson } from "@/db/models/Lesson";
+import { Module } from "@/db/models/Module";
 import { createLessonSchema, slugify } from "@/lib/validations";
 
 export async function GET() {
@@ -63,6 +64,20 @@ export async function POST(request: NextRequest) {
     }
 
     const lesson = await Lesson.create(result.data);
+
+    // Add lesson to the module's lessons array
+    if (lesson.moduleId) {
+      const maxOrder = await Module.aggregate([
+        { $match: { _id: lesson.moduleId } },
+        { $unwind: { path: "$lessons", preserveNullAndEmptyArrays: true } },
+        { $group: { _id: null, maxOrder: { $max: "$lessons.order" } } },
+      ]);
+      const nextOrder = (maxOrder[0]?.maxOrder ?? 0) + 1;
+
+      await Module.findByIdAndUpdate(lesson.moduleId, {
+        $push: { lessons: { lessonId: lesson._id, order: nextOrder } },
+      });
+    }
 
     return NextResponse.json(
       { data: lesson, message: "Lesson created successfully" },
