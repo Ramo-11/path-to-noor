@@ -6,8 +6,9 @@ export interface IUser extends Document {
   name: string;
   image?: string;
   role: "super_admin" | "admin" | "user";
+  userType?: "revert" | "mentor";
   isActive: boolean;
-  preferredLanguage: "en" | "ar";
+  preferredLanguage: "en" | "ar" | "es";
   accounts?: Array<{
     provider: string;
     providerAccountId: string;
@@ -23,6 +24,11 @@ export interface IUser extends Document {
     passed: boolean;
     completedAt: Date;
   }>;
+  completedTopics: Array<{
+    topicId: mongoose.Types.ObjectId;
+    completedAt: Date;
+  }>;
+  assignedMentorId?: mongoose.Types.ObjectId;
   resetToken?: string;
   resetTokenExpiry?: Date;
   lastLoginAt?: Date;
@@ -47,10 +53,15 @@ const UserSchema = new Schema<IUser>(
       enum: ["super_admin", "admin", "user"],
       default: "user",
     },
+    userType: {
+      type: String,
+      enum: ["revert", "mentor"],
+      default: undefined,
+    },
     isActive: { type: Boolean, default: true },
     preferredLanguage: {
       type: String,
-      enum: ["en", "ar"],
+      enum: ["en", "ar", "es"],
       default: "en",
     },
     accounts: [
@@ -74,6 +85,13 @@ const UserSchema = new Schema<IUser>(
         completedAt: { type: Date, default: Date.now },
       },
     ],
+    completedTopics: [
+      {
+        topicId: { type: Schema.Types.ObjectId, ref: "Topic" },
+        completedAt: { type: Date, default: Date.now },
+      },
+    ],
+    assignedMentorId: { type: Schema.Types.ObjectId, ref: "User", default: undefined },
     resetToken: { type: String, select: false },
     resetTokenExpiry: { type: Date, select: false },
     lastLoginAt: { type: Date },

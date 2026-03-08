@@ -15,11 +15,18 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { name, email, password } = await request.json();
+    const { name, email, password, userType } = await request.json();
 
     if (!name || !email || !password) {
       return NextResponse.json(
         { error: "Name, email, and password are required" },
+        { status: 400 }
+      );
+    }
+
+    if (!userType || !["revert", "mentor"].includes(userType)) {
+      return NextResponse.json(
+        { error: "Please select whether you are a revert or a mentor" },
         { status: 400 }
       );
     }
@@ -48,6 +55,7 @@ export async function POST(request: NextRequest) {
       email: email.toLowerCase().trim(),
       password: hashedPassword,
       role: "user",
+      userType,
       isActive: true,
       preferredLanguage: "en",
     });

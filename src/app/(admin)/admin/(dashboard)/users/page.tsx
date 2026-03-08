@@ -11,6 +11,7 @@ interface UserRow {
   _id: string;
   name: string;
   email: string;
+  userType?: string;
   isActive: boolean;
   preferredLanguage: string;
   createdAt: string;
@@ -28,6 +29,21 @@ const columns: Column<UserRow>[] = [
         <p className="text-xs text-slate-500 dark:text-slate-400">{item.email}</p>
       </Link>
     ),
+  },
+  {
+    key: "userType",
+    header: "Type",
+    render: (item) => {
+      if (!item.userType) return <span className="text-xs text-slate-400">—</span>;
+      const colors = item.userType === "revert"
+        ? "bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-400"
+        : "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400";
+      return (
+        <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium capitalize ${colors}`}>
+          {item.userType === "revert" ? "New Muslim" : "Mentor"}
+        </span>
+      );
+    },
   },
   {
     key: "language",
@@ -77,6 +93,7 @@ export default async function UsersPage({
     _id: u._id.toString(),
     name: u.name,
     email: u.email,
+    userType: (u as any).userType,
     isActive: u.isActive,
     preferredLanguage: u.preferredLanguage,
     createdAt: u.createdAt?.toISOString?.() || String(u.createdAt),

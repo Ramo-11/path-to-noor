@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getPublicTopics } from "@/lib/data";
+import { auth } from "@/lib/auth-config";
 import { Container } from "@/components/layout/Container";
 import {
   AnimateIn,
@@ -16,7 +17,11 @@ export default async function TopicsPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations("topics");
-  const topics = await getPublicTopics();
+  const session = await auth();
+  const topics = await getPublicTopics({
+    userType: session?.user?.userType,
+    isGuest: !session?.user,
+  });
 
   // Only show root topics (no parent)
   const rootTopics = topics.filter((topic: any) => !topic.parent);

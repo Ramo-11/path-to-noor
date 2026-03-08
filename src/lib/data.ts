@@ -60,6 +60,7 @@ export async function getTopics(params: QueryParams): Promise<PaginatedResult<In
     filter.$or = [
       { "name.en": { $regex: escaped, $options: "i" } },
       { "name.ar": { $regex: escaped, $options: "i" } },
+      { "name.es": { $regex: escaped, $options: "i" } },
     ];
   }
 
@@ -105,6 +106,7 @@ export async function getModules(params: QueryParams): Promise<PaginatedResult<I
     filter.$or = [
       { "title.en": { $regex: escaped, $options: "i" } },
       { "title.ar": { $regex: escaped, $options: "i" } },
+      { "title.es": { $regex: escaped, $options: "i" } },
     ];
   }
 
@@ -153,6 +155,7 @@ export async function getLessons(params: QueryParams): Promise<PaginatedResult<I
     filter.$or = [
       { "title.en": { $regex: escaped, $options: "i" } },
       { "title.ar": { $regex: escaped, $options: "i" } },
+      { "title.es": { $regex: escaped, $options: "i" } },
     ];
   }
 
@@ -197,6 +200,7 @@ export async function getLearningPaths(params: QueryParams): Promise<PaginatedRe
     filter.$or = [
       { "title.en": { $regex: escaped, $options: "i" } },
       { "title.ar": { $regex: escaped, $options: "i" } },
+      { "title.es": { $regex: escaped, $options: "i" } },
     ];
   }
 
@@ -292,7 +296,7 @@ export async function getUsers(
 
   const [data, total] = await Promise.all([
     User.find(filter)
-      .select("-progress -bookmarks")
+      .select("-progress -bookmarks -completedTopics")
       .sort(buildSortOption(sort, order))
       .skip((page - 1) * limit)
       .limit(limit)
@@ -316,12 +320,39 @@ export async function getUsers(
 // ===========================================================================
 
 // ---------------------------------------------------------------------------
+// Audience filter helper
+// ---------------------------------------------------------------------------
+
+interface AudienceContext {
+  userType?: string; // "revert" | "mentor" | undefined
+  isGuest: boolean;  // true if not logged in
+}
+
+function buildAudienceFilter(ctx: AudienceContext) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const filter: Record<string, any> = { published: true };
+
+  if (ctx.isGuest) {
+    // Guests only see guest-accessible content with audience "all"
+    filter.guestAccessible = true;
+    filter.audience = "all";
+  } else if (ctx.userType) {
+    // Logged-in users see content for their type or "all"
+    filter.audience = { $in: ["all", ctx.userType] };
+  }
+  // If logged in but no userType (e.g. admin), see everything published
+
+  return filter;
+}
+
+// ---------------------------------------------------------------------------
 // Public: Topics
 // ---------------------------------------------------------------------------
 
-export async function getPublicTopics() {
+export async function getPublicTopics(ctx?: AudienceContext) {
   await connectDB();
-  return Topic.find({ published: true })
+  const filter = ctx ? buildAudienceFilter(ctx) : { published: true };
+  return Topic.find(filter)
     .populate("parent", "name slug")
     .sort({ order: 1 })
     .lean();
@@ -334,9 +365,10 @@ export async function getPublicTopicBySlug(slug: string) {
     .lean();
 }
 
-export async function getPublicSubtopics(parentId: string) {
+export async function getPublicSubtopics(parentId: string, ctx?: AudienceContext) {
   await connectDB();
-  return Topic.find({ parent: parentId, published: true })
+  const filter = ctx ? { ...buildAudienceFilter(ctx), parent: parentId } : { parent: parentId, published: true };
+  return Topic.find(filter)
     .sort({ order: 1 })
     .lean();
 }
@@ -345,9 +377,10 @@ export async function getPublicSubtopics(parentId: string) {
 // Public: Learning Paths
 // ---------------------------------------------------------------------------
 
-export async function getPublicLearningPaths() {
+export async function getPublicLearningPaths(ctx?: AudienceContext) {
   await connectDB();
-  return LearningPath.find({ published: true })
+  const filter = ctx ? buildAudienceFilter(ctx) : { published: true };
+  return LearningPath.find(filter)
     .populate({
       path: "modules.moduleId",
       select: "title slug lessons",
@@ -376,9 +409,12 @@ export async function getPublicLearningPathBySlug(slug: string) {
 // Public: Modules by Topic
 // ---------------------------------------------------------------------------
 
-export async function getPublicModulesByTopic(topicId: string) {
+export async function getPublicModulesByTopic(topicId: string, ctx?: AudienceContext) {
   await connectDB();
-  return Module.find({ topics: topicId, published: true })
+  const filter = ctx
+    ? { ...buildAudienceFilter(ctx), topics: topicId }
+    : { topics: topicId, published: true };
+  return Module.find(filter)
     .populate({
       path: "lessons.lessonId",
       select: "title slug type estimatedMinutes",
@@ -404,6 +440,20 @@ export async function getPublicLessonBySlug(slug: string) {
 export async function getPublicQuizByLessonId(lessonId: string) {
   await connectDB();
   return Quiz.findOne({ lessonId }).lean();
+}
+
+// ---------------------------------------------------------------------------
+// Public: Homepage stats
+// ---------------------------------------------------------------------------
+
+export async function getHomepageStats() {
+  await connectDB();
+  const [topicCount, pathCount, lessonCount] = await Promise.all([
+    Topic.countDocuments({ published: true, parent: null }),
+    LearningPath.countDocuments({ published: true }),
+    Lesson.countDocuments({ published: true }),
+  ]);
+  return { topicCount, pathCount, lessonCount, languageCount: 3 };
 }
 
 // ---------------------------------------------------------------------------
@@ -647,6 +697,14 @@ export async function getAdminUserDetail(userId: string) {
         path: "lessonId",
         select: "title slug",
       },
+    })
+    .populate({
+      path: "completedTopics.topicId",
+      select: "name slug icon",
+    })
+    .populate({
+      path: "assignedMentorId",
+      select: "name email",
     })
     .lean();
 

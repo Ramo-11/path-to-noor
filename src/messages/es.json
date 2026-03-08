@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "topics": "Temas",
+    "paths": "Rutas de Aprendizaje",
+    "learn": "Aprender",
+    "login": "Iniciar Sesión",
+    "register": "Crear Cuenta",
+    "switchLanguage": "Idioma",
+    "myAccount": "Mi Cuenta",
+    "dashboard": "Panel",
+    "bookmarks": "Guardados",
+    "mentorship": "Mentoría",
+    "adminPortal": "Portal de Admin",
+    "signOut": "Cerrar Sesión"
+  },
+  "home": {
+    "hero": {
+      "title": "Basmet Dawah",
+      "subtitle": "Una plataforma de aprendizaje guiado para nuevos musulmanes — explora el Islam a tu propio ritmo con rutas estructuradas, contenido confiable y soporte multilingüe.",
+      "explorePaths": "Explorar Rutas de Aprendizaje",
+      "createAccount": "Crear Cuenta"
+    },
+    "features": {
+      "title": "¿Por qué Basmet Dawah?",
+      "subtitle": "Todo lo que necesitas para comenzar tu viaje de aprendizaje, bellamente organizado y siempre accesible.",
+      "structuredPaths": {
+        "title": "Rutas de Aprendizaje Estructuradas",
+        "description": "Sigue rutas curadas desde lo básico hasta una comprensión más profunda, diseñadas por educadores conocedores."
+      },
+      "browseTopics": {
+        "title": "Navega por Tema",
+        "description": "Explora temas como la Oración, el Corán, la Historia y más — organizados en una jerarquía clara."
+      },
+      "trackProgress": {
+        "title": "Sigue Tu Progreso",
+        "description": "Marca lecciones como completadas, realiza cuestionarios y observa cuánto has avanzado en tu viaje de aprendizaje."
+      },
+      "bilingual": {
+        "title": "Soporte Multilingüe",
+        "description": "Todo el contenido disponible en inglés, árabe y español con soporte completo para lectura en ambas direcciones."
+      }
+    },
+    "topics": {
+      "title": "Explora por Tema",
+      "subtitle": "Sumérgete en una amplia gama de temas islámicos, organizados para facilitar el descubrimiento.",
+      "viewAll": "Ver Todos los Temas"
+    },
+    "paths": {
+      "title": "Rutas de Aprendizaje Guiadas",
+      "subtitle": "Sigue caminos paso a paso diseñados para llevarte de principiante a seguro.",
+      "viewAll": "Ver Todas las Rutas"
+    },
+    "stats": {
+      "topics": "Temas",
+      "paths": "Rutas de Aprendizaje",
+      "lessons": "Lecciones",
+      "languages": "Idiomas"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar Tu Viaje?",
+      "subtitle": "Únete a miles de estudiantes que exploran el Islam a su propio ritmo. Crea una cuenta gratuita y comienza hoy.",
+      "getStarted": "Comienza Gratis",
+      "browsePaths": "Explorar Rutas de Aprendizaje"
+    },
+    "mentorBanner": {
+      "title": "¿Necesitas Guía Personal?",
+      "subtitle": "Solicita un mentor que pueda responder tus preguntas y apoyarte en tu camino.",
+      "requestMentor": "Solicitar un Mentor"
+    }
+  },
+  "topics": {
+    "title": "Explorar Temas",
+    "subtitle": "Explora el conocimiento islámico organizado por tema — desde los fundamentos hasta materias especializadas.",
+    "noTopics": "Aún no hay temas disponibles. ¡Vuelve pronto!",
+    "modules": "Módulos",
+    "subtopics": "Subtemas",
+    "viewAll": "Ver Todo"
+  },
+  "paths": {
+    "title": "Rutas de Aprendizaje",
+    "subtitle": "Sigue caminos estructurados desde lo básico hasta el dominio, curados por educadores conocedores.",
+    "noPaths": "Aún no hay rutas de aprendizaje disponibles. ¡Vuelve pronto!",
+    "startPath": "Comenzar a Aprender",
+    "continuePath": "Continuar Aprendiendo",
+    "hours": "{count} horas",
+    "moduleCount": "{count} módulos"
+  },
+  "lesson": {
+    "backToPath": "Volver a la Ruta",
+    "backToModule": "Volver al Módulo",
+    "nextLesson": "Siguiente Lección",
+    "previousLesson": "Lección Anterior",
+    "notFound": "Lección no encontrada",
+    "notFoundDescription": "La lección que buscas no existe o aún no ha sido publicada."
+  },
+  "quiz": {
+    "title": "Cuestionario",
+    "hasQuiz": "Cuestionario disponible",
+    "takeQuiz": "Realizar Cuestionario",
+    "backToLesson": "Volver a la Lección",
+    "notFound": "No hay cuestionario disponible para esta lección.",
+    "loginRequired": "Necesitas iniciar sesión para realizar cuestionarios.",
+    "signInToTakeQuiz": "Inicia Sesión para Realizar el Cuestionario",
+    "questionOf": "Pregunta {current} de {total}",
+    "answered": "respondida",
+    "submit": "Enviar Cuestionario",
+    "passed": "¡Felicidades!",
+    "notPassed": "Sigue Aprendiendo",
+    "scoreDetail": "{correct} de {total} correctas",
+    "passingScoreLabel": "Puntuación para aprobar: {score}%",
+    "tryAgain": "Intentar de Nuevo"
+  },
+  "bookmarks": {
+    "title": "Guardados",
+    "subtitle": "Lecciones que has guardado para después.",
+    "empty": "Aún no has guardado ninguna lección.",
+    "explorePaths": "Explorar rutas de aprendizaje",
+    "remove": "Eliminar guardado",
+    "loginRequired": "Inicia sesión para ver tus guardados.",
+    "signIn": "Iniciar Sesión"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "loginRequired": "Inicia sesión para ver tu perfil.",
+    "personalInfo": "Información Personal",
+    "preferredLanguage": "Idioma Preferido",
+    "lessonsCompleted": "Lecciones Completadas",
+    "bookmarked": "Guardados",
+    "quizzesPassed": "Cuestionarios Realizados",
+    "topicsLearnt": "Temas Aprendidos",
+    "memberSince": "Miembro desde {date}",
+    "saveChanges": "Guardar Cambios",
+    "updateSuccess": "Perfil actualizado exitosamente.",
+    "updateFailed": "Error al actualizar el perfil.",
+    "changePassword": "Cambiar Contraseña",
+    "currentPassword": "Contraseña Actual",
+    "newPassword": "Nueva Contraseña",
+    "minCharacters": "Mín. 8 caracteres",
+    "updatePassword": "Actualizar Contraseña",
+    "passwordSuccess": "Contraseña actualizada exitosamente.",
+    "passwordFailed": "Error al actualizar la contraseña."
+  },
+  "forgotPassword": {
+    "title": "¿Olvidaste tu Contraseña?",
+    "description": "Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.",
+    "submit": "Enviar Enlace de Restablecimiento",
+    "checkEmail": "Revisa Tu Correo",
+    "checkEmailDescription": "Si existe una cuenta con ese correo, hemos enviado un enlace para restablecer la contraseña. Expira en 1 hora.",
+    "backToLogin": "Volver a Iniciar Sesión",
+    "error": "Algo salió mal. Por favor, intenta de nuevo."
+  },
+  "resetPassword": {
+    "title": "Restablecer Contraseña",
+    "description": "Ingresa tu nueva contraseña a continuación.",
+    "newPassword": "Nueva Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "submit": "Restablecer Contraseña",
+    "success": "¡Contraseña Restablecida!",
+    "successDescription": "Tu contraseña ha sido actualizada. Ahora puedes iniciar sesión con tu nueva contraseña.",
+    "invalidToken": "Enlace Inválido",
+    "invalidTokenDescription": "Este enlace de restablecimiento de contraseña es inválido o ha expirado.",
+    "requestNewLink": "Solicitar un nuevo enlace",
+    "passwordMismatch": "Las contraseñas no coinciden.",
+    "error": "Algo salió mal. Por favor, intenta de nuevo."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Buscar...",
+    "noResults": "No se encontraron resultados"
+  },
+  "auth": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Crear Cuenta",
+    "signOut": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "name": "Nombre Completo",
+    "continueWithGoogle": "Continuar con Google",
+    "or": "o",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "welcomeBack": "Bienvenido de vuelta",
+    "signInDescription": "Inicia sesión para continuar tu viaje de aprendizaje",
+    "createAccountDescription": "Únete a Basmet Dawah y comienza tu viaje de aprendizaje",
+    "iAmA": "Soy un...",
+    "revert": "Nuevo Musulmán",
+    "revertDescription": "Aprendiendo sobre el Islam",
+    "mentor": "Mentor",
+    "mentorDescription": "Ayudando a otros a aprender",
+    "errorDefault": "Algo salió mal. Por favor, intenta de nuevo.",
+    "errorCredentials": "Correo o contraseña inválidos.",
+    "errorEmailExists": "Ya existe una cuenta con este correo.",
+    "registrationSuccess": "¡Cuenta creada! Ahora puedes iniciar sesión.",
+    "forgotPassword": "¿Olvidaste tu contraseña?"
+  },
+  "mentorship": {
+    "title": "Mentoría",
+    "requestMentor": "Solicitar un Mentor",
+    "requestMentorDescription": "Emparéjate con un mentor experimentado que pueda guiarte en tu viaje de aprendizaje.",
+    "yourMessage": "Tu mensaje (opcional)",
+    "messagePlaceholder": "Cuéntanos en qué te gustaría recibir ayuda...",
+    "submitRequest": "Enviar Solicitud",
+    "requestPending": "Tu solicitud de mentor está siendo revisada",
+    "requestPendingDescription": "Un administrador revisará tu solicitud y te asignará un mentor pronto.",
+    "mentorAssigned": "Tu Mentor",
+    "mentorAssignedDescription": "Has sido emparejado con un mentor que puede guiarte.",
+    "cancelRequest": "Cancelar Solicitud",
+    "requestSubmitted": "¡Solicitud enviada exitosamente!",
+    "alreadyHasRequest": "Ya tienes una solicitud de mentor activa.",
+    "notRevert": "Las solicitudes de mentor solo están disponibles para nuevos musulmanes.",
+    "loginRequired": "Inicia sesión para solicitar un mentor."
+  },
+  "topicProgress": {
+    "markLearnt": "Marcar como Aprendido",
+    "learnt": "Aprendido",
+    "unmark": "Desmarcar"
+  },
+  "learning": {
+    "lesson": "Lección",
+    "lessons": "Lecciones",
+    "module": "Módulo",
+    "modules": "Módulos",
+    "topic": "Tema",
+    "topics": "Temas",
+    "path": "Ruta de Aprendizaje",
+    "paths": "Rutas de Aprendizaje",
+    "quiz": "Cuestionario",
+    "quizzes": "Cuestionarios",
+    "completed": "Completado",
+    "inProgress": "En Progreso",
+    "notStarted": "No Iniciado",
+    "markComplete": "Marcar como Completo",
+    "estimatedTime": "{minutes} min de lectura",
+    "difficulty": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    }
+  }
+}

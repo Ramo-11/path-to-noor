@@ -17,24 +17,31 @@ type ViewMode = "edit" | "split" | "preview";
 interface BilingualEditorProps {
   contentEn: unknown;
   contentAr: unknown;
+  contentEs: unknown;
   onChangeEn: (content: unknown) => void;
   onChangeAr: (content: unknown) => void;
+  onChangeEs: (content: unknown) => void;
   label?: string;
 }
+
+type Lang = "en" | "ar" | "es";
 
 export function BilingualEditor({
   contentEn,
   contentAr,
+  contentEs,
   onChangeEn,
   onChangeAr,
+  onChangeEs,
   label = "Content",
 }: BilingualEditorProps) {
-  const [activeTab, setActiveTab] = useState<"en" | "ar">("en");
+  const [activeTab, setActiveTab] = useState<Lang>("en");
   const [viewMode, setViewMode] = useState<ViewMode>("edit");
   const [fullscreen, setFullscreen] = useState(false);
-  const [fullscreenLang, setFullscreenLang] = useState<"en" | "ar">("en");
+  const [fullscreenLang, setFullscreenLang] = useState<Lang>("en");
 
-  const activeContent = activeTab === "en" ? contentEn : contentAr;
+  const contentByLang: Record<Lang, unknown> = { en: contentEn, ar: contentAr, es: contentEs };
+  const activeContent = contentByLang[activeTab];
 
   return (
     <div>
@@ -69,6 +76,17 @@ export function BilingualEditor({
             }`}
           >
             العربية
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab("es")}
+            className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
+              activeTab === "es"
+                ? "border-primary-600 text-primary-700 dark:text-primary-400"
+                : "border-transparent text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-300"
+            }`}
+          >
+            Español
           </button>
         </div>
 
@@ -129,6 +147,13 @@ export function BilingualEditor({
               placeholder="اكتب المحتوى بالعربية..."
             />
           </div>
+          <div className={activeTab === "es" ? "block" : "hidden"}>
+            <TipTapEditor
+              content={contentEs}
+              onChange={onChangeEs}
+              placeholder="Escribe el contenido en español..."
+            />
+          </div>
         </>
       )}
 
@@ -148,6 +173,13 @@ export function BilingualEditor({
                 content={contentAr}
                 onChange={onChangeAr}
                 placeholder="اكتب المحتوى بالعربية..."
+              />
+            </div>
+            <div className={activeTab === "es" ? "block" : "hidden"}>
+              <TipTapEditor
+                content={contentEs}
+                onChange={onChangeEs}
+                placeholder="Escribe el contenido en español..."
               />
             </div>
           </div>
@@ -198,6 +230,7 @@ export function BilingualEditor({
           <FullscreenPreview
             contentEn={contentEn}
             contentAr={contentAr}
+            contentEs={contentEs}
             initialLang={fullscreenLang}
             onClose={() => setFullscreen(false)}
           />,
@@ -210,16 +243,19 @@ export function BilingualEditor({
 function FullscreenPreview({
   contentEn,
   contentAr,
+  contentEs,
   initialLang,
   onClose,
 }: {
   contentEn: unknown;
   contentAr: unknown;
-  initialLang: "en" | "ar";
+  contentEs: unknown;
+  initialLang: Lang;
   onClose: () => void;
 }) {
-  const [lang, setLang] = useState<"en" | "ar">(initialLang);
-  const content = lang === "en" ? contentEn : contentAr;
+  const [lang, setLang] = useState<Lang>(initialLang);
+  const contentByLang: Record<Lang, unknown> = { en: contentEn, ar: contentAr, es: contentEs };
+  const content = contentByLang[lang];
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-100 dark:bg-slate-950 overflow-auto">
@@ -255,6 +291,17 @@ function FullscreenPreview({
               }`}
             >
               AR
+            </button>
+            <button
+              type="button"
+              onClick={() => setLang("es")}
+              className={`px-3 py-1.5 text-xs font-medium transition-colors ${
+                lang === "es"
+                  ? "bg-primary-600 text-white"
+                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+              }`}
+            >
+              ES
             </button>
           </div>
 

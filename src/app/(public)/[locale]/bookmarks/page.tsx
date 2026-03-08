@@ -9,7 +9,7 @@ import { Bookmark, Clock, FileText, Loader2, Trash2 } from "lucide-react";
 
 interface BookmarkedLesson {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   slug: string;
   estimatedMinutes: number;
 }
@@ -116,7 +116,7 @@ export default function BookmarksPage() {
                   className="flex-1 min-w-0"
                 >
                   <span className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-                    {lesson.title[locale as "en" | "ar"] || lesson.title.en}
+                    {lesson.title[locale as "en" | "ar" | "es"] || lesson.title.en}
                   </span>
                 </Link>
                 {lesson.estimatedMinutes > 0 && (

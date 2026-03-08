@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 
 interface QuizQuestion {
-  question: { en: string; ar: string };
-  options: Array<{ text: { en: string; ar: string }; isCorrect: boolean }>;
-  explanation: { en: string; ar: string };
+  question: { en: string; ar: string; es: string };
+  options: Array<{ text: { en: string; ar: string; es: string }; isCorrect: boolean }>;
+  explanation: { en: string; ar: string; es: string };
 }
 
 interface QuizData {
@@ -40,7 +40,7 @@ interface QuizResult {
     selectedIndex: number;
     correctIndex: number;
     isCorrect: boolean;
-    explanation: { en: string; ar: string };
+    explanation: { en: string; ar: string; es: string };
   }>;
 }
 
@@ -53,7 +53,7 @@ export default function QuizPage() {
   const { data: session } = useSession();
 
   const [quiz, setQuiz] = useState<QuizData | null>(null);
-  const [lessonTitle, setLessonTitle] = useState<{ en: string; ar: string } | null>(null);
+  const [lessonTitle, setLessonTitle] = useState<{ en: string; ar: string; es: string } | null>(null);
   const [loading, setLoading] = useState(true);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -242,7 +242,7 @@ export default function QuizPage() {
                       <XCircle className="h-5 w-5 text-red-500 mt-0.5 shrink-0" />
                     )}
                     <p className="font-medium text-slate-900 dark:text-white">
-                      {q.question[locale as "en" | "ar"] || q.question.en}
+                      {q.question[locale as "en" | "ar" | "es"] || q.question.en}
                     </p>
                   </div>
                   <div className="space-y-2 ms-8">
@@ -264,15 +264,15 @@ export default function QuizPage() {
                       }
                       return (
                         <div key={oIndex} className={cls}>
-                          {opt.text[locale as "en" | "ar"] || opt.text.en}
+                          {opt.text[locale as "en" | "ar" | "es"] || opt.text.en}
                         </div>
                       );
                     })}
                   </div>
                   {r.explanation &&
-                    (r.explanation[locale as "en" | "ar"] || r.explanation.en) && (
+                    (r.explanation[locale as "en" | "ar" | "es"] || r.explanation.en) && (
                       <div className="mt-3 ms-8 px-3 py-2 rounded-lg bg-primary-50 dark:bg-primary-950/20 border border-primary-200 dark:border-primary-800 text-sm text-primary-700 dark:text-primary-400">
-                        {r.explanation[locale as "en" | "ar"] || r.explanation.en}
+                        {r.explanation[locale as "en" | "ar" | "es"] || r.explanation.en}
                       </div>
                     )}
                 </div>
@@ -304,7 +304,7 @@ export default function QuizPage() {
         <div className="mb-8">
           <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-2">
             {lessonTitle
-              ? `${t("title")}: ${lessonTitle[locale as "en" | "ar"] || lessonTitle.en}`
+              ? `${t("title")}: ${lessonTitle[locale as "en" | "ar" | "es"] || lessonTitle.en}`
               : t("title")}
           </h1>
           <div className="decorative-line" />
@@ -337,7 +337,7 @@ export default function QuizPage() {
         {/* Question card */}
         <div className="rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 sm:p-8 mb-8">
           <p className="text-lg font-medium text-slate-900 dark:text-white mb-6">
-            {question.question[locale as "en" | "ar"] || question.question.en}
+            {question.question[locale as "en" | "ar" | "es"] || question.question.en}
           </p>
 
           <div className="space-y-3">
@@ -362,7 +362,7 @@ export default function QuizPage() {
                   >
                     {String.fromCharCode(65 + optIndex)}
                   </span>
-                  {option.text[locale as "en" | "ar"] || option.text.en}
+                  {option.text[locale as "en" | "ar" | "es"] || option.text.en}
                 </span>
               </button>
             ))}

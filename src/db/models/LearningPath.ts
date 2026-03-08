@@ -1,8 +1,8 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
 
 export interface ILearningPath extends Document {
-  title: { en: string; ar: string };
-  description: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
+  description: { en: string; ar: string; es: string };
   slug: string;
   thumbnail: string;
   difficulty: "beginner" | "intermediate" | "advanced";
@@ -11,6 +11,8 @@ export interface ILearningPath extends Document {
     moduleId: mongoose.Types.ObjectId;
     order: number;
   }>;
+  audience: "all" | "revert" | "mentor";
+  guestAccessible: boolean;
   published: boolean;
   createdAt: Date;
   updatedAt: Date;
@@ -21,10 +23,12 @@ const LearningPathSchema = new Schema<ILearningPath>(
     title: {
       en: { type: String, required: true, trim: true },
       ar: { type: String, default: "", trim: true },
+      es: { type: String, default: "", trim: true },
     },
     description: {
       en: { type: String, required: true },
       ar: { type: String, default: "" },
+      es: { type: String, default: "" },
     },
     slug: { type: String, required: true, unique: true, lowercase: true },
     thumbnail: { type: String, default: "" },
@@ -40,6 +44,12 @@ const LearningPathSchema = new Schema<ILearningPath>(
         order: { type: Number, default: 1 },
       },
     ],
+    audience: {
+      type: String,
+      enum: ["all", "revert", "mentor"],
+      default: "all",
+    },
+    guestAccessible: { type: Boolean, default: true },
     published: { type: Boolean, default: false },
   },
   { timestamps: true }

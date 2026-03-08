@@ -1,11 +1,13 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
 
 export interface ILesson extends Document {
-  title: { en: string; ar: string };
-  content: { en: unknown; ar: unknown }; // TipTap JSON
+  title: { en: string; ar: string; es: string };
+  content: { en: unknown; ar: unknown; es: unknown }; // TipTap JSON
   slug: string;
   moduleId: mongoose.Types.ObjectId;
   estimatedMinutes: number;
+  audience: "all" | "revert" | "mentor";
+  guestAccessible: boolean;
   published: boolean;
   createdAt: Date;
   updatedAt: Date;
@@ -16,14 +18,22 @@ const LessonSchema = new Schema<ILesson>(
     title: {
       en: { type: String, required: true, trim: true },
       ar: { type: String, default: "", trim: true },
+      es: { type: String, default: "", trim: true },
     },
     content: {
       en: { type: Schema.Types.Mixed, default: null },
       ar: { type: Schema.Types.Mixed, default: null },
+      es: { type: Schema.Types.Mixed, default: null },
     },
     slug: { type: String, required: true, unique: true, lowercase: true },
     moduleId: { type: Schema.Types.ObjectId, ref: "Module", required: true },
     estimatedMinutes: { type: Number, default: 5 },
+    audience: {
+      type: String,
+      enum: ["all", "revert", "mentor"],
+      default: "all",
+    },
+    guestAccessible: { type: Boolean, default: true },
     published: { type: Boolean, default: false },
   },
   { timestamps: true }

@@ -6,6 +6,7 @@ import {
   getPublicSubtopics,
   getPublicModulesByTopic,
 } from "@/lib/data";
+import { auth } from "@/lib/auth-config";
 import { Container } from "@/components/layout/Container";
 import {
   AnimateIn,
@@ -21,6 +22,9 @@ import {
   FileText,
 } from "lucide-react";
 import { TopicIconPublic } from "@/components/shared/TopicIconPublic";
+import { TopicCompletionButton } from "@/components/shared/TopicCompletionButton";
+import { User } from "@/db/models/User";
+import { connectDB } from "@/db/connection";
 
 export default async function TopicDetailPage({
   params,
@@ -35,9 +39,26 @@ export default async function TopicDetailPage({
   const topic = await getPublicTopicBySlug(slug);
   if (!topic) notFound();
 
+  const session = await auth();
+  const audienceCtx = {
+    userType: session?.user?.userType,
+    isGuest: !session?.user,
+  };
+
   const topicAny = topic as any;
-  const subtopics = await getPublicSubtopics(topicAny._id.toString());
-  const modules = await getPublicModulesByTopic(topicAny._id.toString());
+  const subtopics = await getPublicSubtopics(topicAny._id.toString(), audienceCtx);
+  const modules = await getPublicModulesByTopic(topicAny._id.toString(), audienceCtx);
+
+  // Fetch user's completed topics for the completion buttons
+  let completedTopicIds = new Set<string>();
+  if (session?.user?.id) {
+    await connectDB();
+    const user = await User.findById(session.user.id).select("completedTopics").lean();
+    if (user) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      completedTopicIds = new Set((user as any).completedTopics?.map((ct: any) => ct.topicId?.toString()) || []);
+    }
+  }
 
   const BackArrow = locale === "ar" ? ArrowRight : ArrowLeft;
 
@@ -69,6 +90,14 @@ export default async function TopicDetailPage({
               <p className="mt-4 max-w-3xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
                 {topicAny.description[locale] || topicAny.description.en}
               </p>
+              {session?.user && (
+                <div className="mt-4">
+                  <TopicCompletionButton
+                    topicId={topicAny._id.toString()}
+                    initialCompleted={completedTopicIds.has(topicAny._id.toString())}
+                  />
+                </div>
+              )}
             </div>
           </div>
 

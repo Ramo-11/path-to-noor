@@ -11,10 +11,10 @@ import { ModuleDeleteButton } from "./ModuleDeleteButton";
 
 interface ModuleRow {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   slug: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  topics: Array<{ _id: string; name: { en: string; ar: string }; slug: string } | any>;
+  topics: Array<{ _id: string; name: { en: string; ar: string; es: string }; slug: string } | any>;
   lessons: Array<{ lessonId: unknown; order: number }>;
   published: boolean;
   createdAt: string;
@@ -42,7 +42,7 @@ export default async function ModulesPage({
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       ? m.topics.map((t: any) =>
           typeof t === "object" && t !== null && "name" in t
-            ? { _id: String(t._id), name: t.name as { en: string; ar: string }, slug: String(t.slug) }
+            ? { _id: String(t._id), name: t.name as { en: string; ar: string; es: string }, slug: String(t.slug) }
             : { _id: String(t), name: { en: "", ar: "" }, slug: "" }
         )
       : [],

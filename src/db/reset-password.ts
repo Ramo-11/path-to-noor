@@ -44,7 +44,7 @@ const ask = (q: string): Promise<string> =>
   new Promise((resolve) => rl.question(q, resolve));
 
 async function main() {
-  console.log("\n--- Path to Noor: Password Reset Script ---\n");
+  console.log("\n--- Basmet Dawah: Password Reset Script ---\n");
 
   const mongoUri = buildMongoUri();
   console.log(`Connecting to: ${mongoUri.replace(/\/\/.*@/, "//***@")}...`);

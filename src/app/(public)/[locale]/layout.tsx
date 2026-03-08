@@ -23,8 +23,8 @@ const notoSansArabic = Noto_Sans_Arabic({
 
 export const metadata: Metadata = {
   title: {
-    default: "Path to Noor",
-    template: "%s | Path to Noor",
+    default: "Basmet Dawah",
+    template: "%s | Basmet Dawah",
   },
   description:
     "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.",
@@ -32,12 +32,12 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Path to Noor",
+    siteName: "Basmet Dawah",
   },
 };
 
 export function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "ar" }];
+  return [{ locale: "en" }, { locale: "ar" }, { locale: "es" }];
 }
 
 export default async function LocaleLayout({

@@ -33,7 +33,7 @@ interface QuizDataPoint {
 
 interface PopularPath {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   totalLessons: number;
   enrolledUsers: number;
   avgCompletion: number;

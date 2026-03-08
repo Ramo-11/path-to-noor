@@ -12,7 +12,7 @@ export async function sendPasswordResetEmail(
   resetUrl: string
 ): Promise<void> {
   const resend = getResend();
-  const from = process.env.RESEND_FROM || "Path to Noor <noreply@pathtonoor.com>";
+  const from = process.env.RESEND_FROM || "Basmet Dawah <noreply@basmetdawah.com>";
 
   if (!resend) {
     console.warn(
@@ -27,7 +27,7 @@ export async function sendPasswordResetEmail(
   const html = `
     <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 560px; margin: 0 auto; padding: 40px 20px;">
       <div style="text-align: center; margin-bottom: 32px;">
-        <h1 style="color: #1E3A5F; font-size: 24px; margin: 0;">Path to Noor</h1>
+        <h1 style="color: #1E3A5F; font-size: 24px; margin: 0;">Basmet Dawah</h1>
       </div>
       <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px;">
         <h2 style="color: #1e293b; font-size: 20px; margin: 0 0 16px;">Reset Your Password</h2>
@@ -45,7 +45,7 @@ export async function sendPasswordResetEmail(
         </p>
       </div>
       <p style="color: #94a3b8; font-size: 12px; text-align: center; margin-top: 24px;">
-        Path to Noor &mdash; A guided learning platform for new Muslims
+        Basmet Dawah &mdash; A guided learning platform for new Muslims
       </p>
     </div>
   `;
@@ -53,7 +53,7 @@ export async function sendPasswordResetEmail(
   const { error } = await resend.emails.send({
     from,
     to,
-    subject: "Reset Your Password — Path to Noor",
+    subject: "Reset Your Password — Basmet Dawah",
     html,
   });
 

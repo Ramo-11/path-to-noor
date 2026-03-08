@@ -13,6 +13,7 @@ import {
   Calendar,
   Loader2,
   Check,
+  CheckCircle,
   Eye,
   EyeOff,
 } from "lucide-react";
@@ -21,11 +22,13 @@ interface ProfileData {
   name: string;
   email: string;
   image: string | null;
-  preferredLanguage: "en" | "ar";
+  preferredLanguage: "en" | "ar" | "es";
   role: string;
+  userType?: string;
   lessonsCompleted: number;
   bookmarksCount: number;
   quizzesCompleted: number;
+  topicsCompleted: number;
   joinedAt: string;
 }
 
@@ -41,7 +44,7 @@ export default function ProfilePage() {
 
   // Profile form
   const [name, setName] = useState("");
-  const [preferredLanguage, setPreferredLanguage] = useState<"en" | "ar">("en");
+  const [preferredLanguage, setPreferredLanguage] = useState<"en" | "ar" | "es">("en");
   const [saving, setSaving] = useState(false);
   const [profileSuccess, setProfileSuccess] = useState(false);
   const [profileError, setProfileError] = useState("");
@@ -187,7 +190,7 @@ export default function ProfilePage() {
 
         {/* Stats */}
         {profile && (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
               <div className="p-2 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600">
                 <BookOpen className="h-5 w-5" />
@@ -224,6 +227,19 @@ export default function ProfilePage() {
                 </p>
                 <p className="text-xs text-slate-500 dark:text-slate-400">
                   {t("quizzesPassed")}
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
+              <div className="p-2 rounded-lg bg-sky-100 dark:bg-sky-900/30 text-sky-600">
+                <CheckCircle className="h-5 w-5" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-slate-900 dark:text-white">
+                  {profile.topicsCompleted}
+                </p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {t("topicsLearnt")}
                 </p>
               </div>
             </div>
@@ -273,12 +289,13 @@ export default function ProfilePage() {
                   id="language"
                   value={preferredLanguage}
                   onChange={(e) =>
-                    setPreferredLanguage(e.target.value as "en" | "ar")
+                    setPreferredLanguage(e.target.value as "en" | "ar" | "es")
                   }
                   className={inputClass}
                 >
                   <option value="en">English</option>
                   <option value="ar">العربية</option>
+                  <option value="es">Español</option>
                 </select>
               </div>
 
@@ -287,7 +304,7 @@ export default function ProfilePage() {
                   <Calendar className="h-4 w-4" />
                   {t("memberSince", {
                     date: new Date(profile.joinedAt).toLocaleDateString(
-                      locale === "ar" ? "ar-SA" : "en-US",
+                      locale === "ar" ? "ar-SA" : locale === "es" ? "es-ES" : "en-US",
                       { year: "numeric", month: "long" }
                     ),
                   })}

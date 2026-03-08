@@ -6,6 +6,7 @@ import Link from "next/link";
 import {
   ArrowLeft,
   User as UserIcon,
+  Users,
   Mail,
   Calendar,
   BookOpen,
@@ -20,13 +21,13 @@ import {
 
 interface LessonProgress {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   completed: boolean;
 }
 
 interface ModuleProgress {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   lessons: LessonProgress[];
   completedCount: number;
   totalLessons: number;
@@ -34,7 +35,7 @@ interface ModuleProgress {
 
 interface PathProgress {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   difficulty?: string;
   modules: ModuleProgress[];
   totalLessons: number;
@@ -47,12 +48,22 @@ interface QuizResult {
     _id: string;
     lessonId: {
       _id: string;
-      title: { en: string; ar: string };
+      title: { en: string; ar: string; es: string };
       slug: string;
     };
   };
   score: number;
   passed: boolean;
+  completedAt: string;
+}
+
+interface CompletedTopic {
+  topicId: {
+    _id: string;
+    name: { en: string; ar: string; es: string };
+    slug: string;
+    icon?: string;
+  };
   completedAt: string;
 }
 
@@ -62,22 +73,29 @@ interface UserDetail {
   email: string;
   image?: string;
   role: string;
+  userType?: string;
   isActive: boolean;
   preferredLanguage: string;
   progress: Array<{
     lessonId: {
       _id: string;
-      title: { en: string; ar: string };
+      title: { en: string; ar: string; es: string };
       slug: string;
     };
     completedAt: string;
   }>;
   bookmarks: Array<{
     _id: string;
-    title: { en: string; ar: string };
+    title: { en: string; ar: string; es: string };
     slug: string;
   }>;
   quizResults: QuizResult[];
+  completedTopics: CompletedTopic[];
+  assignedMentorId?: {
+    _id: string;
+    name: string;
+    email: string;
+  };
   createdAt: string;
   lastLoginAt?: string;
 }
@@ -92,6 +110,11 @@ const roleColors: Record<string, string> = {
   super_admin: "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400",
   admin: "bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400",
   user: "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400",
+};
+
+const userTypeColors: Record<string, string> = {
+  revert: "bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-400",
+  mentor: "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400",
 };
 
 function PathProgressCard({ path }: { path: PathProgress }) {
@@ -286,6 +309,15 @@ export default function UserDetailPage() {
                 >
                   {user.role.replace("_", " ")}
                 </span>
+                {user.userType && (
+                  <span
+                    className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium capitalize ${
+                      userTypeColors[user.userType] || ""
+                    }`}
+                  >
+                    {user.userType === "revert" ? "New Muslim" : "Mentor"}
+                  </span>
+                )}
                 <span
                   className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
                     user.isActive
@@ -349,6 +381,54 @@ export default function UserDetailPage() {
           </div>
         </div>
       </div>
+
+      {/* Mentor Assignment (for reverts) */}
+      {user.userType === "revert" && user.assignedMentorId && (
+        <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 mb-4">
+          <div className="flex items-center gap-2 mb-3">
+            <Users className="h-4 w-4 text-slate-500 dark:text-slate-400" />
+            <h2 className="text-sm font-semibold text-slate-900 dark:text-white">
+              Assigned Mentor
+            </h2>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="h-8 w-8 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+              <UserIcon className="h-4 w-4 text-amber-600" />
+            </div>
+            <div>
+              <p className="text-sm font-medium text-slate-900 dark:text-white">
+                {user.assignedMentorId.name}
+              </p>
+              <p className="text-xs text-slate-500 dark:text-slate-400">
+                {user.assignedMentorId.email}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Completed Topics */}
+      {user.completedTopics && user.completedTopics.length > 0 && (
+        <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 mb-4">
+          <div className="flex items-center gap-2 mb-4">
+            <CheckCircle className="h-4 w-4 text-emerald-500" />
+            <h2 className="text-sm font-semibold text-slate-900 dark:text-white">
+              Topics Marked as Learnt ({user.completedTopics.length})
+            </h2>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {user.completedTopics.map((ct) => (
+              <span
+                key={ct.topicId?._id || String(ct)}
+                className="inline-flex items-center px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-900/20 text-sm text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800"
+              >
+                <CheckCircle className="h-3 w-3 me-1.5" />
+                {ct.topicId?.name?.en || "Unknown"}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Learning Path Progress */}
       <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 mb-4">

@@ -38,7 +38,7 @@ const UserSchema = new mongoose.Schema(
     name: { type: String, required: true, trim: true },
     role: { type: String, enum: ["super_admin", "admin", "user"], default: "admin" },
     isActive: { type: Boolean, default: true },
-    preferredLanguage: { type: String, enum: ["en", "ar"], default: "en" },
+    preferredLanguage: { type: String, enum: ["en", "ar", "es"], default: "en" },
     lastLoginAt: { type: Date },
   },
   { timestamps: true }
@@ -51,7 +51,7 @@ const ask = (q: string): Promise<string> =>
   new Promise((resolve) => rl.question(q, resolve));
 
 async function main() {
-  console.log("\n--- Path to Noor: Admin Seed Script ---\n");
+  console.log("\n--- Basmet Dawah: Admin Seed Script ---\n");
 
   const mongoUri = buildMongoUri();
   console.log(`Connecting to: ${mongoUri.replace(/\/\/.*@/, "//***@")}...`);

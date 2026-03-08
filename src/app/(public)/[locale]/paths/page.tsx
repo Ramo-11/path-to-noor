@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getPublicLearningPaths } from "@/lib/data";
+import { auth } from "@/lib/auth-config";
 import { Container } from "@/components/layout/Container";
 import {
   AnimateIn,
@@ -28,7 +29,11 @@ export default async function PathsPage({
   const t = await getTranslations("paths");
   const tLearning = await getTranslations("learning");
 
-  const paths = await getPublicLearningPaths();
+  const session = await auth();
+  const paths = await getPublicLearningPaths({
+    userType: session?.user?.userType,
+    isGuest: !session?.user,
+  });
 
   const GoArrow = locale === "ar" ? ArrowLeft : ArrowRight;
 

@@ -7,22 +7,26 @@ import { z } from "zod";
 const bilingualString = z.object({
   en: z.string().min(1, "English text is required"),
   ar: z.string().min(1, "Arabic text is required"),
+  es: z.string().min(1, "Spanish text is required"),
 });
 
-/** English required, Arabic optional (defaults to "") */
+/** English required, Arabic and Spanish optional (defaults to "") */
 const bilingualStringArOptional = z.object({
   en: z.string().min(1, "English text is required"),
   ar: z.string().default(""),
+  es: z.string().default(""),
 });
 
 const bilingualStringOptional = z.object({
   en: z.string().min(1, "English text is required").optional(),
   ar: z.string().min(1, "Arabic text is required").optional(),
+  es: z.string().min(1, "Spanish text is required").optional(),
 });
 
 const bilingualAny = z.object({
   en: z.any(),
   ar: z.any(),
+  es: z.any(),
 });
 
 const slugField = z
@@ -46,6 +50,9 @@ export function slugify(text: string): string {
 const objectIdString = z
   .string()
   .regex(/^[0-9a-fA-F]{24}$/, "Invalid ObjectId");
+
+const audienceField = z.enum(["all", "revert", "mentor"]).default("all");
+const guestAccessibleField = z.boolean().default(true);
 
 // ---------------------------------------------------------------------------
 // Pagination (used by admin list pages to parse searchParams)
@@ -72,12 +79,15 @@ export const createTopicSchema = z.object({
   icon: z.string().default(""),
   parent: objectIdString.nullable().default(null),
   order: z.number().int().min(1).default(1),
+  audience: audienceField,
+  guestAccessible: guestAccessibleField,
   published: z.boolean().default(false),
 });
 
 const bilingualStringArOptionalPartial = z.object({
   en: z.string().min(1, "English text is required").optional(),
   ar: z.string().optional(),
+  es: z.string().optional(),
 });
 
 export const updateTopicSchema = z.object({
@@ -87,6 +97,8 @@ export const updateTopicSchema = z.object({
   icon: z.string().optional(),
   parent: objectIdString.nullable().optional(),
   order: z.number().int().min(1).optional(),
+  audience: z.enum(["all", "revert", "mentor"]).optional(),
+  guestAccessible: z.boolean().optional(),
   published: z.boolean().optional(),
 });
 
@@ -111,6 +123,8 @@ export const createModuleSchema = z.object({
       })
     )
     .default([]),
+  audience: audienceField,
+  guestAccessible: guestAccessibleField,
   published: z.boolean().default(false),
 });
 
@@ -128,6 +142,8 @@ export const updateModuleSchema = z.object({
       })
     )
     .optional(),
+  audience: z.enum(["all", "revert", "mentor"]).optional(),
+  guestAccessible: z.boolean().optional(),
   published: z.boolean().optional(),
 });
 
@@ -140,10 +156,12 @@ export type UpdateModuleInput = z.infer<typeof updateModuleSchema>;
 
 export const createLessonSchema = z.object({
   title: bilingualStringArOptional,
-  content: bilingualAny.default({ en: null, ar: null }),
+  content: bilingualAny.default({ en: null, ar: null, es: null }),
   slug: slugField.optional(),
   moduleId: objectIdString,
   estimatedMinutes: z.number().int().positive().default(5),
+  audience: audienceField,
+  guestAccessible: guestAccessibleField,
   published: z.boolean().default(false),
 });
 
@@ -153,6 +171,8 @@ export const updateLessonSchema = z.object({
   slug: slugField.optional(),
   moduleId: objectIdString.optional(),
   estimatedMinutes: z.number().int().positive().optional(),
+  audience: z.enum(["all", "revert", "mentor"]).optional(),
+  guestAccessible: z.boolean().optional(),
   published: z.boolean().optional(),
 });
 
@@ -178,6 +198,8 @@ export const createLearningPathSchema = z.object({
       })
     )
     .default([]),
+  audience: audienceField,
+  guestAccessible: guestAccessibleField,
   published: z.boolean().default(false),
 });
 
@@ -196,6 +218,8 @@ export const updateLearningPathSchema = z.object({
       })
     )
     .optional(),
+  audience: z.enum(["all", "revert", "mentor"]).optional(),
+  guestAccessible: z.boolean().optional(),
   published: z.boolean().optional(),
 });
 
@@ -214,7 +238,7 @@ const quizOptionSchema = z.object({
 const quizQuestionSchema = z.object({
   question: bilingualStringArOptional,
   options: z.array(quizOptionSchema).min(2, "At least 2 options are required"),
-  explanation: bilingualStringArOptional.optional().default({ en: "", ar: "" }),
+  explanation: bilingualStringArOptional.optional().default({ en: "", ar: "", es: "" }),
 });
 
 export const createQuizSchema = z.object({
@@ -244,7 +268,7 @@ export type UpdateQuizInput = z.infer<typeof updateQuizSchema>;
 export const updateUserSchema = z.object({
   role: z.enum(["super_admin", "admin", "user"]).optional(),
   isActive: z.boolean().optional(),
-  preferredLanguage: z.enum(["en", "ar"]).optional(),
+  preferredLanguage: z.enum(["en", "ar", "es"]).optional(),
 });
 
 export type UpdateUserInput = z.infer<typeof updateUserSchema>;

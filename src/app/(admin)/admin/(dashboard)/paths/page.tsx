@@ -11,7 +11,7 @@ import { PathDeleteButton } from "./PathDeleteButton";
 
 interface SerializedPath {
   _id: string;
-  title: { en: string; ar: string };
+  title: { en: string; ar: string; es: string };
   slug: string;
   difficulty: "beginner" | "intermediate" | "advanced";
   estimatedHours: number;

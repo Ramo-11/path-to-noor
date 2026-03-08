@@ -11,7 +11,7 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="font-heading text-xl font-bold text-primary-700 dark:text-primary-300">
-              Path to Noor
+              Basmet Dawah
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-400 max-w-xs">
               A guided learning platform for new Muslims — explore Islam at your own pace.
@@ -56,7 +56,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-200 dark:border-slate-800 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-500 dark:text-slate-400">
-            &copy; {currentYear} Path to Noor. All rights reserved.
+            &copy; {currentYear} Basmet Dawah. All rights reserved.
           </p>
           <p className="text-xs text-slate-500 dark:text-slate-400">
             Made by{" "}

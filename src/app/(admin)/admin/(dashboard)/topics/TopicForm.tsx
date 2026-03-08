@@ -7,17 +7,19 @@ import Link from "next/link";
 import { IconPicker } from "@/components/admin/IconPicker";
 
 interface TopicFormData {
-  name: { en: string; ar: string };
-  description: { en: string; ar: string };
+  name: { en: string; ar: string; es: string };
+  description: { en: string; ar: string; es: string };
   icon: string;
   parent: string | null;
   order: number;
+  audience: "all" | "revert" | "mentor";
+  guestAccessible: boolean;
   published: boolean;
 }
 
 interface ParentOption {
   _id: string;
-  name: { en: string; ar: string };
+  name: { en: string; ar: string; es: string };
 }
 
 interface TopicFormProps {
@@ -33,11 +35,13 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
   const [parentOptions, setParentOptions] = useState<ParentOption[]>([]);
 
   const [form, setForm] = useState<TopicFormData>({
-    name: initialData?.name || { en: "", ar: "" },
-    description: initialData?.description || { en: "", ar: "" },
+    name: initialData?.name || { en: "", ar: "", es: "" },
+    description: initialData?.description || { en: "", ar: "", es: "" },
     icon: initialData?.icon ?? "",
     parent: initialData?.parent || null,
     order: initialData?.order ?? 1,
+    audience: initialData?.audience ?? "all",
+    guestAccessible: initialData?.guestAccessible ?? true,
     published: initialData?.published ?? false,
   });
 
@@ -151,7 +155,7 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Name fields */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label htmlFor="name-en" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
                 Name (English) *
@@ -186,10 +190,27 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
                 <p className="mt-1 text-xs text-red-500">{errors["name.ar"][0]}</p>
               )}
             </div>
+            <div>
+              <label htmlFor="name-es" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+                Name (Spanish)
+              </label>
+              <input
+                id="name-es"
+                type="text"
+                value={form.name.es}
+                onChange={(e) =>
+                  setForm((prev) => ({ ...prev, name: { ...prev.name, es: e.target.value } }))
+                }
+                className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
+              />
+              {errors["name.es"] && (
+                <p className="mt-1 text-xs text-red-500">{errors["name.es"][0]}</p>
+              )}
+            </div>
           </div>
 
           {/* Description fields */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label htmlFor="desc-en" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
                 Description (English) *
@@ -232,6 +253,26 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
                 <p className="mt-1 text-xs text-red-500">{errors["description.ar"][0]}</p>
               )}
             </div>
+            <div>
+              <label htmlFor="desc-es" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+                Description (Spanish)
+              </label>
+              <textarea
+                id="desc-es"
+                rows={3}
+                value={form.description.es}
+                onChange={(e) =>
+                  setForm((prev) => ({
+                    ...prev,
+                    description: { ...prev.description, es: e.target.value },
+                  }))
+                }
+                className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
+              />
+              {errors["description.es"] && (
+                <p className="mt-1 text-xs text-red-500">{errors["description.es"][0]}</p>
+              )}
+            </div>
           </div>
 
           {/* Icon + Parent */}
@@ -272,42 +313,81 @@ export function TopicForm({ initialData, mode }: TopicFormProps) {
             </div>
           </div>
 
-          {/* Order + Published */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Order */}
+          <div>
+            <label htmlFor="order" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+              Order
+            </label>
+            <input
+              id="order"
+              type="number"
+              min={1}
+              value={form.order}
+              onChange={(e) =>
+                setForm((prev) => ({ ...prev, order: parseInt(e.target.value) || 1 }))
+              }
+              className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
+            />
+            <p className="mt-1 text-xs text-slate-400">
+              Display order among sibling topics
+            </p>
+          </div>
+
+          {/* Audience & Guest Access */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label htmlFor="order" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
-                Order
+              <label htmlFor="audience" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+                Audience
               </label>
-              <input
-                id="order"
-                type="number"
-                min={1}
-                value={form.order}
+              <select
+                id="audience"
+                value={form.audience}
                 onChange={(e) =>
-                  setForm((prev) => ({ ...prev, order: parseInt(e.target.value) || 1 }))
+                  setForm((prev) => ({ ...prev, audience: e.target.value as "all" | "revert" | "mentor" }))
                 }
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-              />
-              <p className="mt-1 text-xs text-slate-400">
-                Display order among sibling topics
-              </p>
+              >
+                <option value="all">Everyone</option>
+                <option value="revert">Reverts Only</option>
+                <option value="mentor">Mentors Only</option>
+              </select>
+              <p className="mt-1 text-xs text-slate-400">Who should see this content</p>
             </div>
             <div className="flex items-center pt-7">
               <label className="relative inline-flex items-center cursor-pointer">
                 <input
                   type="checkbox"
-                  checked={form.published}
+                  checked={form.guestAccessible}
                   onChange={(e) =>
-                    setForm((prev) => ({ ...prev, published: e.target.checked }))
+                    setForm((prev) => ({ ...prev, guestAccessible: e.target.checked }))
                   }
                   className="sr-only peer"
                 />
                 <div className="w-11 h-6 bg-slate-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary-300 dark:peer-focus:ring-primary-800 rounded-full peer dark:bg-slate-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:after:border-slate-600 peer-checked:bg-primary-600" />
                 <span className="ml-3 text-sm font-medium text-slate-700 dark:text-slate-300">
-                  Published
+                  Available to guests
                 </span>
               </label>
+              <p className="mt-1 text-xs text-slate-400 ml-14">Allow non-logged-in users to view this content</p>
             </div>
+          </div>
+
+          {/* Published */}
+          <div className="flex items-center">
+            <label className="relative inline-flex items-center cursor-pointer">
+              <input
+                type="checkbox"
+                checked={form.published}
+                onChange={(e) =>
+                  setForm((prev) => ({ ...prev, published: e.target.checked }))
+                }
+                className="sr-only peer"
+              />
+              <div className="w-11 h-6 bg-slate-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary-300 dark:peer-focus:ring-primary-800 rounded-full peer dark:bg-slate-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:after:border-slate-600 peer-checked:bg-primary-600" />
+              <span className="ml-3 text-sm font-medium text-slate-700 dark:text-slate-300">
+                Published
+              </span>
+            </label>
           </div>
 
           {/* Actions */}

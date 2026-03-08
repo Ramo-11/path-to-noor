@@ -7,12 +7,14 @@ import { TopicForm } from "../TopicForm";
 
 interface TopicData {
   _id: string;
-  name: { en: string; ar: string };
-  description: { en: string; ar: string };
+  name: { en: string; ar: string; es: string };
+  description: { en: string; ar: string; es: string };
   icon: string;
-  parent: { _id: string; name: { en: string; ar: string }; slug: string } | string | null;
+  parent: { _id: string; name: { en: string; ar: string; es: string }; slug: string } | string | null;
   order: number;
   published: boolean;
+  audience: "all" | "revert" | "mentor";
+  guestAccessible: boolean;
 }
 
 export default function EditTopicPage() {
@@ -76,6 +78,8 @@ export default function EditTopicPage() {
         parent: parentId,
         order: topic.order,
         published: topic.published,
+        audience: topic.audience || "all",
+        guestAccessible: topic.guestAccessible ?? true,
       }}
     />
   );

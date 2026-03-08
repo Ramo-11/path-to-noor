@@ -1,12 +1,14 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
 
 export interface ITopic extends Document {
-  name: { en: string; ar: string };
-  description: { en: string; ar: string };
+  name: { en: string; ar: string; es: string };
+  description: { en: string; ar: string; es: string };
   slug: string;
   icon: string;
   parent: mongoose.Types.ObjectId | null;
   order: number;
+  audience: "all" | "revert" | "mentor";
+  guestAccessible: boolean;
   published: boolean;
   createdAt: Date;
   updatedAt: Date;
@@ -17,15 +19,23 @@ const TopicSchema = new Schema<ITopic>(
     name: {
       en: { type: String, required: true, trim: true },
       ar: { type: String, default: "", trim: true },
+      es: { type: String, default: "", trim: true },
     },
     description: {
       en: { type: String, required: true },
       ar: { type: String, default: "" },
+      es: { type: String, default: "" },
     },
     slug: { type: String, required: true, unique: true, lowercase: true },
     icon: { type: String, default: "" },
     parent: { type: Schema.Types.ObjectId, ref: "Topic", default: null },
     order: { type: Number, default: 1 },
+    audience: {
+      type: String,
+      enum: ["all", "revert", "mentor"],
+      default: "all",
+    },
+    guestAccessible: { type: Boolean, default: true },
     published: { type: Boolean, default: false },
   },
   { timestamps: true }

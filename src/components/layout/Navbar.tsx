@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
-import { Menu, X, User, LogOut, Bookmark, Shield } from "lucide-react";
+import { Menu, X, User, LogOut, Bookmark, Shield, Handshake } from "lucide-react";
 import { useLocale } from "next-intl";
 import { useSession, signOut } from "next-auth/react";
 
@@ -15,10 +15,16 @@ export function Navbar() {
   const { data: session, status } = useSession();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  const isLoading = status === "loading";
-  const isLoggedIn = status === "authenticated" && !!session?.user;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const isLoading = !mounted || status === "loading";
+  const isLoggedIn = mounted && status === "authenticated" && !!session?.user;
   const isAdmin = isLoggedIn && (session.user.role === "admin" || session.user.role === "super_admin");
+  const isRevert = isLoggedIn && session.user.userType === "revert";
 
   const navLinks = [
     { href: "/", label: t("home") },
@@ -26,7 +32,10 @@ export function Navbar() {
     { href: "/paths", label: t("paths") },
   ];
 
-  const otherLocale = locale === "en" ? "ar" : "en";
+  const [langOpen, setLangOpen] = useState(false);
+  const localeLabels: Record<string, string> = { en: "EN", ar: "AR", es: "ES" };
+  const localeNames: Record<string, string> = { en: "English", ar: "العربية", es: "Español" };
+  const allLocales = ["en", "ar", "es"];
 
   return (
     <nav className="sticky top-0 z-40 bg-white/80 dark:bg-slate-950/80 backdrop-blur-lg border-b border-slate-200/50 dark:border-slate-800/50">
@@ -37,7 +46,7 @@ export function Navbar() {
             href="/"
             className="font-heading text-xl font-bold text-primary-700 dark:text-primary-300"
           >
-            {locale === "ar" ? "طريق النور" : "Path to Noor"}
+            {locale === "ar" ? "بسمة دعوة" : "Basmet Dawah"}
           </Link>
 
           {/* Desktop nav */}
@@ -59,13 +68,34 @@ export function Navbar() {
 
           {/* Right actions */}
           <div className="hidden md:flex items-center gap-3">
-            <Link
-              href={pathname}
-              locale={otherLocale}
-              className="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors px-2 py-1"
-            >
-              {t("switchLanguage")}
-            </Link>
+            <div className="relative">
+              <button
+                onClick={() => setLangOpen(!langOpen)}
+                className="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors px-2 py-1"
+                aria-label={t("switchLanguage")}
+                aria-expanded={langOpen}
+              >
+                {localeLabels[locale] || locale.toUpperCase()}
+              </button>
+              {langOpen && (
+                <>
+                  <div className="fixed inset-0 z-30" onClick={() => setLangOpen(false)} />
+                  <div className="absolute end-0 top-full mt-2 w-32 z-40 rounded-lg bg-white dark:bg-slate-900 shadow-lg border border-slate-200 dark:border-slate-800 py-1">
+                    {allLocales.filter((l) => l !== locale).map((l) => (
+                      <Link
+                        key={l}
+                        href={pathname}
+                        locale={l}
+                        onClick={() => setLangOpen(false)}
+                        className="block px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        {localeNames[l]}
+                      </Link>
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
             <ThemeToggle />
 
             {isLoading ? (
@@ -107,6 +137,16 @@ export function Navbar() {
                         <Bookmark className="h-4 w-4" />
                         {t("bookmarks")}
                       </Link>
+                      {isRevert && (
+                        <Link
+                          href="/mentorship"
+                          onClick={() => setProfileOpen(false)}
+                          className="flex items-center gap-2 px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                        >
+                          <Handshake className="h-4 w-4" />
+                          {t("mentorship")}
+                        </Link>
+                      )}
                       {isAdmin && (
                         <a
                           href="/admin"
@@ -201,6 +241,16 @@ export function Navbar() {
                 >
                   {t("myAccount")}
                 </Link>
+                {isRevert && (
+                  <Link
+                    href="/mentorship"
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
+                  >
+                    <Handshake className="h-4 w-4" />
+                    {t("mentorship")}
+                  </Link>
+                )}
                 {isAdmin && (
                   <a
                     href="/admin"
@@ -214,13 +264,17 @@ export function Navbar() {
             )}
 
             <div className="flex items-center gap-3 px-3 pt-2 border-t border-slate-200 dark:border-slate-800 mt-2">
-              <Link
-                href={pathname}
-                locale={otherLocale}
-                className="text-sm font-medium text-slate-600 dark:text-slate-400"
-              >
-                {t("switchLanguage")}
-              </Link>
+              {allLocales.filter((l) => l !== locale).map((l) => (
+                <Link
+                  key={l}
+                  href={pathname}
+                  locale={l}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-sm font-medium text-slate-600 dark:text-slate-400"
+                >
+                  {localeNames[l]}
+                </Link>
+              ))}
             </div>
 
             {!isLoading && (

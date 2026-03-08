@@ -25,12 +25,16 @@ export default function EditLessonPage({
   const [form, setForm] = useState({
     titleEn: "",
     titleAr: "",
+    titleEs: "",
     moduleId: "",
     estimatedMinutes: 5,
+    audience: "all" as "all" | "revert" | "mentor",
+    guestAccessible: true,
     published: false,
   });
   const [contentEn, setContentEn] = useState<unknown>(null);
   const [contentAr, setContentAr] = useState<unknown>(null);
+  const [contentEs, setContentEs] = useState<unknown>(null);
 
   useEffect(() => {
     Promise.all([
@@ -43,12 +47,16 @@ export default function EditLessonPage({
           setForm({
             titleEn: l.title?.en || "",
             titleAr: l.title?.ar || "",
+            titleEs: l.title?.es || "",
             moduleId: l.moduleId?.toString() || "",
             estimatedMinutes: l.estimatedMinutes || 5,
+            audience: l.audience || "all",
+            guestAccessible: l.guestAccessible ?? true,
             published: l.published || false,
           });
           setContentEn(l.content?.en || null);
           setContentAr(l.content?.ar || null);
+          setContentEs(l.content?.es || null);
         }
         if (modulesData.data) {
           setModules(modulesData.data);
@@ -72,10 +80,12 @@ export default function EditLessonPage({
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          title: { en: form.titleEn, ar: form.titleAr },
-          content: { en: contentEn, ar: contentAr },
+          title: { en: form.titleEn, ar: form.titleAr, es: form.titleEs },
+          content: { en: contentEn, ar: contentAr, es: contentEs },
           moduleId: form.moduleId || undefined,
           estimatedMinutes: form.estimatedMinutes,
+          audience: form.audience,
+          guestAccessible: form.guestAccessible,
           published: form.published,
         }),
       });
@@ -127,7 +137,7 @@ export default function EditLessonPage({
             </div>
           )}
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label htmlFor="titleEn" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
                 Title (English)
@@ -151,6 +161,18 @@ export default function EditLessonPage({
                 value={form.titleAr}
                 onChange={(e) => updateField("titleAr", e.target.value)}
                 dir="rtl"
+                className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
+              />
+            </div>
+            <div>
+              <label htmlFor="titleEs" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+                Title (Spanish)
+              </label>
+              <input
+                id="titleEs"
+                type="text"
+                value={form.titleEs}
+                onChange={(e) => updateField("titleEs", e.target.value)}
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
               />
             </div>
@@ -194,10 +216,49 @@ export default function EditLessonPage({
           <BilingualEditor
             contentEn={contentEn}
             contentAr={contentAr}
+            contentEs={contentEs}
             onChangeEn={setContentEn}
             onChangeAr={setContentAr}
+            onChangeEs={setContentEs}
             label="Lesson Content"
           />
+
+          {/* Audience & Guest Access */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="audience" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+                Audience
+              </label>
+              <select
+                id="audience"
+                value={form.audience}
+                onChange={(e) => updateField("audience", e.target.value)}
+                className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
+              >
+                <option value="all">Everyone</option>
+                <option value="revert">Reverts Only</option>
+                <option value="mentor">Mentors Only</option>
+              </select>
+              <p className="mt-1 text-xs text-slate-400">Who should see this content</p>
+            </div>
+            <div className="flex items-start pt-7">
+              <div>
+                <div className="flex items-center gap-2">
+                  <input
+                    id="guestAccessible"
+                    type="checkbox"
+                    checked={form.guestAccessible}
+                    onChange={(e) => updateField("guestAccessible", e.target.checked)}
+                    className="rounded border-slate-300 dark:border-slate-600 text-primary-600 focus:ring-primary-500"
+                  />
+                  <label htmlFor="guestAccessible" className="text-sm text-slate-700 dark:text-slate-300">
+                    Available to guests
+                  </label>
+                </div>
+                <p className="mt-1 text-xs text-slate-400">Allow non-logged-in users to view this content</p>
+              </div>
+            </div>
+          </div>
 
           <div className="flex items-center gap-2">
             <input

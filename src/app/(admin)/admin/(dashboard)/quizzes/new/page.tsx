@@ -13,28 +13,33 @@ interface LessonOption {
 interface QuizOption {
   textEn: string;
   textAr: string;
+  textEs: string;
   isCorrect: boolean;
 }
 
 interface QuizQuestion {
   questionEn: string;
   questionAr: string;
+  questionEs: string;
   options: QuizOption[];
   explanationEn: string;
   explanationAr: string;
+  explanationEs: string;
 }
 
 function emptyOption(): QuizOption {
-  return { textEn: "", textAr: "", isCorrect: false };
+  return { textEn: "", textAr: "", textEs: "", isCorrect: false };
 }
 
 function emptyQuestion(): QuizQuestion {
   return {
     questionEn: "",
     questionAr: "",
+    questionEs: "",
     options: [emptyOption(), emptyOption()],
     explanationEn: "",
     explanationAr: "",
+    explanationEs: "",
   };
 }
 
@@ -114,12 +119,12 @@ export default function NewQuizPage() {
         passingScore,
         required,
         questions: questions.map((q) => ({
-          question: { en: q.questionEn, ar: q.questionAr },
+          question: { en: q.questionEn, ar: q.questionAr, es: q.questionEs },
           options: q.options.map((o) => ({
-            text: { en: o.textEn, ar: o.textAr },
+            text: { en: o.textEn, ar: o.textAr, es: o.textEs },
             isCorrect: o.isCorrect,
           })),
-          explanation: { en: q.explanationEn, ar: q.explanationAr },
+          explanation: { en: q.explanationEn, ar: q.explanationAr, es: q.explanationEs },
         })),
       };
 
@@ -256,7 +261,7 @@ export default function NewQuizPage() {
                 </div>
 
                 {/* Question Text */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div>
                     <label className={labelClass}>Question (English)</label>
                     <input
@@ -274,6 +279,15 @@ export default function NewQuizPage() {
                       value={question.questionAr}
                       onChange={(e) => updateQuestion(qIndex, "questionAr", e.target.value)}
                       dir="rtl"
+                      className={inputClass}
+                    />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Question (Spanish)</label>
+                    <input
+                      type="text"
+                      value={question.questionEs}
+                      onChange={(e) => updateQuestion(qIndex, "questionEs", e.target.value)}
                       className={inputClass}
                     />
                   </div>
@@ -298,7 +312,7 @@ export default function NewQuizPage() {
                           title="Mark as correct"
                         />
                       </div>
-                      <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-3">
                         <input
                           type="text"
                           value={option.textEn}
@@ -313,6 +327,13 @@ export default function NewQuizPage() {
                           onChange={(e) => updateOption(qIndex, oIndex, "textAr", e.target.value)}
                           placeholder="Option (Arabic)"
                           dir="rtl"
+                          className={inputClass}
+                        />
+                        <input
+                          type="text"
+                          value={option.textEs}
+                          onChange={(e) => updateOption(qIndex, oIndex, "textEs", e.target.value)}
+                          placeholder="Option (Spanish)"
                           className={inputClass}
                         />
                       </div>
@@ -339,7 +360,7 @@ export default function NewQuizPage() {
                 </div>
 
                 {/* Explanation */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div>
                     <label className={labelClass}>Explanation (English, optional)</label>
                     <input
@@ -356,6 +377,15 @@ export default function NewQuizPage() {
                       value={question.explanationAr}
                       onChange={(e) => updateQuestion(qIndex, "explanationAr", e.target.value)}
                       dir="rtl"
+                      className={inputClass}
+                    />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Explanation (Spanish, optional)</label>
+                    <input
+                      type="text"
+                      value={question.explanationEs}
+                      onChange={(e) => updateQuestion(qIndex, "explanationEs", e.target.value)}
                       className={inputClass}
                     />
                   </div>

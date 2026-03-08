@@ -10,18 +10,19 @@
     "myAccount": "My Account",
     "dashboard": "Dashboard",
     "bookmarks": "Bookmarks",
+    "mentorship": "Mentorship",
     "adminPortal": "Admin Portal",
     "signOut": "Sign Out"
   },
   "home": {
     "hero": {
-      "title": "Path to Noor",
+      "title": "Basmet Dawah",
       "subtitle": "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.",
       "explorePaths": "Explore Learning Paths",
       "createAccount": "Create Account"
     },
     "features": {
-      "title": "Why Path to Noor?",
+      "title": "Why Basmet Dawah?",
       "subtitle": "Everything you need to begin your journey of learning, beautifully organized and always accessible.",
       "structuredPaths": {
         "title": "Structured Learning Paths",
@@ -36,9 +37,36 @@
         "description": "Mark lessons as complete, take quizzes, and see how far you've come on your learning journey."
       },
       "bilingual": {
-        "title": "Bilingual Support",
-        "description": "All content available in English and Arabic with full RTL support for Arabic readers."
+        "title": "Multilingual Support",
+        "description": "All content available in English, Arabic, and Spanish — with full RTL support for Arabic readers."
       }
+    },
+    "topics": {
+      "title": "Explore by Topic",
+      "subtitle": "Dive into a wide range of Islamic subjects, organized for easy discovery.",
+      "viewAll": "View All Topics"
+    },
+    "paths": {
+      "title": "Guided Learning Paths",
+      "subtitle": "Follow step-by-step journeys designed to take you from beginner to confident.",
+      "viewAll": "View All Paths"
+    },
+    "stats": {
+      "topics": "Topics",
+      "paths": "Learning Paths",
+      "lessons": "Lessons",
+      "languages": "Languages"
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Join thousands of learners exploring Islam at their own pace. Create a free account and begin today.",
+      "getStarted": "Get Started Free",
+      "browsePaths": "Browse Learning Paths"
+    },
+    "mentorBanner": {
+      "title": "Need Personal Guidance?",
+      "subtitle": "Request a mentor who can answer your questions and support you on your journey.",
+      "requestMentor": "Request a Mentor"
     }
   },
   "topics": {
@@ -100,6 +128,7 @@
     "lessonsCompleted": "Lessons Completed",
     "bookmarked": "Bookmarked",
     "quizzesPassed": "Quizzes Taken",
+    "topicsLearnt": "Topics Learnt",
     "memberSince": "Member since {date}",
     "saveChanges": "Save Changes",
     "updateSuccess": "Profile updated successfully.",
@@ -161,12 +190,39 @@
     "dontHaveAccount": "Don't have an account?",
     "welcomeBack": "Welcome back",
     "signInDescription": "Sign in to continue your learning journey",
-    "createAccountDescription": "Join Path to Noor and start your learning journey",
+    "createAccountDescription": "Join Basmet Dawah and start your learning journey",
+    "iAmA": "I am a...",
+    "revert": "New Muslim",
+    "revertDescription": "Learning about Islam",
+    "mentor": "Mentor",
+    "mentorDescription": "Helping others learn",
     "errorDefault": "Something went wrong. Please try again.",
     "errorCredentials": "Invalid email or password.",
     "errorEmailExists": "An account with this email already exists.",
     "registrationSuccess": "Account created! You can now sign in.",
     "forgotPassword": "Forgot password?"
+  },
+  "mentorship": {
+    "title": "Mentorship",
+    "requestMentor": "Request a Mentor",
+    "requestMentorDescription": "Get paired with an experienced mentor who can guide you on your learning journey.",
+    "yourMessage": "Your message (optional)",
+    "messagePlaceholder": "Tell us about what you'd like help with...",
+    "submitRequest": "Submit Request",
+    "requestPending": "Your mentor request is being reviewed",
+    "requestPendingDescription": "An admin will review your request and assign you a mentor soon.",
+    "mentorAssigned": "Your Mentor",
+    "mentorAssignedDescription": "You have been paired with a mentor who can guide you.",
+    "cancelRequest": "Cancel Request",
+    "requestSubmitted": "Request submitted successfully!",
+    "alreadyHasRequest": "You already have an active mentor request.",
+    "notRevert": "Mentor requests are only available for new Muslims.",
+    "loginRequired": "Sign in to request a mentor."
+  },
+  "topicProgress": {
+    "markLearnt": "Mark as Learnt",
+    "learnt": "Learnt",
+    "unmark": "Unmark"
   },
   "learning": {
     "lesson": "Lesson",

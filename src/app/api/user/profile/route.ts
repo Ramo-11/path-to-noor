@@ -12,7 +12,7 @@ export async function GET() {
   try {
     await connectDB();
     const user = await User.findById(session.user.id)
-      .select("name email image preferredLanguage role progress bookmarks quizResults createdAt")
+      .select("name email image preferredLanguage role userType progress bookmarks quizResults completedTopics createdAt")
       .lean();
 
     if (!user) {
@@ -29,9 +29,11 @@ export async function GET() {
         image: userAny.image,
         preferredLanguage: userAny.preferredLanguage,
         role: userAny.role,
+        userType: userAny.userType,
         lessonsCompleted: userAny.progress?.length || 0,
         bookmarksCount: userAny.bookmarks?.length || 0,
         quizzesCompleted: userAny.quizResults?.length || 0,
+        topicsCompleted: userAny.completedTopics?.length || 0,
         joinedAt: userAny.createdAt,
       },
     });
@@ -57,7 +59,7 @@ export async function PUT(request: NextRequest) {
     if (name && typeof name === "string" && name.trim().length > 0) {
       updates.name = name.trim();
     }
-    if (preferredLanguage === "en" || preferredLanguage === "ar") {
+    if (preferredLanguage === "en" || preferredLanguage === "ar" || preferredLanguage === "es") {
       updates.preferredLanguage = preferredLanguage;
     }
 

@@ -12,10 +12,10 @@ import { TopicDeleteButton } from "./TopicDeleteButton";
 
 interface TopicRow {
   _id: string;
-  name: { en: string; ar: string };
+  name: { en: string; ar: string; es: string };
   slug: string;
   icon: string;
-  parent: { _id: string; name: { en: string; ar: string }; slug: string } | null;
+  parent: { _id: string; name: { en: string; ar: string; es: string }; slug: string } | null;
   published: boolean;
   createdAt: string;
 }
@@ -46,7 +46,7 @@ export default async function TopicsPage({
       if (p && typeof p === "object" && "name" in p) {
         return {
           _id: String(p._id),
-          name: p.name as { en: string; ar: string },
+          name: p.name as { en: string; ar: string; es: string },
           slug: String(p.slug),
         };
       }

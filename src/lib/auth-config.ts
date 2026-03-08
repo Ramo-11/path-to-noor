@@ -33,6 +33,7 @@ const providers = [
         name: user.name,
         email: user.email,
         role: user.role,
+        userType: user.userType || undefined,
         preferredLanguage: user.preferredLanguage,
       };
     },
@@ -63,20 +64,40 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   },
 
   callbacks: {
-    async jwt({ token, user, trigger }) {
+    async jwt({ token, user, account, trigger }) {
       if (user) {
-        token.role = user.role;
-        token.id = user.id;
-        token.preferredLanguage = user.preferredLanguage;
+        if (account?.provider === "google") {
+          // Google sign-in: look up the DB user to get custom fields
+          try {
+            await connectDB();
+            const dbUser = await User.findOne({ email: user.email })
+              .select("role userType preferredLanguage")
+              .lean();
+            if (dbUser) {
+              token.id = dbUser._id.toString();
+              token.role = dbUser.role;
+              token.userType = (dbUser as { userType?: string }).userType;
+              token.preferredLanguage = dbUser.preferredLanguage;
+            }
+          } catch {
+            // Silently continue
+          }
+        } else {
+          token.role = user.role;
+          token.id = user.id;
+          token.userType = user.userType;
+          token.preferredLanguage = user.preferredLanguage;
+        }
       }
 
-      // Refresh role from DB when session is explicitly updated
+      // Refresh from DB when session is explicitly updated
       if (trigger === "update" && token.id) {
         try {
           await connectDB();
-          const dbUser = await User.findById(token.id).select("role preferredLanguage").lean();
+          const dbUser = await User.findById(token.id).select("role userType preferredLanguage").lean();
           if (dbUser) {
             token.role = dbUser.role;
+            token.userType = (dbUser as { userType?: string }).userType;
             token.preferredLanguage = dbUser.preferredLanguage;
           }
         } catch {
@@ -91,6 +112,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       if (session.user) {
         session.user.role = token.role as string;
         session.user.id = token.id as string;
+        session.user.userType = token.userType as string | undefined;
         session.user.preferredLanguage = token.preferredLanguage as string;
       }
       return session;

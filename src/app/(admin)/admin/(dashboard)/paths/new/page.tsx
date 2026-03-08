@@ -22,11 +22,15 @@ export default function NewPathPage() {
   const [form, setForm] = useState({
     titleEn: "",
     titleAr: "",
+    titleEs: "",
     descriptionEn: "",
     descriptionAr: "",
+    descriptionEs: "",
     thumbnail: "",
     difficulty: "beginner" as "beginner" | "intermediate" | "advanced",
     estimatedHours: 1,
+    audience: "all" as "all" | "revert" | "mentor",
+    guestAccessible: true,
     published: false,
   });
 
@@ -88,8 +92,8 @@ export default function NewPathPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          title: { en: form.titleEn, ar: form.titleAr },
-          description: { en: form.descriptionEn, ar: form.descriptionAr },
+          title: { en: form.titleEn, ar: form.titleAr, es: form.titleEs },
+          description: { en: form.descriptionEn, ar: form.descriptionAr, es: form.descriptionEs },
           thumbnail: form.thumbnail || undefined,
           difficulty: form.difficulty,
           estimatedHours: form.estimatedHours,
@@ -97,6 +101,8 @@ export default function NewPathPage() {
             moduleId: id,
             order: i + 1,
           })),
+          audience: form.audience,
+          guestAccessible: form.guestAccessible,
           published: form.published,
         }),
       });
@@ -142,7 +148,7 @@ export default function NewPathPage() {
             </div>
           )}
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label htmlFor="titleEn" className={labelClass}>
                 Title (English)
@@ -169,9 +175,21 @@ export default function NewPathPage() {
                 className={inputClass}
               />
             </div>
+            <div>
+              <label htmlFor="titleEs" className={labelClass}>
+                Title (Spanish)
+              </label>
+              <input
+                id="titleEs"
+                type="text"
+                value={form.titleEs}
+                onChange={(e) => updateField("titleEs", e.target.value)}
+                className={inputClass}
+              />
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label htmlFor="descEn" className={labelClass}>
                 Description (English)
@@ -195,6 +213,18 @@ export default function NewPathPage() {
                 onChange={(e) => updateField("descriptionAr", e.target.value)}
                 rows={3}
                 dir="rtl"
+                className={inputClass}
+              />
+            </div>
+            <div>
+              <label htmlFor="descEs" className={labelClass}>
+                Description (Spanish)
+              </label>
+              <textarea
+                id="descEs"
+                value={form.descriptionEs}
+                onChange={(e) => updateField("descriptionEs", e.target.value)}
+                rows={3}
                 className={inputClass}
               />
             </div>
@@ -320,6 +350,43 @@ export default function NewPathPage() {
               value={form.thumbnail}
               onChange={(url) => updateField("thumbnail", url)}
             />
+          </div>
+
+          {/* Audience & Guest Access */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="audience" className={labelClass}>
+                Audience
+              </label>
+              <select
+                id="audience"
+                value={form.audience}
+                onChange={(e) => updateField("audience", e.target.value)}
+                className={inputClass}
+              >
+                <option value="all">Everyone</option>
+                <option value="revert">Reverts Only</option>
+                <option value="mentor">Mentors Only</option>
+              </select>
+              <p className="mt-1 text-xs text-slate-400">Who should see this content</p>
+            </div>
+            <div className="flex items-start pt-7">
+              <div>
+                <div className="flex items-center gap-2">
+                  <input
+                    id="guestAccessible"
+                    type="checkbox"
+                    checked={form.guestAccessible}
+                    onChange={(e) => updateField("guestAccessible", e.target.checked)}
+                    className="rounded border-slate-300 dark:border-slate-600 text-primary-600 focus:ring-primary-500"
+                  />
+                  <label htmlFor="guestAccessible" className="text-sm text-slate-700 dark:text-slate-300">
+                    Available to guests
+                  </label>
+                </div>
+                <p className="mt-1 text-xs text-slate-400">Allow non-logged-in users to view this content</p>
+              </div>
+            </div>
           </div>
 
           <div className="flex items-center gap-2">

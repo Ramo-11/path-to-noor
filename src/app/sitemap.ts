@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const routes = ["", "/topics", "/paths"];
 
-  const locales = ["en", "ar"];
+  const locales = ["en", "ar", "es"];
 
   return locales.flatMap((locale) =>
     routes.map((route) => ({

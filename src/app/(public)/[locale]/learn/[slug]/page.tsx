@@ -31,8 +31,8 @@ export default async function LessonPage({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const lessonAny = lesson as any;
   const lessonId = lessonAny._id.toString();
-  const title = lessonAny.title as { en: string; ar: string };
-  const content = lessonAny.content as { en: unknown; ar: unknown } | undefined;
+  const title = lessonAny.title as { en: string; ar: string; es: string };
+  const content = lessonAny.content as { en: unknown; ar: unknown; es: unknown } | undefined;
   const estimatedMinutes = lessonAny.estimatedMinutes as number;
 
   // Check if there's a quiz for this lesson
@@ -58,7 +58,7 @@ export default async function LessonPage({
 
   // Select the correct content based on locale
   const localizedContent =
-    locale === "ar" ? content?.ar : content?.en;
+    locale === "ar" ? content?.ar : locale === "es" ? (content?.es || content?.en) : content?.en;
   const contentDir = locale === "ar" ? "rtl" : "ltr";
 
   return (
@@ -96,9 +96,9 @@ export default async function LessonPage({
 
           {/* Title — show both languages */}
           <h1 className="font-heading text-3xl font-bold sm:text-4xl tracking-tight text-slate-900 dark:text-white">
-            {title[locale as "en" | "ar"] || title.en}
+            {title[locale as "en" | "ar" | "es"] || title.en}
           </h1>
-          {title.en && title.ar && (
+          {title.en && title.ar && locale !== "es" && (
             <p
               className="mt-2 text-lg text-slate-500 dark:text-slate-400"
               dir={locale === "ar" ? "ltr" : "rtl"}

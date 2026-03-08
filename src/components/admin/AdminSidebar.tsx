@@ -14,6 +14,7 @@ import {
   ChevronLeft,
   ChevronRight,
   ExternalLink,
+  Handshake,
   type LucideIcon,
 } from "lucide-react";
 import { useState } from "react";
@@ -32,6 +33,7 @@ const navItems: NavItem[] = [
   { href: "/admin/modules", label: "Modules", icon: Library },
   { href: "/admin/lessons", label: "Lessons", icon: GraduationCap },
   { href: "/admin/quizzes", label: "Quizzes", icon: HelpCircle },
+  { href: "/admin/mentorship", label: "Mentorship", icon: Handshake },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/system-users", label: "System Users", icon: ShieldCheck, superAdminOnly: true },
 ];
@@ -57,7 +59,7 @@ export function AdminSidebar({ userRole }: AdminSidebarProps) {
       <div className="p-4 flex items-center justify-between border-b border-slate-800">
         {!collapsed && (
           <Link href="/admin" className="font-bold text-lg">
-            Path to Noor
+            Basmet Dawah
           </Link>
         )}
         <button

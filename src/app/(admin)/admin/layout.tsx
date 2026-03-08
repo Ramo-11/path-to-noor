@@ -2,7 +2,7 @@ import "@/app/globals.css";
 import { SessionProvider } from "next-auth/react";
 
 export const metadata = {
-  title: "Admin | Path to Noor",
+  title: "Admin | Basmet Dawah",
 };
 
 export default function AdminRootLayout({
