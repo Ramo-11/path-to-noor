@@ -17,7 +17,7 @@
   "home": {
     "hero": {
       "title": "Basmet Dawah",
-      "subtitle": "Una plataforma de aprendizaje guiado para nuevos musulmanes — explora el Islam a tu propio ritmo con rutas estructuradas, contenido confiable y soporte multilingüe.",
+      "subtitle": "¿Nuevo en el Islam y no sabes por dónde empezar? Basmet Dawah te ofrece rutas de aprendizaje claras y paso a paso diseñadas por educadores — para que siempre sepas exactamente qué aprender después.",
       "explorePaths": "Explorar Rutas de Aprendizaje",
       "createAccount": "Crear Cuenta"
     },
@@ -47,9 +47,21 @@
       "viewAll": "Ver Todos los Temas"
     },
     "paths": {
-      "title": "Rutas de Aprendizaje Guiadas",
-      "subtitle": "Sigue caminos paso a paso diseñados para llevarte de principiante a seguro.",
-      "viewAll": "Ver Todas las Rutas"
+      "badge": "Tu hoja de ruta hacia el conocimiento",
+      "title": "¿No Sabes Por Dónde Empezar?",
+      "subtitle": "Para eso existen las rutas de aprendizaje. Ya sea que acabas de tomar tu Shahada o llevas años siendo musulmán, estas guías paso a paso eliminan las dudas del aprendizaje. Elige una ruta, síguela y crece a tu propio ritmo — sin confusión, sin agobio.",
+      "whyPaths": "¿Por Qué Rutas de Aprendizaje?",
+      "reason1Title": "Sin Más Adivinanzas",
+      "reason1": "Cada ruta está diseñada por educadores para guiarte en el orden correcto — siempre sabrás qué aprender después.",
+      "reason2Title": "Rastrea Cada Paso",
+      "reason2": "Mira exactamente dónde estás, qué has completado y qué viene después. Tu progreso se guarda automáticamente.",
+      "reason3Title": "Hecho Para Ti",
+      "reason3": "Ya sea que quieras aprender a orar, entender el Corán o explorar la historia islámica — hay una ruta para eso.",
+      "startLearning": "Comenzar Esta Ruta",
+      "continueLearning": "Continuar Aprendiendo",
+      "viewAll": "Ver Todas las Rutas de Aprendizaje",
+      "lessonsCount": "{count} lecciones",
+      "featured": "Más Popular"
     },
     "stats": {
       "topics": "Temas",
@@ -84,7 +96,11 @@
     "startPath": "Comenzar a Aprender",
     "continuePath": "Continuar Aprendiendo",
     "hours": "{count} horas",
-    "moduleCount": "{count} módulos"
+    "moduleCount": "{count} módulos",
+    "yourProgress": "Tu Progreso",
+    "lessonsCompleted": "{completed} de {total} lecciones completadas",
+    "pathCompleted": "¡Has completado esta ruta!",
+    "notStarted": "Aún no has comenzado esta ruta. Empieza con la primera lección a continuación."
   },
   "lesson": {
     "backToPath": "Volver a la Ruta",

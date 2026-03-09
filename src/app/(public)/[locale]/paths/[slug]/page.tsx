@@ -17,6 +17,8 @@ import {
   ArrowRight,
   FileText,
   CheckCircle,
+  GraduationCap,
+  Trophy,
 } from "lucide-react";
 
 const difficultyColors: Record<string, string> = {
@@ -63,6 +65,28 @@ export default async function PathDetailPage({
   const validModules = (pathAny.modules || [])
     .filter((m: any) => m.moduleId)
     .sort((a: any, b: any) => a.order - b.order);
+
+  // Compute overall progress
+  let totalLessonsInPath = 0;
+  let completedLessonsInPath = 0;
+  for (const entry of validModules) {
+    const mod = entry.moduleId;
+    const lessons = (mod.lessons || []).filter((l: any) => l.lessonId);
+    totalLessonsInPath += lessons.length;
+    if (completedIds.length > 0) {
+      for (const l of lessons) {
+        if (completedIds.includes(l.lessonId._id.toString())) {
+          completedLessonsInPath++;
+        }
+      }
+    }
+  }
+  const progressPercentage =
+    totalLessonsInPath > 0
+      ? Math.round((completedLessonsInPath / totalLessonsInPath) * 100)
+      : 0;
+  const hasStarted = completedLessonsInPath > 0;
+  const isCompleted = hasStarted && completedLessonsInPath === totalLessonsInPath;
 
   return (
     <section className="py-16 sm:py-24">
@@ -116,6 +140,69 @@ export default async function PathDetailPage({
           </div>
         </AnimateIn>
 
+        {/* Progress Card (logged-in users only) */}
+        {session?.user && totalLessonsInPath > 0 && (
+          <AnimateIn preset="fade-up" className="mb-10">
+            <div
+              className={`rounded-2xl border p-6 sm:p-8 ${
+                isCompleted
+                  ? "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-200 dark:border-emerald-800"
+                  : "bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800"
+              }`}
+            >
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+                <div
+                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl shrink-0 ${
+                    isCompleted
+                      ? "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600"
+                      : "bg-primary-100 dark:bg-primary-900/30 text-primary-600"
+                  }`}
+                >
+                  {isCompleted ? (
+                    <Trophy className="h-6 w-6" />
+                  ) : (
+                    <GraduationCap className="h-6 w-6" />
+                  )}
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="font-heading text-base font-semibold text-slate-900 dark:text-white">
+                      {t("yourProgress")}
+                    </h3>
+                    <span
+                      className={`text-sm font-bold ${
+                        isCompleted
+                          ? "text-emerald-600 dark:text-emerald-400"
+                          : "text-primary-600 dark:text-primary-400"
+                      }`}
+                    >
+                      {progressPercentage}%
+                    </span>
+                  </div>
+                  <div className="h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden mb-2">
+                    <div
+                      className={`h-full rounded-full transition-all duration-500 ${
+                        isCompleted ? "bg-emerald-500" : "bg-primary-500"
+                      }`}
+                      style={{ width: `${progressPercentage}%` }}
+                    />
+                  </div>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                    {isCompleted
+                      ? t("pathCompleted")
+                      : hasStarted
+                        ? t("lessonsCompleted", {
+                            completed: completedLessonsInPath,
+                            total: totalLessonsInPath,
+                          })
+                        : t("notStarted")}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </AnimateIn>
+        )}
+
         {/* Module list */}
         {validModules.length > 0 && (
           <StaggerContainer className="space-y-6">
@@ -125,16 +212,36 @@ export default async function PathDetailPage({
                 .filter((l: any) => l.lessonId)
                 .sort((a: any, b: any) => a.order - b.order);
 
+              const moduleLessonCount = lessons.length;
+              const moduleCompletedCount = session?.user
+                ? lessons.filter((l: any) =>
+                    completedIds.includes(l.lessonId._id.toString())
+                  ).length
+                : 0;
+              const moduleComplete =
+                moduleLessonCount > 0 &&
+                moduleCompletedCount === moduleLessonCount;
+
               return (
                 <StaggerItem key={mod._id.toString()}>
                   <div className="rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 overflow-hidden">
                     {/* Module header */}
                     <div className="p-6 border-b border-slate-100 dark:border-slate-800">
                       <div className="flex items-center gap-4">
-                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-600 text-white text-sm font-bold shrink-0">
-                          {index + 1}
+                        <span
+                          className={`inline-flex items-center justify-center w-10 h-10 rounded-full text-sm font-bold shrink-0 ${
+                            moduleComplete
+                              ? "bg-emerald-500 text-white"
+                              : "bg-primary-600 text-white"
+                          }`}
+                        >
+                          {moduleComplete ? (
+                            <CheckCircle className="h-5 w-5" />
+                          ) : (
+                            index + 1
+                          )}
                         </span>
-                        <div>
+                        <div className="flex-1">
                           <h2 className="font-heading text-xl font-semibold text-slate-900 dark:text-white">
                             {mod.title[locale] || mod.title.en}
                           </h2>
@@ -145,6 +252,11 @@ export default async function PathDetailPage({
                             </p>
                           )}
                         </div>
+                        {session?.user && moduleLessonCount > 0 && (
+                          <span className="text-xs text-slate-500 dark:text-slate-400 shrink-0">
+                            {moduleCompletedCount}/{moduleLessonCount}
+                          </span>
+                        )}
                       </div>
                     </div>
 

@@ -26,6 +26,10 @@ import {
   ArrowLeft,
   Handshake,
   Sparkles,
+  Compass,
+  CheckCircle2,
+  UserCheck,
+  GraduationCap,
 } from "lucide-react";
 
 const featureIcons = [BookOpen, Route, BarChart3, Languages];
@@ -45,6 +49,16 @@ const difficultyColors: Record<string, string> = {
     "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function countLessonsInPath(path: any): number {
+  let count = 0;
+  for (const mod of path.modules || []) {
+    if (!mod.moduleId) continue;
+    count += mod.moduleId.lessons?.length || 0;
+  }
+  return count;
+}
+
 export default async function HomePage({
   params,
 }: {
@@ -58,16 +72,20 @@ export default async function HomePage({
   const session = await auth();
   const ctx = { userType: session?.user?.userType, isGuest: !session?.user };
 
-  const [rootTopics, paths, stats] = await Promise.all([
+  const [rootTopics, allPaths, stats] = await Promise.all([
     getPublicTopics(ctx).then((topics) =>
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       topics.filter((t: any) => !t.parent).slice(0, 6)
     ),
-    getPublicLearningPaths(ctx).then((p) => p.slice(0, 3)),
+    getPublicLearningPaths(ctx),
     getHomepageStats(),
   ]);
 
+  const featuredPath = allPaths[0] || null;
+  const otherPaths = allPaths.slice(1, 4);
   const GoArrow = locale === "ar" ? ArrowLeft : ArrowRight;
+
+  const reasonIcons = [Compass, BarChart3, UserCheck];
 
   return (
     <>
@@ -93,9 +111,11 @@ export default async function HomePage({
               <Button href="/paths" size="lg">
                 {t("hero.explorePaths")}
               </Button>
-              <Button href="/register" variant="outline" size="lg">
-                {t("hero.createAccount")}
-              </Button>
+              {!session?.user && (
+                <Button href="/register" variant="outline" size="lg">
+                  {t("hero.createAccount")}
+                </Button>
+              )}
             </div>
           </AnimateIn>
         </Container>
@@ -107,14 +127,6 @@ export default async function HomePage({
           <AnimateIn preset="fade-up">
             <div className="glass-card rounded-2xl shadow-lg p-6 sm:p-8">
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
-                <div>
-                  <p className="text-3xl sm:text-4xl font-bold text-primary-700 dark:text-primary-300 stat-glow">
-                    <AnimatedCounter value={stats.topicCount} />
-                  </p>
-                  <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-                    {t("stats.topics")}
-                  </p>
-                </div>
                 <div>
                   <p className="text-3xl sm:text-4xl font-bold text-primary-700 dark:text-primary-300 stat-glow">
                     <AnimatedCounter value={stats.pathCount} />
@@ -132,6 +144,14 @@ export default async function HomePage({
                   </p>
                 </div>
                 <div>
+                  <p className="text-3xl sm:text-4xl font-bold text-primary-700 dark:text-primary-300 stat-glow">
+                    <AnimatedCounter value={stats.topicCount} />
+                  </p>
+                  <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+                    {t("stats.topics")}
+                  </p>
+                </div>
+                <div>
                   <p className="text-3xl sm:text-4xl font-bold text-accent-600 dark:text-accent-400 stat-glow">
                     <AnimatedCounter value={stats.languageCount} />
                   </p>
@@ -145,9 +165,184 @@ export default async function HomePage({
         </Container>
       </section>
 
+      {/* ══════════════════════════════════════════════════════════
+          LEARNING PATHS — THE MAIN EVENT
+          ══════════════════════════════════════════════════════════ */}
+      {allPaths.length > 0 && (
+        <section className="py-20 sm:py-28 section-divider">
+          <Container>
+            {/* Section Header */}
+            <AnimateIn preset="fade-up" className="text-center mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-100/80 dark:bg-accent-900/40 text-accent-700 dark:text-accent-300 text-sm font-medium mb-4">
+                <Route className="h-3.5 w-3.5" />
+                {t("paths.badge")}
+              </div>
+              <h2 className="font-heading text-3xl font-bold sm:text-4xl lg:text-5xl tracking-tight text-slate-900 dark:text-white">
+                {t("paths.title")}
+              </h2>
+              <div className="mt-3 decorative-line-center" />
+              <p className="mt-6 max-w-2xl mx-auto text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                {t("paths.subtitle")}
+              </p>
+            </AnimateIn>
+
+            {/* Why Learning Paths — 3 reasons */}
+            <AnimateIn preset="fade-up" className="mt-12 mb-16">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                {([1, 2, 3] as const).map((n) => {
+                  const Icon = reasonIcons[n - 1];
+                  return (
+                    <div
+                      key={n}
+                      className="flex flex-col items-center text-center p-6 rounded-2xl bg-slate-50/80 dark:bg-slate-900/50 border border-slate-100 dark:border-slate-800"
+                    >
+                      <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-primary-100 dark:bg-primary-900/30 text-primary-600 mb-4">
+                        <Icon className="h-5 w-5" />
+                      </div>
+                      <h3 className="font-heading text-base font-semibold text-slate-900 dark:text-white mb-1.5">
+                        {t(`paths.reason${n}Title`)}
+                      </h3>
+                      <p className="text-sm leading-relaxed text-slate-500 dark:text-slate-400">
+                        {t(`paths.reason${n}`)}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </AnimateIn>
+
+            {/* Featured Path — Hero Card */}
+            {featuredPath && (
+              <AnimateIn preset="fade-up" className="mb-8">
+                <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary-700 to-primary-900 dark:from-primary-800 dark:to-primary-950 noise-overlay">
+                  <div className="relative z-10 p-8 sm:p-12 flex flex-col lg:flex-row lg:items-center gap-8">
+                    <div className="flex-1">
+                      <div className="flex flex-wrap items-center gap-3 mb-4">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent-500/20 text-accent-300 text-xs font-medium">
+                          <Sparkles className="h-3 w-3" />
+                          {t("paths.featured")}
+                        </span>
+                        <span
+                          className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium ${
+                            difficultyColors[featuredPath.difficulty] ||
+                            difficultyColors.beginner
+                          }`}
+                        >
+                          {tLearning(`difficulty.${featuredPath.difficulty}`)}
+                        </span>
+                      </div>
+                      <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white mb-3">
+                        {featuredPath.title[locale as "en" | "ar" | "es"] || featuredPath.title.en}
+                      </h3>
+                      <p className="text-primary-200 leading-relaxed max-w-xl mb-6">
+                        {featuredPath.description[locale as "en" | "ar" | "es"] || featuredPath.description.en}
+                      </p>
+                      <div className="flex flex-wrap items-center gap-5 text-sm text-primary-300">
+                        <span className="inline-flex items-center gap-1.5">
+                          <Clock className="h-4 w-4" />
+                          {tPaths("hours", { count: featuredPath.estimatedHours })}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <Layers className="h-4 w-4" />
+                          {tPaths("moduleCount", {
+                            count: featuredPath.modules?.filter(
+                              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                              (m: any) => m.moduleId
+                            ).length || 0,
+                          })}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <GraduationCap className="h-4 w-4" />
+                          {t("paths.lessonsCount", {
+                            count: countLessonsInPath(featuredPath),
+                          })}
+                        </span>
+                      </div>
+                    </div>
+                    <div className="shrink-0">
+                      <Link
+                        href={`/paths/${featuredPath.slug}`}
+                        className="inline-flex items-center gap-2 rounded-lg bg-white text-primary-700 hover:bg-primary-50 transition-colors px-7 py-3.5 text-sm font-semibold shadow-lg"
+                      >
+                        {t("paths.startLearning")}
+                        <GoArrow className="h-4 w-4" />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </AnimateIn>
+            )}
+
+            {/* Other Paths — Grid */}
+            {otherPaths.length > 0 && (
+              <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                {otherPaths.map((path: any) => {
+                  const moduleCount =
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    path.modules?.filter((m: any) => m.moduleId).length || 0;
+                  const lessonCount = countLessonsInPath(path);
+
+                  return (
+                    <StaggerItem key={path._id.toString()}>
+                      <Link href={`/paths/${path.slug}`} className="block group h-full">
+                        <div className="card-hover rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 h-full flex flex-col">
+                          <div className="flex items-center justify-between mb-4">
+                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 text-primary-600 group-hover:bg-primary-200 dark:group-hover:bg-primary-900/50 transition-colors">
+                              <Route className="h-6 w-6" />
+                            </div>
+                            <span
+                              className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium ${
+                                difficultyColors[path.difficulty] ||
+                                difficultyColors.beginner
+                              }`}
+                            >
+                              {tLearning(`difficulty.${path.difficulty}`)}
+                            </span>
+                          </div>
+
+                          <h3 className="font-heading text-lg font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                            {path.title[locale] || path.title.en}
+                          </h3>
+                          <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400 line-clamp-3 mb-4">
+                            {path.description[locale] || path.description.en}
+                          </p>
+
+                          <div className="flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400 mt-auto">
+                            <span className="inline-flex items-center gap-1">
+                              <Clock className="h-3.5 w-3.5" />
+                              {tPaths("hours", { count: path.estimatedHours })}
+                            </span>
+                            <span className="inline-flex items-center gap-1">
+                              <Layers className="h-3.5 w-3.5" />
+                              {tPaths("moduleCount", { count: moduleCount })}
+                            </span>
+                            <span className="inline-flex items-center gap-1">
+                              <GraduationCap className="h-3.5 w-3.5" />
+                              {t("paths.lessonsCount", { count: lessonCount })}
+                            </span>
+                          </div>
+                        </div>
+                      </Link>
+                    </StaggerItem>
+                  );
+                })}
+              </StaggerContainer>
+            )}
+
+            <AnimateIn preset="fade-up" className="text-center mt-10">
+              <Button href="/paths" size="lg">
+                {t("paths.viewAll")}
+                <GoArrow className="h-4 w-4 ms-2" />
+              </Button>
+            </AnimateIn>
+          </Container>
+        </section>
+      )}
+
       {/* ──────────────── Topics ──────────────── */}
       {rootTopics.length > 0 && (
-        <section className="py-20 sm:py-28 section-divider">
+        <section className="py-20 sm:py-28 bg-slate-50/50 dark:bg-slate-900/30">
           <Container>
             <AnimateIn preset="fade-up" className="text-center mb-12">
               <h2 className="font-heading text-3xl font-bold sm:text-4xl tracking-tight text-slate-900 dark:text-white">
@@ -181,85 +376,6 @@ export default async function HomePage({
             <AnimateIn preset="fade-up" className="text-center mt-10">
               <Button href="/topics" variant="outline" size="md">
                 {t("topics.viewAll")}
-                <GoArrow className="h-4 w-4 ms-2" />
-              </Button>
-            </AnimateIn>
-          </Container>
-        </section>
-      )}
-
-      {/* ──────────────── Learning Paths ──────────────── */}
-      {paths.length > 0 && (
-        <section className="py-20 sm:py-28 bg-slate-50/50 dark:bg-slate-900/30">
-          <Container>
-            <AnimateIn preset="fade-up" className="text-center mb-12">
-              <h2 className="font-heading text-3xl font-bold sm:text-4xl tracking-tight text-slate-900 dark:text-white">
-                {t("paths.title")}
-              </h2>
-              <div className="mt-3 decorative-line-center" />
-              <p className="mt-6 max-w-2xl mx-auto text-lg leading-relaxed text-slate-600 dark:text-slate-400">
-                {t("paths.subtitle")}
-              </p>
-            </AnimateIn>
-
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-              {paths.map((path: any) => {
-                const moduleCount =
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  path.modules?.filter((m: any) => m.moduleId).length || 0;
-
-                return (
-                  <StaggerItem key={path._id.toString()}>
-                    <div className="card-hover rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 h-full flex flex-col">
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 text-primary-600">
-                          <Route className="h-6 w-6" />
-                        </div>
-                        <span
-                          className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium ${
-                            difficultyColors[path.difficulty] ||
-                            difficultyColors.beginner
-                          }`}
-                        >
-                          {tLearning(`difficulty.${path.difficulty}`)}
-                        </span>
-                      </div>
-
-                      <h3 className="font-heading text-lg font-semibold text-slate-900 dark:text-white mb-2">
-                        {path.title[locale] || path.title.en}
-                      </h3>
-                      <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400 line-clamp-3 mb-4">
-                        {path.description[locale] || path.description.en}
-                      </p>
-
-                      <div className="flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400 mb-6 mt-auto">
-                        <span className="inline-flex items-center gap-1">
-                          <Clock className="h-3.5 w-3.5" />
-                          {tPaths("hours", { count: path.estimatedHours })}
-                        </span>
-                        <span className="inline-flex items-center gap-1">
-                          <Layers className="h-3.5 w-3.5" />
-                          {tPaths("moduleCount", { count: moduleCount })}
-                        </span>
-                      </div>
-
-                      <Link
-                        href={`/paths/${path.slug}`}
-                        className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary-600 text-white hover:bg-primary-700 transition-colors px-5 py-2.5 text-sm font-semibold"
-                      >
-                        {tPaths("startPath")}
-                        <GoArrow className="h-4 w-4" />
-                      </Link>
-                    </div>
-                  </StaggerItem>
-                );
-              })}
-            </StaggerContainer>
-
-            <AnimateIn preset="fade-up" className="text-center mt-10">
-              <Button href="/paths" variant="outline" size="md">
-                {t("paths.viewAll")}
                 <GoArrow className="h-4 w-4 ms-2" />
               </Button>
             </AnimateIn>

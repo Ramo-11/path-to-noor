@@ -17,7 +17,7 @@
   "home": {
     "hero": {
       "title": "Basmet Dawah",
-      "subtitle": "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.",
+      "subtitle": "New to Islam and not sure where to begin? Basmet Dawah gives you clear, step-by-step learning paths designed by educators — so you always know exactly what to learn next.",
       "explorePaths": "Explore Learning Paths",
       "createAccount": "Create Account"
     },
@@ -47,9 +47,21 @@
       "viewAll": "View All Topics"
     },
     "paths": {
-      "title": "Guided Learning Paths",
-      "subtitle": "Follow step-by-step journeys designed to take you from beginner to confident.",
-      "viewAll": "View All Paths"
+      "badge": "Your roadmap to knowledge",
+      "title": "Don't Know Where to Start?",
+      "subtitle": "That's exactly why learning paths exist. Whether you just took your Shahada or you've been Muslim for years, these step-by-step guides take the guesswork out of learning. Pick a path, follow along, and grow at your own pace — no confusion, no overwhelm.",
+      "whyPaths": "Why Learning Paths?",
+      "reason1Title": "No More Guesswork",
+      "reason1": "Each path is carefully designed by educators to guide you in the right order — so you always know what to learn next.",
+      "reason2Title": "Track Every Step",
+      "reason2": "See exactly where you are, what you've completed, and what's coming next. Your progress is saved automatically.",
+      "reason3Title": "Built for You",
+      "reason3": "Whether you want to learn to pray, understand the Quran, or explore Islamic history — there's a path for that.",
+      "startLearning": "Start This Path",
+      "continueLearning": "Continue Learning",
+      "viewAll": "View All Learning Paths",
+      "lessonsCount": "{count} lessons",
+      "featured": "Most Popular"
     },
     "stats": {
       "topics": "Topics",
@@ -84,7 +96,11 @@
     "startPath": "Start Learning",
     "continuePath": "Continue Learning",
     "hours": "{count} hours",
-    "moduleCount": "{count} modules"
+    "moduleCount": "{count} modules",
+    "yourProgress": "Your Progress",
+    "lessonsCompleted": "{completed} of {total} lessons completed",
+    "pathCompleted": "You've completed this path!",
+    "notStarted": "You haven't started this path yet. Begin with the first lesson below."
   },
   "lesson": {
     "backToPath": "Back to Path",

@@ -28,8 +28,8 @@ export function Navbar() {
 
   const navLinks = [
     { href: "/", label: t("home") },
-    { href: "/topics", label: t("topics") },
     { href: "/paths", label: t("paths") },
+    { href: "/topics", label: t("topics") },
   ];
 
   const [langOpen, setLangOpen] = useState(false);

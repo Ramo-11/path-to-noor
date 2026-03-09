@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Route, Pencil, Trash2 } from "lucide-react";
-import { getLearningPaths } from "@/lib/data";
+import { Route, Pencil, Users, BarChart3 } from "lucide-react";
+import { getLearningPaths, getPopularPaths } from "@/lib/data";
 import { paginationSchema } from "@/lib/validations";
 import { AdminPageHeader } from "@/components/admin/AdminPageHeader";
 import { SearchBar } from "@/components/admin/SearchBar";
@@ -17,6 +17,8 @@ interface SerializedPath {
   estimatedHours: number;
   modules: Array<{ moduleId: string; order: number }>;
   published: boolean;
+  enrolledUsers: number;
+  avgCompletion: number;
 }
 
 const difficultyColors: Record<string, string> = {
@@ -75,6 +77,39 @@ const columns: Column<SerializedPath>[] = [
     ),
   },
   {
+    key: "enrolledUsers",
+    header: "Enrolled",
+    render: (item) => (
+      <span className="text-slate-600 dark:text-slate-400">
+        {item.enrolledUsers > 0 ? (
+          <span className="inline-flex items-center gap-1">
+            <Users className="h-3.5 w-3.5" />
+            {item.enrolledUsers}
+          </span>
+        ) : (
+          <span className="text-slate-400">&mdash;</span>
+        )}
+      </span>
+    ),
+  },
+  {
+    key: "avgCompletion",
+    header: "Avg. Completion",
+    render: (item) => (
+      <div className="flex items-center gap-2 min-w-[120px]">
+        <div className="flex-1 h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+          <div
+            className="h-full bg-primary-500 rounded-full"
+            style={{ width: `${item.avgCompletion}%` }}
+          />
+        </div>
+        <span className="text-xs text-slate-500 dark:text-slate-400 w-8 text-right">
+          {item.avgCompletion}%
+        </span>
+      </div>
+    ),
+  },
+  {
     key: "published",
     header: "Status",
     render: (item) => <StatusBadge published={item.published} />,
@@ -85,6 +120,13 @@ const columns: Column<SerializedPath>[] = [
     className: "text-right",
     render: (item) => (
       <div className="flex items-center justify-end gap-2">
+        <Link
+          href={`/admin/paths/${item._id}/analytics`}
+          className="p-1.5 rounded-lg text-slate-500 hover:text-accent-600 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors"
+          title="Analytics"
+        >
+          <BarChart3 className="h-4 w-4" />
+        </Link>
         <Link
           href={`/admin/paths/${item._id}`}
           className="p-1.5 rounded-lg text-slate-500 hover:text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors"
@@ -105,21 +147,33 @@ export default async function PathsPage({
 }) {
   const rawParams = await searchParams;
   const params = paginationSchema.parse(rawParams);
-  const { data, pagination } = await getLearningPaths(params);
+
+  const [{ data, pagination }, popularPaths] = await Promise.all([
+    getLearningPaths(params),
+    getPopularPaths(),
+  ]);
+
+  // Build a map of path stats by ID
+  const pathStatsMap = new Map(popularPaths.map((p) => [p._id, p]));
 
   // Serialize for client components
-  const serialized: SerializedPath[] = data.map((path) => ({
-    _id: path._id.toString(),
-    title: path.title,
-    slug: path.slug,
-    difficulty: path.difficulty,
-    estimatedHours: path.estimatedHours,
-    modules: path.modules.map((m) => ({
-      moduleId: m.moduleId.toString(),
-      order: m.order,
-    })),
-    published: path.published,
-  }));
+  const serialized: SerializedPath[] = data.map((path) => {
+    const stats = pathStatsMap.get(path._id.toString());
+    return {
+      _id: path._id.toString(),
+      title: path.title,
+      slug: path.slug,
+      difficulty: path.difficulty,
+      estimatedHours: path.estimatedHours,
+      modules: path.modules.map((m) => ({
+        moduleId: m.moduleId.toString(),
+        order: m.order,
+      })),
+      published: path.published,
+      enrolledUsers: stats?.enrolledUsers || 0,
+      avgCompletion: stats?.avgCompletion || 0,
+    };
+  });
 
   return (
     <div>

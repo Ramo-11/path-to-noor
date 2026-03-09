@@ -673,6 +673,97 @@ export async function getPopularPaths() {
 }
 
 // ---------------------------------------------------------------------------
+// Analytics: Path Detail (enrolled users, completion per user)
+// ---------------------------------------------------------------------------
+
+export async function getPathAnalytics(pathId: string) {
+  await connectDB();
+
+  const path = await LearningPath.findById(pathId)
+    .populate({
+      path: "modules.moduleId",
+      select: "title lessons",
+      populate: {
+        path: "lessons.lessonId",
+        select: "_id title",
+      },
+    })
+    .lean();
+
+  if (!path) return null;
+
+  // Collect all lesson IDs in this path
+  const lessonIds = new Set<string>();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const pathAny = path as any;
+  for (const mod of pathAny.modules || []) {
+    if (!mod.moduleId) continue;
+    for (const lesson of mod.moduleId.lessons || []) {
+      if (lesson.lessonId?._id) {
+        lessonIds.add(lesson.lessonId._id.toString());
+      }
+    }
+  }
+
+  const totalLessons = lessonIds.size;
+
+  // Get all users who have completed at least one lesson in this path
+  const usersWithProgress = await User.find(
+    { "progress.0": { $exists: true } },
+    { name: 1, email: 1, progress: 1, createdAt: 1 }
+  ).lean();
+
+  const enrolledUsers: Array<{
+    _id: string;
+    name: string;
+    email: string;
+    completedLessons: number;
+    totalLessons: number;
+    percentage: number;
+    lastActivity: Date;
+  }> = [];
+
+  for (const user of usersWithProgress) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const userAny = user as any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const completedInPath = userAny.progress.filter((p: any) =>
+      lessonIds.has(p.lessonId.toString())
+    );
+
+    if (completedInPath.length > 0) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const lastActivity = completedInPath.reduce((latest: Date, p: any) =>
+        p.completedAt > latest ? p.completedAt : latest, completedInPath[0].completedAt
+      );
+
+      enrolledUsers.push({
+        _id: userAny._id.toString(),
+        name: userAny.name,
+        email: userAny.email,
+        completedLessons: completedInPath.length,
+        totalLessons,
+        percentage: totalLessons > 0 ? Math.round((completedInPath.length / totalLessons) * 100) : 0,
+        lastActivity,
+      });
+    }
+  }
+
+  // Sort by most recently active
+  enrolledUsers.sort((a, b) => new Date(b.lastActivity).getTime() - new Date(a.lastActivity).getTime());
+
+  return {
+    totalLessons,
+    enrolledCount: enrolledUsers.length,
+    avgCompletion: enrolledUsers.length > 0
+      ? Math.round(enrolledUsers.reduce((sum, u) => sum + u.percentage, 0) / enrolledUsers.length)
+      : 0,
+    completedCount: enrolledUsers.filter(u => u.percentage === 100).length,
+    enrolledUsers,
+  };
+}
+
+// ---------------------------------------------------------------------------
 // Admin: User Detail (full profile with progress data)
 // ---------------------------------------------------------------------------
 
