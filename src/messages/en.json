@@ -176,6 +176,7 @@
     "checkEmail": "Check Your Email",
     "checkEmailDescription": "If an account with that email exists, we've sent a password reset link. It expires in 1 hour.",
     "backToLogin": "Back to Sign In",
+    "oauthHint": "If you signed up with Google, no reset is needed — just use \"Continue with Google\" to sign in.",
     "error": "Something went wrong. Please try again."
   },
   "resetPassword": {

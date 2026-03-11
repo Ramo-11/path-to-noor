@@ -176,6 +176,7 @@
     "checkEmail": "Revisa Tu Correo",
     "checkEmailDescription": "Si existe una cuenta con ese correo, hemos enviado un enlace para restablecer la contraseña. Expira en 1 hora.",
     "backToLogin": "Volver a Iniciar Sesión",
+    "oauthHint": "Si te registraste con Google, no necesitas restablecer tu contrasena — solo usa \"Continuar con Google\" para iniciar sesion.",
     "error": "Algo salió mal. Por favor, intenta de nuevo."
   },
   "resetPassword": {

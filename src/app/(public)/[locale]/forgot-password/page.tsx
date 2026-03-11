@@ -13,7 +13,6 @@ export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
-  const [oauthOnly, setOauthOnly] = useState(false);
   const [error, setError] = useState("");
 
   const BackArrow = locale === "ar" ? ArrowRight : ArrowLeft;
@@ -30,14 +29,9 @@ export default function ForgotPasswordPage() {
         body: JSON.stringify({ email }),
       });
 
-      const data = await res.json();
       if (!res.ok) {
+        const data = await res.json();
         setError(data.error || t("error"));
-        return;
-      }
-
-      if (data.oauthOnly) {
-        setOauthOnly(true);
         return;
       }
 
@@ -53,42 +47,17 @@ export default function ForgotPasswordPage() {
     <section className="py-12 sm:py-20">
       <div className="max-w-md mx-auto px-4">
         <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-8">
-          {oauthOnly ? (
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 mx-auto mb-4">
-                <svg className="h-6 w-6" viewBox="0 0 24 24">
-                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4" />
-                  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
-                  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05" />
-                  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
-                </svg>
-              </div>
-              <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-2">
-                {locale === "ar" ? "حسابك مرتبط بجوجل" : locale === "es" ? "Tu cuenta usa Google" : "Your account uses Google"}
-              </h1>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-                {locale === "ar"
-                  ? "هذا الحساب تم إنشاؤه باستخدام تسجيل الدخول بجوجل. لا تحتاج إلى كلمة مرور — فقط اضغط \"المتابعة مع جوجل\" لتسجيل الدخول."
-                  : locale === "es"
-                    ? "Esta cuenta fue creada con inicio de sesion de Google. No necesitas una contrasena — solo haz clic en \"Continuar con Google\" para iniciar sesion."
-                    : "This account was created with Google sign-in. You don't need a password — just click \"Continue with Google\" to sign in."}
-              </p>
-              <Link
-                href="/login"
-                className="inline-flex items-center gap-2 px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors text-sm"
-              >
-                <BackArrow className="h-4 w-4" />
-                {t("backToLogin")}
-              </Link>
-            </div>
-          ) : sent ? (
+          {sent ? (
             <div className="text-center">
               <CheckCircle className="h-12 w-12 text-emerald-500 mx-auto mb-4" />
               <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-2">
                 {t("checkEmail")}
               </h1>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
+              <p className="text-sm text-slate-600 dark:text-slate-400 mb-4">
                 {t("checkEmailDescription")}
+              </p>
+              <p className="text-xs text-slate-400 dark:text-slate-500 mb-6">
+                {t("oauthHint")}
               </p>
               <Link
                 href="/login"

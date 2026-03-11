@@ -49,14 +49,9 @@ export async function POST(request: NextRequest) {
       const resetUrl = `${siteUrl}/en/reset-password?token=${token}`;
 
       await sendPasswordResetEmail(email, user.name, resetUrl);
-    } else if (user && !user.password) {
-      // OAuth-only account — no password to reset
-      return NextResponse.json({
-        message: "Check your email",
-        oauthOnly: true,
-      });
     }
 
+    // Always return same response to prevent email enumeration
     return NextResponse.json({
       message:
         "If an account with that email exists, a password reset link has been sent.",
