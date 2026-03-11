@@ -16,7 +16,27 @@ import {
   CheckCircle,
   Eye,
   EyeOff,
+  Target,
+  Trophy,
+  Flame,
+  Map,
+  BarChart3,
+  Clock,
 } from "lucide-react";
+
+interface PathProgress {
+  title: { en: string; ar: string; es: string };
+  slug: string;
+  completedLessons: number;
+  totalLessons: number;
+  percentage: number;
+}
+
+interface RecentActivityItem {
+  title: { en: string; ar: string; es: string };
+  slug: string;
+  completedAt: string;
+}
 
 interface ProfileData {
   name: string;
@@ -30,6 +50,14 @@ interface ProfileData {
   quizzesCompleted: number;
   topicsCompleted: number;
   joinedAt: string;
+  quizAvgScore: number;
+  quizPassRate: number;
+  streakDays: number;
+  totalLearningPaths: number;
+  pathsStarted: number;
+  pathsCompleted: number;
+  pathProgress: PathProgress[];
+  recentActivity: RecentActivityItem[];
 }
 
 export default function ProfilePage() {
@@ -140,6 +168,10 @@ export default function ProfilePage() {
     }
   }
 
+  function getLocalizedTitle(title: { en: string; ar: string; es: string }): string {
+    return title[locale as "en" | "ar" | "es"] || title.en;
+  }
+
   if (status === "unauthenticated") {
     return (
       <section className="py-16 sm:py-24">
@@ -188,9 +220,10 @@ export default function ProfilePage() {
           <div className="mt-3 decorative-line" />
         </div>
 
-        {/* Stats */}
+        {/* Stats Grid */}
         {profile && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            {/* Lessons Completed */}
             <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
               <div className="p-2 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600">
                 <BookOpen className="h-5 w-5" />
@@ -204,6 +237,8 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
+
+            {/* Bookmarks */}
             <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
               <div className="p-2 rounded-lg bg-accent-100 dark:bg-accent-900/30 text-accent-600">
                 <Bookmark className="h-5 w-5" />
@@ -217,6 +252,8 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
+
+            {/* Quizzes Taken */}
             <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
               <div className="p-2 rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600">
                 <FileQuestion className="h-5 w-5" />
@@ -230,6 +267,8 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
+
+            {/* Topics Learnt */}
             <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
               <div className="p-2 rounded-lg bg-sky-100 dark:bg-sky-900/30 text-sky-600">
                 <CheckCircle className="h-5 w-5" />
@@ -243,6 +282,186 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
+
+            {/* Quiz Avg Score */}
+            <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
+              <div className="p-2 rounded-lg bg-violet-100 dark:bg-violet-900/30 text-violet-600">
+                <BarChart3 className="h-5 w-5" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-slate-900 dark:text-white">
+                  {profile.quizAvgScore}%
+                </p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {t("quizAvgScore")}
+                </p>
+              </div>
+            </div>
+
+            {/* Quiz Pass Rate */}
+            <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
+              <div className="p-2 rounded-lg bg-teal-100 dark:bg-teal-900/30 text-teal-600">
+                <Target className="h-5 w-5" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-slate-900 dark:text-white">
+                  {profile.quizPassRate}%
+                </p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {t("quizPassRate")}
+                </p>
+              </div>
+            </div>
+
+            {/* Paths Started */}
+            <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
+              <div className="p-2 rounded-lg bg-orange-100 dark:bg-orange-900/30 text-orange-600">
+                <Map className="h-5 w-5" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-slate-900 dark:text-white">
+                  {profile.pathsStarted}
+                  <span className="text-sm font-normal text-slate-400">
+                    {" "}
+                    / {profile.totalLearningPaths}
+                  </span>
+                </p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {t("pathsStarted")}
+                </p>
+              </div>
+            </div>
+
+            {/* Paths Completed */}
+            <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
+              <div className="p-2 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600">
+                <Trophy className="h-5 w-5" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-slate-900 dark:text-white">
+                  {profile.pathsCompleted}
+                </p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {t("pathsCompleted")}
+                </p>
+              </div>
+            </div>
+
+            {/* Current Streak */}
+            <div className="flex items-center gap-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4">
+              <div className="p-2 rounded-lg bg-amber-100 dark:bg-amber-900/30 text-amber-600">
+                <Flame className="h-5 w-5" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-slate-900 dark:text-white">
+                  {profile.streakDays}{" "}
+                  <span className="text-sm font-normal text-slate-400">
+                    {t("days")}
+                  </span>
+                </p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">
+                  {t("currentStreak")}
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Learning Path Progress */}
+        {profile && (
+          <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 mb-8">
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-4">
+              {t("learningPathProgress")}
+            </h2>
+
+            {profile.pathProgress.length === 0 ? (
+              <p className="text-sm text-slate-500 dark:text-slate-400">
+                {t("noPathsStarted")}
+              </p>
+            ) : (
+              <div className="space-y-4">
+                {profile.pathProgress.map((path) => (
+                  <div key={path.slug}>
+                    <div className="flex items-center justify-between mb-1.5">
+                      <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                        {getLocalizedTitle(path.title)}
+                      </span>
+                      <span className="text-xs text-slate-500 dark:text-slate-400">
+                        {t("ofLessons", {
+                          completed: path.completedLessons,
+                          total: path.totalLessons,
+                        })}
+                      </span>
+                    </div>
+                    <div className="w-full h-2.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full transition-all duration-500 ${
+                          path.percentage === 100
+                            ? "bg-emerald-500"
+                            : "bg-primary-500"
+                        }`}
+                        style={{ width: `${path.percentage}%` }}
+                      />
+                    </div>
+                    <p className="text-xs text-slate-400 mt-1">
+                      {path.percentage}%
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Recent Activity */}
+        {profile && (
+          <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 mb-8">
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-4">
+              {t("recentActivity")}
+            </h2>
+
+            {profile.recentActivity.length === 0 ? (
+              <p className="text-sm text-slate-500 dark:text-slate-400">
+                {t("noRecentActivity")}
+              </p>
+            ) : (
+              <ul className="space-y-3">
+                {profile.recentActivity.map((activity, index) => (
+                  <li
+                    key={`${activity.slug}-${index}`}
+                    className="flex items-start gap-3"
+                  >
+                    <div className="mt-0.5 p-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 shrink-0">
+                      <Check className="h-3.5 w-3.5" />
+                    </div>
+                    <div className="min-w-0">
+                      <p className="text-sm font-medium text-slate-700 dark:text-slate-300 truncate">
+                        {getLocalizedTitle(activity.title)}
+                      </p>
+                      <p className="text-xs text-slate-400 flex items-center gap-1 mt-0.5">
+                        <Clock className="h-3 w-3" />
+                        {t("completedOn", {
+                          date: new Date(
+                            activity.completedAt
+                          ).toLocaleDateString(
+                            locale === "ar"
+                              ? "ar-SA"
+                              : locale === "es"
+                                ? "es-ES"
+                                : "en-US",
+                            {
+                              month: "short",
+                              day: "numeric",
+                              year: "numeric",
+                            }
+                          ),
+                        })}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         )}
 

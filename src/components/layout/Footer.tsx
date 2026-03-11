@@ -1,6 +1,10 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export function Footer() {
+  const t = useTranslations("footer");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -14,22 +18,22 @@ export function Footer() {
               Basmet Dawah
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-400 max-w-xs">
-              A guided learning platform for new Muslims — explore Islam at your own pace.
+              {t("brand")}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Explore</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">{t("explore")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/topics" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Topics
+                <Link href="/paths" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                  {t("paths")}
                 </Link>
               </li>
               <li>
-                <Link href="/paths" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Learning Paths
+                <Link href="/topics" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                  {t("topics")}
                 </Link>
               </li>
             </ul>
@@ -37,16 +41,33 @@ export function Footer() {
 
           {/* Account */}
           <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Account</h3>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">{t("account")}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/login" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Sign In
+                  {t("signIn")}
                 </Link>
               </li>
               <li>
                 <Link href="/register" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  Create Account
+                  {t("createAccount")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">{t("legal")}</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/privacy" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                  {t("privacy")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                  {t("terms")}
                 </Link>
               </li>
             </ul>
@@ -56,10 +77,10 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-200 dark:border-slate-800 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-500 dark:text-slate-400">
-            &copy; {currentYear} Basmet Dawah. All rights reserved.
+            &copy; {currentYear} Basmet Dawah. {t("rights")}
           </p>
           <p className="text-xs text-slate-500 dark:text-slate-400">
-            Made by{" "}
+            {t("madeBy")}{" "}
             <a
               href="https://sahab-solutions.com"
               target="_blank"

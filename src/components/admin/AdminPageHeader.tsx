@@ -5,8 +5,8 @@ interface AdminPageHeaderProps {
   title: string;
   description: string;
   icon: LucideIcon;
-  createHref: string;
-  createLabel: string;
+  createHref?: string;
+  createLabel?: string;
 }
 
 export function AdminPageHeader({
@@ -31,13 +31,15 @@ export function AdminPageHeader({
           </p>
         </div>
       </div>
-      <Link
-        href={createHref}
-        className="inline-flex items-center gap-2 px-4 py-2.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors"
-      >
-        <Plus className="h-4 w-4" />
-        {createLabel}
-      </Link>
+      {createHref && createLabel && (
+        <Link
+          href={createHref}
+          className="inline-flex items-center gap-2 px-4 py-2.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
+          <Plus className="h-4 w-4" />
+          {createLabel}
+        </Link>
+      )}
     </div>
   );
 }

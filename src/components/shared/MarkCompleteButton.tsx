@@ -8,11 +8,13 @@ import { CheckCircle, Circle } from "lucide-react";
 interface MarkCompleteButtonProps {
   lessonId: string;
   initialCompleted?: boolean;
+  onComplete?: () => void;
 }
 
 export function MarkCompleteButton({
   lessonId,
   initialCompleted = false,
+  onComplete,
 }: MarkCompleteButtonProps) {
   const { data: session } = useSession();
   const t = useTranslations("learning");
@@ -34,6 +36,7 @@ export function MarkCompleteButton({
 
       if (res.ok) {
         setCompleted(true);
+        onComplete?.();
       }
     } catch {
       // Silently fail

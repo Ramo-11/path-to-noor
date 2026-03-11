@@ -14,6 +14,8 @@ import {
   Trophy,
   RotateCcw,
   Loader2,
+  Route,
+  BookOpen,
 } from "lucide-react";
 
 interface QuizQuestion {
@@ -44,6 +46,13 @@ interface QuizResult {
   }>;
 }
 
+interface LessonNavContext {
+  nextLesson: { title: { en: string; ar: string; es: string }; slug: string } | null;
+  previousLesson: { title: { en: string; ar: string; es: string }; slug: string } | null;
+  path: { title: { en: string; ar: string; es: string }; slug: string } | null;
+  module: { title: { en: string; ar: string; es: string }; slug: string } | null;
+}
+
 export default function QuizPage() {
   const params = useParams();
   const slug = params.slug as string;
@@ -59,18 +68,27 @@ export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [submitting, setSubmitting] = useState(false);
   const [result, setResult] = useState<QuizResult | null>(null);
+  const [navContext, setNavContext] = useState<LessonNavContext | null>(null);
 
   const BackArrow = locale === "ar" ? ArrowRight : ArrowLeft;
+  const ForwardArrow = locale === "ar" ? ArrowLeft : ArrowRight;
 
   useEffect(() => {
     async function fetchQuiz() {
       try {
-        const res = await fetch(`/api/public/quiz/${slug}`);
-        const data = await res.json();
-        if (data.data) {
-          setQuiz(data.data.quiz);
-          setLessonTitle(data.data.lessonTitle);
-          setAnswers(new Array(data.data.quiz.questions.length).fill(null));
+        const [quizRes, navRes] = await Promise.all([
+          fetch(`/api/public/quiz/${slug}`),
+          fetch(`/api/public/lesson-nav/${slug}`),
+        ]);
+        const quizData = await quizRes.json();
+        if (quizData.data) {
+          setQuiz(quizData.data.quiz);
+          setLessonTitle(quizData.data.lessonTitle);
+          setAnswers(new Array(quizData.data.quiz.questions.length).fill(null));
+        }
+        const navData = await navRes.json();
+        if (navData.data) {
+          setNavContext(navData.data);
         }
       } catch {
         // quiz not found
@@ -224,6 +242,47 @@ export default function QuizPage() {
                 {t("tryAgain")}
               </button>
             )}
+          </div>
+
+          {/* Navigation actions */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+            {result.passed && navContext?.nextLesson && (
+              <Link
+                href={`/learn/${navContext.nextLesson.slug}`}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors w-full sm:w-auto justify-center"
+              >
+                {locale === "ar"
+                  ? "الدرس التالي"
+                  : locale === "es"
+                    ? "Siguiente lecci\u00f3n"
+                    : "Next Lesson"}
+                <ForwardArrow className="h-4 w-4" />
+              </Link>
+            )}
+            {navContext?.path && (
+              <Link
+                href={`/paths/${navContext.path.slug}`}
+                className="inline-flex items-center gap-2 px-6 py-3 border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 font-medium rounded-lg transition-colors w-full sm:w-auto justify-center"
+              >
+                <Route className="h-4 w-4" />
+                {locale === "ar"
+                  ? "العودة إلى المسار"
+                  : locale === "es"
+                    ? "Volver al camino"
+                    : "Back to Path"}
+              </Link>
+            )}
+            <Link
+              href={`/learn/${slug}`}
+              className="inline-flex items-center gap-2 px-6 py-3 text-slate-500 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 font-medium rounded-lg transition-colors w-full sm:w-auto justify-center"
+            >
+              <BookOpen className="h-4 w-4" />
+              {locale === "ar"
+                ? "العودة إلى الدرس"
+                : locale === "es"
+                  ? "Volver a la lecci\u00f3n"
+                  : "Back to Lesson"}
+            </Link>
           </div>
 
           {/* Question review */}

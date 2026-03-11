@@ -434,6 +434,91 @@ export async function getPublicLessonBySlug(slug: string) {
 }
 
 // ---------------------------------------------------------------------------
+// Public: Lesson Navigation Context
+// ---------------------------------------------------------------------------
+
+export async function getLessonNavigationContext(lessonId: string, locale: string) {
+  await connectDB();
+
+  const lesson = await Lesson.findById(lessonId).select("moduleId").lean();
+  if (!lesson) return null;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const lessonAny = lesson as any;
+
+  const mod = await Module.findById(lessonAny.moduleId)
+    .select("title slug lessons")
+    .populate({
+      path: "lessons.lessonId",
+      select: "title slug",
+      match: { published: true },
+    })
+    .lean();
+
+  if (!mod) return null;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const modAny = mod as any;
+  const sortedLessons = (modAny.lessons || [])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    .filter((l: any) => l.lessonId)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    .sort((a: any, b: any) => a.order - b.order);
+
+  const currentIndex = sortedLessons.findIndex(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (l: any) => l.lessonId._id.toString() === lessonId
+  );
+
+  const prevLesson =
+    currentIndex > 0 ? sortedLessons[currentIndex - 1].lessonId : null;
+  const nextLesson =
+    currentIndex < sortedLessons.length - 1
+      ? sortedLessons[currentIndex + 1].lessonId
+      : null;
+
+  // Find a learning path containing this module
+  const path = await LearningPath.findOne({
+    published: true,
+    "modules.moduleId": modAny._id,
+  })
+    .select("title slug")
+    .lean();
+
+  // Suppress unused parameter warning — locale reserved for future per-locale filtering
+  void locale;
+
+  return {
+    module: {
+      title: modAny.title as { en: string; ar: string; es: string },
+      slug: modAny.slug as string,
+    },
+    previousLesson: prevLesson
+      ? {
+          title: prevLesson.title as { en: string; ar: string; es: string },
+          slug: prevLesson.slug as string,
+        }
+      : null,
+    nextLesson: nextLesson
+      ? {
+          title: nextLesson.title as { en: string; ar: string; es: string },
+          slug: nextLesson.slug as string,
+        }
+      : null,
+    currentIndex,
+    totalInModule: sortedLessons.length,
+    path: path
+      ? {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          title: (path as any).title as { en: string; ar: string; es: string },
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          slug: (path as any).slug as string,
+        }
+      : null,
+  };
+}
+
+// ---------------------------------------------------------------------------
 // Public: Quiz by Lesson
 // ---------------------------------------------------------------------------
 
