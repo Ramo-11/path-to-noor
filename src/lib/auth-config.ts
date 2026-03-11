@@ -120,24 +120,32 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
     async signIn({ user, account }) {
       if (account?.provider === "google") {
-        await connectDB();
-        const existingUser = await User.findOne({ email: user.email });
+        try {
+          await connectDB();
+          const existingUser = await User.findOne({ email: user.email });
 
-        if (!existingUser && user.email) {
-          await User.create({
-            email: user.email,
-            name: user.name || user.email,
-            image: user.image || undefined,
-            role: "user",
-            isActive: true,
-            preferredLanguage: "en",
-            accounts: [
-              {
-                provider: "google",
-                providerAccountId: account.providerAccountId,
-              },
-            ],
-          });
+          if (!existingUser && user.email) {
+            await User.create({
+              email: user.email,
+              name: user.name || user.email,
+              image: user.image || undefined,
+              role: "user",
+              isActive: true,
+              preferredLanguage: "en",
+              accounts: [
+                {
+                  provider: "google",
+                  providerAccountId: account.providerAccountId,
+                },
+              ],
+            });
+          } else if (existingUser && !existingUser.isActive) {
+            // Block inactive users
+            return false;
+          }
+        } catch (error) {
+          console.error("[Auth] Google signIn callback error:", error);
+          return false;
         }
       }
       return true;
