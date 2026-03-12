@@ -20,6 +20,9 @@ import {
   ArrowRight,
   Clock,
   FileText,
+  CheckCircle,
+  ChevronRight,
+  ChevronLeft,
 } from "lucide-react";
 import { TopicIconPublic } from "@/components/shared/TopicIconPublic";
 import { TopicCompletionButton } from "@/components/shared/TopicCompletionButton";
@@ -49,14 +52,17 @@ export default async function TopicDetailPage({
   const subtopics = await getPublicSubtopics(topicAny._id.toString(), audienceCtx);
   const modules = await getPublicModulesByTopic(topicAny._id.toString(), audienceCtx);
 
-  // Fetch user's completed topics for the completion buttons
+  // Fetch user's completed topics and lesson progress
   let completedTopicIds = new Set<string>();
+  let completedLessonIds = new Set<string>();
   if (session?.user?.id) {
     await connectDB();
-    const user = await User.findById(session.user.id).select("completedTopics").lean();
+    const user = await User.findById(session.user.id).select("completedTopics progress").lean();
     if (user) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      completedTopicIds = new Set((user as any).completedTopics?.map((ct: any) => ct.topicId?.toString()) || []);
+      const userAny = user as any;
+      completedTopicIds = new Set(userAny.completedTopics?.map((ct: any) => ct.topicId?.toString()) || []);
+      completedLessonIds = new Set(userAny.progress?.map((p: any) => p.lessonId?.toString()) || []);
     }
   }
 
@@ -159,67 +165,129 @@ export default async function TopicDetailPage({
               </h2>
             </AnimateIn>
 
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <StaggerContainer className="space-y-6">
               {modules.map((mod: any) => {
-                const lessonCount = mod.lessons?.length || 0;
-                const totalMinutes = mod.lessons?.reduce(
+                const sortedLessons = (mod.lessons || [])
+                  .filter((l: any) => l.lessonId)
+                  .sort((a: any, b: any) => a.order - b.order);
+                const lessonCount = sortedLessons.length;
+                const totalMinutes = sortedLessons.reduce(
                   (sum: number, l: any) =>
                     sum + (l.lessonId?.estimatedMinutes || 0),
                   0
                 );
-                const firstLesson = mod.lessons?.sort(
-                  (a: any, b: any) => a.order - b.order
-                )[0];
+                const completedCount = session?.user
+                  ? sortedLessons.filter((l: any) =>
+                      completedLessonIds.has(l.lessonId._id.toString())
+                    ).length
+                  : 0;
+                const moduleComplete = lessonCount > 0 && completedCount === lessonCount;
+                const GoArrow = locale === "ar" ? ChevronLeft : ChevronRight;
 
                 return (
                   <StaggerItem key={mod._id.toString()}>
-                    <div className="card-hover rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 h-full flex flex-col">
-                      <h3 className="font-heading text-lg font-semibold text-slate-900 dark:text-white mb-2">
-                        {mod.title[locale] || mod.title.en}
-                      </h3>
-                      <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400 mb-4 line-clamp-2">
-                        {mod.description[locale] || mod.description.en}
-                      </p>
-
-                      {/* Meta info */}
-                      <div className="flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400 mb-4">
-                        <span className="inline-flex items-center gap-1">
-                          <FileText className="h-3.5 w-3.5" />
-                          {lessonCount} {tLearning("lessons")}
-                        </span>
-                        {totalMinutes > 0 && (
-                          <span className="inline-flex items-center gap-1">
-                            <Clock className="h-3.5 w-3.5" />
-                            {tLearning("estimatedTime", {
-                              minutes: totalMinutes,
-                            })}
-                          </span>
+                    <div className="rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 overflow-hidden">
+                      {/* Module header */}
+                      <div className="p-6 border-b border-slate-100 dark:border-slate-800">
+                        <div className="flex items-center gap-4">
+                          <div className={`inline-flex items-center justify-center w-10 h-10 rounded-full shrink-0 ${
+                            moduleComplete
+                              ? "bg-emerald-500 text-white"
+                              : "bg-primary-100 dark:bg-primary-900/30 text-primary-600"
+                          }`}>
+                            {moduleComplete ? (
+                              <CheckCircle className="h-5 w-5" />
+                            ) : (
+                              <BookOpen className="h-5 w-5" />
+                            )}
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <h3 className="font-heading text-lg font-semibold text-slate-900 dark:text-white">
+                              {mod.title[locale] || mod.title.en}
+                            </h3>
+                            {mod.description && (
+                              <p className="text-sm text-slate-500 dark:text-slate-400 mt-1 line-clamp-2">
+                                {mod.description[locale] || mod.description.en}
+                              </p>
+                            )}
+                          </div>
+                          <div className="flex items-center gap-3 shrink-0">
+                            <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+                              <span className="inline-flex items-center gap-1">
+                                <FileText className="h-3.5 w-3.5" />
+                                {lessonCount} {tLearning("lessons")}
+                              </span>
+                              {totalMinutes > 0 && (
+                                <span className="hidden sm:inline-flex items-center gap-1">
+                                  <Clock className="h-3.5 w-3.5" />
+                                  {tLearning("estimatedTime", { minutes: totalMinutes })}
+                                </span>
+                              )}
+                            </div>
+                            {session?.user && lessonCount > 0 && (
+                              <span className={`text-xs font-medium ${
+                                moduleComplete
+                                  ? "text-emerald-600 dark:text-emerald-400"
+                                  : "text-slate-500 dark:text-slate-400"
+                              }`}>
+                                {completedCount}/{lessonCount}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                        {/* Module progress bar */}
+                        {session?.user && lessonCount > 0 && completedCount > 0 && (
+                          <div className="mt-4 h-1.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                            <div
+                              className={`h-full rounded-full transition-all duration-500 ${
+                                moduleComplete ? "bg-emerald-500" : "bg-primary-500"
+                              }`}
+                              style={{ width: `${Math.round((completedCount / lessonCount) * 100)}%` }}
+                            />
+                          </div>
                         )}
                       </div>
 
                       {/* Lesson list */}
-                      {mod.lessons?.length > 0 && (
-                        <ul className="space-y-2 mt-auto">
-                          {mod.lessons
-                            .sort(
-                              (a: any, b: any) => a.order - b.order
-                            )
-                            .map((entry: any) => {
-                              const lesson = entry.lessonId;
-                              if (!lesson) return null;
-                              return (
-                                <li key={lesson._id.toString()}>
-                                  <Link
-                                    href={`/learn/${lesson.slug}`}
-                                    className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors py-1"
-                                  >
-                                    <span className="w-1.5 h-1.5 rounded-full bg-primary-400 dark:bg-primary-500 shrink-0" />
-                                    {lesson.title[locale] ||
-                                      lesson.title.en}
-                                  </Link>
-                                </li>
-                              );
-                            })}
+                      {sortedLessons.length > 0 && (
+                        <ul className="divide-y divide-slate-100 dark:divide-slate-800">
+                          {sortedLessons.map((entry: any) => {
+                            const lesson = entry.lessonId;
+                            if (!lesson) return null;
+                            const isCompleted = completedLessonIds.has(lesson._id.toString());
+
+                            return (
+                              <li key={lesson._id.toString()}>
+                                <Link
+                                  href={`/learn/${lesson.slug}`}
+                                  className="flex items-center gap-4 px-6 py-4 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors group"
+                                >
+                                  {isCompleted ? (
+                                    <CheckCircle className="h-5 w-5 text-emerald-500 shrink-0" />
+                                  ) : (
+                                    <FileText className="h-5 w-5 text-slate-400 dark:text-slate-500 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors shrink-0" />
+                                  )}
+                                  <div className="flex-1 min-w-0">
+                                    <span className={`text-sm font-medium transition-colors ${
+                                      isCompleted
+                                        ? "text-slate-500 dark:text-slate-400"
+                                        : "text-slate-700 dark:text-slate-300 group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                                    }`}>
+                                      {lesson.title[locale] || lesson.title.en}
+                                    </span>
+                                  </div>
+                                  <div className="flex items-center gap-3 shrink-0">
+                                    {lesson.estimatedMinutes > 0 && (
+                                      <span className="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap hidden sm:inline">
+                                        {tLearning("estimatedTime", { minutes: lesson.estimatedMinutes })}
+                                      </span>
+                                    )}
+                                    <GoArrow className="h-4 w-4 text-slate-300 dark:text-slate-600 group-hover:text-primary-500 transition-colors" />
+                                  </div>
+                                </Link>
+                              </li>
+                            );
+                          })}
                         </ul>
                       )}
                     </div>
