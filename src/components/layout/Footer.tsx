@@ -36,6 +36,11 @@ export function Footer() {
                   {t("topics")}
                 </Link>
               </li>
+              <li>
+                <Link href="/contact" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                  {t("contact")}
+                </Link>
+              </li>
             </ul>
           </div>
 

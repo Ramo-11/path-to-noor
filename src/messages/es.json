@@ -12,7 +12,8 @@
     "bookmarks": "Guardados",
     "mentorship": "Mentoría",
     "adminPortal": "Portal de Admin",
-    "signOut": "Cerrar Sesión"
+    "signOut": "Cerrar Sesión",
+    "contact": "Contacto"
   },
   "home": {
     "hero": {
@@ -229,7 +230,10 @@
     "errorCredentials": "Correo o contraseña inválidos.",
     "errorEmailExists": "Ya existe una cuenta con este correo.",
     "registrationSuccess": "¡Cuenta creada! Ahora puedes iniciar sesión.",
-    "forgotPassword": "¿Olvidaste tu contraseña?"
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "onboardingTitle": "¡Bienvenido a Basmet Dawah!",
+    "onboardingDescription": "Cuéntanos un poco sobre ti para personalizar tu experiencia.",
+    "continue": "Continuar"
   },
   "mentorship": {
     "title": "Mentoría",
@@ -246,7 +250,14 @@
     "requestSubmitted": "¡Solicitud enviada exitosamente!",
     "alreadyHasRequest": "Ya tienes una solicitud de mentor activa.",
     "notRevert": "Las solicitudes de mentor solo están disponibles para nuevos musulmanes.",
-    "loginRequired": "Inicia sesión para solicitar un mentor."
+    "loginRequired": "Inicia sesión para solicitar un mentor.",
+    "mentorDashboard": "Tus Aprendices",
+    "mentorDashboardDescription": "Estas son las personas con las que has sido emparejado. Contáctalos y ayúdalos en su camino.",
+    "noMentees": "Aún no se te han asignado aprendices.",
+    "noMenteesDescription": "Cuando un nuevo musulmán solicite un mentor, un administrador lo emparejará contigo.",
+    "menteesSince": "Asignado {date}",
+    "menteeMessage": "Su mensaje",
+    "menteeCount": "{count} aprendiz(ces) asignados a ti"
   },
   "topicProgress": {
     "markLearnt": "Marcar como Aprendido",
@@ -348,10 +359,44 @@
       "contactText": "Si tiene preguntas sobre estos Terminos de Servicio, contactenos en support@basmetdawah.com."
     }
   },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes alguna pregunta, sugerencia o simplemente quieres saludar? Nos encantaría saber de ti.",
+    "nameLabel": "Tu Nombre",
+    "namePlaceholder": "Nombre completo",
+    "emailLabel": "Tu Email",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "¿De qué se trata?",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cuéntanos lo que tienes en mente...",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje Enviado!",
+    "successMessage": "Gracias por contactarnos. Te responderemos lo antes posible.",
+    "sendAnother": "Enviar Otro Mensaje",
+    "errorDefault": "Algo salió mal. Por favor, intenta de nuevo.",
+    "errorRateLimit": "Has enviado demasiados mensajes. Por favor, intenta más tarde.",
+    "emailDirect": "O escríbenos directamente a",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1q": "¿Qué es Basmet Dawah?",
+    "faq1a": "Basmet Dawah es una plataforma de aprendizaje gratuita y bilingüe diseñada para nuevos musulmanes. Ofrece rutas de aprendizaje estructuradas, contenido por temas y cuestionarios para ayudarte a explorar el Islam a tu propio ritmo.",
+    "faq2q": "¿Es gratis esta plataforma?",
+    "faq2a": "Sí, completamente gratis. Todo el contenido está disponible para todos — sin suscripciones ni cargos ocultos.",
+    "faq3q": "¿Necesito una cuenta para acceder al contenido?",
+    "faq3a": "No. Puedes explorar todas las lecciones y temas sin registrarte. Solo necesitas una cuenta para seguir tu progreso, marcadores y cuestionarios.",
+    "faq4q": "¿Qué idiomas están disponibles?",
+    "faq4a": "Actualmente inglés y árabe, con soporte completo de derecha a izquierda (RTL). Estamos trabajando en agregar más idiomas.",
+    "faq5q": "Encontré un error en una lección. ¿Cómo lo reporto?",
+    "faq5a": "Por favor usa el formulario de contacto arriba o escríbenos directamente por email. Agradecemos cualquier corrección y actualizaremos el contenido rápidamente.",
+    "faq6q": "¿Puedo contribuir con contenido o ser voluntario?",
+    "faq6a": "¡Nos encantaría tu ayuda! Contáctanos a través del formulario y dinos cómo te gustaría contribuir."
+  },
   "footer": {
     "explore": "Explorar",
     "topics": "Temas",
     "paths": "Rutas de Aprendizaje",
+    "contact": "Contacto",
     "account": "Cuenta",
     "signIn": "Iniciar Sesion",
     "createAccount": "Crear Cuenta",

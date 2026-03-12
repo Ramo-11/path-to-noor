@@ -12,6 +12,12 @@ import {
   Loader2,
   ChevronDown,
   ChevronRight,
+  MessageSquare,
+  StickyNote,
+  ArrowRight,
+  Trash2,
+  RotateCcw,
+  Mail,
 } from "lucide-react";
 import { AdminPageHeader } from "@/components/admin/AdminPageHeader";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
@@ -78,12 +84,15 @@ export default function MentorshipPage() {
   const [mentors, setMentors] = useState<MentorOption[]>([]);
   const [loading, setLoading] = useState(true);
   const [statusFilter, setStatusFilter] = useState<string>("all");
-  const [editingId, setEditingId] = useState<string | null>(null);
-  const [editMentorId, setEditMentorId] = useState("");
-  const [editStatus, setEditStatus] = useState<string>("");
-  const [editNote, setEditNote] = useState("");
+  const [actionRequestId, setActionRequestId] = useState<string | null>(null);
+  const [actionMentorId, setActionMentorId] = useState("");
+  const [actionNote, setActionNote] = useState("");
   const [saving, setSaving] = useState(false);
   const [deleteId, setDeleteId] = useState<string | null>(null);
+  const [notifyMentor, setNotifyMentor] = useState(true);
+  const [notifyMentee, setNotifyMentee] = useState(true);
+
+  const pendingCount = requests.filter((r) => r.status === "pending").length;
 
   useEffect(() => {
     loadData();
@@ -108,28 +117,27 @@ export default function MentorshipPage() {
     }
   }
 
-  function startEditing(req: MentorRequest) {
-    setEditingId(req._id);
-    setEditMentorId(req.mentorId?._id || "");
-    setEditStatus(req.status);
-    setEditNote(req.adminNote || "");
-  }
-
-  async function handleSave(requestId: string) {
+  async function handleAssign(requestId: string) {
+    if (!actionMentorId) return;
     setSaving(true);
     try {
       const res = await fetch(`/api/admin/mentor-requests/${requestId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          mentorId: editMentorId || undefined,
-          status: editStatus,
-          adminNote: editNote,
+          mentorId: actionMentorId,
+          status: "assigned",
+          adminNote: actionNote || undefined,
+          notifyMentor,
+          notifyMentee,
         }),
       });
-
       if (res.ok) {
-        setEditingId(null);
+        setActionRequestId(null);
+        setActionMentorId("");
+        setActionNote("");
+        setNotifyMentor(true);
+        setNotifyMentee(true);
         await loadData();
       }
     } catch {
@@ -139,9 +147,47 @@ export default function MentorshipPage() {
     }
   }
 
+  async function handleReject(requestId: string) {
+    setSaving(true);
+    try {
+      const res = await fetch(`/api/admin/mentor-requests/${requestId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          status: "rejected",
+          adminNote: actionNote || undefined,
+        }),
+      });
+      if (res.ok) {
+        setActionRequestId(null);
+        setActionNote("");
+        await loadData();
+      }
+    } catch {
+      // Silently fail
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function handleReopen(requestId: string) {
+    setSaving(true);
+    try {
+      const res = await fetch(`/api/admin/mentor-requests/${requestId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status: "pending", mentorId: undefined }),
+      });
+      if (res.ok) await loadData();
+    } catch {
+      // Silently fail
+    } finally {
+      setSaving(false);
+    }
+  }
+
   async function handleDelete() {
     if (!deleteId) return;
-
     try {
       const res = await fetch(`/api/admin/mentor-requests/${deleteId}`, {
         method: "DELETE",
@@ -160,9 +206,6 @@ export default function MentorshipPage() {
       ? requests
       : requests.filter((r) => r.status === statusFilter);
 
-  const inputClass =
-    "w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors text-sm";
-
   if (loading) {
     return (
       <div className="flex items-center justify-center py-12">
@@ -177,21 +220,57 @@ export default function MentorshipPage() {
         title="Mentorship"
         description="Manage mentor requests and assignments"
         icon={Handshake}
-        createHref=""
-        createLabel=""
       />
+
+      {/* Stats */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+        <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-4 flex items-center gap-3">
+          <div className="h-10 w-10 rounded-lg bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+            <Clock className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+          </div>
+          <div>
+            <p className="text-2xl font-bold text-slate-900 dark:text-white">{pendingCount}</p>
+            <p className="text-xs text-slate-500 dark:text-slate-400">Pending Requests</p>
+          </div>
+        </div>
+        <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-4 flex items-center gap-3">
+          <div className="h-10 w-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center">
+            <CheckCircle className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+          </div>
+          <div>
+            <p className="text-2xl font-bold text-slate-900 dark:text-white">{assignments.length}</p>
+            <p className="text-xs text-slate-500 dark:text-slate-400">Active Mentors</p>
+          </div>
+        </div>
+        <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-4 flex items-center gap-3">
+          <div className="h-10 w-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center">
+            <Users className="h-5 w-5 text-primary-600 dark:text-primary-400" />
+          </div>
+          <div>
+            <p className="text-2xl font-bold text-slate-900 dark:text-white">
+              {assignments.reduce((sum, a) => sum + a.reverts.length, 0)}
+            </p>
+            <p className="text-xs text-slate-500 dark:text-slate-400">Reverts Matched</p>
+          </div>
+        </div>
+      </div>
 
       {/* Tabs */}
       <div className="flex gap-1 mb-6 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg w-fit">
         <button
           onClick={() => setTab("requests")}
-          className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 ${
             tab === "requests"
               ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm"
               : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
           }`}
         >
-          Requests ({requests.length})
+          Requests
+          {pendingCount > 0 && (
+            <span className="inline-flex items-center justify-center h-5 min-w-5 px-1.5 rounded-full bg-amber-500 text-white text-xs font-semibold">
+              {pendingCount}
+            </span>
+          )}
         </button>
         <button
           onClick={() => setTab("assignments")}
@@ -208,161 +287,351 @@ export default function MentorshipPage() {
       {/* Requests Tab */}
       {tab === "requests" && (
         <div>
-          {/* Status filter */}
-          <div className="mb-4">
-            <select
-              value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white text-sm"
-            >
-              <option value="all">All Statuses</option>
-              <option value="pending">Pending</option>
-              <option value="assigned">Assigned</option>
-              <option value="rejected">Rejected</option>
-            </select>
+          {/* Status filter pills */}
+          <div className="flex flex-wrap gap-2 mb-5">
+            {(["all", "pending", "assigned", "rejected"] as const).map((s) => {
+              const count =
+                s === "all"
+                  ? requests.length
+                  : requests.filter((r) => r.status === s).length;
+              return (
+                <button
+                  key={s}
+                  onClick={() => setStatusFilter(s)}
+                  className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                    statusFilter === s
+                      ? "bg-primary-600 text-white"
+                      : "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700"
+                  }`}
+                >
+                  {s === "all" ? "All" : statusConfig[s].label} ({count})
+                </button>
+              );
+            })}
           </div>
 
           {filteredRequests.length === 0 ? (
-            <div className="text-center py-12 text-slate-500 dark:text-slate-400">
-              No mentor requests found.
+            <div className="text-center py-12">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 mb-3">
+                <Handshake className="h-6 w-6 text-slate-400" />
+              </div>
+              <p className="text-slate-500 dark:text-slate-400">
+                No {statusFilter === "all" ? "" : statusFilter} requests found.
+              </p>
             </div>
           ) : (
             <div className="space-y-3">
               {filteredRequests.map((req) => {
                 const config = statusConfig[req.status];
                 const StatusIcon = config.icon;
-                const isEditing = editingId === req._id;
+                const isActioning = actionRequestId === req._id;
 
                 return (
                   <div
                     key={req._id}
-                    className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-4"
+                    className={`bg-white dark:bg-slate-900 rounded-xl border overflow-hidden transition-colors ${
+                      req.status === "pending"
+                        ? "border-amber-200 dark:border-amber-800/40"
+                        : "border-slate-200 dark:border-slate-800"
+                    }`}
                   >
-                    <div className="flex items-start justify-between gap-4">
-                      <div className="flex items-start gap-3 min-w-0">
-                        <div className="h-10 w-10 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center shrink-0">
-                          <User className="h-5 w-5 text-primary-600" />
-                        </div>
-                        <div className="min-w-0">
-                          <Link
-                            href={`/admin/users/${req.revertId._id}`}
-                            className="font-medium text-slate-900 dark:text-white hover:text-primary-600 transition-colors"
-                          >
-                            {req.revertId.name}
-                          </Link>
-                          <p className="text-sm text-slate-500 dark:text-slate-400">
-                            {req.revertId.email}
-                          </p>
-                          {req.message && (
-                            <p className="text-sm text-slate-600 dark:text-slate-300 mt-1 italic">
-                              &ldquo;{req.message}&rdquo;
+                    {/* Request header */}
+                    <div className="p-5">
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex items-start gap-3 min-w-0">
+                          <div className="h-10 w-10 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center shrink-0">
+                            <User className="h-5 w-5 text-primary-600" />
+                          </div>
+                          <div className="min-w-0">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <Link
+                                href={`/admin/users/${req.revertId._id}`}
+                                className="font-semibold text-slate-900 dark:text-white hover:text-primary-600 transition-colors"
+                              >
+                                {req.revertId.name}
+                              </Link>
+                              <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${config.color}`}>
+                                <StatusIcon className="h-3 w-3" />
+                                {config.label}
+                              </span>
+                            </div>
+                            <p className="text-sm text-slate-500 dark:text-slate-400">
+                              {req.revertId.email}
                             </p>
-                          )}
-                          <p className="text-xs text-slate-400 mt-1">
-                            {new Date(req.createdAt).toLocaleDateString()}
-                          </p>
+                            <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">
+                              Requested {new Date(req.createdAt).toLocaleDateString("en-US", {
+                                month: "short",
+                                day: "numeric",
+                                year: "numeric",
+                              })}
+                            </p>
+                          </div>
                         </div>
+
+                        <button
+                          onClick={() => setDeleteId(req._id)}
+                          className="p-1.5 text-slate-400 hover:text-red-500 transition-colors rounded-lg hover:bg-red-50 dark:hover:bg-red-950/30"
+                          aria-label="Delete request"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </button>
                       </div>
 
-                      <div className="flex items-center gap-2 shrink-0">
-                        <span
-                          className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium ${config.color}`}
-                        >
-                          <StatusIcon className="h-3 w-3" />
-                          {config.label}
-                        </span>
-                      </div>
+                      {/* Message from revert */}
+                      {req.message && (
+                        <div className="mt-3 ms-13 flex items-start gap-2 bg-slate-50 dark:bg-slate-800/50 rounded-lg px-3 py-2.5">
+                          <MessageSquare className="h-3.5 w-3.5 text-slate-400 mt-0.5 shrink-0" />
+                          <p className="text-sm text-slate-600 dark:text-slate-300 italic">
+                            {req.message}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Admin note */}
+                      {req.adminNote && !isActioning && (
+                        <div className="mt-2 ms-13 flex items-start gap-2 text-xs text-slate-500 dark:text-slate-400">
+                          <StickyNote className="h-3 w-3 mt-0.5 shrink-0" />
+                          <span>{req.adminNote}</span>
+                        </div>
+                      )}
+
+                      {/* Assigned mentor display */}
+                      {req.mentorId && req.status === "assigned" && !isActioning && (
+                        <div className="mt-3 ms-13 inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg px-3 py-2 text-sm">
+                          <ArrowRight className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+                          <span className="text-slate-600 dark:text-slate-400">Assigned to</span>
+                          <span className="font-medium text-slate-900 dark:text-white">
+                            {req.mentorId.name}
+                          </span>
+                        </div>
+                      )}
                     </div>
 
-                    {/* Assigned mentor display */}
-                    {req.mentorId && !isEditing && (
-                      <div className="mt-3 ms-13 flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
-                        <Users className="h-3.5 w-3.5" />
-                        Assigned to:{" "}
-                        <span className="font-medium text-slate-900 dark:text-white">
-                          {req.mentorId.name}
-                        </span>
+                    {/* Action bar for pending requests */}
+                    {req.status === "pending" && !isActioning && (
+                      <div className="px-5 pb-4 flex gap-2 ms-13">
+                        <button
+                          onClick={() => {
+                            setActionRequestId(req._id);
+                            setActionMentorId("");
+                            setActionNote(req.adminNote || "");
+                          }}
+                          className="inline-flex items-center gap-1.5 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors"
+                        >
+                          <Users className="h-3.5 w-3.5" />
+                          Assign Mentor
+                        </button>
+                        <button
+                          onClick={() => {
+                            setActionRequestId(req._id);
+                            setActionMentorId("__reject__");
+                            setActionNote(req.adminNote || "");
+                          }}
+                          className="inline-flex items-center gap-1.5 px-4 py-2 border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 text-sm font-medium rounded-lg transition-colors"
+                        >
+                          <XCircle className="h-3.5 w-3.5" />
+                          Reject
+                        </button>
                       </div>
                     )}
 
-                    {/* Edit form */}
-                    {isEditing ? (
-                      <div className="mt-4 ms-13 space-y-3 border-t border-slate-100 dark:border-slate-800 pt-4">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {/* Reopen for assigned/rejected */}
+                    {req.status !== "pending" && !isActioning && (
+                      <div className="px-5 pb-4 ms-13">
+                        <button
+                          onClick={() => handleReopen(req._id)}
+                          disabled={saving}
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-400 border border-slate-300 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                        >
+                          <RotateCcw className="h-3 w-3" />
+                          Reopen as Pending
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Assignment panel */}
+                    {isActioning && actionMentorId !== "__reject__" && (
+                      <div className="border-t border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/30 px-5 py-4">
+                        <div className="ms-13 space-y-3">
                           <div>
-                            <label className="block text-xs font-medium text-slate-600 dark:text-slate-400 mb-1">
-                              Assign Mentor
+                            <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5 uppercase tracking-wide">
+                              Select Mentor
                             </label>
-                            <select
-                              value={editMentorId}
-                              onChange={(e) => setEditMentorId(e.target.value)}
-                              className={inputClass}
-                            >
-                              <option value="">No mentor</option>
-                              {mentors.map((m) => (
-                                <option key={m._id} value={m._id}>
-                                  {m.name} ({m.email})
-                                </option>
-                              ))}
-                            </select>
+                            {mentors.length === 0 ? (
+                              <p className="text-sm text-slate-500 dark:text-slate-400">
+                                No mentors available. Users with the &quot;Mentor&quot; type will appear here.
+                              </p>
+                            ) : (
+                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                {mentors.map((m) => (
+                                  <button
+                                    key={m._id}
+                                    type="button"
+                                    onClick={() => setActionMentorId(m._id)}
+                                    className={`flex items-center gap-3 px-3 py-2.5 rounded-lg border-2 text-start transition-colors ${
+                                      actionMentorId === m._id
+                                        ? "border-primary-600 bg-primary-50 dark:bg-primary-900/20"
+                                        : "border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600"
+                                    }`}
+                                  >
+                                    <div className="h-8 w-8 rounded-full bg-accent-100 dark:bg-accent-900/30 flex items-center justify-center shrink-0">
+                                      <User className="h-4 w-4 text-accent-600 dark:text-accent-400" />
+                                    </div>
+                                    <div className="min-w-0">
+                                      <p className={`text-sm font-medium truncate ${
+                                        actionMentorId === m._id
+                                          ? "text-primary-700 dark:text-primary-300"
+                                          : "text-slate-700 dark:text-slate-300"
+                                      }`}>
+                                        {m.name}
+                                      </p>
+                                      <p className="text-xs text-slate-500 dark:text-slate-400 truncate">
+                                        {m.email}
+                                      </p>
+                                    </div>
+                                  </button>
+                                ))}
+                              </div>
+                            )}
                           </div>
                           <div>
-                            <label className="block text-xs font-medium text-slate-600 dark:text-slate-400 mb-1">
-                              Status
+                            <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5 uppercase tracking-wide">
+                              Admin Note (optional)
                             </label>
-                            <select
-                              value={editStatus}
-                              onChange={(e) => setEditStatus(e.target.value)}
-                              className={inputClass}
-                            >
-                              <option value="pending">Pending</option>
-                              <option value="assigned">Assigned</option>
-                              <option value="rejected">Rejected</option>
-                            </select>
+                            <input
+                              type="text"
+                              value={actionNote}
+                              onChange={(e) => setActionNote(e.target.value)}
+                              className="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors text-sm"
+                              placeholder="e.g. Speaks same language, similar background..."
+                            />
                           </div>
-                        </div>
-                        <div>
-                          <label className="block text-xs font-medium text-slate-600 dark:text-slate-400 mb-1">
-                            Admin Note
-                          </label>
-                          <input
-                            type="text"
-                            value={editNote}
-                            onChange={(e) => setEditNote(e.target.value)}
-                            className={inputClass}
-                            placeholder="Optional note..."
-                          />
-                        </div>
-                        <div className="flex gap-2">
-                          <button
-                            onClick={() => handleSave(req._id)}
-                            disabled={saving}
-                            className="px-4 py-2 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
-                          >
-                            {saving ? "Saving..." : "Save"}
-                          </button>
-                          <button
-                            onClick={() => setEditingId(null)}
-                            className="px-4 py-2 text-slate-600 dark:text-slate-400 text-sm font-medium rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
-                          >
-                            Cancel
-                          </button>
+                          {/* Email notifications */}
+                          <div>
+                            <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-2 uppercase tracking-wide">
+                              Email Notifications
+                            </label>
+                            <div className="flex flex-wrap gap-3">
+                              <label className="flex items-center gap-2 cursor-pointer select-none">
+                                <button
+                                  type="button"
+                                  role="switch"
+                                  aria-checked={notifyMentor}
+                                  onClick={() => setNotifyMentor(!notifyMentor)}
+                                  className={`relative inline-flex h-5 w-9 shrink-0 rounded-full transition-colors ${
+                                    notifyMentor
+                                      ? "bg-primary-600"
+                                      : "bg-slate-300 dark:bg-slate-600"
+                                  }`}
+                                >
+                                  <span
+                                    className={`inline-block h-4 w-4 rounded-full bg-white shadow-sm transition-transform mt-0.5 ${
+                                      notifyMentor ? "translate-x-4 ms-0.5" : "translate-x-0.5"
+                                    }`}
+                                  />
+                                </button>
+                                <Mail className="h-3.5 w-3.5 text-slate-500" />
+                                <span className="text-sm text-slate-700 dark:text-slate-300">
+                                  Notify Mentor
+                                </span>
+                              </label>
+                              <label className="flex items-center gap-2 cursor-pointer select-none">
+                                <button
+                                  type="button"
+                                  role="switch"
+                                  aria-checked={notifyMentee}
+                                  onClick={() => setNotifyMentee(!notifyMentee)}
+                                  className={`relative inline-flex h-5 w-9 shrink-0 rounded-full transition-colors ${
+                                    notifyMentee
+                                      ? "bg-primary-600"
+                                      : "bg-slate-300 dark:bg-slate-600"
+                                  }`}
+                                >
+                                  <span
+                                    className={`inline-block h-4 w-4 rounded-full bg-white shadow-sm transition-transform mt-0.5 ${
+                                      notifyMentee ? "translate-x-4 ms-0.5" : "translate-x-0.5"
+                                    }`}
+                                  />
+                                </button>
+                                <Mail className="h-3.5 w-3.5 text-slate-500" />
+                                <span className="text-sm text-slate-700 dark:text-slate-300">
+                                  Notify Mentee
+                                </span>
+                              </label>
+                            </div>
+                          </div>
+
+                          <div className="flex gap-2">
+                            <button
+                              onClick={() => handleAssign(req._id)}
+                              disabled={saving || !actionMentorId}
+                              className="inline-flex items-center gap-1.5 px-5 py-2 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
+                            >
+                              {saving ? (
+                                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                              ) : (
+                                <CheckCircle className="h-3.5 w-3.5" />
+                              )}
+                              {saving ? "Assigning..." : "Confirm Assignment"}
+                            </button>
+                            <button
+                              onClick={() => {
+                                setActionRequestId(null);
+                                setActionMentorId("");
+                                setActionNote("");
+                                setNotifyMentor(true);
+                                setNotifyMentee(true);
+                              }}
+                              className="px-4 py-2 text-slate-600 dark:text-slate-400 text-sm font-medium rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-white dark:hover:bg-slate-800 transition-colors"
+                            >
+                              Cancel
+                            </button>
+                          </div>
                         </div>
                       </div>
-                    ) : (
-                      <div className="mt-3 ms-13 flex gap-2">
-                        <button
-                          onClick={() => startEditing(req)}
-                          className="text-xs text-primary-600 hover:text-primary-700 font-medium"
-                        >
-                          Edit
-                        </button>
-                        <button
-                          onClick={() => setDeleteId(req._id)}
-                          className="text-xs text-red-600 hover:text-red-700 font-medium"
-                        >
-                          Delete
-                        </button>
+                    )}
+
+                    {/* Rejection panel */}
+                    {isActioning && actionMentorId === "__reject__" && (
+                      <div className="border-t border-slate-100 dark:border-slate-800 bg-red-50/50 dark:bg-red-950/10 px-5 py-4">
+                        <div className="ms-13 space-y-3">
+                          <div>
+                            <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5 uppercase tracking-wide">
+                              Reason for rejection (optional)
+                            </label>
+                            <input
+                              type="text"
+                              value={actionNote}
+                              onChange={(e) => setActionNote(e.target.value)}
+                              className="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-colors text-sm"
+                              placeholder="e.g. Duplicate request, user already assigned..."
+                            />
+                          </div>
+                          <div className="flex gap-2">
+                            <button
+                              onClick={() => handleReject(req._id)}
+                              disabled={saving}
+                              className="inline-flex items-center gap-1.5 px-5 py-2 bg-red-600 hover:bg-red-700 disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
+                            >
+                              {saving ? (
+                                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                              ) : (
+                                <XCircle className="h-3.5 w-3.5" />
+                              )}
+                              {saving ? "Rejecting..." : "Confirm Rejection"}
+                            </button>
+                            <button
+                              onClick={() => {
+                                setActionRequestId(null);
+                                setActionMentorId("");
+                                setActionNote("");
+                              }}
+                              className="px-4 py-2 text-slate-600 dark:text-slate-400 text-sm font-medium rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-white dark:hover:bg-slate-800 transition-colors"
+                            >
+                              Cancel
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     )}
                   </div>
@@ -377,8 +646,16 @@ export default function MentorshipPage() {
       {tab === "assignments" && (
         <div>
           {assignments.length === 0 ? (
-            <div className="text-center py-12 text-slate-500 dark:text-slate-400">
-              No mentor assignments yet.
+            <div className="text-center py-12">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 mb-3">
+                <Users className="h-6 w-6 text-slate-400" />
+              </div>
+              <p className="text-slate-500 dark:text-slate-400">
+                No mentor assignments yet.
+              </p>
+              <p className="text-xs text-slate-400 dark:text-slate-500 mt-1">
+                Assign mentors to pending requests to see them here.
+              </p>
             </div>
           ) : (
             <div className="space-y-4">
@@ -416,12 +693,12 @@ function MentorCard({ assignment }: { assignment: MentorAssignment }) {
             <Users className="h-5 w-5 text-accent-600" />
           </div>
           <div>
-            <p className="font-medium text-slate-900 dark:text-white">
+            <p className="font-semibold text-slate-900 dark:text-white">
               {assignment.mentor.name}
             </p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
               {assignment.mentor.email} &middot;{" "}
-              {assignment.reverts.length} revert(s) assigned
+              {assignment.reverts.length} mentee{assignment.reverts.length !== 1 ? "s" : ""}
             </p>
           </div>
         </div>
@@ -433,19 +710,19 @@ function MentorCard({ assignment }: { assignment: MentorAssignment }) {
       </button>
 
       {expanded && (
-        <div className="border-t border-slate-100 dark:border-slate-800 px-4 py-3 space-y-2">
+        <div className="border-t border-slate-100 dark:border-slate-800">
           {assignment.reverts.map((revert) => (
             <div
               key={revert._id}
-              className="flex items-center gap-3 py-2 text-sm"
+              className="flex items-center gap-3 px-4 py-3 border-b last:border-b-0 border-slate-50 dark:border-slate-800/50"
             >
-              <div className="h-8 w-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
+              <div className="h-8 w-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center shrink-0">
                 <User className="h-4 w-4 text-slate-500" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <Link
                   href={`/admin/users/${revert._id}`}
-                  className="font-medium text-slate-700 dark:text-slate-300 hover:text-primary-600 transition-colors"
+                  className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-primary-600 transition-colors"
                 >
                   {revert.name}
                 </Link>

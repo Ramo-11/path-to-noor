@@ -3,6 +3,10 @@ import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { MentorRequest } from "@/db/models/MentorRequest";
 import { User } from "@/db/models/User";
+import {
+  sendMentorAssignmentEmail,
+  sendMenteeNotificationEmail,
+} from "@/lib/email";
 
 export async function PUT(
   request: NextRequest,
@@ -14,7 +18,7 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    const { mentorId, status, adminNote } = body;
+    const { mentorId, status, adminNote, notifyMentor, notifyMentee } = body;
 
     await connectDB();
 
@@ -36,6 +40,35 @@ export async function PUT(
       await User.findByIdAndUpdate(mentorRequest.revertId, {
         assignedMentorId: mentorId,
       });
+
+      // Send email notifications (fire-and-forget)
+      if (notifyMentor || notifyMentee) {
+        const [mentor, mentee] = await Promise.all([
+          User.findById(mentorId).select("name email").lean(),
+          User.findById(mentorRequest.revertId).select("name email").lean(),
+        ]);
+
+        if (mentor && mentee) {
+          const mentorAny = mentor as { name: string; email: string };
+          const menteeAny = mentee as { name: string; email: string };
+
+          const emailPromises: Promise<void>[] = [];
+          if (notifyMentor) {
+            emailPromises.push(
+              sendMentorAssignmentEmail(mentorAny.email, mentorAny.name, menteeAny.name)
+            );
+          }
+          if (notifyMentee) {
+            emailPromises.push(
+              sendMenteeNotificationEmail(menteeAny.email, menteeAny.name, mentorAny.name)
+            );
+          }
+          // Don't await — send in background so API responds quickly
+          Promise.all(emailPromises).catch((err) =>
+            console.error("[API] Mentor assignment email error:", err)
+          );
+        }
+      }
     }
 
     if (status === "rejected") {

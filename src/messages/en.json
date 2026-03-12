@@ -12,7 +12,8 @@
     "bookmarks": "Bookmarks",
     "mentorship": "Mentorship",
     "adminPortal": "Admin Portal",
-    "signOut": "Sign Out"
+    "signOut": "Sign Out",
+    "contact": "Contact"
   },
   "home": {
     "hero": {
@@ -229,7 +230,10 @@
     "errorCredentials": "Invalid email or password.",
     "errorEmailExists": "An account with this email already exists.",
     "registrationSuccess": "Account created! You can now sign in.",
-    "forgotPassword": "Forgot password?"
+    "forgotPassword": "Forgot password?",
+    "onboardingTitle": "Welcome to Basmet Dawah!",
+    "onboardingDescription": "Tell us a bit about yourself so we can personalize your experience.",
+    "continue": "Continue"
   },
   "mentorship": {
     "title": "Mentorship",
@@ -246,7 +250,14 @@
     "requestSubmitted": "Request submitted successfully!",
     "alreadyHasRequest": "You already have an active mentor request.",
     "notRevert": "Mentor requests are only available for new Muslims.",
-    "loginRequired": "Sign in to request a mentor."
+    "loginRequired": "Sign in to request a mentor.",
+    "mentorDashboard": "Your Mentees",
+    "mentorDashboardDescription": "These are the people you've been matched with. Reach out to them and help guide them on their journey.",
+    "noMentees": "You haven't been assigned any mentees yet.",
+    "noMenteesDescription": "When a new Muslim requests a mentor, an admin will match them with you.",
+    "menteesSince": "Assigned {date}",
+    "menteeMessage": "Their message",
+    "menteeCount": "{count} mentee(s) assigned to you"
   },
   "topicProgress": {
     "markLearnt": "Mark as Learnt",
@@ -348,10 +359,44 @@
       "contactText": "If you have questions about these Terms of Service, please contact us at support@basmetdawah.com."
     }
   },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question, suggestion, or just want to say hello? We'd love to hear from you.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Full name",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "you@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us what's on your mind...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. We'll get back to you as soon as possible.",
+    "sendAnother": "Send Another Message",
+    "errorDefault": "Something went wrong. Please try again.",
+    "errorRateLimit": "You've sent too many messages. Please try again later.",
+    "emailDirect": "Or email us directly at",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1q": "What is Basmet Dawah?",
+    "faq1a": "Basmet Dawah is a free, bilingual learning platform designed for new Muslims. It offers structured learning paths, topic-based content, and quizzes to help you explore Islam at your own pace.",
+    "faq2q": "Is this platform free?",
+    "faq2a": "Yes, completely free. All content is available to everyone — no subscriptions, no hidden fees.",
+    "faq3q": "Do I need an account to access content?",
+    "faq3a": "No. You can browse all lessons and topics without signing up. An account is only needed for tracking progress, bookmarks, and quizzes.",
+    "faq4q": "What languages are supported?",
+    "faq4a": "Currently English and Arabic, with full right-to-left (RTL) support. We're working on adding more languages.",
+    "faq5q": "I found an error in a lesson. How do I report it?",
+    "faq5a": "Please use the contact form above or email us directly. We appreciate any corrections and will update the content promptly.",
+    "faq6q": "Can I contribute content or volunteer?",
+    "faq6a": "We'd love your help! Reach out through the contact form and let us know how you'd like to contribute."
+  },
   "footer": {
     "explore": "Explore",
     "topics": "Topics",
     "paths": "Learning Paths",
+    "contact": "Contact",
     "account": "Account",
     "signIn": "Sign In",
     "createAccount": "Create Account",

@@ -120,41 +120,6 @@ export default async function TopicDetailPage({
           )}
         </AnimateIn>
 
-        {/* Subtopics section */}
-        {subtopics.length > 0 && (
-          <div className="mb-16">
-            <AnimateIn preset="fade-up">
-              <h2 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-                <FolderOpen className="h-6 w-6 text-primary-600" />
-                {t("subtopics")}
-              </h2>
-            </AnimateIn>
-
-            <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {subtopics.map((sub: any) => (
-                <StaggerItem key={sub._id.toString()}>
-                  <Link
-                    href={`/topics/${sub.slug}`}
-                    className="block group"
-                  >
-                    <div className="card-hover rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 h-full">
-                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-accent-50 dark:bg-accent-900/20 text-accent-600 dark:text-accent-400 mb-3">
-                        <FolderOpen className="h-5 w-5" />
-                      </div>
-                      <h3 className="font-heading text-lg font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-                        {sub.name[locale] || sub.name.en}
-                      </h3>
-                      <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400 line-clamp-2">
-                        {sub.description[locale] || sub.description.en}
-                      </p>
-                    </div>
-                  </Link>
-                </StaggerItem>
-              ))}
-            </StaggerContainer>
-          </div>
-        )}
-
         {/* Modules section */}
         {modules.length > 0 && (
           <div>
@@ -294,6 +259,41 @@ export default async function TopicDetailPage({
                   </StaggerItem>
                 );
               })}
+            </StaggerContainer>
+          </div>
+        )}
+
+        {/* Subtopics section */}
+        {subtopics.length > 0 && (
+          <div className={modules.length > 0 ? "mt-16" : ""}>
+            <AnimateIn preset="fade-up">
+              <h2 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+                <FolderOpen className="h-6 w-6 text-primary-600" />
+                {t("subtopics")}
+              </h2>
+            </AnimateIn>
+
+            <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {subtopics.map((sub: any) => (
+                <StaggerItem key={sub._id.toString()}>
+                  <Link
+                    href={`/topics/${sub.slug}`}
+                    className="block group"
+                  >
+                    <div className="card-hover rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 h-full">
+                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-accent-50 dark:bg-accent-900/20 text-accent-600 dark:text-accent-400 mb-3">
+                        <FolderOpen className="h-5 w-5" />
+                      </div>
+                      <h3 className="font-heading text-lg font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        {sub.name[locale] || sub.name.en}
+                      </h3>
+                      <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400 line-clamp-2">
+                        {sub.description[locale] || sub.description.en}
+                      </p>
+                    </div>
+                  </Link>
+                </StaggerItem>
+              ))}
             </StaggerContainer>
           </div>
         )}

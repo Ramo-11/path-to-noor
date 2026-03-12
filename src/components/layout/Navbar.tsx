@@ -25,11 +25,13 @@ export function Navbar() {
   const isLoggedIn = mounted && status === "authenticated" && !!session?.user;
   const isAdmin = isLoggedIn && (session.user.role === "admin" || session.user.role === "super_admin");
   const isRevert = isLoggedIn && session.user.userType === "revert";
+  const isMentor = isLoggedIn && session.user.userType === "mentor";
 
   const navLinks = [
     { href: "/", label: t("home") },
     { href: "/paths", label: t("paths") },
     { href: "/topics", label: t("topics") },
+    { href: "/contact", label: t("contact") },
   ];
 
   const [langOpen, setLangOpen] = useState(false);
@@ -137,7 +139,7 @@ export function Navbar() {
                         <Bookmark className="h-4 w-4" />
                         {t("bookmarks")}
                       </Link>
-                      {isRevert && (
+                      {(isRevert || isMentor) && (
                         <Link
                           href="/mentorship"
                           onClick={() => setProfileOpen(false)}
@@ -241,7 +243,7 @@ export function Navbar() {
                 >
                   {t("myAccount")}
                 </Link>
-                {isRevert && (
+                {(isRevert || isMentor) && (
                   <Link
                     href="/mentorship"
                     onClick={() => setMobileOpen(false)}

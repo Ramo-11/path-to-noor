@@ -6,6 +6,7 @@ import { SessionProvider } from "next-auth/react";
 import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { OnboardingRedirect } from "@/components/shared/OnboardingRedirect";
 import { getSiteUrl } from "@/config/env";
 import "@/app/globals.css";
 
@@ -72,6 +73,7 @@ export default async function LocaleLayout({
       >
         <SessionProvider>
           <NextIntlClientProvider messages={messages}>
+            <OnboardingRedirect />
             <Navbar />
             <main className="min-h-screen">{children}</main>
             <Footer />
