@@ -80,6 +80,11 @@
       "title": "Need Personal Guidance?",
       "subtitle": "Request a mentor who can answer your questions and support you on your journey.",
       "requestMentor": "Request a Mentor"
+    },
+    "stories": {
+      "badge": "Inspiring Journeys",
+      "title": "Stories of Faith",
+      "subtitle": "Hear from those who found their way to Islam — real stories of courage, discovery, and finding peace."
     }
   },
   "topics": {
@@ -380,13 +385,13 @@
     "emailDirect": "Or email us directly at",
     "faqTitle": "Frequently Asked Questions",
     "faq1q": "What is Basmet Dawah?",
-    "faq1a": "Basmet Dawah is a free, bilingual learning platform designed for new Muslims. It offers structured learning paths, topic-based content, and quizzes to help you explore Islam at your own pace.",
+    "faq1a": "Basmet Dawah is a free, multilingual learning platform designed for new Muslims. It offers structured learning paths, topic-based content, and quizzes to help you explore Islam at your own pace.",
     "faq2q": "Is this platform free?",
     "faq2a": "Yes, completely free. All content is available to everyone — no subscriptions, no hidden fees.",
     "faq3q": "Do I need an account to access content?",
-    "faq3a": "No. You can browse all lessons and topics without signing up. An account is only needed for tracking progress, bookmarks, and quizzes.",
+    "faq3a": "You can browse all lessons and topics freely without an account. But we highly recommend creating one — it's free and lets you track your progress, save bookmarks, take quizzes, and pick up right where you left off.",
     "faq4q": "What languages are supported?",
-    "faq4a": "Currently English and Arabic, with full right-to-left (RTL) support. We're working on adding more languages.",
+    "faq4a": "English, Arabic, and Spanish — with full right-to-left (RTL) support for Arabic.",
     "faq5q": "I found an error in a lesson. How do I report it?",
     "faq5a": "Please use the contact form above or email us directly. We appreciate any corrections and will update the content promptly.",
     "faq6q": "Can I contribute content or volunteer?",

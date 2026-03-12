@@ -7,6 +7,7 @@ import { Lesson } from "@/db/models/Lesson";
 import { LearningPath } from "@/db/models/LearningPath";
 import { Quiz } from "@/db/models/Quiz";
 import { User } from "@/db/models/User";
+import { Story } from "@/db/models/Story";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -315,6 +316,52 @@ export async function getUsers(
   };
 }
 
+// ---------------------------------------------------------------------------
+// Stories
+// ---------------------------------------------------------------------------
+
+export async function getStories(params: QueryParams): Promise<PaginatedResult<InstanceType<typeof Story>>> {
+  await connectDB();
+
+  const { page, limit, search, sort, order } = params;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const filter: Record<string, any> = {};
+
+  if (search) {
+    const escaped = escapeRegex(search);
+    filter.$or = [
+      { "personName.en": { $regex: escaped, $options: "i" } },
+      { "personName.ar": { $regex: escaped, $options: "i" } },
+      { "title.en": { $regex: escaped, $options: "i" } },
+      { "title.ar": { $regex: escaped, $options: "i" } },
+    ];
+  }
+
+  const [data, total] = await Promise.all([
+    Story.find(filter)
+      .sort(buildSortOption(sort, order))
+      .skip((page - 1) * limit)
+      .limit(limit)
+      .lean(),
+    Story.countDocuments(filter),
+  ]);
+
+  return {
+    data: data as InstanceType<typeof Story>[],
+    pagination: {
+      page,
+      limit,
+      total,
+      totalPages: Math.ceil(total / limit) || 1,
+    },
+  };
+}
+
+export async function getStoryById(id: string) {
+  await connectDB();
+  return Story.findById(id).lean();
+}
+
 // ===========================================================================
 // PUBLIC queries — only return published content
 // ===========================================================================
@@ -525,6 +572,18 @@ export async function getLessonNavigationContext(lessonId: string, locale: strin
 export async function getPublicQuizByLessonId(lessonId: string) {
   await connectDB();
   return Quiz.findOne({ lessonId }).lean();
+}
+
+// ---------------------------------------------------------------------------
+// Public: Stories (for homepage carousel)
+// ---------------------------------------------------------------------------
+
+export async function getPublicStories(limit = 10) {
+  await connectDB();
+  return Story.find({ published: true })
+    .sort({ featured: -1, order: 1, createdAt: -1 })
+    .limit(limit)
+    .lean();
 }
 
 // ---------------------------------------------------------------------------

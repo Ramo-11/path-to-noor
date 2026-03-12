@@ -5,6 +5,7 @@ import {
   getPublicTopics,
   getPublicLearningPaths,
   getHomepageStats,
+  getPublicStories,
 } from "@/lib/data";
 import { Container } from "@/components/layout/Container";
 import {
@@ -15,6 +16,7 @@ import {
 import { AnimatedCounter } from "@/components/shared/AnimatedCounter";
 import { TopicIconPublic } from "@/components/shared/TopicIconPublic";
 import { Button } from "@/components/ui/Button";
+import { StoriesCarousel } from "@/components/shared/StoriesCarousel";
 import {
   BookOpen,
   Route,
@@ -72,14 +74,29 @@ export default async function HomePage({
   const session = await auth();
   const ctx = { userType: session?.user?.userType, isGuest: !session?.user };
 
-  const [rootTopics, allPaths, stats] = await Promise.all([
+  const [rootTopics, allPaths, stats, rawStories] = await Promise.all([
     getPublicTopics(ctx).then((topics) =>
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       topics.filter((t: any) => !t.parent).slice(0, 6)
     ),
     getPublicLearningPaths(ctx),
     getHomepageStats(),
+    getPublicStories(10),
   ]);
+
+  // Serialize stories for client component
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const stories = rawStories.map((s: any) => ({
+    _id: s._id.toString(),
+    personName: s.personName,
+    title: s.title,
+    excerpt: s.excerpt,
+    videoUrl: s.videoUrl || "",
+    videoType: s.videoType || "none",
+    thumbnail: s.thumbnail || "",
+    type: s.type || "text",
+    featured: s.featured || false,
+  }));
 
   const featuredPath = allPaths[0] || null;
   const otherPaths = allPaths.slice(1, 4);
@@ -418,6 +435,17 @@ export default async function HomePage({
           </StaggerContainer>
         </Container>
       </section>
+
+      {/* ──────────────── Stories Carousel ──────────────── */}
+      {stories.length > 0 && (
+        <StoriesCarousel
+          stories={stories}
+          locale={locale}
+          sectionTitle={t("stories.title")}
+          sectionSubtitle={t("stories.subtitle")}
+          sectionBadge={t("stories.badge")}
+        />
+      )}
 
       {/* ──────────────── Mentor Banner ──────────────── */}
       <section className="py-16 sm:py-20">

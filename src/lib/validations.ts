@@ -272,3 +272,46 @@ export const updateUserSchema = z.object({
 });
 
 export type UpdateUserInput = z.infer<typeof updateUserSchema>;
+
+// ---------------------------------------------------------------------------
+// Story
+// ---------------------------------------------------------------------------
+
+export const createStorySchema = z.object({
+  personName: bilingualStringArOptional,
+  title: bilingualStringArOptional,
+  excerpt: bilingualStringArOptional,
+  content: z.object({
+    en: z.string().default(""),
+    ar: z.string().default(""),
+    es: z.string().default(""),
+  }).default({ en: "", ar: "", es: "" }),
+  videoUrl: z.string().default(""),
+  videoType: z.enum(["youtube", "upload", "none"]).default("none"),
+  thumbnail: z.string().default(""),
+  type: z.enum(["text", "video", "both"]).default("text"),
+  featured: z.boolean().default(false),
+  published: z.boolean().default(false),
+  order: z.number().int().min(0).default(0),
+});
+
+export const updateStorySchema = z.object({
+  personName: bilingualStringArOptionalPartial.optional(),
+  title: bilingualStringArOptionalPartial.optional(),
+  excerpt: bilingualStringArOptionalPartial.optional(),
+  content: z.object({
+    en: z.string().optional(),
+    ar: z.string().optional(),
+    es: z.string().optional(),
+  }).optional(),
+  videoUrl: z.string().optional(),
+  videoType: z.enum(["youtube", "upload", "none"]).optional(),
+  thumbnail: z.string().optional(),
+  type: z.enum(["text", "video", "both"]).optional(),
+  featured: z.boolean().optional(),
+  published: z.boolean().optional(),
+  order: z.number().int().min(0).optional(),
+});
+
+export type CreateStoryInput = z.infer<typeof createStorySchema>;
+export type UpdateStoryInput = z.infer<typeof updateStorySchema>;

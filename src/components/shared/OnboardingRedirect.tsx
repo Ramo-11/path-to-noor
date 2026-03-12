@@ -2,12 +2,13 @@
 
 import { useSession } from "next-auth/react";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export function OnboardingRedirect() {
   const { data: session, status } = useSession();
   const pathname = usePathname();
   const router = useRouter();
+  const redirectingRef = useRef(false);
 
   useEffect(() => {
     if (status !== "authenticated") return;
@@ -18,13 +19,17 @@ export function OnboardingRedirect() {
     if (role === "admin" || role === "super_admin") return;
 
     // Already on onboarding page
-    if (pathname === "/onboarding") return;
+    if (pathname === "/onboarding") {
+      redirectingRef.current = false;
+      return;
+    }
 
-    // Missing userType → redirect to onboarding
-    if (!session.user.userType) {
+    // Missing userType → redirect to onboarding (only once)
+    if (!session.user.userType && !redirectingRef.current) {
+      redirectingRef.current = true;
       router.replace("/onboarding");
     }
-  }, [session, status, pathname, router]);
+  }, [status, session?.user?.userType, session?.user?.role, pathname, router]);
 
   return null;
 }

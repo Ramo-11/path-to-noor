@@ -15,6 +15,7 @@ import {
   ChevronRight,
   ExternalLink,
   Handshake,
+  Heart,
   type LucideIcon,
 } from "lucide-react";
 import { useState } from "react";
@@ -33,6 +34,7 @@ const navItems: NavItem[] = [
   { href: "/admin/modules", label: "Modules", icon: Library },
   { href: "/admin/lessons", label: "Lessons", icon: GraduationCap },
   { href: "/admin/quizzes", label: "Quizzes", icon: HelpCircle },
+  { href: "/admin/stories", label: "Stories", icon: Heart },
   { href: "/admin/mentorship", label: "Mentorship", icon: Handshake },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/system-users", label: "System Users", icon: ShieldCheck, superAdminOnly: true },
