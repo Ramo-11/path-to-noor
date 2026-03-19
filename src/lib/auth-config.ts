@@ -64,7 +64,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   },
 
   callbacks: {
-    async jwt({ token, user, account, trigger }) {
+    async jwt({ token, user, account, trigger, session }) {
       if (user) {
         if (account?.provider === "google") {
           // Google sign-in: look up the DB user to get custom fields
@@ -92,16 +92,23 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
       // Refresh from DB when session is explicitly updated
       if (trigger === "update" && token.id) {
+        // Apply any data passed directly via update()
+        if (session?.userType) {
+          token.userType = session.userType;
+        }
+        if (session?.preferredLanguage) {
+          token.preferredLanguage = session.preferredLanguage;
+        }
         try {
           await connectDB();
           const dbUser = await User.findById(token.id).select("role userType preferredLanguage").lean();
           if (dbUser) {
             token.role = dbUser.role;
-            token.userType = (dbUser as { userType?: string }).userType;
-            token.preferredLanguage = dbUser.preferredLanguage;
+            token.userType = (dbUser as { userType?: string }).userType || token.userType;
+            token.preferredLanguage = dbUser.preferredLanguage || token.preferredLanguage;
           }
         } catch {
-          // Silently continue with cached token values
+          // Silently continue — the direct session data above serves as fallback
         }
       }
 

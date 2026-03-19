@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { useSession } from "next-auth/react";
+import { useRouter } from "@/i18n/navigation";
 
 export default function OnboardingPage() {
   const t = useTranslations("auth");
-  const locale = useLocale();
+  const router = useRouter();
   const { update } = useSession();
 
   const [userType, setUserType] = useState<"revert" | "mentor" | "">("");
@@ -32,9 +33,9 @@ export default function OnboardingPage() {
       }
 
       // Refresh the session so userType is available immediately
-      await update();
-      // Full reload to ensure session is fully propagated
-      window.location.href = `/${locale}`;
+      await update({ userType });
+      // Navigate via client-side router to preserve the updated session
+      router.replace("/");
     } catch {
       setError(t("errorDefault"));
       setLoading(false);
