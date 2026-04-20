@@ -45,7 +45,15 @@ function tri(en: string, ar: string, es: string) {
   return { en, ar, es };
 }
 
-function tiptapDoc(paragraphs: string[]) {
+type TipTapNode = {
+  type: string;
+  attrs?: Record<string, unknown>;
+  content?: TipTapNode[];
+  text?: string;
+};
+type TipTapDoc = { type: "doc"; content: TipTapNode[] };
+
+function tiptapDoc(paragraphs: string[]): TipTapDoc {
   return {
     type: "doc",
     content: paragraphs.map((text) => ({
@@ -55,7 +63,7 @@ function tiptapDoc(paragraphs: string[]) {
   };
 }
 
-function tiptapVideoDoc(title: string, url: string) {
+function tiptapVideoDoc(title: string, url: string): TipTapDoc {
   return {
     type: "doc",
     content: [
@@ -118,7 +126,7 @@ async function createModuleWithLessons(
   lessons: Array<{
     slug: string;
     title: ReturnType<typeof tri>;
-    contentEn: ReturnType<typeof tiptapDoc>;
+    contentEn: TipTapDoc;
     estimatedMinutes?: number;
     published?: boolean;
   }>
