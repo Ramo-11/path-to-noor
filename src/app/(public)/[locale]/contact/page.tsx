@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/layout/Container";
 import { AnimateIn } from "@/components/shared/AnimateIn";
@@ -13,10 +13,16 @@ export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [website, setWebsite] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [sent, setSent] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const formLoadedAt = useRef<number>(0);
+
+  useEffect(() => {
+    formLoadedAt.current = Date.now();
+  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -27,7 +33,14 @@ export default function ContactPage() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, subject, message }),
+        body: JSON.stringify({
+          name,
+          email,
+          subject,
+          message,
+          website,
+          formLoadedAt: formLoadedAt.current,
+        }),
       });
 
       if (res.status === 429) {
@@ -55,8 +68,10 @@ export default function ContactPage() {
     setEmail("");
     setSubject("");
     setMessage("");
+    setWebsite("");
     setError("");
     setSent(false);
+    formLoadedAt.current = Date.now();
   }
 
   const faqs = [
@@ -111,6 +126,30 @@ export default function ContactPage() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
+                  {/* Honeypot — hidden from users, bots fill it. */}
+                  <div
+                    aria-hidden="true"
+                    style={{
+                      position: "absolute",
+                      left: "-10000px",
+                      top: "auto",
+                      width: "1px",
+                      height: "1px",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <label htmlFor="contact-website">Website</label>
+                    <input
+                      id="contact-website"
+                      type="text"
+                      name="website"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={website}
+                      onChange={(e) => setWebsite(e.target.value)}
+                    />
+                  </div>
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
                       <label

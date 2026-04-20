@@ -13,7 +13,22 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { name, email, subject, message } = await request.json();
+    const { name, email, subject, message, website, formLoadedAt } = await request.json();
+
+    // Honeypot — real users can't see this field; bots fill it.
+    if (typeof website === "string" && website.trim() !== "") {
+      return NextResponse.json({ success: true });
+    }
+
+    // Min submit time — bots submit instantly.
+    if (typeof formLoadedAt === "number") {
+      const elapsed = Date.now() - formLoadedAt;
+      if (elapsed < 3000 || elapsed > 24 * 60 * 60 * 1000) {
+        return NextResponse.json({ success: true });
+      }
+    } else {
+      return NextResponse.json({ success: true });
+    }
 
     if (
       !name ||
