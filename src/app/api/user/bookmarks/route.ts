@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Types } from "mongoose";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { bookmarkSchema } from "@/lib/validations";
 
 export async function GET() {
   const session = await auth();
@@ -37,13 +39,14 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { lessonId } = await request.json();
-    if (!lessonId) {
+    const parsed = bookmarkSchema.safeParse(await request.json());
+    if (!parsed.success) {
       return NextResponse.json(
-        { error: "lessonId is required" },
+        { error: "Invalid lessonId" },
         { status: 400 }
       );
     }
+    const { lessonId } = parsed.data;
 
     await connectDB();
     const user = await User.findById(session.user.id);
@@ -56,7 +59,7 @@ export async function POST(request: NextRequest) {
     );
 
     if (!alreadyBookmarked) {
-      user.bookmarks.push(lessonId);
+      user.bookmarks.push(new Types.ObjectId(lessonId));
       await user.save();
     }
 
@@ -77,13 +80,14 @@ export async function DELETE(request: NextRequest) {
   }
 
   try {
-    const { lessonId } = await request.json();
-    if (!lessonId) {
+    const parsed = bookmarkSchema.safeParse(await request.json());
+    if (!parsed.success) {
       return NextResponse.json(
-        { error: "lessonId is required" },
+        { error: "Invalid lessonId" },
         { status: 400 }
       );
     }
+    const { lessonId } = parsed.data;
 
     await connectDB();
     await User.findByIdAndUpdate(session.user.id, {

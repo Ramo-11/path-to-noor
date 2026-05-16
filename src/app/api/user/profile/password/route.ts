@@ -3,6 +3,8 @@ import bcrypt from "bcrypt";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { changePasswordSchema } from "@/lib/validations";
 
 export async function PUT(request: NextRequest) {
   const session = await auth();
@@ -10,22 +12,28 @@ export async function PUT(request: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  const limit = rateLimit(
+    `change-password:${session.user.id}:${getClientIp(request.headers)}`,
+    5,
+    15 * 60 * 1000
+  );
+  if (!limit.success) {
+    return NextResponse.json(
+      { error: "Too many attempts. Please try again later." },
+      { status: 429 }
+    );
+  }
+
   try {
-    const { currentPassword, newPassword } = await request.json();
-
-    if (!currentPassword || !newPassword) {
-      return NextResponse.json(
-        { error: "Current password and new password are required" },
-        { status: 400 }
-      );
+    const parsed = changePasswordSchema.safeParse(await request.json());
+    if (!parsed.success) {
+      const fieldErrors = parsed.error.flatten().fieldErrors;
+      const firstError =
+        Object.values(fieldErrors).flat().find(Boolean) ||
+        "Invalid password change request";
+      return NextResponse.json({ error: firstError }, { status: 400 });
     }
-
-    if (newPassword.length < 8) {
-      return NextResponse.json(
-        { error: "New password must be at least 8 characters" },
-        { status: 400 }
-      );
-    }
+    const { currentPassword, newPassword } = parsed.data;
 
     await connectDB();
     const user = await User.findById(session.user.id).select("+password");

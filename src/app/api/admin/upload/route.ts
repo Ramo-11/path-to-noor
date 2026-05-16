@@ -9,6 +9,15 @@ const ALLOWED_TYPES = [
   "image/gif",
 ];
 
+const ALLOWED_FOLDERS = new Set([
+  "path-to-noor/lessons",
+  "path-to-noor/thumbnails",
+  "path-to-noor/topics",
+  "path-to-noor/stories",
+  "path-to-noor/avatars",
+]);
+const DEFAULT_FOLDER = "path-to-noor/lessons";
+
 const MAX_SIZE = 10 * 1024 * 1024; // 10MB
 
 cloudinary.config({
@@ -47,10 +56,15 @@ export async function POST(req: NextRequest) {
     const base64 = Buffer.from(bytes).toString("base64");
     const dataUri = `data:${file.type};base64,${base64}`;
 
-    const folder = (formData.get("folder") as string) || "path-to-noor/lessons";
+    const requestedFolder = (formData.get("folder") as string) || DEFAULT_FOLDER;
+    const folder = ALLOWED_FOLDERS.has(requestedFolder)
+      ? requestedFolder
+      : DEFAULT_FOLDER;
 
     const result = await cloudinary.uploader.upload(dataUri, {
       folder,
+      resource_type: "image",
+      overwrite: false,
     });
 
     return NextResponse.json({

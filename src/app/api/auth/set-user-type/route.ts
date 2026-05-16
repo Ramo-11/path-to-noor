@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { setUserTypeSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
@@ -10,9 +11,9 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const { userType } = await request.json();
-
-    if (!userType || !["revert", "mentor"].includes(userType)) {
+    const body = await request.json();
+    const parsed = setUserTypeSchema.safeParse(body);
+    if (!parsed.success) {
       return NextResponse.json(
         { error: "Invalid user type" },
         { status: 400 }
@@ -20,7 +21,9 @@ export async function POST(request: NextRequest) {
     }
 
     await connectDB();
-    await User.findByIdAndUpdate(session.user.id, { userType });
+    await User.findByIdAndUpdate(session.user.id, {
+      userType: parsed.data.userType,
+    });
 
     return NextResponse.json({ success: true });
   } catch (error) {

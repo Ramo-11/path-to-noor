@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowLeft,
   User as UserIcon,
@@ -287,11 +288,13 @@ export default function UserDetailPage() {
           <div className="flex items-start gap-4">
             <div className="h-14 w-14 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center shrink-0">
               {user.image ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
+                <Image
                   src={user.image}
                   alt={user.name}
+                  width={56}
+                  height={56}
                   className="h-14 w-14 rounded-full object-cover"
+                  unoptimized
                 />
               ) : (
                 <UserIcon className="h-6 w-6 text-primary-600" />

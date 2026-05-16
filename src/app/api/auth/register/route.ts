@@ -3,11 +3,12 @@ import bcrypt from "bcrypt";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { registerSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
     const ip = getClientIp(request.headers);
-    const limit = rateLimit(`register:${ip}`, 5, 15 * 60 * 1000); // 5 attempts per 15 min
+    const limit = rateLimit(`register:${ip}`, 5, 15 * 60 * 1000);
     if (!limit.success) {
       return NextResponse.json(
         { error: "Too many registration attempts. Please try again later." },
@@ -15,32 +16,23 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { name, email, password, userType } = await request.json();
-
-    if (!name || !email || !password) {
+    const body = await request.json();
+    const parsed = registerSchema.safeParse(body);
+    if (!parsed.success) {
+      const fieldErrors = parsed.error.flatten().fieldErrors;
+      const firstError =
+        Object.values(fieldErrors).flat().find(Boolean) ||
+        "Invalid registration data";
       return NextResponse.json(
-        { error: "Name, email, and password are required" },
+        { error: firstError, details: fieldErrors },
         { status: 400 }
       );
     }
-
-    if (!userType || !["revert", "mentor"].includes(userType)) {
-      return NextResponse.json(
-        { error: "Please select whether you are a revert or a mentor" },
-        { status: 400 }
-      );
-    }
-
-    if (password.length < 8) {
-      return NextResponse.json(
-        { error: "Password must be at least 8 characters" },
-        { status: 400 }
-      );
-    }
+    const { name, email, password, userType } = parsed.data;
 
     await connectDB();
 
-    const existingUser = await User.findOne({ email: email.toLowerCase() });
+    const existingUser = await User.findOne({ email });
     if (existingUser) {
       return NextResponse.json(
         { error: "An account with this email already exists" },
@@ -51,8 +43,8 @@ export async function POST(request: NextRequest) {
     const hashedPassword = await bcrypt.hash(password, 12);
 
     await User.create({
-      name: name.trim(),
-      email: email.toLowerCase().trim(),
+      name,
+      email,
       password: hashedPassword,
       role: "user",
       userType,

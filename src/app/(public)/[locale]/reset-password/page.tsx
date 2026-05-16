@@ -117,10 +117,11 @@ function ResetPasswordForm() {
               type={showPassword ? "text" : "password"}
               required
               minLength={8}
+              autoComplete="new-password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-3 py-2.5 pe-10 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-              placeholder="Min. 8 characters"
+              placeholder="Min. 8 chars, mix letters & numbers"
             />
             <button
               type="button"
@@ -146,6 +147,7 @@ function ResetPasswordForm() {
               type={showPassword ? "text" : "password"}
               required
               minLength={8}
+              autoComplete="new-password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               className="w-full px-3 py-2.5 pe-10 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
@@ -162,7 +164,11 @@ function ResetPasswordForm() {
         </div>
 
         {error && (
-          <div className="text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2">
+          <div
+            role="alert"
+            aria-live="assertive"
+            className="text-sm text-red-700 dark:text-red-300 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2"
+          >
             {error}
           </div>
         )}
@@ -170,6 +176,7 @@ function ResetPasswordForm() {
         <button
           type="submit"
           disabled={loading}
+          aria-busy={loading}
           className="w-full px-6 py-2.5 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
         >
           {loading ? (

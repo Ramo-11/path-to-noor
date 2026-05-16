@@ -47,6 +47,7 @@ function YouTubeThumbnail({ videoUrl }: { videoUrl: string }) {
   const ytId = extractYouTubeId(videoUrl);
   if (!ytId) return null;
   return (
+    // eslint-disable-next-line @next/next/no-img-element
     <img
       src={`https://img.youtube.com/vi/${ytId}/hqdefault.jpg`}
       alt=""
@@ -163,6 +164,7 @@ export function StoriesCarousel({
                     {hasVideo && (story.thumbnail || ytId) ? (
                       <div className="absolute inset-0">
                         {story.thumbnail ? (
+                          // eslint-disable-next-line @next/next/no-img-element
                           <img
                             src={story.thumbnail}
                             alt=""

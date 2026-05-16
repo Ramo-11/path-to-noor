@@ -572,6 +572,7 @@ export default function ProfilePage() {
                   <input
                     id="currentPassword"
                     type={showCurrentPassword ? "text" : "password"}
+                    autoComplete="current-password"
                     value={currentPassword}
                     onChange={(e) => setCurrentPassword(e.target.value)}
                     required
@@ -596,6 +597,7 @@ export default function ProfilePage() {
                   <input
                     id="newPassword"
                     type={showNewPassword ? "text" : "password"}
+                    autoComplete="new-password"
                     value={newPassword}
                     onChange={(e) => setNewPassword(e.target.value)}
                     required
@@ -615,13 +617,21 @@ export default function ProfilePage() {
               </div>
 
               {passwordError && (
-                <div className="text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2">
+                <div
+                  role="alert"
+                  aria-live="assertive"
+                  className="text-sm text-red-700 dark:text-red-300 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2"
+                >
                   {passwordError}
                 </div>
               )}
 
               {passwordSuccess && (
-                <div className="flex items-center gap-2 text-sm text-emerald-600 dark:text-emerald-400">
+                <div
+                  role="status"
+                  aria-live="polite"
+                  className="flex items-center gap-2 text-sm text-emerald-700 dark:text-emerald-300"
+                >
                   <Check className="h-4 w-4" />
                   {t("passwordSuccess")}
                 </div>
@@ -630,6 +640,7 @@ export default function ProfilePage() {
               <button
                 type="submit"
                 disabled={passwordSaving}
+                aria-busy={passwordSaving}
                 className="px-6 py-2.5 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors text-sm"
               >
                 {passwordSaving ? (

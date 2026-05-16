@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Types } from "mongoose";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { Quiz } from "@/db/models/Quiz";
+import { quizSubmitSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   const session = await auth();
@@ -11,14 +13,15 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { quizId, answers } = await request.json();
-
-    if (!quizId || !Array.isArray(answers)) {
+    const body = await request.json();
+    const parsed = quizSubmitSchema.safeParse(body);
+    if (!parsed.success) {
       return NextResponse.json(
-        { error: "quizId and answers array are required" },
+        { error: "Invalid quiz submission" },
         { status: 400 }
       );
     }
+    const { quizId, answers } = parsed.data;
 
     await connectDB();
 
@@ -27,17 +30,29 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Quiz not found" }, { status: 404 });
     }
 
+    if (answers.length !== quiz.questions.length) {
+      return NextResponse.json(
+        { error: "Answers count does not match question count" },
+        { status: 400 }
+      );
+    }
+
     // Score the quiz: answers is an array of selected option indices per question
     let correctCount = 0;
     const results = quiz.questions.map((question, qIndex) => {
-      const selectedIndex = answers[qIndex] as number | undefined;
+      const rawIndex = answers[qIndex];
+      const optionsLen = question.options.length;
+      const selectedIndex =
+        typeof rawIndex === "number" && rawIndex >= 0 && rawIndex < optionsLen
+          ? rawIndex
+          : -1;
       const correctIndex = question.options.findIndex((opt) => opt.isCorrect);
       const isCorrect = selectedIndex === correctIndex;
       if (isCorrect) correctCount++;
 
       return {
         questionIndex: qIndex,
-        selectedIndex: selectedIndex ?? -1,
+        selectedIndex,
         correctIndex,
         isCorrect,
         explanation: question.explanation,
@@ -58,7 +73,7 @@ export async function POST(request: NextRequest) {
       (r) => r.quizId.toString() === quizId
     );
     const resultEntry = {
-      quizId,
+      quizId: new Types.ObjectId(quizId),
       score,
       passed,
       completedAt: new Date(),

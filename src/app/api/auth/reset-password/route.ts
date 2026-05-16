@@ -4,6 +4,7 @@ import bcrypt from "bcrypt";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { resetPasswordSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,21 +17,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { token, password } = await request.json();
-
-    if (!token || !password) {
-      return NextResponse.json(
-        { error: "Token and password are required" },
-        { status: 400 }
-      );
+    const parsed = resetPasswordSchema.safeParse(await request.json());
+    if (!parsed.success) {
+      const fieldErrors = parsed.error.flatten().fieldErrors;
+      const firstError =
+        Object.values(fieldErrors).flat().find(Boolean) ||
+        "Invalid reset request";
+      return NextResponse.json({ error: firstError }, { status: 400 });
     }
-
-    if (password.length < 8) {
-      return NextResponse.json(
-        { error: "Password must be at least 8 characters" },
-        { status: 400 }
-      );
-    }
+    const { token, password } = parsed.data;
 
     const hashedToken = crypto
       .createHash("sha256")

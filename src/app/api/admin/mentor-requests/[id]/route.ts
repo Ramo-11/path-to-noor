@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Types } from "mongoose";
 import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { MentorRequest } from "@/db/models/MentorRequest";
@@ -7,6 +8,7 @@ import {
   sendMentorAssignmentEmail,
   sendMenteeNotificationEmail,
 } from "@/lib/email";
+import { mentorRequestUpdateSchema } from "@/lib/validations";
 
 export async function PUT(
   request: NextRequest,
@@ -18,7 +20,18 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    const { mentorId, status, adminNote, notifyMentor, notifyMentee } = body;
+    const parsed = mentorRequestUpdateSchema.safeParse(body);
+    if (!parsed.success) {
+      return NextResponse.json(
+        {
+          error: "Validation failed",
+          details: parsed.error.flatten().fieldErrors,
+        },
+        { status: 400 }
+      );
+    }
+    const { mentorId, status, adminNote, notifyMentor, notifyMentee } =
+      parsed.data;
 
     await connectDB();
 
@@ -30,7 +43,7 @@ export async function PUT(
       );
     }
 
-    if (mentorId !== undefined) mentorRequest.mentorId = mentorId;
+    if (mentorId !== undefined) mentorRequest.mentorId = new Types.ObjectId(mentorId);
     if (status !== undefined) mentorRequest.status = status;
     if (adminNote !== undefined) mentorRequest.adminNote = adminNote;
 

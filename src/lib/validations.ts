@@ -274,6 +274,82 @@ export const updateUserSchema = z.object({
 export type UpdateUserInput = z.infer<typeof updateUserSchema>;
 
 // ---------------------------------------------------------------------------
+// Auth-related shared schemas
+// ---------------------------------------------------------------------------
+
+export const userTypeSchema = z.enum(["revert", "mentor"]);
+
+export const passwordSchema = z
+  .string()
+  .min(8, "Password must be at least 8 characters")
+  .max(128, "Password is too long")
+  .regex(/[a-z]/, "Password must contain a lowercase letter")
+  .regex(/[A-Z]/, "Password must contain an uppercase letter")
+  .regex(/[0-9]/, "Password must contain a number");
+
+export const emailSchema = z
+  .string()
+  .trim()
+  .toLowerCase()
+  .min(3, "Email is required")
+  .max(254, "Email is too long")
+  .email("Invalid email address");
+
+export const registerSchema = z.object({
+  name: z.string().trim().min(1, "Name is required").max(100),
+  email: emailSchema,
+  password: passwordSchema,
+  userType: userTypeSchema,
+});
+
+export const setUserTypeSchema = z.object({
+  userType: userTypeSchema,
+});
+
+export const forgotPasswordSchema = z.object({
+  email: emailSchema,
+});
+
+export const resetPasswordSchema = z.object({
+  token: z.string().min(32).max(256),
+  password: passwordSchema,
+});
+
+export const changePasswordSchema = z.object({
+  currentPassword: z.string().min(1),
+  newPassword: passwordSchema,
+});
+
+export const contactSchema = z.object({
+  name: z.string().trim().min(1).max(100),
+  email: emailSchema,
+  subject: z.string().trim().min(1).max(200),
+  message: z.string().trim().min(1).max(5000),
+  website: z.string().optional().default(""),
+  formLoadedAt: z.number().optional(),
+});
+
+export const bookmarkSchema = z.object({
+  lessonId: objectIdString,
+});
+
+export const mentorRequestUpdateSchema = z.object({
+  mentorId: objectIdString.optional(),
+  status: z.enum(["pending", "assigned", "rejected"]).optional(),
+  adminNote: z.string().max(2000).optional(),
+  notifyMentor: z.boolean().optional(),
+  notifyMentee: z.boolean().optional(),
+});
+
+export const quizSubmitSchema = z.object({
+  quizId: objectIdString,
+  answers: z.array(z.number().int().min(0)).min(1),
+});
+
+export type RegisterInput = z.infer<typeof registerSchema>;
+export type ContactInput = z.infer<typeof contactSchema>;
+
+// ---------------------------------------------------------------------------
 // Story
 // ---------------------------------------------------------------------------
 

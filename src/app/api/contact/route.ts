@@ -1,28 +1,26 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendContactFormEmail } from "@/lib/email";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { contactSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
     const ip = getClientIp(request.headers);
     const limit = rateLimit(`contact:${ip}`, 3, 15 * 60 * 1000);
     if (!limit.success) {
-      return NextResponse.json(
-        { error: "rate_limit" },
-        { status: 429 }
-      );
+      return NextResponse.json({ error: "rate_limit" }, { status: 429 });
     }
 
-    const { name, email, subject, message, website, formLoadedAt } = await request.json();
+    const body = await request.json();
 
     // Honeypot — real users can't see this field; bots fill it.
-    if (typeof website === "string" && website.trim() !== "") {
+    if (typeof body?.website === "string" && body.website.trim() !== "") {
       return NextResponse.json({ success: true });
     }
 
     // Min submit time — bots submit instantly.
-    if (typeof formLoadedAt === "number") {
-      const elapsed = Date.now() - formLoadedAt;
+    if (typeof body?.formLoadedAt === "number") {
+      const elapsed = Date.now() - body.formLoadedAt;
       if (elapsed < 3000 || elapsed > 24 * 60 * 60 * 1000) {
         return NextResponse.json({ success: true });
       }
@@ -30,43 +28,16 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: true });
     }
 
-    if (
-      !name ||
-      !email ||
-      !subject ||
-      !message ||
-      typeof name !== "string" ||
-      typeof email !== "string" ||
-      typeof subject !== "string" ||
-      typeof message !== "string"
-    ) {
+    const parsed = contactSchema.safeParse(body);
+    if (!parsed.success) {
       return NextResponse.json(
-        { error: "All fields are required" },
+        { error: "Please check the form for errors." },
         { status: 400 }
       );
     }
+    const { name, email, subject, message } = parsed.data;
 
-    if (name.length > 100 || email.length > 254 || subject.length > 200 || message.length > 5000) {
-      return NextResponse.json(
-        { error: "Input too long" },
-        { status: 400 }
-      );
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      return NextResponse.json(
-        { error: "Invalid email" },
-        { status: 400 }
-      );
-    }
-
-    await sendContactFormEmail({
-      name: name.trim(),
-      email: email.trim().toLowerCase(),
-      subject: subject.trim(),
-      message: message.trim(),
-    });
+    await sendContactFormEmail({ name, email, subject, message });
 
     return NextResponse.json({ success: true });
   } catch (error) {

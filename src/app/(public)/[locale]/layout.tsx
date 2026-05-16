@@ -22,18 +22,47 @@ const notoSansArabic = Noto_Sans_Arabic({
   variable: "--font-noto-sans-arabic",
 });
 
+const siteDescription =
+  "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.";
+
 export const metadata: Metadata = {
   title: {
     default: "Basmet Dawah",
     template: "%s | Basmet Dawah",
   },
-  description:
-    "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.",
+  description: siteDescription,
   metadataBase: new URL(getSiteUrl()),
+  alternates: {
+    canonical: "/",
+    languages: {
+      en: "/en",
+      ar: "/ar",
+      es: "/es",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
+    alternateLocale: ["ar_SA", "es_ES"],
     siteName: "Basmet Dawah",
+    title: "Basmet Dawah — A guided path for new Muslims",
+    description: siteDescription,
+    url: getSiteUrl(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Basmet Dawah — A guided path for new Muslims",
+    description: siteDescription,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

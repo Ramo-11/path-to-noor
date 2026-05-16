@@ -5,6 +5,7 @@ import { User } from "@/db/models/User";
 import { sendPasswordResetEmail } from "@/lib/email";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
 import { getSiteUrl } from "@/config/env";
+import { forgotPasswordSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
@@ -17,19 +18,20 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { email } = await request.json();
-
-    if (!email || typeof email !== "string") {
-      return NextResponse.json(
-        { error: "Email is required" },
-        { status: 400 }
-      );
+    const parsed = forgotPasswordSchema.safeParse(await request.json());
+    if (!parsed.success) {
+      // Always return generic success to prevent enumeration
+      return NextResponse.json({
+        message:
+          "If an account with that email exists, a password reset link has been sent.",
+      });
     }
+    const { email } = parsed.data;
 
     await connectDB();
 
     // Always return success to prevent email enumeration
-    const user = await User.findOne({ email: email.toLowerCase() }).select(
+    const user = await User.findOne({ email }).select(
       "+resetToken +resetTokenExpiry"
     );
 

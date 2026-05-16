@@ -126,12 +126,13 @@ export default function ContactPage() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
-                  {/* Honeypot — hidden from users, bots fill it. */}
+                  {/* Honeypot — hidden from users, bots fill it.
+                      Use logical inset so RTL doesn't push it onscreen. */}
                   <div
                     aria-hidden="true"
                     style={{
                       position: "absolute",
-                      left: "-10000px",
+                      insetInlineStart: "-10000px",
                       top: "auto",
                       width: "1px",
                       height: "1px",
@@ -163,6 +164,7 @@ export default function ContactPage() {
                         type="text"
                         required
                         maxLength={100}
+                        autoComplete="name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
@@ -181,6 +183,8 @@ export default function ContactPage() {
                         type="email"
                         required
                         maxLength={254}
+                        autoComplete="email"
+                        inputMode="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
@@ -228,7 +232,11 @@ export default function ContactPage() {
                   </div>
 
                   {error && (
-                    <div className="text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2">
+                    <div
+                      role="alert"
+                      aria-live="assertive"
+                      className="text-sm text-red-700 dark:text-red-300 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2"
+                    >
                       {error}
                     </div>
                   )}
@@ -236,6 +244,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={loading}
+                    aria-busy={loading}
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-semibold rounded-lg transition-colors"
                   >
                     {loading ? (

@@ -40,9 +40,11 @@ export default function LoginPage() {
         const role = session?.user?.role;
 
         if (role === "admin" || role === "super_admin") {
-          window.location.href = "/admin";
+          // Admin panel lives outside the i18n route group, so use a plain
+          // top-level redirect rather than the locale-aware router.
+          window.location.replace("/admin");
         } else {
-          router.push("/");
+          router.replace("/");
         }
       }
     } catch {
@@ -128,6 +130,8 @@ export default function LoginPage() {
                 id="email"
                 type="email"
                 required
+                autoComplete="email"
+                inputMode="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
@@ -147,6 +151,7 @@ export default function LoginPage() {
                   id="password"
                   type={showPassword ? "text" : "password"}
                   required
+                  autoComplete="current-password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="w-full px-3 py-2.5 pe-10 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
@@ -173,7 +178,11 @@ export default function LoginPage() {
             </div>
 
             {error && (
-              <div className="text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2">
+              <div
+                role="alert"
+                aria-live="assertive"
+                className="text-sm text-red-700 dark:text-red-300 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2"
+              >
                 {error}
               </div>
             )}
@@ -181,6 +190,7 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={loading}
+              aria-busy={loading}
               className="w-full px-6 py-2.5 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
             >
               {loading ? (
