@@ -208,7 +208,7 @@ export default function RegisterPage() {
                   }`}
                 >
                   <span className="text-base">{t("revert")}</span>
-                  <span className="text-xs font-normal opacity-70">{t("revertDescription")}</span>
+                  <span className="text-xs font-normal text-slate-600 dark:text-slate-400">{t("revertDescription")}</span>
                 </button>
                 <button
                   type="button"
@@ -220,7 +220,7 @@ export default function RegisterPage() {
                   }`}
                 >
                   <span className="text-base">{t("mentor")}</span>
-                  <span className="text-xs font-normal opacity-70">{t("mentorDescription")}</span>
+                  <span className="text-xs font-normal text-slate-600 dark:text-slate-400">{t("mentorDescription")}</span>
                 </button>
               </div>
             </div>
