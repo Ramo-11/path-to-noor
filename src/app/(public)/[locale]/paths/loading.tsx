@@ -7,34 +7,30 @@ export default function PathsLoading() {
     <div
       role="status"
       aria-live="polite"
-      className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8"
+      className="mx-auto w-full max-w-6xl animate-pulse px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8"
     >
       <span className="sr-only">{t("loading")}</span>
-      <div aria-hidden="true" className="pt-12 pb-10 sm:pt-16 sm:pb-12">
-        <div className="h-12 w-44 rounded-[var(--radius-control)] bg-wash" />
-        <div className="mt-5 h-5 w-full max-w-xl rounded bg-wash" />
-        <div className="mt-2 h-5 w-2/3 max-w-md rounded bg-wash" />
-      </div>
+      <div aria-hidden="true" className="mt-4 h-64 rounded-[var(--radius-panel)] bg-wash sm:mt-8 sm:h-56" />
       {[0, 1, 2].map((band) => (
-        <div
-          key={band}
-          aria-hidden="true"
-          className="grid gap-8 border-t border-rule py-14 sm:py-20 lg:grid-cols-12 lg:gap-12"
-        >
-          <div className="lg:col-span-4">
-            <div className="size-20 rounded-2xl bg-wash" />
-            <div className="mt-6 h-7 w-44 rounded bg-wash" />
-            <div className="mt-4 h-4 w-full max-w-xs rounded bg-wash" />
-            <div className="mt-2 h-4 w-3/4 max-w-60 rounded bg-wash" />
-          </div>
-          <div className="lg:col-span-8">
-            <div className="primer-grid">
-              <div className="px-5 py-7 sm:px-7">
-                <div className="h-7 w-2/3 max-w-sm rounded bg-wash" />
-                <div className="mt-3 h-4 w-full max-w-lg rounded bg-wash" />
-                <div className="mt-5 h-3 w-48 rounded bg-wash" />
-              </div>
+        <div key={band} className="mt-6 rounded-[var(--radius-panel)] bg-wash p-6 first:mt-0 sm:p-8 lg:p-10">
+          <div className="flex items-center gap-5">
+            <div className="size-14 shrink-0 rounded-2xl bg-surface" />
+            <div className="min-w-0 flex-1">
+              <div className="h-6 w-40 rounded-full bg-surface" />
+              <div className="mt-2 h-4 w-56 max-w-full rounded-full bg-surface" />
             </div>
+          </div>
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {[0, 1, 2].map((card) => (
+              <div key={card} className="overflow-hidden rounded-[var(--radius-cell)] bg-surface">
+                <div className="aspect-[16/9] bg-wash" />
+                <div className="p-5 sm:p-6">
+                  <div className="h-5 w-20 rounded-full bg-wash" />
+                  <div className="mt-3 h-6 w-3/4 rounded-full bg-wash" />
+                  <div className="mt-8 h-3 w-24 rounded-full bg-wash" />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       ))}

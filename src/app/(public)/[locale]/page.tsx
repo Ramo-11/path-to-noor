@@ -13,6 +13,7 @@ import { FinalCall } from "@/components/home/FinalCall";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { MentorBlock } from "@/components/home/MentorBlock";
 import { PathsByStage } from "@/components/home/PathsByStage";
+import { StageSection } from "@/components/home/StageSection";
 import { Stories } from "@/components/home/Stories";
 import { toStoryView, type StoryView } from "@/components/home/story-view";
 
@@ -68,6 +69,7 @@ export default async function HomePage({ params }: PageProps) {
   const recommended = state?.recommendedPath ?? null;
 
   let hero: React.ReactNode;
+  let showStages = false;
   if (current && current.isStarted && current.nextLesson) {
     hero = (
       <WelcomeHero
@@ -87,6 +89,7 @@ export default async function HomePage({ params }: PageProps) {
     );
   } else {
     hero = <DefaultHero candidates={candidates} reflectStored={!state?.placement} />;
+    showStages = true;
   }
 
   const isGuest = !session?.user;
@@ -95,6 +98,7 @@ export default async function HomePage({ params }: PageProps) {
   return (
     <>
       {hero}
+      {showStages ? <StageSection /> : null}
       {current ? null : <HowItWorks />}
       {groups ? <PathsByStage groups={groups} locale={locale} /> : null}
       {showMentor ? <MentorBlock /> : null}

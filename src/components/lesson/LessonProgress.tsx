@@ -97,8 +97,8 @@ export function StepCells({ cells, currentId, stage, className = "" }: StepCells
           return (
             <span
               key={cell.id}
-              className={`relative h-full flex-1 overflow-hidden rounded-[2px] ${
-                isCurrent && !filled ? "bg-rule-strong" : "bg-rule"
+              className={`relative h-full flex-1 overflow-hidden rounded-full ${
+                isCurrent && !filled ? `${style.fill} opacity-40` : "bg-rule"
               }`}
             >
               {filled ? (
@@ -110,7 +110,7 @@ export function StepCells({ cells, currentId, stage, className = "" }: StepCells
           );
         })
       ) : (
-        <span className="relative h-full flex-1 overflow-hidden rounded-[2px] bg-rule">
+        <span className="relative h-full flex-1 overflow-hidden rounded-full bg-rule">
           <span
             className={`absolute inset-y-0 start-0 ${style.fill}`}
             style={{ width: `${Math.round((filledCount / Math.max(total, 1)) * 100)}%` }}
@@ -126,8 +126,8 @@ export function DoneMark() {
   const { done } = useLessonProgress();
   if (!done) return null;
   return (
-    <span className="inline-flex items-center gap-1.5 font-medium text-ink-2">
-      <Check aria-hidden="true" strokeWidth={2} className="size-4" />
+    <span className="inline-flex items-center gap-1.5 rounded-full bg-stage2-tint px-2.5 py-1 text-meta font-medium text-stage2-text">
+      <Check aria-hidden="true" strokeWidth={2} className="size-3.5" />
       {t("doneStatus")}
     </span>
   );

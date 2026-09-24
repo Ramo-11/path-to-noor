@@ -14,21 +14,23 @@ export const STAGE_NUMBER: Record<StageKey, 1 | 2 | 3> = {
 
 export const STAGE_STYLES: Record<
   StageKey,
-  { fill: string; tint: string; text: string; onFill: string; border: string }
+  { fill: string; tint: string; text: string; onFill: string; border: string; glow: string }
 > = {
   beginning: {
     fill: "bg-stage1",
     tint: "bg-stage1-tint",
     text: "text-stage1-text",
-    onFill: "text-on-stage",
+    onFill: "text-on-stage1",
     border: "border-stage1",
+    glow: "glow-dawn",
   },
   foundations: {
     fill: "bg-stage2",
     tint: "bg-stage2-tint",
     text: "text-stage2-text",
-    onFill: "text-on-stage",
+    onFill: "text-on-stage2",
     border: "border-stage2",
+    glow: "glow-day",
   },
   deeper: {
     fill: "bg-stage3",
@@ -36,6 +38,7 @@ export const STAGE_STYLES: Record<
     text: "text-stage3-text",
     onFill: "text-on-stage3",
     border: "border-stage3",
+    glow: "glow-evening",
   },
 };
 

@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import { Fragment, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import {
@@ -12,12 +13,14 @@ import {
   hasRenderableContent,
   isLessonBlock,
   nodeMarks,
+  plainText,
   safeImageSrc,
   safeLink,
+  linkedVideo,
   youtubeEmbedUrl,
   type TipTapNode,
 } from "./tiptap";
-import { LessonVideo } from "./LessonVideo";
+import { LessonVideo, LinkedVideo } from "./LessonVideo";
 import { PhraseCard } from "./PhraseCard";
 import { KeyPoint } from "./KeyPoint";
 import { StepListBlock } from "./StepListBlock";
@@ -27,6 +30,7 @@ interface RenderContext {
   slug: string;
   videoTitle: string;
   newTabLabel: string;
+  watchOn: (site: string) => string;
   blockCount: number;
 }
 
@@ -35,6 +39,49 @@ interface LessonContentProps {
   lessonSlug: string;
   videoTitle: string;
   className?: string;
+}
+
+const SOURCES_HEADINGS = new Set(["Sources", "المصادر", "Fuentes"]);
+
+interface SourcesSplit {
+  before: TipTapNode[];
+  list: TipTapNode;
+  after: TipTapNode[];
+  count: number;
+}
+
+function splitSources(children: TipTapNode[]): SourcesSplit | null {
+  for (let i = 0; i < children.length - 1; i++) {
+    const node = children[i];
+    if (node.type !== "heading") continue;
+    if (!SOURCES_HEADINGS.has(plainText(node).trim())) continue;
+    const list = children[i + 1];
+    if (list.type !== "bulletList") continue;
+    return {
+      before: children.slice(0, i),
+      list,
+      after: children.slice(i + 2),
+      count: childNodes(list).length,
+    };
+  }
+  return null;
+}
+
+function SourcesDisclosure({ count, children }: { count: number; children: ReactNode }) {
+  const t = useTranslations("blocks");
+  return (
+    <details className="group my-2 overflow-hidden rounded-[var(--radius-cell)] border border-rule bg-canvas">
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4 text-[0.9375rem] font-semibold text-ink [&::-webkit-details-marker]:hidden">
+        {t("sourcesCount", { count })}
+        <ChevronDown
+          aria-hidden="true"
+          strokeWidth={2}
+          className="size-4 shrink-0 text-ink-3 transition-transform duration-200 group-open:rotate-180"
+        />
+      </summary>
+      <div className="border-t border-rule px-5 pt-4 pb-1 sm:px-6">{children}</div>
+    </details>
+  );
 }
 
 export function LessonContent({ doc, lessonSlug, videoTitle, className = "" }: LessonContentProps) {
@@ -46,10 +93,24 @@ export function LessonContent({ doc, lessonSlug, videoTitle, className = "" }: L
     slug: lessonSlug,
     videoTitle,
     newTabLabel: t("opensInNewTab"),
+    watchOn: (site: string) => t("watchOn", { site }),
     blockCount: 0,
   };
 
-  return <div className={`lesson-prose ${className}`}>{renderChildren(root, ctx)}</div>;
+  const children = childNodes(root);
+  const sources = splitSources(children);
+
+  if (!sources) {
+    return <div className={`lesson-prose ${className}`}>{renderNodeList(children, ctx)}</div>;
+  }
+
+  return (
+    <div className={`lesson-prose ${className}`}>
+      {renderNodeList(sources.before, ctx)}
+      <SourcesDisclosure count={sources.count}>{renderNodeList([sources.list], ctx)}</SourcesDisclosure>
+      {renderNodeList(sources.after, ctx)}
+    </div>
+  );
 }
 
 function linkOf(node: TipTapNode) {
@@ -59,7 +120,10 @@ function linkOf(node: TipTapNode) {
 }
 
 function renderChildren(node: TipTapNode, ctx: RenderContext): ReactNode[] {
-  const children = childNodes(node);
+  return renderNodeList(childNodes(node), ctx);
+}
+
+function renderNodeList(children: TipTapNode[], ctx: RenderContext): ReactNode[] {
   const output: ReactNode[] = [];
 
   for (let i = 0; i < children.length; i++) {
@@ -214,7 +278,11 @@ function renderNode(node: TipTapNode, ctx: RenderContext): ReactNode {
     }
     case "youtube": {
       const src = youtubeEmbedUrl(attrs.src, attrs.start);
-      return src ? <LessonVideo src={src} title={ctx.videoTitle} /> : null;
+      if (src) return <LessonVideo src={src} title={ctx.videoTitle} />;
+      const linked = linkedVideo(attrs.src);
+      return linked ? (
+        <LinkedVideo href={linked.href} label={ctx.watchOn(linked.site)} newTabLabel={ctx.newTabLabel} />
+      ) : null;
     }
     default: {
       const content = renderChildren(node, ctx);

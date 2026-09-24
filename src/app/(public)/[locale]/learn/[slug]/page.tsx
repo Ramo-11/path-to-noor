@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
+import { Clock } from "lucide-react";
 import { auth } from "@/lib/auth-config";
 import { getPublicQuizByLessonId } from "@/lib/data";
 import { getPathForLesson } from "@/lib/learning";
@@ -86,6 +87,7 @@ export default async function LessonPage({ params }: PageProps) {
           <EmptyState
             title={t("signInRequiredTitle")}
             body={t("signInRequiredBody")}
+            art="welcome"
             action={
               <div className="flex flex-wrap gap-3">
                 <Button size="lg" href={signInHref}>
@@ -152,8 +154,13 @@ export default async function LessonPage({ params }: PageProps) {
             {title}
           </h1>
           {minutesLine || signedIn ? (
-            <p className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-meta text-ink-3">
-              {minutesLine ? <span className="tabular">{minutesLine}</span> : null}
+            <p className="mt-4 flex flex-wrap items-center gap-2">
+              {minutesLine ? (
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-wash px-2.5 py-1 text-meta font-medium text-ink-2">
+                  <Clock aria-hidden="true" strokeWidth={1.75} className="size-3.5" />
+                  <span className="tabular">{minutesLine}</span>
+                </span>
+              ) : null}
               {signedIn ? <DoneMark /> : null}
             </p>
           ) : null}
@@ -192,6 +199,7 @@ export default async function LessonPage({ params }: PageProps) {
             <EmptyState
               title={t("emptyTitle")}
               body={t("emptyBody")}
+              art="lantern"
               action={
                 place.upNext ? (
                   <Button href={`/learn/${place.upNext.slug}`}>{t("continue")}</Button>
@@ -222,7 +230,12 @@ export default async function LessonPage({ params }: PageProps) {
           </div>
         ) : null}
 
-        <LessonPager previous={place.previous} next={place.next} className="mt-8" />
+        <LessonPager
+          previous={place.previous}
+          next={place.next}
+          stage={place.path?.stage ?? null}
+          className="mt-8"
+        />
       </article>
     </LessonProgressProvider>
   );

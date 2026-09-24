@@ -92,6 +92,7 @@ export default async function KnowledgeCheckPage({ params }: PageProps) {
           <EmptyState
             title={t("signInTitle")}
             body={t("signInBody")}
+            art="welcome"
             action={
               <div className="flex flex-wrap gap-3">
                 <Button size="lg" href={signInHref}>
@@ -122,6 +123,7 @@ export default async function KnowledgeCheckPage({ params }: PageProps) {
           <EmptyState
             title={t("emptyTitle")}
             body={t("emptyBody")}
+            art="lantern"
             action={
               <Button size="lg" href={lessonHref}>
                 {t("backToLesson")}
@@ -148,7 +150,7 @@ export default async function KnowledgeCheckPage({ params }: PageProps) {
         questions={quiz.questions}
         signedIn={signedIn}
         upNext={place.upNext ? { slug: place.upNext.slug, title: place.upNext.title } : null}
-        path={place.path ? { slug: place.path.slug, title: place.path.title } : null}
+        path={place.path ? { slug: place.path.slug, title: place.path.title, stage: place.path.stage } : null}
       />
     </div>
   );

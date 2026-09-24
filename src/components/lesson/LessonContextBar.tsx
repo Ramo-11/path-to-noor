@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { StageChip } from "@/components/primer/StageChip";
 import type { LessonPlace } from "./lesson-context";
 import { SaveToggle } from "./SaveToggle";
 import { StepCells } from "./LessonProgress";
@@ -19,27 +20,30 @@ export async function LessonContextBar({ place, lessonId, saved, signedIn, signI
     step && step.number !== null ? t("stepLabel", { number: step.number, title: step.title }) : step?.title ?? "";
 
   return (
-    <div className="border-b border-rule">
+    <div className="bg-canvas">
       <div className="mx-auto w-full max-w-3xl px-4 py-5 sm:px-6 lg:px-8">
         <SaveToggle lessonId={lessonId} initialSaved={saved} signedIn={signedIn} signInHref={signInHref}>
-          <nav aria-label={t("contextLabel")}>
-            {path ? (
-              <Link
-                href={`/paths/${path.slug}`}
-                className="-my-[0.8125rem] inline-flex min-h-11 items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
-              >
-                {path.title}
-              </Link>
-            ) : (
-              <Link
-                href="/library"
-                className="-my-[0.8125rem] inline-flex min-h-11 items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
-              >
-                {t("library")}
-              </Link>
-            )}
+          <nav aria-label={t("contextLabel")} className="min-w-0">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+              {path ? <StageChip stage={path.stage} /> : null}
+              {path ? (
+                <Link
+                  href={`/paths/${path.slug}`}
+                  className="inline-flex items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
+                >
+                  {path.title}
+                </Link>
+              ) : (
+                <Link
+                  href="/library"
+                  className="inline-flex items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
+                >
+                  {t("library")}
+                </Link>
+              )}
+            </div>
             {stepLine ? (
-              <p className="mt-0.5 text-[0.9375rem] font-semibold leading-snug text-ink text-pretty">{stepLine}</p>
+              <p className="mt-1.5 text-[0.9375rem] font-semibold leading-snug text-ink text-pretty">{stepLine}</p>
             ) : null}
           </nav>
         </SaveToggle>

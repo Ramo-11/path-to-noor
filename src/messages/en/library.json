@@ -1,18 +1,18 @@
 {
   "title": "Library",
-  "lead": "Everything we teach, organized by subject. Looking for where to begin instead?",
-  "findStart": "Find your starting point.",
+  "lead": "Everything we teach, organized by subject.",
+  "findStart": "Find your starting point",
   "searchLabel": "Search subjects",
   "searchPlaceholder": "Search by name or description",
   "noResults": "No subjects match your search.",
-  "noLessonsYet": "Lessons coming soon",
+  "noLessonsYet": "Coming soon",
   "learned": "Learned",
-  "markLearned": "Mark this subject as learned",
-  "backToLibrary": "Back to Library",
+  "markLearned": "Mark as learned",
+  "backToLibrary": "Library",
   "subSubjectsHeading": "Subjects in {subject}",
-  "partOfPath": "Part of the path {path}",
-  "emptyStepsTitle": "This subject doesn't have any steps yet.",
-  "emptyStepsBody": "Check back soon, or explore the paths we do have ready.",
+  "partOfPath": "Part of {path}",
+  "emptyStepsTitle": "No steps yet",
+  "emptyStepsBody": "Check back soon, or explore ready paths.",
   "browsePaths": "Browse paths",
-  "toggleFailed": "That did not save. Please try again."
+  "toggleFailed": "That did not save. Try again."
 }

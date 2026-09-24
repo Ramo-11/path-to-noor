@@ -18,9 +18,12 @@ export async function ContactFaq() {
     <div className="flex flex-col gap-8">
       <div>
         <h2 className="text-heading font-semibold">{t("faqTitle")}</h2>
-        <div className="primer-grid mt-6 grid-cols-1">
+        <div className="mt-6 flex flex-col gap-2">
           {faqs.map((faq, i) => (
-            <details key={i} className="group px-6 py-1 sm:px-8">
+            <details
+              key={i}
+              className="group rounded-[var(--radius-control)] border border-rule bg-surface px-6 shadow-soft sm:px-8"
+            >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 font-medium text-ink [&::-webkit-details-marker]:hidden">
                 <span>{faq.q}</span>
                 <ChevronDown

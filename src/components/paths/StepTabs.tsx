@@ -50,17 +50,17 @@ function revealTab(container: HTMLElement, tab: HTMLElement, center: boolean) {
   }
 }
 
-const numeralStates: Record<Exclude<StepState, "complete">, string> = {
-  current: "border-2 border-ink text-ink",
-  upcoming: "border border-rule text-ink",
-  preparing: "border border-rule text-ink-3",
-};
-
 export function StepTabs({ tabs, stage, label }: StepTabsProps) {
   const navRef = useRef<HTMLElement>(null);
   const [active, setActive] = useState<string | null>(null);
   const style = STAGE_STYLES[stage];
   const ids = tabs.map((tab) => tab.id).join(" ");
+
+  const numeralStates: Record<Exclude<StepState, "complete">, string> = {
+    current: `border-2 ${style.border} ${style.tint} ${style.text}`,
+    upcoming: "border border-rule bg-page text-ink",
+    preparing: "border border-rule bg-wash text-ink-3",
+  };
 
   useEffect(() => {
     const nav = navRef.current;
@@ -120,7 +120,7 @@ export function StepTabs({ tabs, stage, label }: StepTabsProps) {
               >
                 <span
                   aria-hidden="true"
-                  className={`grid size-10 shrink-0 place-items-center rounded-lg text-lg font-semibold tabular lg:size-12 lg:text-2xl ${numeral}`}
+                  className={`grid size-10 shrink-0 place-items-center rounded-full text-lg font-semibold tabular lg:size-12 lg:text-2xl ${numeral}`}
                 >
                   {tab.number}
                 </span>
@@ -158,11 +158,11 @@ export function StepTabs({ tabs, stage, label }: StepTabsProps) {
                   <>
                     <span
                       aria-hidden="true"
-                      className="absolute inset-x-0 bottom-0 h-[3px] bg-ink lg:hidden"
+                      className={`absolute inset-x-0 bottom-0 h-[3px] lg:hidden ${style.fill}`}
                     />
                     <span
                       aria-hidden="true"
-                      className="absolute inset-y-0 start-0 hidden w-[3px] bg-ink lg:block"
+                      className={`absolute inset-y-0 start-0 hidden w-[3px] lg:block ${style.fill}`}
                     />
                   </>
                 ) : null}

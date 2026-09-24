@@ -1,21 +1,17 @@
 {
   "meta": {
     "title": "Find your starting point",
-    "description": "Six short questions about where you are right now. Get your stage and a path chosen for you, in about a minute."
+    "description": "Six short questions place you at your stage and choose your first lesson."
   },
   "intro": {
     "title": "Find your starting point",
-    "lead": "Six short questions about where you are right now. There are no wrong answers, and nothing here is a test.",
-    "note": "About one minute. You can go back and change any answer.",
+    "lead": "Six short questions, and there are no wrong answers.",
     "begin": "Begin",
     "skip": "Skip and browse the paths"
   },
   "existing": {
-    "title": "You are in Stage {number}: {name}",
-    "nextLesson": "Next lesson: {title}",
-    "continue": "Continue",
-    "retake": "Retake the check",
-    "seePath": "See the whole path"
+    "title": "Stage {number}: {name}",
+    "retake": "Retake the check"
   },
   "flow": {
     "progress": "Question {current} of {total}",
@@ -23,8 +19,7 @@
     "tabAnswered": "Question {number}, answered",
     "tabCurrent": "Question {number}, current",
     "tabUpcoming": "Question {number}, not answered yet",
-    "back": "Back",
-    "stripCaption": "Your stage takes shape as you answer."
+    "back": "Back"
   },
   "questions": {
     "shahada": {
@@ -83,7 +78,7 @@
     }
   },
   "result": {
-    "title": "Your starting point: Stage {number}, {name}",
+    "title": "Stage {number}: {name}",
     "reasonsTitle": "Why this stage",
     "chosen": "You chose this stage yourself.",
     "reasons": {
@@ -95,7 +90,6 @@
       "readyForDepth": "Your prayer and the basics are in place, so you are ready to go deeper.",
       "solidBasics": "Your basics are solid. This stage helps you build on them."
     },
-    "pathHeading": "Your path: {title}",
     "pathMeta": "{steps}, {lessons}",
     "fallback": "Paths for the {stage} stage are being prepared. Until they are ready, this is the best place to begin.",
     "noPath": {
@@ -103,7 +97,6 @@
       "body": "In the meantime, the library has short lessons you can explore at your own pace.",
       "action": "Explore the library"
     },
-    "stepsLabel": "Steps in this path",
     "seePath": "See the whole path",
     "mentor": {
       "title": "You do not have to learn alone",
@@ -115,9 +108,7 @@
     "adjust": {
       "open": "Not quite right? Choose your stage yourself",
       "close": "Keep this stage",
-      "title": "Choose your stage",
-      "hint": "Pick the stage that feels closest to where you are. You can change it at any time.",
-      "current": "Your stage"
+      "title": "Choose your stage"
     },
     "save": {
       "saving": "Saving your starting point",

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Readex_Pro, Amiri } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
@@ -34,6 +34,8 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   metadataBase: new URL(getSiteUrl()),
+  manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, title: "Basmet Dawah", statusBarStyle: "default" },
   alternates: {
     canonical: "/",
     languages: {
@@ -66,6 +68,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0e1124" },
+  ],
 };
 
 export function generateStaticParams() {
@@ -105,7 +114,7 @@ export default async function LocaleLayout({
       >
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-[var(--radius-control)] focus:bg-ink focus:px-4 focus:py-2 focus:text-page focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--page)]"
+          className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-primary focus:px-5 focus:py-2.5 focus:text-on-primary focus:shadow-lift focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--page)]"
         >
           {t("skipToContent")}
         </a>

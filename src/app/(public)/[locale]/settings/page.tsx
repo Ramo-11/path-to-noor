@@ -9,7 +9,7 @@ import { PageIntro } from "@/components/primer/PageIntro";
 import { Spinner } from "@/components/primer/Spinner";
 import { DetailsForm } from "@/components/settings/DetailsForm";
 import { PasswordForm } from "@/components/settings/PasswordForm";
-import { SignOutBlock, DeleteAccountNotice } from "@/components/settings/AccountActions";
+import { AccountActions } from "@/components/settings/AccountActions";
 
 type Language = "en" | "ar" | "es";
 
@@ -67,7 +67,7 @@ export default function SettingsPage() {
           title={t("guestTitle")}
           body={t("guestBody")}
           action={
-            <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center justify-center gap-3">
               <Button href="/login" variant="primary">
                 {t("signIn")}
               </Button>
@@ -105,27 +105,24 @@ export default function SettingsPage() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-3xl px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8">
       <PageIntro title={t("title")} />
 
-      <div className="primer-grid grid-cols-1 pb-16 sm:pb-24">
-        <div className="px-6 py-8 sm:px-8">
+      <div className="flex flex-col gap-6 pb-16 sm:pb-24">
+        <section className="card p-6 sm:p-8">
           <DetailsForm
             initialName={profile.name}
             email={profile.email}
             initialLanguage={profile.preferredLanguage}
             locale={locale}
           />
-        </div>
-        <div className="px-6 py-8 sm:px-8">
+        </section>
+        <section className="card p-6 sm:p-8">
           <PasswordForm hasPassword={profile.hasPassword} />
-        </div>
-        <div className="px-6 py-8 sm:px-8">
-          <SignOutBlock locale={locale} />
-        </div>
-        <div className="px-6 py-8 sm:px-8">
-          <DeleteAccountNotice />
-        </div>
+        </section>
+        <section className="card p-6 sm:p-8">
+          <AccountActions locale={locale} />
+        </section>
       </div>
     </div>
   );

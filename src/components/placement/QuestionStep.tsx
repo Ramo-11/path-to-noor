@@ -13,23 +13,6 @@ interface QuestionStepProps {
   onSelect: (optionId: string) => void;
 }
 
-function OptionFace({ label, checked }: { label: string; checked: boolean }) {
-  return (
-    <span className="flex w-full items-center gap-4 px-5 py-4 sm:px-6 sm:py-5">
-      <span className="min-w-0 flex-1 text-[1.0625rem] leading-snug font-medium text-pretty sm:text-lg">
-        {label}
-      </span>
-      <span
-        className={`grid size-6 shrink-0 place-items-center rounded-full border-[1.5px] ${
-          checked ? "border-page" : "border-rule-strong"
-        }`}
-      >
-        {checked ? <Check strokeWidth={2.5} className="size-3.5" /> : null}
-      </span>
-    </span>
-  );
-}
-
 export function QuestionStep({ question, selected, flooding, autoFocus, onSelect }: QuestionStepProps) {
   const t = useTranslations(`start.questions.${question.id}`);
   const rtl = useLocale() === "ar";
@@ -81,7 +64,7 @@ export function QuestionStep({ question, selected, flooding, autoFocus, onSelect
         role="radiogroup"
         aria-labelledby={headingId}
         aria-describedby={hasHelper ? helperId : undefined}
-        className="primer-grid mt-8 sm:mt-10"
+        className="mt-8 flex flex-col gap-3 sm:mt-10"
       >
         {question.options.map((option, index) => {
           const checked = option.id === selected;
@@ -99,25 +82,23 @@ export function QuestionStep({ question, selected, flooding, autoFocus, onSelect
               onClick={() => onSelect(option.id)}
               onKeyDown={(event) => move(event, index)}
               onFocus={() => setFocusIndex(index)}
-              className="group relative flex min-h-16 w-full items-center text-start text-ink transition-colors duration-150 hover:bg-wash! focus-visible:outline-none!"
+              className={`flex min-h-14 w-full items-center justify-between gap-4 rounded-[var(--radius-cell)] border px-5 py-4 text-start transition duration-150 ease-[var(--ease-fill)] focus-visible:outline-offset-2 sm:min-h-16 sm:px-6 ${
+                checked
+                  ? "border-primary bg-primary-tint text-primary"
+                  : "border-rule bg-surface text-ink hover:border-rule-strong hover:bg-wash"
+              } ${flooding === option.id ? "scale-[0.99]" : ""}`}
             >
-              <OptionFace label={label} checked={false} />
-              {checked ? (
-                <span
-                  aria-hidden="true"
-                  className={`absolute inset-0 flex items-center bg-ink text-page ${
-                    flooding === option.id ? "fill-in" : ""
-                  }`}
-                >
-                  <OptionFace label={label} checked />
-                </span>
-              ) : null}
+              <span className="min-w-0 flex-1 text-[1.0625rem] leading-snug font-medium text-pretty sm:text-lg">
+                {label}
+              </span>
               <span
                 aria-hidden="true"
-                className={`pointer-events-none absolute inset-1.5 rounded-[8px] border-2 opacity-0 transition-opacity duration-150 group-focus-visible:opacity-100 ${
-                  checked ? "border-page" : "border-ink"
+                className={`grid size-7 shrink-0 place-items-center rounded-full border-[1.5px] transition-colors duration-150 ${
+                  checked ? "border-primary bg-primary text-on-primary" : "border-rule-strong text-transparent"
                 }`}
-              />
+              >
+                <Check strokeWidth={2.5} className="size-4" />
+              </span>
             </button>
           );
         })}

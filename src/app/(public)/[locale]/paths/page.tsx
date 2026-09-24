@@ -4,7 +4,7 @@ import { auth } from "@/lib/auth-config";
 import { getCompletedLessonIds, getLearnerState, getPathsByStage } from "@/lib/learning";
 import { Button } from "@/components/primer/Button";
 import { EmptyState } from "@/components/primer/EmptyState";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { PageBanner } from "@/components/primer/PageBanner";
 import { PlacementPrompt } from "@/components/paths/PlacementPrompt";
 import { StageBand } from "@/components/paths/StageBand";
 
@@ -38,13 +38,9 @@ export default async function PathsPage({ params }: { params: Params }) {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
-      <PageIntro
-        title={t("title")}
-        lead={t("lead")}
-        aside={
-          hasPaths ? <PlacementPrompt signedIn={signedIn} serverStage={learnerStage} /> : undefined
-        }
-      />
+      <PageBanner title={t("title")} lead={t("lead")} art="journey" tone="sky">
+        <PlacementPrompt signedIn={signedIn} serverStage={learnerStage} />
+      </PageBanner>
 
       {hasPaths ? (
         groups.map((group) => (
@@ -58,15 +54,18 @@ export default async function PathsPage({ params }: { params: Params }) {
           />
         ))
       ) : (
-        <EmptyState
-          title={t("emptyTitle")}
-          body={t("emptyBody")}
-          action={
-            <Button href="/library" variant="secondary">
-              {t("openLibrary")}
-            </Button>
-          }
-        />
+        <div className="mt-8">
+          <EmptyState
+            art="lantern"
+            title={t("emptyTitle")}
+            body={t("emptyBody")}
+            action={
+              <Button href="/library" variant="secondary">
+                {t("openLibrary")}
+              </Button>
+            }
+          />
+        </div>
       )}
     </div>
   );

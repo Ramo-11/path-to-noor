@@ -19,45 +19,33 @@ export function PlacementPrompt({ signedIn, serverStage }: PlacementPromptProps)
   const stage = signedIn ? serverStage : storedStage;
 
   const prompt = (
-    <div>
-      <p className="text-ink-2 text-pretty">{t("findStartHint")}</p>
-      <Button href="/start" fullWidth className="mt-4 py-2.5 whitespace-normal!">
-        {t("findStart")}
-        <ArrowRight aria-hidden="true" className="size-4 rtl:rotate-180" />
-      </Button>
-    </div>
+    <Button href="/start" size="lg" className="w-full sm:w-auto">
+      {t("findStart")}
+      <ArrowRight aria-hidden="true" strokeWidth={1.75} className="size-4 rtl:rotate-180" />
+    </Button>
   );
 
   const known = stage ? (
-    <div>
-      <p className="flex flex-wrap items-center gap-x-3 gap-y-2">
-        <span className="text-ink-2">{t("yourStageLabel")}</span>
-        <span className="inline-flex items-center gap-2.5">
-          <StageMark stage={stage} size="sm" />
-          <span className="font-semibold text-ink">
-            <span className="sr-only">{ts("label", { number: STAGE_NUMBER[stage] })}, </span>
-            {ts(`${stage}.name`)}
-          </span>
+    <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
+      <span className="inline-flex items-center gap-2.5">
+        <StageMark stage={stage} size="sm" />
+        <span className="font-semibold text-ink">
+          <span className="sr-only">{ts("label", { number: STAGE_NUMBER[stage] })}, </span>
+          {ts(`${stage}.name`)}
         </span>
-      </p>
-      <Button href="/start" variant="quiet" className="mt-2">
+      </span>
+      <Button href="/start" variant="quiet">
         {t("retake")}
       </Button>
     </div>
   ) : null;
 
+  if (signedIn) return known ?? prompt;
+
   return (
-    <div className="primer-grid w-full md:w-[22rem]">
-      <div className="grid p-5 sm:p-6">
-        {signedIn ? (
-          (known ?? prompt)
-        ) : (
-          <>
-            <div className={`col-start-1 row-start-1 ${stage ? "invisible" : ""}`}>{prompt}</div>
-            {known ? <div className="col-start-1 row-start-1 self-center">{known}</div> : null}
-          </>
-        )}
-      </div>
+    <div className="grid">
+      <div className={`col-start-1 row-start-1 ${stage ? "invisible" : ""}`}>{prompt}</div>
+      {known ? <div className="col-start-1 row-start-1 self-center">{known}</div> : null}
     </div>
   );
 }

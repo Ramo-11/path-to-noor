@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/primer/Button";
+import { Illustration } from "@/components/primer/Illustration";
 import { ProgressCells } from "@/components/primer/ProgressCells";
 import { STAGES, type StageKey } from "@/lib/stages";
 
@@ -21,8 +22,14 @@ export async function JourneyEnd({ complete, stage, title, totalLessons }: Journ
     <div className="grid grid-cols-[2.75rem_minmax(0,1fr)] gap-x-3 pt-16 sm:grid-cols-[5rem_minmax(0,1fr)] sm:gap-x-8 sm:pt-20">
       <div className="col-start-2">
         {complete ? (
-          <section aria-labelledby="path-finished-title" className="primer-grid">
-            <div className="p-6 sm:p-10">
+          <section
+            aria-labelledby="path-finished-title"
+            className="card flex flex-col gap-6 p-6 sm:flex-row sm:items-center sm:p-8"
+          >
+            <div className="hidden size-24 shrink-0 overflow-hidden rounded-[var(--radius-cell)] sm:block">
+              <Illustration name="sprout" sizes="96px" />
+            </div>
+            <div className="min-w-0 flex-1">
               <ProgressCells
                 done={totalLessons}
                 total={totalLessons}
@@ -30,14 +37,11 @@ export async function JourneyEnd({ complete, stage, title, totalLessons }: Journ
                 label={tl("complete")}
                 className="max-w-sm"
               />
-              <h2
-                id="path-finished-title"
-                className="mt-8 text-heading font-semibold text-balance"
-              >
+              <h2 id="path-finished-title" className="mt-6 text-heading font-semibold text-balance">
                 {t("finishedTitle", { title })}
               </h2>
               <p className="mt-3 max-w-[52ch] text-ink-2 text-pretty">{t("finishedBody")}</p>
-              <div className="mt-8">
+              <div className="mt-6">
                 {nextStage ? (
                   <Button
                     href={`/paths#stage-${nextStage}`}

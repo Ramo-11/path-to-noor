@@ -45,7 +45,7 @@ function StoryCell({
               className="object-cover"
             />
           ) : null}
-          <span className="absolute start-4 bottom-4 inline-flex min-h-10 items-center gap-2 rounded-[var(--radius-control)] bg-ink px-4 text-meta font-medium text-page transition-colors duration-150 group-hover:bg-ink/85">
+          <span className="absolute start-4 bottom-4 inline-flex min-h-10 items-center gap-2 rounded-full bg-primary px-4 text-meta font-medium text-on-primary shadow-soft transition-colors duration-150 group-hover:bg-primary-hover">
             <Play aria-hidden="true" strokeWidth={2} className="size-4" fill="currentColor" />
             {t("play")}
           </span>
@@ -115,7 +115,7 @@ export function Stories({ stories }: { stories: StoryView[] }) {
           if (event.target === event.currentTarget) setPlaying(null);
         }}
         aria-labelledby="story-video-title"
-        className="m-auto w-[min(56rem,calc(100vw-2rem))] max-w-none overflow-hidden rounded-[var(--radius-cell)] border border-rule bg-page p-0 text-ink backdrop:bg-page/90"
+        className="m-auto w-[min(56rem,calc(100vw-2rem))] max-w-none overflow-hidden rounded-[var(--radius-cell)] border border-rule bg-surface p-0 text-ink shadow-lift backdrop:bg-ink/60"
       >
         {playing ? (
           <div>
@@ -127,7 +127,7 @@ export function Stories({ stories }: { stories: StoryView[] }) {
                 type="button"
                 onClick={() => setPlaying(null)}
                 aria-label={t("close")}
-                className="inline-flex size-11 shrink-0 items-center justify-center rounded-[var(--radius-control)] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
+                className="inline-flex size-11 shrink-0 items-center justify-center rounded-full text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
               >
                 <X aria-hidden="true" strokeWidth={1.75} className="size-5" />
               </button>

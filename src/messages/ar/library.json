@@ -1,18 +1,18 @@
 {
   "title": "المكتبة",
-  "lead": "كل ما نعلّمه، منظّم حسب الموضوع. هل تبحث عن نقطة البداية بدلاً من ذلك؟",
-  "findStart": "اعثر على نقطة بدايتك.",
+  "lead": "كل ما نعلّمه، منظّم حسب الموضوع.",
+  "findStart": "اعثر على نقطة بدايتك",
   "searchLabel": "ابحث في المواضيع",
   "searchPlaceholder": "ابحث بالاسم أو الوصف",
   "noResults": "لا توجد مواضيع مطابقة لبحثك.",
-  "noLessonsYet": "الدروس قيد الإعداد",
+  "noLessonsYet": "قريبًا",
   "learned": "تم التعلم",
-  "markLearned": "وضع علامة على هذا الموضوع بأنه تم تعلمه",
-  "backToLibrary": "العودة إلى المكتبة",
+  "markLearned": "تمييز بأنه تم تعلمه",
+  "backToLibrary": "المكتبة",
   "subSubjectsHeading": "مواضيع ضمن {subject}",
-  "partOfPath": "جزء من مسار {path}",
-  "emptyStepsTitle": "لا يحتوي هذا الموضوع على خطوات بعد.",
-  "emptyStepsBody": "عد لاحقًا، أو استكشف المسارات الجاهزة لدينا.",
+  "partOfPath": "جزء من {path}",
+  "emptyStepsTitle": "لا توجد خطوات بعد",
+  "emptyStepsBody": "عد لاحقًا، أو استكشف مسارات جاهزة.",
   "browsePaths": "تصفح المسارات",
-  "toggleFailed": "لم يتم الحفظ. يرجى المحاولة مرة أخرى."
+  "toggleFailed": "لم يتم الحفظ. حاول مرة أخرى."
 }

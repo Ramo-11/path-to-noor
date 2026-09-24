@@ -1,9 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/primer/Button";
+import { Illustration } from "@/components/primer/Illustration";
 import { StageMark } from "@/components/primer/StageMark";
 import type { PathOutline } from "@/lib/learning-types";
-import { STAGE_NUMBER, type StageKey } from "@/lib/stages";
-import { PathRow } from "./PathRow";
+import { STAGE_NUMBER, STAGE_STYLES, type StageKey } from "@/lib/stages";
+import { PathCard } from "./PathCard";
 import { YourStageFlag } from "./YourStageFlag";
 
 interface StageBandProps {
@@ -19,56 +20,55 @@ export async function StageBand({ stage, paths, locale, signedIn, learnerStage }
   const ts = await getTranslations("stages");
   const number = STAGE_NUMBER[stage];
   const titleId = `stage-${stage}-title`;
+  const style = STAGE_STYLES[stage];
 
   return (
     <section
       id={`stage-${stage}`}
       aria-labelledby={titleId}
-      className="scroll-mt-16 border-t border-rule py-14 sm:py-20"
+      className={`scroll-mt-24 rounded-[var(--radius-panel)] ${style.tint} mt-6 p-6 first:mt-0 sm:p-8 lg:p-10`}
     >
-      <div className="grid gap-8 lg:grid-cols-12 lg:gap-12">
-        <div className="lg:col-span-4">
-          <div className="flex items-start gap-5">
-            <StageMark stage={stage} size="xl" />
-            <div className="flex flex-col items-start gap-2 pt-1">
-              <span aria-hidden="true" className="font-medium text-ink-2">
-                {ts("label", { number })}
-              </span>
-              <YourStageFlag stage={stage} signedIn={signedIn} serverStage={learnerStage} />
+      <div className="flex flex-wrap items-center gap-4 sm:gap-5">
+        <StageMark stage={stage} size="lg" />
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+            <h2 id={titleId} className="text-heading font-semibold text-balance">
+              <span className="sr-only">{t("stageHeading", { number })} </span>
+              {ts(`${stage}.name`)}
+            </h2>
+            <YourStageFlag stage={stage} signedIn={signedIn} serverStage={learnerStage} />
+          </div>
+          <p className="mt-1 text-ink-2 text-pretty">{ts(`${stage}.short`)}</p>
+        </div>
+      </div>
+
+      <div className="mt-7 sm:mt-8">
+        {paths.length > 0 ? (
+          <ul className={`grid gap-5 ${paths.length > 1 ? "sm:grid-cols-2 lg:grid-cols-3" : ""}`}>
+            {paths.map((path) => (
+              <li key={path.id} className="flex">
+                <PathCard path={path} locale={locale} wide={paths.length === 1} showStage={false} />
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="card flex flex-col items-center gap-4 p-5 text-center sm:flex-row sm:p-6 sm:text-start">
+            <div className="size-16 shrink-0 overflow-hidden rounded-[var(--radius-cell)] sm:size-20">
+              <Illustration name="lantern" sizes="80px" />
+            </div>
+            <div className="min-w-0">
+              <p className="font-medium text-ink">{ts("preparing")}</p>
+              {stage === "deeper" ? (
+                <>
+                  <p className="mt-1 text-ink-2 text-pretty">{t("preparingLibrary")}</p>
+                  <Button href="/library" variant="quiet" className="mt-1">
+                    {t("openLibrary")}
+                  </Button>
+                </>
+              ) : null}
             </div>
           </div>
-          <h2 id={titleId} className="mt-6 text-heading font-semibold text-balance">
-            <span className="sr-only">{t("stageHeading", { number })} </span>
-            {ts(`${stage}.name`)}
-          </h2>
-          <p className="mt-3 max-w-[46ch] text-ink-2 text-pretty">{ts(`${stage}.long`)}</p>
-        </div>
-
-        <div className="lg:col-span-8">
-          {paths.length > 0 ? (
-            <ul className="primer-grid grid-cols-1">
-              {paths.map((path) => (
-                <li key={path.id}>
-                  <PathRow path={path} locale={locale} signedIn={signedIn} />
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <div className="primer-grid">
-              <div className="px-5 py-7 sm:px-7">
-                <p className="font-medium text-ink">{ts("preparing")}</p>
-                {stage === "deeper" ? (
-                  <>
-                    <p className="mt-2 max-w-[52ch] text-ink-2 text-pretty">{t("preparingLibrary")}</p>
-                    <Button href="/library" variant="quiet" className="mt-2">
-                      {t("openLibrary")}
-                    </Button>
-                  </>
-                ) : null}
-              </div>
-            </div>
-          )}
-        </div>
+        )}
       </div>
     </section>
   );

@@ -3,8 +3,8 @@
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
+import { Illustration } from "@/components/primer/Illustration";
 import { useStoredPlacement } from "@/components/placement/storage";
-import { HomeSection } from "./HomeSection";
 
 export function FinalCall() {
   const t = useTranslations("home");
@@ -12,22 +12,22 @@ export function FinalCall() {
   if (stored) return null;
 
   return (
-    <HomeSection labelledBy="home-final">
-      <div className="grid gap-8 md:grid-cols-12 md:items-end md:gap-12">
-        <div className="md:col-span-7">
-          <h2 id="home-final" className="text-title font-semibold text-balance">
+    <section aria-labelledby="home-final" className="mx-auto w-full max-w-6xl px-4 pb-4 sm:px-6 lg:px-8">
+      <div className="flex flex-col gap-6 rounded-[var(--radius-panel)] bg-stage1-tint p-6 sm:flex-row sm:items-center sm:gap-8 sm:p-8 lg:p-10">
+        <div className="hidden size-28 shrink-0 overflow-hidden rounded-[var(--radius-cell)] sm:block">
+          <Illustration name="sprout" sizes="112px" />
+        </div>
+        <div className="min-w-0 flex-1">
+          <h2 id="home-final" className="text-heading font-semibold text-balance">
             {t("final.title")}
           </h2>
-          <p className="mt-4 max-w-[48ch] text-lg text-ink-2 text-pretty">{t("final.body")}</p>
+          <p className="mt-2 max-w-[48ch] text-ink-2 text-pretty">{t("final.body")}</p>
         </div>
-        <div className="flex flex-col items-stretch gap-3 sm:items-start md:col-span-5 md:items-end">
-          <Button href="/start" size="lg" className="w-full sm:w-auto">
-            {t("hero.start")}
-            <ArrowRight aria-hidden="true" strokeWidth={1.75} className="size-5 shrink-0 rtl:rotate-180" />
-          </Button>
-          <p className="text-meta text-ink-3">{t("hero.startMeta")}</p>
-        </div>
+        <Button href="/start" size="lg" className="w-full shrink-0 sm:w-auto">
+          {t("hero.start")}
+          <ArrowRight aria-hidden="true" strokeWidth={2} className="size-5 shrink-0 rtl:rotate-180" />
+        </Button>
       </div>
-    </HomeSection>
+    </section>
   );
 }

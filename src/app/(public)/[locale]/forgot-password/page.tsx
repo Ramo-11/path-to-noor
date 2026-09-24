@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { TextField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { AuthShell } from "@/components/auth/AuthShell";
 
 export default function ForgotPasswordPage() {
   const t = useTranslations("forgotPassword");
@@ -45,50 +45,51 @@ export default function ForgotPasswordPage() {
 
   if (sent) {
     return (
-      <div className="mx-auto w-full max-w-md px-4 sm:px-6">
-        <PageIntro title={t("checkEmail")} lead={t("checkEmailDescription")} />
-        <div className="pb-16 sm:pb-24">
-          <p className="text-meta text-ink-3">{t("oauthHint")}</p>
-          <div className="mt-8">
-            <Button href="/login" variant="quiet">
-              {t("backToLogin")}
-            </Button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
-      <PageIntro title={t("title")} lead={t("description")} />
-
-      <div className="pb-16 sm:pb-24">
-        <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
-          <TextField
-            label={tAuth("email")}
-            type="email"
-            name="email"
-            autoComplete="email"
-            inputMode="email"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-
-          {error ? <Notice tone="error">{error}</Notice> : null}
-
-          <Button type="submit" size="lg" fullWidth loading={loading}>
-            {t("submit")}
-          </Button>
-        </form>
-
-        <div className="mt-8">
+      <AuthShell>
+        <h1 className="text-heading font-semibold text-balance">{t("checkEmail")}</h1>
+        <p className="mt-2 text-ink-2 text-pretty">{t("checkEmailDescription")}</p>
+        <details className="mt-4 text-[0.9375rem] text-ink-2">
+          <summary className="cursor-pointer font-medium text-ink">{t("oauthHintSummary")}</summary>
+          <p className="mt-2 text-pretty">{t("oauthHint")}</p>
+        </details>
+        <div className="mt-6">
           <Button href="/login" variant="quiet">
             {t("backToLogin")}
           </Button>
         </div>
+      </AuthShell>
+    );
+  }
+
+  return (
+    <AuthShell>
+      <h1 className="text-heading font-semibold text-balance">{t("title")}</h1>
+      <p className="mt-2 text-ink-2 text-pretty">{t("description")}</p>
+
+      <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-5" noValidate>
+        <TextField
+          label={tAuth("email")}
+          type="email"
+          name="email"
+          autoComplete="email"
+          inputMode="email"
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+
+        {error ? <Notice tone="error">{error}</Notice> : null}
+
+        <Button type="submit" size="lg" fullWidth loading={loading}>
+          {t("submit")}
+        </Button>
+      </form>
+
+      <div className="mt-6">
+        <Button href="/login" variant="quiet">
+          {t("backToLogin")}
+        </Button>
       </div>
-    </div>
+    </AuthShell>
   );
 }

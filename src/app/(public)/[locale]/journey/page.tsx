@@ -5,11 +5,11 @@ import { User } from "@/db/models/User";
 import { Lesson } from "@/db/models/Lesson";
 import { MentorRequest } from "@/db/models/MentorRequest";
 import { getLearnerState } from "@/lib/learning";
-import type { LocalizedText } from "@/lib/stages";
+import type { LocalizedText, StageKey } from "@/lib/stages";
 import { Button } from "@/components/primer/Button";
 import { EmptyState } from "@/components/primer/EmptyState";
 import { Notice } from "@/components/primer/Notice";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { PageBanner, type BannerTone } from "@/components/primer/PageBanner";
 import { StageBlock } from "@/components/journey/StageBlock";
 import { ContinueBlock } from "@/components/journey/ContinueBlock";
 import { PathRows } from "@/components/journey/PathRows";
@@ -37,6 +37,12 @@ interface LeanMentorRequestDoc {
   status: "pending" | "assigned";
 }
 
+const BANNER_TONE: Record<StageKey, BannerTone> = {
+  beginning: "dawn",
+  foundations: "day",
+  deeper: "evening",
+};
+
 export default async function JourneyPage({
   params,
 }: {
@@ -50,10 +56,11 @@ export default async function JourneyPage({
     return (
       <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <EmptyState
+          art="journey"
           title={t("guestTitle")}
           body={t("guestBody")}
           action={
-            <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center justify-center gap-3">
               <Button href="/login" variant="primary">
                 {t("signIn")}
               </Button>
@@ -115,36 +122,35 @@ export default async function JourneyPage({
 
     const trimmedName = (session.user.name ?? "").trim();
     const firstName = trimmedName ? trimmedName.split(/\s+/)[0] : trimmedName;
+    const bannerStage = state.currentPath?.stage ?? state.placement?.stage ?? null;
+    const bannerTone: BannerTone = bannerStage ? BANNER_TONE[bannerStage] : "sky";
 
     return (
-      <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <PageIntro title={t("greeting", { name: firstName })} />
+      <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+        <PageBanner title={t("greeting", { name: firstName })} art="journey" tone={bannerTone} />
 
-        <section className="border-t border-rule py-10 sm:py-12">
+        <div className="mt-8 grid gap-5 sm:mt-10 lg:grid-cols-2 lg:gap-6">
           <StageBlock placement={state.placement} t={t} tStages={tStages} />
-        </section>
-
-        <section className="border-t border-rule py-10 sm:py-12">
           <ContinueBlock state={state} locale={locale} t={t} tLearning={tLearning} tStages={tStages} />
-        </section>
+        </div>
 
         {state.startedPaths.length > 0 ? (
-          <section className="border-t border-rule py-10 sm:py-12">
-            <h2 className="mb-6 text-heading font-semibold">{t("yourPaths")}</h2>
-            <PathRows paths={state.startedPaths} locale={locale} tLearning={tLearning} />
+          <section className="mt-10 sm:mt-14">
+            <h2 className="mb-5 text-heading font-semibold">{t("yourPaths")}</h2>
+            <PathRows paths={state.startedPaths} locale={locale} />
           </section>
         ) : null}
 
-        <section className="border-t border-rule py-10 sm:py-12">
-          <h2 className="mb-6 text-heading font-semibold">{t("recentlyDone")}</h2>
+        <section className="mt-10 sm:mt-14">
+          <h2 className="mb-5 text-heading font-semibold">{t("recentlyDone")}</h2>
           <RecentRows items={recentItems} locale={locale} t={t} />
         </section>
 
-        <section className="border-t border-rule py-10 sm:py-12">
+        <section className="mt-10 sm:mt-14">
           <QuickLinksRow savedCount={savedCount} quizCount={quizCount} mentorStatus={mentorStatus} t={t} />
         </section>
 
-        <div className="border-t border-rule py-10 sm:py-16">
+        <div className="mt-10 sm:mt-14">
           <Button href="/settings" variant="quiet">
             {t("settingsLink")}
           </Button>

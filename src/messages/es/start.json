@@ -1,21 +1,17 @@
 {
   "meta": {
     "title": "Encuentra tu punto de partida",
-    "description": "Seis preguntas breves sobre dónde estás ahora mismo. Recibe tu etapa y un camino elegido para ti en un minuto aproximadamente."
+    "description": "Seis preguntas breves ubican tu etapa y eligen tu primera lección."
   },
   "intro": {
     "title": "Encuentra tu punto de partida",
-    "lead": "Seis preguntas breves sobre dónde estás ahora mismo. No hay respuestas incorrectas y nada de esto es un examen.",
-    "note": "Un minuto aproximadamente. Puedes volver atrás y cambiar cualquier respuesta.",
+    "lead": "Seis preguntas breves, y no hay respuestas incorrectas.",
     "begin": "Empezar",
     "skip": "Omitir y ver los caminos"
   },
   "existing": {
-    "title": "Estás en la Etapa {number}: {name}",
-    "nextLesson": "Siguiente lección: {title}",
-    "continue": "Continuar",
-    "retake": "Responder de nuevo",
-    "seePath": "Ver el camino completo"
+    "title": "Etapa {number}: {name}",
+    "retake": "Responder de nuevo"
   },
   "flow": {
     "progress": "Pregunta {current} de {total}",
@@ -23,8 +19,7 @@
     "tabAnswered": "Pregunta {number}, respondida",
     "tabCurrent": "Pregunta {number}, actual",
     "tabUpcoming": "Pregunta {number}, sin responder",
-    "back": "Atrás",
-    "stripCaption": "Tu etapa toma forma mientras respondes."
+    "back": "Atrás"
   },
   "questions": {
     "shahada": {
@@ -83,7 +78,7 @@
     }
   },
   "result": {
-    "title": "Tu punto de partida: Etapa {number}, {name}",
+    "title": "Etapa {number}: {name}",
     "reasonsTitle": "Por qué esta etapa",
     "chosen": "Elegiste esta etapa por tu cuenta.",
     "reasons": {
@@ -95,7 +90,6 @@
       "readyForDepth": "Tu oración y lo básico ya están en su lugar, así que puedes profundizar.",
       "solidBasics": "Tienes una base sólida. Esta etapa te ayuda a construir sobre ella."
     },
-    "pathHeading": "Tu camino: {title}",
     "pathMeta": "{steps}, {lessons}",
     "fallback": "Los caminos de la etapa {stage} se están preparando. Mientras tanto, este es el mejor lugar para empezar.",
     "noPath": {
@@ -103,7 +97,6 @@
       "body": "Mientras tanto, en la biblioteca hay lecciones cortas que puedes explorar a tu ritmo.",
       "action": "Explorar la biblioteca"
     },
-    "stepsLabel": "Pasos de este camino",
     "seePath": "Ver el camino completo",
     "mentor": {
       "title": "No tienes que aprender a solas",
@@ -115,9 +108,7 @@
     "adjust": {
       "open": "¿No encaja del todo? Elige tu etapa por tu cuenta",
       "close": "Mantener esta etapa",
-      "title": "Elige tu etapa",
-      "hint": "Elige la etapa que sientas más cercana a donde estás. Puedes cambiarla cuando quieras.",
-      "current": "Tu etapa"
+      "title": "Elige tu etapa"
     },
     "save": {
       "saving": "Guardando tu punto de partida",

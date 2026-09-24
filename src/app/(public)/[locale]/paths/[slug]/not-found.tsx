@@ -1,14 +1,18 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { EmptyState } from "@/components/primer/EmptyState";
 
 export default function PathNotFound() {
   const t = useTranslations("paths");
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
-      <PageIntro title={t("notFoundTitle")} lead={t("notFoundBody")} />
-      <Button href="/paths">{t("browseAll")}</Button>
+    <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <EmptyState
+        art="lantern"
+        title={t("notFoundTitle")}
+        body={t("notFoundBody")}
+        action={<Button href="/paths">{t("browseAll")}</Button>}
+      />
     </div>
   );
 }

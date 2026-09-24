@@ -44,17 +44,17 @@ export function MobileTabBar() {
               key={tab.href}
               href={tab.href}
               aria-current={active ? "page" : undefined}
-              className={`relative flex flex-col items-center justify-center gap-1 text-[0.6875rem] font-medium transition-colors duration-150 ${
-                active ? "text-ink" : "text-ink-3"
+              className={`flex flex-col items-center justify-center gap-0.5 text-[0.6875rem] font-medium transition-colors duration-150 ${
+                active ? "text-primary" : "text-ink-3"
               }`}
             >
-              {active ? (
-                <span
-                  className="absolute inset-x-6 top-0 h-0.5 rounded-full bg-ink"
-                  aria-hidden="true"
-                />
-              ) : null}
-              <tab.Icon className="size-5" strokeWidth={active ? 2 : 1.75} aria-hidden="true" />
+              <span
+                className={`flex h-7 w-12 items-center justify-center rounded-full transition-colors duration-150 ${
+                  active ? "bg-primary-tint" : ""
+                }`}
+              >
+                <tab.Icon className="size-5" strokeWidth={active ? 2 : 1.75} aria-hidden="true" />
+              </span>
               <span>{tab.label}</span>
             </Link>
           );

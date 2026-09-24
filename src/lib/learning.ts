@@ -3,6 +3,7 @@ import "server-only";
 import { connectDB } from "@/db/connection";
 import { LearningPath } from "@/db/models/LearningPath";
 import { Lesson } from "@/db/models/Lesson";
+import "@/db/models/Module";
 import { User } from "@/db/models/User";
 import { STAGES, isStageKey, type LocalizedText } from "@/lib/stages";
 import {

@@ -2,7 +2,7 @@
   "title": "Guardado",
   "lead": "Lecciones que dejaste para volver más tarde.",
   "signInTitle": "Inicia sesión para ver lo que has guardado.",
-  "signInBody": "Crea una cuenta gratuita para guardar lecciones y volver a ellas cuando quieras.",
+  "signInBody": "Crea una cuenta gratuita para guardar lecciones.",
   "emptyTitle": "Todavía no has guardado nada",
   "emptyBody": "Toca Guardar en cualquier lección para conservarla aquí.",
   "explorePaths": "Explorar caminos",
@@ -11,5 +11,5 @@
   "undo": "Deshacer",
   "removeError": "No se pudo quitar esta lección. Intenta de nuevo.",
   "undoError": "No se pudo restaurar esta lección. Intenta de nuevo.",
-  "partOfPath": "Parte del camino {path}"
+  "partOfPath": "Parte de {path}"
 }

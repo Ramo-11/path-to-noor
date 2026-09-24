@@ -2,14 +2,14 @@
   "title": "Saved",
   "lead": "Lessons you set aside to come back to.",
   "signInTitle": "Sign in to see what you've saved.",
-  "signInBody": "Create a free account to save lessons and come back to them anytime.",
+  "signInBody": "Create a free account to save lessons for later.",
   "emptyTitle": "Nothing saved yet",
   "emptyBody": "Tap Save on any lesson to keep it here.",
   "explorePaths": "Browse paths",
   "remove": "Remove",
   "removed": "Removed",
   "undo": "Undo",
-  "removeError": "Could not remove this lesson. Please try again.",
-  "undoError": "Could not restore this lesson. Please try again.",
-  "partOfPath": "Part of the path {path}"
+  "removeError": "Could not remove this lesson. Try again.",
+  "undoError": "Could not restore this lesson. Try again.",
+  "partOfPath": "Part of {path}"
 }

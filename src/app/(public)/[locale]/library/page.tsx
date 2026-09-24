@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 import { auth } from "@/lib/auth-config";
 import { getPublicTopics } from "@/lib/data";
 import { getCompletedLessonIds } from "@/lib/learning";
@@ -8,7 +7,8 @@ import { connectDB } from "@/db/connection";
 import { Module } from "@/db/models/Module";
 import { User } from "@/db/models/User";
 import "@/db/models/Lesson";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { PageBanner } from "@/components/primer/PageBanner";
+import { Button } from "@/components/primer/Button";
 import { LibraryBrowser, type LibrarySubjectCard } from "@/components/library/LibraryBrowser";
 
 interface ModuleAudienceContext {
@@ -107,21 +107,12 @@ export default async function LibraryPage({
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-      <PageIntro
-        title={t("title")}
-        lead={
-          <>
-            {t("lead")}{" "}
-            <Link
-              href="/start"
-              className="text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
-            >
-              {t("findStart")}
-            </Link>
-          </>
-        }
-      />
-      <div className="pb-16 sm:pb-24">
+      <PageBanner title={t("title")} lead={t("lead")} art="lib-pillars" tone="dawn">
+        <Button href="/start" variant="quiet">
+          {t("findStart")}
+        </Button>
+      </PageBanner>
+      <div className="pt-10 pb-16 sm:pt-12 sm:pb-24">
         <LibraryBrowser subjects={subjects} signedIn={Boolean(session?.user)} />
       </div>
     </div>

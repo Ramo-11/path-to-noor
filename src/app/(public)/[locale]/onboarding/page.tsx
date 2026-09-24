@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useSession } from "next-auth/react";
 import { useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
+import { Illustration } from "@/components/primer/Illustration";
 import { Notice } from "@/components/primer/Notice";
-import { PageIntro } from "@/components/primer/PageIntro";
 import { PLACEMENT_STORAGE_KEY, type StoredPlacement } from "@/lib/placement";
 import { isStageKey } from "@/lib/stages";
 
@@ -70,40 +71,58 @@ export default function OnboardingPage() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
-      <PageIntro title={t("title")} lead={t("lead")} />
+    <div className="mx-auto w-full max-w-md px-4 pt-10 pb-16 sm:px-6 sm:pt-14 sm:pb-24">
+      <div className="mx-auto aspect-[3/4] w-28 overflow-hidden rounded-[var(--radius-panel)] sm:w-32">
+        <Illustration name="welcome" sizes="128px" priority />
+      </div>
 
-      <div className="pb-16 sm:pb-24">
+      <div className="mt-7 text-center">
+        <h1 className="text-title font-semibold text-balance">{t("title")}</h1>
+        <p className="mt-2.5 text-lg text-ink-2 text-pretty">{t("lead")}</p>
+      </div>
+
+      <div className="mt-9">
         <fieldset>
-          <legend className="mb-2 text-[0.9375rem] font-medium text-ink">
-            {t("legend")}
-          </legend>
-          <div className="primer-grid grid-cols-1">
-            {options.map((option) => (
-              <label
-                key={option.value}
-                className={`flex cursor-pointer items-start gap-4 px-5 py-6 transition-colors duration-150 ${
-                  userType === option.value ? "bg-wash" : "hover:bg-wash/60"
-                }`}
-              >
-                <input
-                  type="radio"
-                  name="userType"
-                  value={option.value}
-                  checked={userType === option.value}
-                  onChange={() => setUserType(option.value)}
-                  className="mt-1 size-5 shrink-0 accent-ink"
-                />
-                <span>
-                  <span className="block text-heading font-semibold text-balance">
-                    {option.title}
+          <legend className="mb-3 text-[0.9375rem] font-medium text-ink">{t("legend")}</legend>
+          <div className="flex flex-col gap-3">
+            {options.map((option) => {
+              const checked = userType === option.value;
+              return (
+                <label
+                  key={option.value}
+                  className={`flex min-h-14 cursor-pointer items-start gap-4 rounded-[var(--radius-cell)] border px-5 py-4 transition-colors duration-150 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-primary sm:px-6 ${
+                    checked
+                      ? "border-primary bg-primary-tint"
+                      : "border-rule bg-surface hover:border-rule-strong hover:bg-wash"
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="userType"
+                    value={option.value}
+                    checked={checked}
+                    onChange={() => setUserType(option.value)}
+                    className="sr-only"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border-[1.5px] ${
+                      checked ? "border-primary bg-primary text-on-primary" : "border-rule-strong text-transparent"
+                    }`}
+                  >
+                    <Check strokeWidth={2.5} className="size-3.5" />
                   </span>
-                  <span className="mt-1 block text-body text-ink-2">
-                    {option.description}
+                  <span className="min-w-0">
+                    <span className={`block text-base font-semibold text-balance ${checked ? "text-primary" : "text-ink"}`}>
+                      {option.title}
+                    </span>
+                    <span className="mt-0.5 block text-[0.9375rem] text-ink-2 text-pretty">
+                      {option.description}
+                    </span>
                   </span>
-                </span>
-              </label>
-            ))}
+                </label>
+              );
+            })}
           </div>
         </fieldset>
 

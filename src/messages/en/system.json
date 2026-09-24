@@ -1,10 +1,8 @@
 {
   "loading": "Loading",
   "notFoundTitle": "This page is not here.",
-  "notFoundBody": "The page you were looking for does not exist, or it may have moved.",
   "goHome": "Go home",
   "goPaths": "Browse paths",
   "errorTitle": "Something went wrong on our side.",
-  "errorBody": "Please try again. If this keeps happening, let us know.",
   "tryAgain": "Try again"
 }

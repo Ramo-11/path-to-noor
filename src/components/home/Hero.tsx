@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { StageMark } from "@/components/primer/StageMark";
-import { StageGrid } from "@/components/placement/StageGrid";
+import { Illustration } from "@/components/primer/Illustration";
 import { STAGE_NUMBER, type StageKey } from "@/lib/stages";
 import type { PathView, StartCandidates } from "@/components/placement/recommendations";
 import { ContinueCard } from "./ContinueCard";
@@ -19,17 +19,19 @@ function HeroFrame({
   children: React.ReactNode;
 }) {
   return (
-    <section
-      aria-labelledby="home-title"
-      className="mx-auto w-full max-w-6xl px-4 pt-10 pb-16 sm:px-6 sm:pt-16 sm:pb-24 lg:px-8 lg:pt-20"
-    >
-      <h1 id="home-title" className="text-display font-semibold text-balance">
-        {title}
-      </h1>
-      <div className="mt-6 grid gap-10 sm:mt-8 sm:gap-12 lg:mt-12 lg:grid-cols-12 lg:grid-rows-[auto_1fr] lg:gap-x-16 lg:gap-y-6">
-        <div className="lg:col-span-5 lg:col-start-1 lg:row-start-1">{children}</div>
-        <div className="lg:col-span-7 lg:col-start-6 lg:row-span-2 lg:row-start-1">{aside}</div>
-        {after ? <div className="lg:col-span-5 lg:col-start-1 lg:row-start-2">{after}</div> : null}
+    <section aria-labelledby="home-title" className="glow-dawn">
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pt-8 pb-12 sm:px-6 sm:pt-14 sm:pb-16 lg:grid-cols-12 lg:gap-14 lg:px-8 lg:pt-16 lg:pb-20">
+        <div className="lg:col-span-6">
+          <h1
+            id="home-title"
+            className="text-[clamp(2.4rem,3vw+1.25rem,4rem)] leading-[1.04] font-semibold tracking-[-0.035em] text-balance"
+          >
+            {title}
+          </h1>
+          <div className="mt-6">{children}</div>
+          {after ? <div className="mt-6">{after}</div> : null}
+        </div>
+        <div className="lg:col-span-6">{aside}</div>
       </div>
     </section>
   );
@@ -60,18 +62,22 @@ export function DefaultHero({
       title={
         <>
           <span className="block">{t("titleLine1")}</span>
-          <span className="block">{t("titleLine2")}</span>
+          <span className="block text-primary">{t("titleLine2")}</span>
         </>
       }
-      aside={<StageGrid label={t("stagesTitle")} />}
+      aside={
+        <div className="aspect-[4/3] overflow-hidden rounded-[var(--radius-panel)] shadow-lift">
+          <Illustration name="hero-dawn" sizes="(min-width: 1024px) 540px, 100vw" priority />
+        </div>
+      }
     >
-      <p className="max-w-[46ch] text-lg text-ink-2 text-pretty sm:text-xl sm:leading-relaxed">
+      <p className="max-w-[40ch] text-lg text-ink-2 text-pretty sm:text-xl sm:leading-relaxed">
         {t("lead")}
       </p>
       <div className="mt-8">
         <StartAction candidates={candidates} reflectStored={reflectStored} />
       </div>
-      <Button href="/paths" variant="quiet" className="mt-3">
+      <Button href="/paths" variant="quiet" className="mt-4">
         {t("browse")}
       </Button>
     </HeroFrame>

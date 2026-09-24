@@ -1,43 +1,55 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T19:53:25Z",
+  "generatedAt": "2026-09-24T00:00:00Z",
   "title": "Design System: Basmet Dawah",
   "extensions": {
     "colorMeta": {
-      "page": { "role": "neutral", "displayName": "Primer Page", "canonical": "#ffffff", "tonalRamp": ["#111316", "#1a1d22", "#2a2e35", "#474c57", "#8a909c", "#e3e5e9", "#f5f6f7", "#ffffff"] },
-      "ink": { "role": "neutral", "displayName": "Primer Ink", "canonical": "#16181d", "tonalRamp": ["#0a0b0d", "#16181d", "#2a2e35", "#474c57", "#676d7a", "#8a909c", "#b7bcc6", "#eef0f3"] },
-      "ink-2": { "role": "neutral", "displayName": "Soft Ink", "canonical": "#474c57", "tonalRamp": ["#16181d", "#2a2e35", "#474c57", "#676d7a", "#8a909c", "#b7bcc6", "#d5d8dd", "#eef0f3"] },
-      "ink-3": { "role": "neutral", "displayName": "Faint Ink", "canonical": "#676d7a", "tonalRamp": ["#2a2e35", "#474c57", "#676d7a", "#8a909c", "#9197a3", "#b7bcc6", "#d5d8dd", "#eef0f3"] },
-      "rule": { "role": "neutral", "displayName": "Hairline Rule", "canonical": "#e3e5e9", "tonalRamp": ["#2a2e35", "#474c57", "#676d7a", "#8a909c", "#c4c8cd", "#e3e5e9", "#eef0f2", "#f5f6f7"] },
-      "rule-strong": { "role": "neutral", "displayName": "Strong Rule", "canonical": "#8a909c", "tonalRamp": ["#474c57", "#676d7a", "#6d7380", "#8a909c", "#9ea3ad", "#b7bcc6", "#cfd2d8", "#e3e5e9"] },
-      "wash": { "role": "neutral", "displayName": "Paper Wash", "canonical": "#f5f6f7", "tonalRamp": ["#1a1d22", "#22252b", "#2a2e35", "#474c57", "#8a909c", "#e3e5e9", "#f0f1f3", "#f5f6f7"] },
-      "stage1": { "role": "secondary", "displayName": "Primer Red", "canonical": "#c8102e", "tonalRamp": ["#4a0611", "#6e0918", "#921020", "#b20f29", "#c8102e", "#e85566", "#ff6b78", "#ffb3ba"] },
-      "stage1-tint": { "role": "secondary", "displayName": "Primer Red Tint", "canonical": "#fbe8eb", "tonalRamp": ["#3a1a1f", "#5c232a", "#8a323b", "#b8434f", "#e07079", "#f2b6bd", "#fbe8eb", "#fff5f6"] },
-      "stage1-text": { "role": "secondary", "displayName": "Primer Red Ink", "canonical": "#b20f29", "tonalRamp": ["#3a0a12", "#5c0f1c", "#8a1526", "#b20f29", "#d9384c", "#ff6b78", "#ff8791", "#ffc2c7"] },
-      "stage2": { "role": "secondary", "displayName": "Leaf Green", "canonical": "#0a7b55", "tonalRamp": ["#052e20", "#08432d", "#0a5d3e", "#08704d", "#0a7b55", "#1fa377", "#3ccb8f", "#8fe4bd"] },
-      "stage2-tint": { "role": "secondary", "displayName": "Leaf Green Tint", "canonical": "#e2f3eb", "tonalRamp": ["#10302a", "#164237", "#1f5f4c", "#2f8367", "#5fac8e", "#a4d6bf", "#e2f3eb", "#f4faf7"] },
-      "stage2-text": { "role": "secondary", "displayName": "Leaf Green Ink", "canonical": "#08704d", "tonalRamp": ["#04281c", "#08704d", "#0a7b55", "#1fa377", "#3ccb8f", "#5fd9a4", "#8fe4bd", "#c6f2dc"] },
-      "stage3": { "role": "secondary", "displayName": "Tab Yellow", "canonical": "#f6c343", "tonalRamp": ["#3a3016", "#5c4c1f", "#855d00", "#b3862a", "#dba934", "#f6c343", "#fad678", "#fef3d4"] },
-      "stage3-tint": { "role": "secondary", "displayName": "Tab Yellow Tint", "canonical": "#fef3d4", "tonalRamp": ["#3a3016", "#5c4c1f", "#856a2a", "#b3924a", "#dbb877", "#f2dba8", "#fef3d4", "#fffaea"] },
-      "stage3-text": { "role": "secondary", "displayName": "Tab Yellow Ink", "canonical": "#855d00", "tonalRamp": ["#2e2000", "#453000", "#5c4000", "#855d00", "#ad7a00", "#d49f2a", "#f6c343", "#fce9b8"] },
-      "on-stage": { "role": "neutral", "displayName": "On Stage (light)", "canonical": "#ffffff", "tonalRamp": ["#111316", "#ffffff"] },
-      "on-stage3": { "role": "neutral", "displayName": "On Stage (ink, for yellow)", "canonical": "#16181d", "tonalRamp": ["#16181d", "#eef0f3"] },
+      "page": { "role": "neutral", "displayName": "Page", "canonical": "#ffffff", "tonalRamp": ["#0e1124", "#12162c", "#171b35", "#272c4c", "#6b7294", "#bcc0da", "#eef0fb", "#ffffff"] },
+      "canvas": { "role": "neutral", "displayName": "Canvas", "canonical": "#f6f6fb", "tonalRamp": ["#12162c", "#1a1f3a", "#272c4c", "#4b5070", "#8b8fa8", "#e7e7f0", "#f1f1f7", "#f6f6fb"] },
+      "surface": { "role": "neutral", "displayName": "Surface", "canonical": "#ffffff", "tonalRamp": ["#0e1124", "#171b35", "#1e2342", "#4b5070", "#8b8fa8", "#bcc0da", "#eef0fb", "#ffffff"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#1d2140", "tonalRamp": ["#0e1124", "#1d2140", "#272c4c", "#4b5070", "#62677f", "#8b8fa8", "#bcc0da", "#eef0fb"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink 2", "canonical": "#4b5070", "tonalRamp": ["#1d2140", "#272c4c", "#4b5070", "#62677f", "#8b8fa8", "#9398b8", "#bcc0da", "#eef0fb"] },
+      "ink-3": { "role": "neutral", "displayName": "Ink 3", "canonical": "#62677f", "tonalRamp": ["#272c4c", "#4b5070", "#62677f", "#8b8fa8", "#9398b8", "#bcc0da", "#d5d8e5", "#eef0fb"] },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "#e7e7f0", "tonalRamp": ["#272c4c", "#4b5070", "#62677f", "#8b8fa8", "#c4c8dd", "#e7e7f0", "#eef0f7", "#f6f6fb"] },
+      "rule-strong": { "role": "neutral", "displayName": "Rule Strong", "canonical": "#8b8fa8", "tonalRamp": ["#4b5070", "#62677f", "#6b7294", "#8b8fa8", "#9ea3ba", "#bcc0da", "#d5d8e5", "#e7e7f0"] },
+      "wash": { "role": "neutral", "displayName": "Wash", "canonical": "#f1f1f7", "tonalRamp": ["#1a1f3a", "#1e2342", "#272c4c", "#4b5070", "#8b8fa8", "#e7e7f0", "#eef0f7", "#f1f1f7"] },
+      "primary": { "role": "primary", "displayName": "Twilight Blue", "canonical": "#2b3990", "tonalRamp": ["#0e1230", "#161d4d", "#1e2670", "#222e78", "#2b3990", "#5460b3", "#9daaff", "#c7ceff"] },
+      "primary-tint": { "role": "primary", "displayName": "Twilight Blue Tint", "canonical": "#e9ecfa", "tonalRamp": ["#161d4d", "#1f2650", "#2b3990", "#4854a8", "#7c86c9", "#c0c6ec", "#e9ecfa", "#f6f7fd"] },
+      "accent": { "role": "secondary", "displayName": "Warm Gold", "canonical": "#f2b544", "tonalRamp": ["#3d2c06", "#60460a", "#7d5c0d", "#9a7210", "#b88a13", "#dfb02e", "#f2b544", "#fdf3da"] },
+      "accent-tint": { "role": "secondary", "displayName": "Warm Gold Tint", "canonical": "#fdf3da", "tonalRamp": ["#33291a", "#4a3d17", "#7d5c0d", "#b88a13", "#dfb02e", "#f2b544", "#fad678", "#fdf3da"] },
+      "accent-text": { "role": "secondary", "displayName": "Warm Gold Ink", "canonical": "#8a5a00", "tonalRamp": ["#2e1e00", "#453000", "#5c4000", "#8a5a00", "#ad7a00", "#d49f2a", "#f2b544", "#fce9b8"] },
+      "sky": { "role": "secondary", "displayName": "Sky Blue", "canonical": "#9cd3ee", "tonalRamp": ["#142a3a", "#1c3c50", "#2e5a70", "#4d7f97", "#7bb0cc", "#c1e4f2", "#9cd3ee", "#e6f4fb"] },
+      "sky-tint": { "role": "secondary", "displayName": "Sky Blue Tint", "canonical": "#e6f4fb", "tonalRamp": ["#142a3a", "#1c3c50", "#2e5a70", "#5aa9d4", "#9cd3ee", "#c1e4f2", "#e6f4fb", "#f3fafd"] },
+      "stage1": { "role": "secondary", "displayName": "Dawn Coral", "canonical": "#f07c5e", "tonalRamp": ["#2b1f2c", "#4a2620", "#8a3a2c", "#b5472c", "#f07c5e", "#ff9478", "#ffb8a3", "#ffeee7"] },
+      "stage1-tint": { "role": "secondary", "displayName": "Dawn Coral Tint", "canonical": "#ffeee7", "tonalRamp": ["#2b1f2c", "#4a2620", "#7a3f31", "#b5472c", "#f07c5e", "#ff9478", "#ffcabb", "#ffeee7"] },
+      "stage1-text": { "role": "secondary", "displayName": "Dawn Coral Ink", "canonical": "#b5472c", "tonalRamp": ["#2b1f2c", "#4a2620", "#7a3020", "#b5472c", "#e0603c", "#ff9478", "#ffa48b", "#ffcabb"] },
+      "stage2": { "role": "secondary", "displayName": "Daylight Green", "canonical": "#218358", "tonalRamp": ["#11292a", "#164237", "#1e7a52", "#218358", "#2ba36e", "#4cc792", "#8fe4bd", "#e4f5ec"] },
+      "stage2-tint": { "role": "secondary", "displayName": "Daylight Green Tint", "canonical": "#e4f5ec", "tonalRamp": ["#11292a", "#164237", "#1e7a52", "#218358", "#4cc792", "#8fe4bd", "#c6f2dc", "#e4f5ec"] },
+      "stage2-text": { "role": "secondary", "displayName": "Daylight Green Ink", "canonical": "#1e7a52", "tonalRamp": ["#04281c", "#11292a", "#1e7a52", "#218358", "#2ba36e", "#4cc792", "#5fd4a1", "#c6f2dc"] },
+      "stage3": { "role": "secondary", "displayName": "Evening Indigo", "canonical": "#4b45a8", "tonalRamp": ["#12112a", "#1e1c49", "#221f49", "#4b45a8", "#7069c8", "#a49dff", "#c7c2ff", "#ecebfa"] },
+      "stage3-tint": { "role": "secondary", "displayName": "Evening Indigo Tint", "canonical": "#ecebfa", "tonalRamp": ["#12112a", "#1e1c49", "#221f49", "#4b45a8", "#7069c8", "#a49dff", "#d7d4fb", "#ecebfa"] },
+      "stage3-text": { "role": "secondary", "displayName": "Evening Indigo Ink", "canonical": "#4b45a8", "tonalRamp": ["#12112a", "#1e1c49", "#221f49", "#4b45a8", "#7069c8", "#a49dff", "#b3adff", "#d7d4fb"] },
+      "on-stage": { "role": "neutral", "displayName": "On Stage (white)", "canonical": "#ffffff", "tonalRamp": ["#0e1124", "#ffffff"] },
+      "on-stage3": { "role": "neutral", "displayName": "On Stage 3 (white)", "canonical": "#ffffff", "tonalRamp": ["#0e1124", "#ffffff"] },
       "danger": { "role": "neutral", "displayName": "Danger Red", "canonical": "#b42318", "tonalRamp": ["#3a0a06", "#5c0f09", "#8a170d", "#b42318", "#d9483c", "#ff8a80", "#ffaba3", "#ffd6d1"] },
       "danger-tint": { "role": "neutral", "displayName": "Danger Tint", "canonical": "#fdecea", "tonalRamp": ["#3a1b19", "#5c2822", "#8a3a30", "#b8523f", "#e08170", "#f2bcb0", "#fdecea", "#fff6f5"] },
-      "highlight": { "role": "neutral", "displayName": "Selection Highlight", "canonical": "#fde9a8", "tonalRamp": ["#5a4a14", "#7a641c", "#9c8028", "#c4a03c", "#e0c066", "#f2dc99", "#fde9a8", "#fff6de"] }
+      "highlight": { "role": "neutral", "displayName": "Selection Highlight", "canonical": "#fde6b0", "tonalRamp": ["#4a3d17", "#7a641c", "#9c8028", "#c4a03c", "#e0c066", "#f2dc99", "#fde6b0", "#fff6de"] }
     },
     "typographyMeta": {
-      "display": { "displayName": "Display", "purpose": "Home H1 only ('You took your shahada. Here is where to begin.')." },
+      "display": { "displayName": "Display", "purpose": "Home H1 only; second line set in Twilight Blue per the direction contract." },
       "title": { "displayName": "Title", "purpose": "Page-level headings below home: path title, journey title." },
-      "heading": { "displayName": "Heading", "purpose": "Section and card headings: path row title, lesson title, quick-check question." },
+      "heading": { "displayName": "Heading", "purpose": "Section and card headings: path card title, lesson title, quick-check question." },
       "body": { "displayName": "Body", "purpose": "Default paragraph text; lesson prose scales up to 1.125rem, capped at 68ch." },
-      "meta": { "displayName": "Meta", "purpose": "Counts, timestamps, status labels, language codes; tabular-nums when numeric." },
+      "meta": { "displayName": "Meta", "purpose": "Counts, timestamps, status labels; tabular-nums when numeric." },
       "arabic-phrase": { "displayName": "Arabic Phrase", "purpose": "Quoted Arabic scripture/phrases only (shahada, duas), isolated direction and script." }
     },
+    "shadows": [
+      { "name": "shadow-soft", "value": "0 1px 2px rgb(29 33 64 / 0.04), 0 6px 20px -8px rgb(29 33 64 / 0.1)", "purpose": "Resting elevation for cards, buttons, chips, and bordered rows." },
+      { "name": "shadow-lift", "value": "0 2px 6px rgb(29 33 64 / 0.05), 0 18px 40px -18px rgb(29 33 64 / 0.24)", "purpose": "Hero and continue-card illustration frames, hover state on interactive cards, open dropdown menus." }
+    ],
     "motion": [
-      { "name": "fill-in", "value": "clip-path: inset(0 100% 0 0) to inset(0 0 0 0), 650ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Answer and selection fill, from the reading edge (mirrors to inset(0 0 0 100%) under RTL)." },
-      { "name": "fill-up", "value": "clip-path: inset(100% 0 0 0) to inset(0 0 0 0), 650ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Vertical fill for stage/progress cells." },
-      { "name": "settle", "value": "opacity 0 to 1, translateY(6px) to 0, 420ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Reveal of newly-appeared result/explanation content after an answer." }
+      { "name": "ease-fill", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Standard easing for hover lifts, fill-in reveals, and settle transitions." },
+      { "name": "settle", "value": "opacity 0 to 1, translateY(6px) to 0, 420ms var(--ease-fill)", "purpose": "Reveal of a newly-appeared start action once stored placement is known." }
     ],
     "breakpoints": [
       { "name": "sm", "value": "640px" },
@@ -50,95 +62,106 @@
       "name": "Button - Primary",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The one obvious next action on a screen: ink fill, paper text.",
+      "description": "The one obvious next action on a screen: deep-blue pill fill, white text, soft shadow.",
       "html": "<button class=\"ds-btn ds-btn-primary\">Find your starting point</button>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; height: 2.75rem; padding: 0 1.25rem; border-radius: 0.625rem; font-weight: 500; font-size: 0.9375rem; white-space: nowrap; border: 1px solid transparent; transition: background-color 150ms; } .ds-btn-primary { background: #16181d; color: #ffffff; border-color: #16181d; } .ds-btn-primary:hover { background: rgba(22,24,29,0.85); } .ds-btn-primary:active { background: rgba(22,24,29,0.75); } .ds-btn-primary:focus-visible { outline: 2px solid #16181d; outline-offset: 3px; }"
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; height: 2.75rem; padding: 0 1.25rem; border-radius: 9999px; font-weight: 500; font-size: 0.9375rem; white-space: nowrap; border: 1px solid transparent; transition: background-color 150ms, border-color 150ms, transform 150ms; } .ds-btn-primary { background: #2b3990; color: #ffffff; border-color: #2b3990; box-shadow: 0 1px 2px rgba(29,33,64,0.04), 0 6px 20px -8px rgba(29,33,64,0.1); } .ds-btn-primary:hover { background: #222e78; border-color: #222e78; } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid #2b3990; outline-offset: 3px; }"
     },
     {
       "name": "Button - Secondary",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Paper fill, ink border; the default non-primary action.",
+      "description": "White pill fill, ink border and text; the default non-primary action.",
       "html": "<button class=\"ds-btn ds-btn-secondary\">Talk to a mentor</button>",
-      "css": ".ds-btn-secondary { background: #ffffff; color: #16181d; border: 1px solid #16181d; } .ds-btn-secondary:hover { background: #f5f6f7; } .ds-btn-secondary:active { background: #e3e5e9; }"
+      "css": ".ds-btn-secondary { background: #ffffff; color: #1d2140; border: 1px solid #e7e7f0; box-shadow: 0 1px 2px rgba(29,33,64,0.04), 0 6px 20px -8px rgba(29,33,64,0.1); } .ds-btn-secondary:hover { border-color: #8b8fa8; background: #f1f1f7; } .ds-btn-secondary:active { background: #e7e7f0; }"
     },
     {
       "name": "Button - Quiet",
       "kind": "button",
       "refersTo": "button-quiet",
-      "description": "Underlined ink text, no fill or border; used for every secondary link-style action.",
+      "description": "Underlined blue text, no fill or shadow; every secondary link-style action.",
       "html": "<a href=\"#\" class=\"ds-btn-quiet\">Browse all paths</a>",
-      "css": ".ds-btn-quiet { display: inline-flex; align-items: center; gap: 0.5rem; color: #16181d; font-weight: 500; font-size: 0.9375rem; text-decoration: underline; text-decoration-color: #8a909c; text-underline-offset: 0.25em; } .ds-btn-quiet:hover { text-decoration-color: #16181d; }"
+      "css": ".ds-btn-quiet { display: inline-flex; align-items: center; gap: 0.5rem; color: #2b3990; font-weight: 500; font-size: 0.9375rem; text-decoration: underline; text-decoration-color: rgba(43,57,144,0.3); text-underline-offset: 0.25em; } .ds-btn-quiet:hover { text-decoration-color: #2b3990; }"
     },
     {
       "name": "Text Field",
       "kind": "input",
       "refersTo": "input-text",
-      "description": "Paper input with strong-rule border, ink focus ring, danger state.",
+      "description": "White input with strong-rule border, blue focus ring, danger state.",
       "html": "<div class=\"ds-field\"><label for=\"ds-email\" class=\"ds-field-label\">Email</label><input id=\"ds-email\" class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\" /></div>",
-      "css": ".ds-field-label { display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; font-weight: 500; color: #16181d; } .ds-input { width: 100%; min-height: 3rem; border-radius: 0.625rem; border: 1px solid #8a909c; background: #ffffff; padding: 0 1rem; font-size: 1rem; color: #16181d; transition: border-color 150ms; } .ds-input::placeholder { color: #676d7a; } .ds-input:focus { border-color: #16181d; outline: none; } .ds-input:focus-visible { outline: 2px solid #16181d; outline-offset: 2px; } .ds-input[aria-invalid='true'] { border-color: #b42318; }"
+      "css": ".ds-field-label { display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; font-weight: 500; color: #1d2140; } .ds-input { width: 100%; min-height: 3rem; border-radius: 0.875rem; border: 1px solid #8b8fa8; background: #ffffff; padding: 0 1rem; font-size: 1rem; color: #1d2140; transition: border-color 150ms; } .ds-input::placeholder { color: #62677f; } .ds-input:focus { border-color: #2b3990; outline: none; } .ds-input:focus-visible { outline: 2px solid #2b3990; outline-offset: 2px; } .ds-input[aria-invalid='true'] { border-color: #b42318; }"
+    },
+    {
+      "name": "Stage Chip",
+      "kind": "chip",
+      "refersTo": "stage-chip-1",
+      "description": "Tinted pill with a solid stage dot, overlaid on illustration corners or set in a meta row; never a standalone kicker above a heading.",
+      "html": "<span class=\"ds-stage-chip ds-stage-chip-1\"><span class=\"ds-stage-dot\"></span>Just beginning</span>",
+      "css": ".ds-stage-chip { display: inline-flex; align-items: center; gap: 0.5rem; border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.8125rem; font-weight: 500; box-shadow: 0 1px 2px rgba(29,33,64,0.04), 0 6px 20px -8px rgba(29,33,64,0.1); } .ds-stage-dot { width: 0.5rem; height: 0.5rem; border-radius: 9999px; } .ds-stage-chip-1 { background: #ffeee7; color: #b5472c; } .ds-stage-chip-1 .ds-stage-dot { background: #f07c5e; }"
     },
     {
       "name": "Stage Mark",
       "kind": "custom",
       "refersTo": "stage-mark-1",
-      "description": "Numbered stage cell: solid stage-color fill under a large tabular numeral.",
+      "description": "Numbered circular stage cell: solid stage-color fill under a tabular numeral.",
       "html": "<span class=\"ds-stage-mark ds-stage-mark-1\">1</span>",
-      "css": ".ds-stage-mark { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 2.25rem; height: 2.25rem; border-radius: 0.5rem; font-weight: 600; font-variant-numeric: tabular-nums; font-size: 1rem; } .ds-stage-mark-1 { background: #c8102e; color: #ffffff; } .ds-stage-mark-2 { background: #0a7b55; color: #ffffff; } .ds-stage-mark-3 { background: #f6c343; color: #16181d; }"
+      "css": ".ds-stage-mark { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 2.25rem; height: 2.25rem; border-radius: 9999px; font-weight: 600; font-variant-numeric: tabular-nums; font-size: 1rem; } .ds-stage-mark-1 { background: #f07c5e; color: #ffffff; } .ds-stage-mark-2 { background: #218358; color: #ffffff; } .ds-stage-mark-3 { background: #4b45a8; color: #ffffff; }"
     },
     {
-      "name": "Primer Grid Row (Path Row)",
+      "name": "Path Card",
       "kind": "card",
-      "refersTo": "primer-grid",
-      "description": "Signature list pattern: cells share a 1px hairline instead of individually-bordered cards, hover fills wash.",
-      "html": "<a href=\"#\" class=\"ds-path-row\"><div class=\"ds-path-row-main\"><h3 class=\"ds-path-row-title\">First Steps in Islam</h3><p class=\"ds-path-row-meta\">4 steps &middot; 12 lessons</p></div><svg class=\"ds-path-row-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
-      "css": ".ds-path-row { display: flex; align-items: flex-start; gap: 1.5rem; padding: 1.5rem 1.25rem; outline: 1px solid #e3e5e9; background: #ffffff; text-decoration: none; transition: background-color 150ms; } .ds-path-row:hover { background: #f5f6f7; } .ds-path-row-main { flex: 1; min-width: 0; } .ds-path-row-title { font-size: 1.375rem; font-weight: 600; color: #16181d; margin: 0; } .ds-path-row-meta { margin-top: 0.5rem; font-size: 0.8125rem; color: #676d7a; } .ds-path-row-arrow { margin-top: 0.375rem; flex-shrink: 0; color: #676d7a; }"
-    },
-    {
-      "name": "Quick Check Option",
-      "kind": "custom",
-      "refersTo": "primer-grid",
-      "description": "Knowledge-check answer row: trailing-edge marker, ink fill for chosen state, stage2 fill for correct.",
-      "html": "<button class=\"ds-qc-option ds-qc-correct\"><span class=\"ds-qc-label\">That there is no god but Allah</span><span class=\"ds-qc-marker\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"><path d=\"M20 6 9 17l-5-5\"/></svg></span></button>",
-      "css": ".ds-qc-option { position: relative; display: flex; align-items: center; gap: 1rem; width: 100%; min-height: 3.5rem; padding: 0.875rem 1.25rem; border: none; text-align: start; background: transparent; font-size: 1rem; color: #16181d; } .ds-qc-label { flex: 1; min-width: 0; } .ds-qc-marker { order: 2; display: grid; place-items: center; width: 1.25rem; height: 1.25rem; border-radius: 9999px; flex-shrink: 0; } .ds-qc-correct { background: #e2f3eb; } .ds-qc-correct .ds-qc-marker { background: #08704d; border: 1px solid #08704d; color: #ffffff; }"
+      "refersTo": "path-card",
+      "description": "Illustration-led link card: stage chip overlaid on the artwork, soft shadow at rest, lift shadow and image zoom on hover.",
+      "html": "<a href=\"#\" class=\"ds-path-card\"><div class=\"ds-path-card-art\"><span class=\"ds-stage-chip ds-stage-chip-1\"><span class=\"ds-stage-dot\"></span>Just beginning</span><img class=\"ds-path-card-img\" src=\"/illustrations/path-first-steps-sm.webp\" alt=\"\" /></div><div class=\"ds-path-card-body\"><h3 class=\"ds-path-card-title\">First Steps in Islam</h3><p class=\"ds-path-card-meta\">4 steps &middot; 37 lessons</p></div></a>",
+      "css": ".ds-path-card { display: flex; flex-direction: column; border-radius: 1.25rem; border: 1px solid #e7e7f0; background: #ffffff; overflow: hidden; text-decoration: none; box-shadow: 0 1px 2px rgba(29,33,64,0.04), 0 6px 20px -8px rgba(29,33,64,0.1); transition: box-shadow 220ms cubic-bezier(0.16,1,0.3,1), transform 220ms cubic-bezier(0.16,1,0.3,1), border-color 220ms; } .ds-path-card:hover { box-shadow: 0 2px 6px rgba(29,33,64,0.05), 0 18px 40px -18px rgba(29,33,64,0.24); transform: translateY(-2px); border-color: #8b8fa8; } .ds-path-card-art { position: relative; aspect-ratio: 16 / 9; overflow: hidden; } .ds-path-card-art .ds-stage-chip { position: absolute; top: 0.75rem; inset-inline-start: 0.75rem; z-index: 1; } .ds-path-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(0.16,1,0.3,1); } .ds-path-card:hover .ds-path-card-img { transform: scale(1.03); } .ds-path-card-body { padding: 1.25rem 1.5rem; } .ds-path-card-title { font-size: 1.25rem; font-weight: 600; color: #1d2140; margin: 0; } .ds-path-card-meta { margin-top: 0.5rem; font-size: 0.8125rem; color: #62677f; }"
     },
     {
       "name": "Navbar",
       "kind": "nav",
       "refersTo": "navbar",
-      "description": "One hairline row: wordmark, text links with underline-bar active state, language and account menus.",
+      "description": "One hairline row: brand mark and wordmark, text links with a filled tint-pill active state, language and account menus.",
       "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-wordmark\">Basmet Dawah</a><a href=\"#\" class=\"ds-nav-link ds-nav-link-active\">Paths</a><a href=\"#\" class=\"ds-nav-link\">Library</a><a href=\"#\" class=\"ds-nav-link\">Mentor</a></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; gap: 2rem; height: 4rem; padding: 0 1.5rem; border-bottom: 1px solid #e3e5e9; background: #ffffff; } .ds-nav-wordmark { font-size: 1.1875rem; font-weight: 600; color: #16181d; text-decoration: none; } .ds-nav-link { position: relative; display: flex; align-items: center; height: 100%; font-size: 0.9375rem; font-weight: 500; color: #474c57; text-decoration: none; transition: color 150ms; } .ds-nav-link:hover { color: #16181d; } .ds-nav-link-active { color: #16181d; } .ds-nav-link-active::after { content: ''; position: absolute; inset-inline: 0; bottom: 0; height: 2px; background: #16181d; }"
+      "css": ".ds-nav { display: flex; align-items: center; gap: 2rem; height: 4rem; padding: 0 1.5rem; border-bottom: 1px solid #e7e7f0; background: #ffffff; } .ds-nav-wordmark { font-size: 1.1875rem; font-weight: 600; color: #1d2140; text-decoration: none; } .ds-nav-link { display: flex; align-items: center; height: 2.25rem; padding: 0 0.875rem; border-radius: 9999px; font-size: 0.9375rem; font-weight: 500; color: #4b5070; text-decoration: none; transition: background-color 150ms, color 150ms; } .ds-nav-link:hover { background: #f1f1f7; color: #1d2140; } .ds-nav-link-active { background: #e9ecfa; color: #2b3990; }"
+    },
+    {
+      "name": "Illustration Frame",
+      "kind": "custom",
+      "refersTo": "illustration-frame",
+      "description": "Panel-radius frame with a lift shadow around the hero and page-banner illustrations; the illustrations themselves are people-free, text-free painted places and objects.",
+      "html": "<div class=\"ds-illo-frame\"><img class=\"ds-illo-img\" src=\"/illustrations/hero-dawn.webp\" alt=\"\" /></div>",
+      "css": ".ds-illo-frame { aspect-ratio: 4 / 3; overflow: hidden; border-radius: 1.75rem; box-shadow: 0 2px 6px rgba(29,33,64,0.05), 0 18px 40px -18px rgba(29,33,64,0.24); } .ds-illo-img { display: block; width: 100%; height: 100%; object-fit: cover; }"
     }
   ],
   "narrative": {
-    "northStar": "The First Primer",
-    "overview": "Basmet Dawah's learner site is a ruled, boxed lesson book that already knows which page the reader is on. Every surface is built from the same primer grid: white paper, near-black ink, hairline rules that cells share rather than double up, and three stage inks that carry meaning and nothing else. There is no glass, no gradient, no drop shadow, no floating card grid, no emerald-and-gold arabesque decor. Depth comes from rule weight and wash tint, never from elevation.\n\nThe system is trilingual by construction, not by patch. Readex Pro (variable weight) carries every UI label and every paragraph in Latin and Arabic alike; Amiri appears only for set Arabic phrases quoted at primer scale (the shahada, a dua), rendered as a self-contained island in its own language and direction even inside a page running the opposite way. Interaction has one grammar: a single fill motion (ink or stage color flooding a cell from the reading edge) marks an answer, a completed step, or a milestone, and nothing else moves that way.\n\nColor is restricted to information. Primer red, leaf green, and tab yellow exist to say \"stage 1\", \"stage 2\", \"stage 3\": on the stage grid, the stage line, progress cells, and step tabs. They never decorate a hero, a card, or a button. Buttons, inputs, and navigation stay ink-on-paper in both themes; dark mode inverts the paper without inventing new hues, and each stage ink gets a lighter, more saturated dark-mode variant so it still reads as ink on a dark page.",
+    "northStar": "A day of light",
+    "overview": "Basmet Dawah's learner site is the arc of one day, dawn to evening, and every screen shows where the learner stands in it. The page is white and calm, warmed by soft tinted panels that carry the three learning stages as times of day: dawn coral for just beginning, daylight green for building the basics, evening indigo for growing deeper. This is a deliberate replacement of an earlier ink-on-white primer world: that system read as flat and joyless, so the build now favors color, comfortable illustration, and gentle lift over rule-and-ink austerity, while staying modern and minimal rather than ornamental. It also refuses the emerald-and-gold arabesque cliche common to Islamic-content sites.\n\nOne deep blue pill (--primary, #2b3990) carries the single next action on every screen: 'Find your starting point,' 'Continue,' 'Talk to a mentor.' Soft painterly illustrations of places and objects, dawn rooms, prayer rugs, lantern-lit corners, hillside paths, appear on every major surface; by explicit production rule they contain no people, no faces, no hands, and no text, letters, or calligraphy. Cards carry hairline borders and soft resting or lifted shadows rather than the flat, shadowless primer grid the previous system prescribed. Readex Pro sets every UI label and paragraph in English, Arabic, and Spanish; Amiri is reserved for set Arabic phrases quoted at readable scale.",
     "keyCharacteristics": [
-      "White (or near-black in dark mode) paper, near-black ink text, no gradients, no drop shadows anywhere in the learner site",
-      "Hairline rules with shared borders (the primer grid), not card outlines with gaps",
-      "Three stage inks (red / green / yellow) used exclusively to encode stage, always as a solid fill under ink text",
-      "Readex Pro for all UI and body copy in every language; Amiri reserved for quoted Arabic phrases",
-      "One motion: a directional fill, used for answers, completions, and milestones only"
+      "White page and surface, with soft dawn/day/evening tinted panels and gradient glows, not a flat ink-on-paper duotone",
+      "One deep blue pill button (--primary) per screen for the single next action; gold (--accent) reserved for small highlights, never buttons",
+      "Three stage colors (dawn coral, daylight green, evening indigo) carried on illustrations, stage marks, stage chips, and progress fills, never as a text kicker sitting above a heading",
+      "Soft resting shadow (--shadow-soft) and a stronger lift shadow (--shadow-lift) on cards, hero art, and hover states; this is not a flat, shadowless system",
+      "Soft painterly illustrations of places and objects only, no people, no faces, no hands, no text or calligraphy, on every major surface"
     ],
     "rules": [
-      { "name": "The Information-Only Color Rule", "body": "Primer red, leaf green, and tab yellow appear only to encode stage 1, 2, or 3. They never color a hero, a generic card, a nav item, or a button; ink and paper carry everything else.", "section": "colors" },
-      { "name": "The Fill-Under-Ink Rule", "body": "A stage color never stands alone as text on paper; it is always a solid fill with a contrast-checked ink on top, matching the on-stage / on-stage3 pairing.", "section": "colors" },
+      { "name": "The One Pill Rule", "body": "Every screen carries exactly one primary (deep-blue, filled) button for its single obvious next action. Every other action on that screen is secondary, quiet, or danger; a screen never shows two filled primary pills at once.", "section": "colors" },
+      { "name": "The Stage-on-Substance Rule", "body": "Stage color identity lives on illustrations, stage marks, stage chips overlaid on artwork, progress fills, and step-tab numerals. It is never rendered as a standalone label or kicker floating above a heading with no other function.", "section": "colors" },
+      { "name": "The Gold-Is-Rare Rule", "body": "Warm gold marks a small highlight and never becomes a button, a card fill, or a nav state; blue alone carries interactive weight.", "section": "colors" },
       { "name": "The One Voice Rule", "body": "Readex Pro sets every UI control and every paragraph in English, Arabic, and Spanish. A second typeface is never introduced for flavor; Amiri is a script-accuracy tool for quoted Arabic, not a display font.", "section": "typography" },
-      { "name": "The Flat Primer Rule", "body": "Nothing in the learner site casts a shadow or floats above the page. If a surface needs to read as active or current, it gets a thicker rule, a wash fill, or the ink-bar marker, never elevation.", "section": "elevation" }
+      { "name": "The Ambient Lift Rule", "body": "Shadows are soft and diffuse, doubled (a tight near shadow plus a broad far one) to read as gentle elevation, not as a hard, offset, cartoon-style shadow; that device belongs to a neobrutalist world this one is not.", "section": "elevation" }
     ],
     "dos": [
-      "Do keep the primer grid's shared 1px hairline technique for any new list, row, or option group; do not fall back to gapped cards with individual borders.",
-      "Do use small line icons (lucide, 16-24px, strokeWidth 1.75-3) for functional affordances; the build uses them natively throughout, inline and never in an icon font.",
-      "Do put answer, selection, and completion markers on the trailing edge of a row (order-last, or inset-inline-end), never the leading edge, so they hold their position correctly under RTL.",
-      "Do treat Amiri-set Arabic phrases and fallback-language lesson content as self-contained islands: their own direction and unicode-bidi: isolate regardless of the surrounding page's language.",
-      "Do reserve the ink fill (button-primary) for the one obvious next action on a screen; every other action is secondary or quiet."
+      "Do give every screen exactly one filled primary (deep-blue) pill for its one obvious next action (The One Pill Rule); every other action is secondary, quiet, or danger.",
+      "Do carry stage identity on illustrations, marks, chips overlaid on imagery, and progress fills, never as a bare kicker line above a heading (The Stage-on-Substance Rule).",
+      "Do keep every illustration people-free, face-free, hand-free, and text-free, matching the production rule in docs/illustrations.md; a new illustration prompt must restate that rule.",
+      "Do use small line icons (lucide, 16 to 24px, strokeWidth 1.75 to 2.5) for functional affordances; the build uses them natively throughout, inline and never in an icon font.",
+      "Do put answer, selection, and progress markers so they hold their visual position under RTL by using logical (start/end, inset-inline-*) properties, not fixed left/right.",
+      "Do treat Amiri-set Arabic phrases as self-contained islands: their own direction and unicode-bidi: isolate regardless of the surrounding page's language."
     ],
     "donts": [
-      "Don't add a shadow, glow, gradient, or glass/blur surface anywhere in the learner site; depth is rule weight and wash tint only.",
-      "Don't use a stage color (red/green/yellow) for anything but stage 1/2/3 identity; it never becomes a generic accent, a decorative background, or a brand color.",
+      "Don't use warm gold for a button, a card fill, or a nav state; it is a small-highlight color only (The Gold-Is-Rare Rule).",
+      "Don't show a stage color as body text without its tint background or a contrast-checked on-stage/on-stage3 pairing on top of the solid fill.",
       "Don't introduce a second display typeface for personality; Readex Pro carries every language and every role except quoted Arabic phrases.",
-      "Don't apply this system to the admin panel. Admin keeps its own incumbent slate/primary (blue/gold) styling; it is out of scope for this DESIGN.md and gains only new fields and lesson-block editors, not the primer visual language."
+      "Don't add a hard, offset, single-direction cartoon shadow anywhere; this world's depth is soft and ambient (The Ambient Lift Rule), and a hard-offset shadow belongs to a neobrutalist system this one is not.",
+      "Don't apply this system to the admin panel. Admin keeps its own incumbent slate/primary (blue/gold) styling; it is out of scope for this DESIGN.md and gains only new fields and lesson-block editors, not the learner-site visual language."
     ]
   }
 }

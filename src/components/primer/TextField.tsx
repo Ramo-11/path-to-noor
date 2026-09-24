@@ -11,7 +11,7 @@ interface TextFieldProps extends Omit<React.InputHTMLAttributes<HTMLInputElement
 }
 
 const inputClass =
-  "w-full min-h-12 rounded-[var(--radius-control)] border border-rule-strong bg-page px-4 text-base text-ink placeholder:text-ink-3 transition-colors focus:border-ink focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink aria-invalid:border-danger";
+  "w-full min-h-12 rounded-[var(--radius-control)] border border-rule-strong bg-surface px-4 text-base text-ink placeholder:text-ink-3 transition-colors focus:border-primary focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary aria-invalid:border-danger";
 
 export function TextField({ label, hint, error, type = "text", className = "", ...rest }: TextFieldProps) {
   const id = useId();
@@ -40,7 +40,7 @@ export function TextField({ label, hint, error, type = "text", className = "", .
             onClick={() => setVisible((v) => !v)}
             aria-label={visible ? t("hidePassword") : t("showPassword")}
             aria-pressed={visible}
-            className="absolute inset-y-0 end-0 flex w-12 items-center justify-center text-ink-2 hover:text-ink"
+            className="absolute inset-y-0 end-0 flex w-12 items-center justify-center rounded-e-[var(--radius-control)] text-ink-2 hover:text-primary"
           >
             {visible ? <EyeOff className="size-5" aria-hidden="true" /> : <Eye className="size-5" aria-hidden="true" />}
           </button>

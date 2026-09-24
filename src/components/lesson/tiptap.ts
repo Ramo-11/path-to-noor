@@ -27,6 +27,19 @@ const YOUTUBE_HOSTS = new Set([
 
 const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
 
+const LINKED_VIDEO_HOSTS: Record<string, string> = {
+  "fb.watch": "Facebook",
+  "facebook.com": "Facebook",
+  "www.facebook.com": "Facebook",
+  "m.facebook.com": "Facebook",
+  "instagram.com": "Instagram",
+  "www.instagram.com": "Instagram",
+  "vimeo.com": "Vimeo",
+  "www.vimeo.com": "Vimeo",
+  "tiktok.com": "TikTok",
+  "www.tiktok.com": "TikTok",
+};
+
 const BLOCK_NORMALIZERS: Record<LessonBlockType, (attrs: unknown) => unknown> = {
   phraseCard: normalizePhraseCard,
   stepList: normalizeStepList,
@@ -115,6 +128,13 @@ export function youtubeEmbedUrl(raw: unknown, start?: unknown): string | null {
   const params = new URLSearchParams({ rel: "0" });
   if (seconds > 0) params.set("start", String(seconds));
   return `https://www.youtube-nocookie.com/embed/${id}?${params.toString()}`;
+}
+
+export function linkedVideo(raw: unknown): { href: string; site: string } | null {
+  const url = parseUrl(raw);
+  if (!url || url.protocol !== "https:") return null;
+  const site = LINKED_VIDEO_HOSTS[url.hostname.toLowerCase()];
+  return site ? { href: url.toString(), site } : null;
 }
 
 export function isLessonBlock(type: unknown): type is LessonBlockType {

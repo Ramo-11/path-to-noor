@@ -51,7 +51,7 @@ export function ThemeToggle({
       type="button"
       onClick={toggle}
       aria-label={label}
-      className="inline-flex size-10 shrink-0 items-center justify-center rounded-[var(--radius-control)] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
+      className="inline-flex size-10 shrink-0 items-center justify-center rounded-full text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
       suppressHydrationWarning
     >
       {isDark ? (

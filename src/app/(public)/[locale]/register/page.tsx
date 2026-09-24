@@ -7,7 +7,7 @@ import { Link, useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { TextField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { AuthShell } from "@/components/auth/AuthShell";
 import { GoogleButton } from "@/components/auth/GoogleButton";
 import { AuthDivider } from "@/components/auth/AuthDivider";
 
@@ -66,80 +66,81 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
-      <PageIntro title={t("createTitle")} lead={t("createDescription")} />
+    <AuthShell mobileArt={false}>
+      <h1 className="text-heading font-semibold text-balance">{t("createTitle")}</h1>
+      <p className="mt-2 text-ink-2 text-pretty">{t("createDescription")}</p>
 
-      <div className="pb-16 sm:pb-24">
+      <div className="mt-6">
         <GoogleButton callbackUrl={`/${locale}/onboarding`} />
-
-        <AuthDivider />
-
-        <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
-          <TextField
-            label={t("name")}
-            type="text"
-            name="name"
-            autoComplete="name"
-            required
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-
-          <TextField
-            label={t("email")}
-            type="email"
-            name="email"
-            autoComplete="email"
-            inputMode="email"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-
-          <TextField
-            label={t("password")}
-            type="password"
-            name="password"
-            autoComplete="new-password"
-            required
-            minLength={8}
-            hint={t("passwordHint")}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-
-          <p className="text-meta text-ink-3">
-            {t.rich("consent", {
-              terms: (chunks) => (
-                <Link href="/terms" className="text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] hover:text-ink hover:decoration-ink">
-                  {chunks}
-                </Link>
-              ),
-              privacy: (chunks) => (
-                <Link href="/privacy" className="text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] hover:text-ink hover:decoration-ink">
-                  {chunks}
-                </Link>
-              ),
-            })}
-          </p>
-
-          {error ? <Notice tone="error">{error}</Notice> : null}
-
-          <Button type="submit" size="lg" fullWidth loading={loading}>
-            {t("signUp")}
-          </Button>
-        </form>
-
-        <p className="mt-8 text-[0.9375rem] text-ink-2">
-          {t("alreadyHaveAccount")}{" "}
-          <Link
-            href="/login"
-            className="text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
-          >
-            {t("signIn")}
-          </Link>
-        </p>
       </div>
-    </div>
+
+      <AuthDivider />
+
+      <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+        <TextField
+          label={t("name")}
+          type="text"
+          name="name"
+          autoComplete="name"
+          required
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+
+        <TextField
+          label={t("email")}
+          type="email"
+          name="email"
+          autoComplete="email"
+          inputMode="email"
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+
+        <TextField
+          label={t("password")}
+          type="password"
+          name="password"
+          autoComplete="new-password"
+          required
+          minLength={8}
+          hint={t("passwordHint")}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+
+        <p className="text-meta text-ink-3">
+          {t.rich("consent", {
+            terms: (chunks) => (
+              <Link href="/terms" className="text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] hover:text-ink hover:decoration-ink">
+                {chunks}
+              </Link>
+            ),
+            privacy: (chunks) => (
+              <Link href="/privacy" className="text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] hover:text-ink hover:decoration-ink">
+                {chunks}
+              </Link>
+            ),
+          })}
+        </p>
+
+        {error ? <Notice tone="error">{error}</Notice> : null}
+
+        <Button type="submit" size="lg" fullWidth loading={loading}>
+          {t("signUp")}
+        </Button>
+      </form>
+
+      <p className="mt-6 text-[0.9375rem] text-ink-2">
+        {t("alreadyHaveAccount")}{" "}
+        <Link
+          href="/login"
+          className="text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
+        >
+          {t("signIn")}
+        </Link>
+      </p>
+    </AuthShell>
   );
 }

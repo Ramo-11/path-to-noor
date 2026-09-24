@@ -103,6 +103,7 @@ export function SavedList({ initialLessons }: SavedListProps) {
         title={t("emptyTitle")}
         body={t("emptyBody")}
         action={<Button href="/paths">{t("explorePaths")}</Button>}
+        art="saved"
       />
     );
   }
@@ -128,9 +129,12 @@ export function SavedList({ initialLessons }: SavedListProps) {
       </div>
 
       {lessons.length > 0 ? (
-        <div className="primer-grid grid-cols-1">
+        <div className="flex flex-col gap-3">
           {lessons.map((lesson) => (
-            <div key={lesson.id} className="flex flex-wrap items-center gap-4 px-5 py-4">
+            <div
+              key={lesson.id}
+              className="flex flex-wrap items-center gap-4 rounded-[var(--radius-cell)] border border-rule bg-surface px-5 py-4 shadow-soft"
+            >
               <div className="min-w-0 flex-1">
                 <Link
                   href={`/learn/${lesson.slug}`}
@@ -138,25 +142,27 @@ export function SavedList({ initialLessons }: SavedListProps) {
                 >
                   {lesson.title}
                 </Link>
-                {lesson.context?.type === "path" ? (
-                  <p className="mt-1 text-meta text-ink-3">
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  {lesson.context?.type === "path" ? (
                     <Link
                       href={`/paths/${lesson.context.slug}`}
-                      className="underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
+                      className="inline-flex items-center rounded-full bg-primary-tint px-2.5 py-1 text-meta font-medium text-primary hover:bg-primary-tint/70"
                     >
                       {t("partOfPath", { path: lesson.context.title })}
                     </Link>
-                  </p>
-                ) : null}
-                {lesson.context?.type === "step" ? (
-                  <p className="mt-1 text-meta text-ink-3">{lesson.context.title}</p>
-                ) : null}
+                  ) : null}
+                  {lesson.context?.type === "step" ? (
+                    <span className="inline-flex items-center rounded-full bg-wash px-2.5 py-1 text-meta text-ink-2">
+                      {lesson.context.title}
+                    </span>
+                  ) : null}
+                  {lesson.minutes > 0 ? (
+                    <span className="inline-flex items-center rounded-full bg-wash px-2.5 py-1 text-meta text-ink-3 tabular">
+                      {tLearning("minutes", { count: lesson.minutes })}
+                    </span>
+                  ) : null}
+                </div>
               </div>
-              {lesson.minutes > 0 ? (
-                <span className="shrink-0 text-meta text-ink-3">
-                  {tLearning("minutes", { count: lesson.minutes })}
-                </span>
-              ) : null}
               <Button variant="secondary" onClick={() => handleRemove(lesson)}>
                 {t("remove")}
               </Button>

@@ -1,5 +1,6 @@
 "use client";
 
+import { Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 interface QuestionTabsProps {
@@ -16,7 +17,7 @@ export function QuestionTabs({ total, current, answered }: QuestionTabsProps) {
     <ol
       aria-label={preview ? undefined : t("tabsLabel")}
       aria-hidden={preview ? true : undefined}
-      className="primer-grid w-max grid-cols-6"
+      className="flex items-center gap-2"
     >
       {Array.from({ length: total }, (_, index) => {
         const number = index + 1;
@@ -28,30 +29,22 @@ export function QuestionTabs({ total, current, answered }: QuestionTabsProps) {
             ? t("tabCurrent", { number })
             : t("tabUpcoming", { number });
 
+        const tone = isAnswered
+          ? "bg-primary text-on-primary"
+          : isCurrent
+            ? "bg-primary-tint text-primary ring-2 ring-primary"
+            : preview
+              ? "bg-primary-tint text-primary"
+              : "bg-wash text-ink-3";
+
         return (
-          <li
-            key={index}
-            aria-current={isCurrent ? "step" : undefined}
-            className="relative grid size-10 place-items-center sm:size-11"
-          >
+          <li key={index} aria-current={isCurrent ? "step" : undefined} className="flex">
             <span
               aria-hidden="true"
-              className={`text-[0.9375rem] font-semibold tabular ${isCurrent ? "text-ink" : "text-ink-3"}`}
+              className={`grid size-8 shrink-0 place-items-center rounded-full text-[0.8125rem] font-semibold tabular transition-colors duration-150 sm:size-9 ${tone}`}
             >
-              {number}
+              {isAnswered ? <Check strokeWidth={2.5} className="size-4" /> : number}
             </span>
-            {isCurrent && !isAnswered ? (
-              <span aria-hidden="true" className="absolute inset-x-0 bottom-0 h-[3px] bg-ink" />
-            ) : null}
-            {isAnswered ? (
-              <span
-                aria-hidden="true"
-                className="fill-in absolute inset-0 grid place-items-center bg-ink text-[0.9375rem] font-semibold text-page tabular"
-              >
-                {number}
-                {isCurrent ? <span className="absolute inset-x-2 bottom-1.5 h-[2px] rounded-full bg-page" /> : null}
-              </span>
-            ) : null}
             {preview ? null : <span className="sr-only">{status}</span>}
           </li>
         );

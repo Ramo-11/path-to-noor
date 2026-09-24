@@ -16,16 +16,16 @@ export function SubjectProgressBar({ done, total, label, className = "" }: Subje
       aria-valuemin={0}
       aria-valuemax={total}
       aria-valuenow={done}
-      className={`flex h-2 w-full gap-[3px] ${className}`}
+      className={`flex h-2 w-full gap-1 ${className}`}
     >
       {segmented ? (
         Array.from({ length: cells }, (_, i) => (
-          <span key={i} className={`h-full flex-1 rounded-[2px] ${i < done ? "bg-ink" : "bg-rule"}`} />
+          <span key={i} className={`h-full flex-1 rounded-full ${i < done ? "bg-primary" : "bg-wash"}`} />
         ))
       ) : (
-        <span className="relative h-full flex-1 overflow-hidden rounded-[2px] bg-rule">
+        <span className="relative h-full flex-1 overflow-hidden rounded-full bg-wash">
           <span
-            className="absolute inset-y-0 start-0 bg-ink"
+            className="absolute inset-y-0 start-0 rounded-full bg-primary"
             style={{ width: `${Math.round((done / cells) * 100)}%` }}
           />
         </span>

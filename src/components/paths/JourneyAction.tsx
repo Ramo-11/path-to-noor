@@ -26,82 +26,78 @@ export async function JourneyAction({ path, locale, signedIn }: JourneyActionPro
 
   if (!firstLesson) {
     return (
-      <div className="primer-grid">
-        <div className="flex flex-col items-start gap-3 p-5 sm:p-6">
-          <p className="font-semibold text-ink text-balance">{t("noLessonsTitle")}</p>
-          <p className="text-ink-2 text-pretty">{t("noLessonsBody")}</p>
-          <Button href="/paths" variant="secondary" className="mt-2">
-            {t("browseAll")}
-          </Button>
-        </div>
+      <div className="flex flex-col items-start gap-3">
+        <p className="font-semibold text-ink text-balance">{t("noLessonsTitle")}</p>
+        <p className="text-ink-2 text-pretty">{t("noLessonsBody")}</p>
+        <Button href="/paths" variant="secondary" className="mt-1">
+          {t("browseAll")}
+        </Button>
       </div>
     );
   }
 
   return (
-    <div className="primer-grid">
-      <div className="flex flex-col gap-4 p-5 sm:p-6">
-        {signedIn ? (
-          <div>
-            <p aria-hidden="true" className="text-meta font-medium text-ink">
-              {progressText}
-            </p>
-            <ProgressCells
-              className="mt-2"
-              done={path.completedLessons}
-              total={path.totalLessons}
-              stage={path.stage}
-              label={progressText}
-            />
-          </div>
-        ) : null}
+    <div className="flex flex-col gap-4">
+      {signedIn ? (
+        <div className="max-w-xs">
+          <p aria-hidden="true" className="text-meta font-medium text-ink">
+            {progressText}
+          </p>
+          <ProgressCells
+            className="mt-2"
+            done={path.completedLessons}
+            total={path.totalLessons}
+            stage={path.stage}
+            label={progressText}
+          />
+        </div>
+      ) : null}
 
-        {complete ? (
-          <>
-            <p className="flex items-center gap-3 text-ink">
-              <span
-                aria-hidden="true"
-                className={`grid size-7 shrink-0 place-items-center rounded-md ${style.fill} ${style.onFill}`}
-              >
-                <Check strokeWidth={2.5} className="size-4" />
-              </span>
-              {t("finishedLine")}
-            </p>
-            <Button href={`/learn/${firstLesson.slug}`} size="lg" variant="secondary" fullWidth>
-              {tl("reviewPath")}
-            </Button>
-          </>
-        ) : started && next ? (
-          <div>
-            <Button href={`/learn/${next.slug}`} size="lg" fullWidth>
-              {tl("continue")}
-              <ArrowRight aria-hidden="true" className="size-4 rtl:rotate-180" />
-            </Button>
-            <p className="mt-3 text-meta text-ink-2 text-pretty">
-              {t("nextCaption", {
-                step: next.stepIndex + 1,
-                lesson: next.lessonIndex + 1,
-                title: localized(next.title, locale),
-              })}
-            </p>
-          </div>
-        ) : (
-          <div>
-            <Button href={`/learn/${(next ?? firstLesson).slug}`} size="lg" fullWidth>
-              {tl("startPath")}
-              <ArrowRight aria-hidden="true" className="size-4 rtl:rotate-180" />
-            </Button>
-            {signedIn ? null : (
-              <Link
-                href="/register"
-                className="mt-2 inline-flex min-h-11 items-center text-[0.9375rem] text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
-              >
-                {t("registerPrompt")}
-              </Link>
-            )}
-          </div>
-        )}
-      </div>
+      {complete ? (
+        <>
+          <p className="flex items-center gap-3 text-ink">
+            <span
+              aria-hidden="true"
+              className={`grid size-7 shrink-0 place-items-center rounded-full ${style.fill} ${style.onFill}`}
+            >
+              <Check strokeWidth={2.5} className="size-4" />
+            </span>
+            {t("finishedLine")}
+          </p>
+          <Button href={`/learn/${firstLesson.slug}`} size="lg" variant="secondary" className="w-full sm:w-auto">
+            {tl("reviewPath")}
+          </Button>
+        </>
+      ) : started && next ? (
+        <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-5">
+          <Button href={`/learn/${next.slug}`} size="lg" className="w-full sm:w-auto">
+            {tl("continue")}
+            <ArrowRight aria-hidden="true" className="size-4 rtl:rotate-180" />
+          </Button>
+          <p className="text-meta text-ink-2 text-pretty">
+            {t("nextCaption", {
+              step: next.stepIndex + 1,
+              lesson: next.lessonIndex + 1,
+              title: localized(next.title, locale),
+            })}
+          </p>
+        </div>
+      ) : (
+        <div className="flex flex-col items-start gap-2">
+          <Button href={`/learn/${(next ?? firstLesson).slug}`} size="lg" className="w-full sm:w-auto">
+            {tl("startPath")}
+            <ArrowRight aria-hidden="true" className="size-4 rtl:rotate-180" />
+          </Button>
+          {signedIn ? null : (
+            <Link
+              href="/register"
+              className="inline-flex min-h-11 items-center text-[0.9375rem] text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
+            >
+              {t("registerPrompt")}
+            </Link>
+          )}
+        </div>
+      )}
     </div>
   );
 }

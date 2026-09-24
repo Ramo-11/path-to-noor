@@ -12,6 +12,7 @@ export default function LessonNotFound() {
         <EmptyState
           title={t("notFoundLead")}
           body={t("notFoundBody")}
+          art="lantern"
           action={
             <div className="flex flex-wrap gap-3">
               <Button size="lg" href="/paths">

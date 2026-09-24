@@ -15,5 +15,7 @@
   "correctAnswer": "La respuesta",
   "yourAnswer": "Tu respuesta",
   "tryAgain": "Intentar de nuevo",
-  "remember": "Recuerda"
+  "remember": "Recuerda",
+  "sourcesCount": "Fuentes ({count})",
+  "watchOn": "Ver el video en {site}"
 }

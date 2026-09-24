@@ -6,7 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/primer/Button";
 import { TextField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
-import { PageIntro } from "@/components/primer/PageIntro";
+import { AuthShell } from "@/components/auth/AuthShell";
 
 const INVALID_TOKEN_ERROR = "Invalid or expired reset token";
 
@@ -25,27 +25,29 @@ function ResetPasswordForm() {
 
   if (tokenInvalid) {
     return (
-      <>
-        <PageIntro title={t("invalidToken")} lead={t("invalidTokenDescription")} />
-        <div className="pb-16 sm:pb-24">
+      <AuthShell>
+        <h1 className="text-heading font-semibold text-balance">{t("invalidToken")}</h1>
+        <p className="mt-2 text-ink-2 text-pretty">{t("invalidTokenDescription")}</p>
+        <div className="mt-6">
           <Button href="/forgot-password" variant="quiet">
             {t("requestNewLink")}
           </Button>
         </div>
-      </>
+      </AuthShell>
     );
   }
 
   if (success) {
     return (
-      <>
-        <PageIntro title={t("success")} lead={t("successDescription")} />
-        <div className="pb-16 sm:pb-24">
+      <AuthShell>
+        <h1 className="text-heading font-semibold text-balance">{t("success")}</h1>
+        <p className="mt-2 text-ink-2 text-pretty">{t("successDescription")}</p>
+        <div className="mt-6">
           <Button href="/login" size="lg">
             {tAuth("signIn")}
           </Button>
         </div>
-      </>
+      </AuthShell>
     );
   }
 
@@ -86,50 +88,47 @@ function ResetPasswordForm() {
   }
 
   return (
-    <>
-      <PageIntro title={t("title")} lead={t("description")} />
+    <AuthShell>
+      <h1 className="text-heading font-semibold text-balance">{t("title")}</h1>
+      <p className="mt-2 text-ink-2 text-pretty">{t("description")}</p>
 
-      <div className="pb-16 sm:pb-24">
-        <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
-          <TextField
-            label={t("newPassword")}
-            type="password"
-            name="new-password"
-            autoComplete="new-password"
-            required
-            minLength={8}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+      <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-5" noValidate>
+        <TextField
+          label={t("newPassword")}
+          type="password"
+          name="new-password"
+          autoComplete="new-password"
+          required
+          minLength={8}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
 
-          <TextField
-            label={t("confirmPassword")}
-            type="password"
-            name="confirm-password"
-            autoComplete="new-password"
-            required
-            minLength={8}
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-          />
+        <TextField
+          label={t("confirmPassword")}
+          type="password"
+          name="confirm-password"
+          autoComplete="new-password"
+          required
+          minLength={8}
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
+        />
 
-          {error ? <Notice tone="error">{error}</Notice> : null}
+        {error ? <Notice tone="error">{error}</Notice> : null}
 
-          <Button type="submit" size="lg" fullWidth loading={loading}>
-            {t("submit")}
-          </Button>
-        </form>
-      </div>
-    </>
+        <Button type="submit" size="lg" fullWidth loading={loading}>
+          {t("submit")}
+        </Button>
+      </form>
+    </AuthShell>
   );
 }
 
 export default function ResetPasswordPage() {
   return (
-    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
-      <Suspense fallback={<div className="py-16 sm:py-24" />}>
-        <ResetPasswordForm />
-      </Suspense>
-    </div>
+    <Suspense fallback={<div className="mx-auto w-full max-w-5xl px-4 py-20 sm:px-6 lg:px-8" />}>
+      <ResetPasswordForm />
+    </Suspense>
   );
 }

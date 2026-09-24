@@ -2,11 +2,13 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight, Check, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { Notice } from "@/components/primer/Notice";
-import { localized, type LocalizedText } from "@/lib/stages";
+import { Illustration } from "@/components/primer/Illustration";
+import { ProgressCells } from "@/components/primer/ProgressCells";
+import { localized, STAGE_STYLES, type LocalizedText, type StageKey } from "@/lib/stages";
 
 export interface CheckQuestion {
   question: string;
@@ -32,7 +34,7 @@ interface KnowledgeCheckProps {
   questions: CheckQuestion[];
   signedIn: boolean;
   upNext: { slug: string; title: string } | null;
-  path: { slug: string; title: string } | null;
+  path: { slug: string; title: string; stage: StageKey } | null;
 }
 
 type ErrorKind = "check" | "finish" | "save" | "changed";
@@ -67,6 +69,8 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
   const questionHeadingId = useId();
   const total = questions.length;
   const scoreUrl = `/api/public/quiz/${encodeURIComponent(slug)}/score`;
+  const stage: StageKey = path?.stage ?? "beginning";
+  const stageStyle = STAGE_STYLES[stage];
 
   const [current, setCurrent] = useState(0);
   const [choices, setChoices] = useState<Array<number | null>>(() => questions.map(() => null));
@@ -93,7 +97,8 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
   const question = questions[current];
   const verdict = verdicts[current];
   const choice = choices[current];
-  const remaining = verdicts.filter((v) => v === null).length;
+  const answeredCount = verdicts.filter((v) => v !== null).length;
+  const remaining = total - answeredCount;
   const allChecked = remaining === 0;
 
   function goTo(index: number) {
@@ -227,57 +232,62 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
     const lessonHref = `/learn/${slug}`;
     return (
       <section aria-labelledby="check-summary" className="mt-10 sm:mt-12">
-        <div className="primer-grid">
-          <div className="settle px-6 py-8 sm:px-10 sm:py-10">
-            <h2
-              id="check-summary"
-              ref={summaryRef}
-              tabIndex={-1}
-              className="text-title font-semibold text-balance tabular"
-            >
-              {t("summaryTitle", { correct: summary.correctCount, total: summary.totalQuestions })}
-            </h2>
-            <p className="mt-4 max-w-[56ch] text-lg text-ink-2 text-pretty">
-              {summary.passed ? t("summaryWell") : t("summaryAgain")}
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              {summary.passed ? (
-                <>
-                  {upNext ? (
-                    <Button size="lg" href={`/learn/${upNext.slug}`}>
-                      {t("continue")}
-                      <ArrowRight aria-hidden="true" strokeWidth={2} className="size-[18px] rtl:rotate-180" />
+        <div className="overflow-hidden rounded-[var(--radius-panel)] bg-surface">
+          <div className="settle grid gap-6 px-6 py-8 sm:grid-cols-[minmax(0,1fr)_9rem] sm:items-center sm:px-10 sm:py-10">
+            <div className="min-w-0">
+              <h2
+                id="check-summary"
+                ref={summaryRef}
+                tabIndex={-1}
+                className="text-title font-semibold text-balance tabular"
+              >
+                {t("summaryTitle", { correct: summary.correctCount, total: summary.totalQuestions })}
+              </h2>
+              <p className="mt-4 max-w-[56ch] text-lg text-ink-2 text-pretty">
+                {summary.passed ? t("summaryWell") : t("summaryAgain")}
+              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-3">
+                {summary.passed ? (
+                  <>
+                    {upNext ? (
+                      <Button size="lg" href={`/learn/${upNext.slug}`}>
+                        {t("continue")}
+                        <ArrowRight aria-hidden="true" strokeWidth={2} className="size-[18px] rtl:rotate-180" />
+                      </Button>
+                    ) : (
+                      <Button size="lg" href={path ? `/paths/${path.slug}` : lessonHref}>
+                        {path ? t("backToPath") : t("backToLesson")}
+                      </Button>
+                    )}
+                    {upNext || path ? (
+                      <Button size="lg" variant="secondary" href={lessonHref}>
+                        {t("backToLesson")}
+                      </Button>
+                    ) : null}
+                    <Button variant="quiet" onClick={restart} className="ms-2">
+                      {t("tryAgain")}
                     </Button>
-                  ) : (
-                    <Button size="lg" href={path ? `/paths/${path.slug}` : lessonHref}>
-                      {path ? t("backToPath") : t("backToLesson")}
+                  </>
+                ) : (
+                  <>
+                    <Button size="lg" href={lessonHref}>
+                      {t("reviewLesson")}
                     </Button>
-                  )}
-                  {upNext || path ? (
-                    <Button size="lg" variant="secondary" href={lessonHref}>
-                      {t("backToLesson")}
+                    <Button size="lg" variant="secondary" onClick={restart}>
+                      {t("tryAgain")}
                     </Button>
-                  ) : null}
-                  <Button variant="quiet" onClick={restart} className="ms-2">
-                    {t("tryAgain")}
-                  </Button>
-                </>
-              ) : (
-                <>
-                  <Button size="lg" href={lessonHref}>
-                    {t("reviewLesson")}
-                  </Button>
-                  <Button size="lg" variant="secondary" onClick={restart}>
-                    {t("tryAgain")}
-                  </Button>
-                </>
-              )}
+                  </>
+                )}
+              </div>
+              {summary.passed && upNext ? (
+                <p className="mt-4 text-meta text-ink-3">{t("upNextLine", { title: upNext.title })}</p>
+              ) : null}
             </div>
-            {summary.passed && upNext ? (
-              <p className="mt-4 text-meta text-ink-3">{t("upNextLine", { title: upNext.title })}</p>
-            ) : null}
+            <div className="hidden aspect-square w-full overflow-hidden rounded-[var(--radius-cell)] sm:block">
+              <Illustration name="sprout" sizes="144px" />
+            </div>
           </div>
-          <div className="px-6 py-5 sm:px-10">
+          <div className="border-t border-rule px-6 py-5 sm:px-10">
             {signedIn ? (
               error === "save" ? (
                 <div className="flex flex-col items-start gap-3">
@@ -310,7 +320,7 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
         </div>
 
         <h3 className="mt-14 text-heading font-semibold">{t("reviewTitle")}</h3>
-        <ol className="primer-grid mt-5">
+        <ol className="mt-5 divide-y divide-rule overflow-hidden rounded-[var(--radius-cell)] border border-rule bg-surface shadow-soft">
           {questions.map((q, index) => {
             const v = verdicts[index];
             if (!v) return null;
@@ -348,13 +358,26 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
   return (
     <div className="mt-10 sm:mt-12">
       {total > 1 ? (
-        <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
+        <div className="flex flex-col gap-4">
+          <ProgressCells
+            done={answeredCount}
+            total={total}
+            stage={stage}
+            label={t("questionOf", { current: current + 1, total })}
+          />
           <nav aria-label={t("questionsLabel")}>
             <ol className="flex flex-wrap gap-2">
               {questions.map((_, index) => {
                 const v = verdicts[index];
                 const status = v ? (v.isCorrect ? "right" : "notQuite") : "open";
                 const isCurrent = index === current;
+                const tone = v
+                  ? v.isCorrect
+                    ? "bg-stage2-tint text-stage2-text"
+                    : "bg-danger-tint text-danger"
+                  : isCurrent
+                    ? `${stageStyle.fill} ${stageStyle.onFill}`
+                    : "border border-rule text-ink-2 hover:border-rule-strong";
                 return (
                   <li key={index}>
                     <button
@@ -362,23 +385,18 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
                       onClick={() => goTo(index)}
                       aria-current={isCurrent ? "step" : undefined}
                       aria-label={t("tab", { number: index + 1, status })}
-                      className={`relative grid size-11 place-items-center overflow-hidden rounded-[var(--radius-control)] text-[0.9375rem] font-semibold text-ink tabular transition-colors duration-150 ${
-                        isCurrent ? "border-2 border-ink" : "border border-rule hover:border-rule-strong"
-                      }`}
+                      className={`relative grid size-11 place-items-center rounded-full text-[0.9375rem] font-semibold tabular transition-colors duration-150 ${tone}`}
                     >
-                      {v ? (
-                        <span
-                          aria-hidden="true"
-                          className={`absolute inset-0 ${v.isCorrect ? "bg-stage2-tint" : "bg-wash"}`}
-                        />
-                      ) : null}
-                      <span className="relative">{index + 1}</span>
+                      <span>{index + 1}</span>
                       {v?.isCorrect ? (
                         <Check
                           aria-hidden="true"
                           strokeWidth={2.5}
-                          className="absolute end-1 top-1 size-3 text-stage2-text"
+                          className="absolute end-0.5 top-0.5 size-3 text-stage2-text"
                         />
+                      ) : null}
+                      {v && !v.isCorrect ? (
+                        <X aria-hidden="true" strokeWidth={2.5} className="absolute end-0.5 top-0.5 size-3 text-danger" />
                       ) : null}
                     </button>
                   </li>
@@ -386,9 +404,6 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
               })}
             </ol>
           </nav>
-          <p className="text-meta text-ink-3 tabular">
-            {t("questionOf", { current: current + 1, total })}
-          </p>
         </div>
       ) : null}
 
@@ -401,23 +416,26 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
         >
           {question.question}
         </h2>
-        <div className="primer-grid mt-6">
+        <div className="mt-6 flex flex-col gap-3">
           {question.options.map((option, index) => {
             const isCorrect = verdict ? index === verdict.correctIndex : false;
             const isChosen = verdict ? index === verdict.selectedIndex : choice === index;
             const showCorrect = Boolean(verdict) && isCorrect;
             const showMissed = Boolean(verdict) && isChosen && !isCorrect;
+            const tone = showCorrect
+              ? "border-stage2 bg-stage2-tint"
+              : showMissed
+                ? "border-danger bg-danger-tint"
+                : isChosen
+                  ? "border-primary bg-primary-tint"
+                  : "border-rule bg-surface hover:border-rule-strong";
             return (
               <div key={index}>
                 <label
-                  className={`relative flex min-h-14 w-full items-center gap-4 px-5 py-4 transition-colors duration-150 sm:px-6 ${
-                    verdict ? "" : "cursor-pointer hover:bg-wash"
+                  className={`relative flex min-h-14 w-full items-center gap-3 rounded-full border px-5 py-3.5 transition-colors duration-150 ${tone} ${
+                    verdict ? "cursor-default" : "cursor-pointer"
                   }`}
                 >
-                  {showCorrect ? (
-                    <span aria-hidden="true" className="absolute inset-0 bg-stage2-tint fill-in" />
-                  ) : null}
-                  {showMissed ? <span aria-hidden="true" className="absolute inset-0 bg-wash" /> : null}
                   <input
                     type="radio"
                     name={`check-question-${current}`}
@@ -425,17 +443,28 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
                     checked={isChosen}
                     onChange={() => choose(index)}
                     disabled={Boolean(verdict)}
-                    className="relative order-last size-5 shrink-0 cursor-pointer appearance-none rounded-full border border-rule-strong bg-page transition-[border] duration-150 checked:border-[6px] checked:border-ink disabled:cursor-default"
+                    className="sr-only"
                   />
-                  <span className="relative min-w-0 flex-1 text-[1.0625rem] text-ink text-pretty">{option}</span>
+                  <span
+                    aria-hidden="true"
+                    className={`grid size-5 shrink-0 place-items-center rounded-full border transition-colors duration-150 ${
+                      isChosen ? "border-primary bg-primary" : "border-rule-strong bg-page"
+                    }`}
+                  >
+                    {isChosen && !verdict ? <span className="size-2 rounded-full bg-on-primary" /> : null}
+                  </span>
+                  <span className="min-w-0 flex-1 text-[1.0625rem] text-ink text-pretty">{option}</span>
                   {showCorrect ? (
-                    <span className="relative inline-flex shrink-0 items-center gap-1.5 text-meta font-medium text-stage2-text">
+                    <span className="inline-flex shrink-0 items-center gap-1.5 text-meta font-medium text-stage2-text">
                       <Check aria-hidden="true" strokeWidth={2.5} className="size-4" />
                       {isChosen ? t("right") : t("correctOption")}
                     </span>
                   ) : null}
                   {showMissed ? (
-                    <span className="relative shrink-0 text-meta text-ink-2">{t("yourAnswer")}</span>
+                    <span className="inline-flex shrink-0 items-center gap-1.5 text-meta font-medium text-danger">
+                      <X aria-hidden="true" strokeWidth={2.5} className="size-4" />
+                      {t("yourAnswer")}
+                    </span>
                   ) : null}
                 </label>
               </div>
@@ -445,7 +474,7 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
       </fieldset>
 
       {verdict ? (
-        <div className="settle mt-6 rounded-[var(--radius-cell)] bg-wash px-5 py-5 sm:px-6">
+        <div className="settle mt-6 rounded-[var(--radius-cell)] bg-canvas px-5 py-5 sm:px-6">
           <p className="font-semibold text-ink">{verdict.isCorrect ? t("right") : t("notQuite")}</p>
           {!verdict.isCorrect && correctText ? (
             <p className="mt-1 text-ink">{t("theAnswer", { answer: correctText })}</p>

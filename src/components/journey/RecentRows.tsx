@@ -26,7 +26,7 @@ export function RecentRows({ items, locale, t }: RecentRowsProps) {
   }
 
   return (
-    <div className="primer-grid grid-cols-1">
+    <div className="card divide-y divide-rule overflow-hidden">
       {items.map((item) => (
         <Link
           key={item.slug}
@@ -34,7 +34,7 @@ export function RecentRows({ items, locale, t }: RecentRowsProps) {
           className="flex items-center justify-between gap-4 px-5 py-4 transition-colors duration-150 hover:bg-wash sm:px-6"
         >
           <span className="truncate text-ink">{localized(item.title, locale)}</span>
-          <span className="shrink-0 text-meta text-ink-3">{formatDate(item.completedAt, locale)}</span>
+          <span className="shrink-0 text-meta text-ink-3 tabular">{formatDate(item.completedAt, locale)}</span>
         </Link>
       ))}
     </div>

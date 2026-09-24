@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useId, useRef } from "react";
+import { useEffect, useId, useRef, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import { ArrowRight, Check } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { Notice } from "@/components/primer/Notice";
+import { Illustration } from "@/components/primer/Illustration";
 import { STAGE_STYLES, type StageKey } from "@/lib/stages";
 import { StepCells, useLessonProgress } from "./LessonProgress";
 
@@ -70,6 +71,17 @@ function PathLink({ path }: { path: { slug: string; title: string } | null }) {
   );
 }
 
+function FinishHead({ tint, children }: { tint: string; children: ReactNode }) {
+  return (
+    <div className={`grid gap-6 px-6 py-8 sm:grid-cols-[minmax(0,1fr)_7rem] sm:items-center sm:px-8 sm:py-10 ${tint}`}>
+      <div className="min-w-0">{children}</div>
+      <div className="hidden aspect-square w-full overflow-hidden rounded-[var(--radius-cell)] sm:block">
+        <Illustration name="sprout" sizes="112px" />
+      </div>
+    </div>
+  );
+}
+
 export function LessonFinish({
   signedIn,
   stage,
@@ -88,6 +100,7 @@ export function LessonFinish({
   const doneHeading = useRef<HTMLHeadingElement>(null);
   const { done, justDone, status, markDone } = useLessonProgress();
   const style = stage ? STAGE_STYLES[stage] : null;
+  const panelTint = style ? style.tint : "bg-stage1-tint";
 
   useEffect(() => {
     if (justDone) doneHeading.current?.focus();
@@ -95,13 +108,22 @@ export function LessonFinish({
 
   if (!signedIn) {
     return (
-      <section aria-labelledby={titleId} className="primer-grid">
-        <div className="px-6 py-7 sm:px-8 sm:py-8">
+      <section aria-labelledby={titleId} className="overflow-hidden rounded-[var(--radius-panel)] bg-surface">
+        <FinishHead tint={panelTint}>
           <h2 id={titleId} className="text-heading font-semibold text-balance">
             {upNext ? t("guestTitle") : t("guestEndTitle")}
           </h2>
           {upNext ? (
-            <UpNextRow lesson={upNext} className="mt-5" />
+            <>
+              <UpNextRow lesson={upNext} className="mt-5" />
+              {checkHref ? (
+                <div className="mt-4">
+                  <Button variant="secondary" href={checkHref}>
+                    {t("takeCheck")}
+                  </Button>
+                </div>
+              ) : null}
+            </>
           ) : (
             <div className="mt-6 flex flex-wrap items-center gap-3">
               {checkHref ? (
@@ -118,14 +140,7 @@ export function LessonFinish({
               </Button>
             </div>
           )}
-        </div>
-        <div className="flex flex-col items-start gap-4 px-6 py-6 sm:px-8">
-          {upNext && checkHref ? (
-            <Button variant="secondary" href={checkHref}>
-              {t("takeCheck")}
-            </Button>
-          ) : null}
-          <p className="text-ink-2 text-pretty">
+          <p className="mt-6 text-[0.9375rem] text-ink-2 text-pretty">
             {t.rich("guestInvite", {
               link: (chunks) => (
                 <Link
@@ -137,15 +152,15 @@ export function LessonFinish({
               ),
             })}
           </p>
-        </div>
+        </FinishHead>
       </section>
     );
   }
 
   if (!done) {
     return (
-      <section aria-labelledby={titleId} className="primer-grid">
-        <div className="px-6 py-7 sm:px-8 sm:py-8">
+      <section aria-labelledby={titleId} className="overflow-hidden rounded-[var(--radius-panel)] bg-surface">
+        <FinishHead tint={panelTint}>
           <h2 id={titleId} className="text-heading font-semibold text-balance">
             {t("finishTitle")}
           </h2>
@@ -166,7 +181,7 @@ export function LessonFinish({
               </Button>
             ) : null}
           </div>
-        </div>
+        </FinishHead>
       </section>
     );
   }
@@ -178,8 +193,8 @@ export function LessonFinish({
   const doneInStep = cells.filter((cell) => (cell.id === lessonId ? true : cell.completed)).length;
 
   return (
-    <section aria-labelledby={titleId} className="primer-grid">
-      <div className="px-6 py-7 sm:px-8 sm:py-8">
+    <section aria-labelledby={titleId} className="overflow-hidden rounded-[var(--radius-panel)] bg-surface">
+      <FinishHead tint={panelTint}>
         <h2
           id={titleId}
           ref={doneHeading}
@@ -190,7 +205,7 @@ export function LessonFinish({
           <span
             aria-hidden="true"
             className={`relative grid size-8 shrink-0 place-items-center overflow-hidden rounded-full ${
-              style ? `${style.fill} ${style.onFill}` : "bg-ink text-page"
+              style ? `${style.fill} ${style.onFill}` : "bg-primary text-on-primary"
             } ${justDone ? "fill-in" : ""}`}
           >
             <Check strokeWidth={2.5} className="size-[18px]" />
@@ -206,7 +221,7 @@ export function LessonFinish({
             <StepCells cells={cells} currentId={lessonId} stage={stage} className="mt-2.5" />
           </div>
         ) : null}
-      </div>
+      </FinishHead>
 
       {showStepMilestone && style && step ? (
         <div className="relative overflow-hidden">
@@ -221,11 +236,11 @@ export function LessonFinish({
         <div className="relative overflow-hidden">
           <span
             aria-hidden="true"
-            className={`absolute inset-0 ${style ? style.fill : "bg-ink"} fill-up`}
+            className={`absolute inset-0 ${style ? style.fill : "bg-primary"} fill-up`}
           />
           <div
             id={milestoneId}
-            className={`relative px-6 py-8 sm:px-8 sm:py-10 ${style ? style.onFill : "text-page"}`}
+            className={`relative px-6 py-8 sm:px-8 sm:py-10 ${style ? style.onFill : "text-on-primary"}`}
           >
             <p className="text-heading font-semibold text-balance">{t("pathComplete", { title: path.title })}</p>
             <p className="mt-2 max-w-[52ch]">{t("pathCompleteBody")}</p>
@@ -233,9 +248,13 @@ export function LessonFinish({
         </div>
       ) : null}
 
-      {upNext ? <UpNextRow lesson={upNext} className="px-6 py-7 sm:px-8" /> : null}
+      {upNext ? (
+        <div className="border-t border-rule px-6 py-7 sm:px-8">
+          <UpNextRow lesson={upNext} />
+        </div>
+      ) : null}
 
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-3 px-6 py-6 sm:px-8">
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-rule px-6 py-6 sm:px-8">
         {upNext ? (
           <>
             {checkHref ? (

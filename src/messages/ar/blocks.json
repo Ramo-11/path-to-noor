@@ -15,5 +15,7 @@
   "correctAnswer": "الإجابة",
   "yourAnswer": "إجابتك",
   "tryAgain": "حاول مرة أخرى",
-  "remember": "تذكّر"
+  "remember": "تذكّر",
+  "sourcesCount": "المصادر ({count})",
+  "watchOn": "شاهد الفيديو على {site}"
 }

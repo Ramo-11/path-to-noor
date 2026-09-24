@@ -6,6 +6,7 @@ import { connectDB } from "@/db/connection";
 import { Module } from "@/db/models/Module";
 import { LearningPath } from "@/db/models/LearningPath";
 import { PageIntro } from "@/components/primer/PageIntro";
+import { PageBanner } from "@/components/primer/PageBanner";
 import { Button } from "@/components/primer/Button";
 import { EmptyState } from "@/components/primer/EmptyState";
 import { SavedList, type SavedLessonRow } from "@/components/saved/SavedList";
@@ -36,6 +37,7 @@ export default async function SavedPage({
                 </Button>
               </div>
             }
+            art="saved"
           />
         </div>
       </div>
@@ -98,14 +100,15 @@ export default async function SavedPage({
   });
 
   return (
-    <div className="mx-auto w-full max-w-3xl px-4 sm:px-6 lg:px-8">
-      <PageIntro title={t("title")} lead={t("lead")} />
-      <div className="pb-16 sm:pb-24">
+    <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+      <PageBanner title={t("title")} lead={t("lead")} art="saved" tone="dawn" />
+      <div className="mx-auto max-w-3xl pt-10 pb-16 sm:pb-24">
         {lessons.length === 0 ? (
           <EmptyState
             title={t("emptyTitle")}
             body={t("emptyBody")}
             action={<Button href="/paths">{t("explorePaths")}</Button>}
+            art="saved"
           />
         ) : (
           <SavedList initialLessons={lessons} />

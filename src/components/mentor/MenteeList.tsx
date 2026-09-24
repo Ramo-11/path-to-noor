@@ -64,15 +64,22 @@ export function MenteeList() {
   }
 
   if (mentees.length === 0) {
-    return <EmptyState title={t("noMentees")} body={t("noMenteesBody")} />;
+    return (
+      <div className="pt-10">
+        <EmptyState title={t("noMentees")} body={t("noMenteesBody")} art="mentor" />
+      </div>
+    );
   }
 
   const formatter = new Intl.DateTimeFormat(locale, { month: "short", day: "numeric", year: "numeric" });
 
   return (
-    <div aria-live="polite" className="primer-grid grid-cols-1 pb-24">
+    <div aria-live="polite" className="flex flex-col gap-4 pt-10 pb-24">
       {mentees.map((mentee) => (
-        <div key={mentee._id} className="flex flex-col gap-2 px-6 py-6 sm:px-8">
+        <div
+          key={mentee._id}
+          className="flex flex-col gap-2 rounded-[var(--radius-cell)] border border-rule bg-surface px-6 py-6 shadow-soft"
+        >
           <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
             <p className="text-heading font-semibold">{mentee.name}</p>
             <p className="text-meta text-ink-3">

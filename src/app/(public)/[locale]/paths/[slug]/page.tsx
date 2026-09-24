@@ -2,15 +2,18 @@ import type { Metadata } from "next";
 import { cache } from "react";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, BookOpen, Clock, Layers } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { auth } from "@/lib/auth-config";
 import { getCompletedLessonIds, getPathOutlineBySlug } from "@/lib/learning";
-import { STAGE_NUMBER, STAGE_STYLES, localized } from "@/lib/stages";
-import { StageMark } from "@/components/primer/StageMark";
+import { STAGE_STYLES, localized } from "@/lib/stages";
+import { Illustration } from "@/components/primer/Illustration";
+import { StageChip } from "@/components/primer/StageChip";
+import { pathArt } from "@/lib/illustrations";
 import { JourneyAction } from "@/components/paths/JourneyAction";
 import { JourneyEnd } from "@/components/paths/JourneyEnd";
-import { MetaList } from "@/components/paths/MetaList";
+import { MetaChips } from "@/components/paths/MetaChips";
+import { OutcomesCard } from "@/components/paths/OutcomesCard";
 import { StepSection } from "@/components/paths/StepSection";
 import { StepTabs, type StepState, type StepTab } from "@/components/paths/StepTabs";
 import { pathDuration } from "@/components/paths/duration";
@@ -45,11 +48,7 @@ export default async function PathJourneyPage({ params }: { params: Params }) {
   const path = await loadPath(slug, userId, session?.user?.userType);
   if (!path) notFound();
 
-  const [t, tl, ts] = await Promise.all([
-    getTranslations("paths"),
-    getTranslations("learning"),
-    getTranslations("stages"),
-  ]);
+  const [t, tl] = await Promise.all([getTranslations("paths"), getTranslations("learning")]);
 
   const signedIn = Boolean(userId);
   const started = signedIn && path.completedLessons > 0;
@@ -118,52 +117,55 @@ export default async function PathJourneyPage({ params }: { params: Params }) {
           </Link>
         </div>
 
-        <header className="grid pt-6 pb-12 sm:pt-8 sm:pb-16 lg:grid-cols-12 lg:gap-x-12">
-          <div className="lg:col-span-7">
-            <p className="flex items-center gap-3 font-medium text-ink-2">
-              <StageMark stage={path.stage} size="md" />
-              {t("stageLine", {
-                number: STAGE_NUMBER[path.stage],
-                name: ts(`${path.stage}.name`),
-              })}
-            </p>
-            <h1 className="mt-5 text-title font-semibold text-balance">{title}</h1>
+        <header
+          className={`mt-6 grid overflow-hidden rounded-[var(--radius-panel)] sm:mt-8 md:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)] ${stageStyle.tint}`}
+        >
+          <div className="flex flex-col justify-center px-6 pt-8 pb-6 sm:px-10 sm:pt-12 md:py-14 lg:px-14">
+            <h1 className="text-title font-semibold text-balance">{title}</h1>
             {description ? (
-              <p className="mt-4 max-w-[60ch] text-lg text-ink-2 text-pretty">{description}</p>
+              <p className="mt-3 line-clamp-2 max-w-[52ch] text-lg text-ink-2 text-pretty">{description}</p>
             ) : null}
-            <MetaList
-              className="mt-5"
-              items={[
-                tl("stepCount", { count: path.steps.length }),
-                path.totalLessons > 0
-                  ? tl("lessonCount", { count: path.totalLessons })
-                  : t("lessonsPreparing"),
-                duration ? tl(duration.key, { count: duration.count }) : null,
-              ]}
-            />
-          </div>
-
-          <div className="mt-8 lg:col-span-5 lg:col-start-8 lg:row-span-2 lg:row-start-1 lg:mt-1 lg:self-start">
-            <JourneyAction path={path} locale={locale} signedIn={signedIn} />
-          </div>
-
-          {path.outcomes.length > 0 ? (
-            <div className="mt-10 lg:col-span-7">
-              <h2 className="font-semibold text-ink">{t("outcomesTitle")}</h2>
-              <ul className="mt-3 max-w-[60ch] list-disc space-y-2 ps-5 text-ink-2 marker:text-ink">
-                {path.outcomes.map((outcome, index) => (
-                  <li key={index} className="ps-1 text-pretty">
-                    {localized(outcome, locale)}
-                  </li>
-                ))}
-              </ul>
+            <div className="mt-5 flex flex-wrap items-center gap-2">
+              <StageChip stage={path.stage} />
+              <MetaChips
+                items={[
+                  { icon: Layers, label: tl("stepCount", { count: path.steps.length }) },
+                  {
+                    icon: BookOpen,
+                    label:
+                      path.totalLessons > 0
+                        ? tl("lessonCount", { count: path.totalLessons })
+                        : t("lessonsPreparing"),
+                  },
+                  duration ? { icon: Clock, label: tl(duration.key, { count: duration.count }) } : null,
+                ]}
+              />
             </div>
-          ) : null}
+            <div className="mt-7">
+              <JourneyAction path={path} locale={locale} signedIn={signedIn} />
+            </div>
+          </div>
+
+          <div className="px-3 pb-3 md:py-3 md:ps-0">
+            <div className="aspect-[16/9] overflow-hidden rounded-[calc(var(--radius-panel)-0.5rem)] md:aspect-auto md:h-full md:min-h-[16rem]">
+              <Illustration
+                name={pathArt(path.slug, path.stage)}
+                sizes="(min-width: 768px) 48vw, 100vw"
+                priority
+              />
+            </div>
+          </div>
         </header>
+
+        {path.outcomes.length > 0 ? (
+          <div className="pt-8 sm:pt-10">
+            <OutcomesCard title={t("outcomesTitle")} outcomes={path.outcomes} stage={path.stage} locale={locale} />
+          </div>
+        ) : null}
       </div>
 
       {path.steps.length > 0 ? (
-        <div className="border-t border-rule">
+        <div className="mt-10 border-t border-rule sm:mt-14">
           <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-[15rem_minmax(0,1fr)] lg:gap-14 xl:grid-cols-[17rem_minmax(0,1fr)] xl:gap-20">
               <StepTabs tabs={tabs} stage={path.stage} label={t("stepsNav")} />

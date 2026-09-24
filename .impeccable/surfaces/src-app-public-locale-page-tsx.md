@@ -5,29 +5,29 @@ primary_target: "src/app/(public)/[locale]/page.tsx"
 related_targets: ["src/app/(public)/[locale]"]
 ---
 
-# Learner site redesign
+# Learner site: A day of light
 
-Scope: every learner-facing page under `src/app/(public)/[locale]/` (home, level check, paths, path journey, lesson reader, knowledge check, library, saved, my journey, settings, mentor, auth, contact, legal). Home is Persuade; everything else is Operate or Read and inherits the same world. Admin panel keeps its look; it only gains the new fields and lesson blocks.
+Scope: every learner-facing page under `src/app/(public)/[locale]/`. Home is Persuade; everything else is Operate or Read in the same world. Admin panel keeps its own look.
 
-Audience and job: new Muslims, mostly on phones, who should never have to decide what to learn next. Success is starting lesson one of a recommended path within minutes.
+Audience and job: new Muslims, mostly on phones, often anxious, who should never have to decide what to learn next. Success is starting lesson one of a recommended path within minutes and coming back.
 
-Constraints: English, Arabic (RTL), Spanish; light and dark; WCAG 2.1 AA; Omar's steer: simple, modern, minimal in a useful way, never cluttered.
+Constraints: English, Arabic (RTL), Spanish; light and dark; WCAG 2.1 AA. Owner steer (2026-09-24): the ink-on-white primer read as depressing; less text, more color, comfortable visuals, modern and minimal but still useful.
 
 ## Direction contract
 
-THESIS: The site is a new Muslim's first primer: a ruled, boxed, color-coded lesson book that already knows which page you are on. It refuses emerald-and-gold arabesque decor and floating SaaS card grids.
+THESIS: The journey is the arc of one day, dawn to evening, and every screen shows where in that day the learner stands. It refuses the stark ink-on-paper primer and the emerald-and-gold arabesque cliche.
 
-OWN-WORLD: White primer page, near-black ink, hairline ruled cells that share borders; no shadows, no floating cards, no gradients. Three primer inks code the three stages and nothing else: primer red for stage 1, leaf green for stage 2, tab yellow for stage 3 (always a fill under ink). Lesson and step tabs run down the page edge. Readex Pro for all UI and body in Latin and Arabic; Amiri for Arabic phrases set at primer scale. Color is information, never decoration.
+OWN-WORLD: White page with soft tinted panels (dawn coral, daylight green, evening indigo) that code the three stages; deep blue pill buttons for the one next action; gold for small highlights. Cards with hairline borders and soft shadows, 20px and 28px radii. Soft painterly illustrations of places and objects (no people, no text) on every major surface. Readex Pro for all UI, Amiri for Arabic phrases.
 
-STORY: A visitor learns they do not need to know what to learn. They answer six gentle questions, watch their stage cell fill, and start lesson one of the path chosen for them. Signature interaction: the level check is Lesson 1 of the primer; each answer fills its cell and the stage cells respond; the result opens the recommended path's step tabs. Motion grammar: one fill motion (ink or stage color flooding a cell from the reading edge), used for answers, completions, and milestones, nothing else.
+STORY: A visitor sees a warm sunrise room and one line, answers six gentle questions, sees their stage as a time of day, and starts the first lesson of the path chosen for them.
 
-FIRST VIEWPORT: Home. Start side: a large two-line headline and one ink primary button "Find your starting point" with "about 1 minute" beneath. End side (below on mobile): the primer grid, three stage cells side by side on one ruled row, each with its color tab and large numeral, name, and one line. Nav is one hairline row.
+FIRST VIEWPORT: Home. Dawn glow band; start side a two-line headline (second line in primary blue), one short lead, the pill "Find your starting point" with "about one minute"; end side the sunrise room illustration in a 28px rounded frame with a lifted shadow. Illustrated stage cards follow directly below.
 
-FORM: The First Primer, position 1 on the ordered list (chosen as the pick), seed key 0d239f72.
+FORM: "A day of light", picked by the owner on 2026-09-24 from three offered palettes (owner pinned, no seed roll).
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
 ## Unresolved
 
-- Stage 3 has no path yet; shown as "being prepared".
-- Most lessons are unpublished drafts; paths must read well with thin content.
+- Admin-uploadable cover images for new paths and library subjects (today new ones fall back to stage art or a shared set).
+- Some library and path titles in the database still contain long dashes; they are admin content, not UI copy.

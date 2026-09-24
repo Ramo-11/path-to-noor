@@ -6,18 +6,18 @@
   "hero": {
     "titleLine1": "Pronunciaste tu shahada.",
     "titleLine2": "Aquí empieza tu camino.",
-    "lead": "Responde seis preguntas sencillas y elegiremos tu etapa, tu camino y tu primera lección.",
+    "lead": "Seis preguntas sencillas y elegimos tu primera lección.",
     "start": "Encuentra tu punto de partida",
-    "startMeta": "Un minuto aproximadamente, seis preguntas",
+    "startMeta": "Un minuto aproximadamente",
     "continueWith": "Continuar con {title}",
     "yourStartingPoint": "Tu punto de partida: Etapa {number}, {name}",
     "browse": "Ver todos los caminos",
-    "stagesTitle": "Las tres etapas"
+    "stagesTitle": "¿Dónde estás ahora?"
   },
   "welcome": {
     "greeting": "Hola de nuevo, {name}.",
     "greetingPlain": "Hola de nuevo.",
-    "lead": "Tu lugar está guardado. Sigue justo donde lo dejaste.",
+    "lead": "Continúa justo donde lo dejaste.",
     "stageLine": "Etapa {number}: {name}",
     "position": "Paso {step}, lección {lesson} de {path}",
     "continue": "Continuar",
@@ -27,8 +27,8 @@
   "ready": {
     "greeting": "{name}, tu camino está listo.",
     "greetingPlain": "Tu camino está listo.",
-    "lead": "Empieza con la primera lección cuando quieras. Cada una toma solo unos minutos.",
-    "fallback": "Los caminos de tu etapa se están preparando, así que por ahora este es el mejor lugar para empezar.",
+    "lead": "Empieza cuando quieras. Cada lección toma unos minutos.",
+    "fallback": "Los caminos de tu etapa están en preparación. Empieza aquí por ahora.",
     "start": "Empezar la primera lección",
     "retake": "Responder de nuevo"
   },
@@ -36,20 +36,19 @@
     "title": "Cómo funciona",
     "one": {
       "title": "Responde seis preguntas",
-      "body": "Cuéntanos cómo vas con el wudu, la oración y lo básico. No hay respuestas incorrectas."
+      "body": "No hay respuestas incorrectas."
     },
     "two": {
-      "title": "Recibe tu etapa y un camino",
-      "body": "Te ubicamos en una de tres etapas y elegimos el camino que se ajusta a donde estás ahora."
+      "title": "Recibe tu camino",
+      "body": "Elegido según donde estás ahora."
     },
     "three": {
-      "title": "Aprende una lección corta a la vez",
-      "body": "Cada lección toma unos minutos, y tu camino siempre te muestra lo que sigue."
+      "title": "Aprende poco a poco",
+      "body": "Cada lección toma unos minutos."
     }
   },
   "paths": {
     "title": "Caminos para cada etapa",
-    "lead": "Cada camino pertenece a una etapa, y cada paso se construye sobre el anterior.",
     "counts": "{steps}, {lessons}",
     "preparing": "Lecciones en preparación",
     "progress": "{percent}% hecho",
@@ -58,7 +57,7 @@
   },
   "mentor": {
     "title": "No tienes que hacerlo a solas",
-    "body": "Puedes pedir un mentor: una persona voluntaria, musulmana y con experiencia, que nuestro equipo elige para ti. Pregunta lo que quieras, grande o pequeño, y aprende con alguien a tu lado.",
+    "body": "Un mentor voluntario puede acompañarte. Pregunta lo que quieras, grande o pequeño.",
     "action": "Hablar con un mentor"
   },
   "stories": {
@@ -71,6 +70,6 @@
   },
   "final": {
     "title": "Empieza donde estás",
-    "body": "Seis preguntas breves, un minuto aproximadamente. Tu primera lección te espera al final."
+    "body": "Un minuto. Tu primera lección te espera."
   }
 }

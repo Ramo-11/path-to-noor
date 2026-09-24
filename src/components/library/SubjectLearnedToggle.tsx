@@ -10,9 +10,6 @@ interface SubjectLearnedToggleProps {
   initialLearned: boolean;
 }
 
-const toggleClass =
-  "inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-ink underline decoration-rule-strong underline-offset-[0.25em] transition-colors duration-150 hover:decoration-ink disabled:opacity-45 disabled:pointer-events-none";
-
 export function SubjectLearnedToggle({
   topicId,
   initialLearned,
@@ -44,20 +41,20 @@ export function SubjectLearnedToggle({
   }
 
   return (
-    <div className="flex flex-col items-start gap-1">
+    <div className="flex flex-col items-start gap-1.5">
       <button
         type="button"
         onClick={toggle}
         disabled={loading}
         aria-pressed={learned}
         aria-busy={loading || undefined}
-        className={toggleClass}
+        className={`inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-[0.9375rem] font-medium transition-colors duration-150 disabled:opacity-45 disabled:pointer-events-none ${
+          learned
+            ? "bg-stage2-tint text-stage2-text hover:bg-stage2-tint/70"
+            : "bg-surface text-ink border border-rule-strong hover:bg-wash"
+        }`}
       >
-        {loading ? (
-          <Spinner />
-        ) : learned ? (
-          <Check className="size-4" aria-hidden="true" />
-        ) : null}
+        {loading ? <Spinner /> : learned ? <Check className="size-4" aria-hidden="true" /> : null}
         {learned ? t("learned") : t("markLearned")}
       </button>
       <p role="status" className="min-h-5 text-meta text-danger">

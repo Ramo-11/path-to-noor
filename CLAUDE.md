@@ -67,8 +67,11 @@ Public routes allow unauthenticated browsing. Auth required for progress, bookma
 - `npm run migrate:stages` maps legacy `difficulty` to `stage`; run once per database.
 
 ## Design System
-- Direction "The First Primer", minimal: white page, ink text, hairline ruled cells (`primer-grid`), no shadows or gradients. Color only codes the three stages (red, green, yellow tokens `stage1..3`). Tokens and utilities in `src/app/globals.css`; primitives in `src/components/primer/`. Full record in `DESIGN.md` and `PRODUCT.md`.
+- Direction "A day of light" (2026-09-24, replaced "The First Primer"): the three stages are times of day, dawn coral (`stage1`), daylight green (`stage2`), evening indigo (`stage3`); deep blue `primary` pill buttons; gold `accent` for small highlights; soft tinted panels (`PageBanner`, `.glow-*`), `.card` with hairline border plus soft shadow. Tokens and utilities in `src/app/globals.css`; primitives in `src/components/primer/`. Full record in `DESIGN.md`.
+- Illustrations: `public/illustrations/<name>.webp` plus `-sm.webp`, mapped to places by `src/lib/illustrations.ts` (`STAGE_ART`, `pathArt`, `libraryArt`, `artTone`); prompts and the re-encode recipe in `docs/illustrations.md`. New paths and subjects fall back to shared art until given their own entry.
+- Copy rule: short. One sentence leads, nothing said twice, long optional detail behind `<details>`. Never reword lesson content, Quran, hadith, or legal text.
 - Fonts: Readex Pro (Latin and Arabic UI), Amiri (Arabic phrases).
+- App icons come from `resources/app-icons` using `docs/brand/mark.svg`; the generator does not detect this repo's nested root layout, so copy its outputs to `src/app/` by hand.
 - Admin panel keeps its older slate/primary styling.
 
 ## Admin Panel

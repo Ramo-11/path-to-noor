@@ -2,7 +2,7 @@
 
 Trilingual (EN/AR/ES) guided learning platform for new Muslims. Runs on Render. Learner-facing name is Basmet Dawah.
 
-Snapshot: 2026-09-23.
+Snapshot: 2026-09-24.
 
 ## Done
 
@@ -25,6 +25,18 @@ Decisions (Omar, 2026-09-23): name stays Basmet Dawah; audience is new Muslims o
 - (pending) Commit the content files, importer, and the Spanish footer wording fix (not yet on GitHub).
 
 New vocabulary: Paths have Steps (was modules) which have Lessons; Library (was topics); Knowledge check (was quiz); Saved (was bookmarks); My journey (was profile); Talk to a mentor (was mentorship).
+
+## Color and text pass "A day of light" (2026-09-24)
+
+Why: Omar found the ink-on-white primer text heavy and depressing in light mode. Principles: less text, more color, comfortable visuals, minimal but useful.
+
+- (done) New palette and tokens (light and dark), pill buttons, soft cards and panels, brand mark, nav, footer, tab bar.
+- (done) 23 illustrations generated in ElevenLabs (places and objects, no people, no text), in `public/illustrations/`, sources in `docs/illustrations.md`.
+- (done) Every learner page restyled and its copy cut in EN/AR/ES: home, level check, paths, path, lesson reader and blocks, knowledge check, library, saved, journey, mentor, contact, auth, settings, legal, error, not found, loading.
+- (done) App icons and web manifest; unknown URLs now reach the designed not found page; non-YouTube lesson videos (Facebook links) show a "watch the video" card instead of nothing.
+- (done) Verified: type check, production build, screenshots desktop and mobile, light and dark, Arabic, signed in; independent finish review.
+- (pending) Commit and deploy (not done; waiting for Omar).
+- (pending) Remove `src/components/placement/StageStrip.tsx` and `StageFill.tsx`, now unused.
 
 ## Content rules (Omar, 2026-09-24)
 

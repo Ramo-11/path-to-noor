@@ -1,30 +1,36 @@
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/primer/Button";
 
+const STEP_STYLES = [
+  { tint: "bg-stage1-tint", mark: "bg-stage1 text-on-stage1" },
+  { tint: "bg-stage2-tint", mark: "bg-stage2 text-on-stage2" },
+  { tint: "bg-stage3-tint", mark: "bg-stage3 text-on-stage3" },
+] as const;
+
 export async function GuestIntro() {
   const t = await getTranslations("mentor");
 
-  const steps = [
-    t("step1"),
-    t("step2"),
-    t("step3"),
-  ];
+  const steps = [t("step1"), t("step2"), t("step3")];
 
   return (
-    <div className="flex flex-col gap-12 pb-24">
-      <p className="max-w-[64ch] text-lg text-ink-2 text-pretty">{t("whatIsMentor")}</p>
-
+    <div className="flex flex-col gap-10 pt-10 pb-24">
       <div>
         <h2 className="text-heading font-semibold">{t("howItWorksTitle")}</h2>
-        <div className="primer-grid mt-6 grid-cols-1 sm:grid-cols-3">
-          {steps.map((step, i) => (
-            <div key={i} className="flex flex-col gap-3 px-6 py-8 sm:px-8">
-              <span className="text-display font-semibold tabular text-ink" aria-hidden="true">
-                {i + 1}
-              </span>
-              <p className="text-ink-2">{step}</p>
-            </div>
-          ))}
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
+          {steps.map((step, i) => {
+            const style = STEP_STYLES[i];
+            return (
+              <div key={i} className={`flex items-start gap-3 rounded-[var(--radius-cell)] p-5 ${style.tint}`}>
+                <span
+                  aria-hidden="true"
+                  className={`inline-flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-semibold tabular ${style.mark}`}
+                >
+                  {i + 1}
+                </span>
+                <p className="pt-0.5 text-ink text-pretty">{step}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
 

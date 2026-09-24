@@ -6,18 +6,18 @@
   "hero": {
     "titleLine1": "You took your shahada.",
     "titleLine2": "Here is where to begin.",
-    "lead": "Answer six gentle questions and we will choose your stage, your path, and your first lesson.",
+    "lead": "Six gentle questions, then we choose your first lesson.",
     "start": "Find your starting point",
-    "startMeta": "About one minute, six questions",
+    "startMeta": "About one minute",
     "continueWith": "Continue with {title}",
     "yourStartingPoint": "Your starting point: Stage {number}, {name}",
     "browse": "Browse all paths",
-    "stagesTitle": "The three stages"
+    "stagesTitle": "Where are you right now?"
   },
   "welcome": {
     "greeting": "Welcome back, {name}.",
     "greetingPlain": "Welcome back.",
-    "lead": "Your place is saved. Pick up right where you left off.",
+    "lead": "Pick up right where you left off.",
     "stageLine": "Stage {number}: {name}",
     "position": "Step {step}, Lesson {lesson} in {path}",
     "continue": "Continue",
@@ -27,8 +27,8 @@
   "ready": {
     "greeting": "{name}, your path is ready.",
     "greetingPlain": "Your path is ready.",
-    "lead": "Start with the first lesson whenever you feel ready. Each one takes only a few minutes.",
-    "fallback": "Paths for your stage are being prepared, so this is the best place to begin for now.",
+    "lead": "Start whenever you feel ready. Each lesson takes a few minutes.",
+    "fallback": "Paths for your stage are on the way. Start here for now.",
     "start": "Start the first lesson",
     "retake": "Retake the check"
   },
@@ -36,20 +36,19 @@
     "title": "How it works",
     "one": {
       "title": "Answer six questions",
-      "body": "Tell us where you are with wudu, prayer, and the basics. There are no wrong answers."
+      "body": "There are no wrong answers."
     },
     "two": {
-      "title": "Get your stage and a path",
-      "body": "We place you in one of three stages and choose the path that fits where you are now."
+      "title": "Get your path",
+      "body": "Chosen for where you are now."
     },
     "three": {
-      "title": "Learn one short lesson at a time",
-      "body": "Each lesson takes a few minutes, and your path always shows you what comes next."
+      "title": "Learn a little at a time",
+      "body": "Each lesson takes a few minutes."
     }
   },
   "paths": {
     "title": "Paths for every stage",
-    "lead": "Each path belongs to a stage, and each step builds on the one before it.",
     "counts": "{steps}, {lessons}",
     "preparing": "Lessons are being prepared",
     "progress": "{percent}% done",
@@ -58,7 +57,7 @@
   },
   "mentor": {
     "title": "You are not alone",
-    "body": "You can ask for a mentor: a volunteer, an experienced Muslim, matched with you by our team. Bring any question, big or small, and learn with someone beside you.",
+    "body": "A volunteer mentor can walk beside you. Ask anything, big or small.",
     "action": "Talk to a mentor"
   },
   "stories": {
@@ -71,6 +70,6 @@
   },
   "final": {
     "title": "Start where you are",
-    "body": "Six short questions, about one minute. Your first lesson will be waiting at the end."
+    "body": "One minute. Your first lesson is waiting."
   }
 }

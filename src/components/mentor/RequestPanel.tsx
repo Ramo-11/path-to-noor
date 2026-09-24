@@ -7,6 +7,7 @@ import { Button } from "@/components/primer/Button";
 import { TextAreaField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
 import { Spinner } from "@/components/primer/Spinner";
+import { StatusChip } from "./StatusChip";
 
 interface MentorRequestData {
   _id: string;
@@ -116,36 +117,39 @@ export function RequestPanel() {
   }
 
   const form = (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-      <TextAreaField
-        label={t("yourMessage")}
-        hint={t("messageHint")}
-        placeholder={t("messagePlaceholder")}
-        maxLength={2000}
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      />
-      {formError ? (
-        <Notice tone="error">
-          <p>{formError}</p>
-        </Notice>
-      ) : null}
-      <div>
-        <Button type="submit" variant="primary" loading={submitting} disabled={submitting}>
-          {t("submitRequest")}
-        </Button>
-      </div>
-    </form>
+    <div className="card max-w-2xl p-6 sm:p-8">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+        <TextAreaField
+          label={t("yourMessage")}
+          hint={t("messageHint")}
+          placeholder={t("messagePlaceholder")}
+          maxLength={2000}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        {formError ? (
+          <Notice tone="error">
+            <p>{formError}</p>
+          </Notice>
+        ) : null}
+        <div>
+          <Button type="submit" variant="primary" loading={submitting} disabled={submitting}>
+            {t("submitRequest")}
+          </Button>
+        </div>
+      </form>
+    </div>
   );
 
   return (
-    <div aria-live="polite" className="flex flex-col gap-8 pb-24">
+    <div aria-live="polite" className="flex flex-col gap-8 pt-10 pb-24">
       {request?.status === "assigned" && request.mentorId ? (
-        <div className="primer-grid grid-cols-1 max-w-2xl">
-          <div className="flex flex-col gap-3 px-6 py-8 sm:px-8">
+        <div className="card max-w-2xl p-6 sm:p-8">
+          <div className="flex flex-col items-start gap-3">
+            <StatusChip status="assigned" />
             <h2 className="text-heading font-semibold">{t("assignedTitle")}</h2>
             <p className="text-ink-2">{t("assignedBody")}</p>
-            <div className="mt-2 flex flex-col gap-1">
+            <div className="mt-1 flex flex-col gap-1">
               <p className="font-medium text-ink">{request.mentorId.name}</p>
               <a
                 href={`mailto:${request.mentorId.email}`}
@@ -160,8 +164,9 @@ export function RequestPanel() {
       ) : null}
 
       {request?.status === "pending" ? (
-        <div className="primer-grid grid-cols-1 max-w-2xl">
-          <div className="flex flex-col items-start gap-4 px-6 py-8 sm:px-8">
+        <div className="card max-w-2xl p-6 sm:p-8">
+          <div className="flex flex-col items-start gap-3">
+            <StatusChip status="pending" />
             <h2 className="text-heading font-semibold">{t("pendingTitle")}</h2>
             <p className="text-ink-2">{t("pendingBody")}</p>
             {cancelError ? (
@@ -177,11 +182,14 @@ export function RequestPanel() {
       ) : null}
 
       {request?.status === "rejected" ? (
-        <div className="flex flex-col gap-8">
-          <Notice tone="info">
-            <p className="font-medium text-ink">{t("rejectedTitle")}</p>
-            <p className="mt-1">{t("rejectedBody")}</p>
-          </Notice>
+        <div className="flex flex-col gap-6">
+          <div className="card max-w-2xl p-6 sm:p-8">
+            <div className="flex flex-col items-start gap-3">
+              <StatusChip status="rejected" />
+              <h2 className="text-heading font-semibold">{t("rejectedTitle")}</h2>
+              <p className="text-ink-2">{t("rejectedBody")}</p>
+            </div>
+          </div>
           {form}
         </div>
       ) : null}

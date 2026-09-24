@@ -1,7 +1,7 @@
 {
   "title": "Knowledge check",
   "metaTitle": "Knowledge check: {lesson}",
-  "lead": "{count, plural, one {One question} other {# questions}} on {lesson}. Take your time. Each answer shows you why, so this is a chance to learn, not a test.",
+  "lead": "{count, plural, one {One question} other {# questions}} on {lesson}. Each answer explains why.",
   "backToLesson": "Back to the lesson",
   "backToPath": "Back to the path",
   "questionsLabel": "Questions",
@@ -22,7 +22,7 @@
   "startAgain": "Start again",
   "summaryTitle": "You got {correct} of {total}",
   "summaryWell": "Well done. The heart of this lesson has settled in.",
-  "summaryAgain": "Worth another look. Going through the lesson once more usually helps, and you can try again whenever you like.",
+  "summaryAgain": "Worth another look. Try again anytime.",
   "reviewLesson": "Review the lesson",
   "tryAgain": "Try again",
   "continue": "Continue to the next lesson",
@@ -38,7 +38,7 @@
   "emptyTitle": "There is no knowledge check for this lesson yet",
   "emptyBody": "You can head back to the lesson, or carry on with your path.",
   "signInTitle": "Sign in to take this knowledge check",
-  "signInBody": "This lesson is for signed-in learners. Creating an account is free and only takes a minute.",
+  "signInBody": "Creating a free account only takes a minute.",
   "signIn": "Sign in",
   "createAccount": "Create a free account",
   "loading": "Loading the knowledge check"

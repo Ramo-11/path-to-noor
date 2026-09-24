@@ -12,13 +12,11 @@ import {
   type PlacementResult as ComputedPlacement,
 } from "@/lib/placement";
 import type { StageKey } from "@/lib/stages";
-import { EMPTY_LEVELS, stageLevels } from "./meter";
 import { ExistingIntro, NewIntro } from "./PlacementIntro";
 import { PlacementResult, type SaveState } from "./PlacementResult";
 import { QuestionStep } from "./QuestionStep";
 import { QuestionTabs } from "./QuestionTabs";
 import type { Recommendations } from "./recommendations";
-import { StageStrip } from "./StageStrip";
 import { useStoredPlacement, writeStoredPlacement } from "./storage";
 
 type Phase = "intro" | "questions" | "result";
@@ -196,7 +194,7 @@ export function PlacementFlow({ recommendations, savedStage, isSignedIn }: Place
 
   if (phase === "result" && outcome) {
     return (
-      <div ref={rootRef} className="scroll-mt-24 pt-10 pb-20 sm:pt-14 sm:pb-24 lg:pt-20">
+      <div ref={rootRef} className="scroll-mt-24 pt-6 pb-20 sm:pt-10 sm:pb-24">
         <PlacementResult
           stage={outcome.stage}
           computedStage={outcome.computed.stage}
@@ -217,7 +215,7 @@ export function PlacementFlow({ recommendations, savedStage, isSignedIn }: Place
 
   if (phase === "intro" && existingStage) {
     return (
-      <div ref={rootRef} className="scroll-mt-24 pt-10 pb-20 sm:pt-14 sm:pb-24 lg:pt-20">
+      <div ref={rootRef} className="scroll-mt-24 pt-6 pb-20 sm:pt-10 sm:pb-24">
         <ExistingIntro
           stage={existingStage}
           recommendation={recommendations ? recommendations[existingStage] : null}
@@ -232,43 +230,34 @@ export function PlacementFlow({ recommendations, savedStage, isSignedIn }: Place
   const answered = PLACEMENT_QUESTIONS.map((item) => Boolean(answers[item.id]));
 
   return (
-    <div ref={rootRef} className="scroll-mt-24 pt-10 pb-20 sm:pt-14 sm:pb-24 lg:pt-20">
-      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-16 xl:grid-cols-[minmax(0,1fr)_17rem] xl:gap-24">
-        <div className="max-w-3xl min-w-0">
-          {phase === "intro" ? (
-            <NewIntro headingRef={headingRef} onBegin={begin} />
-          ) : (
-            <>
-              <h1 className="sr-only">{t("intro.title")}</h1>
-              <QuestionTabs total={TOTAL} current={index} answered={answered} />
-              <p aria-live="polite" className="sr-only">
-                {t("flow.progress", { current: index + 1, total: TOTAL })}
-              </p>
-              <div className="mt-10 sm:mt-12">
-                <QuestionStep
-                  key={question.id}
-                  question={question}
-                  selected={answers[question.id]}
-                  flooding={flooding}
-                  autoFocus={interacted}
-                  onSelect={select}
-                />
-              </div>
-              <div className="mt-8">
-                <Button variant="quiet" onClick={back}>
-                  <ArrowLeft aria-hidden="true" strokeWidth={1.75} className="size-4 rtl:rotate-180" />
-                  {t("flow.back")}
-                </Button>
-              </div>
-            </>
-          )}
-        </div>
-        <div className="mt-16 lg:mt-2">
-          <div className="lg:sticky lg:top-28">
-            <StageStrip levels={phase === "questions" ? stageLevels(answers) : EMPTY_LEVELS} />
+    <div ref={rootRef} className="scroll-mt-24 pt-6 pb-20 sm:pt-10 sm:pb-24">
+      {phase === "intro" ? (
+        <NewIntro headingRef={headingRef} onBegin={begin} />
+      ) : (
+        <div className="mx-auto max-w-2xl">
+          <h1 className="sr-only">{t("intro.title")}</h1>
+          <QuestionTabs total={TOTAL} current={index} answered={answered} />
+          <p aria-live="polite" className="sr-only">
+            {t("flow.progress", { current: index + 1, total: TOTAL })}
+          </p>
+          <div className="mt-8 sm:mt-10">
+            <QuestionStep
+              key={question.id}
+              question={question}
+              selected={answers[question.id]}
+              flooding={flooding}
+              autoFocus={interacted}
+              onSelect={select}
+            />
+          </div>
+          <div className="mt-8">
+            <Button variant="quiet" onClick={back}>
+              <ArrowLeft aria-hidden="true" strokeWidth={1.75} className="size-4 rtl:rotate-180" />
+              {t("flow.back")}
+            </Button>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

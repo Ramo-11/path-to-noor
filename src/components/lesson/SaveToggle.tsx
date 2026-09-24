@@ -56,8 +56,10 @@ export function SaveToggle({ lessonId, initialSaved, signedIn, signInHref, child
           aria-pressed={signedIn ? saved : undefined}
           aria-expanded={signedIn ? undefined : promptOpen}
           aria-controls={signedIn ? undefined : promptId}
-          className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-[var(--radius-control)] border px-3.5 text-[0.9375rem] font-medium transition-colors duration-150 ${
-            saved ? "border-ink bg-ink text-page hover:bg-ink/85" : "border-rule-strong bg-page text-ink hover:border-ink hover:bg-wash"
+          className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border px-4 text-[0.9375rem] font-medium transition-colors duration-150 ${
+            saved
+              ? "border-primary-tint bg-primary-tint text-primary"
+              : "border-rule-strong bg-surface text-ink-2 hover:border-primary hover:text-primary"
           }`}
         >
           <Bookmark

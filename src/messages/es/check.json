@@ -1,7 +1,7 @@
 {
   "title": "Repaso",
   "metaTitle": "Repaso: {lesson}",
-  "lead": "{count, plural, one {Una pregunta} other {# preguntas}} sobre {lesson}. Tómate tu tiempo. Cada respuesta te explica el porqué, así que es una oportunidad para aprender, no un examen.",
+  "lead": "{count, plural, one {Una pregunta} other {# preguntas}} sobre {lesson}. Cada respuesta explica el porqué.",
   "backToLesson": "Volver a la lección",
   "backToPath": "Volver al camino",
   "questionsLabel": "Preguntas",
@@ -22,7 +22,7 @@
   "startAgain": "Empezar de nuevo",
   "summaryTitle": "Acertaste {correct} de {total}",
   "summaryWell": "Muy bien. Lo esencial de esta lección ya es tuyo.",
-  "summaryAgain": "Vale la pena darle otra mirada. Repasar la lección una vez más suele ayudar, y puedes intentarlo de nuevo cuando quieras.",
+  "summaryAgain": "Vale la pena otra mirada. Intenta de nuevo cuando quieras.",
   "reviewLesson": "Repasar la lección",
   "tryAgain": "Intentar de nuevo",
   "continue": "Continuar con la siguiente lección",
@@ -38,7 +38,7 @@
   "emptyTitle": "Esta lección todavía no tiene repaso",
   "emptyBody": "Puedes volver a la lección o seguir con tu camino.",
   "signInTitle": "Inicia sesión para hacer este repaso",
-  "signInBody": "Esta lección es para personas con sesión iniciada. Crear una cuenta es gratis y solo toma un minuto.",
+  "signInBody": "Crear una cuenta gratis solo toma un minuto.",
   "signIn": "Iniciar sesión",
   "createAccount": "Crea una cuenta gratis",
   "loading": "Cargando el repaso"

@@ -28,13 +28,13 @@ interface ActionButtonProps extends BaseProps {
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-ink text-page border border-ink hover:bg-ink/85 active:bg-ink/75",
+    "bg-primary text-on-primary border border-primary shadow-soft hover:bg-primary-hover hover:border-primary-hover active:translate-y-px",
   secondary:
-    "bg-page text-ink border border-ink hover:bg-wash active:bg-rule",
+    "bg-surface text-ink border border-rule shadow-soft hover:border-rule-strong hover:bg-wash active:translate-y-px",
   quiet:
-    "bg-transparent text-ink border border-transparent underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink px-0!",
+    "bg-transparent text-primary border border-transparent underline decoration-primary/30 underline-offset-[0.25em] hover:decoration-primary px-0!",
   danger:
-    "bg-page text-danger border border-danger hover:bg-danger-tint",
+    "bg-surface text-danger border border-danger/50 hover:bg-danger-tint",
 };
 
 const sizes: Record<Size, string> = {
@@ -44,7 +44,7 @@ const sizes: Record<Size, string> = {
 
 function classes({ variant = "primary", size = "md", fullWidth, className = "" }: BaseProps) {
   return [
-    "inline-flex items-center justify-center gap-2 rounded-[var(--radius-control)] font-medium whitespace-nowrap transition-colors duration-150",
+    "inline-flex items-center justify-center gap-2 rounded-full font-medium whitespace-nowrap transition-[background-color,border-color,color,transform] duration-150",
     "disabled:opacity-45 disabled:pointer-events-none",
     variants[variant],
     sizes[size],

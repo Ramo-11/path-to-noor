@@ -74,7 +74,7 @@ export function ContactForm() {
 
   if (sent) {
     return (
-      <div className="primer-grid grid-cols-1">
+      <div className="card">
         <div className="flex flex-col items-start gap-4 px-6 py-12 sm:px-8" aria-live="polite">
           <h2 className="text-heading font-semibold">{t("successTitle")}</h2>
           <p className="max-w-[48ch] text-ink-2">{t("successMessage")}</p>
@@ -87,7 +87,7 @@ export function ContactForm() {
   }
 
   return (
-    <div className="primer-grid grid-cols-1">
+    <div className="card">
       <form onSubmit={handleSubmit} className="flex flex-col gap-5 px-6 py-8 sm:px-8">
         <div
           aria-hidden="true"
