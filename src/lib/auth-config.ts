@@ -1,9 +1,18 @@
-import NextAuth from "next-auth";
+import NextAuth, { CredentialsSignin } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
 import bcrypt from "bcrypt";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
+
+const LOGIN_WINDOW_MS = 15 * 60 * 1000;
+const LOGIN_MAX_ATTEMPTS_PER_ACCOUNT = 10;
+const LOGIN_MAX_ATTEMPTS_PER_IP = 30;
+
+class TooManySignInAttemptsError extends CredentialsSignin {
+  code = "too-many-attempts";
+}
 
 const providers = [
   Credentials({
@@ -12,12 +21,25 @@ const providers = [
       email: { label: "Email", type: "email" },
       password: { label: "Password", type: "password" },
     },
-    async authorize(credentials) {
+    async authorize(credentials, request) {
       if (!credentials?.email || !credentials?.password) return null;
+
+      const email = (credentials.email as string).toLowerCase();
+      const ip = getClientIp(request.headers);
+
+      const ipCheck = rateLimit(`login-ip:${ip}`, LOGIN_MAX_ATTEMPTS_PER_IP, LOGIN_WINDOW_MS);
+      const accountCheck = rateLimit(
+        `login-account:${email}`,
+        LOGIN_MAX_ATTEMPTS_PER_ACCOUNT,
+        LOGIN_WINDOW_MS
+      );
+      if (!ipCheck.success || !accountCheck.success) {
+        throw new TooManySignInAttemptsError();
+      }
 
       await connectDB();
       const user = await User.findOne({
-        email: (credentials.email as string).toLowerCase(),
+        email,
       }).select("+password");
 
       if (!user || !user.isActive || !user.password) return null;

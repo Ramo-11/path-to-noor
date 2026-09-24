@@ -26,7 +26,11 @@ export default function AdminLoginPage() {
       });
 
       if (result?.error) {
-        setError("Invalid email or password");
+        setError(
+          result.code === "too-many-attempts"
+            ? "Too many sign-in attempts. Please try again in 15 minutes."
+            : "Invalid email or password"
+        );
         return;
       }
 

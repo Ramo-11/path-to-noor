@@ -38,9 +38,12 @@ export function rateLimit(
 }
 
 export function getClientIp(headers: Headers): string {
-  return (
-    headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
-    headers.get("x-real-ip") ||
-    "unknown"
-  );
+  const edge = headers.get("cf-connecting-ip")?.trim();
+  if (edge) return edge;
+  const hops = (headers.get("x-forwarded-for") ?? "")
+    .split(",")
+    .map((hop) => hop.trim())
+    .filter(Boolean);
+  if (hops.length > 0) return hops[hops.length - 1];
+  return headers.get("x-real-ip")?.trim() || "unknown";
 }
