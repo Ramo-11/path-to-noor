@@ -1,4 +1,4 @@
-# Path to Noor — Admin Guide
+# Basmet Dawah Admin Guide
 
 ## Quick Start
 
@@ -10,7 +10,7 @@ Edit `.env.local` with your actual credentials:
 # MongoDB Atlas — replace with your connection string
 MONGODB_URI=mongodb+srv://username:<db_password>@cluster.mongodb.net
 DB_PASSWORD=your_actual_password
-DB_NAME_DEV=path_to_noor_dev
+DB_NAME_DEV=basmet_dawah_dev
 
 # NextAuth — generate a random secret (run: openssl rand -base64 32)
 NEXTAUTH_SECRET=your-random-secret-here
@@ -24,7 +24,7 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 ### 2. Install & Run
 
 ```bash
-cd ~/codespace/sahab/products/path-to-noor
+cd ~/codespace/sahab/products/basmet_dawah
 npm install
 npm run dev
 ```

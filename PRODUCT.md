@@ -38,7 +38,7 @@ A free, trilingual (English, Arabic, Spanish) guided curriculum built specifical
 
 ## Brand Commitments
 
-- Learner-facing name: **Basmet Dawah** (domain basmetdawah.org). "Path to Noor" is an internal name only. Do not state its relationship to Basmet Amal in copy until confirmed.
+- Learner-facing name: **Basmet Dawah** (domain basmetdawah.org). Do not state its relationship to Basmet Amal in copy until confirmed.
 - Tone: gentle, warm, encouraging. Never guilt, never pressure. No streaks, points, leaderboards, or anything that punishes a missed day.
 - The old visual look (royal blue and gold, glass cards) is not a commitment; the redesign replaces it.
 

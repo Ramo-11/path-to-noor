@@ -13,7 +13,7 @@ interface ImageUploadProps {
 export function ImageUpload({
   value,
   onChange,
-  folder = "path-to-noor/thumbnails",
+  folder = "basmet-dawah/thumbnails",
 }: ImageUploadProps) {
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState("");

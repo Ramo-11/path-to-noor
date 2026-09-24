@@ -1,4 +1,4 @@
-# Basmet Dawah (Path to Noor): Progress
+# Basmet Dawah: Progress
 
 Trilingual (EN/AR/ES) guided learning platform for new Muslims. Runs on Render. Learner-facing name is Basmet Dawah.
 

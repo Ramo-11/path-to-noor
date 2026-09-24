@@ -1,4 +1,4 @@
-# Path to Noor — Development Roadmap
+# Basmet Dawah Development Roadmap
 
 ## Phase A: Admin CRUD (Foundation)
 Everything depends on being able to create/manage content.

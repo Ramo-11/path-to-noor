@@ -34,7 +34,7 @@ const envSchema = z.object({
 
   // Site URL
   NEXT_PUBLIC_SITE_URL_DEV: z.string().default("http://localhost:3000"),
-  NEXT_PUBLIC_SITE_URL_PROD: z.string().default("https://pathtonoor.com"),
+  NEXT_PUBLIC_SITE_URL_PROD: z.string().default("https://basmetdawah.org"),
 
   // Resend (email)
   RESEND_API_KEY: z.string().optional(),

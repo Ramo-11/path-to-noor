@@ -1,4 +1,4 @@
-# Path to Noor
+# Basmet Dawah
 
 ## About
 Trilingual (English/Arabic/Spanish) guided learning platform for new Muslims. Structured learning paths, topic-based browsing, lessons with TipTap rich content, quizzes, progress tracking, revert stories, mentorship matching, and full RTL support.

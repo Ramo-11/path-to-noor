@@ -10,13 +10,13 @@ const ALLOWED_TYPES = [
 ];
 
 const ALLOWED_FOLDERS = new Set([
-  "path-to-noor/lessons",
-  "path-to-noor/thumbnails",
-  "path-to-noor/topics",
-  "path-to-noor/stories",
-  "path-to-noor/avatars",
+  "basmet-dawah/lessons",
+  "basmet-dawah/thumbnails",
+  "basmet-dawah/topics",
+  "basmet-dawah/stories",
+  "basmet-dawah/avatars",
 ]);
-const DEFAULT_FOLDER = "path-to-noor/lessons";
+const DEFAULT_FOLDER = "basmet-dawah/lessons";
 
 const MAX_SIZE = 10 * 1024 * 1024; // 10MB
 
