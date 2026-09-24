@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import { TipTapEditor } from "./TipTapEditor";
-import { TipTapRenderer } from "@/components/shared/TipTapRenderer";
+import { LessonPreview } from "./LessonPreview";
 import {
   Pencil,
   Columns2,
@@ -50,6 +50,10 @@ export function BilingualEditor({
           {label}
         </label>
       )}
+
+      <p className="text-xs text-slate-500 dark:text-slate-400 mb-2">
+        Interactive blocks are inserted per language: an Arabic phrase block you add on the English tab needs its own meaning and transliteration typed here, separate from the Arabic and Spanish tabs.
+      </p>
 
       {/* Header: language tabs + view mode toggle */}
       <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 mb-0">
@@ -196,7 +200,7 @@ export function BilingualEditor({
               className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6 sm:p-8 min-h-[400px]"
             >
               {activeContent ? (
-                <TipTapRenderer content={activeContent} />
+                <LessonPreview content={activeContent} />
               ) : (
                 <p className="text-slate-400 dark:text-slate-500 text-sm">
                   Start typing to see preview...
@@ -215,7 +219,7 @@ export function BilingualEditor({
           className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-6 sm:p-10 min-h-[400px]"
         >
           {activeContent ? (
-            <TipTapRenderer content={activeContent} />
+            <LessonPreview content={activeContent} />
           ) : (
             <p className="text-slate-400 dark:text-slate-500 text-sm text-center py-8">
               No content to preview
@@ -323,7 +327,7 @@ function FullscreenPreview({
           className="rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-100 dark:border-slate-800 p-6 sm:p-10"
         >
           {content ? (
-            <TipTapRenderer content={content} />
+            <LessonPreview content={content} />
           ) : (
             <p className="text-slate-400 dark:text-slate-500 text-center py-8">
               No content to preview

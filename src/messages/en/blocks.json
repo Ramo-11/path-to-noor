@@ -1,0 +1,19 @@
+{
+  "opensInNewTab": "opens in a new tab",
+  "phraseLabel": "Arabic phrase",
+  "phraseArabic": "Arabic",
+  "phraseTransliteration": "How to say it",
+  "phraseMeaning": "Meaning",
+  "stepsTitle": "Steps",
+  "stepsHint": "Tick each step as you do it.",
+  "stepsCount": "{done} of {total} done",
+  "stepsAllDone": "{total, plural, one {The step is done.} other {All # steps are done.}} Well done.",
+  "stepsStartOver": "Start over",
+  "right": "That is right.",
+  "notQuite": "Not quite.",
+  "theAnswer": "The answer is: {answer}",
+  "correctAnswer": "The answer",
+  "yourAnswer": "Your answer",
+  "tryAgain": "Try again",
+  "remember": "Remember"
+}

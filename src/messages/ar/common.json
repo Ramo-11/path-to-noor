@@ -1,0 +1,23 @@
+{
+  "loading": "جار التحميل",
+  "error": "حدث خطأ ما",
+  "tryAgain": "حاول مرة أخرى",
+  "back": "رجوع",
+  "next": "التالي",
+  "previous": "السابق",
+  "save": "حفظ",
+  "saving": "جار الحفظ",
+  "cancel": "إلغاء",
+  "delete": "حذف",
+  "edit": "تعديل",
+  "close": "إغلاق",
+  "search": "بحث",
+  "noResults": "لا توجد نتائج",
+  "skip": "تخطّ",
+  "signIn": "تسجيل الدخول",
+  "createAccount": "أنشئ حسابا مجانيا",
+  "showPassword": "إظهار كلمة المرور",
+  "hidePassword": "إخفاء كلمة المرور",
+  "optional": "اختياري",
+  "or": "أو"
+}

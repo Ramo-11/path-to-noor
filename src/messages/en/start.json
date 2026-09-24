@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Find your starting point",
+    "description": "Six short questions about where you are right now. Get your stage and a path chosen for you, in about a minute."
+  },
+  "intro": {
+    "title": "Find your starting point",
+    "lead": "Six short questions about where you are right now. There are no wrong answers, and nothing here is a test.",
+    "note": "About one minute. You can go back and change any answer.",
+    "begin": "Begin",
+    "skip": "Skip and browse the paths"
+  },
+  "existing": {
+    "title": "You are in Stage {number}: {name}",
+    "nextLesson": "Next lesson: {title}",
+    "continue": "Continue",
+    "retake": "Retake the check",
+    "seePath": "See the whole path"
+  },
+  "flow": {
+    "progress": "Question {current} of {total}",
+    "tabsLabel": "Questions",
+    "tabAnswered": "Question {number}, answered",
+    "tabCurrent": "Question {number}, current",
+    "tabUpcoming": "Question {number}, not answered yet",
+    "back": "Back",
+    "stripCaption": "Your stage takes shape as you answer."
+  },
+  "questions": {
+    "shahada": {
+      "title": "When did you take your shahada?",
+      "options": {
+        "weeks": "In the last few weeks",
+        "months": "A few months ago",
+        "year": "About a year ago",
+        "years": "More than a year ago"
+      }
+    },
+    "wudu": {
+      "title": "Wudu is the washing before prayer. How are you with it?",
+      "helper": "Most people start here. That is completely fine.",
+      "options": {
+        "notYet": "I have not learned it yet",
+        "withGuide": "I can do it with a guide",
+        "byHeart": "I know it by heart"
+      }
+    },
+    "prayer": {
+      "title": "How is your prayer going?",
+      "helper": "Learning to pray takes time for everyone.",
+      "options": {
+        "notStarted": "I have not started yet",
+        "learning": "I am learning the movements and words",
+        "some": "I pray, but not all five every day",
+        "allFive": "I pray all five most days"
+      }
+    },
+    "quran": {
+      "title": "How much of the Quran can you recite in prayer?",
+      "helper": "Al-Fatiha is the opening chapter of the Quran, recited in every prayer.",
+      "options": {
+        "none": "None yet",
+        "fatiha": "Al-Fatiha",
+        "fewSurahs": "Al-Fatiha and a few short surahs"
+      }
+    },
+    "belief": {
+      "title": "The six pillars of faith and the five pillars of Islam: how familiar are they?",
+      "options": {
+        "new": "They are new to me",
+        "heard": "I have heard of them",
+        "explain": "I could explain them to a friend"
+      }
+    },
+    "support": {
+      "title": "Is anyone helping you learn right now?",
+      "helper": "There is no right answer. This helps us support you.",
+      "options": {
+        "mentor": "A mentor or a friend",
+        "community": "A local masjid or class",
+        "alone": "No, I am learning on my own"
+      }
+    }
+  },
+  "result": {
+    "title": "Your starting point: Stage {number}, {name}",
+    "reasonsTitle": "Why this stage",
+    "chosen": "You chose this stage yourself.",
+    "reasons": {
+      "wuduFirst": "Wudu comes first, because every prayer begins with it.",
+      "prayerFirst": "Learning to pray, one step at a time, is the next thing to build.",
+      "prayerConsistency": "Making all five prayers a steady habit is a good next goal.",
+      "quranNext": "Learning short surahs to recite in prayer is a good next step.",
+      "beliefNext": "The pillars of faith and of Islam are worth getting to know well.",
+      "readyForDepth": "Your prayer and the basics are in place, so you are ready to go deeper.",
+      "solidBasics": "Your basics are solid. This stage helps you build on them."
+    },
+    "pathHeading": "Your path: {title}",
+    "pathMeta": "{steps}, {lessons}",
+    "fallback": "Paths for the {stage} stage are being prepared. Until they are ready, this is the best place to begin.",
+    "noPath": {
+      "title": "Paths for your stage are being prepared",
+      "body": "In the meantime, the library has short lessons you can explore at your own pace.",
+      "action": "Explore the library"
+    },
+    "stepsLabel": "Steps in this path",
+    "seePath": "See the whole path",
+    "mentor": {
+      "title": "You do not have to learn alone",
+      "body": "You mentioned you are learning on your own. You can ask for a mentor: a volunteer, an experienced Muslim, matched with you by our team.",
+      "action": "Talk to a mentor"
+    },
+    "guest": "Your starting point is saved on this device. <link>Create a free account</link> to keep your place wherever you sign in.",
+    "guestUnsaved": "<link>Create a free account</link> to keep your starting point and your progress.",
+    "adjust": {
+      "open": "Not quite right? Choose your stage yourself",
+      "close": "Keep this stage",
+      "title": "Choose your stage",
+      "hint": "Pick the stage that feels closest to where you are. You can change it at any time.",
+      "current": "Your stage"
+    },
+    "save": {
+      "saving": "Saving your starting point",
+      "saved": "Saved to your account",
+      "error": "We could not save your starting point.",
+      "retry": "Try again"
+    },
+    "retake": "Retake the check"
+  },
+  "pathsError": {
+    "title": "We could not load the paths just now",
+    "body": "Your starting point still works. Try again in a moment, or browse the paths yourself.",
+    "retry": "Try again",
+    "browse": "Browse all paths"
+  }
+}

@@ -1,4 +1,5 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
+import { STAGES, type StageKey } from "@/lib/stages";
 
 export interface IUser extends Document {
   email: string;
@@ -29,6 +30,11 @@ export interface IUser extends Document {
     completedAt: Date;
   }>;
   assignedMentorId?: mongoose.Types.ObjectId;
+  placement?: {
+    stage: StageKey;
+    answers: Record<string, string>;
+    takenAt: Date;
+  };
   resetToken?: string;
   resetTokenExpiry?: Date;
   lastLoginAt?: Date;
@@ -92,6 +98,17 @@ const UserSchema = new Schema<IUser>(
       },
     ],
     assignedMentorId: { type: Schema.Types.ObjectId, ref: "User", default: undefined },
+    placement: {
+      type: new Schema(
+        {
+          stage: { type: String, enum: STAGES, required: true },
+          answers: { type: Map, of: String, default: {} },
+          takenAt: { type: Date, default: Date.now },
+        },
+        { _id: false }
+      ),
+      default: undefined,
+    },
     resetToken: { type: String, select: false },
     resetTokenExpiry: { type: Date, select: false },
     lastLoginAt: { type: Date },

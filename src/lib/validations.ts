@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { STAGES } from "@/lib/stages";
 
 // ---------------------------------------------------------------------------
 // Shared helpers
@@ -183,12 +184,31 @@ export type UpdateLessonInput = z.infer<typeof updateLessonSchema>;
 // Learning Path
 // ---------------------------------------------------------------------------
 
+const learningPathOutcomeSchema = z.object({
+  en: z.string().max(200).default(""),
+  ar: z.string().max(200).default(""),
+  es: z.string().max(200).default(""),
+});
+
+const outcomesField = z
+  .array(learningPathOutcomeSchema)
+  .max(20)
+  .default([])
+  .transform((items) =>
+    items
+      .map((o) => ({ en: o.en.trim(), ar: (o.ar || "").trim(), es: (o.es || "").trim() }))
+      .filter((o) => o.en.length > 0)
+      .slice(0, 8)
+  );
+
 export const createLearningPathSchema = z.object({
   title: bilingualStringArOptional,
   description: bilingualStringArOptional,
   slug: slugField.optional(),
   thumbnail: z.string().default(""),
-  difficulty: z.enum(["beginner", "intermediate", "advanced"]).default("beginner"),
+  stage: z.enum(STAGES).default("beginning"),
+  order: z.number().int().min(1).default(1),
+  outcomes: outcomesField,
   estimatedHours: z.number().positive().default(1),
   modules: z
     .array(
@@ -208,7 +228,9 @@ export const updateLearningPathSchema = z.object({
   description: bilingualStringArOptionalPartial.optional(),
   slug: slugField.optional(),
   thumbnail: z.string().optional(),
-  difficulty: z.enum(["beginner", "intermediate", "advanced"]).optional(),
+  stage: z.enum(STAGES).optional(),
+  order: z.number().int().min(1).optional(),
+  outcomes: outcomesField.optional(),
   estimatedHours: z.number().positive().optional(),
   modules: z
     .array(
@@ -299,7 +321,7 @@ export const registerSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
   email: emailSchema,
   password: passwordSchema,
-  userType: userTypeSchema,
+  userType: userTypeSchema.optional(),
 });
 
 export const setUserTypeSchema = z.object({
@@ -339,6 +361,10 @@ export const mentorRequestUpdateSchema = z.object({
   adminNote: z.string().max(2000).optional(),
   notifyMentor: z.boolean().optional(),
   notifyMentee: z.boolean().optional(),
+});
+
+export const mentorRequestCreateSchema = z.object({
+  message: z.string().trim().max(2000).optional().default(""),
 });
 
 export const quizSubmitSchema = z.object({
@@ -391,3 +417,7 @@ export const updateStorySchema = z.object({
 
 export type CreateStoryInput = z.infer<typeof createStorySchema>;
 export type UpdateStoryInput = z.infer<typeof updateStorySchema>;
+
+export const progressSchema = z.object({
+  lessonId: objectIdString,
+});

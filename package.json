@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "tsx src/db/seed-admin.ts"
+    "seed": "tsx src/db/seed-admin.ts",
+    "migrate:stages": "tsx src/db/migrate-stages.ts"
   },
   "dependencies": {
     "@tiptap/extension-color": "^3.20.0",

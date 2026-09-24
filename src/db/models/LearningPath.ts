@@ -1,11 +1,14 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
+import { STAGES, type StageKey } from "@/lib/stages";
 
 export interface ILearningPath extends Document {
   title: { en: string; ar: string; es: string };
   description: { en: string; ar: string; es: string };
   slug: string;
   thumbnail: string;
-  difficulty: "beginner" | "intermediate" | "advanced";
+  stage: StageKey;
+  order: number;
+  outcomes: Array<{ en: string; ar: string; es: string }>;
   estimatedHours: number;
   modules: Array<{
     moduleId: mongoose.Types.ObjectId;
@@ -32,11 +35,20 @@ const LearningPathSchema = new Schema<ILearningPath>(
     },
     slug: { type: String, required: true, unique: true, lowercase: true },
     thumbnail: { type: String, default: "" },
-    difficulty: {
+    stage: {
       type: String,
-      enum: ["beginner", "intermediate", "advanced"],
-      default: "beginner",
+      enum: STAGES,
+      default: "beginning",
     },
+    order: { type: Number, default: 1 },
+    outcomes: [
+      {
+        _id: false,
+        en: { type: String, default: "", trim: true },
+        ar: { type: String, default: "", trim: true },
+        es: { type: String, default: "", trim: true },
+      },
+    ],
     estimatedHours: { type: Number, default: 1 },
     modules: [
       {
@@ -54,6 +66,8 @@ const LearningPathSchema = new Schema<ILearningPath>(
   },
   { timestamps: true }
 );
+
+LearningPathSchema.index({ stage: 1, order: 1 });
 
 export const LearningPath: Model<ILearningPath> =
   mongoose.models.LearningPath ||

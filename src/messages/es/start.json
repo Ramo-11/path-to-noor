@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Encuentra tu punto de partida",
+    "description": "Seis preguntas breves sobre dónde estás ahora mismo. Recibe tu etapa y un camino elegido para ti en un minuto aproximadamente."
+  },
+  "intro": {
+    "title": "Encuentra tu punto de partida",
+    "lead": "Seis preguntas breves sobre dónde estás ahora mismo. No hay respuestas incorrectas y nada de esto es un examen.",
+    "note": "Un minuto aproximadamente. Puedes volver atrás y cambiar cualquier respuesta.",
+    "begin": "Empezar",
+    "skip": "Omitir y ver los caminos"
+  },
+  "existing": {
+    "title": "Estás en la Etapa {number}: {name}",
+    "nextLesson": "Siguiente lección: {title}",
+    "continue": "Continuar",
+    "retake": "Responder de nuevo",
+    "seePath": "Ver el camino completo"
+  },
+  "flow": {
+    "progress": "Pregunta {current} de {total}",
+    "tabsLabel": "Preguntas",
+    "tabAnswered": "Pregunta {number}, respondida",
+    "tabCurrent": "Pregunta {number}, actual",
+    "tabUpcoming": "Pregunta {number}, sin responder",
+    "back": "Atrás",
+    "stripCaption": "Tu etapa toma forma mientras respondes."
+  },
+  "questions": {
+    "shahada": {
+      "title": "¿Cuándo pronunciaste tu shahada?",
+      "options": {
+        "weeks": "En las últimas semanas",
+        "months": "Hace unos meses",
+        "year": "Hace más o menos un año",
+        "years": "Hace más de un año"
+      }
+    },
+    "wudu": {
+      "title": "El wudu es el lavado que se hace antes de rezar. ¿Cómo vas con él?",
+      "helper": "La mayoría empieza aquí, y eso está perfectamente bien.",
+      "options": {
+        "notYet": "Todavía no lo he aprendido",
+        "withGuide": "Puedo hacerlo con una guía",
+        "byHeart": "Me lo sé de memoria"
+      }
+    },
+    "prayer": {
+      "title": "¿Cómo va tu oración?",
+      "helper": "Aprender a rezar lleva tiempo para todos.",
+      "options": {
+        "notStarted": "Todavía no he empezado",
+        "learning": "Estoy aprendiendo los movimientos y las palabras",
+        "some": "Rezo, pero no las cinco todos los días",
+        "allFive": "Rezo las cinco casi todos los días"
+      }
+    },
+    "quran": {
+      "title": "¿Cuánto del Corán puedes recitar en la oración?",
+      "helper": "Al-Fátiha es el capítulo con el que empieza el Corán, y se recita en cada oración.",
+      "options": {
+        "none": "Nada todavía",
+        "fatiha": "Al-Fátiha",
+        "fewSurahs": "Al-Fátiha y algunas suras cortas"
+      }
+    },
+    "belief": {
+      "title": "Los seis pilares de la fe y los cinco pilares del islam: ¿qué tan familiares te resultan?",
+      "options": {
+        "new": "Son nuevos para mí",
+        "heard": "He oído hablar de ellos",
+        "explain": "Podría explicárselos a otra persona"
+      }
+    },
+    "support": {
+      "title": "¿Alguien te está ayudando a aprender ahora?",
+      "helper": "No hay una respuesta correcta. Esto nos ayuda a acompañarte.",
+      "options": {
+        "mentor": "Un mentor o una amistad",
+        "community": "Una mezquita o una clase cerca de mí",
+        "alone": "No, estoy aprendiendo por mi cuenta"
+      }
+    }
+  },
+  "result": {
+    "title": "Tu punto de partida: Etapa {number}, {name}",
+    "reasonsTitle": "Por qué esta etapa",
+    "chosen": "Elegiste esta etapa por tu cuenta.",
+    "reasons": {
+      "wuduFirst": "Primero viene el wudu, porque cada oración empieza con él.",
+      "prayerFirst": "Aprender a rezar, paso a paso, es lo siguiente que conviene construir.",
+      "prayerConsistency": "Hacer de las cinco oraciones un hábito constante es una buena meta ahora.",
+      "quranNext": "Aprender suras cortas para recitar en la oración es un buen siguiente paso.",
+      "beliefNext": "Vale la pena conocer bien los pilares de la fe y del islam.",
+      "readyForDepth": "Tu oración y lo básico ya están en su lugar, así que puedes profundizar.",
+      "solidBasics": "Tienes una base sólida. Esta etapa te ayuda a construir sobre ella."
+    },
+    "pathHeading": "Tu camino: {title}",
+    "pathMeta": "{steps}, {lessons}",
+    "fallback": "Los caminos de la etapa {stage} se están preparando. Mientras tanto, este es el mejor lugar para empezar.",
+    "noPath": {
+      "title": "Los caminos de tu etapa se están preparando",
+      "body": "Mientras tanto, en la biblioteca hay lecciones cortas que puedes explorar a tu ritmo.",
+      "action": "Explorar la biblioteca"
+    },
+    "stepsLabel": "Pasos de este camino",
+    "seePath": "Ver el camino completo",
+    "mentor": {
+      "title": "No tienes que aprender a solas",
+      "body": "Nos contaste que estás aprendiendo por tu cuenta. Puedes pedir un mentor: una persona voluntaria, musulmana y con experiencia, que nuestro equipo elige para ti.",
+      "action": "Hablar con un mentor"
+    },
+    "guest": "Tu punto de partida está guardado en este dispositivo. <link>Crea una cuenta gratis</link> para conservar tu lugar dondequiera que inicies sesión.",
+    "guestUnsaved": "<link>Crea una cuenta gratis</link> para conservar tu punto de partida y tu progreso.",
+    "adjust": {
+      "open": "¿No encaja del todo? Elige tu etapa por tu cuenta",
+      "close": "Mantener esta etapa",
+      "title": "Elige tu etapa",
+      "hint": "Elige la etapa que sientas más cercana a donde estás. Puedes cambiarla cuando quieras.",
+      "current": "Tu etapa"
+    },
+    "save": {
+      "saving": "Guardando tu punto de partida",
+      "saved": "Guardado en tu cuenta",
+      "error": "No pudimos guardar tu punto de partida.",
+      "retry": "Intentar de nuevo"
+    },
+    "retake": "Responder de nuevo"
+  },
+  "pathsError": {
+    "title": "No pudimos cargar los caminos en este momento",
+    "body": "Tu punto de partida sigue funcionando. Inténtalo de nuevo en un momento o explora los caminos por tu cuenta.",
+    "retry": "Intentar de nuevo",
+    "browse": "Ver todos los caminos"
+  }
+}

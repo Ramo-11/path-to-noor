@@ -1,29 +1,31 @@
 import type { Metadata } from "next";
-import { Noto_Sans, Noto_Sans_Arabic } from "next/font/google";
+import { Readex_Pro, Amiri } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { SessionProvider } from "next-auth/react";
 import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
 import { OnboardingRedirect } from "@/components/shared/OnboardingRedirect";
+import { PlacementSync } from "@/components/placement/PlacementSync";
+import { SiteShell } from "@/components/layout/SiteShell";
 import { getSiteUrl } from "@/config/env";
 import "@/app/globals.css";
 
-const notoSans = Noto_Sans({
-  subsets: ["latin"],
+const readex = Readex_Pro({
+  subsets: ["latin", "latin-ext", "arabic"],
+  weight: "variable",
   display: "swap",
-  variable: "--font-noto-sans",
+  variable: "--font-readex",
 });
 
-const notoSansArabic = Noto_Sans_Arabic({
+const amiri = Amiri({
   subsets: ["arabic"],
+  weight: ["400", "700"],
   display: "swap",
-  variable: "--font-noto-sans-arabic",
+  variable: "--font-amiri",
 });
 
 const siteDescription =
-  "A guided learning platform for new Muslims — explore Islam at your own pace with structured paths, trusted content, and bilingual support.";
+  "A free, guided path for new Muslims. Find your starting point and learn step by step, in English, Arabic, and Spanish.";
 
 export const metadata: Metadata = {
   title: {
@@ -45,13 +47,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     alternateLocale: ["ar_SA", "es_ES"],
     siteName: "Basmet Dawah",
-    title: "Basmet Dawah — A guided path for new Muslims",
+    title: "Basmet Dawah",
     description: siteDescription,
     url: getSiteUrl(),
   },
   twitter: {
     card: "summary_large_image",
-    title: "Basmet Dawah — A guided path for new Muslims",
+    title: "Basmet Dawah",
     description: siteDescription,
   },
   robots: {
@@ -80,6 +82,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   const dir = locale === "ar" ? "rtl" : "ltr";
   const messages = await getMessages();
+  const t = await getTranslations("nav");
 
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
@@ -98,14 +101,19 @@ export default async function LocaleLayout({
         />
       </head>
       <body
-        className={`${notoSans.variable} ${notoSansArabic.variable} font-sans`}
+        className={`${readex.variable} ${amiri.variable} font-sans bg-page text-ink`}
       >
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-[var(--radius-control)] focus:bg-ink focus:px-4 focus:py-2 focus:text-page focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--page)]"
+        >
+          {t("skipToContent")}
+        </a>
         <SessionProvider>
           <NextIntlClientProvider messages={messages}>
+            <PlacementSync />
             <OnboardingRedirect />
-            <Navbar />
-            <main className="min-h-screen">{children}</main>
-            <Footer />
+            <SiteShell>{children}</SiteShell>
           </NextIntlClientProvider>
         </SessionProvider>
         <GoogleAnalytics />

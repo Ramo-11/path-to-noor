@@ -380,14 +380,11 @@ function buildAudienceFilter(ctx: AudienceContext) {
   const filter: Record<string, any> = { published: true };
 
   if (ctx.isGuest) {
-    // Guests only see guest-accessible content with audience "all"
     filter.guestAccessible = true;
-    filter.audience = "all";
-  } else if (ctx.userType) {
-    // Logged-in users see content for their type or "all"
-    filter.audience = { $in: ["all", ctx.userType] };
+    filter.audience = { $in: ["all", "revert"] };
+  } else if (ctx.userType === "revert") {
+    filter.audience = { $in: ["all", "revert"] };
   }
-  // If logged in but no userType (e.g. admin), see everything published
 
   return filter;
 }
@@ -433,22 +430,7 @@ export async function getPublicLearningPaths(ctx?: AudienceContext) {
       select: "title slug lessons",
       match: { published: true },
     })
-    .sort({ createdAt: -1 })
-    .lean();
-}
-
-export async function getPublicLearningPathBySlug(slug: string) {
-  await connectDB();
-  return LearningPath.findOne({ slug, published: true })
-    .populate({
-      path: "modules.moduleId",
-      select: "title slug description lessons",
-      populate: {
-        path: "lessons.lessonId",
-        select: "title slug type estimatedMinutes",
-        match: { published: true },
-      },
-    })
+    .sort({ order: 1, createdAt: 1 })
     .lean();
 }
 
@@ -584,20 +566,6 @@ export async function getPublicStories(limit = 10) {
     .sort({ featured: -1, order: 1, createdAt: -1 })
     .limit(limit)
     .lean();
-}
-
-// ---------------------------------------------------------------------------
-// Public: Homepage stats
-// ---------------------------------------------------------------------------
-
-export async function getHomepageStats() {
-  await connectDB();
-  const [topicCount, pathCount, lessonCount] = await Promise.all([
-    Topic.countDocuments({ published: true, parent: null }),
-    LearningPath.countDocuments({ published: true }),
-    Lesson.countDocuments({ published: true }),
-  ]);
-  return { topicCount, pathCount, lessonCount, languageCount: 3 };
 }
 
 // ---------------------------------------------------------------------------
@@ -994,7 +962,7 @@ export async function getAdminUserDetail(userId: string) {
     return {
       _id: path._id.toString(),
       title: path.title,
-      difficulty: path.difficulty,
+      stage: path.stage,
       modules,
       totalLessons,
       completedCount,

@@ -1,0 +1,10 @@
+{
+  "loading": "Cargando",
+  "notFoundTitle": "Esta página no está aquí.",
+  "notFoundBody": "La página que buscabas no existe, o puede que se haya movido.",
+  "goHome": "Ir al inicio",
+  "goPaths": "Explorar caminos",
+  "errorTitle": "Algo salió mal de nuestro lado.",
+  "errorBody": "Por favor, intenta de nuevo. Si esto sigue ocurriendo, avísanos.",
+  "tryAgain": "Intentar de nuevo"
+}

@@ -5,6 +5,14 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, GripVertical, X } from "lucide-react";
 import Link from "next/link";
 import { ImageUpload } from "@/components/admin/ImageUpload";
+import { OutcomesEditor, type OutcomeRow } from "@/components/admin/OutcomesEditor";
+import { STAGES, STAGE_NUMBER, type StageKey } from "@/lib/stages";
+
+const STAGE_LABELS: Record<StageKey, string> = {
+  beginning: "Just beginning",
+  foundations: "Building the basics",
+  deeper: "Growing deeper",
+};
 
 interface ModuleOption {
   _id: string;
@@ -25,6 +33,7 @@ export default function EditPathPage({
   const [allModules, setAllModules] = useState<ModuleOption[]>([]);
   const [selectedModuleIds, setSelectedModuleIds] = useState<string[]>([]);
   const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const [outcomes, setOutcomes] = useState<OutcomeRow[]>([]);
   const [form, setForm] = useState({
     titleEn: "",
     titleAr: "",
@@ -33,7 +42,8 @@ export default function EditPathPage({
     descriptionAr: "",
     descriptionEs: "",
     thumbnail: "",
-    difficulty: "beginner" as "beginner" | "intermediate" | "advanced",
+    stage: "beginning" as StageKey,
+    order: 1,
     estimatedHours: 1,
     audience: "all" as "all" | "revert" | "mentor",
     guestAccessible: true,
@@ -56,12 +66,20 @@ export default function EditPathPage({
             descriptionAr: p.description?.ar || "",
             descriptionEs: p.description?.es || "",
             thumbnail: p.thumbnail || "",
-            difficulty: p.difficulty || "beginner",
+            stage: p.stage || "beginning",
+            order: p.order || 1,
             estimatedHours: p.estimatedHours || 1,
             audience: p.audience || "all",
             guestAccessible: p.guestAccessible ?? true,
             published: p.published || false,
           });
+          setOutcomes(
+            (p.outcomes || []).map((o: { en?: string; ar?: string; es?: string }) => ({
+              en: o.en || "",
+              ar: o.ar || "",
+              es: o.es || "",
+            }))
+          );
 
           // Extract module IDs in order
           const orderedModules = (p.modules || [])
@@ -138,7 +156,9 @@ export default function EditPathPage({
           title: { en: form.titleEn, ar: form.titleAr, es: form.titleEs },
           description: { en: form.descriptionEn, ar: form.descriptionAr, es: form.descriptionEs },
           thumbnail: form.thumbnail || undefined,
-          difficulty: form.difficulty,
+          stage: form.stage,
+          order: form.order,
+          outcomes,
           estimatedHours: form.estimatedHours,
           modules: selectedModuleIds.map((mid, i) => ({
             moduleId: mid,
@@ -281,21 +301,37 @@ export default function EditPathPage({
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label htmlFor="difficulty" className={labelClass}>
-                Difficulty
+              <label htmlFor="stage" className={labelClass}>
+                Stage
               </label>
               <select
-                id="difficulty"
-                value={form.difficulty}
-                onChange={(e) => updateField("difficulty", e.target.value)}
+                id="stage"
+                value={form.stage}
+                onChange={(e) => updateField("stage", e.target.value)}
                 className={inputClass}
               >
-                <option value="beginner">Beginner</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="advanced">Advanced</option>
+                {STAGES.map((stage) => (
+                  <option key={stage} value={stage}>
+                    Stage {STAGE_NUMBER[stage]}: {STAGE_LABELS[stage]}
+                  </option>
+                ))}
               </select>
+            </div>
+            <div>
+              <label htmlFor="order" className={labelClass}>
+                Order within stage
+              </label>
+              <input
+                id="order"
+                type="number"
+                min={1}
+                value={form.order}
+                onChange={(e) => updateField("order", Number(e.target.value))}
+                className={inputClass}
+              />
+              <p className="mt-1 text-xs text-slate-400">Lower numbers are recommended first</p>
             </div>
             <div>
               <label htmlFor="hours" className={labelClass}>
@@ -313,6 +349,8 @@ export default function EditPathPage({
               />
             </div>
           </div>
+
+          <OutcomesEditor outcomes={outcomes} onChange={setOutcomes} />
 
           {/* Module selection and ordering */}
           <div>

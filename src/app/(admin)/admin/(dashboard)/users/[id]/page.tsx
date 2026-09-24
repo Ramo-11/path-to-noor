@@ -19,6 +19,7 @@ import {
   ChevronDown,
   ChevronRight,
 } from "lucide-react";
+import { STAGE_NUMBER, isStageKey } from "@/lib/stages";
 
 interface LessonProgress {
   _id: string;
@@ -37,7 +38,7 @@ interface ModuleProgress {
 interface PathProgress {
   _id: string;
   title: { en: string; ar: string; es: string };
-  difficulty?: string;
+  stage?: string;
   modules: ModuleProgress[];
   totalLessons: number;
   completedCount: number;
@@ -135,7 +136,7 @@ function PathProgressCard({ path }: { path: PathProgress }) {
             </p>
             <p className="text-xs text-slate-500 dark:text-slate-400">
               {path.completedCount}/{path.totalLessons} lessons
-              {path.difficulty && ` \u00b7 ${path.difficulty}`}
+              {isStageKey(path.stage) && ` \u00b7 Stage ${STAGE_NUMBER[path.stage]}`}
             </p>
           </div>
         </div>

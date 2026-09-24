@@ -1,21 +1,20 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
-import { Mail, ArrowLeft, ArrowRight, Loader2, CheckCircle } from "lucide-react";
-import { useLocale } from "next-intl";
+import { Button } from "@/components/primer/Button";
+import { TextField } from "@/components/primer/TextField";
+import { Notice } from "@/components/primer/Notice";
+import { PageIntro } from "@/components/primer/PageIntro";
 
 export default function ForgotPasswordPage() {
   const t = useTranslations("forgotPassword");
   const tAuth = useTranslations("auth");
-  const locale = useLocale();
+
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState("");
-
-  const BackArrow = locale === "ar" ? ArrowRight : ArrowLeft;
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -32,6 +31,7 @@ export default function ForgotPasswordPage() {
       if (!res.ok) {
         const data = await res.json();
         setError(data.error || t("error"));
+        setLoading(false);
         return;
       }
 
@@ -43,99 +43,52 @@ export default function ForgotPasswordPage() {
     }
   }
 
-  return (
-    <section className="py-12 sm:py-20">
-      <div className="max-w-md mx-auto px-4">
-        <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-8">
-          {sent ? (
-            <div className="text-center">
-              <CheckCircle className="h-12 w-12 text-emerald-500 mx-auto mb-4" />
-              <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-2">
-                {t("checkEmail")}
-              </h1>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mb-4">
-                {t("checkEmailDescription")}
-              </p>
-              <p className="text-xs text-slate-400 dark:text-slate-500 mb-6">
-                {t("oauthHint")}
-              </p>
-              <Link
-                href="/login"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
-              >
-                <BackArrow className="h-4 w-4" />
-                {t("backToLogin")}
-              </Link>
-            </div>
-          ) : (
-            <>
-              <div className="text-center mb-8">
-                <Mail className="h-10 w-10 text-primary-600 mx-auto mb-3" />
-                <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white">
-                  {t("title")}
-                </h1>
-                <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
-                  {t("description")}
-                </p>
-              </div>
-
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5"
-                  >
-                    {tAuth("email")}
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    required
-                    autoComplete="email"
-                    inputMode="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="w-full px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-                    placeholder="you@example.com"
-                  />
-                </div>
-
-                {error && (
-                  <div
-                    role="alert"
-                    aria-live="assertive"
-                    className="text-sm text-red-700 dark:text-red-300 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2"
-                  >
-                    {error}
-                  </div>
-                )}
-
-                <button
-                  type="submit"
-                  disabled={loading}
-                  aria-busy={loading}
-                  className="w-full px-6 py-2.5 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
-                >
-                  {loading ? (
-                    <Loader2 className="h-4 w-4 animate-spin mx-auto" />
-                  ) : (
-                    t("submit")
-                  )}
-                </button>
-              </form>
-
-              <p className="mt-6 text-center text-sm text-slate-600 dark:text-slate-400">
-                <Link
-                  href="/login"
-                  className="font-medium text-primary-600 hover:text-primary-700 dark:text-primary-400 transition-colors"
-                >
-                  {t("backToLogin")}
-                </Link>
-              </p>
-            </>
-          )}
+  if (sent) {
+    return (
+      <div className="mx-auto w-full max-w-md px-4 sm:px-6">
+        <PageIntro title={t("checkEmail")} lead={t("checkEmailDescription")} />
+        <div className="pb-16 sm:pb-24">
+          <p className="text-meta text-ink-3">{t("oauthHint")}</p>
+          <div className="mt-8">
+            <Button href="/login" variant="quiet">
+              {t("backToLogin")}
+            </Button>
+          </div>
         </div>
       </div>
-    </section>
+    );
+  }
+
+  return (
+    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
+      <PageIntro title={t("title")} lead={t("description")} />
+
+      <div className="pb-16 sm:pb-24">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+          <TextField
+            label={tAuth("email")}
+            type="email"
+            name="email"
+            autoComplete="email"
+            inputMode="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+
+          {error ? <Notice tone="error">{error}</Notice> : null}
+
+          <Button type="submit" size="lg" fullWidth loading={loading}>
+            {t("submit")}
+          </Button>
+        </form>
+
+        <div className="mt-8">
+          <Button href="/login" variant="quiet">
+            {t("backToLogin")}
+          </Button>
+        </div>
+      </div>
+    </div>
   );
 }

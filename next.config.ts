@@ -34,6 +34,21 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    const moved: Array<[string, string]> = [
+      ["topics", "library"],
+      ["topics/:slug", "library/:slug"],
+      ["bookmarks", "saved"],
+      ["profile", "journey"],
+      ["mentorship", "mentor"],
+      ["learn/:slug/quiz", "learn/:slug/check"],
+    ];
+    return moved.map(([from, to]) => ({
+      source: `/:locale(en|ar|es)/${from}`,
+      destination: `/:locale/${to}`,
+      permanent: true,
+    }));
+  },
   async headers() {
     return [
       {

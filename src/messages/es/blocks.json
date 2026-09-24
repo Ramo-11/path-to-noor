@@ -1,0 +1,19 @@
+{
+  "opensInNewTab": "se abre en una pestaña nueva",
+  "phraseLabel": "Frase en árabe",
+  "phraseArabic": "En árabe",
+  "phraseTransliteration": "Cómo se pronuncia",
+  "phraseMeaning": "Significado",
+  "stepsTitle": "Pasos",
+  "stepsHint": "Marca cada paso a medida que lo haces.",
+  "stepsCount": "{done} de {total} hechos",
+  "stepsAllDone": "{total, plural, one {El paso está hecho.} other {Los # pasos están hechos.}} Muy bien.",
+  "stepsStartOver": "Empezar de nuevo",
+  "right": "Correcto.",
+  "notQuite": "No exactamente.",
+  "theAnswer": "La respuesta es: {answer}",
+  "correctAnswer": "La respuesta",
+  "yourAnswer": "Tu respuesta",
+  "tryAgain": "Intentar de nuevo",
+  "remember": "Recuerda"
+}

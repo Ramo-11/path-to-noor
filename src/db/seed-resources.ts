@@ -1010,7 +1010,30 @@ async function seed() {
         "Tu guía esencial desde la Shahada hasta la oración. Aprende las creencias del Islam, cómo hacer Wudu y Salah, y memoriza las suras cortas necesarias para la oración."
       ),
       slug: "res-first-steps-in-islam",
-      difficulty: "beginner",
+      stage: "beginning",
+      order: 1,
+      outcomes: [
+        tri(
+          "Explain the Shahadah and what Muslims believe",
+          "شرح الشهادة وما يؤمن به المسلمون",
+          "Explicar la Shahada y lo que creen los musulmanes"
+        ),
+        tri(
+          "Perform Wudu correctly before every prayer",
+          "أداء الوضوء بشكل صحيح قبل كل صلاة",
+          "Realizar el Wudu correctamente antes de cada oración"
+        ),
+        tri(
+          "Pray all five daily prayers with confidence",
+          "أداء الصلوات الخمس اليومية بثقة",
+          "Rezar las cinco oraciones diarias con confianza"
+        ),
+        tri(
+          "Recite the short surahs needed for prayer from memory",
+          "تلاوة السور القصيرة اللازمة للصلاة عن ظهر قلب",
+          "Recitar de memoria las suras cortas necesarias para la oración"
+        ),
+      ],
       estimatedHours: 8,
       modules: [
         { moduleId: modPillars._id, order: 1 },
@@ -1041,7 +1064,30 @@ async function seed() {
         "Ahora que conoces lo básico, aprende a navegar la vida diaria como musulmán. Comprende frases islámicas comunes, qué es halal y haram, y obtén respuestas a preguntas de familia y amigos."
       ),
       slug: "res-living-as-a-muslim",
-      difficulty: "beginner",
+      stage: "foundations",
+      order: 1,
+      outcomes: [
+        tri(
+          "Use common Islamic phrases in daily conversation",
+          "استخدام العبارات الإسلامية الشائعة في الحديث اليومي",
+          "Usar frases islámicas comunes en la conversación diaria"
+        ),
+        tri(
+          "Tell the difference between halal and haram in everyday choices",
+          "التمييز بين الحلال والحرام في الخيارات اليومية",
+          "Distinguir entre halal y haram en las decisiones cotidianas"
+        ),
+        tri(
+          "Answer common questions from family and friends about being Muslim",
+          "الإجابة عن الأسئلة الشائعة من العائلة والأصدقاء حول كونك مسلماً",
+          "Responder preguntas comunes de familiares y amigos sobre ser musulmán"
+        ),
+        tri(
+          "Deepen your faith through guided talks and lectures",
+          "تعميق الإيمان من خلال محاضرات ودروس موجهة",
+          "Profundizar tu fe a través de charlas y conferencias guiadas"
+        ),
+      ],
       estimatedHours: 5,
       modules: [
         { moduleId: modPhrases._id, order: 1 },

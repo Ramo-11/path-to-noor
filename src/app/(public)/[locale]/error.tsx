@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
-import { Container } from "@/components/layout/Container";
-import { AlertTriangle, RefreshCw } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Button } from "@/components/primer/Button";
 
 export default function Error({
   error,
@@ -11,34 +11,24 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  const t = useTranslations("system");
+
   useEffect(() => {
     console.error(error);
   }, [error]);
 
   return (
-    <section className="py-24 sm:py-32">
-      <Container size="sm">
-        <div className="text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 mb-6">
-            <AlertTriangle className="h-8 w-8" />
-          </div>
-          <h1 className="font-heading text-3xl font-bold text-slate-900 dark:text-white">
-            Something went wrong
-          </h1>
-          <p className="mt-4 text-lg text-slate-600 dark:text-slate-400">
-            An unexpected error occurred. Please try again.
-          </p>
-          <div className="mt-8">
-            <button
-              onClick={reset}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors"
-            >
-              <RefreshCw className="h-4 w-4" />
-              Try Again
-            </button>
-          </div>
-        </div>
-      </Container>
-    </section>
+    <div className="mx-auto flex w-full max-w-3xl flex-col items-start gap-6 px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
+      <h1 className="text-title font-semibold text-balance">{t("errorTitle")}</h1>
+      <p className="max-w-[52ch] text-ink-2">{t("errorBody")}</p>
+      <div className="flex flex-wrap gap-3">
+        <Button type="button" variant="primary" onClick={reset}>
+          {t("tryAgain")}
+        </Button>
+        <Button href="/" variant="secondary">
+          {t("goHome")}
+        </Button>
+      </div>
+    </div>
   );
 }

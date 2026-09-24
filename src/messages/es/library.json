@@ -1,0 +1,18 @@
+{
+  "title": "Biblioteca",
+  "lead": "Todo lo que enseñamos, organizado por tema. ¿Buscas más bien dónde empezar?",
+  "findStart": "Encuentra tu punto de partida.",
+  "searchLabel": "Buscar temas",
+  "searchPlaceholder": "Busca por nombre o descripción",
+  "noResults": "Ningún tema coincide con tu búsqueda.",
+  "noLessonsYet": "Lecciones en preparación",
+  "learned": "Aprendido",
+  "markLearned": "Marcar este tema como aprendido",
+  "backToLibrary": "Volver a la Biblioteca",
+  "subSubjectsHeading": "Temas dentro de {subject}",
+  "partOfPath": "Parte del camino {path}",
+  "emptyStepsTitle": "Este tema todavía no tiene pasos.",
+  "emptyStepsBody": "Vuelve pronto, o explora los caminos que ya tenemos listos.",
+  "browsePaths": "Explorar caminos",
+  "toggleFailed": "No se guardó. Inténtalo de nuevo."
+}

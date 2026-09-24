@@ -1,9 +1,14 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
-import { Sun, Moon } from "lucide-react";
+import { useCallback, useEffect, useState } from "react";
+import { Moon, Sun } from "lucide-react";
 
-function getTheme(): boolean {
+interface ThemeToggleProps {
+  darkLabel?: string;
+  lightLabel?: string;
+}
+
+function getStoredTheme(): boolean {
   if (typeof window === "undefined") return false;
   const stored = localStorage.getItem("theme");
   if (stored === "dark") return true;
@@ -12,20 +17,18 @@ function getTheme(): boolean {
 }
 
 function applyTheme(dark: boolean) {
-  const root = document.documentElement;
-  if (dark) {
-    root.classList.add("dark");
-  } else {
-    root.classList.remove("dark");
-  }
+  document.documentElement.classList.toggle("dark", dark);
 }
 
-export function ThemeToggle() {
+export function ThemeToggle({
+  darkLabel = "Switch to dark mode",
+  lightLabel = "Switch to light mode",
+}: ThemeToggleProps) {
   const [dark, setDark] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const isDark = getTheme();
+    const isDark = getStoredTheme();
     setDark(isDark);
     applyTheme(isDark);
     setMounted(true);
@@ -40,21 +43,21 @@ export function ThemeToggle() {
     });
   }, []);
 
+  const isDark = mounted && dark;
+  const label = isDark ? lightLabel : darkLabel;
+
   return (
     <button
+      type="button"
       onClick={toggle}
-      className="inline-flex items-center justify-center rounded-lg p-2 text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
-      aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
+      aria-label={label}
+      className="inline-flex size-10 shrink-0 items-center justify-center rounded-[var(--radius-control)] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
       suppressHydrationWarning
     >
-      {mounted ? (
-        dark ? (
-          <Sun className="h-5 w-5" />
-        ) : (
-          <Moon className="h-5 w-5" />
-        )
+      {isDark ? (
+        <Sun className="size-[18px]" strokeWidth={1.75} aria-hidden="true" />
       ) : (
-        <Moon className="h-5 w-5" />
+        <Moon className="size-[18px]" strokeWidth={1.75} aria-hidden="true" />
       )}
     </button>
   );

@@ -1,30 +1,24 @@
-import { Link } from "@/i18n/navigation";
-import { Container } from "@/components/layout/Container";
-import { Home } from "lucide-react";
+import { getTranslations } from "next-intl/server";
+import { Button } from "@/components/primer/Button";
 
-export default function NotFound() {
+export default async function NotFound() {
+  const t = await getTranslations("system");
+
   return (
-    <section className="py-24 sm:py-32">
-      <Container size="sm">
-        <div className="text-center">
-          <p className="text-7xl font-bold text-primary-600 dark:text-primary-400">404</p>
-          <h1 className="mt-4 font-heading text-3xl font-bold text-slate-900 dark:text-white">
-            Page Not Found
-          </h1>
-          <p className="mt-4 text-lg text-slate-600 dark:text-slate-400">
-            The page you&apos;re looking for doesn&apos;t exist or has been moved.
-          </p>
-          <div className="mt-8">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors"
-            >
-              <Home className="h-4 w-4" />
-              Go Home
-            </Link>
-          </div>
-        </div>
-      </Container>
-    </section>
+    <div className="mx-auto flex w-full max-w-3xl flex-col items-start gap-6 px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
+      <p className="text-display font-semibold tabular text-ink-3" aria-hidden="true">
+        404
+      </p>
+      <h1 className="text-title font-semibold text-balance">{t("notFoundTitle")}</h1>
+      <p className="max-w-[52ch] text-ink-2">{t("notFoundBody")}</p>
+      <div className="flex flex-wrap gap-3">
+        <Button href="/" variant="primary">
+          {t("goHome")}
+        </Button>
+        <Button href="/paths" variant="secondary">
+          {t("goPaths")}
+        </Button>
+      </div>
+    </div>
   );
 }

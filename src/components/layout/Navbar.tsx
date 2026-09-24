@@ -1,318 +1,249 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
-import { Link, usePathname } from "@/i18n/navigation";
-import { ThemeToggle } from "@/components/layout/ThemeToggle";
-import { Menu, X, User, LogOut, Bookmark, Shield, Handshake } from "lucide-react";
-import { useLocale } from "next-intl";
+import { useEffect, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 import { useSession, signOut } from "next-auth/react";
+import { Link, usePathname } from "@/i18n/navigation";
+import { Bookmark, Handshake, LogOut, Settings, Shield, User } from "lucide-react";
+import { Button } from "@/components/primer/Button";
+import { ThemeToggle } from "@/components/layout/ThemeToggle";
+
+const NAV_LINKS = [
+  { href: "/paths", key: "paths" },
+  { href: "/library", key: "library" },
+  { href: "/mentor", key: "mentor" },
+] as const;
+
+const LOCALES = ["en", "ar", "es"] as const;
+const LOCALE_CODES: Record<(typeof LOCALES)[number], string> = {
+  en: "EN",
+  ar: "AR",
+  es: "ES",
+};
+const LOCALE_NAMES: Record<(typeof LOCALES)[number], string> = {
+  en: "English",
+  ar: "العربية",
+  es: "Español",
+};
+
+function isActive(pathname: string, href: string) {
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
 
 export function Navbar() {
   const t = useTranslations("nav");
-  const locale = useLocale();
+  const locale = useLocale() as (typeof LOCALES)[number];
   const pathname = usePathname();
   const { data: session, status } = useSession();
-  const [mobileOpen, setMobileOpen] = useState(false);
-  const [profileOpen, setProfileOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const [accountOpen, setAccountOpen] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
+  useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key !== "Escape") return;
+      setLangOpen(false);
+      setAccountOpen(false);
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, []);
+
   const isLoading = !mounted || status === "loading";
   const isLoggedIn = mounted && status === "authenticated" && !!session?.user;
-  const isAdmin = isLoggedIn && (session.user.role === "admin" || session.user.role === "super_admin");
-  const isRevert = isLoggedIn && session.user.userType === "revert";
-  const isMentor = isLoggedIn && session.user.userType === "mentor";
+  const isAdmin =
+    isLoggedIn && (session?.user?.role === "admin" || session?.user?.role === "super_admin");
+  const userName = session?.user?.name ?? "";
+  const initial = (userName.trim()[0] || "?").toUpperCase();
 
-  const navLinks = [
-    { href: "/", label: t("home") },
-    { href: "/paths", label: t("paths") },
-    { href: "/topics", label: t("topics") },
-    { href: "/contact", label: t("contact") },
+  const accountMenuItems = [
+    { href: "/journey", label: t("myJourney"), Icon: User },
+    { href: "/saved", label: t("saved"), Icon: Bookmark },
+    { href: "/settings", label: t("settings"), Icon: Settings },
+    { href: "/mentor", label: t("talkToMentor"), Icon: Handshake },
   ];
 
-  const [langOpen, setLangOpen] = useState(false);
-  const localeLabels: Record<string, string> = { en: "EN", ar: "AR", es: "ES" };
-  const localeNames: Record<string, string> = { en: "English", ar: "العربية", es: "Español" };
-  const allLocales = ["en", "ar", "es"];
-
   return (
-    <nav className="sticky top-0 z-40 bg-white/80 dark:bg-slate-950/80 backdrop-blur-lg border-b border-slate-200/50 dark:border-slate-800/50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
-          <Link
-            href="/"
-            className="font-heading text-xl font-bold text-primary-700 dark:text-primary-300"
-          >
-            {locale === "ar" ? "بسمة دعوة" : "Basmet Dawah"}
+    <nav className="sticky top-0 z-40 h-16 border-b border-rule bg-page">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <div className="flex h-full items-center gap-8">
+          <Link href="/" className="whitespace-nowrap text-[19px] font-semibold text-ink">
+            {t("wordmark")}
           </Link>
 
-          {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-6">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`text-sm font-medium transition-colors animated-underline ${
-                  pathname === link.href
-                    ? "text-primary-700 dark:text-primary-300"
-                    : "text-slate-600 dark:text-slate-400 hover:text-primary-700 dark:hover:text-primary-300"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
+          <div className="hidden h-full items-center gap-6 md:flex">
+            {NAV_LINKS.map((link) => {
+              const active = isActive(pathname, link.href);
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  aria-current={active ? "page" : undefined}
+                  className={`relative flex h-full items-center text-[0.9375rem] font-medium transition-colors duration-150 ${
+                    active
+                      ? "text-ink after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:bg-ink"
+                      : "text-ink-2 hover:text-ink"
+                  }`}
+                >
+                  {t(link.key)}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="flex items-center gap-1 sm:gap-2">
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => {
+                setLangOpen((v) => !v);
+                setAccountOpen(false);
+              }}
+              aria-label={t("languageMenu")}
+              aria-haspopup="menu"
+              aria-expanded={langOpen}
+              className="inline-flex h-10 min-w-10 items-center justify-center rounded-[var(--radius-control)] px-2 text-[0.8125rem] font-semibold tabular text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
+            >
+              {LOCALE_CODES[locale] ?? locale.toUpperCase()}
+            </button>
+            {langOpen ? (
+              <>
+                <div
+                  className="fixed inset-0 z-30"
+                  onClick={() => setLangOpen(false)}
+                  aria-hidden="true"
+                />
+                <div
+                  role="menu"
+                  aria-label={t("languageMenu")}
+                  className="absolute end-0 top-full z-40 mt-2 w-36 rounded-[var(--radius-cell)] border border-rule bg-page py-1"
+                >
+                  {LOCALES.map((l) => (
+                    <Link
+                      key={l}
+                      role="menuitem"
+                      href={pathname}
+                      locale={l}
+                      onClick={() => setLangOpen(false)}
+                      aria-current={l === locale ? "true" : undefined}
+                      className={`block px-4 py-2 text-[0.9375rem] ${
+                        l === locale ? "text-ink" : "text-ink-2 hover:text-ink"
+                      }`}
+                    >
+                      {LOCALE_NAMES[l]}
+                    </Link>
+                  ))}
+                </div>
+              </>
+            ) : null}
           </div>
 
-          {/* Right actions */}
-          <div className="hidden md:flex items-center gap-3">
-            <div className="relative">
-              <button
-                onClick={() => setLangOpen(!langOpen)}
-                className="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors px-2 py-1"
-                aria-label={t("switchLanguage")}
-                aria-expanded={langOpen}
-              >
-                {localeLabels[locale] || locale.toUpperCase()}
-              </button>
-              {langOpen && (
-                <>
-                  <div className="fixed inset-0 z-30" onClick={() => setLangOpen(false)} />
-                  <div className="absolute end-0 top-full mt-2 w-32 z-40 rounded-lg bg-white dark:bg-slate-900 shadow-lg border border-slate-200 dark:border-slate-800 py-1">
-                    {allLocales.filter((l) => l !== locale).map((l) => (
-                      <Link
-                        key={l}
-                        href={pathname}
-                        locale={l}
-                        onClick={() => setLangOpen(false)}
-                        className="block px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
-                      >
-                        {localeNames[l]}
-                      </Link>
-                    ))}
-                  </div>
-                </>
-              )}
-            </div>
-            <ThemeToggle />
+          <ThemeToggle
+            darkLabel={t("switchToDarkMode")}
+            lightLabel={t("switchToLightMode")}
+          />
 
-            {isLoading ? (
-              <div className="h-8 w-20 bg-slate-200 dark:bg-slate-700 rounded-lg animate-pulse" />
-            ) : isLoggedIn ? (
+          {isLoading ? (
+            <div className="h-9 w-24 animate-pulse rounded-[var(--radius-control)] bg-wash" aria-hidden="true" />
+          ) : isLoggedIn ? (
+            <>
+              <Link
+                href="/journey"
+                className="hidden h-10 items-center text-[0.9375rem] font-medium text-ink-2 transition-colors duration-150 hover:text-ink md:inline-flex"
+              >
+                {t("myJourney")}
+              </Link>
+
               <div className="relative">
                 <button
-                  onClick={() => setProfileOpen(!profileOpen)}
-                  className="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-primary-700 dark:hover:text-primary-300 transition-colors px-2 py-1"
-                  aria-label={t("myAccount")}
-                  aria-expanded={profileOpen}
+                  type="button"
+                  onClick={() => {
+                    setAccountOpen((v) => !v);
+                    setLangOpen(false);
+                  }}
+                  aria-label={t("accountMenu")}
+                  aria-haspopup="menu"
+                  aria-expanded={accountOpen}
+                  className="inline-flex h-10 items-center gap-2 rounded-[var(--radius-control)] px-2 text-[0.9375rem] font-medium text-ink transition-colors duration-150 hover:bg-wash"
                 >
-                  <User className="h-4 w-4" />
-                  <span className="max-w-[120px] truncate">
-                    {session.user.name || t("myAccount")}
+                  <span className="inline-flex size-7 shrink-0 items-center justify-center rounded-full bg-ink text-[0.8125rem] font-semibold text-page">
+                    {initial}
+                  </span>
+                  <span className="hidden max-w-[120px] truncate lg:inline">
+                    {userName}
                   </span>
                 </button>
 
-                {profileOpen && (
+                {accountOpen ? (
                   <>
                     <div
                       className="fixed inset-0 z-30"
-                      onClick={() => setProfileOpen(false)}
+                      onClick={() => setAccountOpen(false)}
+                      aria-hidden="true"
                     />
-                    <div className="absolute end-0 top-full mt-2 w-48 z-40 rounded-lg bg-white dark:bg-slate-900 shadow-lg border border-slate-200 dark:border-slate-800 py-1">
-                      <Link
-                        href="/profile"
-                        onClick={() => setProfileOpen(false)}
-                        className="flex items-center gap-2 px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
-                      >
-                        <User className="h-4 w-4" />
-                        {t("myAccount")}
-                      </Link>
-                      <Link
-                        href="/bookmarks"
-                        onClick={() => setProfileOpen(false)}
-                        className="flex items-center gap-2 px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
-                      >
-                        <Bookmark className="h-4 w-4" />
-                        {t("bookmarks")}
-                      </Link>
-                      {(isRevert || isMentor) && (
+                    <div
+                      role="menu"
+                      aria-label={t("accountMenu")}
+                      className="absolute end-0 top-full z-40 mt-2 w-56 rounded-[var(--radius-cell)] border border-rule bg-page py-1"
+                    >
+                      {accountMenuItems.map((item) => (
                         <Link
-                          href="/mentorship"
-                          onClick={() => setProfileOpen(false)}
-                          className="flex items-center gap-2 px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                          key={item.href}
+                          role="menuitem"
+                          href={item.href}
+                          onClick={() => setAccountOpen(false)}
+                          className="flex items-center gap-3 px-4 py-2.5 text-[0.9375rem] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
                         >
-                          <Handshake className="h-4 w-4" />
-                          {t("mentorship")}
+                          <item.Icon className="size-4 shrink-0" strokeWidth={1.75} aria-hidden="true" />
+                          {item.label}
                         </Link>
-                      )}
-                      {isAdmin && (
+                      ))}
+                      {isAdmin ? (
                         <a
+                          role="menuitem"
                           href="/admin"
-                          className="flex items-center gap-2 px-4 py-2 text-sm text-primary-700 dark:text-primary-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                          className="flex items-center gap-3 px-4 py-2.5 text-[0.9375rem] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
                         >
-                          <Shield className="h-4 w-4" />
+                          <Shield className="size-4 shrink-0" strokeWidth={1.75} aria-hidden="true" />
                           {t("adminPortal")}
                         </a>
-                      )}
-                      <hr className="my-1 border-slate-200 dark:border-slate-800" />
+                      ) : null}
+                      <div className="my-1 border-t border-rule" />
                       <button
+                        type="button"
+                        role="menuitem"
                         onClick={() => {
-                          setProfileOpen(false);
+                          setAccountOpen(false);
                           signOut({ callbackUrl: `/${locale}` });
                         }}
-                        className="flex items-center gap-2 px-4 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors w-full text-start"
+                        className="flex w-full items-center gap-3 px-4 py-2.5 text-start text-[0.9375rem] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
                       >
-                        <LogOut className="h-4 w-4" />
+                        <LogOut className="size-4 shrink-0" strokeWidth={1.75} aria-hidden="true" />
                         {t("signOut")}
                       </button>
                     </div>
                   </>
-                )}
+                ) : null}
               </div>
-            ) : (
-              <>
-                <Link
-                  href="/login"
-                  className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
-                >
-                  {t("login")}
-                </Link>
-                <Link
-                  href="/register"
-                  className="text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors"
-                >
-                  {t("register")}
-                </Link>
-              </>
-            )}
-          </div>
-
-          {/* Mobile hamburger */}
-          <div className="flex items-center gap-2 md:hidden">
-            <ThemeToggle />
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="p-2 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-              aria-label="Toggle menu"
-              aria-expanded={mobileOpen}
-            >
-              {mobileOpen ? (
-                <X className="h-5 w-5" />
-              ) : (
-                <Menu className="h-5 w-5" />
-              )}
-            </button>
-          </div>
+            </>
+          ) : (
+            <>
+              <Button href="/login" variant="quiet" size="md">
+                {t("signIn")}
+              </Button>
+              <span className="hidden lg:inline-flex">
+                <Button href="/start" variant="primary" size="md">
+                  {t("findStart")}
+                </Button>
+              </span>
+            </>
+          )}
         </div>
-
-        {/* Mobile menu */}
-        {mobileOpen && (
-          <div className="md:hidden pb-4 border-t border-slate-200 dark:border-slate-800 pt-4 space-y-2">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className={`block px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  pathname === link.href
-                    ? "bg-primary-50 dark:bg-primary-950 text-primary-700 dark:text-primary-300"
-                    : "text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-
-            {!isLoading && isLoggedIn && (
-              <>
-                <Link
-                  href="/bookmarks"
-                  onClick={() => setMobileOpen(false)}
-                  className="block px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
-                >
-                  {t("bookmarks")}
-                </Link>
-                <Link
-                  href="/profile"
-                  onClick={() => setMobileOpen(false)}
-                  className="block px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
-                >
-                  {t("myAccount")}
-                </Link>
-                {(isRevert || isMentor) && (
-                  <Link
-                    href="/mentorship"
-                    onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
-                  >
-                    <Handshake className="h-4 w-4" />
-                    {t("mentorship")}
-                  </Link>
-                )}
-                {isAdmin && (
-                  <a
-                    href="/admin"
-                    className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-primary-700 dark:text-primary-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
-                  >
-                    <Shield className="h-4 w-4" />
-                    {t("adminPortal")}
-                  </a>
-                )}
-              </>
-            )}
-
-            <div className="flex items-center gap-3 px-3 pt-2 border-t border-slate-200 dark:border-slate-800 mt-2">
-              {allLocales.filter((l) => l !== locale).map((l) => (
-                <Link
-                  key={l}
-                  href={pathname}
-                  locale={l}
-                  onClick={() => setMobileOpen(false)}
-                  className="text-sm font-medium text-slate-600 dark:text-slate-400"
-                >
-                  {localeNames[l]}
-                </Link>
-              ))}
-            </div>
-
-            {!isLoading && (
-              <div className="flex gap-2 px-3 pt-2">
-                {isLoggedIn ? (
-                  <button
-                    onClick={() => {
-                      setMobileOpen(false);
-                      signOut({ callbackUrl: `/${locale}` });
-                    }}
-                    className="flex-1 text-center text-sm font-medium text-red-600 dark:text-red-400 border border-red-300 dark:border-red-700 px-4 py-2 rounded-lg"
-                  >
-                    {t("signOut")}
-                  </button>
-                ) : (
-                  <>
-                    <Link
-                      href="/login"
-                      onClick={() => setMobileOpen(false)}
-                      className="flex-1 text-center text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 px-4 py-2 rounded-lg"
-                    >
-                      {t("login")}
-                    </Link>
-                    <Link
-                      href="/register"
-                      onClick={() => setMobileOpen(false)}
-                      className="flex-1 text-center text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded-lg"
-                    >
-                      {t("register")}
-                    </Link>
-                  </>
-                )}
-              </div>
-            )}
-          </div>
-        )}
       </div>
     </nav>
   );

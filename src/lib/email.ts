@@ -154,10 +154,10 @@ export async function sendMentorAssignmentEmail(
         <p style="color: #475569; font-size: 15px; line-height: 1.6; margin: 0 0 24px;">
           Assalamu Alaikum ${escapeHtml(mentorName)},<br><br>
           You have been assigned a new mentee: <strong>${escapeHtml(menteeName)}</strong>.<br><br>
-          Visit your mentorship dashboard to see their contact details and reach out to them. May Allah reward your efforts.
+          Visit your mentor page to see their contact details and reach out to them. May Allah reward your efforts.
         </p>
         <div style="text-align: center; margin: 32px 0;">
-          <a href="https://basmetdawah.org/en/mentorship" style="display: inline-block; background: #1E3A5F; color: #ffffff; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 15px;">
+          <a href="https://basmetdawah.org/en/mentor" style="display: inline-block; background: #1E3A5F; color: #ffffff; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 15px;">
             View Your Mentees
           </a>
         </div>

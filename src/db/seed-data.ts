@@ -876,7 +876,25 @@ async function seed() {
       "Todo lo que necesitas saber como nuevo musulmán — desde la declaración de fe hasta las oraciones diarias y el conocimiento esencial. Esta ruta cubre los fundamentos paso a paso."
     ),
     slug: "new-muslim-essentials",
-    difficulty: "beginner",
+    stage: "beginning",
+    order: 1,
+    outcomes: [
+      tri(
+        "Explain the Shahadah and the basics of Islamic belief",
+        "شرح الشهادة وأساسيات العقيدة الإسلامية",
+        "Explicar la Shahada y los fundamentos de la creencia islámica"
+      ),
+      tri(
+        "Pray all five daily prayers with confidence",
+        "أداء الصلوات الخمس اليومية بثقة",
+        "Rezar las cinco oraciones diarias con confianza"
+      ),
+      tri(
+        "Apply essential Islamic knowledge to daily life",
+        "تطبيق المعرفة الإسلامية الأساسية في الحياة اليومية",
+        "Aplicar el conocimiento islámico esencial en la vida diaria"
+      ),
+    ],
     estimatedHours: 8,
     modules: [
       { moduleId: moduleFaithBasics._id, order: 1 },
@@ -895,7 +913,20 @@ async function seed() {
       "Un viaje guiado al Corán — aprende qué es, cómo leerlo y comienza a explorar su guía eterna."
     ),
     slug: "understanding-the-quran",
-    difficulty: "beginner",
+    stage: "beginning",
+    order: 2,
+    outcomes: [
+      tri(
+        "Describe what the Quran is and how it was revealed",
+        "وصف ماهية القرآن وكيفية نزوله",
+        "Describir qué es el Corán y cómo fue revelado"
+      ),
+      tri(
+        "Read short surahs with correct pronunciation",
+        "قراءة السور القصيرة بنطق صحيح",
+        "Leer suras cortas con la pronunciación correcta"
+      ),
+    ],
     estimatedHours: 5,
     modules: [
       { moduleId: moduleQuranIntro._id, order: 1 },
@@ -911,7 +942,20 @@ async function seed() {
       "Explora la vida del Profeta, la comunidad musulmana temprana y los eventos que moldearon la civilización islámica."
     ),
     slug: "islamic-history-legacy",
-    difficulty: "intermediate",
+    stage: "foundations",
+    order: 1,
+    outcomes: [
+      tri(
+        "Summarize the life of the Prophet and the early Muslim community",
+        "تلخيص حياة النبي والمجتمع المسلم المبكر",
+        "Resumir la vida del Profeta y la comunidad musulmana temprana"
+      ),
+      tri(
+        "Connect historical events to Islamic civilization today",
+        "ربط الأحداث التاريخية بالحضارة الإسلامية اليوم",
+        "Relacionar los eventos históricos con la civilización islámica actual"
+      ),
+    ],
     estimatedHours: 6,
     modules: [
       { moduleId: moduleHistory._id, order: 1 },

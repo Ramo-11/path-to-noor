@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Basmet Dawah: un camino guiado para nuevos musulmanes",
+    "description": "Responde seis preguntas breves para encontrar tu punto de partida y aprende el islam una lección corta a la vez, en el orden correcto. Gratis, en español, inglés y árabe."
+  },
+  "hero": {
+    "titleLine1": "Pronunciaste tu shahada.",
+    "titleLine2": "Aquí empieza tu camino.",
+    "lead": "Responde seis preguntas sencillas y elegiremos tu etapa, tu camino y tu primera lección.",
+    "start": "Encuentra tu punto de partida",
+    "startMeta": "Un minuto aproximadamente, seis preguntas",
+    "continueWith": "Continuar con {title}",
+    "yourStartingPoint": "Tu punto de partida: Etapa {number}, {name}",
+    "browse": "Ver todos los caminos",
+    "stagesTitle": "Las tres etapas"
+  },
+  "welcome": {
+    "greeting": "Hola de nuevo, {name}.",
+    "greetingPlain": "Hola de nuevo.",
+    "lead": "Tu lugar está guardado. Sigue justo donde lo dejaste.",
+    "stageLine": "Etapa {number}: {name}",
+    "position": "Paso {step}, lección {lesson} de {path}",
+    "continue": "Continuar",
+    "seePath": "Ver el camino completo",
+    "journey": "Ver mi recorrido"
+  },
+  "ready": {
+    "greeting": "{name}, tu camino está listo.",
+    "greetingPlain": "Tu camino está listo.",
+    "lead": "Empieza con la primera lección cuando quieras. Cada una toma solo unos minutos.",
+    "fallback": "Los caminos de tu etapa se están preparando, así que por ahora este es el mejor lugar para empezar.",
+    "start": "Empezar la primera lección",
+    "retake": "Responder de nuevo"
+  },
+  "how": {
+    "title": "Cómo funciona",
+    "one": {
+      "title": "Responde seis preguntas",
+      "body": "Cuéntanos cómo vas con el wudu, la oración y lo básico. No hay respuestas incorrectas."
+    },
+    "two": {
+      "title": "Recibe tu etapa y un camino",
+      "body": "Te ubicamos en una de tres etapas y elegimos el camino que se ajusta a donde estás ahora."
+    },
+    "three": {
+      "title": "Aprende una lección corta a la vez",
+      "body": "Cada lección toma unos minutos, y tu camino siempre te muestra lo que sigue."
+    }
+  },
+  "paths": {
+    "title": "Caminos para cada etapa",
+    "lead": "Cada camino pertenece a una etapa, y cada paso se construye sobre el anterior.",
+    "counts": "{steps}, {lessons}",
+    "preparing": "Lecciones en preparación",
+    "progress": "{percent}% hecho",
+    "done": "Terminado",
+    "viewAll": "Ver todos los caminos"
+  },
+  "mentor": {
+    "title": "No tienes que hacerlo a solas",
+    "body": "Puedes pedir un mentor: una persona voluntaria, musulmana y con experiencia, que nuestro equipo elige para ti. Pregunta lo que quieras, grande o pequeño, y aprende con alguien a tu lado.",
+    "action": "Hablar con un mentor"
+  },
+  "stories": {
+    "title": "Historias de nuevos musulmanes",
+    "lead": "Sus primeros pasos, en sus propias palabras.",
+    "play": "Ver",
+    "watch": "Ver la historia de {name}",
+    "videoTitle": "La historia de {name}",
+    "close": "Cerrar video"
+  },
+  "final": {
+    "title": "Empieza donde estás",
+    "body": "Seis preguntas breves, un minuto aproximadamente. Tu primera lección te espera al final."
+  }
+}

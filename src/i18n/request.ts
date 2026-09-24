@@ -1,6 +1,32 @@
 import { getRequestConfig } from "next-intl/server";
 import { routing } from "./routing";
 
+export const MESSAGE_NAMESPACES = [
+  "common",
+  "learning",
+  "stages",
+  "nav",
+  "footer",
+  "home",
+  "start",
+  "paths",
+  "lesson",
+  "check",
+  "blocks",
+  "library",
+  "saved",
+  "journey",
+  "settings",
+  "auth",
+  "forgotPassword",
+  "resetPassword",
+  "onboarding",
+  "mentor",
+  "contact",
+  "legal",
+  "system",
+] as const;
+
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
 
@@ -8,8 +34,15 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
+  const entries = await Promise.all(
+    MESSAGE_NAMESPACES.map(async (namespace) => [
+      namespace,
+      (await import(`../messages/${locale}/${namespace}.json`)).default,
+    ])
+  );
+
   return {
     locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    messages: Object.fromEntries(entries),
   };
 });

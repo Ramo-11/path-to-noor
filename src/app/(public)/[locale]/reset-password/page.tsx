@@ -1,10 +1,14 @@
 "use client";
 
-import { useState, FormEvent, Suspense } from "react";
+import { Suspense, useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
-import { Link } from "@/i18n/navigation";
-import { Lock, Loader2, CheckCircle, XCircle, Eye, EyeOff } from "lucide-react";
+import { Button } from "@/components/primer/Button";
+import { TextField } from "@/components/primer/TextField";
+import { Notice } from "@/components/primer/Notice";
+import { PageIntro } from "@/components/primer/PageIntro";
+
+const INVALID_TOKEN_ERROR = "Invalid or expired reset token";
 
 function ResetPasswordForm() {
   const t = useTranslations("resetPassword");
@@ -16,26 +20,32 @@ function ResetPasswordForm() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [tokenInvalid, setTokenInvalid] = useState(!token);
   const [error, setError] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
 
-  if (!token) {
+  if (tokenInvalid) {
     return (
-      <div className="text-center">
-        <XCircle className="h-12 w-12 text-red-500 mx-auto mb-4" />
-        <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-2">
-          {t("invalidToken")}
-        </h1>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-          {t("invalidTokenDescription")}
-        </p>
-        <Link
-          href="/forgot-password"
-          className="text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
-        >
-          {t("requestNewLink")}
-        </Link>
-      </div>
+      <>
+        <PageIntro title={t("invalidToken")} lead={t("invalidTokenDescription")} />
+        <div className="pb-16 sm:pb-24">
+          <Button href="/forgot-password" variant="quiet">
+            {t("requestNewLink")}
+          </Button>
+        </div>
+      </>
+    );
+  }
+
+  if (success) {
+    return (
+      <>
+        <PageIntro title={t("success")} lead={t("successDescription")} />
+        <div className="pb-16 sm:pb-24">
+          <Button href="/login" size="lg">
+            {tAuth("signIn")}
+          </Button>
+        </div>
+      </>
     );
   }
 
@@ -59,6 +69,10 @@ function ResetPasswordForm() {
 
       const data = await res.json();
       if (!res.ok) {
+        if (data.error === INVALID_TOKEN_ERROR) {
+          setTokenInvalid(true);
+          return;
+        }
         setError(data.error || t("error"));
         return;
       }
@@ -71,141 +85,51 @@ function ResetPasswordForm() {
     }
   }
 
-  if (success) {
-    return (
-      <div className="text-center">
-        <CheckCircle className="h-12 w-12 text-emerald-500 mx-auto mb-4" />
-        <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white mb-2">
-          {t("success")}
-        </h1>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-          {t("successDescription")}
-        </p>
-        <Link
-          href="/login"
-          className="inline-flex px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors"
-        >
-          {tAuth("signIn")}
-        </Link>
-      </div>
-    );
-  }
-
   return (
     <>
-      <div className="text-center mb-8">
-        <Lock className="h-10 w-10 text-primary-600 mx-auto mb-3" />
-        <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white">
-          {t("title")}
-        </h1>
-        <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
-          {t("description")}
-        </p>
+      <PageIntro title={t("title")} lead={t("description")} />
+
+      <div className="pb-16 sm:pb-24">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+          <TextField
+            label={t("newPassword")}
+            type="password"
+            name="new-password"
+            autoComplete="new-password"
+            required
+            minLength={8}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+
+          <TextField
+            label={t("confirmPassword")}
+            type="password"
+            name="confirm-password"
+            autoComplete="new-password"
+            required
+            minLength={8}
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
+          />
+
+          {error ? <Notice tone="error">{error}</Notice> : null}
+
+          <Button type="submit" size="lg" fullWidth loading={loading}>
+            {t("submit")}
+          </Button>
+        </form>
       </div>
-
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label
-            htmlFor="password"
-            className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5"
-          >
-            {t("newPassword")}
-          </label>
-          <div className="relative">
-            <input
-              id="password"
-              type={showPassword ? "text" : "password"}
-              required
-              minLength={8}
-              autoComplete="new-password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full px-3 py-2.5 pe-10 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-              placeholder="Min. 8 chars, mix letters & numbers"
-            />
-            <button
-              type="button"
-              onClick={() => setShowPassword(!showPassword)}
-              className="absolute end-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
-              aria-label={showPassword ? "Hide password" : "Show password"}
-            >
-              {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-            </button>
-          </div>
-        </div>
-
-        <div>
-          <label
-            htmlFor="confirmPassword"
-            className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5"
-          >
-            {t("confirmPassword")}
-          </label>
-          <div className="relative">
-            <input
-              id="confirmPassword"
-              type={showPassword ? "text" : "password"}
-              required
-              minLength={8}
-              autoComplete="new-password"
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-              className="w-full px-3 py-2.5 pe-10 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-            />
-            <button
-              type="button"
-              onClick={() => setShowPassword(!showPassword)}
-              className="absolute end-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
-              aria-label={showPassword ? "Hide password" : "Show password"}
-            >
-              {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-            </button>
-          </div>
-        </div>
-
-        {error && (
-          <div
-            role="alert"
-            aria-live="assertive"
-            className="text-sm text-red-700 dark:text-red-300 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2"
-          >
-            {error}
-          </div>
-        )}
-
-        <button
-          type="submit"
-          disabled={loading}
-          aria-busy={loading}
-          className="w-full px-6 py-2.5 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
-        >
-          {loading ? (
-            <Loader2 className="h-4 w-4 animate-spin mx-auto" />
-          ) : (
-            t("submit")
-          )}
-        </button>
-      </form>
     </>
   );
 }
 
 export default function ResetPasswordPage() {
   return (
-    <section className="py-12 sm:py-20">
-      <div className="max-w-md mx-auto px-4">
-        <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-8">
-          <Suspense
-            fallback={
-              <div className="flex justify-center py-8">
-                <Loader2 className="h-8 w-8 animate-spin text-primary-600" />
-              </div>
-            }
-          >
-            <ResetPasswordForm />
-          </Suspense>
-        </div>
-      </div>
-    </section>
+    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
+      <Suspense fallback={<div className="py-16 sm:py-24" />}>
+        <ResetPasswordForm />
+      </Suspense>
+    </div>
   );
 }

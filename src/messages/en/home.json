@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Basmet Dawah: a guided path for new Muslims",
+    "description": "Answer six short questions to find your starting point, then learn Islam one short lesson at a time, in the right order. Free, in English, Arabic, and Spanish."
+  },
+  "hero": {
+    "titleLine1": "You took your shahada.",
+    "titleLine2": "Here is where to begin.",
+    "lead": "Answer six gentle questions and we will choose your stage, your path, and your first lesson.",
+    "start": "Find your starting point",
+    "startMeta": "About one minute, six questions",
+    "continueWith": "Continue with {title}",
+    "yourStartingPoint": "Your starting point: Stage {number}, {name}",
+    "browse": "Browse all paths",
+    "stagesTitle": "The three stages"
+  },
+  "welcome": {
+    "greeting": "Welcome back, {name}.",
+    "greetingPlain": "Welcome back.",
+    "lead": "Your place is saved. Pick up right where you left off.",
+    "stageLine": "Stage {number}: {name}",
+    "position": "Step {step}, Lesson {lesson} in {path}",
+    "continue": "Continue",
+    "seePath": "See the whole path",
+    "journey": "See my journey"
+  },
+  "ready": {
+    "greeting": "{name}, your path is ready.",
+    "greetingPlain": "Your path is ready.",
+    "lead": "Start with the first lesson whenever you feel ready. Each one takes only a few minutes.",
+    "fallback": "Paths for your stage are being prepared, so this is the best place to begin for now.",
+    "start": "Start the first lesson",
+    "retake": "Retake the check"
+  },
+  "how": {
+    "title": "How it works",
+    "one": {
+      "title": "Answer six questions",
+      "body": "Tell us where you are with wudu, prayer, and the basics. There are no wrong answers."
+    },
+    "two": {
+      "title": "Get your stage and a path",
+      "body": "We place you in one of three stages and choose the path that fits where you are now."
+    },
+    "three": {
+      "title": "Learn one short lesson at a time",
+      "body": "Each lesson takes a few minutes, and your path always shows you what comes next."
+    }
+  },
+  "paths": {
+    "title": "Paths for every stage",
+    "lead": "Each path belongs to a stage, and each step builds on the one before it.",
+    "counts": "{steps}, {lessons}",
+    "preparing": "Lessons are being prepared",
+    "progress": "{percent}% done",
+    "done": "Finished",
+    "viewAll": "See all paths"
+  },
+  "mentor": {
+    "title": "You are not alone",
+    "body": "You can ask for a mentor: a volunteer, an experienced Muslim, matched with you by our team. Bring any question, big or small, and learn with someone beside you.",
+    "action": "Talk to a mentor"
+  },
+  "stories": {
+    "title": "Stories from new Muslims",
+    "lead": "Their first steps, in their own words.",
+    "play": "Watch",
+    "watch": "Watch the story of {name}",
+    "videoTitle": "The story of {name}",
+    "close": "Close video"
+  },
+  "final": {
+    "title": "Start where you are",
+    "body": "Six short questions, about one minute. Your first lesson will be waiting at the end."
+  }
+}

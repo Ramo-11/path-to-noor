@@ -1,96 +1,55 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
+import { isTabBarHidden } from "@/components/layout/tab-bar-visibility";
 
 export function Footer() {
   const t = useTranslations("footer");
-  const currentYear = new Date().getFullYear();
+  const pathname = usePathname();
+  const year = new Date().getFullYear();
+  const spaceForTabBar = !isTabBarHidden(pathname);
+
+  const links = [
+    { href: "/paths", label: t("paths") },
+    { href: "/library", label: t("library") },
+    { href: "/mentor", label: t("mentor") },
+    { href: "/contact", label: t("contact") },
+    { href: "/privacy", label: t("privacy") },
+    { href: "/terms", label: t("terms") },
+  ];
 
   return (
-    <footer className="border-t border-slate-200/50 dark:border-slate-800/50 bg-white/50 dark:bg-slate-950/50 backdrop-blur-sm">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Main footer content */}
-        <div className="py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand */}
-          <div className="sm:col-span-2 lg:col-span-1">
-            <Link href="/" className="font-heading text-xl font-bold text-primary-700 dark:text-primary-300">
-              Basmet Dawah
+    <footer
+      className={`border-t border-rule ${
+        spaceForTabBar ? "pb-[calc(4rem+env(safe-area-inset-bottom))] md:pb-0" : ""
+      }`}
+    >
+      <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+        <p className="text-[19px] font-semibold text-ink">{t("wordmark")}</p>
+        <p className="mt-2 max-w-[52ch] text-ink-2">{t("tagline")}</p>
+
+        <nav aria-label={t("footerNav")} className="mt-8 flex flex-wrap gap-x-6 gap-y-3 border-t border-rule pt-8">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-[0.9375rem] text-ink-2 transition-colors duration-150 hover:text-ink"
+            >
+              {link.label}
             </Link>
-            <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-400 max-w-xs">
-              {t("brand")}
-            </p>
-          </div>
+          ))}
+        </nav>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">{t("explore")}</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/paths" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("paths")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/topics" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("topics")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("contact")}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Account */}
-          <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">{t("account")}</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/login" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("signIn")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/register" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("createAccount")}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">{t("legal")}</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/privacy" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("privacy")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms" className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                  {t("terms")}
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom bar */}
-        <div className="border-t border-slate-200 dark:border-slate-800 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-slate-500 dark:text-slate-400">
-            &copy; {currentYear} Basmet Dawah. {t("rights")}
-          </p>
-          <p className="text-xs text-slate-500 dark:text-slate-400">
+        <div className="mt-8 flex flex-col gap-2 border-t border-rule pt-6 text-meta text-ink-3 sm:flex-row sm:items-center sm:justify-between">
+          <p>{t("copyright", { year })}</p>
+          <p>
             {t("madeBy")}{" "}
             <a
               href="https://sahab-solutions.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+              className="text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
             >
               Sahab Solutions
             </a>

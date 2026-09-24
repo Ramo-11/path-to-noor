@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getSiteUrl } from "@/config/env";
 import { getPublicTopics, getPublicLearningPaths } from "@/lib/data";
 
-const STATIC_ROUTES = ["", "/topics", "/paths", "/contact", "/privacy", "/terms"];
+const STATIC_ROUTES = ["", "/start", "/paths", "/library", "/mentor", "/contact", "/privacy", "/terms"];
 const LOCALES = ["en", "ar", "es"] as const;
 
 export const revalidate = 3600;
@@ -20,7 +20,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
   );
 
-  // Dynamic entries — best-effort. If DB is unreachable, fall back to static only.
   try {
     const [topics, paths] = await Promise.all([
       getPublicTopics(),
@@ -30,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const dynamicEntries = LOCALES.flatMap((locale) => [
       ...topics.map((topic) => ({
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        url: `${siteUrl}/${locale}/topics/${(topic as any).slug}`,
+        url: `${siteUrl}/${locale}/library/${(topic as any).slug}`,
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         lastModified: (topic as any).updatedAt || now,
         changeFrequency: "weekly" as const,

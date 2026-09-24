@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { Lesson } from "@/db/models/Lesson";
+import { progressSchema } from "@/lib/validations";
 
 export async function GET() {
   const session = await auth();
@@ -36,15 +38,18 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { lessonId } = await request.json();
-    if (!lessonId) {
-      return NextResponse.json(
-        { error: "lessonId is required" },
-        { status: 400 }
-      );
+    const parsed = progressSchema.safeParse(await request.json().catch(() => null));
+    if (!parsed.success) {
+      return NextResponse.json({ error: "A valid lesson is required" }, { status: 400 });
     }
+    const { lessonId } = parsed.data;
 
     await connectDB();
+
+    const lessonExists = await Lesson.exists({ _id: lessonId, published: true });
+    if (!lessonExists) {
+      return NextResponse.json({ error: "Lesson not found" }, { status: 404 });
+    }
 
     // Check if already completed
     const user = await User.findById(session.user.id);

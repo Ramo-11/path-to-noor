@@ -4,15 +4,38 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useSession } from "next-auth/react";
 import { useRouter } from "@/i18n/navigation";
+import { Button } from "@/components/primer/Button";
+import { Notice } from "@/components/primer/Notice";
+import { PageIntro } from "@/components/primer/PageIntro";
+import { PLACEMENT_STORAGE_KEY, type StoredPlacement } from "@/lib/placement";
+import { isStageKey } from "@/lib/stages";
+
+type UserType = "revert" | "mentor";
+
+function hasStoredPlacement(): boolean {
+  try {
+    const raw = window.localStorage.getItem(PLACEMENT_STORAGE_KEY);
+    if (!raw) return false;
+    const parsed = JSON.parse(raw) as Partial<StoredPlacement>;
+    return Boolean(parsed && isStageKey(parsed.stage) && parsed.takenAt);
+  } catch {
+    return false;
+  }
+}
 
 export default function OnboardingPage() {
-  const t = useTranslations("auth");
+  const t = useTranslations("onboarding");
   const router = useRouter();
   const { update } = useSession();
 
-  const [userType, setUserType] = useState<"revert" | "mentor" | "">("");
+  const [userType, setUserType] = useState<UserType | "">("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  const options: Array<{ value: UserType; title: string; description: string }> = [
+    { value: "revert", title: t("revertTitle"), description: t("revertDescription") },
+    { value: "mentor", title: t("mentorTitle"), description: t("mentorDescription") },
+  ];
 
   async function handleSubmit() {
     if (!userType) return;
@@ -32,10 +55,14 @@ export default function OnboardingPage() {
         return;
       }
 
-      // Refresh the session so userType is available immediately
       await update({ userType });
-      // Navigate via client-side router to preserve the updated session
-      router.replace("/");
+
+      if (userType === "mentor") {
+        router.replace("/mentor");
+        return;
+      }
+
+      router.replace(hasStoredPlacement() ? "/" : "/start");
     } catch {
       setError(t("errorDefault"));
       setLoading(false);
@@ -43,74 +70,62 @@ export default function OnboardingPage() {
   }
 
   return (
-    <section className="py-12 sm:py-20">
-      <div className="max-w-md mx-auto px-4">
-        <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-8">
-          <div className="text-center mb-8">
-            <h1 className="font-heading text-2xl font-bold text-slate-900 dark:text-white">
-              {t("onboardingTitle")}
-            </h1>
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              {t("onboardingDescription")}
-            </p>
-          </div>
+    <div className="mx-auto w-full max-w-md px-4 sm:px-6">
+      <PageIntro title={t("title")} lead={t("lead")} />
 
-          <div>
-            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-3">
-              {t("iAmA")}
-            </label>
-            <div className="grid grid-cols-2 gap-3">
-              <button
-                type="button"
-                onClick={() => setUserType("revert")}
-                className={`flex flex-col items-center gap-1.5 px-4 py-4 rounded-lg border-2 text-sm font-medium transition-colors ${
-                  userType === "revert"
-                    ? "border-primary-600 bg-primary-50 dark:bg-primary-900/20 text-primary-700 dark:text-primary-300"
-                    : "border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-600"
+      <div className="pb-16 sm:pb-24">
+        <fieldset>
+          <legend className="mb-2 text-[0.9375rem] font-medium text-ink">
+            {t("legend")}
+          </legend>
+          <div className="primer-grid grid-cols-1">
+            {options.map((option) => (
+              <label
+                key={option.value}
+                className={`flex cursor-pointer items-start gap-4 px-5 py-6 transition-colors duration-150 ${
+                  userType === option.value ? "bg-wash" : "hover:bg-wash/60"
                 }`}
               >
-                <span className="text-base">{t("revert")}</span>
-                <span className="text-xs font-normal opacity-70">
-                  {t("revertDescription")}
+                <input
+                  type="radio"
+                  name="userType"
+                  value={option.value}
+                  checked={userType === option.value}
+                  onChange={() => setUserType(option.value)}
+                  className="mt-1 size-5 shrink-0 accent-ink"
+                />
+                <span>
+                  <span className="block text-heading font-semibold text-balance">
+                    {option.title}
+                  </span>
+                  <span className="mt-1 block text-body text-ink-2">
+                    {option.description}
+                  </span>
                 </span>
-              </button>
-              <button
-                type="button"
-                onClick={() => setUserType("mentor")}
-                className={`flex flex-col items-center gap-1.5 px-4 py-4 rounded-lg border-2 text-sm font-medium transition-colors ${
-                  userType === "mentor"
-                    ? "border-primary-600 bg-primary-50 dark:bg-primary-900/20 text-primary-700 dark:text-primary-300"
-                    : "border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-600"
-                }`}
-              >
-                <span className="text-base">{t("mentor")}</span>
-                <span className="text-xs font-normal opacity-70">
-                  {t("mentorDescription")}
-                </span>
-              </button>
-            </div>
+              </label>
+            ))}
           </div>
+        </fieldset>
 
-          {error && (
-            <div className="mt-4 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-lg px-3 py-2">
-              {error}
-            </div>
-          )}
+        {error ? (
+          <div className="mt-6">
+            <Notice tone="error">{error}</Notice>
+          </div>
+        ) : null}
 
-          <button
+        <div className="mt-8">
+          <Button
             type="button"
+            size="lg"
+            fullWidth
+            disabled={!userType}
+            loading={loading}
             onClick={handleSubmit}
-            disabled={!userType || loading}
-            className="mt-6 w-full px-6 py-2.5 bg-primary-600 hover:bg-primary-700 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
           >
-            {loading ? (
-              <span className="inline-block h-4 w-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-            ) : (
-              t("continue")
-            )}
-          </button>
+            {t("continue")}
+          </Button>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

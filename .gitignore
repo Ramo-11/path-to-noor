@@ -184,3 +184,6 @@ public/workbox-*.js.map
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+
+.impeccable/review/
+.impeccable/questions/

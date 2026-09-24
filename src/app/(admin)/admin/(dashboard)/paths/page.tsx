@@ -8,12 +8,14 @@ import { Pagination } from "@/components/admin/Pagination";
 import { StatusBadge } from "@/components/admin/StatusBadge";
 import { DataTable, type Column } from "@/components/admin/DataTable";
 import { PathDeleteButton } from "./PathDeleteButton";
+import { STAGE_NUMBER, STAGE_STYLES, type StageKey } from "@/lib/stages";
 
 interface SerializedPath {
   _id: string;
   title: { en: string; ar: string; es: string };
   slug: string;
-  difficulty: "beginner" | "intermediate" | "advanced";
+  stage: StageKey;
+  order: number;
   estimatedHours: number;
   modules: Array<{ moduleId: string; order: number }>;
   published: boolean;
@@ -21,13 +23,10 @@ interface SerializedPath {
   avgCompletion: number;
 }
 
-const difficultyColors: Record<string, string> = {
-  beginner:
-    "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400",
-  intermediate:
-    "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400",
-  advanced:
-    "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400",
+const STAGE_LABELS: Record<StageKey, string> = {
+  beginning: "Just beginning",
+  foundations: "Building the basics",
+  deeper: "Growing deeper",
 };
 
 const columns: Column<SerializedPath>[] = [
@@ -46,15 +45,14 @@ const columns: Column<SerializedPath>[] = [
     ),
   },
   {
-    key: "difficulty",
-    header: "Difficulty",
+    key: "stage",
+    header: "Stage",
     render: (item) => (
       <span
-        className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium capitalize ${
-          difficultyColors[item.difficulty] || ""
-        }`}
+        className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium ${STAGE_STYLES[item.stage].tint} ${STAGE_STYLES[item.stage].text}`}
       >
-        {item.difficulty}
+        Stage {STAGE_NUMBER[item.stage]}: {STAGE_LABELS[item.stage]}
+        <span className="text-[10px] opacity-70">#{item.order}</span>
       </span>
     ),
   },
@@ -163,7 +161,8 @@ export default async function PathsPage({
       _id: path._id.toString(),
       title: path.title,
       slug: path.slug,
-      difficulty: path.difficulty,
+      stage: path.stage,
+      order: path.order,
       estimatedHours: path.estimatedHours,
       modules: path.modules.map((m) => ({
         moduleId: m.moduleId.toString(),

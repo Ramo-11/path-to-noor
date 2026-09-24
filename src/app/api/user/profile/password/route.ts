@@ -9,7 +9,7 @@ import { changePasswordSchema } from "@/lib/validations";
 export async function PUT(request: NextRequest) {
   const session = await auth();
   if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
   const limit = rateLimit(
@@ -18,53 +18,37 @@ export async function PUT(request: NextRequest) {
     15 * 60 * 1000
   );
   if (!limit.success) {
-    return NextResponse.json(
-      { error: "Too many attempts. Please try again later." },
-      { status: 429 }
-    );
+    return NextResponse.json({ error: "rate_limited" }, { status: 429 });
   }
 
   try {
     const parsed = changePasswordSchema.safeParse(await request.json());
     if (!parsed.success) {
-      const fieldErrors = parsed.error.flatten().fieldErrors;
-      const firstError =
-        Object.values(fieldErrors).flat().find(Boolean) ||
-        "Invalid password change request";
-      return NextResponse.json({ error: firstError }, { status: 400 });
+      return NextResponse.json({ error: "invalid_input" }, { status: 400 });
     }
     const { currentPassword, newPassword } = parsed.data;
 
     await connectDB();
     const user = await User.findById(session.user.id).select("+password");
     if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
+      return NextResponse.json({ error: "not_found" }, { status: 404 });
     }
 
     if (!user.password) {
-      return NextResponse.json(
-        { error: "This account uses social login. Password cannot be changed." },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: "google_account" }, { status: 400 });
     }
 
     const isValid = await bcrypt.compare(currentPassword, user.password);
     if (!isValid) {
-      return NextResponse.json(
-        { error: "Current password is incorrect" },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: "wrong_password" }, { status: 400 });
     }
 
     user.password = await bcrypt.hash(newPassword, 12);
     await user.save();
 
-    return NextResponse.json({ message: "Password updated successfully" });
+    return NextResponse.json({ message: "password_updated" });
   } catch (error) {
     console.error("[API] PUT /user/profile/password error:", error);
-    return NextResponse.json(
-      { error: "Failed to update password" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "server_error" }, { status: 500 });
   }
 }

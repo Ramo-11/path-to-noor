@@ -1,0 +1,21 @@
+{
+  "label": "Stage {number}",
+  "yourStage": "Your stage",
+  "beginning": {
+    "name": "Just beginning",
+    "short": "Your first weeks: wudu, learning to pray, what you now believe.",
+    "long": "For the first weeks and months after your shahada. You will learn to make wudu, pray step by step, and understand the core of what you now believe."
+  },
+  "foundations": {
+    "name": "Building the basics",
+    "short": "Steady prayer, daily life, halal and haram.",
+    "long": "For when the first steps feel familiar. You will make prayer a steady habit, learn a few short surahs, and handle everyday questions about food, family, and work."
+  },
+  "deeper": {
+    "name": "Growing deeper",
+    "short": "The Quran, the Prophet's life, the companions.",
+    "long": "For when the basics are part of your life. You will go deeper into the Quran, the life of the Prophet, peace be upon him, and the people around him."
+  },
+  "preparing": "Paths for this stage are being prepared.",
+  "all": "All stages"
+}

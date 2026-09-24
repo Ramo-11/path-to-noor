@@ -1,0 +1,21 @@
+{
+  "label": "Etapa {number}",
+  "yourStage": "Tu etapa",
+  "beginning": {
+    "name": "Recién comenzando",
+    "short": "Tus primeras semanas: el wudu, aprender a rezar, lo que ahora crees.",
+    "long": "Para las primeras semanas y meses después de tu shahada. Aprenderás a hacer el wudu, a rezar paso a paso y lo esencial de lo que ahora crees."
+  },
+  "foundations": {
+    "name": "Construyendo las bases",
+    "short": "Oración constante, vida diaria, halal y haram.",
+    "long": "Para cuando los primeros pasos ya te resultan familiares. Harás de la oración un hábito constante, aprenderás algunas suras cortas y resolverás dudas cotidianas sobre comida, familia y trabajo."
+  },
+  "deeper": {
+    "name": "Profundizando",
+    "short": "El Corán, la vida del Profeta, los compañeros.",
+    "long": "Para cuando lo básico ya es parte de tu vida. Profundizarás en el Corán, la vida del Profeta, la paz sea con él, y las personas que lo rodearon."
+  },
+  "preparing": "Los caminos de esta etapa se están preparando.",
+  "all": "Todas las etapas"
+}

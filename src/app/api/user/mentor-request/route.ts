@@ -3,6 +3,7 @@ import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { MentorRequest } from "@/db/models/MentorRequest";
+import { mentorRequestCreateSchema } from "@/lib/validations";
 
 export async function GET() {
   const session = await auth();
@@ -15,8 +16,9 @@ export async function GET() {
 
     const mentorRequest = await MentorRequest.findOne({
       revertId: session.user.id,
-      status: { $in: ["pending", "assigned"] },
+      status: { $in: ["pending", "assigned", "rejected"] },
     })
+      .sort({ createdAt: -1 })
       .populate("mentorId", "name email")
       .lean();
 
@@ -64,10 +66,17 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json();
+    const parsed = mentorRequestCreateSchema.safeParse(body);
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: "Please check your message and try again" },
+        { status: 400 }
+      );
+    }
 
     const mentorRequest = await MentorRequest.create({
       revertId: session.user.id,
-      message: body.message || "",
+      message: parsed.data.message,
     });
 
     return NextResponse.json(
@@ -78,6 +87,39 @@ export async function POST(request: NextRequest) {
     console.error("[API] POST /user/mentor-request error:", error);
     return NextResponse.json(
       { error: "Failed to submit mentor request" },
+      { status: 500 }
+    );
+  }
+}
+
+export async function DELETE() {
+  const session = await auth();
+  if (!session?.user?.id) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  try {
+    await connectDB();
+
+    const mentorRequest = await MentorRequest.findOne({
+      revertId: session.user.id,
+      status: "pending",
+    });
+
+    if (!mentorRequest) {
+      return NextResponse.json(
+        { error: "No pending request to cancel" },
+        { status: 404 }
+      );
+    }
+
+    await mentorRequest.deleteOne();
+
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error("[API] DELETE /user/mentor-request error:", error);
+    return NextResponse.json(
+      { error: "Failed to cancel mentor request" },
       { status: 500 }
     );
   }

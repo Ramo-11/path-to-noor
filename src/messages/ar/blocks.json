@@ -1,0 +1,19 @@
+{
+  "opensInNewTab": "يُفتح في علامة تبويب جديدة",
+  "phraseLabel": "عبارة عربية",
+  "phraseArabic": "بالعربية",
+  "phraseTransliteration": "طريقة النطق",
+  "phraseMeaning": "المعنى",
+  "stepsTitle": "الخطوات",
+  "stepsHint": "ضع علامة على كل خطوة عندما تؤديها.",
+  "stepsCount": "أنجزت {done} من {total}",
+  "stepsAllDone": "{total, plural, one {أنجزت الخطوة.} two {أنجزت الخطوتين.} other {أنجزت جميع الخطوات.}} أحسنت.",
+  "stepsStartOver": "ابدأ من جديد",
+  "right": "إجابة صحيحة.",
+  "notQuite": "ليس تمامًا.",
+  "theAnswer": "الإجابة هي: {answer}",
+  "correctAnswer": "الإجابة",
+  "yourAnswer": "إجابتك",
+  "tryAgain": "حاول مرة أخرى",
+  "remember": "تذكّر"
+}

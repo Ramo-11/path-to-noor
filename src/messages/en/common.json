@@ -1,0 +1,23 @@
+{
+  "loading": "Loading",
+  "error": "Something went wrong",
+  "tryAgain": "Try again",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "save": "Save",
+  "saving": "Saving",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "close": "Close",
+  "search": "Search",
+  "noResults": "Nothing found",
+  "skip": "Skip",
+  "signIn": "Sign in",
+  "createAccount": "Create a free account",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "optional": "Optional",
+  "or": "or"
+}

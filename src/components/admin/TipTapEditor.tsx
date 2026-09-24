@@ -8,6 +8,7 @@ import { TextStyle } from "@tiptap/extension-text-style";
 import Color from "@tiptap/extension-color";
 import Image from "@tiptap/extension-image";
 import Youtube from "@tiptap/extension-youtube";
+import { LESSON_BLOCK_EXTENSIONS, InsertBlockToolbar } from "@/components/admin/lesson-blocks";
 import {
   Bold,
   Italic,
@@ -41,6 +42,7 @@ export function TipTapEditor({
   placeholder = "Start writing...",
 }: TipTapEditorProps) {
   const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState("");
   const [showVideoInput, setShowVideoInput] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -55,6 +57,7 @@ export function TipTapEditor({
       Color,
       Image.configure({ inline: false, allowBase64: false }),
       Youtube.configure({ inline: false }),
+      ...LESSON_BLOCK_EXTENSIONS,
     ],
     content: content as Record<string, unknown> | null,
     immediatelyRender: false,
@@ -73,6 +76,7 @@ export function TipTapEditor({
 
   async function handleImageUpload(file: File) {
     setUploading(true);
+    setUploadError("");
     try {
       const formData = new FormData();
       formData.append("file", file);
@@ -85,13 +89,13 @@ export function TipTapEditor({
       const data = await res.json();
 
       if (!res.ok) {
-        alert(data.error || "Upload failed");
+        setUploadError(data.error || "Upload failed");
         return;
       }
 
       editor!.chain().focus().setImage({ src: data.url }).run();
     } catch {
-      alert("Upload failed");
+      setUploadError("Upload failed");
     } finally {
       setUploading(false);
     }
@@ -280,6 +284,10 @@ export function TipTapEditor({
 
         <Separator />
 
+        <InsertBlockToolbar editor={editor} />
+
+        <Separator />
+
         <ToolbarButton
           onClick={() => editor.chain().focus().undo().run()}
           active={false}
@@ -297,6 +305,12 @@ export function TipTapEditor({
           <Redo className="h-4 w-4" />
         </ToolbarButton>
       </div>
+
+      {uploadError && (
+        <div className="px-4 py-1.5 text-xs text-red-600 dark:text-red-400 border-b border-slate-200 dark:border-slate-700 bg-red-50 dark:bg-red-900/20">
+          {uploadError}
+        </div>
+      )}
 
       {/* Editor */}
       <div className="relative">
