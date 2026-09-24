@@ -1,0 +1,357 @@
+{
+  "slug": "res-say-in-rukuu",
+  "minutes": 7,
+  "title": {
+    "en": "What to say when bowing (ruku)",
+    "ar": "ماذا تقول في الركوع",
+    "es": "Qué decir al inclinarte (ruku')"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "After you recite Al-Fatiha (and, in the first two rak'ahs, a short surah), you bow. This bowing is called *ruku*. As you go down you say *Allahu Akbar*, then you place your hands on your knees and keep your back level. Aisha (may Allah be pleased with her) described the Prophet Muhammad, peace be upon him, in ruku: \"When he bowed, he neither raised his head nor lowered it, but kept it in between.\" (Sahih Muslim 498)"
+      },
+      {
+        "phrase": {
+          "arabic": "اللَّهُ أَكْبَرُ",
+          "transliteration": "Allahu Akbar",
+          "meaning": "Allah is the Greatest."
+        }
+      },
+      {
+        "p": "There is no need to rush. Let your body settle before you say the words. The Prophet taught a man how to pray, telling him: \"then bow until you are at ease in bowing\" (Sahih al-Bukhari 757 and Sahih Muslim 397)."
+      },
+      {
+        "h": "What to say in ruku"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "transliteration": "Subhana Rabbiyal-'Adheem",
+          "meaning": "Glory be to my Lord, the Most Great."
+        }
+      },
+      {
+        "p": "Hudhayfah (may Allah be pleased with him) prayed with the Prophet and heard him say these words in his bowing (Sahih Muslim 772 and Sunan al-Tirmidhi 262). *Subhana* declares that Allah is far above any fault or weakness. *Rabbi* means \"my Lord\", the One who created you, owns you, and takes care of your affairs. *Al-'Adheem* means \"the Most Great\". The words echo the Quran:"
+      },
+      {
+        "quote": "So exalt the name of your Lord, the Most Great.",
+        "cite": "Quran 56:74 (Saheeh International translation)"
+      },
+      {
+        "p": "Bowing is an act of humility: your body lowers itself before Allah while your words declare His greatness. Slowing down and thinking about the meaning turns a quick movement into a real moment with Allah."
+      },
+      {
+        "p": "Most Muslims say it three times, and many scholars recommend not saying it fewer than three times. If you can only manage it once while you are learning, that is fine; add more as it becomes familiar."
+      },
+      {
+        "h": "Rising from ruku"
+      },
+      {
+        "p": "As you rise back up to standing, you say:"
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "Sami'allahu liman hamidah",
+          "meaning": "Allah hears the one who praises Him."
+        }
+      },
+      {
+        "p": "Then, once you are standing straight, you say:"
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "Rabbana wa lakal-hamd",
+          "meaning": "Our Lord, and to You belongs all praise."
+        }
+      },
+      {
+        "p": "Abu Hurayrah (may Allah be pleased with him) described the Prophet saying the first as he raised his back from bowing, and the second once he was standing (Sahih al-Bukhari 789, agreed upon)."
+      },
+      {
+        "p": "**Praying alone:** say both phrases. **Praying behind an imam:** the imam says *Sami'allahu liman hamidah* aloud, and you answer with *Rabbana wa lakal-hamd*, as the Prophet instructed (Sahih al-Bukhari 722 and 732). In the Shafi'i school the follower says both phrases quietly. Either way is fine; follow your local masjid."
+      },
+      {
+        "p": "You may hear slightly different wordings, such as *Rabbana lakal-hamd* or *Allahumma Rabbana wa lakal-hamd*. All of them are authentic (Sahih al-Bukhari 789, 795, and 796). The Prophet said about this moment that if the saying of any one of you coincides with that of the angels, all his past sins will be forgiven (Sahih al-Bukhari 796)."
+      },
+      {
+        "steps": {
+          "title": "Bowing, step by step",
+          "steps": [
+            "After your recitation, say Allahu Akbar and bow.",
+            "Place your hands on your knees and keep your back and head level.",
+            "Once you are still, say Subhana Rabbiyal-'Adheem (three times is common).",
+            "Rise back up to standing, saying Sami'allahu liman hamidah.",
+            "Standing straight, say Rabbana wa lakal-hamd.",
+            "Say Allahu Akbar and go down into prostration, which the next lesson covers."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "What do you say while you are bowing in ruku?",
+          "options": [
+            "Subhana Rabbiyal-'Adheem",
+            "Rabbighfir li",
+            "Ameen"
+          ],
+          "correct": 0,
+          "explanation": "In ruku you say Subhana Rabbiyal-'Adheem, \"Glory be to my Lord, the Most Great.\" Rabbighfir li is said between the two prostrations, and Ameen after Al-Fatiha."
+        }
+      },
+      {
+        "key": "In ruku: Subhana Rabbiyal-'Adheem. Rising: Sami'allahu liman hamidah. Standing: Rabbana wa lakal-hamd."
+      },
+      {
+        "p": "Videos of these words are in the \"Prayer video resources\" step. Next, you will learn what to say in prostration."
+      }
+    ],
+    "ar": [
+      {
+        "p": "بعد أن تقرأ الفاتحة، وتقرأ معها في الركعتين الأوليين ما تيسّر من القرآن، تركع. فتقول: الله أكبر وأنت تنحني، ثم تضع كفّيك على ركبتيك وتجعل ظهرك مستويًا. وقد وصفت عائشة رضي الله عنها ركوع النبي محمد صلى الله عليه وسلم فقالت: «وكان إذا ركع لم يُشْخِصْ رأسه ولم يُصَوِّبْهُ ولكن بَيْن ذلك» (صحيح مسلم 498)، أي لم يرفع رأسه ولم يخفضه، بل جعله مستويًا مع ظهره."
+      },
+      {
+        "phrase": {
+          "arabic": "اللَّهُ أَكْبَرُ",
+          "transliteration": "",
+          "meaning": "الله أكبر من كل شيء وأعظم."
+        }
+      },
+      {
+        "p": "ولا تستعجل، بل اطمئن في ركوعك حتى يستقر جسدك، فقد قال النبي صلى الله عليه وسلم لرجل يعلّمه الصلاة: «ثُمَّ ارْكَعْ حَتَّى تَطْمَئِنَّ رَاكِعًا» (صحيح البخاري 757 وصحيح مسلم 397)."
+      },
+      {
+        "h": "ما تقوله في الركوع"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "transliteration": "",
+          "meaning": "أنزّه ربي العظيم عن كل نقص وعيب."
+        }
+      },
+      {
+        "p": "روى حذيفة رضي الله عنه أنه صلّى مع النبي صلى الله عليه وسلم فسمعه يقول هذا في ركوعه (صحيح مسلم 772 وسنن الترمذي 262). ومعنى «سبحان»: تنزيه الله عن كل نقص، و«ربي»: خالقي ومالكي ومدبّر أمري، و«العظيم»: الذي له العظمة كلها. وفي القرآن:"
+      },
+      {
+        "quote": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+        "cite": "سورة الواقعة: 74"
+      },
+      {
+        "p": "والركوع خضوع وتواضع: ينحني بدنك بين يدي الله، ولسانك يعظّمه. وإذا تمهّلت وتدبّرت المعنى، صارت هذه الحركة القصيرة لحظة صادقة مع الله."
+      },
+      {
+        "p": "ويكرّرها أكثر المسلمين ثلاث مرات، ويستحب كثير من العلماء ألا يُنقص عن ثلاث. فإن لم تستطع في أول تعلّمك إلا مرة واحدة فلا حرج، وزد مع الوقت."
+      },
+      {
+        "h": "الرفع من الركوع"
+      },
+      {
+        "p": "إذا رفعت من الركوع إلى القيام تقول:"
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "",
+          "meaning": "يسمع الله من حمده ويستجيب له."
+        }
+      },
+      {
+        "p": "ثم إذا استويت قائمًا تقول:"
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "",
+          "meaning": "يا ربنا، ولك الحمد كله."
+        }
+      },
+      {
+        "p": "وقد وصف أبو هريرة رضي الله عنه صلاة النبي صلى الله عليه وسلم فقال: «ثم يقول: سَمِعَ اللَّه لِمَنْ حَمِدَهُ، حين يَرْفَعُ صُلْبَهُ من الرَّكْعَةِ، ثم يقول وهو قائم: ربنا ولك الحمد» (صحيح البخاري 789، متفق عليه)."
+      },
+      {
+        "p": "**إذا صلّيت منفردًا:** تقول الذكرين كليهما. **وإذا صلّيت خلف إمام:** يقول الإمام «سمع الله لمن حمده» جهرًا، وتقول أنت «ربنا ولك الحمد»، لقول النبي صلى الله عليه وسلم: «وإذا قال: سمع الله لمن حمده، فقولوا: ربنا ولك الحمد» (صحيح البخاري 722 و732). ويرى الشافعية أن المأموم يجمع بين الذكرين سرًّا. والأمر واسع، فاتّبع ما عليه مسجدك."
+      },
+      {
+        "p": "وقد تسمع صيغًا أخرى قريبة، مثل «رَبَّنَا لَكَ الْحَمْدُ» و«اللَّهُمَّ رَبَّنَا وَلَكَ الْحَمْدُ»، وكلها ثابتة (صحيح البخاري 789 و795 و796). وقال النبي صلى الله عليه وسلم في هذا الموضع: «فَإِنَّهُ مَنْ وَافَقَ قَوْلُهُ قَوْلَ الْمَلاَئِكَةِ غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (صحيح البخاري 796)."
+      },
+      {
+        "steps": {
+          "title": "الركوع خطوة بخطوة",
+          "steps": [
+            "بعد القراءة قل: الله أكبر، واركع.",
+            "ضع كفّيك على ركبتيك، واجعل ظهرك ورأسك مستويين.",
+            "إذا اطمأننت فقل: سبحان ربي العظيم، والغالب أن تقولها ثلاثًا.",
+            "ارفع إلى القيام قائلًا: سمع الله لمن حمده.",
+            "إذا استويت قائمًا فقل: ربنا ولك الحمد.",
+            "ثم قل: الله أكبر، واسجد، وهذا موضوع الدرس التالي."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "ماذا تقول وأنت راكع؟",
+          "options": [
+            "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+            "رَبِّ اغْفِرْ لِي",
+            "آمين"
+          ],
+          "correct": 0,
+          "explanation": "في الركوع تقول: سبحان ربي العظيم. أما «رب اغفر لي» فتقال بين السجدتين، و«آمين» بعد الفاتحة."
+        }
+      },
+      {
+        "key": "في الركوع: سبحان ربي العظيم. وعند الرفع: سمع الله لمن حمده. وبعد الاعتدال: ربنا ولك الحمد."
+      },
+      {
+        "p": "وتجد مقاطع لهذه الأذكار في خطوة «فيديوهات تعليم الصلاة». وفي الدرس التالي تتعلّم ما تقوله في السجود."
+      }
+    ],
+    "es": [
+      {
+        "p": "Después de recitar Al-Fatiha (y, en las dos primeras rak'at, una sura corta), te inclinas. Esta inclinación se llama *ruku'*. Mientras bajas dices *Al-lahu Akbar*, luego pones las manos sobre las rodillas y mantienes la espalda recta. Aisha (que Allah esté complacido con ella) describió que el Profeta Muhammad, la paz sea con él, al inclinarse no levantaba la cabeza ni la bajaba, sino que la dejaba en medio (Sahih Muslim 498)."
+      },
+      {
+        "phrase": {
+          "arabic": "اللَّهُ أَكْبَرُ",
+          "transliteration": "Al-lahu Akbar",
+          "meaning": "Allah es el más Grande."
+        }
+      },
+      {
+        "p": "No hace falta tener prisa. Deja que tu cuerpo se asiente antes de decir las palabras. El Profeta le enseñó a rezar a un hombre y le dijo que hiciera el ruku' hasta estar tranquilo en él (Sahih al-Bujari 757 y Sahih Muslim 397)."
+      },
+      {
+        "h": "Qué decir en el ruku'"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "transliteration": "Subhana Rabbiyal-'Adhim",
+          "meaning": "Gloria a mi Señor, el Grandioso."
+        }
+      },
+      {
+        "p": "Hudaifa (que Allah esté complacido con él) rezó con el Profeta y le oyó decir estas palabras en su inclinación (Sahih Muslim 772 y Sunan at-Tirmidhi 262). *Subhana* declara que Allah está por encima de cualquier defecto o debilidad. *Rabbi* significa «mi Señor», Aquel que te creó, te posee y se ocupa de tus asuntos. *Al-'Adhim* significa «el Grandioso». Estas palabras recuerdan al Corán:"
+      },
+      {
+        "quote": "Glorifica el nombre de tu Señor, el Grandioso.",
+        "cite": "Corán 56:74 (traducción de Isa García)"
+      },
+      {
+        "p": "Inclinarse es un acto de humildad: tu cuerpo se inclina ante Allah mientras tus palabras proclaman Su grandeza. Ir despacio y pensar en el significado convierte un movimiento rápido en un momento real con Allah."
+      },
+      {
+        "p": "La mayoría de los musulmanes lo dice tres veces, y muchos sabios recomiendan no decirlo menos de tres veces. Si mientras aprendes solo puedes decirlo una vez, está bien; añade más a medida que te resulte familiar."
+      },
+      {
+        "h": "Al levantarte del ruku'"
+      },
+      {
+        "p": "Mientras vuelves a ponerte de pie, dices:"
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "Sami'al-lahu liman hamidah",
+          "meaning": "Allah escucha a quien Lo alaba."
+        }
+      },
+      {
+        "p": "Después, ya de pie y erguido, dices:"
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "Rabbana wa lakal-hamd",
+          "meaning": "Señor nuestro, y a Ti pertenece toda alabanza."
+        }
+      },
+      {
+        "p": "Abu Huraira (que Allah esté complacido con él) describió que el Profeta decía lo primero al levantar la espalda de la inclinación, y lo segundo una vez de pie (Sahih al-Bujari 789, hadiz en el que coinciden al-Bujari y Muslim)."
+      },
+      {
+        "p": "**Si rezas solo:** di las dos frases. **Si rezas detrás de un imam:** el imam dice *Sami'al-lahu liman hamidah* en voz alta, y tú respondes *Rabbana wa lakal-hamd*, como indicó el Profeta (Sahih al-Bujari 722 y 732). En la escuela shafi'í, quien sigue al imam dice las dos frases en voz baja. Las dos formas están bien; sigue la práctica de tu mezquita local."
+      },
+      {
+        "p": "Puede que escuches formas un poco distintas, como *Rabbana lakal-hamd* o *Al-lahumma Rabbana wa lakal-hamd*. Todas son auténticas (Sahih al-Bujari 789, 795 y 796). El Profeta dijo sobre este momento que a quien sus palabras coincidan con las de los ángeles se le perdonarán sus faltas pasadas (Sahih al-Bujari 796)."
+      },
+      {
+        "steps": {
+          "title": "La inclinación paso a paso",
+          "steps": [
+            "Después de tu recitación, di Al-lahu Akbar e inclínate.",
+            "Pon las manos sobre las rodillas y mantén la espalda y la cabeza rectas.",
+            "Cuando estés quieto, di Subhana Rabbiyal-'Adhim (es habitual decirlo tres veces).",
+            "Vuelve a ponerte de pie diciendo Sami'al-lahu liman hamidah.",
+            "Ya erguido, di Rabbana wa lakal-hamd.",
+            "Di Al-lahu Akbar y baja a la postración, que verás en la próxima lección."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "¿Qué dices mientras estás inclinado en el ruku'?",
+          "options": [
+            "Subhana Rabbiyal-'Adhim",
+            "Rabbigfir li",
+            "Amín"
+          ],
+          "correct": 0,
+          "explanation": "En el ruku' dices Subhana Rabbiyal-'Adhim, «Gloria a mi Señor, el Grandioso». Rabbigfir li se dice entre las dos postraciones, y Amín después de Al-Fatiha."
+        }
+      },
+      {
+        "key": "En el ruku': Subhana Rabbiyal-'Adhim. Al levantarte: Sami'al-lahu liman hamidah. De pie: Rabbana wa lakal-hamd."
+      },
+      {
+        "p": "Hay videos de estas palabras en el paso «Recursos de video para la oración». A continuación aprenderás qué decir en la postración."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih Muslim 498",
+      "url": "https://hadeethenc.com/en/browse/hadith/5216"
+    },
+    {
+      "label": "Sunan Abi Dawud 730 (sahih)",
+      "url": "https://hadeethenc.com/en/browse/hadith/10902"
+    },
+    {
+      "label": "Sahih al-Bukhari 757 and Sahih Muslim 397 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3185"
+    },
+    {
+      "label": "Sunan al-Tirmidhi 262 (hasan sahih) and Sahih Muslim 772",
+      "url": "https://sunnah.com/tirmidhi:262"
+    },
+    {
+      "label": "Quran 56:74 (Saheeh International translation)",
+      "url": "https://quran.com/56/74"
+    },
+    {
+      "label": "Sahih al-Bukhari 789 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3105"
+    },
+    {
+      "label": "Sahih al-Bukhari 722 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/6029"
+    },
+    {
+      "label": "Sahih al-Bukhari 732",
+      "url": "https://sunnah.com/bukhari:732"
+    },
+    {
+      "label": "Sahih al-Bukhari 795",
+      "url": "https://sunnah.com/bukhari:795"
+    },
+    {
+      "label": "Sahih al-Bukhari 796",
+      "url": "https://sunnah.com/bukhari:796"
+    }
+  ],
+  "differenceNote": false
+}

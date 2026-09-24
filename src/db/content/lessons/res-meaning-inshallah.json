@@ -1,0 +1,307 @@
+{
+  "slug": "res-meaning-inshallah",
+  "minutes": 6,
+  "title": {
+    "en": "In sha Allah: if Allah wills",
+    "ar": "إن شاء الله: معناها وكيف نقولها",
+    "es": "In sha Allah: si Allah quiere"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "You will hear Muslims say *in sha Allah* many times a day. \"See you tomorrow, in sha Allah.\" \"I will call you after work, in sha Allah.\" It is one of the first phrases most new Muslims pick up. In this lesson you will learn what it means, where it comes from, and how to use it honestly."
+      },
+      {
+        "phrase": {
+          "arabic": "إِن شَآءَ ٱللَّهُ",
+          "transliteration": "In sha Allah",
+          "meaning": "If Allah wills"
+        }
+      },
+      {
+        "h": "What it means"
+      },
+      {
+        "p": "*In* means if. *Sha* means wills. *Allah* is the Arabic word for God, the One God. Put together, *in sha Allah* means if Allah wills."
+      },
+      {
+        "p": "When you say it about a plan, you are saying two things at once: I really intend to do this, and it will only happen if Allah wills it. That is not doubt or gloom. It is simply honest. You make the plan and do your part, and the outcome belongs to Allah."
+      },
+      {
+        "h": "Where it comes from"
+      },
+      {
+        "p": "The Quran teaches this phrase directly. Allah says to the Prophet Muhammad, peace be upon him, and through him to every believer:"
+      },
+      {
+        "quote": "And never say of anything, \"Indeed, I will do that tomorrow,\" Except [when adding], \"If Allah wills.\" And remember your Lord when you forget [it] and say, \"Perhaps my Lord will guide me to what is nearer than this to right conduct.\"",
+        "cite": "Quran 18:23-24 (Saheeh International translation)"
+      },
+      {
+        "p": "Scholars of Quran explanation (*tafsir*) say these verses are about something you have decided to do: you connect your words to Allah's will by saying *in sha Allah*. And if you forget to say it, you say it when you remember. You simply remember Allah and carry on."
+      },
+      {
+        "p": "Later in the same chapter, the Prophet Musa (Moses), peace be upon him, uses the phrase himself when he promises to be patient:"
+      },
+      {
+        "quote": "[Moses] said, \"You will find me, if Allah wills, patient, and I will not disobey you in [any] order.\"",
+        "cite": "Quran 18:69 (Saheeh International translation)"
+      },
+      {
+        "p": "The Prophet Muhammad spoke this way too. When he fasted the day of Ashura (the tenth day of the month of Muharram), he said that the next year, *in sha Allah*, he would fast the ninth day. He passed away before that year came (Sahih Muslim 1134). His plan was real, and he left the outcome with Allah."
+      },
+      {
+        "h": "Say it and mean it"
+      },
+      {
+        "p": "Because *in sha Allah* is tied to a real intention, it should not become a polite way of saying no. Sometimes people answer an invitation with \"in sha Allah\" when they already know they will not go. The other person hears a yes, and later feels let down."
+      },
+      {
+        "p": "Islam asks you to be truthful in small things as well as big ones. The Prophet said:"
+      },
+      {
+        "quote": "Adhere to truthfulness, for truthfulness leads to righteousness, and righteousness leads to Paradise.",
+        "cite": "Sahih al-Bukhari 6094 and Sahih Muslim 2607 (agreed upon)"
+      },
+      {
+        "steps": {
+          "title": "Using in sha Allah well",
+          "steps": [
+            "Say it when you truly intend to do something in the future.",
+            "Then do your part: set the reminder, make the effort, show up.",
+            "If your answer is no, say no kindly. \"I can't make it, but thank you\" is more honest.",
+            "If you forget to say it, say it when you remember.",
+            "If plans change despite your effort, accept it calmly. The outcome was always with Allah."
+          ]
+        }
+      },
+      {
+        "p": "A small note: the Spanish word *ojalá* comes from an Arabic phrase once used in al-Andalus (Muslim Spain), *law sha Allah*, built on the same words. If you speak Spanish, you may have been saying a relative of this phrase all your life."
+      },
+      {
+        "quick": {
+          "question": "A friend invites you to dinner on Friday, and you already know you cannot go. What is the most honest reply?",
+          "options": [
+            "Say \"in sha Allah\" so they feel good",
+            "Thank them and kindly say you cannot come",
+            "Do not reply at all"
+          ],
+          "correct": 1,
+          "explanation": "In sha Allah is for things you truly intend to do. When the answer is no, a kind and clear no is the honest choice, and it respects your friend."
+        }
+      },
+      {
+        "key": "Say in sha Allah about what you truly intend to do. Then do your part, and leave the outcome with Allah."
+      },
+      {
+        "p": "Next, you will learn *Subhan Allah*, a phrase for moments of wonder."
+      }
+    ],
+    "ar": [
+      {
+        "p": "تسمع المسلمين يقولون «إن شاء الله» مرات كثيرة في اليوم: «أراك غدا إن شاء الله»، «سأتصل بك بعد العمل إن شاء الله». وهي من أوائل العبارات التي يتعلمها المسلم الجديد. في هذا الدرس تتعرف على معناها، وأصلها في القرآن، وكيف تقولها بصدق."
+      },
+      {
+        "phrase": {
+          "arabic": "إِن شَآءَ ٱللَّهُ",
+          "transliteration": "In sha Allah",
+          "meaning": "أي: إذا أراد الله ذلك"
+        }
+      },
+      {
+        "h": "معناها"
+      },
+      {
+        "p": "«إنْ» أداة شرط، و«شاء» بمعنى أراد، و«الله» هو اسم الإله الواحد سبحانه. فمعنى العبارة: إذا أراد الله ذلك."
+      },
+      {
+        "p": "وحين تقولها عن أمر تنوي فعله فأنت تقول شيئين معا: إني أعزم على هذا حقا، ولن يقع إلا إذا شاء الله. وليس في هذا تردد ولا تشاؤم، بل هو صدق مع الواقع: أنت تخطط وتعمل ما عليك، والنتيجة بيد الله."
+      },
+      {
+        "h": "أصلها في القرآن"
+      },
+      {
+        "p": "علّم الله هذه العبارة النبيَّ محمدا صلى الله عليه وسلم، ومن خلاله كلَّ مؤمن، فقال تعالى:"
+      },
+      {
+        "quote": "وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌۭ ذَٰلِكَ غَدًا إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًۭا",
+        "cite": "سورة الكهف، الآيتان 23 و24"
+      },
+      {
+        "p": "أي: لا تقل عن شيء عزمت على فعله: إني فاعله غدا، إلا أن تعلّق قولك بمشيئة الله فتقول: إن شاء الله. وإذا نسيت أن تقولها فاذكر ربك وقلها حين تتذكر، ثم امض في شأنك."
+      },
+      {
+        "p": "وفي السورة نفسها قالها موسى عليه السلام حين وعد بالصبر:"
+      },
+      {
+        "quote": "قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًۭا وَلَآ أَعْصِى لَكَ أَمْرًۭا",
+        "cite": "سورة الكهف، الآية 69"
+      },
+      {
+        "p": "وكان النبي صلى الله عليه وسلم يقولها كذلك. فحين صام يوم عاشوراء، وهو اليوم العاشر من شهر المحرم، قال:"
+      },
+      {
+        "quote": "فإذا كان العام المقبل إن شاء الله صمنا اليوم التاسع",
+        "cite": "صحيح مسلم 1134"
+      },
+      {
+        "p": "ثم توفي صلى الله عليه وسلم قبل أن يأتي العام المقبل. كانت نيته صادقة، وترك النتيجة لله."
+      },
+      {
+        "h": "قلها وأنت تعنيها"
+      },
+      {
+        "p": "ولأن «إن شاء الله» مرتبطة بنية حقيقية، فلا ينبغي أن تصبح طريقة مهذبة للرفض. فبعض الناس يجيب عن دعوة بقول «إن شاء الله» وهو يعلم أنه لن يذهب، فيفهم صاحبه أنه موافق، ثم يشعر بالخيبة بعد ذلك."
+      },
+      {
+        "p": "والإسلام يطلب منك الصدق في الأمور الصغيرة والكبيرة. قال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "عَلَيْكُمْ بِالصِّدْقِ، فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ، وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ",
+        "cite": "متفق عليه: صحيح البخاري 6094، وصحيح مسلم 2607"
+      },
+      {
+        "steps": {
+          "title": "كيف تقول «إن شاء الله» كما ينبغي",
+          "steps": [
+            "قلها حين تنوي فعلا أن تفعل شيئا في المستقبل.",
+            "ثم اعمل ما عليك: ضع تذكيرا، وابذل الجهد، واحضر في الموعد.",
+            "إن كان جوابك لا، فقلها بلطف. «لن أستطيع الحضور، وشكرا لك» أصدق من وعد لا تنوي الوفاء به.",
+            "إن نسيت أن تقولها، فقلها حين تتذكر.",
+            "إن تغيرت الخطط رغم جهدك، فتقبل ذلك بهدوء، فالنتيجة كانت دائما بيد الله."
+          ]
+        }
+      },
+      {
+        "p": "ومن الطريف أن كلمة «ojalá» الإسبانية أصلها عبارة عربية كانت تقال في الأندلس: «لو شاء الله»، وهي مبنية على الكلمات نفسها. فكثير من الناطقين بالإسبانية يقولون قريبا من هذه العبارة طوال حياتهم."
+      },
+      {
+        "quick": {
+          "question": "دعاك صديق إلى العشاء يوم الجمعة، وأنت تعلم أنك لن تستطيع الحضور. ما الجواب الأصدق؟",
+          "options": [
+            "أن تقول «إن شاء الله» ليرتاح",
+            "أن تشكره وتعتذر بلطف",
+            "ألا ترد أبدا"
+          ],
+          "correct": 1,
+          "explanation": "«إن شاء الله» لما تنوي فعله حقا. فإن كان الجواب لا، فالاعتذار اللطيف الواضح هو الصدق، وفيه احترام لصديقك."
+        }
+      },
+      {
+        "key": "قل «إن شاء الله» عما تنوي فعله حقا، ثم اعمل ما عليك، واترك النتيجة لله."
+      },
+      {
+        "p": "في الدرس القادم تتعرف على «سبحان الله»، عبارة لحظات الدهشة والتأمل."
+      }
+    ],
+    "es": [
+      {
+        "p": "Vas a escuchar a los musulmanes decir *in sha Allah* muchas veces al día: \"Nos vemos mañana, in sha Allah\". \"Te llamo después del trabajo, in sha Allah\". Es una de las primeras frases que aprende la mayoría de los nuevos musulmanes. En esta lección verás qué significa, de dónde viene y cómo usarla con honestidad."
+      },
+      {
+        "phrase": {
+          "arabic": "إِن شَآءَ ٱللَّهُ",
+          "transliteration": "In sha Allah",
+          "meaning": "Si Allah quiere"
+        }
+      },
+      {
+        "h": "Qué significa"
+      },
+      {
+        "p": "*In* significa si. *Sha* significa quiere. *Allah* es la palabra árabe para Dios, el Dios Único. Juntas, estas palabras significan: si Allah quiere."
+      },
+      {
+        "p": "Cuando la dices sobre un plan, dices dos cosas a la vez: de verdad tengo la intención de hacerlo, y solo ocurrirá si Allah lo quiere. No es duda ni pesimismo. Es simplemente honestidad. Tú haces el plan y cumples con tu parte, y el resultado pertenece a Allah."
+      },
+      {
+        "h": "De dónde viene"
+      },
+      {
+        "p": "El Corán enseña esta frase directamente. Allah le dice al Profeta Muhammad, la paz sea con él, y a través de él a todo creyente:"
+      },
+      {
+        "quote": "No digas acerca de algo: \"¡Haré tal cosa!\" Salvo que agregues: \"¡Si Dios quiere!\" Pero si te olvidas de mencionar a tu Señor, invoca su nombre y reza diciendo: \"Ruego a mi Señor que me guíe a la vía más recta\".",
+        "cite": "Corán 18:23-24 (traducción de Isa García)"
+      },
+      {
+        "p": "En esta traducción, Dios es Allah. Los sabios de la explicación del Corán (*tafsir*) dicen que estos versículos tratan de algo que ya decidiste hacer: unes tus palabras a la voluntad de Allah diciendo *in sha Allah*. Y si olvidas decirla, la dices cuando lo recuerdes. Simplemente recuerdas a Allah y sigues adelante."
+      },
+      {
+        "p": "Más adelante en el mismo capítulo, el profeta Musa (Moisés), la paz sea con él, usa la frase cuando promete ser paciente:"
+      },
+      {
+        "quote": "Dijo: \"Si Dios quiere, verás que seré paciente y no te desobedeceré\".",
+        "cite": "Corán 18:69 (traducción de Isa García)"
+      },
+      {
+        "p": "El Profeta Muhammad también hablaba así. Cuando ayunó el día de Ashura (el décimo día del mes de Muharram), dijo que el año siguiente, *in sha Allah*, ayunaría el día noveno. Falleció antes de que llegara ese año (Sahih Muslim 1134). Su plan era real, y dejó el resultado en manos de Allah."
+      },
+      {
+        "h": "Dila en serio"
+      },
+      {
+        "p": "Como *in sha Allah* va unida a una intención real, no debería convertirse en una forma educada de decir que no. A veces la gente responde a una invitación con \"in sha Allah\" cuando ya sabe que no irá. La otra persona entiende un sí, y después se siente decepcionada."
+      },
+      {
+        "p": "El islam te pide ser veraz en lo pequeño y en lo grande. El Profeta dijo:"
+      },
+      {
+        "quote": "Sean honestos y veraces, porque la verdad conduce a las buenas acciones y las buenas acciones conducen al Paraíso.",
+        "cite": "Sahih al-Bujari 6094 y Sahih Muslim 2607"
+      },
+      {
+        "steps": {
+          "title": "Cómo usar bien in sha Allah",
+          "steps": [
+            "Dila cuando de verdad tengas la intención de hacer algo en el futuro.",
+            "Luego cumple con tu parte: pon el recordatorio, haz el esfuerzo, llega a tiempo.",
+            "Si tu respuesta es no, dilo con amabilidad. \"No podré ir, pero gracias\" es más honesto.",
+            "Si olvidas decirla, dila cuando lo recuerdes.",
+            "Si los planes cambian a pesar de tu esfuerzo, acéptalo con calma. El resultado siempre estuvo en manos de Allah."
+          ]
+        }
+      },
+      {
+        "p": "Un detalle curioso: la palabra *ojalá* viene de una expresión árabe que se usaba en al-Ándalus, *law sha Allah*, formada con las mismas palabras. Si hablas español, quizás llevas toda la vida diciendo un pariente de esta frase."
+      },
+      {
+        "quick": {
+          "question": "Un amigo te invita a cenar el viernes y ya sabes que no podrás ir. ¿Cuál es la respuesta más honesta?",
+          "options": [
+            "Decir \"in sha Allah\" para que se sienta bien",
+            "Darle las gracias y decirle con amabilidad que no podrás ir",
+            "No responder"
+          ],
+          "correct": 1,
+          "explanation": "In sha Allah es para lo que de verdad piensas hacer. Cuando la respuesta es no, un no amable y claro es lo honesto, y respeta a tu amigo."
+        }
+      },
+      {
+        "key": "Di in sha Allah sobre lo que de verdad piensas hacer. Luego cumple con tu parte y deja el resultado en manos de Allah."
+      },
+      {
+        "p": "A continuación aprenderás *Subhan Allah*, una frase para los momentos de asombro."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 18:23-24 (Saheeh International translation)",
+      "url": "https://quran.com/18/23-24"
+    },
+    {
+      "label": "Quran 18:69 (Saheeh International translation)",
+      "url": "https://quran.com/18/69"
+    },
+    {
+      "label": "Sahih Muslim 1134 (planning to fast the ninth day, in sha Allah)",
+      "url": "https://hadeethenc.com/ar/browse/hadith/65522"
+    },
+    {
+      "label": "Sahih al-Bukhari 6094 and Sahih Muslim 2607 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5504"
+    }
+  ],
+  "differenceNote": false
+}

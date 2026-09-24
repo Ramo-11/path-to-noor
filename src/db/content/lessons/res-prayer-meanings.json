@@ -1,0 +1,412 @@
+{
+  "slug": "res-prayer-meanings",
+  "minutes": 8,
+  "title": {
+    "en": "The meaning of what we say in prayer",
+    "ar": "معاني ما نقوله في الصلاة",
+    "es": "El significado de lo que decimos en la oración"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Many new Muslims learn the words of the prayer before they know what they mean. That is completely normal. But once you know the meaning, the prayer starts to change: it stops being a list of sounds and becomes a conversation with Allah. This lesson goes through the main phrases, one by one."
+      },
+      {
+        "quote": "Certainly will the believers have succeeded: They who are during their prayer humbly submissive",
+        "cite": "Quran 23:1-2 (Saheeh International translation of the meaning)"
+      },
+      {
+        "p": "This humble, focused heart in prayer is called *khushu*. It grows slowly, as your understanding grows. Nobody starts with it complete, so be patient with yourself."
+      },
+      {
+        "h": "Allahu Akbar: Allah is greater"
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ",
+          "transliteration": "Allahu Akbar",
+          "meaning": "Allah is the Greatest: greater than anything else."
+        }
+      },
+      {
+        "p": "You say this to begin the prayer and with almost every movement. It reminds you that Allah is greater than everything on your mind: your worries, your plans, your phone. The Prophet Muhammad, peace be upon him, said that the key to prayer is purification, that it begins with the takbir, and that it ends with the taslim (Tirmidhi and Abu Dawud, hasan sahih). The opening *Allahu Akbar* closes the door on ordinary talk and activity, and the taslim at the end opens it again."
+      },
+      {
+        "h": "In ruku: glorifying your Lord"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "transliteration": "Subhana Rabbiyal-'Adheem",
+          "meaning": "Glory be to my Lord, the Most Great."
+        }
+      },
+      {
+        "p": "*Subhana* means declaring Allah far above every flaw and every weakness. The Prophet said, \"While bowing, glorify the Lord\" (Muslim). Your body bows in respect, and your words explain why: your Lord is the Most Great."
+      },
+      {
+        "h": "Rising: Allah hears you"
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "Sami'allahu liman hamidah",
+          "meaning": "Allah hears the one who praises Him."
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "Rabbana wa lakal-hamd",
+          "meaning": "Our Lord, and to You belongs all praise."
+        }
+      },
+      {
+        "p": "The first phrase is good news: Allah hears whoever praises Him, meaning He responds to them. The second is your answer: you praise Him. The Prophet told his companions that when they answer in this way, \"Allah will hear you\" (Muslim)."
+      },
+      {
+        "h": "In sujud: nearest to Allah"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "transliteration": "Subhana Rabbiyal-A'la",
+          "meaning": "Glory be to my Lord, the Most High."
+        }
+      },
+      {
+        "p": "In prostration, your forehead is at its lowest point, and you praise Allah as the Most High. It is also the moment of greatest closeness. The Prophet said, \"The nearest a servant comes to his Lord is when he is prostrating, so make plenty of supplication\" (Muslim). He also said that in sujud you should strive in supplication, \"for it is most likely that your supplications would be answered\" (Muslim). After the glorification, this is a good moment to ask Allah for what you need."
+      },
+      {
+        "h": "The tashahhud and the taslim"
+      },
+      {
+        "p": "In the tashahhud, you give all greetings of honor, all prayers, and all good things to Allah. You greet the Prophet with peace, ask for peace for yourself and for every righteous servant of Allah, and renew your shahada. Then comes the taslim."
+      },
+      {
+        "phrase": {
+          "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "transliteration": "As-salamu alaykum wa rahmatullah",
+          "meaning": "Peace be upon you and the mercy of Allah."
+        }
+      },
+      {
+        "p": "You end the prayer with the same greeting Muslims give one another. Turning right and left, you wish peace and mercy on those around you, and you carry that peace back into your day."
+      },
+      {
+        "h": "Praying as if you see Him"
+      },
+      {
+        "p": "When the angel Jibril (Gabriel), peace be upon him, asked the Prophet about *ihsan* (excellence in worship), the Prophet answered: \"That you worship Allah as if you see Him, and if you do not see Him, He sees you\" (Bukhari and Muslim). A few small habits help this grow:"
+      },
+      {
+        "ul": [
+          "Learn one meaning at a time. This week, try to think of the meaning each time you say *Allahu Akbar*.",
+          "Slow down. Calm, unhurried movements leave room for your heart to catch up with your words.",
+          "If your mind wanders, gently bring it back. Every return is part of the practice."
+        ]
+      },
+      {
+        "quick": {
+          "question": "What does Subhana Rabbiyal-A'la mean?",
+          "options": [
+            "Allah hears the one who praises Him",
+            "Glory be to my Lord, the Most High",
+            "Peace be upon you and the mercy of Allah"
+          ],
+          "correct": 1,
+          "explanation": "Subhana Rabbiyal-A'la, said in sujud, means \"Glory be to my Lord, the Most High.\" The first option is the meaning of Sami'allahu liman hamidah, and the third is the taslim."
+        }
+      },
+      {
+        "key": "Prayer is a conversation: you declare Allah's greatness, glorify and praise Him, ask of Him, greet His Prophet, and leave with peace. Knowing the meaning helps your heart follow your words."
+      },
+      {
+        "p": "Next, you will learn the adhan, the call that invites you to prayer five times a day, and what each of its words means."
+      }
+    ],
+    "ar": [
+      {
+        "p": "كثير من المسلمين الجدد يحفظون ألفاظ الصلاة قبل أن يعرفوا معانيها، وهذا أمر طبيعي تمامًا. لكنك حين تعرف المعنى تتغير صلاتك: فلا تبقى أصواتًا متتابعة، بل تصير مناجاة بينك وبين الله. يمرّ هذا الدرس على أهم الأذكار واحدًا بعد واحد."
+      },
+      {
+        "quote": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ (1) ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ (2)",
+        "cite": "سورة المؤمنون: 1-2"
+      },
+      {
+        "p": "أي: قد فاز المؤمنون الذين من صفاتهم أنهم خاشعون في صلاتهم، تتفرغ لها قلوبهم وتسكن جوارحهم. وهذا الحضور الخاشع يُسمّى **الخشوع**، وهو ينمو شيئًا فشيئًا كلما ازداد فهمك. لا أحد يبدأ به كاملًا، فكن صبورًا مع نفسك."
+      },
+      {
+        "h": "الله أكبر: الله أعظم من كل شيء"
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ",
+          "transliteration": "",
+          "meaning": "الله أعظم وأجلّ من كل شيء."
+        }
+      },
+      {
+        "p": "تقولها لتبدأ الصلاة، ومع كل حركة تقريبًا. وهي تذكّرك بأن الله أكبر من كل ما يشغل بالك: همومك وخططك وهاتفك. وقد قال النبي محمد صلى الله عليه وسلم: «مِفْتَاحُ الصَّلاَةِ الطُّهُورُ وَتَحْرِيمُهَا التَّكْبِيرُ وَتَحْلِيلُهَا التَّسْلِيمُ» (رواه الترمذي وأبو داود، وهو حسن صحيح). فتكبيرة الإحرام تُغلق الباب على الكلام والأعمال العادية، والتسليم في آخر الصلاة يفتحه من جديد."
+      },
+      {
+        "h": "في الركوع: تعظيم الرب"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "transliteration": "",
+          "meaning": "أنزّه ربي العظيم عن كل نقص وعيب."
+        }
+      },
+      {
+        "p": "معنى «سبحان» تنزيه الله عن كل نقص وضعف. وقد قال النبي صلى الله عليه وسلم: «فأما الرُّكوع فعظِّموا فيه الرَّب عز وجل» (رواه مسلم). فجسدك ينحني تعظيمًا، ولسانك يبيّن السبب: ربك هو العظيم."
+      },
+      {
+        "h": "الرفع من الركوع: الله يسمعك"
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "",
+          "meaning": "يسمع الله من حمده ويستجيب له."
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "",
+          "meaning": "يا ربنا، ولك الحمد كله."
+        }
+      },
+      {
+        "p": "الجملة الأولى بشارة: الله يسمع من يحمده، أي يستجيب له. والثانية جوابك: أنت تحمده. وقد أخبر النبي صلى الله عليه وسلم أصحابه أنهم إذا أجابوا بالحمد سمع الله لهم (رواه مسلم)."
+      },
+      {
+        "h": "في السجود: أقرب ما تكون إلى الله"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "transliteration": "",
+          "meaning": "أنزّه ربي الأعلى فوق كل شيء عن كل نقص."
+        }
+      },
+      {
+        "p": "في السجود تكون جبهتك في أدنى موضع، وأنت تصف الله بأنه الأعلى. وهي أيضًا لحظة القرب الأعظم؛ قال النبي صلى الله عليه وسلم: «أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ فَأَكْثِرُوا الدُّعَاءَ» (رواه مسلم)، وأمر أن نجتهد في الدعاء في السجود لأنه حريّ أن يُستجاب لنا (رواه مسلم). فبعد التسبيح، هذا وقت مناسب لتسأل الله حاجتك."
+      },
+      {
+        "h": "التشهد والتسليم"
+      },
+      {
+        "p": "في التشهد تجعل كل التحيات والصلوات والطيبات لله، ثم تسلّم على النبي صلى الله عليه وسلم، وتدعو بالسلامة لنفسك ولكل عبد صالح، وتجدد شهادتك. ثم يأتي التسليم."
+      },
+      {
+        "phrase": {
+          "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "transliteration": "",
+          "meaning": "السلام عليكم ورحمة الله."
+        }
+      },
+      {
+        "p": "تختم صلاتك بالتحية نفسها التي يتبادلها المسلمون. تلتفت يمينًا ويسارًا داعيًا بالسلام والرحمة لمن حولك، وتحمل هذا السلام معك إلى بقية يومك."
+      },
+      {
+        "h": "أن تعبد الله كأنك تراه"
+      },
+      {
+        "p": "حين سأل جبريل عليه السلام النبيَّ صلى الله عليه وسلم عن **الإحسان** قال: «أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ» (رواه البخاري ومسلم). وهذه عادات صغيرة تعين على ذلك:"
+      },
+      {
+        "ul": [
+          "تعلّم معنى واحدًا في كل مرة. في هذا الأسبوع حاول أن تستحضر معنى «الله أكبر» كلما قلتها.",
+          "تمهّل؛ فالحركات الهادئة تترك لقلبك فرصة ليلحق بلسانك.",
+          "إذا شرد ذهنك فأعده برفق، فكل عودة جزء من التدرّب."
+        ]
+      },
+      {
+        "quick": {
+          "question": "ما معنى «سبحان ربي الأعلى»؟",
+          "options": [
+            "يسمع الله من حمده",
+            "أنزّه ربي الأعلى عن كل نقص",
+            "السلام عليكم ورحمة الله"
+          ],
+          "correct": 1,
+          "explanation": "«سبحان ربي الأعلى» تقال في السجود، ومعناها تنزيه الله الأعلى عن كل نقص. أما الخيار الأول فهو معنى «سمع الله لمن حمده»، والثالث هو التسليم."
+        }
+      },
+      {
+        "key": "الصلاة مناجاة: تعلن فيها عظمة الله، وتسبّحه وتحمده، وتسأله، وتسلّم على نبيه، ثم تخرج منها بالسلام. ومعرفة المعنى تعين قلبك على أن يتبع لسانك."
+      },
+      {
+        "p": "في الدرس القادم ستتعرف على الأذان، النداء الذي يدعوك إلى الصلاة خمس مرات في اليوم، وعلى معنى كل كلمة فيه."
+      }
+    ],
+    "es": [
+      {
+        "p": "Muchos musulmanes nuevos aprenden las palabras de la oración antes de saber lo que significan. Es completamente normal. Pero cuando conoces el significado, la oración empieza a cambiar: deja de ser una serie de sonidos y se convierte en una conversación con Allah. Esta lección repasa las frases principales, una por una."
+      },
+      {
+        "quote": "Bienaventurados los creyentes que en sus oraciones son humildes [ante Dios],",
+        "cite": "Corán 23:1-2 (traducción del significado de Isa García)"
+      },
+      {
+        "p": "Este corazón humilde y concentrado en la oración se llama *jushu'*. Crece poco a poco, a medida que crece tu comprensión. Nadie empieza con él completo, así que ten paciencia contigo."
+      },
+      {
+        "h": "Al-lahu Akbar: Allah es más grande"
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ",
+          "transliteration": "Al-lahu Akbar",
+          "meaning": "Allah es el más grande: más grande que cualquier otra cosa."
+        }
+      },
+      {
+        "p": "Lo dices para empezar la oración y con casi cada movimiento. Te recuerda que Allah es más grande que todo lo que ocupa tu mente: tus preocupaciones, tus planes, tu teléfono. El Profeta Muhammad, la paz sea con él, dijo que la llave de la oración es la purificación, que comienza con el takbir y que termina con el taslim (Tirmidhi y Abu Dawud, hasan sahih). El *Al-lahu Akbar* inicial cierra la puerta a la conversación y las actividades comunes, y el taslim final la vuelve a abrir."
+      },
+      {
+        "h": "En el ruku': glorificar a tu Señor"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "transliteration": "Subhana Rabbiyal-'Adhim",
+          "meaning": "Gloria a mi Señor, el Grandioso."
+        }
+      },
+      {
+        "p": "*Subhana* significa declarar que Allah está muy por encima de todo defecto y de toda debilidad. El Profeta dijo: \"En el ruku', glorifiquen al Señor\" (Muslim). Tu cuerpo se inclina con respeto, y tus palabras explican por qué: tu Señor es el Grandioso."
+      },
+      {
+        "h": "Al levantarte: Allah te escucha"
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "Sami'al-lahu liman hamidah",
+          "meaning": "Allah escucha a quien Lo alaba."
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "Rabbana wa lakal-hamd",
+          "meaning": "Señor nuestro, y a Ti pertenece toda alabanza."
+        }
+      },
+      {
+        "p": "La primera frase es una buena noticia: Allah escucha a quien Lo alaba, es decir, le responde. La segunda es tu respuesta: Lo alabas. El Profeta dijo a sus compañeros que, cuando responden así, \"Allah los escuchará\" (Muslim)."
+      },
+      {
+        "h": "En el suyud: lo más cerca de Allah"
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "transliteration": "Subhana Rabbiyal-A'la",
+          "meaning": "Gloria a mi Señor, el Altísimo."
+        }
+      },
+      {
+        "p": "En la postración, tu frente está en su punto más bajo, y alabas a Allah como el Altísimo. También es el momento de mayor cercanía. El Profeta dijo: \"Lo más cerca que está un siervo de su Señor es cuando está postrado, así que supliquen mucho\" (Muslim). También dijo que en el suyud hay que esforzarse en la súplica, porque es muy probable que sea respondida (Muslim). Después de la glorificación, es un buen momento para pedirle a Allah lo que necesitas."
+      },
+      {
+        "h": "El tashahhud y el taslim"
+      },
+      {
+        "p": "En el tashahhud das a Allah todos los saludos de honor, todas las oraciones y todas las cosas buenas. Saludas al Profeta con la paz, pides paz para ti y para cada siervo virtuoso de Allah, y renuevas tu shahada. Después llega el taslim."
+      },
+      {
+        "phrase": {
+          "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "transliteration": "As-salamu alaykum wa rahmatul-lah",
+          "meaning": "La paz sea con ustedes y la misericordia de Allah."
+        }
+      },
+      {
+        "p": "Terminas la oración con el mismo saludo que los musulmanes se dan entre sí. Al girar a la derecha y a la izquierda, deseas paz y misericordia a quienes te rodean, y llevas esa paz de vuelta a tu día."
+      },
+      {
+        "h": "Rezar como si Lo vieras"
+      },
+      {
+        "p": "Cuando el ángel Yibril (Gabriel), la paz sea con él, preguntó al Profeta sobre el *ihsan* (la excelencia en la adoración), el Profeta respondió: \"Que adores a Allah como si Lo vieras, y aunque tú no Lo veas, Él te ve\" (Bujari y Muslim). Algunos hábitos pequeños ayudan a que esto crezca:"
+      },
+      {
+        "ul": [
+          "Aprende un significado a la vez. Esta semana, intenta pensar en el significado cada vez que digas *Al-lahu Akbar*.",
+          "Ve despacio. Los movimientos tranquilos dejan espacio para que tu corazón alcance a tus palabras.",
+          "Si tu mente se distrae, tráela de vuelta con suavidad. Cada regreso es parte de la práctica."
+        ]
+      },
+      {
+        "quick": {
+          "question": "¿Qué significa Subhana Rabbiyal-A'la?",
+          "options": [
+            "Allah escucha a quien Lo alaba",
+            "Gloria a mi Señor, el Altísimo",
+            "La paz sea con ustedes y la misericordia de Allah"
+          ],
+          "correct": 1,
+          "explanation": "Subhana Rabbiyal-A'la, que se dice en el suyud, significa \"Gloria a mi Señor, el Altísimo\". La primera opción es el significado de Sami'al-lahu liman hamidah, y la tercera es el taslim."
+        }
+      },
+      {
+        "key": "La oración es una conversación: declaras la grandeza de Allah, Lo glorificas y Lo alabas, Le pides, saludas a Su Profeta y sales con paz. Conocer el significado ayuda a que tu corazón siga a tus palabras."
+      },
+      {
+        "p": "A continuación aprenderás el adhan, el llamado que te invita a la oración cinco veces al día, y lo que significa cada una de sus palabras."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 23:1-2 (Saheeh International translation)",
+      "url": "https://quran.com/23/1-2"
+    },
+    {
+      "label": "Jami at-Tirmidhi 3 and Sunan Abi Dawud 61 (hasan sahih, al-Albani): the key to prayer",
+      "url": "https://sunnah.com/tirmidhi:3"
+    },
+    {
+      "label": "Sahih Muslim 479: glorify the Lord in ruku, strive in supplication in sujud",
+      "url": "https://hadeethenc.com/en/browse/hadith/10922"
+    },
+    {
+      "label": "Sahih Muslim, narrated by Ibn Abi Awfa: Sami'allahu liman hamidah",
+      "url": "https://hadeethenc.com/en/browse/hadith/65101"
+    },
+    {
+      "label": "Sahih Muslim 404: \"Allah will hear you\"",
+      "url": "https://hadeethenc.com/en/browse/hadith/65097"
+    },
+    {
+      "label": "Sahih al-Bukhari 734: Rabbana wa lakal-hamd",
+      "url": "https://sunnah.com/bukhari:734"
+    },
+    {
+      "label": "Sahih Muslim 772: the glorification in ruku and sujud",
+      "url": "https://sunnah.com/muslim:772a"
+    },
+    {
+      "label": "Sahih Muslim 482: the nearest a servant is to his Lord",
+      "url": "https://sunnah.com/muslim:482"
+    },
+    {
+      "label": "Sahih al-Bukhari 831 and Sahih Muslim 402 (agreed upon): the tashahhud",
+      "url": "https://hadeethenc.com/en/browse/hadith/3096"
+    },
+    {
+      "label": "Sunan Abi Dawud 996 (sahih, al-Albani): the taslim",
+      "url": "https://sunnah.com/abudawud:996"
+    },
+    {
+      "label": "Sahih al-Bukhari 50 and Sahih Muslim 8 (agreed upon): the meaning of ihsan",
+      "url": "https://sunnah.com/bukhari:50"
+    }
+  ],
+  "differenceNote": false
+}

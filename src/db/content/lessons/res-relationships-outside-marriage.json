@@ -1,0 +1,469 @@
+{
+  "slug": "res-relationships-outside-marriage",
+  "minutes": 8,
+  "title": {
+    "en": "Relationships outside marriage",
+    "ar": "العلاقات خارج إطار الزواج",
+    "es": "Las relaciones fuera del matrimonio"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The last lesson explained that zina is prohibited. This lesson turns to everyday life: relationships, boundaries, modesty, and what to do if you are in a relationship right now. Some of this may touch your own life closely, so go gently with yourself."
+      },
+      {
+        "h": "Intimacy belongs in marriage"
+      },
+      {
+        "p": "In Islam, love and physical intimacy are not shameful. They are a blessing, and their place is marriage (*nikah*). Allah describes marriage like this:"
+      },
+      {
+        "quote": "And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.",
+        "cite": "Quran 30:21 (translation of the meaning)"
+      },
+      {
+        "p": "Because intimacy is so precious, Islam keeps it inside a committed and protected bond. This is why Islam does not allow boyfriend and girlfriend relationships that involve physical intimacy or being alone together, and why Muslims get to know a possible spouse respectfully and with clear intentions."
+      },
+      {
+        "p": "The Prophet Muhammad, peace be upon him, encouraged marriage for those who are able:"
+      },
+      {
+        "quote": "Those who can afford marriage should marry, for it is more effective in lowering the gaze and guarding chastity.",
+        "cite": "Sahih al-Bukhari 5066 and Sahih Muslim 1400 (agreed upon)"
+      },
+      {
+        "h": "Modesty and simple boundaries"
+      },
+      {
+        "p": "Islam protects hearts with *haya*: modesty, or a healthy sense of shyness. The Prophet said:"
+      },
+      {
+        "phrase": {
+          "arabic": "الحَيَاءُ لاَ يَأْتِي إِلاَّ بِخَيرٍ",
+          "transliteration": "Al-haya'u la ya'ti illa bi-khayr",
+          "meaning": "Modesty brings nothing but good."
+        }
+      },
+      {
+        "p": "(Sahih al-Bukhari 6117 and Sahih Muslim 37.) Here are the clear, basic boundaries between a man and a woman who are not married to each other or closely related:"
+      },
+      {
+        "ul": [
+          "**Lower your gaze.** Allah tells believing men to lower their gaze and guard their private parts, and the next verse gives the same instruction to believing women (24:30-31). If your eyes fall on something by accident, the Prophet taught simply to turn your gaze away (Sahih Muslim 2159).",
+          "**Do not be alone together in private.** The Prophet taught that a man should not be alone in private with a woman unless a *mahram* of hers is present, meaning a close male relative she can never marry, such as her father or brother (Sahih al-Bukhari 5233 and Sahih Muslim 1341).",
+          "**Keep conversations respectful.** Flirting and private romantic conversations are the kind of steps that lead toward zina, which the Quran tells us not even to approach.",
+          "**Dress modestly.** Modest dress is part of *haya* for both men and women. The details are a topic of their own, and your local masjid can help."
+        ]
+      },
+      {
+        "quote": "Tell the believing men to reduce [some] of their vision and guard their private parts. That is purer for them. Indeed, Allah is Acquainted with what they do.",
+        "cite": "Quran 24:30 (translation of the meaning)"
+      },
+      {
+        "h": "If you are in a relationship right now"
+      },
+      {
+        "p": "Many people become Muslim while they are already in a relationship, or already married to someone who is not Muslim. If this is you, you are not alone, and your situation deserves care, not panic."
+      },
+      {
+        "p": "Here are the clear, agreed basics:"
+      },
+      {
+        "ul": [
+          "Intimacy outside marriage is not permitted. If you are in a relationship without marriage, the physical side of it needs to stop.",
+          "If you and your partner hope to build a life together, marriage is the path Islam gives. Islam has specific guidance on whom a Muslim may marry, and it depends on details such as whether you are a man or a woman and what your partner believes.",
+          "If you are already married, do not make sudden decisions about your marriage based on something you read online, including this lesson."
+        ]
+      },
+      {
+        "p": "Situations like these have real details that matter, and scholars handle them with great care. Please speak privately with a trusted scholar or the imam of your local masjid, and explain your situation honestly. You can also ask for a mentor on this site, who can help you find the right person to talk to."
+      },
+      {
+        "p": "Whatever your next steps are, be honest and kind with the other person. Good character matters most in hard conversations."
+      },
+      {
+        "quick": {
+          "question": "What does the Arabic word *haya* mean?",
+          "options": [
+            "A type of prayer",
+            "Modesty, a healthy sense of shyness",
+            "A marriage contract"
+          ],
+          "correct": 1,
+          "explanation": "*Haya* is modesty. The Prophet, peace be upon him, said that it brings nothing but good."
+        }
+      },
+      {
+        "key": "Intimacy is a blessing that belongs in marriage. If your own situation is complicated, you do not have to work it out alone: speak privately with a trusted scholar or imam."
+      },
+      {
+        "p": "This is the last lesson of this step. The short knowledge check below reviews what you learned about alcohol, pork, zina, and relationships."
+      }
+    ],
+    "ar": [
+      {
+        "p": "بين الدرس السابق أن الزنى حرام. وفي هذا الدرس ننتقل إلى الحياة اليومية: العلاقات، والحدود، والحياء، وماذا تفعل إن كنت الآن في علاقة. قد يمس بعض هذا حياتك أنت مباشرة، فترفق بنفسك."
+      },
+      {
+        "h": "العلاقة الحميمة مكانها الزواج"
+      },
+      {
+        "p": "الحب والعلاقة الحميمة ليسا عيبا في الإسلام، بل هما نعمة، ومكانهما الزواج (النكاح). يصف الله الزواج فيقول:"
+      },
+      {
+        "quote": "وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ",
+        "cite": "سورة الروم: 21"
+      },
+      {
+        "p": "ففي الزواج سكن وطمأنينة، وقد جعل الله بين الزوجين مودة ورحمة. ولأن هذه العلاقة ثمينة جعلها الإسلام داخل رباط ملتزم ومحمي. ولهذا لا يبيح الإسلام علاقات الحبيب والحبيبة التي تتضمن علاقة جسدية أو خلوة، ويتعرف المسلمون على من يرغبون في الزواج به باحترام ونية واضحة."
+      },
+      {
+        "p": "وقد حث النبي محمد صلى الله عليه وسلم على الزواج لمن استطاعه فقال:"
+      },
+      {
+        "quote": "مَنِ اسْتَطَاعَ البَاءَةَ فَلْيَتَزَوَّجْ، فَإِنَّهُ أَغَضُّ لِلْبَصَرِ، وَأَحْصَنُ لِلْفَرْجِ",
+        "cite": "صحيح البخاري (5066) وصحيح مسلم (1400)، متفق عليه"
+      },
+      {
+        "h": "الحياء وحدود واضحة"
+      },
+      {
+        "p": "يحفظ الإسلام القلوب بالحياء. قال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "phrase": {
+          "arabic": "الحَيَاءُ لاَ يَأْتِي إِلاَّ بِخَيرٍ",
+          "transliteration": "Al-haya'u la ya'ti illa bi-khayr",
+          "meaning": "الحياء لا يجلب لصاحبه إلا الخير."
+        }
+      },
+      {
+        "p": "(صحيح البخاري 6117 وصحيح مسلم 37). وإليك الحدود الواضحة الأساسية بين الرجل والمرأة إذا لم يكونا زوجين ولا من المحارم:"
+      },
+      {
+        "ul": [
+          "**غض البصر:** أمر الله المؤمنين بغض أبصارهم وحفظ فروجهم، وأمر المؤمنات بمثل ذلك في الآية التي تليها (سورة النور: 30 و31). وإذا وقع بصرك على شيء فجأة فقد أمر النبي صلى الله عليه وسلم بصرف البصر عنه (صحيح مسلم 2159).",
+          "**لا خلوة:** نهى النبي صلى الله عليه وسلم أن يخلو رجل بامرأة إلا ومعها ذو محرم، أي قريب لا يحل له أن يتزوجها أبدا، كأبيها أو أخيها (صحيح البخاري 5233 وصحيح مسلم 1341).",
+          "**احترام في الحديث:** المغازلة والمحادثات العاطفية الخاصة من الخطوات التي تقرب من الزنى، وقد نهانا القرآن عن مجرد الاقتراب منه.",
+          "**اللباس المحتشم:** الاحتشام في اللباس من الحياء للرجال والنساء. وتفاصيله موضوع مستقل، ويمكن لمسجدك المحلي أن يساعدك فيه."
+        ]
+      },
+      {
+        "quote": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+        "cite": "سورة النور: 30"
+      },
+      {
+        "h": "إن كنت الآن في علاقة"
+      },
+      {
+        "p": "كثير من الناس يسلمون وهم في علاقة قائمة، أو متزوجون من غير مسلم. إن كان هذا حالك فلست وحدك، وحالك يستحق العناية لا الذعر."
+      },
+      {
+        "p": "وهذه هي الأساسيات الواضحة المتفق عليها:"
+      },
+      {
+        "ul": [
+          "العلاقة الحميمة خارج الزواج غير مباحة. فإن كنت في علاقة دون زواج فلا بد أن يتوقف جانبها الجسدي.",
+          "إن كنت أنت وشريكك ترغبان في بناء حياة معا، فالزواج هو الطريق الذي شرعه الإسلام. وللإسلام أحكام محددة فيمن يجوز للمسلم أن يتزوجه، وهي تتوقف على تفاصيل، منها هل أنت رجل أم امرأة، وما دين الطرف الآخر.",
+          "إن كنت متزوجا بالفعل فلا تتخذ قرارات مفاجئة بشأن زواجك بسبب شيء قرأته على الإنترنت، ومن ذلك هذا الدرس."
+        ]
+      },
+      {
+        "p": "لمثل هذه الحالات تفاصيل حقيقية مهمة، ويتعامل معها العلماء بعناية كبيرة. فتحدث على انفراد مع عالم تثق به أو مع إمام مسجدك، واشرح له حالك بصدق. ويمكنك أيضا أن تطلب مرشدا على هذا الموقع، ليساعدك في الوصول إلى الشخص المناسب."
+      },
+      {
+        "p": "ومهما كانت خطواتك القادمة، فكن صادقا ولطيفا مع الطرف الآخر، فحسن الخلق أهم ما يكون في الأحاديث الصعبة."
+      },
+      {
+        "quick": {
+          "question": "ما معنى كلمة «الحياء»؟",
+          "options": [
+            "نوع من الصلاة",
+            "خلق يبعث على ترك القبيح والاحتشام",
+            "عقد الزواج"
+          ],
+          "correct": 1,
+          "explanation": "الحياء خلق كريم يبعث على ترك ما يقبح، وقد قال النبي صلى الله عليه وسلم إنه لا يأتي إلا بخير."
+        }
+      },
+      {
+        "key": "العلاقة الحميمة نعمة مكانها الزواج. وإن كان حالك معقدا فلست مضطرا إلى حله وحدك: تحدث على انفراد مع عالم أو إمام تثق به."
+      },
+      {
+        "p": "هذا آخر درس في هذه الخطوة. يراجع الاختبار القصير التالي ما تعلمته عن الخمر ولحم الخنزير والزنى والعلاقات."
+      }
+    ],
+    "es": [
+      {
+        "p": "La lección anterior explicó que el zina está prohibido. Esta lección mira la vida diaria: las relaciones, los límites, el pudor y qué hacer si ahora mismo estás en una relación. Algo de esto puede tocar tu propia vida de cerca, así que trátate con amabilidad."
+      },
+      {
+        "h": "La intimidad pertenece al matrimonio"
+      },
+      {
+        "p": "En el Islam, el amor y la intimidad física no son algo vergonzoso. Son una bendición, y su lugar es el matrimonio (*nikah*). Allah describe el matrimonio así:"
+      },
+      {
+        "quote": "Entre Sus signos está haber creado cónyuges de entre ustedes para que encuentren sosiego, y dispuso entre ustedes amor y misericordia. En ello hay signos para quienes reflexionan.",
+        "cite": "Corán 30:21 (traducción del significado)"
+      },
+      {
+        "p": "Como la intimidad es tan valiosa, el Islam la guarda dentro de un vínculo comprometido y protegido. Por eso el Islam no permite las relaciones de novios que incluyen intimidad física o estar a solas, y por eso los musulmanes conocen a un posible cónyuge con respeto y con intenciones claras."
+      },
+      {
+        "p": "El Profeta Muhammad, la paz sea con él, animó al matrimonio a quienes pueden hacerlo:"
+      },
+      {
+        "quote": "Quien de entre ustedes pueda mantener una esposa que se case, puesto que ello es lo más efectivo para bajar la mirada (de lo que no se debe mirar) y resguardar más las partes pudendas.",
+        "cite": "Sahih al-Bujari 5066 y Sahih Muslim 1400 (registrado por ambos)"
+      },
+      {
+        "h": "El pudor y unos límites sencillos"
+      },
+      {
+        "p": "El Islam protege los corazones con el *haya*: el pudor, un sano sentido de la vergüenza. El Profeta dijo:"
+      },
+      {
+        "phrase": {
+          "arabic": "الحَيَاءُ لاَ يَأْتِي إِلاَّ بِخَيرٍ",
+          "transliteration": "Al-haya'u la ya'ti illa bi-khayr",
+          "meaning": "El pudor solo trae el bien."
+        }
+      },
+      {
+        "p": "(Sahih al-Bujari 6117 y Sahih Muslim 37.) Estos son los límites básicos y claros entre un hombre y una mujer que no están casados entre sí ni son parientes cercanos:"
+      },
+      {
+        "ul": [
+          "**Baja la mirada.** Allah les dice a los hombres creyentes que bajen la mirada y guarden sus partes íntimas, y la aleya siguiente da la misma instrucción a las mujeres creyentes (24:30-31). Si tus ojos se posan en algo sin querer, el Profeta enseñó simplemente a apartar la vista (Sahih Muslim 2159).",
+          "**No estén a solas en privado.** El Profeta enseñó que un hombre no debe estar a solas en privado con una mujer a menos que esté presente un *mahram* de ella, es decir, un pariente varón cercano con quien ella nunca puede casarse, como su padre o su hermano (Sahih al-Bujari 5233 y Sahih Muslim 1341).",
+          "**Mantén las conversaciones respetuosas.** Coquetear y tener conversaciones románticas en privado son el tipo de pasos que llevan hacia el zina, al que el Corán nos pide ni siquiera acercarnos.",
+          "**Vístete con modestia.** La vestimenta modesta es parte del *haya* tanto para hombres como para mujeres. Los detalles son un tema aparte, y tu mezquita local puede ayudarte."
+        ]
+      },
+      {
+        "quote": "Dile a los creyentes [¡oh, Mujámmad!] que recaten sus miradas y se abstengan de cometer obscenidades, porque eso es más puro para ellos. Dios está bien informado de lo que hacen.",
+        "cite": "Corán 24:30 (traducción del significado)"
+      },
+      {
+        "h": "Si ahora mismo estás en una relación"
+      },
+      {
+        "p": "Muchas personas se hacen musulmanas cuando ya están en una relación, o ya están casadas con alguien que no es musulmán. Si es tu caso, no estás solo, y tu situación merece cuidado, no pánico."
+      },
+      {
+        "p": "Estos son los puntos básicos, claros y acordados:"
+      },
+      {
+        "ul": [
+          "La intimidad fuera del matrimonio no está permitida. Si estás en una relación sin matrimonio, la parte física debe terminar.",
+          "Si tú y tu pareja quieren construir una vida juntos, el matrimonio es el camino que da el Islam. El Islam tiene una guía específica sobre con quién puede casarse un musulmán, y depende de detalles como si eres hombre o mujer y lo que cree tu pareja.",
+          "Si ya estás casado, no tomes decisiones repentinas sobre tu matrimonio por algo que leíste en internet, incluida esta lección."
+        ]
+      },
+      {
+        "p": "Situaciones como estas tienen detalles reales que importan, y los sabios las tratan con mucho cuidado. Por favor, habla en privado con un sabio de confianza o con el imam de tu mezquita local, y explícale tu situación con sinceridad. También puedes pedir un mentor en este sitio, que puede ayudarte a encontrar a la persona adecuada para hablar."
+      },
+      {
+        "p": "Sean cuales sean tus próximos pasos, sé sincero y amable con la otra persona. El buen carácter importa más que nunca en las conversaciones difíciles."
+      },
+      {
+        "quick": {
+          "question": "¿Qué significa la palabra árabe *haya*?",
+          "options": [
+            "Un tipo de oración",
+            "El pudor, un sano sentido de la vergüenza",
+            "Un contrato de matrimonio"
+          ],
+          "correct": 1,
+          "explanation": "*Haya* es el pudor. El Profeta, la paz sea con él, dijo que solo trae el bien."
+        }
+      },
+      {
+        "key": "La intimidad es una bendición que pertenece al matrimonio. Si tu situación es complicada, no tienes que resolverla solo: habla en privado con un sabio o un imam de confianza."
+      },
+      {
+        "p": "Esta es la última lección de este paso. La breve prueba de conocimientos que sigue repasa lo que aprendiste sobre el alcohol, el cerdo, el zina y las relaciones."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 30:21 (Saheeh International and Isa Garcia translations)",
+      "url": "https://quran.com/30/21"
+    },
+    {
+      "label": "Quran 24:30-31 (Saheeh International and Isa Garcia translations)",
+      "url": "https://quran.com/24/30-31"
+    },
+    {
+      "label": "Sahih al-Bukhari 5066 and Sahih Muslim 1400 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5863"
+    },
+    {
+      "label": "Sahih al-Bukhari 6117 and Sahih Muslim 37 (sahih)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3055"
+    },
+    {
+      "label": "Sahih Muslim 2159 (sahih)",
+      "url": "https://hadeethenc.com/en/browse/hadith/8902"
+    },
+    {
+      "label": "Sahih al-Bukhari 5233 and Sahih Muslim 1341 (agreed upon)",
+      "url": "https://hadeethenc.com/ar/browse/hadith/65672"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What did the Prophet teach about a small amount of something that intoxicates?",
+        "ar": "ماذا علمنا النبي صلى الله عليه وسلم عن القليل مما يسكر؟",
+        "es": "¿Qué enseñó el Profeta sobre una pequeña cantidad de algo que embriaga?"
+      },
+      "options": [
+        {
+          "en": "It is fine as long as you do not get drunk",
+          "ar": "لا بأس به ما دمت لا تسكر",
+          "es": "Está bien mientras no te emborraches"
+        },
+        {
+          "en": "Whatever intoxicates in large amounts is forbidden in small amounts too",
+          "ar": "ما يسكر كثيره يحرم قليله أيضا",
+          "es": "Lo que embriaga en gran cantidad está prohibido también en pequeña cantidad"
+        },
+        {
+          "en": "It is allowed at family events",
+          "ar": "يجوز في المناسبات العائلية",
+          "es": "Está permitido en las reuniones familiares"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "The Prophet, peace be upon him, said: \"Whatever intoxicates in large amounts, its small amount is forbidden\" (Sunan Abi Dawud 3681).",
+        "ar": "قال النبي صلى الله عليه وسلم: «مَا أَسْكَرَ كَثِيرُهُ فَقَلِيلُهُ حَرَامٌ» (سنن أبي داود 3681).",
+        "es": "El Profeta, la paz sea con él, dijo que lo que embriaga en gran cantidad está prohibido incluso en pequeña cantidad (Sunan Abi Dawud 3681)."
+      }
+    },
+    {
+      "q": {
+        "en": "Why does a Muslim avoid pork?",
+        "ar": "لماذا يترك المسلم لحم الخنزير؟",
+        "es": "¿Por qué un musulmán evita el cerdo?"
+      },
+      "options": [
+        {
+          "en": "Mainly for health reasons",
+          "ar": "لأسباب صحية في الأساس",
+          "es": "Principalmente por razones de salud"
+        },
+        {
+          "en": "Because of local custom",
+          "ar": "بسبب العادات المحلية",
+          "es": "Por costumbre local"
+        },
+        {
+          "en": "Because Allah prohibited it, and a believer obeys Him out of trust",
+          "ar": "لأن الله حرمه، والمؤمن يطيعه ثقة به",
+          "es": "Porque Allah lo prohibió, y el creyente lo obedece con confianza"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "The Quran clearly prohibits the flesh of swine (2:173). A Muslim leaves it as an act of obedience and trust in Allah, without needing any other reason.",
+        "ar": "حرم القرآن لحم الخنزير تحريما واضحا (البقرة: 173)، ويتركه المسلم طاعة لله وثقة به، دون حاجة إلى سبب آخر.",
+        "es": "El Corán prohíbe claramente la carne de cerdo (2:173). El musulmán la deja como un acto de obediencia y confianza en Allah, sin necesitar otra razón."
+      }
+    },
+    {
+      "q": {
+        "en": "According to verse 2:173, what about someone who is truly forced by necessity, such as severe hunger with nothing else to eat?",
+        "ar": "بحسب آية البقرة 173، ما حكم من اضطر اضطرارا حقيقيا، كمن اشتد به الجوع ولم يجد غير المحرم؟",
+        "es": "Según la aleya 2:173, ¿qué pasa con quien se ve realmente forzado por la necesidad, como un hambre extrema sin nada más que comer?"
+      },
+      "options": [
+        {
+          "en": "There is no sin on them, and Allah is Forgiving and Merciful",
+          "ar": "لا إثم عليه، والله غفور رحيم",
+          "es": "No comete pecado, y Allah es Perdonador y Misericordioso"
+        },
+        {
+          "en": "They must still never eat it, whatever happens",
+          "ar": "لا يجوز له الأكل منه مهما حدث",
+          "es": "Nunca debe comerlo, pase lo que pase"
+        },
+        {
+          "en": "The prohibition is cancelled for them forever",
+          "ar": "يسقط عنه التحريم إلى الأبد",
+          "es": "La prohibición queda anulada para siempre"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The verse says that whoever is forced by necessity, without desiring it or going beyond the limit, has no sin, because Allah is Forgiving and Merciful. The permission lasts only as long as the true need.",
+        "ar": "بينت الآية أن من ألجأته الضرورة، غير طالب للمحرم ولا متجاوز لحده، فلا إثم عليه، لأن الله غفور رحيم. والرخصة بقدر الضرورة الحقيقية فقط.",
+        "es": "La aleya dice que quien se ve forzado por la necesidad, sin desearlo ni excederse, no comete pecado, porque Allah es Perdonador y Misericordioso. El permiso dura solo mientras existe la verdadera necesidad."
+      }
+    },
+    {
+      "q": {
+        "en": "When Amr ibn al-As asked to be forgiven as he accepted Islam, what did the Prophet tell him?",
+        "ar": "لما طلب عمرو بن العاص رضي الله عنه أن يغفر له عند إسلامه، ماذا قال له النبي صلى الله عليه وسلم؟",
+        "es": "Cuando Amr ibn al-As pidió ser perdonado al aceptar el Islam, ¿qué le dijo el Profeta?"
+      },
+      "options": [
+        {
+          "en": "That he must confess his sins publicly first",
+          "ar": "أن عليه أن يعترف بذنوبه أمام الناس أولا",
+          "es": "Que primero debía confesar sus pecados en público"
+        },
+        {
+          "en": "That Islam wipes out what came before it",
+          "ar": "أن الإسلام يهدم ما كان قبله",
+          "es": "Que el Islam borra lo que vino antes"
+        },
+        {
+          "en": "That he would be forgiven only after many years",
+          "ar": "أنه لن يغفر له إلا بعد سنوات طويلة",
+          "es": "Que solo sería perdonado después de muchos años"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "The Prophet, peace be upon him, told him that Islam wipes out what came before it (Sahih Muslim 121). A new Muslim starts fresh with Allah.",
+        "ar": "قال له النبي صلى الله عليه وسلم إن الإسلام يهدم ما كان قبله (صحيح مسلم 121)، فالمسلم الجديد يبدأ مع الله صفحة جديدة.",
+        "es": "El Profeta, la paz sea con él, le dijo que el Islam borra lo que vino antes (Sahih Muslim 121). Un nuevo musulmán empieza de nuevo con Allah."
+      }
+    },
+    {
+      "q": {
+        "en": "You became Muslim while in a relationship with someone you are not married to. What is the best next step?",
+        "ar": "أسلمت وأنت في علاقة مع شخص لست متزوجا منه. ما أفضل خطوة تالية؟",
+        "es": "Te hiciste musulmán mientras estabas en una relación con alguien con quien no estás casado. ¿Cuál es el mejor paso siguiente?"
+      },
+      "options": [
+        {
+          "en": "Keep everything as it is and ignore the question",
+          "ar": "أبقي كل شيء كما هو وأتجاهل المسألة",
+          "es": "Dejar todo como está e ignorar el tema"
+        },
+        {
+          "en": "End every friendship you have",
+          "ar": "أنهي كل صداقاتي",
+          "es": "Terminar todas tus amistades"
+        },
+        {
+          "en": "Stop the physical side of the relationship and speak privately with a trusted scholar or imam",
+          "ar": "أوقف الجانب الجسدي من العلاقة وأتحدث على انفراد مع عالم أو إمام أثق به",
+          "es": "Detener la parte física de la relación y hablar en privado con un sabio o un imam de confianza"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "Intimacy belongs only in marriage, so the physical side needs to stop. The details of your situation matter, so a trusted scholar or imam can guide you with care.",
+        "ar": "العلاقة الحميمة مكانها الزواج فقط، فلا بد أن يتوقف جانبها الجسدي. ولتفاصيل حالك أهمية، فعالم أو إمام تثق به يستطيع أن يرشدك بعناية.",
+        "es": "La intimidad pertenece solo al matrimonio, así que la parte física debe detenerse. Los detalles de tu situación importan, por eso un sabio o un imam de confianza puede guiarte con cuidado."
+      }
+    }
+  ]
+}

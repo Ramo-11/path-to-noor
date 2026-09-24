@@ -1,0 +1,266 @@
+{
+  "slug": "res-saying-merry-christmas",
+  "minutes": 7,
+  "title": {
+    "en": "Can I say Merry Christmas?",
+    "ar": "هل أقول لغير المسلمين: عيد ميلاد مجيد؟",
+    "es": "¿Puedo decir Feliz Navidad?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "In December, \"Merry Christmas\" is everywhere: at work, in shops, and from the people you love most. It is natural to wonder how to respond as a Muslim. This lesson explains the majority view and gives you warm words you can use, so your relationships stay strong."
+      },
+      {
+        "h": "What the majority of scholars say"
+      },
+      {
+        "p": "The majority of scholars hold that a Muslim does not congratulate people on the religious festivals of other faiths, for example by saying \"Merry Christmas\" or \"Happy Easter\". The scholar Ibn al-Qayyim reported that scholars agree on this. The reason is that congratulating someone on a religious festival expresses approval of its religious meaning, and a Muslim's belief is different. For example, Muslims love and honor Jesus, peace be upon him, as a great prophet of Allah, not as the son of God."
+      },
+      {
+        "p": "Some contemporary scholars permit these greetings when the words do not contradict Islamic belief. This lesson follows the majority view."
+      },
+      {
+        "h": "Warm words you can use"
+      },
+      {
+        "p": "Not saying \"Merry Christmas\" never means being cold. Scholars point out that everyday kind greetings are fine, and that you can congratulate people on the happy events of life that everyone shares."
+      },
+      {
+        "ul": [
+          "**Everyday greetings:** \"Good morning\", \"It is so good to see you\", \"How have you been?\"",
+          "**Kind words when parting:** \"I hope to see you again soon\", \"Take care\".",
+          "**Congratulations on life events:** a wedding, a new baby, recovering from an illness, a safe return from a trip, and similar good news."
+        ]
+      },
+      {
+        "p": "Allah commands good speech toward people. Among the commands He mentions in His covenant with the Children of Israel is this one, which scholars cite for how Muslims speak to everyone:"
+      },
+      {
+        "quote": "And speak to people good [words]",
+        "cite": "Quran 2:83 (part of the verse, translation of the meaning)"
+      },
+      {
+        "h": "When someone says it to you"
+      },
+      {
+        "p": "Your family and coworkers mean it kindly, so answer kindly. There is no need to correct them or give a speech. A scholar who answered this question for the Assembly of Muslim Jurists of America (AMJA), and who became Muslim himself, shared what worked with his own family. When they greeted him with \"Merry Christmas\", he warmly changed the subject, for example: \"So, how have you been?\" When they said it as he left, he answered: \"I hope to see you again soon.\" He added that, with time, your family will likely understand."
+      },
+      {
+        "h": "Gifts and visits"
+      },
+      {
+        "ul": [
+          "**Receiving a gift:** if a relative or neighbor gives you a Christmas gift, scholars say you may accept it kindly, as long as it is not something forbidden, such as alcohol, or an item used to celebrate the festival.",
+          "**Giving a gift:** most scholars say not to give gifts for the festival itself. Give your gifts at other times of the year instead. Gifts to relatives are a lovely way to show love.",
+          "**Visiting:** keep visiting your family all year. As the previous lesson explained, the majority view is not to join the religious service or the festival celebration itself."
+        ]
+      },
+      {
+        "p": "Above all, never be harsh with your family over this. A gentle smile, a kind word, and good character will speak for your faith far more than any argument."
+      },
+      {
+        "quick": {
+          "question": "Your coworker says \"Merry Christmas!\" as you leave work. Which reply fits the majority view and stays warm?",
+          "options": [
+            "Ignore them and walk away",
+            "Explain in detail why you do not celebrate Christmas",
+            "Smile and say, \"I hope to see you soon. Take care!\""
+          ],
+          "correct": 2,
+          "explanation": "A warm, general reply keeps your relationship strong without congratulating anyone on a religious festival. There is no need to lecture, and no need to be cold."
+        }
+      },
+      {
+        "key": "Skip the holiday greeting, not the warmth: greet kindly, congratulate people on life's happy events, and never be harsh."
+      },
+      {
+        "p": "Next, you will look at national holidays like Thanksgiving, which many families spend together."
+      }
+    ],
+    "ar": [
+      {
+        "p": "في شهر ديسمبر تسمع عبارة «عيد ميلاد مجيد» في كل مكان: في العمل، وفي المتاجر، ومن أحب الناس إليك. ومن الطبيعي أن تتساءل كيف ترد بوصفك مسلمًا. يشرح لك هذا الدرس قول جمهور العلماء، ويعطيك كلمات دافئة تستطيع استعمالها حتى تبقى علاقاتك قوية."
+      },
+      {
+        "h": "ماذا يقول جمهور العلماء؟"
+      },
+      {
+        "p": "ذهب جمهور العلماء إلى أن المسلم لا يهنئ الناس بالأعياد الدينية لأهل الأديان الأخرى، كأن يقول: «عيد ميلاد مجيد» أو «فصح سعيد»، ونقل الإمام ابن القيم اتفاق العلماء على ذلك. والسبب أن التهنئة بالعيد الديني تتضمن الرضا بمعناه الديني، وعقيدة المسلم مختلفة؛ فالمسلمون مثلًا يحبون عيسى عليه السلام ويعظمونه نبيًّا كريمًا من أنبياء الله، لا ابنًا لله."
+      },
+      {
+        "p": "ويجيز بعض العلماء المعاصرين هذه التهنئة إذا كانت ألفاظها لا تخالف العقيدة الإسلامية، ويعرض هذا الدرس قول الجمهور."
+      },
+      {
+        "h": "كلمات دافئة تستطيع قولها"
+      },
+      {
+        "p": "ترك التهنئة بعيد الميلاد لا يعني الجفاء أبدًا، فقد بيّن العلماء أن التحية العادية الطيبة لا حرج فيها، وأنك تستطيع أن تهنئ الناس بالمناسبات السعيدة التي يشترك فيها الجميع."
+      },
+      {
+        "ul": [
+          "**التحية اليومية:** «صباح الخير»، «سعدت برؤيتك»، «كيف حالك؟».",
+          "**كلمات الوداع:** «أرجو أن أراك قريبًا»، «اعتنِ بنفسك».",
+          "**التهنئة بمناسبات الحياة:** الزواج، والمولود الجديد، والشفاء من المرض، والعودة من السفر بالسلامة، ونحوها من الأخبار السارة."
+        ]
+      },
+      {
+        "p": "وقد أمر الله بالقول الحسن للناس، ومما ذكره في الميثاق الذي أخذه على بني إسرائيل قوله تعالى، ويستشهد به العلماء في حسن خطاب المسلم للناس جميعًا:"
+      },
+      {
+        "quote": "وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا",
+        "cite": "البقرة: 83 (جزء من الآية)"
+      },
+      {
+        "p": "أي: قولوا للناس أطيب الكلام."
+      },
+      {
+        "h": "حين يهنئك أحد بعيده"
+      },
+      {
+        "p": "أهلك وزملاؤك يقصدون الخير، فأجبهم بلطف، ولا حاجة إلى تصحيح كلامهم أو إلقاء محاضرة عليهم. وقد شارك أحد العلماء الذين أجابوا عن هذا السؤال في مجمع فقهاء الشريعة بأمريكا (أمجا)، وقد اعتنق الإسلام هو نفسه، ما نفعه مع عائلته: فكانوا إذا حيّوه بعبارة «عيد ميلاد مجيد» غيّر موضوع الحديث بلطف، كأن يقول: «كيف حالك هذه الأيام؟»، وإذا قالوها عند الوداع أجاب: «أرجو أن أراك قريبًا». وأضاف أن عائلتك غالبًا ستفهم ذلك مع مرور الوقت."
+      },
+      {
+        "h": "الهدايا والزيارات"
+      },
+      {
+        "ul": [
+          "**قبول الهدية:** إن أهدى إليك قريب أو جار هدية بمناسبة عيد الميلاد، فقد ذكر العلماء أن لك أن تقبلها بلطف، ما لم تكن شيئًا محرمًا كالخمر، أو شيئًا يُستعمل في الاحتفال بالعيد.",
+          "**تقديم الهدية:** يرى أكثر العلماء ألا تُهدي بمناسبة العيد نفسه، فقدّم هداياك في أوقات أخرى من العام، فالهدية للأقارب طريقة جميلة لإظهار المحبة.",
+          "**الزيارة:** واصل زيارة أهلك طوال العام، وقول الجمهور كما مر في الدرس السابق ألا تشارك في القداس الديني ولا في احتفال العيد نفسه."
+        ]
+      },
+      {
+        "p": "وقبل كل شيء، لا تكن قاسيًا مع عائلتك في هذا الأمر أبدًا، فابتسامة لطيفة وكلمة طيبة وخلق حسن تتحدث عن دينك أبلغ من أي جدال."
+      },
+      {
+        "quick": {
+          "question": "قال لك زميلك وأنت تغادر العمل: «عيد ميلاد مجيد!». أي الردود يوافق قول الجمهور ويبقى دافئًا؟",
+          "options": [
+            "أتجاهله وأمضي",
+            "أشرح له بالتفصيل لماذا لا أحتفل بعيد الميلاد",
+            "أبتسم وأقول: «أرجو أن أراك قريبًا، اعتنِ بنفسك!»"
+          ],
+          "correct": 2,
+          "explanation": "الرد الدافئ العام يحفظ علاقتك دون أن تهنئ أحدًا بعيد ديني، ولا حاجة إلى الوعظ ولا إلى الجفاء."
+        }
+      },
+      {
+        "key": "اترك التهنئة بالعيد، لا الدفء: حيِّ الناس بلطف، وهنئهم بمناسبات الحياة السعيدة، ولا تقسُ أبدًا."
+      },
+      {
+        "p": "وفي الدرس التالي تنظر في الأعياد الوطنية مثل عيد الشكر، التي تجتمع فيها كثير من العائلات."
+      }
+    ],
+    "es": [
+      {
+        "p": "En diciembre, \"Feliz Navidad\" está en todas partes: en el trabajo, en las tiendas y en boca de las personas que más quieres. Es natural preguntarte cómo responder como musulmán. Esta lección explica la opinión de la mayoría y te da palabras cálidas que puedes usar para que tus relaciones sigan fuertes."
+      },
+      {
+        "h": "Lo que dice la mayoría de los sabios"
+      },
+      {
+        "p": "La mayoría de los sabios sostiene que un musulmán no felicita a otros por las fiestas religiosas de otras religiones, por ejemplo diciendo \"Feliz Navidad\" o \"Felices Pascuas\". El sabio Ibn al-Qayyim transmitió que los sabios están de acuerdo en esto. La razón es que felicitar a alguien por una fiesta religiosa expresa aprobación de su significado religioso, y la creencia del musulmán es distinta. Por ejemplo, los musulmanes aman y honran a Jesús, la paz sea con él, como un gran profeta de Allah, no como hijo de Dios."
+      },
+      {
+        "p": "Algunos sabios contemporáneos permiten estas felicitaciones cuando las palabras no contradicen la creencia islámica. Esta lección sigue la opinión de la mayoría."
+      },
+      {
+        "h": "Palabras cálidas que puedes usar"
+      },
+      {
+        "p": "No decir \"Feliz Navidad\" nunca significa ser frío. Los sabios señalan que los saludos amables de todos los días están bien, y que puedes felicitar a la gente por los momentos felices de la vida que todos compartimos."
+      },
+      {
+        "ul": [
+          "**Saludos diarios:** \"Buenos días\", \"Qué gusto verte\", \"¿Cómo has estado?\"",
+          "**Palabras al despedirte:** \"Espero verte pronto\", \"Cuídate\".",
+          "**Felicitaciones por eventos de la vida:** una boda, un bebé que nace, la recuperación de una enfermedad, el regreso seguro de un viaje y otras buenas noticias."
+        ]
+      },
+      {
+        "p": "Allah ordena hablar bien a la gente. Entre los mandatos que menciona en Su pacto con el Pueblo de Israel está este, que los sabios citan sobre cómo el musulmán habla con todos:"
+      },
+      {
+        "quote": "hablen a la gente de buenas maneras",
+        "cite": "Corán 2:83 (parte del versículo, traducción del significado)"
+      },
+      {
+        "h": "Cuando alguien te lo dice a ti"
+      },
+      {
+        "p": "Tu familia y tus compañeros lo dicen con cariño, así que responde con cariño. No hace falta corregirlos ni dar un sermón. Un sabio que respondió esta pregunta para la Asamblea de Juristas Musulmanes de América (AMJA), y que también abrazó el Islam, compartió lo que le funcionó con su propia familia. Cuando lo saludaban con \"Feliz Navidad\", cambiaba el tema con amabilidad, por ejemplo: \"¿Y cómo has estado?\". Cuando se lo decían al despedirse, respondía: \"Espero verte pronto\". Añadió que, con el tiempo, es probable que tu familia lo entienda."
+      },
+      {
+        "h": "Regalos y visitas"
+      },
+      {
+        "ul": [
+          "**Recibir un regalo:** si un familiar o un vecino te da un regalo de Navidad, los sabios dicen que puedes aceptarlo con amabilidad, siempre que no sea algo prohibido, como el alcohol, ni un objeto para celebrar la fiesta.",
+          "**Dar un regalo:** la mayoría de los sabios dice que no se den regalos por la fiesta misma. Da tus regalos en otras épocas del año. Los regalos a los familiares son una forma hermosa de mostrar cariño.",
+          "**Visitar:** sigue visitando a tu familia todo el año. Como vimos en la lección anterior, la opinión de la mayoría es no participar en el servicio religioso ni en la celebración de la fiesta."
+        ]
+      },
+      {
+        "p": "Sobre todo, nunca seas duro con tu familia por este tema. Una sonrisa amable, una palabra buena y un buen carácter hablan de tu fe mucho mejor que cualquier discusión."
+      },
+      {
+        "quick": {
+          "question": "Un compañero te dice \"¡Feliz Navidad!\" cuando sales del trabajo. ¿Qué respuesta va con la opinión de la mayoría y sigue siendo cálida?",
+          "options": [
+            "Ignorarlo y seguir caminando",
+            "Explicarle en detalle por qué no celebras la Navidad",
+            "Sonreír y decir: \"Espero verte pronto. ¡Cuídate!\""
+          ],
+          "correct": 2,
+          "explanation": "Una respuesta cálida y general mantiene fuerte tu relación sin felicitar a nadie por una fiesta religiosa. No hace falta dar un sermón ni ser frío."
+        }
+      },
+      {
+        "key": "Deja la felicitación de la fiesta, no la calidez: saluda con amabilidad, felicita por los momentos felices de la vida y nunca seas duro."
+      },
+      {
+        "p": "En la próxima lección verás las fiestas nacionales como el Día de Acción de Gracias, que muchas familias pasan juntas."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "IslamQA 947: greeting non-Muslims on their religious festivals (stated as consensus)",
+      "url": "https://islamqa.info/en/answers/947"
+    },
+    {
+      "label": "IslamWeb fatwa 82006: congratulating non-Muslims on their feasts",
+      "url": "https://www.islamweb.net/en/fatwa/82006/"
+    },
+    {
+      "label": "IslamWeb fatwa 41447: scholars agree on not congratulating on religious festivals; ordinary greetings are fine",
+      "url": "https://www.islamweb.net/ar/fatwa/41447/"
+    },
+    {
+      "label": "IslamWeb fatwa 159583: congratulating on shared occasions such as marriage and birth",
+      "url": "https://www.islamweb.net/ar/fatwa/159583/"
+    },
+    {
+      "label": "IslamWeb fatwa 129129: congratulating a non-Muslim on a new baby",
+      "url": "https://www.islamweb.net/ar/fatwa/129129/"
+    },
+    {
+      "label": "AMJA fatwa 85952: if somebody greets you with Merry Christmas",
+      "url": "https://www.amjaonline.org/fatwa/en/85952/if-somebody-greeted-you-a-merry-christmas-what-should-i-say"
+    },
+    {
+      "label": "IslamQA 85108: accepting and giving gifts around non-Muslim festivals",
+      "url": "https://islamqa.info/en/answers/85108"
+    },
+    {
+      "label": "Quran 2:83 (Saheeh International translation)",
+      "url": "https://quran.com/2/83"
+    },
+    {
+      "label": "Dar al-Ifta al-Misriyyah fatwa 6815: a contemporary view that permits the greeting (minority view)",
+      "url": "https://www.dar-alifta.org/en/fatwa/details/6815/39-congratulating-christians-on-the-occasion-of-christmas"
+    }
+  ],
+  "differenceNote": true
+}

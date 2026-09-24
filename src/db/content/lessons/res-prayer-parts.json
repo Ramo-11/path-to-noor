@@ -1,0 +1,429 @@
+{
+  "slug": "res-prayer-parts",
+  "minutes": 9,
+  "title": {
+    "en": "What to say in each part of the prayer",
+    "ar": "ماذا تقول في كل جزء من الصلاة",
+    "es": "Qué decir en cada parte de la oración"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "You have learned the pieces: Surah Al-Fatiha, what to say in ruku and sujud, and the tashahhud. Now it is time to put them together. This lesson walks through a prayer of two units (*rak'ahs*), like the Fajr prayer, from beginning to end, so you know what to say at each moment."
+      },
+      {
+        "p": "A quick reminder: one *rak'ah* is a round of standing, bowing (*ruku*), and two prostrations (*sujud*). Almost every move from one position to the next begins with *Allahu Akbar* (Allah is the Greatest). The Prophet Muhammad, peace be upon him, said the takbir when he stood, bowed, went down, and rose, throughout the whole prayer (Bukhari and Muslim)."
+      },
+      {
+        "p": "He also taught a man who was rushing his prayer to slow down: to bow until he was at ease, rise until he stood straight, prostrate until he was at ease, and sit until he was at ease (Bukhari and Muslim). So there is no hurry. Let each position settle before you move on."
+      },
+      {
+        "h": "Before you begin"
+      },
+      {
+        "p": "Make wudu and face the *qibla* (the direction of the Kaaba in Makkah). Then make your **intention** (*niyyah*): decide in your heart which prayer you are about to pray. The Prophet said, \"Actions are only by intentions\" (Bukhari and Muslim). Scholars agree that the intention lives in the heart, so you do not need to say it out loud."
+      },
+      {
+        "h": "Walk through a two-unit prayer"
+      },
+      {
+        "steps": {
+          "title": "A two-unit prayer, step by step",
+          "steps": [
+            "Stand facing the qibla, with the intention in your heart.",
+            "Raise your hands and say **Allahu Akbar** (Allah is the Greatest). This opening takbir starts your prayer.",
+            "Optional: quietly say the opening supplication, *Subhanakallahumma wa bihamdika...* (see the card below). It is not required, so skip it until you have learned it.",
+            "Recite **Surah Al-Fatiha**, then say **Ameen**.",
+            "Recite a short surah or a few verses you know, such as Surah Al-Ikhlas. If you have not learned one yet, Al-Fatiha on its own is enough while you learn.",
+            "Say **Allahu Akbar** and bow (ruku), hands on your knees, back straight. Say **Subhana Rabbiyal-'Adheem** (Glory be to my Lord, the Most Great). You may repeat it; many people say it three times.",
+            "Rise, saying **Sami'allahu liman hamidah** (Allah hears the one who praises Him). Once you are standing straight, say **Rabbana wa lakal-hamd** (Our Lord, and to You belongs all praise).",
+            "Say **Allahu Akbar** and go down into sujud on seven parts: your forehead with your nose, both hands, both knees, and the toes of both feet. Say **Subhana Rabbiyal-A'la** (Glory be to my Lord, the Most High), repeating it if you like.",
+            "Say **Allahu Akbar** and sit up. Sit calmly and say **Rabbighfir li, Rabbighfir li** (My Lord, forgive me; my Lord, forgive me).",
+            "Say **Allahu Akbar** and make the second sujud, with the same words as the first.",
+            "Say **Allahu Akbar** and stand up. Your first unit is complete.",
+            "Second unit: recite Al-Fatiha and say Ameen, then a short surah if you know one. The opening supplication is only said at the very start of the prayer.",
+            "Bow, rise, and make two prostrations exactly as in the first unit, with the same words.",
+            "After the second sujud, stay sitting. Recite the **tashahhud** (*at-tahiyyat*) from the last lesson.",
+            "Because this is the final sitting, continue with the **salawat** (*Allahumma salli ala Muhammad...*). You may then add a short dua.",
+            "End with the **taslim**: turn your face to the right and say **As-salamu alaykum wa rahmatullah** (Peace be upon you and the mercy of Allah), then turn to the left and say it again. Your prayer is complete."
+          ]
+        }
+      },
+      {
+        "h": "Phrases you meet for the first time"
+      },
+      {
+        "p": "You already know Al-Fatiha, the words of ruku and sujud, and the tashahhud. These are the new ones."
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ",
+          "transliteration": "Subhanakallahumma wa bihamdika, wa tabarakasmuka, wa ta'ala jadduka, wa la ilaha ghayruk",
+          "meaning": "Glory be to You, O Allah, and praise. Blessed is Your name, exalted is Your majesty, and there is no god but You. (The optional opening supplication.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "Sami'allahu liman hamidah",
+          "meaning": "Allah hears the one who praises Him. (Said while rising from ruku.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "Rabbana wa lakal-hamd",
+          "meaning": "Our Lord, and to You belongs all praise. (Said once you are standing straight.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
+          "transliteration": "Rabbighfir li, Rabbighfir li",
+          "meaning": "My Lord, forgive me; my Lord, forgive me. (Said while sitting between the two prostrations.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "transliteration": "As-salamu alaykum wa rahmatullah",
+          "meaning": "Peace be upon you and the mercy of Allah. (Said to the right, then to the left, to end the prayer.)"
+        }
+      },
+      {
+        "p": "When you pray behind an imam, you follow him. When he says *Allahu Akbar*, you say it after him, and when he says *Sami'allahu liman hamidah*, you answer *Rabbana wa lakal-hamd* (Bukhari)."
+      },
+      {
+        "h": "Prayers of three or four units"
+      },
+      {
+        "p": "Maghrib has three units; Dhuhr, Asr, and Isha have four. After the second unit, you sit for the first tashahhud, then say *Allahu Akbar* and stand up for the rest. In the third and fourth units, you recite Al-Fatiha only, without a second surah (Bukhari and Muslim). The final sitting, with the tashahhud, the salawat, and the taslim, comes at the end of the last unit."
+      },
+      {
+        "h": "Small differences are normal"
+      },
+      {
+        "p": "You will notice Muslims doing some details differently. Most scholars teach placing the right hand over the left while standing, but they differ on where (on the chest or lower), and some Maliki communities pray with their arms at their sides. People also differ in how high they raise their hands and exactly how they sit. These are details of the Sunnah, not pillars of the prayer, so they do not make anyone's prayer invalid, and it is completely fine to follow the way of your local masjid."
+      },
+      {
+        "quick": {
+          "question": "What do you say when you rise from ruku?",
+          "options": [
+            "Subhana Rabbiyal-A'la",
+            "Sami'allahu liman hamidah, then Rabbana wa lakal-hamd",
+            "As-salamu alaykum wa rahmatullah"
+          ],
+          "correct": 1,
+          "explanation": "While rising from ruku you say Sami'allahu liman hamidah, and once you are standing, Rabbana wa lakal-hamd. Subhana Rabbiyal-A'la belongs to sujud, and the taslim ends the prayer."
+        }
+      },
+      {
+        "key": "One unit is: Al-Fatiha, ruku, rising, and two prostrations. Take each part calmly; the Prophet taught us to be at ease in every position."
+      },
+      {
+        "p": "You now have a full map of the prayer. In the next lesson, you will look at what these words mean, so that each one reaches your heart as well as your tongue."
+      }
+    ],
+    "ar": [
+      {
+        "p": "تعلّمت الأجزاء: سورة الفاتحة، وما تقوله في الركوع والسجود، والتشهد. وقد حان الوقت لتجمعها معًا. يمضي بك هذا الدرس في صلاة من ركعتين، مثل صلاة الفجر، من أولها إلى آخرها، لتعرف ماذا تقول في كل لحظة."
+      },
+      {
+        "p": "تذكير سريع: الركعة الواحدة قيام ثم ركوع ثم سجدتان. وكل انتقال تقريبًا من هيئة إلى أخرى يبدأ بقول «الله أكبر». فقد كان النبي محمد صلى الله عليه وسلم يكبّر حين يقوم، وحين يركع، وحين يهوي للسجود، وحين يرفع رأسه، في الصلاة كلها (رواه البخاري ومسلم)."
+      },
+      {
+        "p": "وعلّم صلى الله عليه وسلم رجلًا كان يستعجل في صلاته أن يتمهّل: أن يركع حتى يطمئن راكعًا، ويرفع حتى يعتدل قائمًا، ويسجد حتى يطمئن ساجدًا، ويجلس حتى يطمئن جالسًا (رواه البخاري ومسلم). فلا داعي للعجلة؛ دع كل هيئة تستقر قبل أن تنتقل إلى ما بعدها."
+      },
+      {
+        "h": "قبل أن تبدأ"
+      },
+      {
+        "p": "توضأ واستقبل **القبلة** (جهة الكعبة في مكة). ثم انوِ بقلبك الصلاة التي ستصليها، وهذه هي **النية**. قال النبي صلى الله عليه وسلم: «إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ» (رواه البخاري ومسلم). والعلماء متفقون على أن محل النية القلب، فلا يلزمك أن تتلفظ بها."
+      },
+      {
+        "h": "خطوة خطوة في صلاة من ركعتين"
+      },
+      {
+        "steps": {
+          "title": "صلاة من ركعتين خطوة خطوة",
+          "steps": [
+            "قف مستقبلًا القبلة، والنية في قلبك.",
+            "ارفع يديك وقل **الله أكبر**. هذه تكبيرة الإحرام، وبها تبدأ صلاتك.",
+            "اختياري: اقرأ سرًّا دعاء الاستفتاح «سبحانك اللهم وبحمدك...» (انظر البطاقة أدناه). وهو ليس واجبًا، فيمكنك تركه حتى تحفظه.",
+            "اقرأ **سورة الفاتحة**، ثم قل **آمين**.",
+            "اقرأ سورة قصيرة أو آيات تحفظها، مثل سورة الإخلاص. وإن لم تحفظ شيئًا بعد فالفاتحة وحدها تكفي وأنت تتعلم.",
+            "قل **الله أكبر** واركع، واضعًا يديك على ركبتيك ومادًّا ظهرك. وقل **سبحان ربي العظيم**. ولك أن تكررها، ويقولها كثير من الناس ثلاثًا.",
+            "ارفع رأسك قائلًا **سمع الله لمن حمده**، فإذا اعتدلت قائمًا فقل **ربنا ولك الحمد**.",
+            "قل **الله أكبر** واسجد على سبعة أعضاء: الجبهة مع الأنف، واليدين، والركبتين، وأطراف القدمين. وقل **سبحان ربي الأعلى**، ولك أن تكررها.",
+            "قل **الله أكبر** واجلس، واطمئن في جلوسك، وقل **رب اغفر لي، رب اغفر لي**.",
+            "قل **الله أكبر** واسجد السجدة الثانية، وقل فيها ما قلته في الأولى.",
+            "قل **الله أكبر** وقم. وبهذا تمت الركعة الأولى.",
+            "الركعة الثانية: اقرأ الفاتحة وقل آمين، ثم سورة قصيرة إن كنت تحفظ شيئًا. ودعاء الاستفتاح يكون في أول الصلاة فقط.",
+            "اركع وارفع واسجد سجدتين كما فعلت في الركعة الأولى تمامًا، وبالأذكار نفسها.",
+            "بعد السجدة الثانية ابقَ جالسًا، واقرأ **التشهد** (التحيات) الذي تعلمته في الدرس السابق.",
+            "ولأن هذه هي الجلسة الأخيرة، فأتبع التشهد بـ**الصلاة على النبي** («اللهم صلِّ على محمد...»)، ثم ادعُ بدعاء قصير إن شئت.",
+            "اختم بـ**التسليم**: التفت بوجهك إلى اليمين وقل **السلام عليكم ورحمة الله**، ثم التفت إلى اليسار وقلها مرة أخرى. وبهذا تمت صلاتك."
+          ]
+        }
+      },
+      {
+        "h": "أذكار تلتقي بها لأول مرة"
+      },
+      {
+        "p": "أنت تعرف الفاتحة وأذكار الركوع والسجود والتشهد، وهذه هي الأذكار الجديدة."
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ",
+          "transliteration": "",
+          "meaning": "أنزّهك يا الله عن كل نقص، وأحمدك، وتبارك اسمك، وعلت عظمتك، ولا معبود بحق غيرك. (دعاء الاستفتاح، وهو اختياري.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "",
+          "meaning": "يسمع الله من حمده ويستجيب له. (تقوله وأنت ترفع من الركوع.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "",
+          "meaning": "يا ربنا، ولك الحمد كله. (تقوله بعد أن تعتدل قائمًا.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
+          "transliteration": "",
+          "meaning": "يا رب اغفر لي، يا رب اغفر لي. (تقوله في الجلسة بين السجدتين.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "transliteration": "",
+          "meaning": "السلام عليكم ورحمة الله. (تقوله عن يمينك ثم عن يسارك لتختم الصلاة.)"
+        }
+      },
+      {
+        "p": "وإذا صليت خلف إمام فإنك تتابعه: إذا كبّر كبّرت بعده، وإذا قال «سمع الله لمن حمده» قلت «ربنا ولك الحمد» (رواه البخاري)."
+      },
+      {
+        "h": "الصلاة الثلاثية والرباعية"
+      },
+      {
+        "p": "المغرب ثلاث ركعات، والظهر والعصر والعشاء أربع. بعد الركعة الثانية تجلس للتشهد الأول، ثم تكبّر وتقوم لما بقي. وفي الركعتين الثالثة والرابعة تقرأ الفاتحة وحدها دون سورة بعدها (رواه البخاري ومسلم). أما الجلسة الأخيرة، بما فيها من تشهد وصلاة على النبي وتسليم، فتكون في آخر ركعة."
+      },
+      {
+        "h": "الاختلاف في التفاصيل أمر طبيعي"
+      },
+      {
+        "p": "ستلاحظ أن المسلمين يختلفون في بعض التفاصيل. فجمهور العلماء على وضع اليد اليمنى على اليسرى في القيام، لكنهم يختلفون في موضعهما (على الصدر أو أسفل منه)، وبعض المالكية يصلّون مرسلين أيديهم إلى جانبيهم. ويختلف الناس كذلك في حدّ رفع اليدين وفي هيئة الجلوس بالضبط. وهذه من سنن الصلاة لا من أركانها، فلا تُبطل صلاة أحد، ولا حرج أبدًا في أن تتبع طريقة مسجدك."
+      },
+      {
+        "quick": {
+          "question": "ماذا تقول حين ترفع من الركوع؟",
+          "options": [
+            "سبحان ربي الأعلى",
+            "سمع الله لمن حمده، ثم ربنا ولك الحمد",
+            "السلام عليكم ورحمة الله"
+          ],
+          "correct": 1,
+          "explanation": "عند الرفع من الركوع تقول «سمع الله لمن حمده»، فإذا اعتدلت قائمًا قلت «ربنا ولك الحمد». أما «سبحان ربي الأعلى» فمكانها السجود، والتسليم تُختم به الصلاة."
+        }
+      },
+      {
+        "key": "الركعة الواحدة: الفاتحة، ثم الركوع، ثم الرفع منه، ثم سجدتان. أدِّ كل جزء بطمأنينة؛ فقد علّمنا النبي صلى الله عليه وسلم أن نطمئن في كل هيئة."
+      },
+      {
+        "p": "صارت لديك الآن خريطة كاملة للصلاة. وفي الدرس القادم ستتعرف على معاني هذه الأذكار، لتصل كل كلمة إلى قلبك كما تجري على لسانك."
+      }
+    ],
+    "es": [
+      {
+        "p": "Ya aprendiste las piezas: la sura Al-Fatiha, lo que se dice en el ruku' y en el suyud, y el tashahhud. Ahora toca unirlas. Esta lección recorre una oración de dos unidades (*rak'at*), como la oración de Fayr, de principio a fin, para que sepas qué decir en cada momento."
+      },
+      {
+        "p": "Un breve recordatorio: una *rak'a* es una ronda de estar de pie, inclinarse (*ruku'*) y hacer dos postraciones (*suyud*). Casi cada paso de una posición a otra empieza con *Al-lahu Akbar* (Allah es el más grande). El Profeta Muhammad, la paz sea con él, decía el takbir al ponerse de pie, al inclinarse, al bajar y al levantarse, durante toda la oración (Bujari y Muslim)."
+      },
+      {
+        "p": "También enseñó a un hombre que rezaba con prisa a ir más despacio: a inclinarse hasta quedar tranquilo, a levantarse hasta quedar erguido, a postrarse hasta quedar tranquilo y a sentarse hasta quedar tranquilo (Bujari y Muslim). Así que no hay prisa. Deja que cada posición se asiente antes de pasar a la siguiente."
+      },
+      {
+        "h": "Antes de empezar"
+      },
+      {
+        "p": "Haz el wudu (la ablución) y colócate hacia la *qibla* (la dirección de la Kaaba en La Meca). Luego haz tu **intención** (*niyyah*): decide en tu corazón qué oración vas a rezar. El Profeta dijo: \"Las acciones son solo según las intenciones\" (Bujari y Muslim). Los sabios coinciden en que la intención está en el corazón, así que no necesitas decirla en voz alta."
+      },
+      {
+        "h": "Recorre una oración de dos unidades"
+      },
+      {
+        "steps": {
+          "title": "Una oración de dos unidades, paso a paso",
+          "steps": [
+            "Ponte de pie hacia la qibla, con la intención en tu corazón.",
+            "Levanta las manos y di **Al-lahu Akbar** (Allah es el más grande). Este takbir inicial comienza tu oración.",
+            "Opcional: di en voz baja la súplica de apertura, *Subhanakal-lahumma wa bihamdika...* (mira la tarjeta más abajo). No es obligatoria, así que puedes omitirla hasta que la aprendas.",
+            "Recita la **sura Al-Fatiha** y luego di **Amín**.",
+            "Recita una sura corta o algunas aleyas que sepas, como la sura Al-Ijlas. Si todavía no te sabes ninguna, Al-Fatiha sola es suficiente mientras aprendes.",
+            "Di **Al-lahu Akbar** e inclínate (ruku'), con las manos en las rodillas y la espalda recta. Di **Subhana Rabbiyal-'Adhim** (Gloria a mi Señor, el Grandioso). Puedes repetirlo; mucha gente lo dice tres veces.",
+            "Levántate diciendo **Sami'al-lahu liman hamidah** (Allah escucha a quien Lo alaba). Cuando estés de pie y erguido, di **Rabbana wa lakal-hamd** (Señor nuestro, y a Ti pertenece toda alabanza).",
+            "Di **Al-lahu Akbar** y baja al suyud sobre siete partes: la frente junto con la nariz, las dos manos, las dos rodillas y las puntas de los dos pies. Di **Subhana Rabbiyal-A'la** (Gloria a mi Señor, el Altísimo), y repítelo si quieres.",
+            "Di **Al-lahu Akbar** y siéntate. Siéntate con calma y di **Rabbigfir li, Rabbigfir li** (Señor mío, perdóname; Señor mío, perdóname).",
+            "Di **Al-lahu Akbar** y haz la segunda postración, con las mismas palabras que en la primera.",
+            "Di **Al-lahu Akbar** y ponte de pie. Tu primera unidad está completa.",
+            "Segunda unidad: recita Al-Fatiha y di Amín, y luego una sura corta si sabes alguna. La súplica de apertura solo se dice al comienzo de la oración.",
+            "Inclínate, levántate y haz dos postraciones exactamente como en la primera unidad, con las mismas palabras.",
+            "Después de la segunda postración, quédate sentado. Recita el **tashahhud** (*at-tahiyyat*) de la lección anterior.",
+            "Como esta es la sentada final, continúa con la **salawat** (*Al-lahumma salli ala Muhammad...*). Después puedes añadir una breve súplica.",
+            "Termina con el **taslim**: gira la cara hacia la derecha y di **As-salamu alaykum wa rahmatul-lah** (La paz sea con ustedes y la misericordia de Allah), luego gira hacia la izquierda y dilo otra vez. Tu oración está completa."
+          ]
+        }
+      },
+      {
+        "h": "Frases que encuentras por primera vez"
+      },
+      {
+        "p": "Ya conoces Al-Fatiha, las palabras del ruku' y del suyud, y el tashahhud. Estas son las nuevas."
+      },
+      {
+        "phrase": {
+          "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ",
+          "transliteration": "Subhanakal-lahumma wa bihamdika, wa tabarakasmuka, wa ta'ala jadduka, wa la ilaha gairuk",
+          "meaning": "Gloria a Ti, oh Allah, y alabanza. Bendito es Tu nombre, exaltada es Tu majestad, y no hay más dios que Tú. (La súplica de apertura, opcional.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+          "transliteration": "Sami'al-lahu liman hamidah",
+          "meaning": "Allah escucha a quien Lo alaba. (Se dice al levantarse del ruku'.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبَّنَا وَلَكَ الْحَمْدُ",
+          "transliteration": "Rabbana wa lakal-hamd",
+          "meaning": "Señor nuestro, y a Ti pertenece toda alabanza. (Se dice ya de pie y erguido.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
+          "transliteration": "Rabbigfir li, Rabbigfir li",
+          "meaning": "Señor mío, perdóname; Señor mío, perdóname. (Se dice sentado entre las dos postraciones.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "transliteration": "As-salamu alaykum wa rahmatul-lah",
+          "meaning": "La paz sea con ustedes y la misericordia de Allah. (Se dice hacia la derecha y luego hacia la izquierda para terminar la oración.)"
+        }
+      },
+      {
+        "p": "Cuando rezas detrás de un imam, lo sigues. Cuando él dice *Al-lahu Akbar*, tú lo dices después de él, y cuando dice *Sami'al-lahu liman hamidah*, tú respondes *Rabbana wa lakal-hamd* (Bujari)."
+      },
+      {
+        "h": "Oraciones de tres o cuatro unidades"
+      },
+      {
+        "p": "Magrib tiene tres unidades; Duhr, Asr e Isha tienen cuatro. Después de la segunda unidad te sientas para el primer tashahhud, luego dices *Al-lahu Akbar* y te levantas para el resto. En la tercera y la cuarta unidad recitas solo Al-Fatiha, sin otra sura (Bujari y Muslim). La sentada final, con el tashahhud, la salawat y el taslim, llega al final de la última unidad."
+      },
+      {
+        "h": "Las pequeñas diferencias son normales"
+      },
+      {
+        "p": "Verás que los musulmanes hacen algunos detalles de forma distinta. La mayoría de los sabios enseña colocar la mano derecha sobre la izquierda al estar de pie, pero difieren sobre dónde (sobre el pecho o más abajo), y algunas comunidades malikíes rezan con los brazos a los lados. También hay diferencias en hasta dónde se levantan las manos y en cómo sentarse exactamente. Son detalles de la Sunnah, no pilares de la oración, así que no invalidan la oración de nadie, y está perfectamente bien seguir la manera de tu mezquita local."
+      },
+      {
+        "quick": {
+          "question": "¿Qué dices al levantarte del ruku'?",
+          "options": [
+            "Subhana Rabbiyal-A'la",
+            "Sami'al-lahu liman hamidah, y luego Rabbana wa lakal-hamd",
+            "As-salamu alaykum wa rahmatul-lah"
+          ],
+          "correct": 1,
+          "explanation": "Al levantarte del ruku' dices Sami'al-lahu liman hamidah, y ya de pie, Rabbana wa lakal-hamd. Subhana Rabbiyal-A'la corresponde al suyud, y el taslim termina la oración."
+        }
+      },
+      {
+        "key": "Una unidad es: Al-Fatiha, ruku', levantarse y dos postraciones. Haz cada parte con calma; el Profeta nos enseñó a estar tranquilos en cada posición."
+      },
+      {
+        "p": "Ahora tienes un mapa completo de la oración. En la próxima lección verás qué significan estas palabras, para que cada una llegue a tu corazón además de a tu lengua."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 789 and Sahih Muslim 392 (agreed upon): the takbirs throughout the prayer",
+      "url": "https://hadeethenc.com/en/browse/hadith/3105"
+    },
+    {
+      "label": "Sahih al-Bukhari 757 and Sahih Muslim 397 (agreed upon): praying calmly",
+      "url": "https://hadeethenc.com/en/browse/hadith/3185"
+    },
+    {
+      "label": "Sahih al-Bukhari 1 and Sahih Muslim 1907 (agreed upon): actions are by intentions",
+      "url": "https://sunnah.com/bukhari:1"
+    },
+    {
+      "label": "IslamQA 13337: the intention is in the heart",
+      "url": "https://islamqa.info/en/answers/13337"
+    },
+    {
+      "label": "Sunan Abi Dawud 776 (sahih, al-Albani): the opening supplication",
+      "url": "https://sunnah.com/abudawud:776"
+    },
+    {
+      "label": "Sahih al-Bukhari 780 and Sahih Muslim 410 (agreed upon): saying Ameen",
+      "url": "https://hadeethenc.com/en/browse/hadith/5844"
+    },
+    {
+      "label": "Sahih al-Bukhari 772: Al-Fatiha alone is sufficient",
+      "url": "https://sunnah.com/bukhari:772"
+    },
+    {
+      "label": "Sahih Muslim 772: the glorification in ruku and sujud",
+      "url": "https://sunnah.com/muslim:772a"
+    },
+    {
+      "label": "Sahih Muslim, narrated by Ibn Abi Awfa: Sami'allahu liman hamidah",
+      "url": "https://hadeethenc.com/en/browse/hadith/65101"
+    },
+    {
+      "label": "Sahih al-Bukhari 734: Rabbana wa lakal-hamd behind the imam",
+      "url": "https://sunnah.com/bukhari:734"
+    },
+    {
+      "label": "Sahih al-Bukhari 812 and Sahih Muslim 490 (agreed upon): prostrating on seven parts",
+      "url": "https://hadeethenc.com/en/browse/hadith/10925"
+    },
+    {
+      "label": "Sunan Abi Dawud 874 (sahih): Rabbighfir li between the two prostrations",
+      "url": "https://hadeethenc.com/en/browse/hadith/65104"
+    },
+    {
+      "label": "Sunan Abi Dawud 996 (sahih, al-Albani): the taslim",
+      "url": "https://sunnah.com/abudawud:996"
+    },
+    {
+      "label": "Sahih al-Bukhari 776 and Sahih Muslim 451 (agreed upon): Al-Fatiha only in the last two units",
+      "url": "https://hadeethenc.com/en/browse/hadith/10916"
+    },
+    {
+      "label": "IslamQA 59957: where to place the hands in prayer (majority view and differences)",
+      "url": "https://islamqa.info/en/answers/59957"
+    },
+    {
+      "label": "IslamQA 6109: the Maliki practice of holding the arms at the sides",
+      "url": "https://islamqa.info/en/answers/6109"
+    }
+  ],
+  "differenceNote": false
+}

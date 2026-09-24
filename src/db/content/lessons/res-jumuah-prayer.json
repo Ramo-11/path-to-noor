@@ -1,0 +1,349 @@
+{
+  "slug": "res-jumuah-prayer",
+  "minutes": 9,
+  "title": {
+    "en": "The Friday prayer (Jumuah)",
+    "ar": "صلاة الجمعة",
+    "es": "La oración del viernes (yumu'ah)"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Friday is a special day for Muslims. At midday, in place of the usual Dhuhr prayer, Muslims gather at the masjid for **Jumuah**, the Friday prayer. Allah says:"
+      },
+      {
+        "quote": "O you who have believed, when [the adhan] is called for the prayer on the day of Jumu'ah [Friday], then proceed to the remembrance of Allah and leave trade. That is better for you, if you only knew.",
+        "cite": "Quran 62:9 (Saheeh International translation of the meaning)"
+      },
+      {
+        "p": "In other words: when the call is made for prayer on Friday, go to hear the sermon and pray, and set aside buying, selling, and anything else that keeps you from it. Scholars take this verse as a proof that attending Jumuah and listening to the sermon is an obligation."
+      },
+      {
+        "h": "Who must attend"
+      },
+      {
+        "p": "The Prophet Muhammad, peace be upon him, said: \"Jumuah is a duty upon every Muslim in congregation, except four: a slave, a woman, a child, or a sick person\" (Abu Dawud, sahih). The majority of scholars, including the four schools, also exempt the traveler. In practice:"
+      },
+      {
+        "ul": [
+          "**Adult men who are not traveling** attend Jumuah every week, unless they have a valid excuse such as illness.",
+          "**Women, children, travelers, and the sick** are not required to attend. On Friday they pray Dhuhr as usual.",
+          "**Anyone who does attend** and prays Jumuah with the imam does not pray Dhuhr that day; scholars agree this is enough for them. Women may attend if they wish."
+        ]
+      },
+      {
+        "h": "What happens at Jumuah"
+      },
+      {
+        "ol": [
+          "The adhan is called.",
+          "The imam gives two sermons (each is called a **khutbah**), standing, with a short sitting between them (Bukhari and Muslim).",
+          "The iqamah is called, and everyone prays **two units** (*rak'ahs*) together behind the imam (al-Nasa'i, sahih).",
+          "These two units take the place of the four units of Dhuhr for that day."
+        ]
+      },
+      {
+        "p": "The Prophet kept both his prayer and his sermon moderate in length (Muslim)."
+      },
+      {
+        "h": "Etiquette of the day"
+      },
+      {
+        "ul": [
+          "**Take a bath (ghusl).** The Prophet said: \"Whoever of you comes to attend the Friday prayer, let him take a shower\" (Bukhari and Muslim). Most scholars, including the four imams, consider it strongly recommended rather than required. The Prophet also said that whoever only makes wudu on Friday has done well, and whoever bathes has done better (Tirmidhi and others, hasan).",
+          "**Come clean and fresh.** The Prophet mentioned purifying yourself as much as you can and using oil or perfume from your home (Bukhari). Women going to the masjid do not wear perfume, as the Prophet instructed (Muslim).",
+          "**Arrive early.** The Prophet said that on Friday the angels stand at the masjid door recording people in the order they arrive, and when the imam comes out, they fold their records and listen to the sermon (Bukhari and Muslim).",
+          "**Do not push between people.** The Prophet mentioned not separating two people who are sitting together (Bukhari). Find a space without stepping over anyone.",
+          "**Listen quietly to the sermon.** The Prophet said: \"If you say to your companion 'listen' on Friday while the Imam is delivering the sermon, you have thus engaged in idle talk\" (Bukhari and Muslim). Even telling someone else to be quiet is too much, so give the khutbah your full attention."
+        ]
+      },
+      {
+        "p": "The Prophet said that whoever bathes on Friday, purifies himself, uses some scent, does not separate two people, prays what is written for him, and listens quietly while the imam speaks, will have his sins between that Friday and the next forgiven (Bukhari)."
+      },
+      {
+        "steps": {
+          "title": "Your first Jumuah",
+          "steps": [
+            "Find out when Jumuah starts at your local masjid. Many masjids post the time online; it is around the time of Dhuhr.",
+            "Take a bath (ghusl) that morning if you can, and make wudu before you leave. Wear clean, modest clothes. Men may add a pleasant scent.",
+            "Put your phone on silent before you go in.",
+            "Arrive early. If the sermon has not started yet, pray two short units when you enter, before you sit down: the Prophet taught this greeting of the masjid (Bukhari and Muslim).",
+            "Sit in a space in the rows without stepping over people, and wait quietly. You can make dhikr (remembrance of Allah) while you wait.",
+            "When the imam begins the khutbah, stop talking and listen, even if you do not understand every word.",
+            "When the iqamah is called, stand up and join the rows, close to the people beside you.",
+            "Pray the two units behind the imam. Follow him: when he says Allahu Akbar, say it after him; bow when he bows, and prostrate when he prostrates (Bukhari and Muslim).",
+            "Afterward, you may pray a voluntary prayer: the Prophet prayed two units at home after Jumuah (Bukhari), and he also said that whoever prays after Jumuah should pray four (Muslim).",
+            "Then go about your day, remembering Allah often (Quran 62:10). If anything confused you, it is completely fine to ask someone after the prayer."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "What should you do while the imam is giving the Friday sermon?",
+          "options": [
+            "Chat quietly with the person next to you",
+            "Listen in silence",
+            "Pray your sunnah prayers"
+          ],
+          "correct": 1,
+          "explanation": "The Prophet taught that during the khutbah we listen in silence. Even telling someone else to be quiet counts as idle talk."
+        }
+      },
+      {
+        "key": "On Friday, Jumuah (two sermons followed by two units in congregation) takes the place of Dhuhr. Come clean, come early, and listen quietly."
+      },
+      {
+        "p": "The last lesson of this step is about the two joyful prayers of the year: the prayers of Eid."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يوم الجمعة يوم مميز عند المسلمين. ففي وقت الظهر يجتمع المسلمون في المسجد لأداء **صلاة الجمعة** بدلًا من صلاة الظهر المعتادة. قال الله تعالى:"
+      },
+      {
+        "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+        "cite": "سورة الجمعة: 9"
+      },
+      {
+        "p": "أي: إذا نادى المؤذن للصلاة يوم الجمعة فامضوا إلى سماع الخطبة وأداء الصلاة، واتركوا البيع وكل ما يشغلكم عنها، فذلك خير لكم. وفي الآية دليل على وجوب حضور الجمعة واستماع الخطبة."
+      },
+      {
+        "h": "من تجب عليه الجمعة"
+      },
+      {
+        "p": "قال النبي محمد صلى الله عليه وسلم: «الْجُمُعَةُ حَقٌّ وَاجِبٌ عَلَى كُلِّ مُسْلِمٍ فِي جَمَاعَةٍ إِلاَّ أَرْبَعَةً عَبْدٌ مَمْلُوكٌ أَوِ امْرَأَةٌ أَوْ صَبِيٌّ أَوْ مَرِيضٌ» (رواه أبو داود، وهو صحيح). ويستثني جمهور العلماء، ومنهم المذاهب الأربعة، المسافرَ أيضًا. وبعبارة عملية:"
+      },
+      {
+        "ul": [
+          "**الرجال البالغون غير المسافرين** يحضرون الجمعة كل أسبوع، إلا من كان له عذر كالمرض.",
+          "**النساء والأطفال والمسافرون والمرضى** لا تجب عليهم الجمعة، ويصلّون الظهر يوم الجمعة كالمعتاد.",
+          "**ومن حضر منهم** وصلى الجمعة مع الإمام فلا يصلي الظهر ذلك اليوم، وهذا يجزئه باتفاق العلماء. ويجوز للمرأة أن تحضر إن شاءت."
+        ]
+      },
+      {
+        "h": "ماذا يحدث في صلاة الجمعة"
+      },
+      {
+        "ol": [
+          "يُؤذَّن للصلاة.",
+          "يخطب الإمام خطبتين وهو قائم، يجلس بينهما جلسة قصيرة (رواه البخاري ومسلم).",
+          "تُقام الصلاة، ويصلي الجميع **ركعتين** خلف الإمام (رواه النسائي، وهو صحيح).",
+          "وتقوم هاتان الركعتان مقام أربع ركعات الظهر في ذلك اليوم."
+        ]
+      },
+      {
+        "p": "وكانت صلاة النبي صلى الله عليه وسلم قصدًا، وخطبته قصدًا، أي معتدلة الطول (رواه مسلم)."
+      },
+      {
+        "h": "آداب يوم الجمعة"
+      },
+      {
+        "ul": [
+          "**الاغتسال.** قال النبي صلى الله عليه وسلم: «مَنْ جَاءَ مِنْكُمُ الْجُمُعَةَ فَلْيَغْتَسِلْ» (رواه البخاري ومسلم). وجمهور العلماء، ومنهم الأئمة الأربعة، على أنه سنة مؤكدة لا واجب؛ فقد أخبر النبي صلى الله عليه وسلم أن من توضأ يوم الجمعة فحسن، ومن اغتسل فهو أفضل (رواه الترمذي وغيره، وهو حسن).",
+          "**النظافة والطيب.** ذكر النبي صلى الله عليه وسلم التطهر ما استطاع المرء، وأن يدّهن من دهنه أو يمس من طيب بيته (رواه البخاري). والمرأة إذا خرجت إلى المسجد لا تتطيب، كما أمر النبي صلى الله عليه وسلم (رواه مسلم).",
+          "**التبكير.** أخبر النبي صلى الله عليه وسلم أن الملائكة تقف يوم الجمعة على باب المسجد تكتب الأول فالأول، فإذا خرج الإمام طووا صحفهم واستمعوا إلى الخطبة (رواه البخاري ومسلم).",
+          "**عدم التفريق بين الناس.** ذكر النبي صلى الله عليه وسلم ألا يفرّق المرء بين اثنين جالسين (رواه البخاري)، فاجلس حيث تجد مكانًا دون أن تتخطى أحدًا.",
+          "**الإنصات للخطبة.** قال النبي صلى الله عليه وسلم: «إذا قُلْتَ لِصَاحِبِكَ: أَنْصِتْ، يومَ الجمعةِ، والْإِمامُ يَخْطُبُ، فَقَدْ لَغَوْتَ» (رواه البخاري ومسلم). فحتى قولك لغيرك «أنصت» لغو، فأعطِ الخطبة انتباهك كله."
+        ]
+      },
+      {
+        "p": "وأخبر النبي صلى الله عليه وسلم أن من اغتسل يوم الجمعة، وتطهر، وتطيّب، ولم يفرّق بين اثنين، وصلى ما كُتب له، وأنصت إذا تكلم الإمام، غُفر له ما بينه وبين الجمعة الأخرى (رواه البخاري)."
+      },
+      {
+        "steps": {
+          "title": "جمعتك الأولى",
+          "steps": [
+            "اعرف موعد الجمعة في مسجدك؛ فكثير من المساجد تنشر الموعد على الإنترنت، وهو في وقت الظهر تقريبًا.",
+            "اغتسل في ذلك الصباح إن استطعت، وتوضأ قبل أن تخرج. والبس ثيابًا نظيفة ساترة. وللرجال أن يتطيبوا.",
+            "اجعل هاتفك صامتًا قبل أن تدخل.",
+            "بكّر في الذهاب. وإذا لم تبدأ الخطبة بعد فصلِّ ركعتين خفيفتين قبل أن تجلس؛ فقد علّمنا النبي صلى الله عليه وسلم تحية المسجد (رواه البخاري ومسلم).",
+            "اجلس في مكان في الصفوف دون أن تتخطى الناس، وانتظر بهدوء، ولك أن تذكر الله وأنت تنتظر.",
+            "إذا بدأ الإمام الخطبة فتوقف عن الكلام وأنصت، حتى لو لم تفهم كل كلمة.",
+            "إذا أقيمت الصلاة فقم وادخل في الصف، قريبًا ممن بجانبك.",
+            "صلِّ الركعتين خلف الإمام وتابعه: إذا كبّر فكبّر بعده، وإذا ركع فاركع، وإذا سجد فاسجد (رواه البخاري ومسلم).",
+            "بعد الصلاة لك أن تتنفل: فقد كان النبي صلى الله عليه وسلم يصلي ركعتين في بيته بعد الجمعة (رواه البخاري)، وقال إن من صلى بعد الجمعة فليصلِّ أربعًا (رواه مسلم).",
+            "ثم انطلق إلى يومك ذاكرًا الله كثيرًا (سورة الجمعة: 10). وإن أشكل عليك شيء فلا حرج أبدًا في أن تسأل أحدًا بعد الصلاة."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "ماذا تفعل حين يخطب الإمام خطبة الجمعة؟",
+          "options": [
+            "أتحدث بهدوء مع من بجانبي",
+            "أنصت في صمت",
+            "أصلي السنن"
+          ],
+          "correct": 1,
+          "explanation": "علّمنا النبي صلى الله عليه وسلم أن ننصت أثناء الخطبة، وحتى قولك لغيرك «أنصت» يُعدّ لغوًا."
+        }
+      },
+      {
+        "key": "صلاة الجمعة (خطبتان ثم ركعتان جماعة) تقوم مقام الظهر يوم الجمعة. احضر نظيفًا، وبكّر، وأنصت."
+      },
+      {
+        "p": "الدرس الأخير في هذه الخطوة عن الصلاتين البهيجتين في العام: صلاتي العيد."
+      }
+    ],
+    "es": [
+      {
+        "p": "El viernes es un día especial para los musulmanes. Al mediodía, en lugar de la oración habitual de Duhr, los musulmanes se reúnen en la mezquita para la **yumu'ah** (en inglés suele escribirse Jumuah), la oración del viernes. Allah dice:"
+      },
+      {
+        "quote": "¡Creyentes! Cuando sea realizado el llamado a la oración del día viernes, acudan al recuerdo de Dios y abandonen el comercio, es lo mejor para ustedes. ¡Si supieran!",
+        "cite": "Corán 62:9 (traducción del significado de Isa García)"
+      },
+      {
+        "p": "Es decir: cuando se hace el llamado a la oración del viernes, ve a escuchar el sermón y a rezar, y deja la compra, la venta y todo lo que te distraiga de ello. Los sabios toman esta aleya como prueba de que asistir a la yumu'ah y escuchar el sermón es una obligación."
+      },
+      {
+        "h": "Quién debe asistir"
+      },
+      {
+        "p": "El Profeta Muhammad, la paz sea con él, dijo que la yumu'ah es un deber para todo musulmán en congregación, excepto cuatro: un esclavo, una mujer, un niño o un enfermo (Abu Dawud, sahih). La mayoría de los sabios, incluidas las cuatro escuelas, también exime al viajero. En la práctica:"
+      },
+      {
+        "ul": [
+          "**Los hombres adultos que no están de viaje** asisten a la yumu'ah cada semana, salvo que tengan una excusa válida, como una enfermedad.",
+          "**Las mujeres, los niños, los viajeros y los enfermos** no están obligados a asistir. El viernes rezan Duhr como de costumbre.",
+          "**Quien sí asiste** y reza la yumu'ah con el imam no reza Duhr ese día; los sabios coinciden en que eso le basta. Las mujeres pueden asistir si lo desean."
+        ]
+      },
+      {
+        "h": "Qué ocurre en la yumu'ah"
+      },
+      {
+        "ol": [
+          "Se hace el adhan.",
+          "El imam da dos sermones (cada uno se llama **jutbah**), de pie, con una breve sentada entre ellos (Bujari y Muslim).",
+          "Se hace la iqamah y todos rezan **dos unidades** (*rak'at*) juntos detrás del imam (an-Nasa'i, sahih).",
+          "Estas dos unidades ocupan el lugar de las cuatro unidades de Duhr ese día."
+        ]
+      },
+      {
+        "p": "El Profeta mantenía tanto su oración como su sermón de una duración moderada (Muslim)."
+      },
+      {
+        "h": "Buenas costumbres del día"
+      },
+      {
+        "ul": [
+          "**Date un baño (gusl).** El Profeta dijo: \"Quién de ustedes vaya a la oración del viernes que se lave todo el cuerpo antes\" (Bujari y Muslim). La mayoría de los sabios, incluidos los cuatro imames, lo considera muy recomendado, no obligatorio. El Profeta también dijo que quien solo hace el wudu el viernes ha hecho bien, y quien se baña ha hecho algo mejor (Tirmidhi y otros, hasan).",
+          "**Ve limpio y fresco.** El Profeta mencionó purificarse tanto como se pueda y usar aceite o perfume de casa (Bujari). Las mujeres que van a la mezquita no se ponen perfume, como indicó el Profeta (Muslim).",
+          "**Llega temprano.** El Profeta dijo que el viernes los ángeles se colocan en la puerta de la mezquita y anotan a la gente en el orden en que llega, y cuando sale el imam, cierran sus registros y escuchan el sermón (Bujari y Muslim).",
+          "**No te metas entre la gente.** El Profeta mencionó no separar a dos personas que están sentadas juntas (Bujari). Busca un espacio sin pasar por encima de nadie.",
+          "**Escucha el sermón en silencio.** El Profeta dijo: \"Si le dices a tu compañero que calle y preste atención durante el sermón del imam del viernes, habrás hablado en vano\" (Bujari y Muslim). Incluso pedirle a otro que se calle es demasiado, así que presta toda tu atención a la jutbah."
+        ]
+      },
+      {
+        "p": "El Profeta dijo que a quien se bañe el viernes, se purifique, use algo de perfume, no separe a dos personas, rece lo que le corresponda y escuche en silencio mientras habla el imam, se le perdonarán sus pecados entre ese viernes y el siguiente (Bujari)."
+      },
+      {
+        "steps": {
+          "title": "Tu primera yumu'ah",
+          "steps": [
+            "Averigua a qué hora empieza la yumu'ah en tu mezquita local. Muchas mezquitas publican la hora en internet; es más o menos a la hora de Duhr.",
+            "Si puedes, date un baño (gusl) esa mañana y haz el wudu antes de salir. Ponte ropa limpia y modesta. Los hombres pueden añadir un buen perfume.",
+            "Pon tu teléfono en silencio antes de entrar.",
+            "Llega temprano. Si el sermón aún no ha empezado, al entrar reza dos unidades breves antes de sentarte: el Profeta enseñó este saludo a la mezquita (Bujari y Muslim).",
+            "Siéntate en un espacio de las filas sin pasar por encima de la gente, y espera con calma. Puedes hacer dhikr (recuerdo de Allah) mientras esperas.",
+            "Cuando el imam empiece la jutbah, deja de hablar y escucha, aunque no entiendas cada palabra.",
+            "Cuando se haga la iqamah, levántate y únete a las filas, cerca de las personas a tu lado.",
+            "Reza las dos unidades detrás del imam. Síguelo: cuando diga Al-lahu Akbar, dilo después de él; inclínate cuando él se incline y póstrate cuando él se postre (Bujari y Muslim).",
+            "Después, puedes rezar una oración voluntaria: el Profeta rezaba dos unidades en casa después de la yumu'ah (Bujari), y también dijo que quien rece después de la yumu'ah rece cuatro (Muslim).",
+            "Luego sigue con tu día, recordando mucho a Allah (Corán 62:10). Si algo te confundió, está perfectamente bien preguntarle a alguien después de la oración."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "¿Qué debes hacer mientras el imam da el sermón del viernes?",
+          "options": [
+            "Charlar en voz baja con la persona de al lado",
+            "Escuchar en silencio",
+            "Rezar tus oraciones sunnah"
+          ],
+          "correct": 1,
+          "explanation": "El Profeta enseñó que durante la jutbah escuchamos en silencio. Incluso pedirle a otro que se calle cuenta como palabras vanas."
+        }
+      },
+      {
+        "key": "El viernes, la yumu'ah (dos sermones seguidos de dos unidades en congregación) ocupa el lugar de Duhr. Ve limpio, llega temprano y escucha en silencio."
+      },
+      {
+        "p": "La última lección de este paso trata de las dos oraciones alegres del año: las oraciones del Eid."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 62:9-10 (Saheeh International translation)",
+      "url": "https://quran.com/62/9-10"
+    },
+    {
+      "label": "Sunan Abi Dawud 1067 (sahih, al-Albani): who must attend Jumuah",
+      "url": "https://sunnah.com/abudawud:1067"
+    },
+    {
+      "label": "IslamQA 2905: Jumuah is not obligatory on the traveler (majority, four schools)",
+      "url": "https://islamqa.info/en/answers/2905"
+    },
+    {
+      "label": "IslamQA 73339: women and Jumuah, and praying Dhuhr instead",
+      "url": "https://islamqa.info/en/answers/73339"
+    },
+    {
+      "label": "Sahih al-Bukhari 928 and Sahih Muslim (agreed upon): two sermons with a sitting between them",
+      "url": "https://hadeethenc.com/en/browse/hadith/5399"
+    },
+    {
+      "label": "Sunan al-Nasa'i 1420 (sahih, al-Albani): Jumuah is two units",
+      "url": "https://sunnah.com/nasai:1420"
+    },
+    {
+      "label": "Sahih Muslim 866: moderate prayer and sermon",
+      "url": "https://hadeethenc.com/en/browse/hadith/5817"
+    },
+    {
+      "label": "Sahih al-Bukhari 894 and Sahih Muslim 844 (agreed upon): bathing for Jumuah",
+      "url": "https://hadeethenc.com/en/browse/hadith/5394"
+    },
+    {
+      "label": "Jami at-Tirmidhi and others (hasan): wudu is good, bathing is better",
+      "url": "https://hadeethenc.com/en/browse/hadith/10035"
+    },
+    {
+      "label": "Sahih al-Bukhari 883: the etiquette of Friday and its reward",
+      "url": "https://sunnah.com/bukhari:883"
+    },
+    {
+      "label": "Sahih Muslim 443: women do not wear perfume to the masjid",
+      "url": "https://sunnah.com/muslim:443b"
+    },
+    {
+      "label": "Sahih al-Bukhari 929 and Sahih Muslim 850 (agreed upon): the angels at the door",
+      "url": "https://hadeethenc.com/en/browse/hadith/10551"
+    },
+    {
+      "label": "Sahih al-Bukhari 934 and Sahih Muslim 851 (agreed upon): listening quietly to the sermon",
+      "url": "https://hadeethenc.com/en/browse/hadith/3107"
+    },
+    {
+      "label": "Sahih al-Bukhari 444 and Sahih Muslim 714 (agreed upon): two units on entering the masjid",
+      "url": "https://hadeethenc.com/en/browse/hadith/65091"
+    },
+    {
+      "label": "Sahih al-Bukhari 734 and Sahih Muslim 414 (agreed upon): following the imam",
+      "url": "https://sunnah.com/bukhari:734"
+    },
+    {
+      "label": "Sahih al-Bukhari 937: two units at home after Jumuah",
+      "url": "https://sunnah.com/bukhari:937"
+    },
+    {
+      "label": "Sahih Muslim 881: praying four after Jumuah",
+      "url": "https://sunnah.com/muslim:881a"
+    }
+  ],
+  "differenceNote": false
+}

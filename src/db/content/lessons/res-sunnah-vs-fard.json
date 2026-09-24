@@ -1,0 +1,285 @@
+{
+  "slug": "res-sunnah-vs-fard",
+  "minutes": 7,
+  "title": {
+    "en": "Fard and sunnah prayers: what is the difference?",
+    "ar": "صلاة الفريضة وصلاة السنة: ما الفرق بينهما؟",
+    "es": "Oraciones fard y sunnah: ¿cuál es la diferencia?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "At the masjid, you may notice people praying extra units on their own before or after the congregation. You might wonder whether you are supposed to be doing this too. Here is a simple, reassuring answer."
+      },
+      {
+        "h": "Two kinds of prayer"
+      },
+      {
+        "ul": [
+          "**Fard** (obligatory): the five daily prayers. Every adult Muslim is required to pray them. These always come first.",
+          "**Sunnah** or *nafl* (voluntary): extra prayers the Prophet Muhammad, peace be upon him, used to pray. They bring great reward, but you are not sinning if you leave them."
+        ]
+      },
+      {
+        "p": "A man once came to the Prophet asking about Islam. The Prophet told him about the five daily prayers. The man asked whether he had to do any more than that, and the Prophet said, \"No, unless you do it voluntarily.\" As the man left, saying he would do no more and no less, the Prophet said that he would succeed if he was truthful (Bukhari and Muslim)."
+      },
+      {
+        "p": "Another man asked the Prophet whether he would enter Paradise if he prayed the obligatory prayers, fasted Ramadan, treated the lawful as lawful and the unlawful as unlawful, and did nothing more. The Prophet answered, \"Yes\" (Muslim)."
+      },
+      {
+        "h": "Why the sunnah prayers are still worth learning"
+      },
+      {
+        "p": "In a *hadith qudsi* (words of Allah reported by the Prophet), Allah says that nothing brings His servant closer to Him than what He has made obligatory, and that His servant keeps drawing closer through voluntary deeds until Allah loves him (Bukhari). So the obligatory prayers are the foundation, and the voluntary ones build on it."
+      },
+      {
+        "p": "The Prophet also said that whoever prays twelve voluntary units (*rak'ahs*) in a day and night will have a house built for him in Paradise (Muslim)."
+      },
+      {
+        "h": "The twelve regular sunnah prayers"
+      },
+      {
+        "p": "In another narration of the same hadith, the Prophet named the twelve (Tirmidhi, hasan sahih):"
+      },
+      {
+        "ul": [
+          "**Fajr** (2 fard units): 2 sunnah units **before**.",
+          "**Dhuhr** (4 fard units): 4 sunnah units **before** and 2 **after**.",
+          "**Asr** (4 fard units): none of the twelve.",
+          "**Maghrib** (3 fard units): 2 sunnah units **after**.",
+          "**Isha** (4 fard units): 2 sunnah units **after**."
+        ]
+      },
+      {
+        "p": "That makes 2 + 4 + 2 + 2 + 2 = 12. The companion Ibn Umar, may Allah be pleased with him, reported two units before Dhuhr instead of four (Bukhari), so if you see someone pray two there, that is also from the Sunnah."
+      },
+      {
+        "p": "Of all of these, the Prophet was most regular with the two units before Fajr (Bukhari and Muslim). You pray sunnah prayers on your own, not in congregation, in the same way you learned in the last lessons. The Prophet said that the best place for a person's prayer is at home, except the obligatory prayer (Bukhari and Muslim), so home is a lovely place for them."
+      },
+      {
+        "h": "Where to start as a new Muslim"
+      },
+      {
+        "p": "Start with the five fard prayers. Get comfortable with them first: the times, wudu, and the words. That alone is a real achievement, and it is exactly what Allah asks of you."
+      },
+      {
+        "p": "When the fard prayers feel steady, add one sunnah prayer. The two units before Fajr are a wonderful first choice. Add another when you are ready. There is no rush, and no checklist you have to finish."
+      },
+      {
+        "quick": {
+          "question": "You prayed all five obligatory prayers today, but none of the sunnah prayers. What is true?",
+          "options": [
+            "Your obligatory prayers do not count without the sunnah",
+            "You did what Allah requires; the sunnah prayers are extra reward you can add over time",
+            "You must make up all the sunnah prayers tomorrow"
+          ],
+          "correct": 1,
+          "explanation": "The five fard prayers are what Allah requires, and you prayed them. Sunnah prayers are a gift you can add step by step, whenever you are ready."
+        }
+      },
+      {
+        "key": "Fard first. The five obligatory prayers are what Allah requires; the sunnah prayers are a gift you can add, one at a time."
+      },
+      {
+        "p": "Next, you will learn about the one prayer of the week that is prayed differently: Jumuah, the Friday prayer."
+      }
+    ],
+    "ar": [
+      {
+        "p": "قد ترى في المسجد أناسًا يصلّون ركعات إضافية وحدهم قبل صلاة الجماعة أو بعدها، وقد تتساءل: هل يجب عليّ أن أفعل ذلك أيضًا؟ إليك جوابًا بسيطًا مطمئنًا."
+      },
+      {
+        "h": "نوعان من الصلاة"
+      },
+      {
+        "ul": [
+          "**الفريضة**: الصلوات الخمس اليومية، وهي واجبة على كل مسلم بالغ، وتأتي دائمًا أولًا.",
+          "**السنة** أو **النافلة**: صلوات إضافية كان النبي محمد صلى الله عليه وسلم يصليها، وفيها أجر عظيم، لكنك لا تأثم بتركها."
+        ]
+      },
+      {
+        "p": "جاء رجل إلى النبي صلى الله عليه وسلم يسأله عن الإسلام، فأخبره بالصلوات الخمس في اليوم والليلة، فسأل: هل عليّ غيرها؟ فقال: «لاَ، إِلاَّ أَنْ تَطَوَّعَ». فلما انصرف الرجل وهو يقول إنه لا يزيد على هذا ولا ينقص، قال النبي صلى الله عليه وسلم: «أَفْلَحَ إِنْ صَدَقَ» (رواه البخاري ومسلم)."
+      },
+      {
+        "p": "وسأله رجل آخر: إن صليت الصلوات المكتوبة، وصمت رمضان، وأحللت الحلال، وحرّمت الحرام، ولم أزد على ذلك شيئًا، أأدخل الجنة؟ فقال: «نَعَمْ» (رواه مسلم)."
+      },
+      {
+        "h": "لماذا تستحق صلوات السنة أن تتعلمها"
+      },
+      {
+        "p": "في الحديث القدسي، وهو كلام يرويه النبي صلى الله عليه وسلم عن ربه، يقول الله تعالى إن عبده لا يتقرب إليه بشيء أحب إليه مما افترضه عليه، ولا يزال يتقرب إليه بالنوافل حتى يحبه (رواه البخاري). فالفرائض هي الأساس، والنوافل تبني عليه."
+      },
+      {
+        "p": "وقال النبي صلى الله عليه وسلم إن من صلى اثنتي عشرة ركعة تطوعًا في يوم وليلة بُني له بيت في الجنة (رواه مسلم)."
+      },
+      {
+        "h": "السنن الرواتب الاثنتا عشرة"
+      },
+      {
+        "p": "وفي رواية أخرى للحديث نفسه بيّن النبي صلى الله عليه وسلم هذه الركعات (رواه الترمذي، وهو حسن صحيح):"
+      },
+      {
+        "ul": [
+          "**الفجر** (ركعتان فريضة): ركعتان سنة **قبلها**.",
+          "**الظهر** (أربع ركعات فريضة): أربع ركعات سنة **قبلها** وركعتان **بعدها**.",
+          "**العصر** (أربع ركعات فريضة): ليس لها شيء من هذه الاثنتي عشرة.",
+          "**المغرب** (ثلاث ركعات فريضة): ركعتان سنة **بعدها**.",
+          "**العشاء** (أربع ركعات فريضة): ركعتان سنة **بعدها**."
+        ]
+      },
+      {
+        "p": "فالمجموع ٢ + ٤ + ٢ + ٢ + ٢ = ١٢ ركعة. وقد روى ابن عمر رضي الله عنهما ركعتين قبل الظهر بدل الأربع (رواه البخاري)، فإذا رأيت من يصلي ركعتين قبل الظهر فهذا أيضًا من السنة."
+      },
+      {
+        "p": "وكان النبي صلى الله عليه وسلم أشد محافظة على ركعتي الفجر من أي نافلة أخرى (رواه البخاري ومسلم). وتُصلّى السنن فرادى لا جماعة، بالطريقة نفسها التي تعلمتها في الدروس السابقة. وقد قال صلى الله عليه وسلم إن أفضل صلاة المرء في بيته إلا المكتوبة (رواه البخاري ومسلم)، فالبيت مكان جميل لها."
+      },
+      {
+        "h": "من أين تبدأ وأنت مسلم جديد"
+      },
+      {
+        "p": "ابدأ بالفرائض الخمس، وتمكّن منها أولًا: أوقاتها، والوضوء، والأذكار. هذا وحده إنجاز حقيقي، وهو بالضبط ما طلبه الله منك."
+      },
+      {
+        "p": "وحين تستقر الفرائض أضف سنة واحدة، وركعتا الفجر اختيار رائع للبداية. ثم أضف غيرها حين تكون مستعدًا. لا عجلة، ولا قائمة يجب أن تنهيها."
+      },
+      {
+        "quick": {
+          "question": "صليت اليوم الصلوات الخمس المفروضة، ولم تصلِّ شيئًا من السنن. أي العبارات صحيحة؟",
+          "options": [
+            "الفرائض لا تُقبل بدون السنن",
+            "أدّيت ما أوجبه الله عليك، والسنن أجر إضافي تضيفه مع الوقت",
+            "يجب أن تقضي كل السنن غدًا"
+          ],
+          "correct": 1,
+          "explanation": "الصلوات الخمس هي ما أوجبه الله عليك وقد أديتها. أما السنن فهدية تضيفها خطوة بعد خطوة متى كنت مستعدًا."
+        }
+      },
+      {
+        "key": "الفريضة أولًا. الصلوات الخمس هي ما أوجبه الله، والسنن هدية تضيفها واحدة بعد أخرى."
+      },
+      {
+        "p": "في الدرس القادم ستتعرف على الصلاة الوحيدة في الأسبوع التي تُصلّى بطريقة مختلفة: صلاة الجمعة."
+      }
+    ],
+    "es": [
+      {
+        "p": "En la mezquita quizás veas a personas rezando unidades extra por su cuenta antes o después de la oración en congregación. Tal vez te preguntes si tú también deberías hacerlo. Aquí tienes una respuesta sencilla y tranquilizadora."
+      },
+      {
+        "h": "Dos tipos de oración"
+      },
+      {
+        "ul": [
+          "**Fard** (obligatoria): las cinco oraciones diarias. Todo musulmán adulto debe rezarlas. Estas siempre van primero.",
+          "**Sunnah** o *nafl* (voluntaria): oraciones extra que el Profeta Muhammad, la paz sea con él, solía rezar. Traen una gran recompensa, pero no cometes pecado si las dejas."
+        ]
+      },
+      {
+        "p": "Una vez un hombre vino al Profeta a preguntarle sobre el islam. El Profeta le habló de las cinco oraciones diarias. El hombre preguntó si tenía que hacer algo más, y el Profeta dijo: \"No, a menos que lo hagas de forma voluntaria\". Cuando el hombre se fue diciendo que no haría ni más ni menos, el Profeta dijo que tendría éxito si decía la verdad (Bujari y Muslim)."
+      },
+      {
+        "p": "Otro hombre le preguntó al Profeta si entraría en el Paraíso si rezaba las oraciones obligatorias, ayunaba en Ramadán, aceptaba lo lícito y se abstenía de lo ilícito, sin hacer nada más. El Profeta respondió: \"Sí\" (Muslim)."
+      },
+      {
+        "h": "Por qué vale la pena aprender las oraciones sunnah"
+      },
+      {
+        "p": "En un *hadiz qudsi* (palabras de Allah transmitidas por el Profeta), Allah dice que nada acerca más a Su siervo a Él que lo que le ha hecho obligatorio, y que Su siervo sigue acercándose con las obras voluntarias hasta que Allah lo ama (Bujari). Así que las oraciones obligatorias son la base, y las voluntarias construyen sobre ella."
+      },
+      {
+        "p": "El Profeta también dijo que a quien rece doce unidades (*rak'at*) voluntarias en un día y una noche se le construirá una casa en el Paraíso (Muslim)."
+      },
+      {
+        "h": "Las doce oraciones sunnah regulares"
+      },
+      {
+        "p": "En otra narración del mismo hadiz, el Profeta nombró las doce (Tirmidhi, hasan sahih):"
+      },
+      {
+        "ul": [
+          "**Fayr** (2 unidades fard): 2 unidades sunnah **antes**.",
+          "**Duhr** (4 unidades fard): 4 unidades sunnah **antes** y 2 **después**.",
+          "**Asr** (4 unidades fard): ninguna de las doce.",
+          "**Magrib** (3 unidades fard): 2 unidades sunnah **después**.",
+          "**Isha** (4 unidades fard): 2 unidades sunnah **después**."
+        ]
+      },
+      {
+        "p": "Eso suma 2 + 4 + 2 + 2 + 2 = 12. El compañero Ibn Umar, que Allah esté complacido con él, transmitió dos unidades antes de Duhr en lugar de cuatro (Bujari), así que si ves a alguien rezar dos, eso también es de la Sunnah."
+      },
+      {
+        "p": "De todas ellas, el Profeta era más constante con las dos unidades antes de Fayr (Bujari y Muslim). Las oraciones sunnah se rezan de forma individual, no en congregación, de la misma manera que aprendiste en las lecciones anteriores. El Profeta dijo que la mejor oración de una persona es la que hace en su casa, excepto la obligatoria (Bujari y Muslim), así que la casa es un lugar muy bonito para ellas."
+      },
+      {
+        "h": "Por dónde empezar como musulmán nuevo"
+      },
+      {
+        "p": "Empieza con las cinco oraciones fard. Siéntete cómodo con ellas primero: los horarios, el wudu y las palabras. Eso ya es un logro real, y es exactamente lo que Allah te pide."
+      },
+      {
+        "p": "Cuando las oraciones fard se sientan firmes, añade una oración sunnah. Las dos unidades antes de Fayr son una primera elección maravillosa. Añade otra cuando estés listo. No hay prisa, ni ninguna lista que tengas que terminar."
+      },
+      {
+        "quick": {
+          "question": "Hoy rezaste las cinco oraciones obligatorias, pero ninguna oración sunnah. ¿Qué es verdad?",
+          "options": [
+            "Tus oraciones obligatorias no cuentan sin la sunnah",
+            "Hiciste lo que Allah exige; las oraciones sunnah son una recompensa extra que puedes añadir con el tiempo",
+            "Debes recuperar todas las oraciones sunnah mañana"
+          ],
+          "correct": 1,
+          "explanation": "Las cinco oraciones fard son lo que Allah exige, y las rezaste. Las oraciones sunnah son un regalo que puedes añadir paso a paso, cuando estés listo."
+        }
+      },
+      {
+        "key": "Primero lo fard. Las cinco oraciones obligatorias son lo que Allah exige; las oraciones sunnah son un regalo que puedes añadir, una a la vez."
+      },
+      {
+        "p": "A continuación aprenderás sobre la única oración de la semana que se reza de forma distinta: la yumu'ah, la oración del viernes."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 46 and Sahih Muslim 11 (agreed upon): five prayers, and nothing more unless voluntary",
+      "url": "https://sunnah.com/bukhari:46"
+    },
+    {
+      "label": "Sahih Muslim 15: praying the obligatory prayers and entering Paradise",
+      "url": "https://hadeethenc.com/en/browse/hadith/65003"
+    },
+    {
+      "label": "Sahih al-Bukhari 6502: nearness to Allah through the obligatory and the voluntary (hadith qudsi)",
+      "url": "https://sunnah.com/bukhari:6502"
+    },
+    {
+      "label": "Sahih Muslim 728: twelve units and a house in Paradise",
+      "url": "https://sunnah.com/muslim:728a"
+    },
+    {
+      "label": "Jami at-Tirmidhi 415 (hasan sahih): the twelve regular sunnah units named",
+      "url": "https://sunnah.com/tirmidhi:415"
+    },
+    {
+      "label": "Sahih al-Bukhari 1180: Ibn Umar's report of ten units",
+      "url": "https://sunnah.com/bukhari:1180"
+    },
+    {
+      "label": "Sahih Muslim 724 and al-Bukhari (agreed upon): the Prophet's regularity with the two units before Fajr",
+      "url": "https://hadeethenc.com/en/browse/hadith/3440"
+    },
+    {
+      "label": "Sahih al-Bukhari 731 and Sahih Muslim 781 (agreed upon): the best prayer is at home, except the obligatory",
+      "url": "https://hadeethenc.com/en/browse/hadith/11292"
+    },
+    {
+      "label": "IslamQA 175137: the regular sunnah prayers, ten or twelve",
+      "url": "https://islamqa.info/en/answers/175137"
+    },
+    {
+      "label": "IslamQA 210538: the number of units in each obligatory prayer",
+      "url": "https://islamqa.info/en/answers/210538"
+    }
+  ],
+  "differenceNote": false
+}

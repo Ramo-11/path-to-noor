@@ -1,0 +1,552 @@
+{
+  "slug": "res-meaning-five-pillars",
+  "minutes": 9,
+  "title": {
+    "en": "What the five pillars mean in your life",
+    "ar": "معنى أركان الإسلام في حياتك",
+    "es": "Qué significan los cinco pilares en tu vida"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Five pillars can sound like a lot when you are new. Here is some good news: the Prophet Muhammad, peace be upon him, taught Islam in order, one step at a time. When he sent his companion Muadh ibn Jabal (may Allah be pleased with him) to teach the people of Yemen, he told him:"
+      },
+      {
+        "quote": "invite them to testify that none is worthy of worship except Allah and that Muhammad is the Messenger of Allah. If they obey you in that, tell them that Allah has enjoined on them five prayers every day and night. If they obey you in that, tell them that Allah has enjoined Zakah on them, to be taken from the rich amongst them and given to the poor amongst them.",
+        "cite": "Sahih al-Bukhari 1496 and Sahih Muslim 19"
+      },
+      {
+        "p": "First the shahada, then prayer, then zakah. The Prophet also said:"
+      },
+      {
+        "quote": "Indeed, the religion is easy. No one overburdens himself in the religion except that he will be overwhelmed by it. So, seek uprightness (be moderate) and try to be close to it and receive the glad tidings.",
+        "cite": "Sahih al-Bukhari 39"
+      },
+      {
+        "h": "Shahada: your foundation"
+      },
+      {
+        "p": "You have already taken this step. Keep it alive by saying it in your prayers, repeating it after the call to prayer, and thinking about its meaning. Every other pillar grows from it."
+      },
+      {
+        "h": "Prayer: your daily meeting with Allah"
+      },
+      {
+        "p": "Prayer is the first practice to focus on after the shahada. It is required of every adult Muslim, five times a day. Allah says:"
+      },
+      {
+        "quote": "Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance.",
+        "cite": "Quran 20:14 (Saheeh International translation)"
+      },
+      {
+        "p": "If you do not know all the words yet, you are not alone. Learn step by step: first wudu (the washing before prayer), then the movements, then the words. Pray the five prayers as best you can while you learn, and keep improving. The Prophet said: \"do as much as you can of what I have ordered you\" (Sahih al-Bukhari 7288 and Sahih Muslim 1337)."
+      },
+      {
+        "h": "Zakah: sharing, once you have enough"
+      },
+      {
+        "p": "Zakah is not a tax on every amount you earn. It is due only on savings that reach a minimum amount called the *nisab*. The Prophet said:"
+      },
+      {
+        "quote": "Zakah is not due on what is less than five ounces, nor on what is less than five camels, nor on what is less than five Wasqs.",
+        "cite": "Sahih al-Bukhari 1447 and Sahih Muslim 979"
+      },
+      {
+        "p": "The hadith covers silver, camels, and harvested crops (a *wasq* is a measure of grain), and the five ounces are of silver. For money, scholars today use the value of gold or silver to set the nisab, and your local masjid can help you work it out. When your savings stay at or above the nisab for a full lunar year, you give one fortieth of them (2.5 percent) to people in need (Sahih al-Bukhari 1454). If your savings are below the nisab, you do not owe zakah. Voluntary charity (*sadaqah*) of any amount is always open to you."
+      },
+      {
+        "h": "Fasting Ramadan: a month of closeness"
+      },
+      {
+        "p": "Once a year, in the month of Ramadan, Muslims fast from dawn until sunset (Quran 2:187). Allah says:"
+      },
+      {
+        "quote": "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous",
+        "cite": "Quran 2:183 (Saheeh International translation)"
+      },
+      {
+        "p": "Mercy is built into the fast. Someone who is ill or traveling may skip those days and make them up later (Quran 2:184), and Allah says in the same passage: \"Allah intends for you ease and does not intend for you hardship\" (Quran 2:185). The reward is great:"
+      },
+      {
+        "quote": "Whoever fasts Ramadan, out of faith and in pursuit of reward, his past sins will be forgiven.",
+        "cite": "Sahih al-Bukhari 38 and Sahih Muslim 760"
+      },
+      {
+        "h": "Hajj: once in a lifetime, if you are able"
+      },
+      {
+        "p": "Hajj is the pilgrimage to the Kaaba in Makkah. The Quran makes it due from those who are able to find a way to it (Quran 3:97): healthy enough, with the means to travel and a safe way to get there. When a companion asked whether Hajj is every year, the Prophet said it is once, and anything more is voluntary (Sunan Abi Dawud 1721, graded sahih by al-Albani)."
+      },
+      {
+        "p": "If Hajj is not possible for you now, you are not falling short. Hold a sincere intention to go one day. As you learned earlier in this step, Allah writes down a good intention as a good deed."
+      },
+      {
+        "h": "Your own pace"
+      },
+      {
+        "p": "You do not need to make up prayers or fasts from before you became Muslim. As you saw earlier in this step, Islam wipes out what came before it (Sahih Muslim 121). Start from where you are today."
+      },
+      {
+        "steps": {
+          "title": "A gentle order to grow in",
+          "steps": [
+            "Keep your shahada close: say it often and think about its meaning.",
+            "Learn wudu and the prayer one part at a time, and pray the five prayers as best you can while you learn.",
+            "When Ramadan comes, fast if you are healthy and not traveling.",
+            "Give charity of any amount, and learn how zakah works as your savings grow.",
+            "Keep a sincere intention to perform Hajj one day, if Allah makes it possible."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "When is zakah due?",
+          "options": [
+            "On every amount you earn, every month",
+            "Once a lunar year, on savings that stay at or above the nisab",
+            "Only when you perform Hajj"
+          ],
+          "correct": 1,
+          "explanation": "Zakah is due once a lunar year on savings that have stayed at or above the minimum amount, the nisab. If your savings are below it, you do not owe zakah, and voluntary charity is always welcome."
+        }
+      },
+      {
+        "key": "Start with what matters most: your shahada and your prayers. The other pillars come in their time, and Allah does not ask more of you than you can do."
+      },
+      {
+        "p": "You have finished this step. Next in this path, you will learn how to prepare for prayer and how to pray, one movement at a time."
+      }
+    ],
+    "ar": [
+      {
+        "p": "قد تبدو أركان الإسلام الخمسة كثيرة على من أسلم حديثا. وإليك البشرى: كان النبي محمد صلى الله عليه وسلم يعلّم الإسلام بالتدريج، خطوة بعد خطوة. فحين بعث معاذ بن جبل رضي الله عنه إلى أهل اليمن قال له:"
+      },
+      {
+        "quote": "فَادْعُهُمْ إِلَى أَنْ يَشْهَدُوا أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ، فَإِنْ هُمْ أَطَاعُوا لَكَ بِذَلِكَ، فَأَخْبِرْهُمْ أَنَّ اللهَ قَدْ فَرَضَ عَلَيْهِمْ خَمْسَ صَلَوَاتٍ فِي كُلِّ يَوْمٍ وَلَيْلَةٍ، فَإِنْ هُمْ أَطَاعُوا لَكَ بِذَلِكَ، فَأَخْبِرْهُمْ أَنَّ اللهَ قَدْ فَرَضَ عَلَيْهِمْ صَدَقَةً تُؤْخَذُ مِنْ أَغْنِيَائِهِمْ فَتُرَدُّ عَلَى فُقَرَائِهِمْ",
+        "cite": "متفق عليه: صحيح البخاري 1496، وصحيح مسلم 19"
+      },
+      {
+        "p": "الشهادتان أولا، ثم الصلاة، ثم الزكاة. وقال صلى الله عليه وسلم أيضا:"
+      },
+      {
+        "quote": "إِنَّ الدِّينَ يُسْرٌ، وَلَنْ يُشَادَّ الدِّينَ أَحَدٌ إِلَّا غَلَبَهُ، فَسَدِّدُوا وَقَارِبُوا، وَأَبْشِرُوا",
+        "cite": "صحيح البخاري 39"
+      },
+      {
+        "h": "الشهادتان: الأساس"
+      },
+      {
+        "p": "لقد خطوتَ هذه الخطوة بالفعل. فأبقِها حيّة في قلبك بترديد الشهادتين في صلاتك، وبعد الأذان، والتأمل في معناهما. فكل الأركان الأخرى تنبت من هذا الأساس."
+      },
+      {
+        "h": "الصلاة: لقاؤك اليومي بربك"
+      },
+      {
+        "p": "الصلاة أول عمل تعتني به بعد الشهادتين، وهي فرض على كل مسلم بالغ، خمس مرات في اليوم والليلة. قال الله تعالى:"
+      },
+      {
+        "quote": "إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
+        "cite": "سورة طه، الآية 14"
+      },
+      {
+        "p": "أي: أقم الصلاة لتذكرني فيها. وإن كنت لا تحفظ الأذكار كلها بعد فلست وحدك. تعلّم خطوة بخطوة: الوضوء أولا، ثم الحركات، ثم الأذكار. وصلِّ الصلوات الخمس بقدر ما تستطيع وأنت تتعلم، واستمر في التحسن، فقد قال النبي صلى الله عليه وسلم: «وَمَا أَمَرْتُكُمْ بِهِ فَافْعَلُوا مِنْهُ مَا اسْتَطَعْتُمْ» (متفق عليه: صحيح البخاري 7288، وصحيح مسلم 1337)."
+      },
+      {
+        "h": "الزكاة: المشاركة حين يبلغ مالك النصاب"
+      },
+      {
+        "p": "الزكاة ليست ضريبة على كل مال تكسبه، وإنما تجب في المال الذي يبلغ قدرا معلوما يسمى «النصاب». قال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "ليس فيما دون خمس أَوَاقٍ صدقة، ولا فيما دون خمس ذَوْدٍ صدقة، ولا فيما دُونَ خمسة أَوْسُقٍ صدقة",
+        "cite": "متفق عليه: صحيح البخاري 1447، وصحيح مسلم 979"
+      },
+      {
+        "p": "والأواقي الخمس المذكورة في الحديث من الفضة، والذَّود من الإبل، والأوسق كيلٌ للحبوب والثمار. ويقدّر العلماء اليوم نصاب النقود بقيمة الذهب أو الفضة، ويمكن للمسجد القريب منك أن يعينك على حسابه. فإذا بلغ مالك النصاب ومرّ عليه عام هجري كامل وجب عليك أن تُخرج ربع العشر (2.5 بالمئة) لأهل الحاجة، ففي الحديث: «وَفِي الرِّقَةِ رُبْعُ الْعُشْرِ» (صحيح البخاري 1454)، والرِّقة: الفضة. فإن كان مالك دون النصاب فلا زكاة عليك، وباب الصدقة مفتوح لك دائما بأي مبلغ."
+      },
+      {
+        "h": "صوم رمضان: شهر القرب"
+      },
+      {
+        "p": "في شهر رمضان من كل عام يصوم المسلمون من طلوع الفجر إلى غروب الشمس (سورة البقرة، الآية 187). قال الله تعالى:"
+      },
+      {
+        "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+        "cite": "سورة البقرة، الآية 183"
+      },
+      {
+        "p": "والرحمة حاضرة في الصيام: فالمريض والمسافر لهما أن يفطرا ثم يقضيا عدد تلك الأيام (سورة البقرة، الآية 184)، وقال الله تعالى في السياق نفسه: «يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ» (سورة البقرة، الآية 185). وأجره عظيم، قال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+        "cite": "متفق عليه: صحيح البخاري 38، وصحيح مسلم 760"
+      },
+      {
+        "h": "الحج: مرة في العمر لمن استطاع"
+      },
+      {
+        "p": "الحج هو قصد الكعبة المشرّفة في مكة لأداء المناسك، وقد أوجبه الله على المستطيع فقال: «وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًۭا» (سورة آل عمران، الآية 97)، والاستطاعة أن يكون المرء قادرا ببدنه وماله مع أمن الطريق. ولما سُئل النبي صلى الله عليه وسلم: أيكون الحج كل سنة؟ قال: «بَلْ مَرَّةً وَاحِدَةً فَمَنْ زَادَ فَهُوَ تَطَوُّعٌ» (سنن أبي داود 1721، وصححه الألباني)."
+      },
+      {
+        "p": "فإن لم تستطع الحج الآن فلست مقصّرا. انوِ نية صادقة أن تحج يوما ما، فقد عرفت في هذه الخطوة أن الله يكتب النية الصالحة حسنة كاملة."
+      },
+      {
+        "h": "على قدر طاقتك"
+      },
+      {
+        "p": "ولا يلزمك أن تقضي صلاة أو صياما فاتك قبل إسلامك، فقد عرفت في هذه الخطوة «أَنَّ الإِسْلاَمَ يَهْدِمُ مَا كَانَ قَبْلَهُ» (صحيح مسلم 121). فابدأ من حيث أنت اليوم."
+      },
+      {
+        "steps": {
+          "title": "ترتيب لطيف للنمو",
+          "steps": [
+            "أبقِ الشهادتين قريبتين منك: أكثِر من قولهما وتأمّل معناهما.",
+            "تعلّم الوضوء والصلاة جزءا جزءا، وصلِّ الصلوات الخمس بقدر ما تستطيع وأنت تتعلم.",
+            "إذا جاء رمضان فصُمه إن كنت صحيحا غير مسافر.",
+            "تصدّق بأي مبلغ، وتعلّم أحكام الزكاة كلما نما مالك.",
+            "انوِ نية صادقة أن تحج يوما ما إن يسّر الله لك ذلك."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "متى تجب الزكاة؟",
+          "options": [
+            "في كل مبلغ تكسبه، كل شهر",
+            "مرة في العام الهجري، في المال الذي بلغ النصاب وبقي عليه",
+            "عند أداء الحج فقط"
+          ],
+          "correct": 1,
+          "explanation": "تجب الزكاة مرة في العام الهجري في المال الذي بلغ النصاب ومرّ عليه الحول. فإن كان مالك دون النصاب فلا زكاة عليك، والصدقة مرحّب بها دائما."
+        }
+      },
+      {
+        "key": "ابدأ بالأهم: الشهادتين والصلاة. وبقية الأركان تأتي في وقتها، والله لا يطلب منك فوق طاقتك."
+      },
+      {
+        "p": "أتممتَ هذه الخطوة. وفي الخطوة التالية من هذا المسار تتعلم كيف تستعد للصلاة وكيف تصلي، حركة بعد حركة."
+      }
+    ],
+    "es": [
+      {
+        "p": "Cinco pilares pueden parecer mucho cuando estás empezando en el islam. Aquí tienes una buena noticia: el Profeta Muhammad, la paz sea con él, enseñaba el islam en orden, paso a paso. Cuando envió a su compañero Muadh ibn Yabal (que Allah esté complacido con él) a enseñar a la gente de Yemen, le dijo:"
+      },
+      {
+        "quote": "invítalos al testimonio de que no hay dios sino Allah y que yo soy Mensajero de Allah. Si te obedecen en ello, enséñales que Allah les ha prescrito cinco oraciones en el día y la noche. Si obedecen en ello, enséñales que Allah les ha prescrito una limosna sobre sus bienes; se toma de sus ricos y se entrega a sus necesitados.",
+        "cite": "Sahih al-Bujari 1496 y Sahih Muslim 19"
+      },
+      {
+        "p": "Primero la shahada, luego la oración, luego el zakat. El Profeta también dijo:"
+      },
+      {
+        "quote": "Verdaderamente la religión (Din) es facilidad. Cuando una persona es extremista en la religión, esta termina derrotándola.",
+        "cite": "Sahih al-Bujari 39"
+      },
+      {
+        "h": "La shahada: tu fundamento"
+      },
+      {
+        "p": "Ya diste este paso. Mantén viva la shahada diciéndola en tus oraciones, repitiéndola después del llamado a la oración y pensando en su significado. Todos los demás pilares crecen a partir de ella."
+      },
+      {
+        "h": "La oración: tu encuentro diario con Allah"
+      },
+      {
+        "p": "La oración es la primera práctica en la que debes enfocarte después de la shahada. Es obligatoria para todo musulmán adulto, cinco veces al día. Allah dice:"
+      },
+      {
+        "quote": "Yo soy Allah, y no hay más divinidad que Yo. Adórame solo a Mí y haz la oración para recordarme.",
+        "cite": "Corán 20:14 (traducción de Isa García)"
+      },
+      {
+        "p": "Si todavía no sabes todas las palabras, a muchos les pasa lo mismo. Aprende paso a paso: primero el wudu (el lavado antes de la oración), luego los movimientos, luego las palabras. Reza las cinco oraciones lo mejor que puedas mientras aprendes, y sigue mejorando. El Profeta dijo: «cumplan lo que les he ordenado en la medida de sus posibilidades» (Sahih al-Bujari 7288 y Sahih Muslim 1337)."
+      },
+      {
+        "h": "El zakat: compartir cuando tienes suficiente"
+      },
+      {
+        "p": "El zakat no es un impuesto sobre todo lo que ganas. Solo se debe sobre los ahorros que alcanzan una cantidad mínima llamada *nisab*. El Profeta dijo que no se debe zakat por la plata que no llega a cinco onzas, ni por menos de cinco camellos, ni por una cosecha menor de cinco cargas, llamadas *awsuq* (Sahih al-Bujari 1447 y Sahih Muslim 979)."
+      },
+      {
+        "p": "Hoy los sabios usan el valor del oro o de la plata para fijar el nisab del dinero, y tu mezquita local puede ayudarte a calcularlo. Cuando tus ahorros se mantienen en el nisab o por encima durante un año lunar completo, entregas una cuadragésima parte (el 2,5 por ciento) a personas necesitadas (Sahih al-Bujari 1454). Si tus ahorros están por debajo del nisab, no debes zakat. La caridad voluntaria (*sadaqah*), de cualquier cantidad, siempre está a tu alcance."
+      },
+      {
+        "h": "El ayuno de ramadán: un mes de cercanía"
+      },
+      {
+        "p": "Una vez al año, en el mes de ramadán, los musulmanes ayunan desde el alba hasta la puesta del sol (Corán 2:187). Allah dice:"
+      },
+      {
+        "quote": "¡Oh, creyentes! Se les prescribe el ayuno al igual que fue prescrito a quienes los precedieron, para que alcancen la piedad.",
+        "cite": "Corán 2:183 (traducción de Isa García)"
+      },
+      {
+        "p": "La misericordia es parte del ayuno. Quien está enfermo o de viaje puede no ayunar esos días y reponerlos después (Corán 2:184), y Allah dice en el mismo pasaje: «Dios desea facilitarles las cosas y no dificultárselas» (Corán 2:185). La recompensa es grande:"
+      },
+      {
+        "quote": "A quien ayune en ramadán con fe y esperanza le serán perdonadas sus faltas anteriores",
+        "cite": "Sahih al-Bujari 38 y Sahih Muslim 760"
+      },
+      {
+        "h": "El Hajj: una vez en la vida, si puedes"
+      },
+      {
+        "p": "El Hajj es la peregrinación a la Kaaba en La Meca. El Corán lo hace obligatorio para quienes pueden llegar a ella:"
+      },
+      {
+        "quote": "Es obligatorio para las personas peregrinar a este templo si se encuentran en condiciones [físicas y económicas] de hacerlo.",
+        "cite": "Corán 3:97 (traducción de Isa García)"
+      },
+      {
+        "p": "Esto significa tener la salud, los medios para viajar y un camino seguro. Cuando un compañero preguntó si el Hajj es cada año, el Profeta respondió que es una sola vez, y que lo que se haga de más es voluntario (Sunan Abi Dawud 1721, calificado como sahih por al-Albani)."
+      },
+      {
+        "p": "Si ahora no puedes hacer el Hajj, no te estás quedando corto. Ten la intención sincera de ir algún día. Como aprendiste antes en este paso, Allah registra una buena intención como una buena obra."
+      },
+      {
+        "h": "A tu propio ritmo"
+      },
+      {
+        "p": "No necesitas reponer oraciones ni ayunos de antes de abrazar el islam. Como viste antes en este paso, el islam borra todo lo anterior a él (Sahih Muslim 121). Empieza desde donde estás hoy."
+      },
+      {
+        "steps": {
+          "title": "Un orden suave para crecer",
+          "steps": [
+            "Mantén cerca tu shahada: dila a menudo y piensa en su significado.",
+            "Aprende el wudu y la oración parte por parte, y reza las cinco oraciones lo mejor que puedas mientras aprendes.",
+            "Cuando llegue ramadán, ayuna si estás sano y no estás de viaje.",
+            "Da caridad de cualquier cantidad, y aprende cómo funciona el zakat a medida que crecen tus ahorros.",
+            "Ten la intención sincera de hacer el Hajj algún día, si Allah lo hace posible."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "¿Cuándo se debe pagar el zakat?",
+          "options": [
+            "Sobre cada cantidad que ganas, cada mes",
+            "Una vez por año lunar, sobre los ahorros que se mantienen en el nisab o por encima",
+            "Solo cuando haces el Hajj"
+          ],
+          "correct": 1,
+          "explanation": "El zakat se debe una vez por año lunar sobre los ahorros que se han mantenido en la cantidad mínima, el nisab, o por encima. Si tus ahorros están por debajo, no debes zakat, y la caridad voluntaria siempre es bienvenida."
+        }
+      },
+      {
+        "key": "Empieza por lo más importante: tu shahada y tus oraciones. Los demás pilares llegan a su tiempo, y Allah no te pide más de lo que puedes."
+      },
+      {
+        "p": "Terminaste este paso. A continuación en este camino aprenderás a prepararte para la oración y a rezar, movimiento a movimiento."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 1496 and Sahih Muslim 19 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3390"
+    },
+    {
+      "label": "Sahih al-Bukhari 39 (the religion is easy)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5795"
+    },
+    {
+      "label": "Quran 20:14 (Saheeh International translation)",
+      "url": "https://quran.com/20/14"
+    },
+    {
+      "label": "Sahih al-Bukhari 7288 and Sahih Muslim 1337 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/66517"
+    },
+    {
+      "label": "Sahih al-Bukhari 1447 and Sahih Muslim 979 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/4547"
+    },
+    {
+      "label": "Sahih al-Bukhari 1454 (zakah on silver is one fortieth)",
+      "url": "https://sunnah.com/bukhari:1454"
+    },
+    {
+      "label": "Quran 2:183-185 and 2:187 (Saheeh International translation)",
+      "url": "https://quran.com/2/183-187"
+    },
+    {
+      "label": "Sahih al-Bukhari 38 and Sahih Muslim 760 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/4196"
+    },
+    {
+      "label": "Quran 3:97 (Saheeh International translation)",
+      "url": "https://quran.com/3/97"
+    },
+    {
+      "label": "Sunan Abi Dawud 1721 (sahih according to al-Albani)",
+      "url": "https://sunnah.com/abudawud:1721"
+    },
+    {
+      "label": "Sahih al-Bukhari 6491 and Sahih Muslim 131 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/4322"
+    },
+    {
+      "label": "Sahih Muslim 121 (Islam wipes out what came before it)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3446"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "In the shahada, what does ash-hadu mean?",
+        "ar": "ما معنى «أشهد» في الشهادتين؟",
+        "es": "En la shahada, ¿qué significa ash-hadu?"
+      },
+      "options": [
+        {
+          "en": "I bear witness",
+          "ar": "أُقرّ وأعترف عن يقين",
+          "es": "Atestiguo"
+        },
+        {
+          "en": "I believe in the angels",
+          "ar": "أؤمن بالملائكة",
+          "es": "Creo en los ángeles"
+        },
+        {
+          "en": "Peace be upon you",
+          "ar": "السلام عليكم",
+          "es": "La paz sea contigo"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Ash-hadu means I bear witness. With the shahada, you testify, as a witness, to what you believe.",
+        "ar": "«أشهد» معناها: أُقرّ وأعترف عن علم ويقين. فبالشهادتين تشهد بما تؤمن به شهادة الشاهد الصادق.",
+        "es": "Ash-hadu significa «atestiguo». Con la shahada das testimonio, como testigo, de lo que crees."
+      }
+    },
+    {
+      "q": {
+        "en": "What does Muhammadun rasulullah ask of you in daily life?",
+        "ar": "ماذا تطلب منك شهادة «محمد رسول الله» في حياتك اليومية؟",
+        "es": "¿Qué te pide Muhammadun rasulullah en la vida diaria?"
+      },
+      "options": [
+        {
+          "en": "To worship the Prophet alongside Allah",
+          "ar": "أن تعبد النبي مع الله",
+          "es": "Adorar al Profeta junto con Allah"
+        },
+        {
+          "en": "To learn how to live your worship from the Prophet's example",
+          "ar": "أن تتعلم كيف تعبد الله من هدي النبي صلى الله عليه وسلم",
+          "es": "Aprender a vivir tu adoración con el ejemplo del Profeta"
+        },
+        {
+          "en": "Nothing after the day you became Muslim",
+          "ar": "لا شيء بعد يوم إسلامك",
+          "es": "Nada después del día en que abrazaste el islam"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "Muhammad is Allah's servant and Messenger. You follow his example, the Sunnah, and you worship Allah alone.",
+        "ar": "محمد صلى الله عليه وسلم عبد الله ورسوله، فتقتدي بهديه وسنته، وتعبد الله وحده.",
+        "es": "Muhammad es siervo y Mensajero de Allah. Sigues su ejemplo, la Sunnah, y adoras solo a Allah."
+      }
+    },
+    {
+      "q": {
+        "en": "How many pillars of faith (iman) did the Prophet name in the hadith of Jibril?",
+        "ar": "كم عدد أركان الإيمان التي ذكرها النبي صلى الله عليه وسلم في حديث جبريل؟",
+        "es": "¿Cuántos pilares de la fe (iman) nombró el Profeta en el hadiz de Jibril?"
+      },
+      "options": [
+        {
+          "en": "Four",
+          "ar": "أربعة",
+          "es": "Cuatro"
+        },
+        {
+          "en": "Five",
+          "ar": "خمسة",
+          "es": "Cinco"
+        },
+        {
+          "en": "Six",
+          "ar": "ستة",
+          "es": "Seis"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "Six: belief in Allah, His angels, His books, His messengers, the Last Day, and divine decree.",
+        "ar": "ستة: الإيمان بالله، وملائكته، وكتبه، ورسله، واليوم الآخر، والقدر خيره وشره.",
+        "es": "Seis: creer en Allah, en Sus ángeles, en Sus Libros, en Sus mensajeros, en el Último Día y en el decreto divino."
+      }
+    },
+    {
+      "q": {
+        "en": "What does belief in divine decree (qadar) ask of you?",
+        "ar": "ماذا يطلب منك الإيمان بالقدر؟",
+        "es": "¿Qué te pide la fe en el decreto divino (qadar)?"
+      },
+      "options": [
+        {
+          "en": "To stop making plans, since everything is already written",
+          "ar": "أن تترك التخطيط والعمل لأن كل شيء مكتوب",
+          "es": "Dejar de hacer planes, porque todo ya está escrito"
+        },
+        {
+          "en": "To do your best, ask Allah for help, and accept the outcome with a calm heart",
+          "ar": "أن تبذل وسعك، وتستعين بالله، وترضى بالنتيجة بقلب مطمئن",
+          "es": "Hacer lo mejor que puedas, pedir ayuda a Allah y aceptar el resultado con el corazón tranquilo"
+        },
+        {
+          "en": "To worry about every possible outcome",
+          "ar": "أن تقلق من كل احتمال",
+          "es": "Preocuparte por cada resultado posible"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "The Prophet told us to strive for what benefits us, seek Allah's help, and not give up, and then to accept what Allah decrees.",
+        "ar": "أمرنا النبي صلى الله عليه وسلم أن نحرص على ما ينفعنا، ونستعين بالله، ولا نعجز، ثم نرضى بما قدّره الله.",
+        "es": "El Profeta nos dijo que nos esforcemos en lo que nos beneficia, que pidamos ayuda a Allah y que no nos rindamos, y luego que aceptemos lo que Allah decreta."
+      }
+    },
+    {
+      "q": {
+        "en": "Which pillar of Islam is required only once in a lifetime, and only for those who are able?",
+        "ar": "أيّ أركان الإسلام يجب مرة واحدة في العمر، وعلى المستطيع فقط؟",
+        "es": "¿Qué pilar del islam es obligatorio solo una vez en la vida, y solo para quien puede hacerlo?"
+      },
+      "options": [
+        {
+          "en": "Prayer",
+          "ar": "الصلاة",
+          "es": "La oración"
+        },
+        {
+          "en": "Fasting Ramadan",
+          "ar": "صوم رمضان",
+          "es": "El ayuno de ramadán"
+        },
+        {
+          "en": "Hajj",
+          "ar": "الحج",
+          "es": "El Hajj"
+        },
+        {
+          "en": "Zakah",
+          "ar": "الزكاة",
+          "es": "El zakat"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "Hajj is required once in a lifetime for those who are able to make the journey. Prayer is five times a day, fasting is every Ramadan, and zakah is yearly on savings that reach the nisab.",
+        "ar": "الحج يجب مرة واحدة في العمر على من استطاع إليه سبيلا. أما الصلاة فخمس مرات في اليوم والليلة، والصوم في كل رمضان، والزكاة كل عام في المال الذي بلغ النصاب.",
+        "es": "El Hajj es obligatorio una vez en la vida para quienes pueden hacer el viaje. La oración es cinco veces al día, el ayuno es cada ramadán y el zakat es anual sobre los ahorros que alcanzan el nisab."
+      }
+    }
+  ]
+}

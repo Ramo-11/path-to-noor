@@ -1,0 +1,368 @@
+{
+  "slug": "hadith-how-authenticated",
+  "minutes": 8,
+  "title": {
+    "en": "How hadith were preserved and checked",
+    "ar": "كيف حُفظ الحديث وكيف تُعرف صحته",
+    "es": "Cómo se conservaron y verificaron los hadices"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Anyone can type \"the Prophet said\" on social media. So how do Muslims know which sayings really come from the Prophet Muhammad, peace be upon him? For centuries, Muslim scholars checked every report with great care. This lesson explains simply how they did it, and how you can bring the same care to what you read and share."
+      },
+      {
+        "h": "Why such care"
+      },
+      {
+        "p": "The companions, and the scholars after them, were careful because the Prophet gave a serious warning:"
+      },
+      {
+        "quote": "Whoever tells a lie about me intentionally, let him take his seat in Hellfire.",
+        "cite": "Sahih al-Bukhari 110 and the introduction of Sahih Muslim"
+      },
+      {
+        "p": "The companion Anas ibn Malik, may Allah be pleased with him, said this hadith was one reason he did not narrate a great many hadith (Sahih al-Bukhari 108). The Prophet also said that whoever narrates something from him while thinking it is false is one of the liars (Sahih Muslim, introduction). Being careful is not a lack of love for the Prophet. It is a sign of it."
+      },
+      {
+        "h": "The chain and the text"
+      },
+      {
+        "p": "Every hadith has two parts. The **isnad** (chain) is the list of people who passed it on, one to the next, all the way back to the Prophet. The **matn** (text) is what was actually said or done. Here is the chain of the very first hadith in Sahih al-Bukhari, the hadith \"Actions are by intentions\":"
+      },
+      {
+        "ol": [
+          "Imam al-Bukhari heard it from al-Humaydi,",
+          "who heard it from Sufyan,",
+          "who heard it from Yahya ibn Sa'id al-Ansari,",
+          "who heard it from Muhammad ibn Ibrahim al-Taymi,",
+          "who heard it from Alqamah ibn Waqqas al-Laythi,",
+          "who heard Umar ibn al-Khattab say it from the pulpit,",
+          "and Umar heard it from the Prophet himself."
+        ]
+      },
+      {
+        "p": "Scholars studied the people in every chain. Were they honest? Was their memory precise? Did each one really hear from the person before him? Is anyone missing from the chain? Does the text contradict something more reliable? They wrote entire books about the narrators, their lives, and their reliability."
+      },
+      {
+        "h": "The grades"
+      },
+      {
+        "p": "Based on this study, scholars grade each hadith. The main grades are:"
+      },
+      {
+        "ul": [
+          "**Sahih** (authentic): a connected chain of honest narrators with precise memory, free of hidden flaws and of contradiction with stronger reports.",
+          "**Hasan** (good): like sahih, but with a narrator whose memory was slightly less precise. A hasan hadith is also accepted as evidence.",
+          "**Da'if** (weak): something is missing or doubtful in the chain or the text. In general, scholars do not rely on a weak hadith to establish what Muslims must believe or do.",
+          "**Mawdu'** (fabricated): falsely attributed to the Prophet. It must never be passed on as his words, except to warn people about it."
+        ]
+      },
+      {
+        "h": "The famous collections"
+      },
+      {
+        "p": "Scholars gathered hadith into books. Six are especially well known:"
+      },
+      {
+        "ul": [
+          "**Sahih al-Bukhari**, compiled by Imam al-Bukhari, and **Sahih Muslim**, compiled by Imam Muslim. Scholars describe these two as the most authentic books ever compiled. When a hadith appears in both, it is called *muttafaqun 'alayh*, \"agreed upon\".",
+          "The four **Sunan**: Sunan Abi Dawud, Jami' at-Tirmidhi, Sunan an-Nasa'i, and Sunan Ibn Majah. They contain many authentic hadith along with some weaker ones, and scholars have graded their hadith one by one."
+        ]
+      },
+      {
+        "p": "You have already seen these names in the sources of earlier lessons. Now you know what they mean."
+      },
+      {
+        "h": "Before you share: check"
+      },
+      {
+        "p": "The Quran teaches this care for all news:"
+      },
+      {
+        "quote": "O you who have believed, if there comes to you a disobedient one with information, investigate, lest you harm a people out of ignorance and become, over what you have done, regretful.",
+        "cite": "Quran 49:6 (Saheeh International translation)"
+      },
+      {
+        "p": "And the Prophet said: \"It is enough of a sin for a person to repeat everything he hears.\" (Sunan Abi Dawud 4992, graded sahih by al-Albani). Many posts online quote the Prophet with no source at all, or pass on weak and even fabricated reports. You do not need to be a scholar to be careful. A few habits are enough:"
+      },
+      {
+        "steps": {
+          "title": "Before you share a hadith",
+          "steps": [
+            "Look for the reference: which book, and which number?",
+            "Check the grade. Is it sahih or hasan?",
+            "Use trusted websites that show the grade, such as the Hadith Encyclopedia (hadeethenc.com) or sunnah.com.",
+            "If you cannot find it, or it is weak, do not share it as the Prophet's words. Ask someone with knowledge.",
+            "Be especially careful with posts that promise huge rewards for tiny acts, or that ask you to forward them."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "You see a post that begins \"The Prophet said...\" with no reference. What is the best thing to do?",
+          "options": [
+            "Share it quickly so others benefit",
+            "Check the source and the grade before sharing it",
+            "Stop reading any hadith from now on"
+          ],
+          "correct": 1,
+          "explanation": "Checking first protects you from saying something about the Prophet that he did not say. Authentic hadith are a treasure, and the goal is to share them carefully."
+        }
+      },
+      {
+        "key": "Before you say \"the Prophet said\", check the source and the grade. Being careful with his words is part of loving him."
+      },
+      {
+        "p": "Next: five short authentic hadith to live by, each with its Arabic, its meaning, and a way to practice it."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يستطيع أي أحد أن يكتب على مواقع التواصل: «قال النبي صلى الله عليه وسلم...». فكيف يعرف المسلمون ما يصح عن النبي محمد صلى الله عليه وسلم؟ لقد تحقّق علماء المسلمين قرونًا من كل خبر بعناية شديدة. ويشرح هذا الدرس بتبسيط كيف فعلوا ذلك، وكيف تنقل أنت هذه العناية إلى ما تقرؤه وتنشره."
+      },
+      {
+        "h": "لماذا كل هذه العناية؟"
+      },
+      {
+        "p": "كان الصحابة ومن بعدهم من العلماء حريصين، لأن النبي صلى الله عليه وسلم حذّر تحذيرًا شديدًا فقال:"
+      },
+      {
+        "quote": "مَنْ كَذَبَ عَلَيَّ مُتَعَمِّدًا فَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ",
+        "cite": "صحيح البخاري 110، ومقدمة صحيح مسلم"
+      },
+      {
+        "p": "وقال الصحابي أنس بن مالك رضي الله عنه إن هذا الحديث مما منعه أن يحدّث بأحاديث كثيرة (صحيح البخاري 108). وقال النبي صلى الله عليه وسلم أيضًا: «مَنْ حَدَّثَ عَنِّي بِحَدِيثٍ يُرَى أَنَّهُ كَذِبٌ، فَهُوَ أَحَدُ الْكَاذِبِينَ» (مقدمة صحيح مسلم). فالتثبّت ليس قلة محبة للنبي صلى الله عليه وسلم، بل هو من علامات محبته."
+      },
+      {
+        "h": "السند والمتن"
+      },
+      {
+        "p": "لكل حديث جزءان: **السند** (الإسناد)، وهو سلسلة الرواة الذين نقلوه واحدًا عن واحد حتى النبي صلى الله عليه وسلم، و**المتن**، وهو نص ما قيل أو فُعل. وهذا سند أول حديث في صحيح البخاري، حديث «إنما الأعمال بالنيات»:"
+      },
+      {
+        "ol": [
+          "رواه الإمام البخاري عن الحميدي،",
+          "عن سفيان،",
+          "عن يحيى بن سعيد الأنصاري،",
+          "عن محمد بن إبراهيم التيمي،",
+          "عن علقمة بن وقاص الليثي،",
+          "الذي سمع عمر بن الخطاب يقوله على المنبر،",
+          "وسمعه عمر من النبي صلى الله عليه وسلم."
+        ]
+      },
+      {
+        "p": "ودرس العلماء رجال كل سند: هل كانوا عدولًا صادقين؟ هل كان حفظهم متقنًا؟ هل سمع كل واحد ممن قبله حقًّا؟ هل سقط أحد من السند؟ هل يخالف المتنُ ما هو أوثق منه؟ وألّفوا كتبًا كاملة في الرواة وسيرهم ودرجة الثقة بهم."
+      },
+      {
+        "h": "درجات الحديث"
+      },
+      {
+        "p": "وبناءً على هذه الدراسة يحكم العلماء على كل حديث، وأهم الدرجات:"
+      },
+      {
+        "ul": [
+          "**الصحيح**: ما اتصل سنده برواة عدول تامّي الضبط، وسلم من العلة الخفية ومن مخالفة ما هو أوثق.",
+          "**الحسن**: كالصحيح، لكن في رواته من هو أخفّ ضبطًا قليلًا، وهو كذلك مقبول يُحتج به.",
+          "**الضعيف**: ما فيه سقط أو خلل في السند أو المتن، والعلماء في الجملة لا يعتمدون عليه في إثبات العقائد والأحكام.",
+          "**الموضوع**: المكذوب على النبي صلى الله عليه وسلم، ولا تجوز روايته على أنه من كلامه إلا للتحذير منه."
+        ]
+      },
+      {
+        "h": "أشهر كتب الحديث"
+      },
+      {
+        "p": "جمع العلماء الأحاديث في كتب، وأشهرها ستة:"
+      },
+      {
+        "ul": [
+          "**صحيح البخاري** للإمام البخاري، و**صحيح مسلم** للإمام مسلم، ويصفهما العلماء بأنهما أصح الكتب المصنفة. وإذا ورد الحديث فيهما معًا قيل: «متفق عليه».",
+          "**السنن الأربعة**: سنن أبي داود، وجامع الترمذي، وسنن النسائي، وسنن ابن ماجه. وفيها أحاديث صحيحة كثيرة مع بعض الأحاديث الضعيفة، وقد حكم العلماء على أحاديثها واحدًا واحدًا."
+        ]
+      },
+      {
+        "p": "وقد رأيت هذه الأسماء في مصادر الدروس السابقة، والآن تعرف معناها."
+      },
+      {
+        "h": "تثبّت قبل أن تنشر"
+      },
+      {
+        "p": "وعلّمنا القرآن هذا التثبّت في كل خبر، فقال تعالى:"
+      },
+      {
+        "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍۢ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَٰلَةٍۢ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ نَٰدِمِينَ",
+        "cite": "سورة الحجرات: 6"
+      },
+      {
+        "p": "وقال النبي صلى الله عليه وسلم: «كَفَى بِالْمَرْءِ إِثْمًا أَنْ يُحَدِّثَ بِكُلِّ مَا سَمِعَ» (سنن أبي داود 4992، وصححه الألباني). وكثير من المنشورات على الإنترنت تنسب كلامًا إلى النبي صلى الله عليه وسلم بلا مصدر، أو تنقل أحاديث ضعيفة بل موضوعة. ولست بحاجة إلى أن تكون عالمًا لتكون حريصًا، فتكفيك عادات قليلة:"
+      },
+      {
+        "steps": {
+          "title": "قبل أن تنشر حديثًا",
+          "steps": [
+            "ابحث عن المصدر: في أي كتاب، وما رقمه؟",
+            "تحقّق من الدرجة: هل هو صحيح أو حسن؟",
+            "استعن بمواقع موثوقة تذكر درجة الحديث، مثل موسوعة الأحاديث النبوية (hadeethenc.com) أو موقع sunnah.com.",
+            "إن لم تجده، أو كان ضعيفًا، فلا تنشره على أنه من كلام النبي صلى الله عليه وسلم، واسأل أهل العلم.",
+            "احذر خاصة من المنشورات التي تعد بأجور عظيمة على أعمال يسيرة جدًّا، أو تطلب منك إعادة نشرها."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "رأيت منشورًا يبدأ بـ«قال النبي صلى الله عليه وسلم...» بلا أي مصدر، فما الأفضل أن تفعل؟",
+          "options": [
+            "أنشره بسرعة لينتفع الناس",
+            "أتحقق من مصدره ودرجته قبل نشره",
+            "أتوقف عن قراءة الأحاديث كلها"
+          ],
+          "correct": 1,
+          "explanation": "التحقق أولًا يحميك من أن تنسب إلى النبي صلى الله عليه وسلم ما لم يقله. والأحاديث الصحيحة كنز، والمقصود أن ننشرها بعناية."
+        }
+      },
+      {
+        "key": "قبل أن تقول «قال النبي صلى الله عليه وسلم» تحقّق من المصدر والدرجة، فالحرص على كلامه من محبته."
+      },
+      {
+        "p": "وفي الدرس القادم: خمسة أحاديث صحيحة قصيرة تعيش بها، مع نصها العربي ومعناها وطريقة العمل بها."
+      }
+    ],
+    "es": [
+      {
+        "p": "Cualquiera puede escribir \"el Profeta dijo\" en las redes sociales. Entonces, ¿cómo saben los musulmanes qué dichos vienen realmente del Profeta Muhammad, la paz sea con él? Durante siglos, los sabios musulmanes revisaron cada relato con muchísimo cuidado. Esta lección explica de forma sencilla cómo lo hicieron, y cómo puedes aplicar ese mismo cuidado a lo que lees y compartes."
+      },
+      {
+        "h": "Por qué tanto cuidado"
+      },
+      {
+        "p": "Los compañeros, y los sabios después de ellos, eran cuidadosos porque el Profeta dio una advertencia seria:"
+      },
+      {
+        "quote": "Quien mienta intencionadamente sobre mí ocupará su puesto en el fuego.",
+        "cite": "Sahih al-Bujari 110 y la introducción de Sahih Muslim"
+      },
+      {
+        "p": "El compañero Anas ibn Malik, que Allah esté complacido con él, dijo que este hadiz era una de las razones por las que no narraba muchos hadices (Sahih al-Bujari 108). El Profeta también dijo que quien narre algo de él pensando que es falso es uno de los mentirosos (Sahih Muslim, introducción). Ser cuidadoso no es falta de amor por el Profeta. Es una señal de amor."
+      },
+      {
+        "h": "La cadena y el texto"
+      },
+      {
+        "p": "Todo hadiz tiene dos partes. El **isnad** (cadena) es la lista de personas que lo transmitieron, una a otra, hasta llegar al Profeta. El **matn** (texto) es lo que realmente se dijo o se hizo. Esta es la cadena del primer hadiz de Sahih al-Bujari, el hadiz \"Las obras dependen de las intenciones\":"
+      },
+      {
+        "ol": [
+          "El imam al-Bujari lo oyó de al-Humaydi,",
+          "quien lo oyó de Sufián,",
+          "quien lo oyó de Yahya ibn Said al-Ansari,",
+          "quien lo oyó de Muhammad ibn Ibrahim at-Taymi,",
+          "quien lo oyó de Alqama ibn Waqqas al-Laizi,",
+          "quien oyó a Úmar ibn al-Jattab decirlo desde el púlpito,",
+          "y Úmar lo oyó del propio Profeta."
+        ]
+      },
+      {
+        "p": "Los sabios estudiaron a las personas de cada cadena. ¿Eran honestas? ¿Tenían una memoria precisa? ¿Cada una oyó realmente a la anterior? ¿Falta alguien en la cadena? ¿Contradice el texto algo más fiable? Escribieron libros enteros sobre los narradores, sus vidas y su fiabilidad."
+      },
+      {
+        "h": "Los grados"
+      },
+      {
+        "p": "Con base en este estudio, los sabios clasifican cada hadiz. Los grados principales son:"
+      },
+      {
+        "ul": [
+          "**Sahih** (auténtico): una cadena continua de narradores honestos y de memoria precisa, sin defectos ocultos ni contradicción con relatos más fuertes.",
+          "**Hasan** (bueno): como el sahih, pero con un narrador de memoria un poco menos precisa. El hadiz hasan también se acepta como prueba.",
+          "**Da'if** (débil): falta algo o hay algo dudoso en la cadena o en el texto. En general, los sabios no se apoyan en un hadiz débil para establecer lo que los musulmanes deben creer o hacer.",
+          "**Mawdu'** (inventado): atribuido falsamente al Profeta. Nunca debe transmitirse como palabras suyas, salvo para advertir sobre él."
+        ]
+      },
+      {
+        "h": "Las colecciones más conocidas"
+      },
+      {
+        "p": "Los sabios reunieron los hadices en libros. Seis son especialmente conocidos:"
+      },
+      {
+        "ul": [
+          "**Sahih al-Bujari**, recopilado por el imam al-Bujari, y **Sahih Muslim**, recopilado por el imam Muslim. Los sabios describen estos dos como los libros más auténticos que se han recopilado. Cuando un hadiz aparece en ambos, se dice que es *muttafaqun 'alayh*, \"acordado\".",
+          "Los cuatro **Sunan**: Sunan Abi Dawud, Yami' at-Tirmidhi, Sunan an-Nasa'i y Sunan Ibn Mayah. Contienen muchos hadices auténticos junto con algunos más débiles, y los sabios han clasificado sus hadices uno por uno."
+        ]
+      },
+      {
+        "p": "Ya has visto estos nombres en las fuentes de lecciones anteriores. Ahora sabes lo que significan."
+      },
+      {
+        "h": "Antes de compartir: verifica"
+      },
+      {
+        "p": "El Corán enseña este cuidado con toda noticia:"
+      },
+      {
+        "quote": "¡Oh, creyentes! Si una persona que transgrede se les presenta con alguna noticia, corroboren su veracidad, no sea que perjudiquen a alguien por ignorancia y luego se arrepientan de lo que hayan hecho.",
+        "cite": "Corán 49:6"
+      },
+      {
+        "p": "Y el Profeta dijo: \"Le basta a una persona como pecado repetir todo lo que oye.\" (Sunan Abi Dawud 4992, clasificado como sahih por al-Albani). Muchas publicaciones en internet citan al Profeta sin ninguna fuente, o difunden relatos débiles e incluso inventados. No necesitas ser un sabio para ser cuidadoso. Bastan unos pocos hábitos:"
+      },
+      {
+        "steps": {
+          "title": "Antes de compartir un hadiz",
+          "steps": [
+            "Busca la referencia: ¿en qué libro está y con qué número?",
+            "Comprueba el grado. ¿Es sahih o hasan?",
+            "Usa sitios web confiables que muestren el grado, como la Enciclopedia de Hadices (hadeethenc.com) o sunnah.com.",
+            "Si no lo encuentras, o es débil, no lo compartas como palabras del Profeta. Pregunta a alguien con conocimiento.",
+            "Ten especial cuidado con las publicaciones que prometen recompensas enormes por actos muy pequeños, o que te piden reenviarlas."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "Ves una publicación que empieza con \"El Profeta dijo...\" sin ninguna referencia. ¿Qué es lo mejor que puedes hacer?",
+          "options": [
+            "Compartirla rápido para que otros se beneficien",
+            "Comprobar la fuente y el grado antes de compartirla",
+            "Dejar de leer cualquier hadiz a partir de ahora"
+          ],
+          "correct": 1,
+          "explanation": "Verificar primero te protege de atribuir al Profeta algo que no dijo. Los hadices auténticos son un tesoro, y el objetivo es compartirlos con cuidado."
+        }
+      },
+      {
+        "key": "Antes de decir \"el Profeta dijo\", comprueba la fuente y el grado. Cuidar sus palabras es parte de amarlo."
+      },
+      {
+        "p": "A continuación: cinco hadices auténticos y breves para vivir cada día, cada uno con su texto en árabe, su significado y una forma de practicarlo."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 110 and the introduction of Sahih Muslim (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/65043"
+    },
+    {
+      "label": "Sahih al-Bukhari 108",
+      "url": "https://sunnah.com/bukhari:108"
+    },
+    {
+      "label": "Sahih Muslim, introduction (one of the liars)",
+      "url": "https://hadeethenc.com/en/browse/hadith/6982"
+    },
+    {
+      "label": "Sahih al-Bukhari 1 (the chain of the first hadith)",
+      "url": "https://sunnah.com/bukhari:1"
+    },
+    {
+      "label": "Quran 49:6 (Saheeh International translation)",
+      "url": "https://quran.com/49/6"
+    },
+    {
+      "label": "Sunan Abi Dawud 4992 (sahih, al-Albani)",
+      "url": "https://sunnah.com/abudawud:4992"
+    }
+  ],
+  "differenceNote": false
+}

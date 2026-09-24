@@ -1,0 +1,147 @@
+{
+  "slug": "growing-deeper",
+  "stage": "deeper",
+  "order": 1,
+  "title": {
+    "en": "Growing Deeper in Faith",
+    "ar": "التعمّق في الإيمان",
+    "es": "Profundizar en la fe"
+  },
+  "description": {
+    "en": "Your prayer and the basics are in place, and now you are ready to go deeper. This path brings you closer to the Quran, the life of the Prophet Muhammad, peace be upon him, the prophets before him, his companions, and his Sunnah, one gentle step at a time.",
+    "ar": "لقد استقرت صلاتك وأساسيات دينك، وأنت الآن مستعد للتعمّق أكثر. يقرّبك هذا المسار من القرآن الكريم، ومن سيرة النبي محمد صلى الله عليه وسلم، والأنبياء من قبله، وأصحابه، وسنّته، خطوة هادئة بعد خطوة.",
+    "es": "Tu oración y lo básico ya están en su lugar, y ahora estás listo para profundizar. Este camino te acerca al Corán, a la vida del Profeta Muhammad, la paz sea con él, a los profetas anteriores a él, a sus compañeros y a su Sunnah, un paso sereno tras otro."
+  },
+  "outcomes": [
+    {
+      "en": "Explain how the Quran was revealed and preserved, and keep a small daily Quran habit",
+      "ar": "تشرح كيف نزل القرآن وكيف حُفظ، وتحافظ على عادة يومية صغيرة مع القرآن",
+      "es": "Explicar cómo fue revelado y preservado el Corán, y mantener un pequeño hábito diario con él"
+    },
+    {
+      "en": "Recite Ayat al-Kursi and the last two verses of Surah Al-Baqarah, and know what they mean",
+      "ar": "تقرأ آية الكرسي وخواتيم سورة البقرة وتعرف معانيها",
+      "es": "Recitar Ayat al-Kursi y las dos últimas aleyas de la sura Al-Baqara, y saber lo que significan"
+    },
+    {
+      "en": "Tell the story of the Prophet's life, from his birth in Makkah to his passing in Madinah",
+      "ar": "تروي سيرة النبي صلى الله عليه وسلم من مولده في مكة إلى وفاته في المدينة",
+      "es": "Contar la vida del Profeta, desde su nacimiento en La Meca hasta su fallecimiento en Medina"
+    },
+    {
+      "en": "Describe the prophets before him and the companions around him, and what their lives teach you",
+      "ar": "تتعرّف على الأنبياء من قبله والصحابة من حوله، وما تعلّمك حياتهم",
+      "es": "Describir a los profetas anteriores a él y a los compañeros que lo rodearon, y lo que sus vidas te enseñan"
+    },
+    {
+      "en": "Understand what the Sunnah is and how hadith are checked, and live by a few authentic hadiths",
+      "ar": "تفهم معنى السنّة وكيف يُتحقَّق من صحة الحديث، وتعمل بأحاديث صحيحة مختارة",
+      "es": "Entender qué es la Sunnah y cómo se verifican los hadices, y vivir según algunos hadices auténticos"
+    }
+  ],
+  "steps": [
+    {
+      "slug": "deeper-quran",
+      "title": {
+        "en": "Living with the Quran",
+        "ar": "العيش مع القرآن",
+        "es": "Vivir con el Corán"
+      },
+      "description": {
+        "en": "Learn how the Quran came to us, how to start reading it, two passages to recite every night, and a gentle daily habit.",
+        "ar": "تعرّف كيف وصل إلينا القرآن، وكيف تبدأ قراءته، ومقطعين تقرؤهما كل ليلة، وعادة يومية هادئة.",
+        "es": "Aprende cómo nos llegó el Corán, cómo empezar a leerlo, dos pasajes para recitar cada noche y un hábito diario sereno."
+      },
+      "topics": ["quran"],
+      "lessons": [
+        "quran-revelation-preservation",
+        "quran-reading-as-new-muslim",
+        "quran-ayat-al-kursi",
+        "quran-end-of-baqarah",
+        "quran-daily-habit"
+      ]
+    },
+    {
+      "slug": "deeper-seerah",
+      "title": {
+        "en": "The life of the Prophet",
+        "ar": "سيرة النبي صلى الله عليه وسلم",
+        "es": "La vida del Profeta"
+      },
+      "description": {
+        "en": "Walk through the life of the Prophet Muhammad, peace be upon him, from Makkah to Madinah, and see how to follow his example.",
+        "ar": "سِر مع سيرة النبي محمد صلى الله عليه وسلم من مكة إلى المدينة، وتعلّم كيف تقتدي به.",
+        "es": "Recorre la vida del Profeta Muhammad, la paz sea con él, de La Meca a Medina, y descubre cómo seguir su ejemplo."
+      },
+      "topics": ["res-prophets"],
+      "lessons": [
+        "seerah-early-life",
+        "seerah-first-revelation",
+        "seerah-makkah-years",
+        "seerah-hijrah",
+        "seerah-madinah-farewell",
+        "seerah-his-character"
+      ]
+    },
+    {
+      "slug": "deeper-prophets",
+      "title": {
+        "en": "The prophets before him",
+        "ar": "الأنبياء من قبله",
+        "es": "Los profetas anteriores"
+      },
+      "description": {
+        "en": "Meet the prophets Allah sent before Muhammad, including Ibrahim, Musa, and Isa, peace be upon them, and the one message they all shared.",
+        "ar": "تعرّف على الأنبياء الذين أرسلهم الله قبل محمد صلى الله عليه وسلم، ومنهم إبراهيم وموسى وعيسى عليهم السلام، والرسالة الواحدة التي جمعتهم.",
+        "es": "Conoce a los profetas que Allah envió antes de Muhammad, entre ellos Ibrahim, Musa e Isa, la paz sea con ellos, y el único mensaje que todos compartieron."
+      },
+      "topics": ["res-prophets"],
+      "lessons": [
+        "prophets-who-are-they",
+        "prophets-ibrahim",
+        "prophets-musa",
+        "prophets-isa-maryam"
+      ]
+    },
+    {
+      "slug": "deeper-companions",
+      "title": {
+        "en": "The companions",
+        "ar": "الصحابة رضي الله عنهم",
+        "es": "Los compañeros"
+      },
+      "description": {
+        "en": "Get to know the men and women who stood with the Prophet, such as Khadijah, Abu Bakr, Umar, and Bilal, may Allah be pleased with them.",
+        "ar": "تعرّف على الرجال والنساء الذين وقفوا مع النبي صلى الله عليه وسلم، مثل خديجة وأبي بكر وعمر وبلال رضي الله عنهم.",
+        "es": "Conoce a los hombres y mujeres que estuvieron junto al Profeta, como Jadiya, Abu Bakr, Umar y Bilal, que Allah esté complacido con ellos."
+      },
+      "topics": ["res-sahaba"],
+      "lessons": [
+        "companions-who-are-they",
+        "companions-khadijah",
+        "companions-abu-bakr",
+        "companions-umar",
+        "companions-bilal"
+      ]
+    },
+    {
+      "slug": "deeper-hadith",
+      "title": {
+        "en": "The Sunnah and hadith",
+        "ar": "السنّة والحديث",
+        "es": "La Sunnah y el hadiz"
+      },
+      "description": {
+        "en": "Learn what the Sunnah is, how scholars checked which hadiths are authentic, and five hadiths to live by.",
+        "ar": "تعرّف على معنى السنّة، وكيف ميّز العلماء الأحاديث الصحيحة، وخمسة أحاديث تعيش بها.",
+        "es": "Aprende qué es la Sunnah, cómo los sabios verificaron qué hadices son auténticos y cinco hadices para vivir según ellos."
+      },
+      "topics": ["res-hadith"],
+      "lessons": [
+        "hadith-what-is-sunnah",
+        "hadith-how-authenticated",
+        "hadith-five-to-live-by"
+      ]
+    }
+  ]
+}

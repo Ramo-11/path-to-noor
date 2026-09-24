@@ -1,0 +1,383 @@
+{
+  "slug": "res-meaning-shahadah",
+  "minutes": 8,
+  "title": {
+    "en": "What the shahada means",
+    "ar": "معنى الشهادتين",
+    "es": "Qué significa la shahada"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The shahada has two halves. The first is about Allah: who deserves your worship. The second is about the Prophet Muhammad, peace be upon him, whose example shows you how to live that worship. This lesson looks at both halves, and at what they ask of you in daily life."
+      },
+      {
+        "h": "La ilaha illallah: worship belongs to Allah alone"
+      },
+      {
+        "p": "Take the first half word by word. *La* means no. *Ilaha* means a god, anything that is worshipped. *Illa* means except. *Allah* is the One God. So the sentence holds a no and a yes: no to worshipping anything else, and yes to worshipping Allah alone."
+      },
+      {
+        "quote": "So know, [O Muhammad], that there is no deity except Allah and ask forgiveness for your sin and for the believing men and believing women. And Allah knows of your movement and your resting place.",
+        "cite": "Quran 47:19 (Saheeh International translation)"
+      },
+      {
+        "p": "This was never a new message. Allah tells us that every messenger before the Prophet Muhammad carried the same call:"
+      },
+      {
+        "quote": "And We sent not before you any messenger except that We revealed to him that, \"There is no deity except Me, so worship Me.\"",
+        "cite": "Quran 21:25 (Saheeh International translation)"
+      },
+      {
+        "p": "Worship in Islam is wide. It includes prayer, and it also includes calling on Allah for help, trusting Him, hoping in Him, and thanking Him. In every prayer, when you recite Surah Al-Fatiha, you say it yourself:"
+      },
+      {
+        "quote": "It is You we worship and You we ask for help.",
+        "cite": "Quran 1:5 (Saheeh International translation)"
+      },
+      {
+        "h": "Muhammadun rasulullah: following his example"
+      },
+      {
+        "p": "The second half says that Muhammad is the Messenger of Allah. Allah chose him to deliver the Quran and to show people how to live by it. His way of doing things is called the *Sunnah*. When you learn how to pray, fast, or treat your neighbors, you learn it from his example."
+      },
+      {
+        "quote": "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day and [who] remembers Allah often.",
+        "cite": "Quran 33:21 (Saheeh International translation)"
+      },
+      {
+        "p": "At the same time, he is a human being and a servant of Allah. Muslims love and honor him, and they never worship him. He said:"
+      },
+      {
+        "quote": "Do not exaggerate in praising me as the Christians exaggerated in praising the son of Mary, for I am only His slave. So, call me the slave of Allah and His Messenger.",
+        "cite": "Sahih al-Bukhari 3445"
+      },
+      {
+        "p": "This is why some authentic wordings of the shahada say *Muhammadan abduhu wa rasuluh*: Muhammad is His servant and His Messenger. You will see this wording in the remembrance below. Both wordings come in authentic hadith."
+      },
+      {
+        "h": "What it asks of you, day to day"
+      },
+      {
+        "p": "The shahada is not a weight to carry. It is a direction to face. First, it means you can call on Allah directly, in your own words, at any time. You need no go-between. Allah says:"
+      },
+      {
+        "quote": "indeed I am near. I respond to the invocation of the supplicant when he calls upon Me.",
+        "cite": "Quran 2:186 (Saheeh International translation)"
+      },
+      {
+        "p": "In practice, it also asks a few simple things:"
+      },
+      {
+        "ul": [
+          "**Worship Allah alone.** Your prayers, your hopes, and your trust belong to Him.",
+          "**Learn the Prophet's way little by little:** how he prayed, how he spoke, how he treated people. Nobody learns it all at once.",
+          "**Say the shahada often, and mean it.**"
+        ]
+      },
+      {
+        "p": "The Prophet taught a short remembrance to say when you hear the caller to prayer. It gathers the whole meaning of the shahada, and it is a lovely habit to start:"
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللهِ رَبًّا وَبِمُحَمَّدٍ رَسُولًا، وَبِالْإِسْلَامِ دِينًا",
+          "transliteration": "Ash-hadu an la ilaha illallahu wahdahu la sharika lah, wa anna Muhammadan abduhu wa rasuluh, raditu billahi rabban, wa bi Muhammadin rasulan, wa bil-Islami dina",
+          "meaning": "I bear witness that there is no god but Allah alone, with no partner, and that Muhammad is His servant and Messenger. I am pleased with Allah as Lord, with Muhammad as Messenger, and with Islam as religion."
+        }
+      },
+      {
+        "p": "The Prophet said that whoever says this on hearing the caller to prayer will have his sins forgiven (Sahih Muslim 386)."
+      },
+      {
+        "h": "A fresh start"
+      },
+      {
+        "p": "When the companion Amr ibn al-As (may Allah be pleased with him) came to accept Islam, he held back his hand and asked to be forgiven first. The Prophet told him that Islam wipes out all (sins) that preceded it (Sahih Muslim 121). The good you did before Islam is not lost either. When Hakim ibn Hizam (may Allah be pleased with him) asked about the charity and kindness he had done before Islam, the Prophet said:"
+      },
+      {
+        "quote": "You have embraced Islam along with your past good deeds.",
+        "cite": "Sahih al-Bukhari 1436 and Sahih Muslim 123"
+      },
+      {
+        "quick": {
+          "question": "What does la ilaha illallah mean?",
+          "options": [
+            "There is no god but Allah: worship belongs to Him alone",
+            "Allah is the Greatest",
+            "Muhammad is the Messenger of Allah"
+          ],
+          "correct": 0,
+          "explanation": "La ilaha illallah is the first half of the shahada. It says no to worshipping anything else and yes to worshipping Allah alone. The last option is the second half of the shahada."
+        }
+      },
+      {
+        "key": "La ilaha illallah: you worship Allah alone. Muhammadun rasulullah: you learn how to live that worship from the Prophet's example."
+      },
+      {
+        "p": "Next, you will meet the pillars of faith: the core beliefs every Muslim holds, as the Prophet taught them."
+      }
+    ],
+    "ar": [
+      {
+        "p": "للشهادتين شطران: الأول عن الله تعالى، وأنه وحده المستحق للعبادة. والثاني عن النبي محمد صلى الله عليه وسلم، الذي تتعلم من هديه كيف تعبد الله. في هذا الدرس نتأمل الشطرين معا، وما يطلبانه منك في حياتك اليومية."
+      },
+      {
+        "h": "لا إله إلا الله: العبادة لله وحده"
+      },
+      {
+        "p": "«لا إله» نفيٌ لكل ما يُعبد من دون الله، و«إلا الله» إثباتٌ للعبادة لله وحده. فمعنى الكلمة: لا معبود بحق إلا الله. ففيها «لا» لكل معبود سواه، و«نعم» لعبادة الله وحده."
+      },
+      {
+        "quote": "فَٱعْلَمْ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱللَّهُ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَٱللَّهُ يَعْلَمُ مُتَقَلَّبَكُمْ وَمَثْوَىٰكُمْ",
+        "cite": "سورة محمد، الآية 19"
+      },
+      {
+        "p": "أي: اعلم يقينا أنه لا معبود بحق إلا الله. وليست هذه رسالة جديدة، فكل رسول قبل النبي محمد صلى الله عليه وسلم أُرسل بها:"
+      },
+      {
+        "quote": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+        "cite": "سورة الأنبياء، الآية 25"
+      },
+      {
+        "p": "والعبادة في الإسلام معناها واسع: تشمل الصلاة، وتشمل الدعاء والاستعانة والتوكل والرجاء والشكر. وأنت تقول ذلك بنفسك في كل صلاة حين تقرأ سورة الفاتحة:"
+      },
+      {
+        "quote": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "cite": "سورة الفاتحة، الآية 5"
+      },
+      {
+        "p": "أي: نخصك وحدك بالعبادة، ونستعين بك وحدك في جميع أمورنا."
+      },
+      {
+        "h": "محمد رسول الله: الاقتداء بهديه"
+      },
+      {
+        "p": "والشطر الثاني إقرارٌ بأن محمدا رسول الله، اختاره الله ليبلّغ القرآن ويبيّن للناس كيف يعملون به. وطريقته في العبادة والمعاملة تسمى «السنة». فحين تتعلم كيف تصلي وتصوم وتعامل جيرانك، فأنت تتعلم ذلك من هديه."
+      },
+      {
+        "quote": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌۭ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًۭا",
+        "cite": "سورة الأحزاب، الآية 21"
+      },
+      {
+        "p": "أي: لكم في أقواله وأفعاله وأحواله قدوة حسنة تقتدون بها. وهو مع ذلك بشر وعبد لله، يحبه المسلمون ويوقّرونه ولا يعبدونه. وقد قال صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "لَا تُطْرُونِي كَمَا أَطْرَتِ النَّصَارَى ابْنَ مَرْيَمَ؛ فَإِنَّمَا أَنَا عَبْدُهُ، فَقُولُوا: عَبْدُ اللهِ وَرَسُولُهُ",
+        "cite": "صحيح البخاري 3445"
+      },
+      {
+        "p": "ومعنى «لا تطروني»: لا تبالغوا في مدحي. ولهذا جاء في بعض الألفاظ الصحيحة للشهادة: «وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ»، كما في الذكر الآتي. واللفظان كلاهما ثابت في الأحاديث الصحيحة."
+      },
+      {
+        "h": "ماذا تطلب منك الشهادتان في يومك؟"
+      },
+      {
+        "p": "الشهادتان ليستا حملا ثقيلا، بل هما اتجاهٌ تمضي إليه. فمن معناهما أن تدعو الله مباشرة، بكلماتك، في أي وقت، بلا واسطة بينك وبينه، فهو سبحانه يقول:"
+      },
+      {
+        "quote": "فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ",
+        "cite": "سورة البقرة، الآية 186"
+      },
+      {
+        "p": "وتطلبان منك كذلك أمورا يسيرة:"
+      },
+      {
+        "ul": [
+          "**أن تعبد الله وحده**، فصلاتك ورجاؤك وتوكلك له سبحانه.",
+          "**أن تتعلم هدي النبي صلى الله عليه وسلم شيئا فشيئا**: كيف كان يصلي، وكيف كان يتكلم، وكيف كان يعامل الناس. ولا أحد يتعلم ذلك كله دفعة واحدة.",
+          "**أن تُكثر من قول الشهادتين** مع استحضار معناهما."
+        ]
+      },
+      {
+        "p": "وقد علّمنا النبي صلى الله عليه وسلم ذكرا قصيرا يقال عند سماع المؤذن، يجمع معنى الشهادتين كله، وهو عادة جميلة تبدأ بها:"
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللهِ رَبًّا وَبِمُحَمَّدٍ رَسُولًا، وَبِالْإِسْلَامِ دِينًا",
+          "transliteration": "Ash-hadu an la ilaha illallahu wahdahu la sharika lah, wa anna Muhammadan abduhu wa rasuluh, raditu billahi rabban, wa bi Muhammadin rasulan, wa bil-Islami dina",
+          "meaning": "إقرارٌ بتوحيد الله وبرسالة نبيه محمد صلى الله عليه وسلم، وإعلانٌ للرضا بالله ربا، وبمحمد رسولا، وبالإسلام دينا."
+        }
+      },
+      {
+        "p": "وأخبر النبي صلى الله عليه وسلم أن من قاله حين يسمع المؤذن «غُفِرَ لَهُ ذَنْبُهُ» (صحيح مسلم 386)."
+      },
+      {
+        "h": "صفحة جديدة"
+      },
+      {
+        "p": "لما جاء عمرو بن العاص رضي الله عنه ليبايع النبي صلى الله عليه وسلم على الإسلام، قبض يده واشترط أن يُغفر له، فقال له النبي صلى الله عليه وسلم: «أَمَا عَلِمتَ أَنَّ الإِسْلاَمَ يَهْدِمُ مَا كَانَ قَبْلَهُ» (صحيح مسلم 121). وما قدّمته من خير قبل إسلامك لا يضيع، فحين سأل حكيم بن حزام رضي الله عنه عمّا كان يفعله من صدقة وصلة رحم قبل الإسلام، قال له النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "أَسْلَمْتَ عَلَى مَا سَلَفَ مِنْ خَيْرٍ",
+        "cite": "متفق عليه: صحيح البخاري 1436، وصحيح مسلم 123"
+      },
+      {
+        "quick": {
+          "question": "ما معنى «لا إله إلا الله»؟",
+          "options": [
+            "لا معبود بحق إلا الله، فالعبادة له وحده",
+            "الله أكبر",
+            "محمد رسول الله"
+          ],
+          "correct": 0,
+          "explanation": "«لا إله إلا الله» هي الشطر الأول من الشهادتين، وفيها نفيُ العبادة عن كل ما سوى الله وإثباتها لله وحده. أما «محمد رسول الله» فهي الشطر الثاني."
+        }
+      },
+      {
+        "key": "لا إله إلا الله: تعبد الله وحده. محمد رسول الله: تتعلم كيف تعبده من هدي النبي صلى الله عليه وسلم."
+      },
+      {
+        "p": "في الدرس القادم تتعرف على أركان الإيمان: العقائد الأساسية التي يؤمن بها كل مسلم، كما علّمها النبي صلى الله عليه وسلم."
+      }
+    ],
+    "es": [
+      {
+        "p": "La shahada tiene dos mitades. La primera trata de Allah: quién merece tu adoración. La segunda trata del Profeta Muhammad, la paz sea con él, cuyo ejemplo te muestra cómo vivir esa adoración. Esta lección repasa ambas mitades y lo que te piden en la vida diaria."
+      },
+      {
+        "h": "La ilaha illallah: la adoración pertenece solo a Allah"
+      },
+      {
+        "p": "Mira la primera mitad palabra por palabra. *La* significa no. *Ilaha* significa un dios, cualquier cosa que se adora. *Illa* significa excepto. *Allah* es el Dios Único. Así, la frase contiene un no y un sí: no a adorar cualquier otra cosa, y sí a adorar solo a Allah."
+      },
+      {
+        "quote": "Debes saber que no hay nada ni nadie con derecho a ser adorado salvo Dios, e implórale el perdón de tus faltas y las de los creyentes y las creyentes. Dios conoce bien lo que hacen dentro y fuera de sus hogares.",
+        "cite": "Corán 47:19 (traducción de Isa García)"
+      },
+      {
+        "p": "Este nunca fue un mensaje nuevo. Allah nos dice que cada mensajero antes del Profeta Muhammad llevó el mismo llamado:"
+      },
+      {
+        "quote": "No envié en el pasado a ningún Mensajero, excepto que recibiera la misma revelación que tú: \"Nada ni nadie merece ser adorado excepto Yo, ¡Adórenme solo a Mí!\"",
+        "cite": "Corán 21:25 (traducción de Isa García)"
+      },
+      {
+        "p": "La adoración en el islam es amplia. Incluye la oración, y también pedirle ayuda a Allah, confiar en Él, tener esperanza en Él y agradecerle. En cada oración, cuando recitas la sura Al-Fatiha, lo dices tú mismo:"
+      },
+      {
+        "quote": "solo a Ti te adoramos y solo de Ti imploramos ayuda.",
+        "cite": "Corán 1:5 (traducción de Isa García)"
+      },
+      {
+        "h": "Muhammadun rasulullah: seguir su ejemplo"
+      },
+      {
+        "p": "La segunda mitad dice que Muhammad es el Mensajero de Allah. Allah lo eligió para transmitir el Corán y mostrar a la gente cómo vivir según él. Su manera de hacer las cosas se llama *Sunnah*. Cuando aprendes a rezar, a ayunar o a tratar a tus vecinos, lo aprendes de su ejemplo."
+      },
+      {
+        "quote": "En el Mensajero de Dios hay un bello ejemplo para quienes tienen esperanza en Dios, [anhelan ser recompensados] en el Día del Juicio y recuerdan frecuentemente a Dios.",
+        "cite": "Corán 33:21 (traducción de Isa García)"
+      },
+      {
+        "p": "Al mismo tiempo, es un ser humano y un siervo de Allah. Los musulmanes lo aman y lo honran, y nunca lo adoran. Él dijo:"
+      },
+      {
+        "quote": "No exageren alabándome como hicieron los cristianos con Jesús, el hijo de María, pues yo soy un siervo de Allah; así que digan: un siervo de Allah y Su mensajero",
+        "cite": "Sahih al-Bujari 3445"
+      },
+      {
+        "p": "Por eso algunas formulaciones auténticas de la shahada dicen *Muhammadan abduhu wa rasuluh*: Muhammad es Su siervo y Su Mensajero. Verás esta formulación en el recuerdo de más abajo. Ambas formulaciones vienen en hadices auténticos."
+      },
+      {
+        "h": "Lo que te pide en el día a día"
+      },
+      {
+        "p": "La shahada no es un peso que cargar. Es una dirección hacia la que caminar. Primero, significa que puedes pedirle a Allah directamente, con tus propias palabras, en cualquier momento. No necesitas intermediarios. Allah dice:"
+      },
+      {
+        "quote": "estoy cerca de ellos. Respondo la súplica de quien Me invoca.",
+        "cite": "Corán 2:186 (traducción de Isa García)"
+      },
+      {
+        "p": "En la práctica, también te pide algunas cosas sencillas:"
+      },
+      {
+        "ul": [
+          "**Adorar solo a Allah.** Tus oraciones, tus esperanzas y tu confianza le pertenecen a Él.",
+          "**Aprender poco a poco el camino del Profeta:** cómo rezaba, cómo hablaba, cómo trataba a la gente. Nadie lo aprende todo de una vez.",
+          "**Decir la shahada a menudo, sintiéndola de verdad.**"
+        ]
+      },
+      {
+        "p": "El Profeta enseñó un breve recuerdo para decir al escuchar al muecín. Reúne todo el significado de la shahada, y es un hábito hermoso para empezar:"
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللهِ رَبًّا وَبِمُحَمَّدٍ رَسُولًا، وَبِالْإِسْلَامِ دِينًا",
+          "transliteration": "Ash-hadu an la ilaha illallahu wahdahu la sharika lah, wa anna Muhammadan abduhu wa rasuluh, raditu billahi rabban, wa bi Muhammadin rasulan, wa bil-Islami dina",
+          "meaning": "Atestiguo que no hay dios sino Allah, único y sin copartícipes, y que Muhammad es Su siervo y Mensajero. Me complace Allah como Señor, Muhammad como Mensajero y el islam como religión."
+        }
+      },
+      {
+        "p": "El Profeta dijo que a quien diga esto al oír al muecín se le perdonarán sus pecados (Sahih Muslim 386)."
+      },
+      {
+        "h": "Un nuevo comienzo"
+      },
+      {
+        "p": "Cuando el compañero Amr ibn al-As (que Allah esté complacido con él) vino a abrazar el islam, retiró la mano y pidió primero ser perdonado. El Profeta le dijo que el islam borra todo lo anterior a él (Sahih Muslim 121). Y el bien que hiciste antes del islam tampoco se pierde. Cuando Hakim ibn Hizam (que Allah esté complacido con él) preguntó por la caridad y la bondad que había hecho antes del islam, el Profeta le dijo:"
+      },
+      {
+        "quote": "Has abrazado el Islam junto con tus buenas obras pasadas",
+        "cite": "Sahih al-Bujari 1436 y Sahih Muslim 123"
+      },
+      {
+        "quick": {
+          "question": "¿Qué significa la ilaha illallah?",
+          "options": [
+            "No hay dios sino Allah: la adoración le pertenece solo a Él",
+            "Allah es el más grande",
+            "Muhammad es el Mensajero de Allah"
+          ],
+          "correct": 0,
+          "explanation": "La ilaha illallah es la primera mitad de la shahada. Dice no a adorar cualquier otra cosa y sí a adorar solo a Allah. La última opción es la segunda mitad de la shahada."
+        }
+      },
+      {
+        "key": "La ilaha illallah: adoras solo a Allah. Muhammadun rasulullah: aprendes a vivir esa adoración con el ejemplo del Profeta."
+      },
+      {
+        "p": "A continuación conocerás los pilares de la fe: las creencias esenciales de todo musulmán, tal como las enseñó el Profeta."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 47:19 (Saheeh International translation)",
+      "url": "https://quran.com/47/19"
+    },
+    {
+      "label": "Quran 21:25 (Saheeh International translation)",
+      "url": "https://quran.com/21/25"
+    },
+    {
+      "label": "Quran 1:5 (Saheeh International translation)",
+      "url": "https://quran.com/1/5"
+    },
+    {
+      "label": "Quran 33:21 (Saheeh International translation)",
+      "url": "https://quran.com/33/21"
+    },
+    {
+      "label": "Quran 2:186 (Saheeh International translation)",
+      "url": "https://quran.com/2/186"
+    },
+    {
+      "label": "Sahih al-Bukhari 3445",
+      "url": "https://hadeethenc.com/en/browse/hadith/3406"
+    },
+    {
+      "label": "Sahih Muslim 386 (remembrance after the call to prayer)",
+      "url": "https://hadeethenc.com/en/browse/hadith/6272"
+    },
+    {
+      "label": "Sahih Muslim 121 (Islam wipes out what came before it)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3446"
+    },
+    {
+      "label": "Sahih al-Bukhari 1436 and Sahih Muslim 123 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/65016"
+    }
+  ],
+  "differenceNote": false
+}

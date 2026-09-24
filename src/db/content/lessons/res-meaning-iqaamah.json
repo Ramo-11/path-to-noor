@@ -1,0 +1,256 @@
+{
+  "slug": "res-meaning-iqaamah",
+  "minutes": 6,
+  "title": {
+    "en": "The meaning of the iqamah",
+    "ar": "معاني الإقامة",
+    "es": "El significado de la iqamah"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The adhan tells you that the time for prayer has come. The **iqamah** (literally, the establishing) is a second, shorter call, said right before the prayer begins, when people are already in the masjid. It tells everyone: stand up and line up, the prayer is starting now."
+      },
+      {
+        "h": "The words of the iqamah"
+      },
+      {
+        "p": "In the hadith of Abdullah ibn Zayd, may Allah be pleased with him, the man in the dream taught the iqamah right after the adhan (Abu Dawud, hasan sahih). It uses the same phrases as the adhan, mostly said once, with one new phrase. The companion Anas, may Allah be pleased with him, said: \"Bilal was ordered to pronounce the Adhan in pairs and the Iqamah in singles\" (Bukhari and Muslim). This is the wording most scholars follow:"
+      },
+      {
+        "ol": [
+          "*Allahu Akbar, Allahu Akbar*: Allah is the Greatest, Allah is the Greatest.",
+          "*Ashhadu an la ilaha illallah*: I bear witness that there is no god but Allah.",
+          "*Ashhadu anna Muhammadan rasulullah*: I bear witness that Muhammad is the Messenger of Allah.",
+          "*Hayya alas-salah*: Come to prayer.",
+          "*Hayya alal-falah*: Come to success.",
+          "*Qad qamatis-salah, qad qamatis-salah*: The prayer is now being established (said twice).",
+          "*Allahu Akbar, Allahu Akbar*: Allah is the Greatest, Allah is the Greatest.",
+          "*La ilaha illallah*: There is no god but Allah."
+        ]
+      },
+      {
+        "phrase": {
+          "arabic": "قَدْ قَامَتِ الصَّلَاةُ",
+          "transliteration": "Qad qamatis-salah",
+          "meaning": "The prayer is now being established: it is starting."
+        }
+      },
+      {
+        "p": "This is the one new phrase. *Qad qamat* means it has already stood up, it has begun. By the time you hear it, the prayer is right at the door."
+      },
+      {
+        "h": "Small differences you may hear"
+      },
+      {
+        "p": "Scholars differ on how many times some phrases are said, because more than one wording is authentically reported from the Prophet Muhammad, peace be upon him. The wording above is followed by the Shafi'i and Hanbali schools. The Maliki school says *qad qamatis-salah* only once. The Hanafi school repeats the phrases twice, like the adhan, following the iqamah the Prophet taught to Abu Mahdhurah, may Allah be pleased with him (Abu Dawud and Tirmidhi, hasan sahih). Scholars explain that all of these are correct, so follow your local masjid."
+      },
+      {
+        "h": "What the iqamah means for you"
+      },
+      {
+        "ul": [
+          "**It is time to stand.** Stop what you are doing, stand, and join the rows. The Prophet said, \"When you pray, straighten your rows\" (Muslim).",
+          "**It is time for the obligatory prayer.** The Prophet said, \"When the Iqamah for prayer is pronounced, no prayer is to be offered but the obligatory one\" (Muslim). So this is not the moment to start a voluntary prayer; it is the moment to join the congregation.",
+          "**Prayer is a place of rest.** The Prophet once said to Bilal, \"O Bilal, call the Iqamah for the prayer; give us comfort by it\" (Abu Dawud, authentic). For him, the prayer was not a burden to get through but a place where the heart finds relief."
+        ]
+      },
+      {
+        "p": "If you pray alone at home, scholars recommend saying the adhan and the iqamah yourself before you begin. It is a good practice, but your prayer is still valid without it, so do not let it stop you from praying."
+      },
+      {
+        "quick": {
+          "question": "What does qad qamatis-salah tell you?",
+          "options": [
+            "The prayer will start in about an hour",
+            "The prayer is starting now",
+            "The prayer has just finished"
+          ],
+          "correct": 1,
+          "explanation": "Qad qamatis-salah means the prayer is now being established. When you hear it, stand and join the rows."
+        }
+      },
+      {
+        "key": "The adhan announces the time; the iqamah announces the start. When you hear qad qamatis-salah, it is time to stand in line and begin."
+      },
+      {
+        "p": "In the next lesson, you will learn the difference between the obligatory (fard) prayers and the extra sunnah prayers that come before and after them."
+      }
+    ],
+    "ar": [
+      {
+        "p": "الأذان يخبرك بدخول وقت الصلاة، أما **الإقامة** فهي نداء ثانٍ أقصر يُقال قبيل بدء الصلاة مباشرة، حين يكون الناس في المسجد. ومعناها أن قوموا واصطفّوا، فالصلاة تبدأ الآن."
+      },
+      {
+        "h": "كلمات الإقامة"
+      },
+      {
+        "p": "في حديث عبد الله بن زيد رضي الله عنه علّمه الرجل الذي رآه في المنام الإقامةَ بعد الأذان مباشرة (رواه أبو داود، وهو حسن صحيح). وهي بجمل الأذان نفسها، يُقال أكثرها مرة واحدة، مع جملة واحدة جديدة. وقال أنس رضي الله عنه: «أُمِر بِلاَل أن يَشفَع الأَذَان، ويُوتِر الإِقَامَة» (رواه البخاري ومسلم). وهذه هي الصيغة التي عليها أكثر العلماء:"
+      },
+      {
+        "ol": [
+          "الله أكبر، الله أكبر.",
+          "أشهد أن لا إله إلا الله.",
+          "أشهد أن محمدًا رسول الله.",
+          "حي على الصلاة.",
+          "حي على الفلاح.",
+          "قد قامت الصلاة، قد قامت الصلاة (مرتين).",
+          "الله أكبر، الله أكبر.",
+          "لا إله إلا الله."
+        ]
+      },
+      {
+        "phrase": {
+          "arabic": "قَدْ قَامَتِ الصَّلَاةُ",
+          "transliteration": "",
+          "meaning": "قد حان القيام إلى الصلاة، وها هي تبدأ."
+        }
+      },
+      {
+        "p": "هذه هي الجملة الجديدة. ومعنى «قد قامت» أنها قامت بالفعل وبدأت، فإذا سمعتها فالصلاة على الأبواب."
+      },
+      {
+        "h": "اختلاف يسير قد تسمعه"
+      },
+      {
+        "p": "يختلف العلماء في عدد مرات بعض الجمل، لأن أكثر من صيغة صحّت عن النبي محمد صلى الله عليه وسلم. فالصيغة السابقة يأخذ بها الشافعية والحنابلة، والمالكية يقولون «قد قامت الصلاة» مرة واحدة، والحنفية يثنّون جمل الإقامة كالأذان، أخذًا بالإقامة التي علّمها النبي صلى الله عليه وسلم لأبي محذورة رضي الله عنه (رواه أبو داود والترمذي، وهو حسن صحيح). ويبيّن العلماء أن كل ذلك صحيح، فاتبع مسجدك."
+      },
+      {
+        "h": "ماذا تعني الإقامة لك"
+      },
+      {
+        "ul": [
+          "**حان وقت القيام.** اترك ما في يدك، وقم وادخل في الصف. قال النبي صلى الله عليه وسلم: «إِذَا صَلَّيْتُمْ فَأَقِيمُوا صُفُوفَكُمْ» (رواه مسلم).",
+          "**حان وقت الفريضة.** قال النبي صلى الله عليه وسلم: «إِذَا أُقِيمَتِ الصَّلَاةُ فَلَا صَلَاةَ إلَّا المَكْتُوبَةُ» (رواه مسلم). فهذا ليس وقت البدء في صلاة نافلة، بل وقت الدخول مع الجماعة.",
+          "**الصلاة راحة.** قال النبي صلى الله عليه وسلم يومًا لبلال: «يا بلالُ، أقِمِ الصَّلاةَ، أرِحْنا بها» (رواه أبو داود، وهو صحيح). فالصلاة عنده لم تكن عبئًا يُتخلص منه، بل موضعًا يجد فيه القلب راحته."
+        ]
+      },
+      {
+        "p": "وإذا صليت وحدك في بيتك فقد استحب العلماء أن تؤذّن وتقيم لنفسك قبل أن تبدأ. وهي سنة حسنة، لكن صلاتك صحيحة بدونها، فلا تجعل ذلك يمنعك من الصلاة."
+      },
+      {
+        "quick": {
+          "question": "ماذا تخبرك جملة «قد قامت الصلاة»؟",
+          "options": [
+            "أن الصلاة ستبدأ بعد ساعة تقريبًا",
+            "أن الصلاة تبدأ الآن",
+            "أن الصلاة انتهت للتو"
+          ],
+          "correct": 1,
+          "explanation": "«قد قامت الصلاة» معناها أن الصلاة تُقام الآن، فإذا سمعتها فقم وادخل في الصف."
+        }
+      },
+      {
+        "key": "الأذان يعلن دخول الوقت، والإقامة تعلن بدء الصلاة. فإذا سمعت «قد قامت الصلاة» فقد حان وقت الاصطفاف والبدء."
+      },
+      {
+        "p": "في الدرس القادم ستتعرف على الفرق بين صلوات الفريضة وصلوات السنة التي تُصلّى قبلها وبعدها."
+      }
+    ],
+    "es": [
+      {
+        "p": "El adhan te dice que ha llegado la hora de la oración. La **iqamah** (literalmente, el establecimiento) es un segundo llamado, más corto, que se dice justo antes de que empiece la oración, cuando la gente ya está en la mezquita. Le dice a todos: levántense y formen filas, la oración empieza ahora."
+      },
+      {
+        "h": "Las palabras de la iqamah"
+      },
+      {
+        "p": "En el hadiz de Abdullah ibn Zayd, que Allah esté complacido con él, el hombre del sueño enseñó la iqamah justo después del adhan (Abu Dawud, hasan sahih). Usa las mismas frases que el adhan, la mayoría dichas una sola vez, con una frase nueva. El compañero Anas, que Allah esté complacido con él, dijo que a Bilal se le ordenó hacer el adhan de forma par y la iqamah de forma impar (Bujari y Muslim). Esta es la forma que sigue la mayoría de los sabios:"
+      },
+      {
+        "ol": [
+          "*Al-lahu Akbar, Al-lahu Akbar*: Allah es el más grande, Allah es el más grande.",
+          "*Ashhadu an la ilaha il-lal-lah*: Atestiguo que no hay más dios que Allah.",
+          "*Ashhadu anna Muhammadan rasulul-lah*: Atestiguo que Muhammad es el Mensajero de Allah.",
+          "*Hayya alas-salah*: Vengan a la oración.",
+          "*Hayya alal-falah*: Vengan al éxito.",
+          "*Qad qamatis-salah, qad qamatis-salah*: La oración se está estableciendo ahora (dos veces).",
+          "*Al-lahu Akbar, Al-lahu Akbar*: Allah es el más grande, Allah es el más grande.",
+          "*La ilaha il-lal-lah*: No hay más dios que Allah."
+        ]
+      },
+      {
+        "phrase": {
+          "arabic": "قَدْ قَامَتِ الصَّلَاةُ",
+          "transliteration": "Qad qamatis-salah",
+          "meaning": "La oración se está estableciendo ahora: está empezando."
+        }
+      },
+      {
+        "p": "Esta es la única frase nueva. *Qad qamat* significa que ya se ha puesto en pie, que ya empezó. Cuando la oyes, la oración está a la puerta."
+      },
+      {
+        "h": "Pequeñas diferencias que puedes oír"
+      },
+      {
+        "p": "Los sabios difieren sobre cuántas veces se dicen algunas frases, porque del Profeta Muhammad, la paz sea con él, se transmitió de forma auténtica más de una versión. La forma de arriba es la de las escuelas shafi'i y hanbali. La escuela maliki dice *qad qamatis-salah* una sola vez. La escuela hanafi repite las frases dos veces, como en el adhan, siguiendo la iqamah que el Profeta enseñó a Abu Mahdhurah, que Allah esté complacido con él (Abu Dawud y Tirmidhi, hasan sahih). Los sabios explican que todas son correctas, así que sigue a tu mezquita local."
+      },
+      {
+        "h": "Lo que la iqamah significa para ti"
+      },
+      {
+        "ul": [
+          "**Es hora de ponerse de pie.** Deja lo que estás haciendo, levántate y únete a las filas. El Profeta dijo: \"Cuando recen, alinéense bien en sus filas\" (Muslim).",
+          "**Es hora de la oración obligatoria.** El Profeta dijo que, cuando se pronuncia la iqamah, no hay más oración que la obligatoria (Muslim). Así que no es el momento de empezar una oración voluntaria, sino de unirte a la congregación.",
+          "**La oración es un lugar de descanso.** Un día el Profeta dijo a Bilal: \"¡Oh, Bilal!, haz la llamada a la oración y tráenos descanso con ella\" (Abu Dawud, auténtico). Para él, la oración no era una carga que había que terminar, sino un lugar donde el corazón encuentra alivio."
+        ]
+      },
+      {
+        "p": "Si rezas solo en casa, los sabios recomiendan que digas tú mismo el adhan y la iqamah antes de empezar. Es una buena práctica, pero tu oración es válida sin ella, así que no dejes que esto te impida rezar."
+      },
+      {
+        "quick": {
+          "question": "¿Qué te dice la frase qad qamatis-salah?",
+          "options": [
+            "Que la oración empezará en más o menos una hora",
+            "Que la oración empieza ahora",
+            "Que la oración acaba de terminar"
+          ],
+          "correct": 1,
+          "explanation": "Qad qamatis-salah significa que la oración se está estableciendo ahora. Cuando la oigas, levántate y únete a las filas."
+        }
+      },
+      {
+        "key": "El adhan anuncia la hora; la iqamah anuncia el comienzo. Cuando oyes qad qamatis-salah, es hora de formar fila y empezar."
+      },
+      {
+        "p": "En la próxima lección aprenderás la diferencia entre las oraciones obligatorias (fard) y las oraciones sunnah adicionales que se rezan antes y después de ellas."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sunan Abi Dawud 499 (hasan sahih, al-Albani): the iqamah in the hadith of Abdullah ibn Zayd",
+      "url": "https://hadeethenc.com/en/browse/hadith/10615"
+    },
+    {
+      "label": "Sahih al-Bukhari 605 and Sahih Muslim 378 (agreed upon): the adhan in pairs and the iqamah in singles",
+      "url": "https://hadeethenc.com/en/browse/hadith/3307"
+    },
+    {
+      "label": "IslamQA 111893: the different authentic wordings of the iqamah and the schools that follow them",
+      "url": "https://islamqa.info/en/answers/111893"
+    },
+    {
+      "label": "Sahih Muslim 404: straighten your rows",
+      "url": "https://hadeethenc.com/en/browse/hadith/65097"
+    },
+    {
+      "label": "Sahih Muslim 710: when the iqamah is called, only the obligatory prayer",
+      "url": "https://hadeethenc.com/en/browse/hadith/65739"
+    },
+    {
+      "label": "Sunan Abi Dawud 4985 (sahih, al-Albani): \"give us comfort by it\"",
+      "url": "https://hadeethenc.com/en/browse/hadith/65095"
+    },
+    {
+      "label": "Sunan Abi Dawud 502 and Jami at-Tirmidhi 192 (hasan sahih): the iqamah taught to Abu Mahdhurah",
+      "url": "https://sunnah.com/tirmidhi:192"
+    },
+    {
+      "label": "IslamQA 5660: saying the adhan and iqamah when praying alone",
+      "url": "https://islamqa.info/en/answers/5660"
+    }
+  ],
+  "differenceNote": false
+}

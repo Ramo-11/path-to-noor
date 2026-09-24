@@ -1,0 +1,471 @@
+{
+  "slug": "quran-daily-habit",
+  "minutes": 8,
+  "title": {
+    "en": "Building a daily Quran habit",
+    "ar": "عادة يومية مع القرآن",
+    "es": "Crear un hábito diario con el Corán"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "You now know where the Quran came from, how to start reading it, and two passages that Muslims recite every night. The last step is the one that makes all of this last: a small daily habit. Not a big plan that falls apart after a week, but something gentle you can keep for life."
+      },
+      {
+        "h": "Small and steady"
+      },
+      {
+        "p": "The Prophet Muhammad, peace be upon him, said:"
+      },
+      {
+        "phrase": {
+          "arabic": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ تَعَالَى أَدْوَمُهَا وَإِنْ قَلَّ",
+          "transliteration": "Ahabbul-a'maali ilal-laahi ta'aalaa adwamuhaa wa in qall",
+          "meaning": "The acts most pleasing to Allah are those which are done continuously, even if they are small."
+        }
+      },
+      {
+        "p": "Aisha, may Allah be pleased with her, who reported this hadith, would keep up any good deed once she started it. Ten minutes with the Quran every day, kept up for months, will carry you much further than one long session followed by weeks of nothing."
+      },
+      {
+        "h": "Recite slowly"
+      },
+      {
+        "p": "In a passage about the Prophet's night prayer, Allah told him to stand for part of the night, half of it, a little less, or more, and then:"
+      },
+      {
+        "quote": "Or add to it, and recite the Qur'an with measured recitation.",
+        "cite": "Quran 73:4 (Saheeh International translation of the meaning)"
+      },
+      {
+        "p": "\"Measured recitation\" (*tartil*) means reciting calmly and without rushing, pronouncing the letters clearly and pausing in the right places. For you, this means quality over speed. Five verses read slowly, with their meaning, are a beautiful practice."
+      },
+      {
+        "h": "Listening counts too"
+      },
+      {
+        "p": "Listening to the Quran is also a way to learn, and a door to Allah's mercy. He says:"
+      },
+      {
+        "quote": "So when the Qur'an is recited, then listen to it and pay attention that you may receive mercy.",
+        "cite": "Quran 7:204 (Saheeh International translation of the meaning)"
+      },
+      {
+        "p": "Listen to a clear, trusted reciter while you commute, cook, or rest. Following the text with your eyes while you listen trains your ear and your reading at the same time."
+      },
+      {
+        "h": "Tie it to a prayer"
+      },
+      {
+        "p": "The easiest way to remember a new habit is to attach it to something you already do. You already pray five times a day. Choose one prayer, for example Fajr (the dawn prayer) or Isha (the night prayer), and give the Quran ten minutes right after it."
+      },
+      {
+        "steps": {
+          "title": "A 10-minute daily Quran routine",
+          "steps": [
+            "Right after your chosen prayer, stay seated in your place.",
+            "Say *a'oodhu billaahi minash-shaytaanir-rajeem* (I seek refuge in Allah from Satan, the accursed), as you learned earlier in this step.",
+            "Listen to a short passage from a trusted reciter while following the text (about 2 minutes).",
+            "Recite the same verses yourself, slowly, even if you stumble (about 3 minutes).",
+            "Read the meaning of those verses in your language (about 3 minutes).",
+            "Choose one idea to think about today, and make a short dua (about 2 minutes).",
+            "Mark where you stopped, so you know where to begin tomorrow."
+          ]
+        }
+      },
+      {
+        "p": "Once you have memorized something, such as Ayat al-Kursi, keep reviewing it. The Prophet said:"
+      },
+      {
+        "quote": "Keep on reciting this Qur'an, for by the One in Whose Hand my soul is, the Qur'an slips away from memory faster than camels escaping their tying ropes.",
+        "cite": "Sahih al-Bukhari 5033 and Sahih Muslim 791 (agreed upon)"
+      },
+      {
+        "p": "If you miss a day, do not give up and do not be hard on yourself. Simply come back the next day and continue from where you stopped. A habit is built by returning, not by never missing."
+      },
+      {
+        "quick": {
+          "question": "Which plan fits the hadith \"the acts most pleasing to Allah are those done continuously, even if they are small\"?",
+          "options": [
+            "Reading for three hours once a month",
+            "Reading for ten minutes every day",
+            "Waiting until you can read Arabic perfectly"
+          ],
+          "correct": 1,
+          "explanation": "A small amount done every day is exactly what the hadith praises. Start small and keep it going."
+        }
+      },
+      {
+        "key": "A small daily habit, tied to a prayer and kept up gently, is the heart of a lifelong bond with the Quran."
+      },
+      {
+        "p": "You have finished this step. Check what you have learned below, and then continue to the next step: the life of the Prophet Muhammad, peace be upon him."
+      }
+    ],
+    "ar": [
+      {
+        "p": "عرفت الآن من أين جاء القرآن، وكيف تبدأ قراءته، ومقطعين يقرؤهما المسلمون كل ليلة. والخطوة الأخيرة هي التي تجعل كل ذلك يدوم: عادة يومية صغيرة. لا خطة كبيرة تنهار بعد أسبوع، بل شيء هادئ تستطيع أن تحافظ عليه طوال حياتك."
+      },
+      {
+        "h": "قليل دائم"
+      },
+      {
+        "p": "قال النبي محمد صلى الله عليه وسلم:"
+      },
+      {
+        "phrase": {
+          "arabic": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ تَعَالَى أَدْوَمُهَا وَإِنْ قَلَّ",
+          "transliteration": "Ahabbul-a'maali ilal-laahi ta'aalaa adwamuhaa wa in qall",
+          "meaning": "أحبّ الأعمال إلى الله ما داوم عليه صاحبه واستمر فيه، ولو كان قليلًا."
+        }
+      },
+      {
+        "p": "وكانت عائشة رضي الله عنها، راوية هذا الحديث، إذا عملت عملًا صالحًا لزمته. فعشر دقائق مع القرآن كل يوم، تحافظ عليها شهورًا، تبلغ بك أبعد بكثير من جلسة طويلة يعقبها انقطاع أسابيع."
+      },
+      {
+        "h": "اقرأ بتمهّل"
+      },
+      {
+        "p": "في آيات عن قيام النبي صلى الله عليه وسلم بالليل، أمره الله أن يقوم نصف الليل أو أقل منه قليلًا أو أكثر، ثم قال:"
+      },
+      {
+        "quote": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا",
+        "cite": "سورة المزمل، الآية 4"
+      },
+      {
+        "p": "والترتيل أن تقرأ القرآن بتؤدة وتمهّل، مبيّنًا الحروف والوقوف. والمعنى لك: الجودة قبل السرعة، وخمس آيات تقرؤها بتمهّل وتفهم معناها عبادة جميلة."
+      },
+      {
+        "h": "الاستماع أيضًا"
+      },
+      {
+        "p": "والاستماع إلى القرآن طريق للتعلّم وباب لرحمة الله، قال تعالى:"
+      },
+      {
+        "quote": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
+        "cite": "سورة الأعراف، الآية 204"
+      },
+      {
+        "p": "أي استمعوا له وأنصتوا لتعقلوه، رجاء أن يرحمكم الله به. فاستمع إلى قارئ متقن في طريقك أو أثناء عملك في البيت أو في راحتك، وتابع النص بعينيك وأنت تستمع، فتتدرّب أذنك وقراءتك معًا."
+      },
+      {
+        "h": "اربطها بصلاة"
+      },
+      {
+        "p": "أسهل طريقة لتذكّر عادة جديدة أن تربطها بشيء تفعله أصلًا، وأنت تصلي خمس مرات في اليوم. اختر صلاة واحدة، كالفجر أو العشاء، وخصّص للقرآن عشر دقائق بعدها مباشرة."
+      },
+      {
+        "steps": {
+          "title": "ورد يومي مع القرآن في عشر دقائق",
+          "steps": [
+            "بعد الصلاة التي اخترتها مباشرة، ابقَ جالسًا في مكانك.",
+            "قل: أعوذ بالله من الشيطان الرجيم، كما تعلّمت في هذه الخطوة.",
+            "استمع إلى مقطع قصير من قارئ متقن وأنت تتابع النص (نحو دقيقتين).",
+            "اقرأ الآيات نفسها بنفسك بتمهّل، ولو تعثّرت (نحو ثلاث دقائق).",
+            "اقرأ تفسيرًا ميسّرًا لهذه الآيات (نحو ثلاث دقائق).",
+            "اختر فكرة واحدة تتأملها اليوم، وادعُ بدعاء قصير (نحو دقيقتين).",
+            "ضع علامة حيث توقفت، لتعرف من أين تبدأ غدًا."
+          ]
+        }
+      },
+      {
+        "p": "وإذا حفظت شيئًا، كآية الكرسي، فتعاهده بالمراجعة، قال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "تَعَاهَدُوا هَذَا الْقُرْآنَ، فَوَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ لَهُوَ أَشَدُّ تَفَلُّتًا مِنَ الْإِبِلِ فِي عُقُلِهَا",
+        "cite": "صحيح البخاري 5033، وصحيح مسلم 791 (متفق عليه)"
+      },
+      {
+        "p": "وإذا فاتك يوم فلا تستسلم ولا تقسُ على نفسك، بل عد في اليوم التالي وأكمل من حيث توقفت. فالعادة تُبنى بالرجوع، لا بعدم الانقطاع أبدًا."
+      },
+      {
+        "quick": {
+          "question": "أيّ خطة توافق حديث «أحب الأعمال إلى الله أدومها وإن قل»؟",
+          "options": [
+            "القراءة ثلاث ساعات مرة في الشهر",
+            "القراءة عشر دقائق كل يوم",
+            "الانتظار حتى تتقن العربية تمامًا"
+          ],
+          "correct": 1,
+          "explanation": "القليل الذي تداوم عليه كل يوم هو ما يمدحه الحديث، فابدأ بالقليل وحافظ عليه."
+        }
+      },
+      {
+        "key": "عادة يومية صغيرة، مرتبطة بصلاة، تحافظ عليها برفق، هي قلب علاقة تدوم العمر مع القرآن."
+      },
+      {
+        "p": "أتممت هذه الخطوة. اختبر ما تعلّمته في الأسئلة التالية، ثم انتقل إلى الخطوة القادمة: سيرة النبي محمد صلى الله عليه وسلم."
+      }
+    ],
+    "es": [
+      {
+        "p": "Ya sabes de dónde vino el Corán, cómo empezar a leerlo y dos pasajes que los musulmanes recitan cada noche. El último paso es el que hace que todo esto dure: un pequeño hábito diario. No un gran plan que se derrumba después de una semana, sino algo sereno que puedas mantener toda la vida."
+      },
+      {
+        "h": "Poco y constante"
+      },
+      {
+        "p": "El Profeta Muhammad, la paz sea con él, dijo:"
+      },
+      {
+        "phrase": {
+          "arabic": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ تَعَالَى أَدْوَمُهَا وَإِنْ قَلَّ",
+          "transliteration": "Ahabbul-a'maali ilal-laahi ta'aalaa adwamuhaa wa in qall",
+          "meaning": "Las obras más amadas por Allah son las más constantes, aunque sean pocas."
+        }
+      },
+      {
+        "p": "Aisha, que Allah esté complacido con ella, quien transmitió este hadiz, mantenía cualquier buena obra una vez que la empezaba. Diez minutos con el Corán cada día, mantenidos durante meses, te llevarán mucho más lejos que una sesión larga seguida de semanas sin nada."
+      },
+      {
+        "h": "Recita despacio"
+      },
+      {
+        "p": "En un pasaje sobre la oración nocturna del Profeta, Allah le dijo que se levantara parte de la noche, la mitad, un poco menos o un poco más, y luego:"
+      },
+      {
+        "quote": "o un poco más, y recita el Corán claramente y meditando en su significado.",
+        "cite": "Corán 73:4 (traducción del significado de Isa García)"
+      },
+      {
+        "p": "La recitación pausada (*tartil*) significa recitar con calma y sin prisa, pronunciando las letras con claridad y haciendo las pausas en su lugar. Para ti, esto significa calidad antes que velocidad. Cinco aleyas leídas despacio, con su significado, son una práctica hermosa."
+      },
+      {
+        "h": "Escuchar también cuenta"
+      },
+      {
+        "p": "Escuchar el Corán también es una forma de aprender y una puerta a la misericordia de Allah. Él dice:"
+      },
+      {
+        "quote": "Cuando el Corán sea leído, escúchenlo con atención y guarden silencio para que se les tenga misericordia.",
+        "cite": "Corán 7:204 (traducción del significado de Isa García)"
+      },
+      {
+        "p": "Escucha a un recitador claro y confiable mientras viajas, cocinas o descansas. Seguir el texto con la vista mientras escuchas entrena tu oído y tu lectura al mismo tiempo."
+      },
+      {
+        "h": "Únelo a una oración"
+      },
+      {
+        "p": "La forma más fácil de recordar un hábito nuevo es unirlo a algo que ya haces. Ya rezas cinco veces al día. Elige una oración, por ejemplo el Fayr (la oración del alba) o el Isha (la oración de la noche), y dale al Corán diez minutos justo después."
+      },
+      {
+        "steps": {
+          "title": "Una rutina diaria de 10 minutos con el Corán",
+          "steps": [
+            "Justo después de la oración que elegiste, quédate sentado en tu lugar.",
+            "Di *a'oodhu billaahi minash-shaytaanir-rajeem* (me refugio en Allah de Satanás, el maldito), como aprendiste en este paso.",
+            "Escucha un pasaje corto de un recitador confiable mientras sigues el texto (unos 2 minutos).",
+            "Recita tú mismo esas aleyas, despacio, aunque tropieces (unos 3 minutos).",
+            "Lee el significado de esas aleyas en tu idioma (unos 3 minutos).",
+            "Elige una idea para pensar hoy y haz una dua breve (unos 2 minutos).",
+            "Marca dónde te detuviste, para saber dónde empezar mañana."
+          ]
+        }
+      },
+      {
+        "p": "Cuando memorices algo, como Ayat al-Kursi, sigue repasándolo. El Profeta dijo:"
+      },
+      {
+        "quote": "Comprométanse con la recitación de este Corán, pues, por Aquel en cuya mano está el alma de Muhammad, se escapa más fácilmente que el camello de su atadura",
+        "cite": "Sahih al-Bujari 5033 y Sahih Muslim 791 (registrado por ambos)"
+      },
+      {
+        "p": "Si un día no lo haces, no te rindas y no seas duro contigo mismo. Simplemente vuelve al día siguiente y continúa desde donde te quedaste. Un hábito se construye volviendo, no por no fallar nunca."
+      },
+      {
+        "quick": {
+          "question": "¿Qué plan encaja con el hadiz «las obras más amadas por Allah son las más constantes, aunque sean pocas»?",
+          "options": [
+            "Leer tres horas una vez al mes",
+            "Leer diez minutos cada día",
+            "Esperar hasta leer el árabe a la perfección"
+          ],
+          "correct": 1,
+          "explanation": "Un poco cada día es justo lo que el hadiz elogia. Empieza poco a poco y mantenlo."
+        }
+      },
+      {
+        "key": "Un pequeño hábito diario, unido a una oración y mantenido con suavidad, es el corazón de una relación con el Corán para toda la vida."
+      },
+      {
+        "p": "Has terminado este paso. Comprueba lo que aprendiste más abajo y luego continúa con el siguiente paso: la vida del Profeta Muhammad, la paz sea con él."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 6464 and Sahih Muslim 783",
+      "url": "https://sunnah.com/bukhari:6464"
+    },
+    {
+      "label": "Quran 73:4 (Saheeh International translation)",
+      "url": "https://quran.com/73/4"
+    },
+    {
+      "label": "Quran 7:204 (Saheeh International translation)",
+      "url": "https://quran.com/7/204"
+    },
+    {
+      "label": "Quran 16:98 (Saheeh International translation)",
+      "url": "https://quran.com/16/98"
+    },
+    {
+      "label": "Sahih al-Bukhari 5033 and Sahih Muslim 791 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5907"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "How did the Quran come to the Prophet Muhammad, peace be upon him?",
+        "ar": "كيف نزل القرآن على النبي محمد صلى الله عليه وسلم؟",
+        "es": "¿Cómo llegó el Corán al Profeta Muhammad, la paz sea con él?"
+      },
+      "options": [
+        {
+          "en": "All at once, as a finished book",
+          "ar": "دفعة واحدة كتابًا كاملًا",
+          "es": "De una sola vez, como un libro terminado"
+        },
+        {
+          "en": "Through the angel Jibril, little by little over about 23 years",
+          "ar": "بواسطة جبريل عليه السلام، مفرَّقًا على نحو ثلاث وعشرين سنة",
+          "es": "A través del ángel Yibril, poco a poco durante unos 23 años"
+        },
+        {
+          "en": "It was written by his companions from memory after he died",
+          "ar": "كتبه أصحابه من ذاكرتهم بعد وفاته",
+          "es": "Lo escribieron sus compañeros de memoria después de su muerte"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "Allah sent the Quran with the angel Jibril in parts, over about 23 years, and it was memorized and written as it came.",
+        "ar": "أنزل الله القرآن بواسطة جبريل مفرَّقًا على نحو ثلاث وعشرين سنة، وكان يُحفظ ويُكتب عند نزوله.",
+        "es": "Allah envió el Corán con el ángel Yibril por partes, durante unos 23 años, y se memorizaba y escribía a medida que llegaba."
+      }
+    },
+    {
+      "q": {
+        "en": "Who first gathered the whole Quran into one collection after the Prophet's death?",
+        "ar": "من الذي جمع القرآن كله في مصحف واحد لأول مرة بعد وفاة النبي صلى الله عليه وسلم؟",
+        "es": "¿Quién reunió por primera vez todo el Corán en una sola colección tras la muerte del Profeta?"
+      },
+      "options": [
+        {
+          "en": "A council of scholars hundreds of years later",
+          "ar": "مجلس من العلماء بعد مئات السنين",
+          "es": "Un consejo de sabios cientos de años después"
+        },
+        {
+          "en": "No one; it was never collected",
+          "ar": "لم يجمعه أحد",
+          "es": "Nadie; nunca se reunió"
+        },
+        {
+          "en": "Abu Bakr, who gave the task to Zayd ibn Thabit",
+          "ar": "أبو بكر الصديق، وكلّف بذلك زيد بن ثابت",
+          "es": "Abu Bakr, que encargó la tarea a Zayd ibn Zabit"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "After the battle of al-Yamamah, Abu Bakr had Zayd ibn Thabit gather the Quran. Later Uthman had standard copies made from those pages.",
+        "ar": "بعد معركة اليمامة كلّف أبو بكر زيد بن ثابت بجمع القرآن، ثم نسخ عثمان من تلك الصحف مصاحف موحّدة.",
+        "es": "Tras la batalla de al-Yamama, Abu Bakr encargó a Zayd ibn Zabit reunir el Corán. Después Uzmán hizo copias uniformes a partir de esas páginas."
+      }
+    },
+    {
+      "q": {
+        "en": "What did the Prophet say about the person who recites the Quran with difficulty?",
+        "ar": "ماذا قال النبي صلى الله عليه وسلم عن الذي يقرأ القرآن وهو عليه شاق؟",
+        "es": "¿Qué dijo el Profeta sobre quien recita el Corán con dificultad?"
+      },
+      "options": [
+        {
+          "en": "They will have two rewards",
+          "ar": "له أجران",
+          "es": "Tendrá dos recompensas"
+        },
+        {
+          "en": "They should stop until they are fluent",
+          "ar": "يتوقف حتى يتقن القراءة",
+          "es": "Debe dejar de leer hasta tener fluidez"
+        },
+        {
+          "en": "Their reading does not count",
+          "ar": "قراءته لا تُحسب",
+          "es": "Su lectura no cuenta"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The one who struggles has one reward for reciting and another for the effort, so keep going.",
+        "ar": "للذي يتتعتع أجر على القراءة وأجر على المشقة، فاستمر.",
+        "es": "Quien tiene dificultad recibe una recompensa por recitar y otra por el esfuerzo, así que sigue adelante."
+      }
+    },
+    {
+      "q": {
+        "en": "Which verse did the Prophet confirm is the greatest verse in the Book of Allah?",
+        "ar": "أيّ آية أكّد النبي صلى الله عليه وسلم أنها أعظم آية في كتاب الله؟",
+        "es": "¿Qué aleya confirmó el Profeta que es la más grandiosa del Libro de Allah?"
+      },
+      "options": [
+        {
+          "en": "The last verse of Surah Al-Baqarah",
+          "ar": "آخر آية في سورة البقرة",
+          "es": "La última aleya de la sura Al-Baqara"
+        },
+        {
+          "en": "Ayat al-Kursi (2:255)",
+          "ar": "آية الكرسي (البقرة: 255)",
+          "es": "Ayat al-Kursi (2:255)"
+        },
+        {
+          "en": "The first verse ever revealed",
+          "ar": "أول آية نزلت",
+          "es": "La primera aleya revelada"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "When Ubayy ibn Ka'b named Ayat al-Kursi, the Prophet confirmed that he was right.",
+        "ar": "لما أجاب أُبيّ بن كعب بآية الكرسي أقرّه النبي صلى الله عليه وسلم على جوابه.",
+        "es": "Cuando Ubay ibn Ka'b nombró Ayat al-Kursi, el Profeta confirmó que tenía razón."
+      }
+    },
+    {
+      "q": {
+        "en": "When can you recite the last two verses of Surah Al-Baqarah for their special reward at night?",
+        "ar": "متى تقرأ خواتيم سورة البقرة لتنال فضلها في الليل؟",
+        "es": "¿Cuándo puedes recitar las dos últimas aleyas de Al-Baqara para obtener su recompensa nocturna?"
+      },
+      "options": [
+        {
+          "en": "Only on Fridays",
+          "ar": "يوم الجمعة فقط",
+          "es": "Solo los viernes"
+        },
+        {
+          "en": "Only in Ramadan",
+          "ar": "في رمضان فقط",
+          "es": "Solo en Ramadán"
+        },
+        {
+          "en": "Any night, from sunset until dawn",
+          "ar": "في أي ليلة، من غروب الشمس إلى الفجر",
+          "es": "Cualquier noche, desde la puesta del sol hasta el alba"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "The Prophet said that whoever recites them at night will find they suffice him, and the night begins at sunset.",
+        "ar": "قال النبي صلى الله عليه وسلم إن من قرأهما في ليلة كفتاه، والليل يبدأ من غروب الشمس.",
+        "es": "El Profeta dijo que a quien las recita de noche le son suficientes, y la noche comienza con la puesta del sol."
+      }
+    }
+  ]
+}

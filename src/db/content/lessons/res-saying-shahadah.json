@@ -1,0 +1,327 @@
+{
+  "slug": "res-saying-shahadah",
+  "minutes": 7,
+  "title": {
+    "en": "How to say the shahada",
+    "ar": "كيف تنطق الشهادتين",
+    "es": "Cómo decir la shahada"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "You already said the shahada when you became Muslim. It is the declaration of faith, and every Muslim comes back to it again and again. In this lesson you will learn the exact Arabic words, practice them in small parts, and see when Muslims say them in daily life."
+      },
+      {
+        "p": "First, one word you will see everywhere: **Allah** is the Arabic word for God, the One God who created everything. The word *shahada* means testimony. It comes from *ash-hadu*, which means \"I bear witness\". When you say the shahada, you state, as a witness, what you know to be true."
+      },
+      {
+        "h": "The words"
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+          "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
+          "meaning": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah."
+        }
+      },
+      {
+        "p": "These are the exact words that Thumamah ibn Uthal (may Allah be pleased with him) said on the day he became Muslim, as recorded in Sahih al-Bukhari. He was a man from the tribe of Banu Hanifa who had been held for a few days at the mosque in Madinah. When the Prophet Muhammad, peace be upon him, set him free, Thumamah went to wash, came back into the mosque, and said these words. Then he told the Prophet that no religion had been more hateful to him than Islam, and now it had become the religion he loved most."
+      },
+      {
+        "p": "If your own path to Islam also involved a change of heart, you are in good company."
+      },
+      {
+        "h": "Say it in small parts"
+      },
+      {
+        "p": "Arabic may be new to you. Break the shahada into short pieces and say each one slowly, out loud, two or three times. Tick each part as you go."
+      },
+      {
+        "steps": {
+          "title": "Practice the shahada",
+          "steps": [
+            "Ash-hadu (I bear witness). Say ash, then hadu. The h is a light breath, as in the English word hat.",
+            "an la ilaha (that there is no god). Say an, then la, then i-la-ha.",
+            "illallah (except Allah). Say il-lal-lah, holding the double l for a moment.",
+            "wa ash-hadu (and I bear witness). The same word as the beginning, with wa (and) before it.",
+            "anna Muhammadan (that Muhammad). The h in Muhammad is a deeper, breathy h from the throat. A light h is fine while you learn.",
+            "rasulullah (is the Messenger of Allah). Say ra-soo-lul-lah.",
+            "Now join the parts and say the whole shahada slowly. Then say it once more at a natural pace."
+          ]
+        }
+      },
+      {
+        "h": "When Muslims say it"
+      },
+      {
+        "p": "The shahada is not only for the day you become Muslim. It runs through a Muslim's whole day:"
+      },
+      {
+        "ul": [
+          "**In every prayer.** In the sitting part of the prayer, called the *tashahhud*, you say the shahada. Ibn Abbas (may Allah be pleased with him and his father) said the Prophet taught them the tashahhud the way he taught them a surah of the Quran, and it ends with these same words (Sahih Muslim 403).",
+          "**When you hear the call to prayer.** The Prophet taught that when the caller to prayer (the *muadhin*) says *ash-hadu an la ilaha illallah*, you say it after him, and the same with *ash-hadu anna Muhammadan rasulullah* (Sahih Muslim 385).",
+          "**As remembrance of Allah, at any time.** The Prophet said that the highest branch of faith is saying *la ilaha illallah*, there is no god but Allah (Sahih Muslim 35)."
+        ]
+      },
+      {
+        "h": "It is fine to keep practicing"
+      },
+      {
+        "p": "Many new Muslims worry that their Arabic is not good enough. Please do not let that weigh on you. Allah knows you are learning, and He does not ask more of you than you can do:"
+      },
+      {
+        "quote": "Allah does not charge a soul except [with that within] its capacity.",
+        "cite": "Quran 2:286 (Saheeh International translation)"
+      },
+      {
+        "p": "The Prophet said this about people reciting the Quran:"
+      },
+      {
+        "quote": "The proficient reciter of the Qur’an will be with the noble and obedient angel-scribes, and the one who recites the Qur’an stutteringly and finds it difficult will have two rewards.",
+        "cite": "Sahih al-Bukhari 4937 and Sahih Muslim 798"
+      },
+      {
+        "p": "That hadith is about the Quran. It shows how the Prophet spoke to people who found Arabic hard: with encouragement, not blame. So say the shahada slowly. Listen for it in the call to prayer. Repeat it in your prayers. Over the coming weeks, the words will settle on your tongue."
+      },
+      {
+        "quick": {
+          "question": "What does ash-hadu mean?",
+          "options": [
+            "I bear witness",
+            "Allah is the Greatest",
+            "Peace be upon you"
+          ],
+          "correct": 0,
+          "explanation": "Ash-hadu means I bear witness. The shahada is a testimony: you state, as a witness, what you believe to be true."
+        }
+      },
+      {
+        "key": "The shahada is two sentences: Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah. Say it slowly and often. Clear pronunciation comes with time."
+      },
+      {
+        "p": "In the next lesson, you will look at what each half of the shahada means and how it shapes a Muslim's day."
+      }
+    ],
+    "ar": [
+      {
+        "p": "لقد نطقتَ بالشهادتين يوم دخلتَ في الإسلام. وهما إعلان الإيمان الذي يعود إليه المسلم مرة بعد مرة طوال حياته. في هذا الدرس تتعرف على نص الشهادتين بدقة، وتتدرب على نطقهما جزءا جزءا، وتعرف المواضع التي يرددهما فيها المسلمون في يومهم."
+      },
+      {
+        "p": "كلمة «الشهادة» مأخوذة من قولك: «أشهد»، أي: أُقرّ وأعترف عن علم ويقين، كما يشهد الشاهد بما يعرفه حقا. فحين تنطق بالشهادتين فأنت تعلن ما تؤمن به إعلان الشاهد الصادق."
+      },
+      {
+        "h": "نص الشهادتين"
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+          "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
+          "meaning": "أُقرّ وأعترف بأنه لا معبود بحق إلا الله، وأُقرّ وأعترف بأن محمدا رسول الله."
+        }
+      },
+      {
+        "p": "بهذه الكلمات نفسها أسلم ثمامة بن أثال رضي الله عنه، كما في صحيح البخاري. كان رجلا من بني حنيفة، وبقي محبوسا في مسجد المدينة أياما، فلما أطلقه النبي محمد صلى الله عليه وسلم ذهب فاغتسل، ثم دخل المسجد ونطق بالشهادتين، ثم قال للنبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "وَاللَّهِ مَا كَانَ مِنْ دِينٍ أَبْغَضَ إِلَىَّ مِنْ دِينِكَ، فَأَصْبَحَ دِينُكَ أَحَبَّ الدِّينِ إِلَىَّ",
+        "cite": "صحيح البخاري 4372"
+      },
+      {
+        "p": "فإن كان طريقك إلى الإسلام قد مرّ بتحوّل في القلب كهذا، فأنت في صحبة طيبة."
+      },
+      {
+        "h": "انطق الشهادتين جزءا جزءا"
+      },
+      {
+        "p": "حتى لو كانت العربية لغتك، يفيدك أن تتأنى في كل كلمة وتضبط حركاتها وتتأمل معناها. ردّد كل جزء بصوت مسموع مرتين أو ثلاثا، وضع علامة عند كل جزء تنتهي منه."
+      },
+      {
+        "steps": {
+          "title": "تدرّب على الشهادتين",
+          "steps": [
+            "أَشْهَدُ: أي أُقرّ وأعترف عن يقين. انطق الهاء واضحة.",
+            "أَنْ لاَ إِلَهَ: نفيٌ لكل معبود بحق سوى الله.",
+            "إِلاَّ اللَّهُ: إثبات العبادة لله وحده. انتبه إلى تشديد اللام في «إلاّ» وفي لفظ الجلالة.",
+            "وَأَشْهَدُ: الشهادة الثانية، مسبوقة بواو العطف.",
+            "أَنَّ مُحَمَّدًا: بالنصب والتنوين، لأنه اسم «أنّ». وأخرج الحاء من وسط الحلق.",
+            "رَسُولُ اللَّهِ: بضم اللام في «رسولُ»، لأنه خبر «أنّ».",
+            "الآن اجمع الأجزاء وقل الشهادتين كاملتين بتأنٍّ، ثم قلهما مرة أخرى بسرعتك المعتادة."
+          ]
+        }
+      },
+      {
+        "h": "متى يقول المسلمون الشهادتين؟"
+      },
+      {
+        "p": "الشهادتان ليستا ليوم الإسلام وحده، بل تصحبان المسلم في يومه كله:"
+      },
+      {
+        "ul": [
+          "**في كل صلاة:** تقول الشهادتين في جلسة التشهد. قال ابن عباس رضي الله عنهما إن النبي صلى الله عليه وسلم كان يعلّمهم التشهد كما يعلّمهم السورة من القرآن، وفي آخره: «أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ» (صحيح مسلم 403).",
+          "**عند سماع الأذان:** علّمنا النبي صلى الله عليه وسلم أن المؤذن إذا قال: «أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ» قلناها بعده، وإذا قال: «أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ» قلناها كذلك (صحيح مسلم 385).",
+          "**ذكرا لله في كل وقت:** أخبر النبي صلى الله عليه وسلم أن الإيمان شُعَب كثيرة، «فَأَفْضَلُهَا قَوْلُ لَا إِلَهَ إِلَّا اللهُ» (صحيح مسلم 35)."
+        ]
+      },
+      {
+        "h": "لا بأس أن تستمر في التدرّب"
+      },
+      {
+        "p": "يقلق بعض من أسلم حديثا من أنه لا يحسن النطق كما ينبغي. فلا تحمّل نفسك فوق طاقتك، فالله تعالى يقول:"
+      },
+      {
+        "quote": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+        "cite": "سورة البقرة، الآية 286"
+      },
+      {
+        "p": "أي إن دين الله يسر، فلا يطلب الله من عباده ما لا يطيقونه. وقال النبي صلى الله عليه وسلم عن قراءة القرآن:"
+      },
+      {
+        "quote": "الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ، وَالَّذِي يَقْرَأُ الْقُرْآنَ وَيَتَتَعْتَعُ فِيهِ، وَهُوَ عَلَيْهِ شَاقٌّ، لَهُ أَجْرَانِ",
+        "cite": "متفق عليه: صحيح البخاري 4937، وصحيح مسلم 798"
+      },
+      {
+        "p": "هذا الحديث في قراءة القرآن، وهو يبيّن كيف كان النبي صلى الله عليه وسلم يخاطب من يجد صعوبة في النطق: بالتشجيع لا باللوم. فقل الشهادتين بتأنٍّ، واستمع إليهما في الأذان، وردّدهما في صلاتك، وستجد أن الكلمات تستقر على لسانك يوما بعد يوم."
+      },
+      {
+        "quick": {
+          "question": "ما معنى «أشهد» في الشهادتين؟",
+          "options": [
+            "أُقرّ وأعترف عن يقين",
+            "الله أكبر",
+            "السلام عليكم"
+          ],
+          "correct": 0,
+          "explanation": "«أشهد» معناها: أُقرّ وأعترف عن علم ويقين. فالشهادتان إعلانٌ يعلن فيه المسلم ما يؤمن به إعلان الشاهد الصادق."
+        }
+      },
+      {
+        "key": "الشهادتان جملتان: أشهد أن لا إله إلا الله، وأشهد أن محمدا رسول الله. قلهما بتأنٍّ وأكثِر منهما، وتأمّل معناهما، فإتقان النطق يأتي مع الوقت."
+      },
+      {
+        "p": "في الدرس القادم تتعرف على معنى كل شطر من الشهادتين، وكيف يظهر أثره في يوم المسلم."
+      }
+    ],
+    "es": [
+      {
+        "p": "Ya dijiste la shahada cuando abrazaste el islam. Es la declaración de fe, y todo musulmán vuelve a ella una y otra vez. En esta lección aprenderás las palabras exactas en árabe, las practicarás por partes y verás cuándo las dicen los musulmanes en su vida diaria."
+      },
+      {
+        "p": "Primero, una palabra que verás en todas partes: **Allah** es la palabra árabe para Dios, el Dios Único que creó todo. La palabra *shahada* significa testimonio. Viene de *ash-hadu*, que significa «atestiguo» o «doy testimonio». Cuando dices la shahada, declaras como testigo lo que sabes que es verdad."
+      },
+      {
+        "h": "Las palabras"
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+          "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
+          "meaning": "Atestiguo que no hay dios sino Allah, y atestiguo que Muhammad es el Mensajero de Allah."
+        }
+      },
+      {
+        "p": "Estas son las mismas palabras que dijo Thumamah ibn Uthal (que Allah esté complacido con él) el día que abrazó el islam, según Sahih al-Bujari. Era un hombre de la tribu de Banu Hanifa que había estado retenido unos días en la mezquita de Medina. Cuando el Profeta Muhammad, la paz sea con él, lo dejó libre, Thumamah fue a lavarse, volvió a entrar en la mezquita y dijo estas palabras. Después le dijo al Profeta que no había religión que odiara más que el islam, y que ahora se había convertido en la religión que más amaba."
+      },
+      {
+        "p": "Si tu propio camino al islam también pasó por un cambio en el corazón, estás en buena compañía."
+      },
+      {
+        "h": "Dila por partes"
+      },
+      {
+        "p": "Quizás el árabe sea nuevo para ti. Divide la shahada en partes cortas y di cada una despacio, en voz alta, dos o tres veces. Marca cada parte al terminarla."
+      },
+      {
+        "steps": {
+          "title": "Practica la shahada",
+          "steps": [
+            "Ash-hadu (atestiguo). Di ash y luego hadu. Esta h no es muda: suena como un soplo suave, parecido a una j muy ligera.",
+            "an la ilaha (que no hay dios). Di an, luego la, luego i-la-ha.",
+            "illallah (sino Allah). Di il-lal-lah, sosteniendo un momento la doble l. No suena como la ll de llave: son dos eles.",
+            "wa ash-hadu (y atestiguo). La misma palabra del inicio, con wa (y) delante.",
+            "anna Muhammadan (que Muhammad). La h de Muhammad es más profunda y sale de la garganta. Mientras aprendes, una j suave está bien.",
+            "rasulullah (es el Mensajero de Allah). Di ra-su-lul-lah.",
+            "Ahora une las partes y di la shahada completa despacio. Luego dila una vez más a un ritmo natural."
+          ]
+        }
+      },
+      {
+        "h": "Cuándo la dicen los musulmanes"
+      },
+      {
+        "p": "La shahada no es solo para el día en que se abraza el islam. Acompaña al musulmán durante todo el día:"
+      },
+      {
+        "ul": [
+          "**En cada oración.** En la parte sentada de la oración, llamada *tashahhud*, dices la shahada. Ibn Abbas (que Allah esté complacido con él y con su padre) contó que el Profeta les enseñaba el tashahhud como les enseñaba una sura del Corán, y termina con estas mismas palabras (Sahih Muslim 403).",
+          "**Al escuchar el llamado a la oración.** El Profeta enseñó que cuando el muecín dice *ash-hadu an la ilaha illallah*, tú lo repites después de él, y lo mismo con *ash-hadu anna Muhammadan rasulullah* (Sahih Muslim 385).",
+          "**Como recuerdo de Allah, en cualquier momento.** El Profeta dijo que la rama más alta de la fe es decir *la ilaha illallah*, no hay dios sino Allah (Sahih Muslim 35)."
+        ]
+      },
+      {
+        "h": "Está bien seguir practicando"
+      },
+      {
+        "p": "Muchos nuevos musulmanes temen que su árabe no sea suficiente. No dejes que eso te pese. Allah sabe que estás aprendiendo y no te pide más de lo que puedes:"
+      },
+      {
+        "quote": "Dios no exige a nadie por encima de sus posibilidades",
+        "cite": "Corán 2:286 (traducción de Isa García)"
+      },
+      {
+        "p": "El Profeta dijo sobre quienes recitan el Corán:"
+      },
+      {
+        "quote": "Quien recite el Corán con habilidad estará con los nobles y obedientes Ángeles, mientras que aquel que lo recite con dificultad y le cueste tendrá una recompensa doble",
+        "cite": "Sahih al-Bujari 4937 y Sahih Muslim 798"
+      },
+      {
+        "p": "Ese hadiz habla del Corán. Muestra cómo el Profeta hablaba a quienes encontraban difícil el árabe: con ánimo, no con reproche. Así que di la shahada despacio. Escúchala en el llamado a la oración. Repítela en tus oraciones. Con las semanas, las palabras se asentarán en tu lengua."
+      },
+      {
+        "quick": {
+          "question": "¿Qué significa ash-hadu?",
+          "options": [
+            "Atestiguo",
+            "Allah es el más grande",
+            "La paz sea contigo"
+          ],
+          "correct": 0,
+          "explanation": "Ash-hadu significa «atestiguo» o «doy testimonio». La shahada es un testimonio: declaras como testigo lo que crees que es verdad."
+        }
+      },
+      {
+        "key": "La shahada son dos frases: Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah. Dila despacio y a menudo. La buena pronunciación llega con el tiempo."
+      },
+      {
+        "p": "En la próxima lección verás qué significa cada mitad de la shahada y cómo da forma al día de un musulmán."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 4372 (Thumamah ibn Uthal accepts Islam)",
+      "url": "https://sunnah.com/bukhari:4372"
+    },
+    {
+      "label": "Sahih Muslim 403 (the tashahhud taught by Ibn Abbas)",
+      "url": "https://hadeethenc.com/en/browse/hadith/10943"
+    },
+    {
+      "label": "Sahih Muslim 385 (repeating after the call to prayer)",
+      "url": "https://hadeethenc.com/en/browse/hadith/65086"
+    },
+    {
+      "label": "Sahih Muslim 35 (the branches of faith)",
+      "url": "https://hadeethenc.com/en/browse/hadith/6468"
+    },
+    {
+      "label": "Quran 2:286 (Saheeh International translation)",
+      "url": "https://quran.com/2/286"
+    },
+    {
+      "label": "Sahih al-Bukhari 4937 and Sahih Muslim 798 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/10113"
+    }
+  ],
+  "differenceNote": false
+}

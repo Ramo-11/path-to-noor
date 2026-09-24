@@ -1,0 +1,469 @@
+{
+  "slug": "res-meaning-athaan",
+  "minutes": 9,
+  "title": {
+    "en": "The meaning of the adhan (call to prayer)",
+    "ar": "معاني الأذان",
+    "es": "El significado del adhan (el llamado a la oración)"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Five times a day, from masjids around the world, you hear the **adhan** (the call to prayer). The person who calls it is the *mu'adhdhin* (often written muezzin). Its words are few, and once you know what they mean, every adhan becomes a small reminder of your faith."
+      },
+      {
+        "h": "How the adhan began"
+      },
+      {
+        "p": "In Madinah, the early Muslims were looking for a way to gather people for prayer. The companion Abdullah ibn Zayd, may Allah be pleased with him, saw a dream in which a man taught him the words of the adhan. When he told the Prophet Muhammad, peace be upon him, the Prophet said it was a true dream, if Allah willed, and asked him to teach the words to Bilal, may Allah be pleased with him, because Bilal had the more melodious voice. When Umar ibn al-Khattab, may Allah be pleased with him, heard Bilal's call, he came saying he had seen the same dream (Abu Dawud, hasan sahih)."
+      },
+      {
+        "h": "The words, phrase by phrase"
+      },
+      {
+        "p": "This is the wording taught in the hadith of Abdullah ibn Zayd. The note after each meaning shows how many times the phrase is called."
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ",
+          "transliteration": "Allahu Akbar, Allahu Akbar",
+          "meaning": "Allah is the Greatest, Allah is the Greatest. (This pair is called twice, so four times in all.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ",
+          "transliteration": "Ashhadu an la ilaha illallah",
+          "meaning": "I bear witness that there is no god but Allah. (Twice.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+          "transliteration": "Ashhadu anna Muhammadan rasulullah",
+          "meaning": "I bear witness that Muhammad is the Messenger of Allah. (Twice.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "حَيَّ عَلَى الصَّلَاةِ",
+          "transliteration": "Hayya alas-salah",
+          "meaning": "Come to prayer. (Twice.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "حَيَّ عَلَى الْفَلَاحِ",
+          "transliteration": "Hayya alal-falah",
+          "meaning": "Come to success. (Twice.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ",
+          "transliteration": "Allahu Akbar, Allahu Akbar",
+          "meaning": "Allah is the Greatest, Allah is the Greatest. (Once.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "لَا إِلَهَ إِلَّا اللهُ",
+          "transliteration": "La ilaha illallah",
+          "meaning": "There is no god but Allah. (Once, to close.)"
+        }
+      },
+      {
+        "p": "Notice the shape. The adhan begins and ends with Allah's greatness and His oneness. In the middle, it calls you to prayer and then to *falah*: real success, which scholars explain as reaching Paradise and being saved from the Fire. The adhan is telling you that the road to that success runs through the prayer."
+      },
+      {
+        "p": "In some masjids you may hear small differences, such as the two testimonies repeated a second time. These come from other authentic narrations, including the adhan the Prophet taught to his companion Abu Mahdhurah (Muslim), and they are all correct."
+      },
+      {
+        "h": "The extra phrase at Fajr"
+      },
+      {
+        "phrase": {
+          "arabic": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ",
+          "transliteration": "As-salatu khayrun minan-nawm",
+          "meaning": "Prayer is better than sleep."
+        }
+      },
+      {
+        "p": "In the adhan for Fajr, the dawn prayer, the mu'adhdhin adds this phrase twice, right after *Hayya alal-falah*. The companion Anas, may Allah be pleased with him, said this is part of the Sunnah (Ibn Khuzaymah, al-Daraqutni, and al-Bayhaqi, authentic). It is a gentle nudge on a sleepy morning, and it is only said at Fajr."
+      },
+      {
+        "h": "What you say when you hear it"
+      },
+      {
+        "p": "The Prophet said: \"When you hear the Adhan, repeat what the Muezzin says\" (Bukhari and Muslim). So you simply repeat each phrase after the mu'adhdhin, quietly. There is one change: when he says *Hayya alas-salah* and *Hayya alal-falah*, you answer with this:"
+      },
+      {
+        "phrase": {
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+          "transliteration": "La hawla wa la quwwata illa billah",
+          "meaning": "There is no power and no strength except with Allah."
+        }
+      },
+      {
+        "p": "In other words: I want to come, and I can only do it with Allah's help. The Prophet said that whoever answers the adhan this way, sincerely from the heart, will enter Paradise (Muslim)."
+      },
+      {
+        "p": "When the adhan ends, the Prophet taught us to send blessings on him (the salawat you learned in the tashahhud lesson) and to ask Allah to grant him *al-wasilah*, a high station in Paradise (Muslim). He also taught this supplication, and said that whoever says it will receive his intercession on the Day of Judgment (Bukhari):"
+      },
+      {
+        "phrase": {
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ القَائِمَةِ، آتِ مُحَمَّدًا الوَسِيلَةَ وَالفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "Allahumma rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athhu maqaman mahmudanil-ladhi wa'adtah",
+          "meaning": "O Allah, Lord of this perfect call and of the prayer about to be established, grant Muhammad al-wasilah (the highest station) and al-fadilah (special honor), and raise him to the praised station that You have promised him."
+        }
+      },
+      {
+        "steps": {
+          "title": "Next time you hear the adhan",
+          "steps": [
+            "Pause what you are doing, if you can, and listen.",
+            "Repeat each phrase quietly after the mu'adhdhin.",
+            "At *Hayya alas-salah* and *Hayya alal-falah*, say *La hawla wa la quwwata illa billah*.",
+            "When it ends, send blessings on the Prophet with the salawat.",
+            "Say the supplication *Allahumma rabba hadhihid-da'wah...* if you know it. If not yet, the first steps are a beautiful start."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "When the mu'adhdhin says Hayya alas-salah, what do you answer?",
+          "options": [
+            "As-salamu alaykum",
+            "La hawla wa la quwwata illa billah",
+            "Nothing; you stay silent"
+          ],
+          "correct": 1,
+          "explanation": "For most phrases you repeat what the mu'adhdhin says. At the two calls to come, Hayya alas-salah and Hayya alal-falah, you answer La hawla wa la quwwata illa billah."
+        }
+      },
+      {
+        "key": "The adhan begins and ends with Allah's greatness and calls you to prayer, which it names success. When you hear it, repeat after the caller, and at the two calls to come, say La hawla wa la quwwata illa billah."
+      },
+      {
+        "p": "Shortly before the prayer starts in congregation, you will hear a second, shorter call: the iqamah. That is the next lesson."
+      }
+    ],
+    "ar": [
+      {
+        "p": "خمس مرات في اليوم تسمع من المساجد حول العالم **الأذان**، أي النداء إلى الصلاة، ويُسمّى من ينادي به **المؤذن**. كلماته قليلة، وحين تعرف معانيها يصبح كل أذان تذكيرًا صغيرًا بإيمانك."
+      },
+      {
+        "h": "كيف بدأ الأذان"
+      },
+      {
+        "p": "في المدينة كان المسلمون الأوائل يبحثون عن وسيلة يجمعون بها الناس للصلاة، فرأى الصحابي عبد الله بن زيد رضي الله عنه في منامه رجلًا يعلّمه كلمات الأذان. فلما أخبر النبي محمدًا صلى الله عليه وسلم قال: «إِنَّهَا لَرُؤْيَا حَقٌّ إِنْ شَاءَ اللَّهُ»، وأمره أن يلقّنها بلالًا رضي الله عنه لأنه أندى صوتًا منه. ولما سمع عمر بن الخطاب رضي الله عنه الأذان جاء يقول إنه رأى مثل ما رأى (رواه أبو داود، وهو حسن صحيح)."
+      },
+      {
+        "h": "كلمات الأذان جملة جملة"
+      },
+      {
+        "p": "هذه هي الصيغة الواردة في حديث عبد الله بن زيد، والملاحظة في آخر كل معنى تبيّن عدد مرات الجملة."
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ",
+          "transliteration": "",
+          "meaning": "الله أعظم وأجلّ من كل شيء. (تُقال هذه الجملة مرتين، أي أربع تكبيرات.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ",
+          "transliteration": "",
+          "meaning": "أُقرّ وأشهد أنه لا معبود بحق إلا الله. (مرتين.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+          "transliteration": "",
+          "meaning": "أُقرّ وأشهد بلساني وقلبي أن محمدًا رسول الله. (مرتين.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "حَيَّ عَلَى الصَّلَاةِ",
+          "transliteration": "",
+          "meaning": "أقبلوا إلى الصلاة. (مرتين.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "حَيَّ عَلَى الْفَلَاحِ",
+          "transliteration": "",
+          "meaning": "أقبلوا إلى الفلاح والفوز. (مرتين.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ",
+          "transliteration": "",
+          "meaning": "الله أعظم وأجلّ من كل شيء. (مرة واحدة.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "لَا إِلَهَ إِلَّا اللهُ",
+          "transliteration": "",
+          "meaning": "لا معبود بحق إلا الله. (مرة واحدة في الختام.)"
+        }
+      },
+      {
+        "p": "تأمّل بناء الأذان: يبدأ بعظمة الله وتوحيده وينتهي بهما، وفي وسطه يدعوك إلى الصلاة ثم إلى **الفلاح**، وهو الفوز الحقيقي الذي فسّره العلماء بدخول الجنة والنجاة من النار. فالأذان يخبرك أن طريق هذا الفوز يمرّ بالصلاة."
+      },
+      {
+        "p": "وقد تسمع في بعض المساجد اختلافًا يسيرًا، مثل تكرار الشهادتين مرة ثانية، وهذا وارد في روايات صحيحة أخرى، منها الأذان الذي علّمه النبي صلى الله عليه وسلم لأبي محذورة رضي الله عنه (رواه مسلم)، وكلها صحيحة."
+      },
+      {
+        "h": "الجملة الزائدة في أذان الفجر"
+      },
+      {
+        "phrase": {
+          "arabic": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ",
+          "transliteration": "",
+          "meaning": "الصلاة خير من النوم."
+        }
+      },
+      {
+        "p": "في أذان الفجر يزيد المؤذن هذه الجملة مرتين بعد «حي على الفلاح». وقد قال أنس رضي الله عنه إن هذا من السنة (رواه ابن خزيمة والدارقطني والبيهقي، وهو صحيح). إنها تنبيه لطيف في صباح يغلب فيه النوم، ولا تُقال إلا في الفجر."
+      },
+      {
+        "h": "ماذا تقول حين تسمعه"
+      },
+      {
+        "p": "قال النبي صلى الله عليه وسلم: «إِذَا سَمِعْتُمُ النِّدَاءَ، فَقُولُوا مِثْلَ مَا يَقُولُ المُؤَذِّنُ» (رواه البخاري ومسلم). فتردّد كل جملة بعد المؤذن بصوت خافت. إلا في موضع واحد: حين يقول «حي على الصلاة» و«حي على الفلاح» تقول:"
+      },
+      {
+        "phrase": {
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+          "transliteration": "",
+          "meaning": "لا تحوّل عن معصية ولا قدرة على طاعة ولا على أي شيء إلا بعون الله."
+        }
+      },
+      {
+        "p": "كأنك تقول: أريد أن آتي، ولا أقدر على ذلك إلا بعون الله. وأخبر النبي صلى الله عليه وسلم أن من أجاب الأذان بهذه الطريقة صادقًا من قلبه دخل الجنة (رواه مسلم)."
+      },
+      {
+        "p": "وإذا انتهى الأذان علّمنا النبي صلى الله عليه وسلم أن نصلي عليه (الصلاة الإبراهيمية التي تعلمتها في درس التشهد)، ثم نسأل الله له **الوسيلة**، وهي منزلة عالية في الجنة (رواه مسلم). وعلّمنا كذلك هذا الدعاء، وأخبر أن من قاله حلّت له شفاعته يوم القيامة (رواه البخاري):"
+      },
+      {
+        "phrase": {
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ القَائِمَةِ، آتِ مُحَمَّدًا الوَسِيلَةَ وَالفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "",
+          "meaning": "يا الله، يا رب هذا النداء الكامل والصلاة التي ستُقام، أعطِ محمدًا الوسيلة (أعلى منزلة في الجنة) والفضيلة (المرتبة الزائدة على سائر الخلق)، وابعثه المقام المحمود الذي وعدته."
+        }
+      },
+      {
+        "steps": {
+          "title": "في المرة القادمة التي تسمع فيها الأذان",
+          "steps": [
+            "توقف عما تفعله إن استطعت، واستمع.",
+            "ردّد كل جملة بعد المؤذن بصوت خافت.",
+            "عند «حي على الصلاة» و«حي على الفلاح» قل «لا حول ولا قوة إلا بالله».",
+            "إذا انتهى الأذان فصلِّ على النبي صلى الله عليه وسلم بالصلاة الإبراهيمية.",
+            "قل دعاء «اللهم رب هذه الدعوة...» إن كنت تحفظه، وإن لم تحفظه بعد فالخطوات الأولى بداية جميلة."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "حين يقول المؤذن «حي على الصلاة»، بماذا تجيب؟",
+          "options": [
+            "السلام عليكم",
+            "لا حول ولا قوة إلا بالله",
+            "لا تقول شيئًا بل تسكت"
+          ],
+          "correct": 1,
+          "explanation": "في أكثر الجمل تقول مثل ما يقول المؤذن، وعند «حي على الصلاة» و«حي على الفلاح» تقول «لا حول ولا قوة إلا بالله»."
+        }
+      },
+      {
+        "key": "يبدأ الأذان بعظمة الله وينتهي بها، ويدعوك إلى الصلاة ويسمّيها فلاحًا. فإذا سمعته فردّد مع المؤذن، وقل عند «حي على الصلاة» و«حي على الفلاح»: لا حول ولا قوة إلا بالله."
+      },
+      {
+        "p": "وقبيل بدء صلاة الجماعة ستسمع نداءً ثانيًا أقصر هو **الإقامة**، وهو موضوع الدرس القادم."
+      }
+    ],
+    "es": [
+      {
+        "p": "Cinco veces al día, desde mezquitas de todo el mundo, se escucha el **adhan** (el llamado a la oración). La persona que lo hace es el *mu'adhdhin* (muecín). Sus palabras son pocas, y cuando sabes lo que significan, cada adhan se vuelve un pequeño recordatorio de tu fe."
+      },
+      {
+        "h": "Cómo empezó el adhan"
+      },
+      {
+        "p": "En Medina, los primeros musulmanes buscaban una manera de reunir a la gente para la oración. El compañero Abdullah ibn Zayd, que Allah esté complacido con él, vio en un sueño a un hombre que le enseñó las palabras del adhan. Cuando se lo contó al Profeta Muhammad, la paz sea con él, el Profeta dijo que era un sueño verdadero, si Allah quería, y le pidió que enseñara las palabras a Bilal, que Allah esté complacido con él, porque Bilal tenía la voz más melodiosa. Cuando Umar ibn al-Jattab, que Allah esté complacido con él, oyó el llamado de Bilal, vino a decir que había visto el mismo sueño (Abu Dawud, hasan sahih)."
+      },
+      {
+        "h": "Las palabras, frase por frase"
+      },
+      {
+        "p": "Esta es la forma enseñada en el hadiz de Abdullah ibn Zayd. La nota al final de cada significado indica cuántas veces se dice la frase."
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ",
+          "transliteration": "Al-lahu Akbar, Al-lahu Akbar",
+          "meaning": "Allah es el más grande, Allah es el más grande. (Este par se dice dos veces, es decir, cuatro veces en total.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ",
+          "transliteration": "Ashhadu an la ilaha il-lal-lah",
+          "meaning": "Atestiguo que no hay más dios que Allah. (Dos veces.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+          "transliteration": "Ashhadu anna Muhammadan rasulul-lah",
+          "meaning": "Atestiguo que Muhammad es el Mensajero de Allah. (Dos veces.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "حَيَّ عَلَى الصَّلَاةِ",
+          "transliteration": "Hayya alas-salah",
+          "meaning": "Vengan a la oración. (Dos veces.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "حَيَّ عَلَى الْفَلَاحِ",
+          "transliteration": "Hayya alal-falah",
+          "meaning": "Vengan al éxito. (Dos veces.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "اللهُ أَكْبَرُ اللهُ أَكْبَرُ",
+          "transliteration": "Al-lahu Akbar, Al-lahu Akbar",
+          "meaning": "Allah es el más grande, Allah es el más grande. (Una vez.)"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "لَا إِلَهَ إِلَّا اللهُ",
+          "transliteration": "La ilaha il-lal-lah",
+          "meaning": "No hay más dios que Allah. (Una vez, para cerrar.)"
+        }
+      },
+      {
+        "p": "Fíjate en su forma. El adhan empieza y termina con la grandeza de Allah y Su unicidad. En el medio, te llama a la oración y luego al *falah*: el verdadero éxito, que los sabios explican como alcanzar el Paraíso y salvarse del Fuego. El adhan te dice que el camino a ese éxito pasa por la oración."
+      },
+      {
+        "p": "En algunas mezquitas puedes oír pequeñas diferencias, como los dos testimonios repetidos una segunda vez. Vienen de otras narraciones auténticas, como el adhan que el Profeta enseñó a su compañero Abu Mahdhurah (Muslim), y todas son correctas."
+      },
+      {
+        "h": "La frase extra en Fayr"
+      },
+      {
+        "phrase": {
+          "arabic": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ",
+          "transliteration": "As-salatu jayrun minan-nawm",
+          "meaning": "La oración es mejor que el sueño."
+        }
+      },
+      {
+        "p": "En el adhan de Fayr, la oración del alba, el mu'adhdhin añade esta frase dos veces, justo después de *Hayya alal-falah*. El compañero Anas, que Allah esté complacido con él, dijo que esto es parte de la Sunnah (Ibn Juzaymah, al-Daraqutni y al-Bayhaqi, auténtico). Es un empujoncito amable en una mañana con sueño, y solo se dice en Fayr."
+      },
+      {
+        "h": "Qué decir cuando lo escuchas"
+      },
+      {
+        "p": "El Profeta dijo: \"Cuando oigan el llamado a la oración, repitan lo que dice el muecín\" (Bujari y Muslim). Así que simplemente repites cada frase después del mu'adhdhin, en voz baja. Hay un cambio: cuando dice *Hayya alas-salah* y *Hayya alal-falah*, respondes con esto:"
+      },
+      {
+        "phrase": {
+          "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+          "transliteration": "La hawla wa la quwwata il-la bil-lah",
+          "meaning": "No hay poder ni fuerza sino con Allah."
+        }
+      },
+      {
+        "p": "Es como decir: quiero ir, y solo puedo hacerlo con la ayuda de Allah. El Profeta dijo que quien responde así al adhan, sinceramente desde el corazón, entrará en el Paraíso (Muslim)."
+      },
+      {
+        "p": "Cuando termina el adhan, el Profeta nos enseñó a pedir bendiciones por él (la salawat que aprendiste en la lección del tashahhud) y a pedir a Allah que le conceda *al-wasilah*, un rango elevado en el Paraíso (Muslim). También enseñó esta súplica, y dijo que quien la diga obtendrá su intercesión el Día del Juicio (Bujari):"
+      },
+      {
+        "phrase": {
+          "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ القَائِمَةِ، آتِ مُحَمَّدًا الوَسِيلَةَ وَالفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+          "transliteration": "Al-lahumma rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-wasilata wal-fadilah, wab'athhu maqaman mahmudanil-ladhi wa'adtah",
+          "meaning": "Oh Allah, Señor de este llamado perfecto y de la oración que va a establecerse, concede a Muhammad al-wasilah (el rango más alto) y al-fadilah (una honra especial), y elévalo a la posición digna de alabanza que le prometiste."
+        }
+      },
+      {
+        "steps": {
+          "title": "La próxima vez que escuches el adhan",
+          "steps": [
+            "Si puedes, detén lo que estás haciendo y escucha.",
+            "Repite cada frase en voz baja después del mu'adhdhin.",
+            "En *Hayya alas-salah* y *Hayya alal-falah*, di *La hawla wa la quwwata il-la bil-lah*.",
+            "Cuando termine, pide bendiciones por el Profeta con la salawat.",
+            "Di la súplica *Al-lahumma rabba hadhihid-da'wah...* si te la sabes. Si todavía no, los primeros pasos ya son un comienzo hermoso."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "Cuando el mu'adhdhin dice Hayya alas-salah, ¿qué respondes?",
+          "options": [
+            "As-salamu alaykum",
+            "La hawla wa la quwwata il-la bil-lah",
+            "Nada; te quedas en silencio"
+          ],
+          "correct": 1,
+          "explanation": "En la mayoría de las frases repites lo que dice el mu'adhdhin. En los dos llamados a venir, Hayya alas-salah y Hayya alal-falah, respondes La hawla wa la quwwata il-la bil-lah."
+        }
+      },
+      {
+        "key": "El adhan empieza y termina con la grandeza de Allah y te llama a la oración, a la que llama éxito. Cuando lo escuches, repite después del muecín, y en los dos llamados a venir di La hawla wa la quwwata il-la bil-lah."
+      },
+      {
+        "p": "Poco antes de que empiece la oración en congregación, oirás un segundo llamado, más corto: la iqamah. Ese es el tema de la próxima lección."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sunan Abi Dawud 499 (hasan sahih, al-Albani): the dream of Abdullah ibn Zayd and the words of the adhan",
+      "url": "https://hadeethenc.com/en/browse/hadith/10615"
+    },
+    {
+      "label": "Sahih Muslim 385: repeating the adhan and saying la hawla wa la quwwata illa billah",
+      "url": "https://hadeethenc.com/en/browse/hadith/65086"
+    },
+    {
+      "label": "Sahih al-Bukhari 611 and Sahih Muslim 383 (agreed upon): repeat what the mu'adhdhin says",
+      "url": "https://hadeethenc.com/en/browse/hadith/3013"
+    },
+    {
+      "label": "Sahih Muslim 384: salawat after the adhan and asking for al-wasilah",
+      "url": "https://hadeethenc.com/en/browse/hadith/65087"
+    },
+    {
+      "label": "Sahih al-Bukhari 614: the supplication after the adhan",
+      "url": "https://hadeethenc.com/en/browse/hadith/10635"
+    },
+    {
+      "label": "Ibn Khuzaymah, al-Daraqutni and al-Bayhaqi (authentic): as-salatu khayrun minan-nawm at Fajr",
+      "url": "https://hadeethenc.com/en/browse/hadith/10616"
+    },
+    {
+      "label": "Sahih Muslim 379: the adhan taught to Abu Mahdhurah",
+      "url": "https://sunnah.com/muslim:379"
+    },
+    {
+      "label": "Sunan Abi Dawud 501 (sahih, al-Albani): as-salatu khayrun minan-nawm said twice at Fajr",
+      "url": "https://sunnah.com/abudawud:501"
+    }
+  ],
+  "differenceNote": false
+}
