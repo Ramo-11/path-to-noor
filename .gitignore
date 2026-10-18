@@ -152,8 +152,7 @@ secrets/
 # Storybook
 storybook-static
 
-# PWA
-public/sw.js
+# PWA (public/sw.js is hand-written and committed)
 public/workbox-*.js
 public/sw.js.map
 public/workbox-*.js.map
