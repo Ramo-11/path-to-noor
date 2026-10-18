@@ -1,0 +1,41 @@
+{
+  "slug": "watch-struggles-of-reverts",
+  "minutes": 5,
+  "title": {
+    "en": "The struggles of new Muslims",
+    "ar": "التحديات التي يواجهها المسلمون الجدد",
+    "es": "Las dificultades de los nuevos musulmanes"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Mufti Menk speaks to new Muslims about the struggles they face, and about finding community and belonging."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يخاطب المفتي إسماعيل منك المسلمين الجدد عن التحديات التي يواجهونها، وعن إيجاد مجتمع يحتضنهم والشعور بالانتماء."
+      }
+    ],
+    "es": [
+      {
+        "p": "Mufti Menk habla a los nuevos musulmanes sobre las dificultades que enfrentan y sobre encontrar comunidad y sentirse parte de ella."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=3_TAFkmlenM",
+    "title": {
+      "en": "The struggles of new Muslims",
+      "ar": "التحديات التي يواجهها المسلمون الجدد",
+      "es": "Las dificultades de los nuevos musulmanes"
+    },
+    "by": {
+      "en": "Mufti Ismail Menk",
+      "ar": "المفتي إسماعيل منك",
+      "es": "Mufti Ismail Menk"
+    },
+    "seconds": 287
+  }
+}

@@ -1,6 +1,6 @@
 {
   "slug": "res-saying-shahadah",
-  "minutes": 7,
+  "minutes": 4,
   "title": {
     "en": "How to say the shahada",
     "ar": "كيف تنطق الشهادتين",
@@ -9,10 +9,10 @@
   "body": {
     "en": [
       {
-        "p": "You already said the shahada when you became Muslim. It is the declaration of faith, and every Muslim comes back to it again and again. In this lesson you will learn the exact Arabic words, practice them in small parts, and see when Muslims say them in daily life."
+        "p": "You already said the shahada when you became Muslim. In this lesson you will learn the exact Arabic words and practice them in small parts."
       },
       {
-        "p": "First, one word you will see everywhere: **Allah** is the Arabic word for God, the One God who created everything. The word *shahada* means testimony. It comes from *ash-hadu*, which means \"I bear witness\". When you say the shahada, you state, as a witness, what you know to be true."
+        "p": "**Allah** is the Arabic word for God, the One God who created everything. The word *shahada* means testimony. It comes from *ash-hadu*, which means \"I bear witness\"."
       },
       {
         "h": "The words"
@@ -21,20 +21,64 @@
         "phrase": {
           "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
           "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
-          "meaning": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah."
+          "meaning": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.",
+          "audio": "/audio/phrases/res-saying-shahadah-1.mp3"
         }
       },
       {
-        "p": "These are the exact words that Thumamah ibn Uthal (may Allah be pleased with him) said on the day he became Muslim, as recorded in Sahih al-Bukhari. He was a man from the tribe of Banu Hanifa who had been held for a few days at the mosque in Madinah. When the Prophet Muhammad, peace be upon him, set him free, Thumamah went to wash, came back into the mosque, and said these words. Then he told the Prophet that no religion had been more hateful to him than Islam, and now it had become the religion he loved most."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "أَشْهَدُ",
+              "transliteration": "Ash-hadu",
+              "meaning": "I bear witness"
+            },
+            {
+              "arabic": "أَنْ لاَ إِلَهَ",
+              "transliteration": "An la ilaha",
+              "meaning": "that there is no god"
+            },
+            {
+              "arabic": "إِلاَّ اللَّهُ",
+              "transliteration": "Illallah",
+              "meaning": "except Allah"
+            },
+            {
+              "arabic": "وَأَشْهَدُ",
+              "transliteration": "Wa ash-hadu",
+              "meaning": "and I bear witness"
+            },
+            {
+              "arabic": "أَنَّ مُحَمَّدًا",
+              "transliteration": "Anna Muhammadan",
+              "meaning": "that Muhammad"
+            },
+            {
+              "arabic": "رَسُولُ اللَّهِ",
+              "transliteration": "Rasulullah",
+              "meaning": "is the Messenger of Allah"
+            }
+          ]
+        }
       },
       {
-        "p": "If your own path to Islam also involved a change of heart, you are in good company."
+        "more": {
+          "title": "The day Thumamah said it",
+          "blocks": [
+            {
+              "p": "These are the exact words that Thumamah ibn Uthal (may Allah be pleased with him) said on the day he became Muslim, as recorded in Sahih al-Bukhari. He was a man from the tribe of Banu Hanifa who had been held for a few days at the mosque in Madinah. When the Prophet Muhammad, peace be upon him, set him free, Thumamah went to wash, came back into the mosque, and said these words. Then he told the Prophet that no religion had been more hateful to him than Islam, and now it had become the religion he loved most."
+            },
+            {
+              "p": "If your own path to Islam also involved a change of heart, you are in good company."
+            }
+          ]
+        }
       },
       {
         "h": "Say it in small parts"
       },
       {
-        "p": "Arabic may be new to you. Break the shahada into short pieces and say each one slowly, out loud, two or three times. Tick each part as you go."
+        "p": "Break the shahada into short pieces and say each one slowly, out loud, two or three times. Tick each part as you go."
       },
       {
         "steps": {
@@ -54,34 +98,72 @@
         "h": "When Muslims say it"
       },
       {
-        "p": "The shahada is not only for the day you become Muslim. It runs through a Muslim's whole day:"
+        "facts": {
+          "items": [
+            {
+              "icon": "hands",
+              "label": "In every prayer",
+              "text": "You say it in the tashahhud, the sitting part of the prayer."
+            },
+            {
+              "icon": "ear",
+              "label": "The call to prayer",
+              "text": "Say it after the caller."
+            },
+            {
+              "icon": "heart",
+              "label": "Any time",
+              "text": "The highest branch of faith is saying la ilaha illallah."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "**In every prayer.** In the sitting part of the prayer, called the *tashahhud*, you say the shahada. Ibn Abbas (may Allah be pleased with him and his father) said the Prophet taught them the tashahhud the way he taught them a surah of the Quran, and it ends with these same words (Sahih Muslim 403).",
-          "**When you hear the call to prayer.** The Prophet taught that when the caller to prayer (the *muadhin*) says *ash-hadu an la ilaha illallah*, you say it after him, and the same with *ash-hadu anna Muhammadan rasulullah* (Sahih Muslim 385).",
-          "**As remembrance of Allah, at any time.** The Prophet said that the highest branch of faith is saying *la ilaha illallah*, there is no god but Allah (Sahih Muslim 35)."
-        ]
+        "more": {
+          "title": "Where this comes from",
+          "blocks": [
+            {
+              "p": "The shahada is not only for the day you become Muslim. It runs through a Muslim's whole day:"
+            },
+            {
+              "ul": [
+                "**In every prayer.** In the sitting part of the prayer, called the *tashahhud*, you say the shahada. Ibn Abbas (may Allah be pleased with him and his father) said the Prophet taught them the tashahhud the way he taught them a surah of the Quran, and it ends with these same words (Sahih Muslim 403).",
+                "**When you hear the call to prayer.** The Prophet taught that when the caller to prayer (the *muadhin*) says *ash-hadu an la ilaha illallah*, you say it after him, and the same with *ash-hadu anna Muhammadan rasulullah* (Sahih Muslim 385).",
+                "**As remembrance of Allah, at any time.** The Prophet said that the highest branch of faith is saying *la ilaha illallah*, there is no god but Allah (Sahih Muslim 35)."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "It is fine to keep practicing"
       },
       {
-        "p": "Many new Muslims worry that their Arabic is not good enough. Please do not let that weigh on you. Allah knows you are learning, and He does not ask more of you than you can do:"
+        "p": "Many new Muslims worry that their Arabic is not good enough. Allah knows you are learning, and He does not ask more of you than you can do:"
       },
       {
         "quote": "Allah does not charge a soul except [with that within] its capacity.",
         "cite": "Quran 2:286 (Saheeh International translation)"
       },
       {
-        "p": "The Prophet said this about people reciting the Quran:"
+        "p": "So say the shahada slowly. Listen for it in the call to prayer. Repeat it in your prayers. Over the coming weeks, the words will settle on your tongue."
       },
       {
-        "quote": "The proficient reciter of the Qur’an will be with the noble and obedient angel-scribes, and the one who recites the Qur’an stutteringly and finds it difficult will have two rewards.",
-        "cite": "Sahih al-Bukhari 4937 and Sahih Muslim 798"
-      },
-      {
-        "p": "That hadith is about the Quran. It shows how the Prophet spoke to people who found Arabic hard: with encouragement, not blame. So say the shahada slowly. Listen for it in the call to prayer. Repeat it in your prayers. Over the coming weeks, the words will settle on your tongue."
+        "more": {
+          "title": "Encouragement from the Prophet",
+          "blocks": [
+            {
+              "p": "The Prophet said this about people reciting the Quran:"
+            },
+            {
+              "quote": "The proficient reciter of the Qur’an will be with the noble and obedient angel-scribes, and the one who recites the Qur’an stutteringly and finds it difficult will have two rewards.",
+              "cite": "Sahih al-Bukhari 4937 and Sahih Muslim 798"
+            },
+            {
+              "p": "That hadith is about the Quran. It shows how the Prophet spoke to people who found Arabic hard: with encouragement, not blame."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -104,7 +186,7 @@
     ],
     "ar": [
       {
-        "p": "لقد نطقتَ بالشهادتين يوم دخلتَ في الإسلام. وهما إعلان الإيمان الذي يعود إليه المسلم مرة بعد مرة طوال حياته. في هذا الدرس تتعرف على نص الشهادتين بدقة، وتتدرب على نطقهما جزءا جزءا، وتعرف المواضع التي يرددهما فيها المسلمون في يومهم."
+        "p": "لقد نطقتَ بالشهادتين يوم دخلتَ في الإسلام. في هذا الدرس تتعرف على نص الشهادتين بدقة، وتتدرب على نطقهما جزءا جزءا."
       },
       {
         "p": "كلمة «الشهادة» مأخوذة من قولك: «أشهد»، أي: أُقرّ وأعترف عن علم ويقين، كما يشهد الشاهد بما يعرفه حقا. فحين تنطق بالشهادتين فأنت تعلن ما تؤمن به إعلان الشاهد الصادق."
@@ -116,24 +198,68 @@
         "phrase": {
           "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
           "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
-          "meaning": "أُقرّ وأعترف بأنه لا معبود بحق إلا الله، وأُقرّ وأعترف بأن محمدا رسول الله."
+          "meaning": "أُقرّ وأعترف بأنه لا معبود بحق إلا الله، وأُقرّ وأعترف بأن محمدا رسول الله.",
+          "audio": "/audio/phrases/res-saying-shahadah-1.mp3"
         }
       },
       {
-        "p": "بهذه الكلمات نفسها أسلم ثمامة بن أثال رضي الله عنه، كما في صحيح البخاري. كان رجلا من بني حنيفة، وبقي محبوسا في مسجد المدينة أياما، فلما أطلقه النبي محمد صلى الله عليه وسلم ذهب فاغتسل، ثم دخل المسجد ونطق بالشهادتين، ثم قال للنبي صلى الله عليه وسلم:"
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "أَشْهَدُ",
+              "transliteration": "Ash-hadu",
+              "meaning": "أُقرّ وأعترف"
+            },
+            {
+              "arabic": "أَنْ لاَ إِلَهَ",
+              "transliteration": "An la ilaha",
+              "meaning": "أنه لا معبود بحق"
+            },
+            {
+              "arabic": "إِلاَّ اللَّهُ",
+              "transliteration": "Illallah",
+              "meaning": "إلا الله"
+            },
+            {
+              "arabic": "وَأَشْهَدُ",
+              "transliteration": "Wa ash-hadu",
+              "meaning": "وأُقرّ وأعترف"
+            },
+            {
+              "arabic": "أَنَّ مُحَمَّدًا",
+              "transliteration": "Anna Muhammadan",
+              "meaning": "أن محمدا"
+            },
+            {
+              "arabic": "رَسُولُ اللَّهِ",
+              "transliteration": "Rasulullah",
+              "meaning": "رسول الله"
+            }
+          ]
+        }
       },
       {
-        "quote": "وَاللَّهِ مَا كَانَ مِنْ دِينٍ أَبْغَضَ إِلَىَّ مِنْ دِينِكَ، فَأَصْبَحَ دِينُكَ أَحَبَّ الدِّينِ إِلَىَّ",
-        "cite": "صحيح البخاري 4372"
-      },
-      {
-        "p": "فإن كان طريقك إلى الإسلام قد مرّ بتحوّل في القلب كهذا، فأنت في صحبة طيبة."
+        "more": {
+          "title": "يوم نطق ثمامة بالشهادتين",
+          "blocks": [
+            {
+              "p": "بهذه الكلمات نفسها أسلم ثمامة بن أثال رضي الله عنه، كما في صحيح البخاري. كان رجلا من بني حنيفة، وبقي محبوسا في مسجد المدينة أياما، فلما أطلقه النبي محمد صلى الله عليه وسلم ذهب فاغتسل، ثم دخل المسجد ونطق بالشهادتين، ثم قال للنبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "وَاللَّهِ مَا كَانَ مِنْ دِينٍ أَبْغَضَ إِلَىَّ مِنْ دِينِكَ، فَأَصْبَحَ دِينُكَ أَحَبَّ الدِّينِ إِلَىَّ",
+              "cite": "صحيح البخاري 4372"
+            },
+            {
+              "p": "فإن كان طريقك إلى الإسلام قد مرّ بتحوّل في القلب كهذا، فأنت في صحبة طيبة."
+            }
+          ]
+        }
       },
       {
         "h": "انطق الشهادتين جزءا جزءا"
       },
       {
-        "p": "حتى لو كانت العربية لغتك، يفيدك أن تتأنى في كل كلمة وتضبط حركاتها وتتأمل معناها. ردّد كل جزء بصوت مسموع مرتين أو ثلاثا، وضع علامة عند كل جزء تنتهي منه."
+        "p": "جزّئ الشهادتين إلى أجزاء قصيرة، وردّد كل جزء بصوت مسموع مرتين أو ثلاثا، وضع علامة عند كل جزء تنتهي منه."
       },
       {
         "steps": {
@@ -153,14 +279,42 @@
         "h": "متى يقول المسلمون الشهادتين؟"
       },
       {
-        "p": "الشهادتان ليستا ليوم الإسلام وحده، بل تصحبان المسلم في يومه كله:"
+        "facts": {
+          "items": [
+            {
+              "icon": "hands",
+              "label": "في كل صلاة",
+              "text": "تقولها في جلسة التشهد."
+            },
+            {
+              "icon": "ear",
+              "label": "عند سماع الأذان",
+              "text": "قلها بعد المؤذن."
+            },
+            {
+              "icon": "heart",
+              "label": "في كل وقت",
+              "text": "أفضل شعب الإيمان قول لا إله إلا الله."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "**في كل صلاة:** تقول الشهادتين في جلسة التشهد. قال ابن عباس رضي الله عنهما إن النبي صلى الله عليه وسلم كان يعلّمهم التشهد كما يعلّمهم السورة من القرآن، وفي آخره: «أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ» (صحيح مسلم 403).",
-          "**عند سماع الأذان:** علّمنا النبي صلى الله عليه وسلم أن المؤذن إذا قال: «أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ» قلناها بعده، وإذا قال: «أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ» قلناها كذلك (صحيح مسلم 385).",
-          "**ذكرا لله في كل وقت:** أخبر النبي صلى الله عليه وسلم أن الإيمان شُعَب كثيرة، «فَأَفْضَلُهَا قَوْلُ لَا إِلَهَ إِلَّا اللهُ» (صحيح مسلم 35)."
-        ]
+        "more": {
+          "title": "من أين جاء هذا",
+          "blocks": [
+            {
+              "p": "الشهادتان ليستا ليوم الإسلام وحده، بل تصحبان المسلم في يومه كله:"
+            },
+            {
+              "ul": [
+                "**في كل صلاة:** تقول الشهادتين في جلسة التشهد. قال ابن عباس رضي الله عنهما إن النبي صلى الله عليه وسلم كان يعلّمهم التشهد كما يعلّمهم السورة من القرآن، وفي آخره: «أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ» (صحيح مسلم 403).",
+                "**عند سماع الأذان:** علّمنا النبي صلى الله عليه وسلم أن المؤذن إذا قال: «أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ» قلناها بعده، وإذا قال: «أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ» قلناها كذلك (صحيح مسلم 385).",
+                "**ذكرا لله في كل وقت:** أخبر النبي صلى الله عليه وسلم أن الإيمان شُعَب كثيرة، «فَأَفْضَلُهَا قَوْلُ لَا إِلَهَ إِلَّا اللهُ» (صحيح مسلم 35)."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "لا بأس أن تستمر في التدرّب"
@@ -173,14 +327,24 @@
         "cite": "سورة البقرة، الآية 286"
       },
       {
-        "p": "أي إن دين الله يسر، فلا يطلب الله من عباده ما لا يطيقونه. وقال النبي صلى الله عليه وسلم عن قراءة القرآن:"
+        "p": "فقل الشهادتين بتأنٍّ، واستمع إليهما في الأذان، وردّدهما في صلاتك، وستجد أن الكلمات تستقر على لسانك يوما بعد يوم."
       },
       {
-        "quote": "الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ، وَالَّذِي يَقْرَأُ الْقُرْآنَ وَيَتَتَعْتَعُ فِيهِ، وَهُوَ عَلَيْهِ شَاقٌّ، لَهُ أَجْرَانِ",
-        "cite": "متفق عليه: صحيح البخاري 4937، وصحيح مسلم 798"
-      },
-      {
-        "p": "هذا الحديث في قراءة القرآن، وهو يبيّن كيف كان النبي صلى الله عليه وسلم يخاطب من يجد صعوبة في النطق: بالتشجيع لا باللوم. فقل الشهادتين بتأنٍّ، واستمع إليهما في الأذان، وردّدهما في صلاتك، وستجد أن الكلمات تستقر على لسانك يوما بعد يوم."
+        "more": {
+          "title": "تشجيع من النبي",
+          "blocks": [
+            {
+              "p": "أي إن دين الله يسر، فلا يطلب الله من عباده ما لا يطيقونه. وقال النبي صلى الله عليه وسلم عن قراءة القرآن:"
+            },
+            {
+              "quote": "الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ، وَالَّذِي يَقْرَأُ الْقُرْآنَ وَيَتَتَعْتَعُ فِيهِ، وَهُوَ عَلَيْهِ شَاقٌّ، لَهُ أَجْرَانِ",
+              "cite": "متفق عليه: صحيح البخاري 4937، وصحيح مسلم 798"
+            },
+            {
+              "p": "هذا الحديث في قراءة القرآن، وهو يبيّن كيف كان النبي صلى الله عليه وسلم يخاطب من يجد صعوبة في النطق: بالتشجيع لا باللوم."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -203,10 +367,10 @@
     ],
     "es": [
       {
-        "p": "Ya dijiste la shahada cuando abrazaste el islam. Es la declaración de fe, y todo musulmán vuelve a ella una y otra vez. En esta lección aprenderás las palabras exactas en árabe, las practicarás por partes y verás cuándo las dicen los musulmanes en su vida diaria."
+        "p": "Ya dijiste la shahada cuando abrazaste el islam. En esta lección aprenderás las palabras exactas en árabe y las practicarás por partes."
       },
       {
-        "p": "Primero, una palabra que verás en todas partes: **Allah** es la palabra árabe para Dios, el Dios Único que creó todo. La palabra *shahada* significa testimonio. Viene de *ash-hadu*, que significa «atestiguo» o «doy testimonio». Cuando dices la shahada, declaras como testigo lo que sabes que es verdad."
+        "p": "**Allah** es la palabra árabe para Dios, el Dios Único que creó todo. La palabra *shahada* significa testimonio. Viene de *ash-hadu*, que significa «atestiguo» o «doy testimonio»."
       },
       {
         "h": "Las palabras"
@@ -215,20 +379,64 @@
         "phrase": {
           "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
           "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
-          "meaning": "Atestiguo que no hay dios sino Allah, y atestiguo que Muhammad es el Mensajero de Allah."
+          "meaning": "Atestiguo que no hay dios sino Allah, y atestiguo que Muhammad es el Mensajero de Allah.",
+          "audio": "/audio/phrases/res-saying-shahadah-1.mp3"
         }
       },
       {
-        "p": "Estas son las mismas palabras que dijo Thumamah ibn Uthal (que Allah esté complacido con él) el día que abrazó el islam, según Sahih al-Bujari. Era un hombre de la tribu de Banu Hanifa que había estado retenido unos días en la mezquita de Medina. Cuando el Profeta Muhammad, la paz sea con él, lo dejó libre, Thumamah fue a lavarse, volvió a entrar en la mezquita y dijo estas palabras. Después le dijo al Profeta que no había religión que odiara más que el islam, y que ahora se había convertido en la religión que más amaba."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "أَشْهَدُ",
+              "transliteration": "Ash-hadu",
+              "meaning": "atestiguo"
+            },
+            {
+              "arabic": "أَنْ لاَ إِلَهَ",
+              "transliteration": "An la ilaha",
+              "meaning": "que no hay dios"
+            },
+            {
+              "arabic": "إِلاَّ اللَّهُ",
+              "transliteration": "Illallah",
+              "meaning": "sino Allah"
+            },
+            {
+              "arabic": "وَأَشْهَدُ",
+              "transliteration": "Wa ash-hadu",
+              "meaning": "y atestiguo"
+            },
+            {
+              "arabic": "أَنَّ مُحَمَّدًا",
+              "transliteration": "Anna Muhammadan",
+              "meaning": "que Muhammad"
+            },
+            {
+              "arabic": "رَسُولُ اللَّهِ",
+              "transliteration": "Rasulullah",
+              "meaning": "es el Mensajero de Allah"
+            }
+          ]
+        }
       },
       {
-        "p": "Si tu propio camino al islam también pasó por un cambio en el corazón, estás en buena compañía."
+        "more": {
+          "title": "El día que Thumamah la dijo",
+          "blocks": [
+            {
+              "p": "Estas son las mismas palabras que dijo Thumamah ibn Uthal (que Allah esté complacido con él) el día que abrazó el islam, según Sahih al-Bujari. Era un hombre de la tribu de Banu Hanifa que había estado retenido unos días en la mezquita de Medina. Cuando el Profeta Muhammad, la paz sea con él, lo dejó libre, Thumamah fue a lavarse, volvió a entrar en la mezquita y dijo estas palabras. Después le dijo al Profeta que no había religión que odiara más que el islam, y que ahora se había convertido en la religión que más amaba."
+            },
+            {
+              "p": "Si tu propio camino al islam también pasó por un cambio en el corazón, estás en buena compañía."
+            }
+          ]
+        }
       },
       {
         "h": "Dila por partes"
       },
       {
-        "p": "Quizás el árabe sea nuevo para ti. Divide la shahada en partes cortas y di cada una despacio, en voz alta, dos o tres veces. Marca cada parte al terminarla."
+        "p": "Divide la shahada en partes cortas y di cada una despacio, en voz alta, dos o tres veces. Marca cada parte al terminarla."
       },
       {
         "steps": {
@@ -248,34 +456,72 @@
         "h": "Cuándo la dicen los musulmanes"
       },
       {
-        "p": "La shahada no es solo para el día en que se abraza el islam. Acompaña al musulmán durante todo el día:"
+        "facts": {
+          "items": [
+            {
+              "icon": "hands",
+              "label": "En cada oración",
+              "text": "La dices en el tashahhud, la parte sentada de la oración."
+            },
+            {
+              "icon": "ear",
+              "label": "El llamado a la oración",
+              "text": "Dila después del muecín."
+            },
+            {
+              "icon": "heart",
+              "label": "En cualquier momento",
+              "text": "La rama más alta de la fe es decir la ilaha illallah."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "**En cada oración.** En la parte sentada de la oración, llamada *tashahhud*, dices la shahada. Ibn Abbas (que Allah esté complacido con él y con su padre) contó que el Profeta les enseñaba el tashahhud como les enseñaba una sura del Corán, y termina con estas mismas palabras (Sahih Muslim 403).",
-          "**Al escuchar el llamado a la oración.** El Profeta enseñó que cuando el muecín dice *ash-hadu an la ilaha illallah*, tú lo repites después de él, y lo mismo con *ash-hadu anna Muhammadan rasulullah* (Sahih Muslim 385).",
-          "**Como recuerdo de Allah, en cualquier momento.** El Profeta dijo que la rama más alta de la fe es decir *la ilaha illallah*, no hay dios sino Allah (Sahih Muslim 35)."
-        ]
+        "more": {
+          "title": "De dónde viene esto",
+          "blocks": [
+            {
+              "p": "La shahada no es solo para el día en que se abraza el islam. Acompaña al musulmán durante todo el día:"
+            },
+            {
+              "ul": [
+                "**En cada oración.** En la parte sentada de la oración, llamada *tashahhud*, dices la shahada. Ibn Abbas (que Allah esté complacido con él y con su padre) contó que el Profeta les enseñaba el tashahhud como les enseñaba una sura del Corán, y termina con estas mismas palabras (Sahih Muslim 403).",
+                "**Al escuchar el llamado a la oración.** El Profeta enseñó que cuando el muecín dice *ash-hadu an la ilaha illallah*, tú lo repites después de él, y lo mismo con *ash-hadu anna Muhammadan rasulullah* (Sahih Muslim 385).",
+                "**Como recuerdo de Allah, en cualquier momento.** El Profeta dijo que la rama más alta de la fe es decir *la ilaha illallah*, no hay dios sino Allah (Sahih Muslim 35)."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "Está bien seguir practicando"
       },
       {
-        "p": "Muchos nuevos musulmanes temen que su árabe no sea suficiente. No dejes que eso te pese. Allah sabe que estás aprendiendo y no te pide más de lo que puedes:"
+        "p": "Muchos nuevos musulmanes temen que su árabe no sea suficiente. Allah sabe que estás aprendiendo y no te pide más de lo que puedes:"
       },
       {
         "quote": "Dios no exige a nadie por encima de sus posibilidades",
         "cite": "Corán 2:286 (traducción de Isa García)"
       },
       {
-        "p": "El Profeta dijo sobre quienes recitan el Corán:"
+        "p": "Así que di la shahada despacio. Escúchala en el llamado a la oración. Repítela en tus oraciones. Con las semanas, las palabras se asentarán en tu lengua."
       },
       {
-        "quote": "Quien recite el Corán con habilidad estará con los nobles y obedientes Ángeles, mientras que aquel que lo recite con dificultad y le cueste tendrá una recompensa doble",
-        "cite": "Sahih al-Bujari 4937 y Sahih Muslim 798"
-      },
-      {
-        "p": "Ese hadiz habla del Corán. Muestra cómo el Profeta hablaba a quienes encontraban difícil el árabe: con ánimo, no con reproche. Así que di la shahada despacio. Escúchala en el llamado a la oración. Repítela en tus oraciones. Con las semanas, las palabras se asentarán en tu lengua."
+        "more": {
+          "title": "Ánimo del Profeta",
+          "blocks": [
+            {
+              "p": "El Profeta dijo sobre quienes recitan el Corán:"
+            },
+            {
+              "quote": "Quien recite el Corán con habilidad estará con los nobles y obedientes Ángeles, mientras que aquel que lo recite con dificultad y le cueste tendrá una recompensa doble",
+              "cite": "Sahih al-Bujari 4937 y Sahih Muslim 798"
+            },
+            {
+              "p": "Ese hadiz habla del Corán. Muestra cómo el Profeta hablaba a quienes encontraban difícil el árabe: con ánimo, no con reproche."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -323,5 +569,21 @@
       "url": "https://hadeethenc.com/en/browse/hadith/10113"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=pRVHGIT2DwQ",
+      "title": {
+        "en": "How to become a Muslim",
+        "ar": "كيف تصبح مسلمًا",
+        "es": "Cómo hacerse musulmán"
+      },
+      "by": {
+        "en": "Mufti Ismail Menk",
+        "ar": "المفتي إسماعيل منك",
+        "es": "Mufti Ismail Menk"
+      },
+      "seconds": 1352
+    }
+  ]
 }

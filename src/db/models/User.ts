@@ -35,6 +35,9 @@ export interface IUser extends Document {
     answers: Record<string, string>;
     takenAt: Date;
   };
+  emailVerified?: Date | null;
+  emailVerifyToken?: string;
+  emailVerifyExpiry?: Date;
   resetToken?: string;
   resetTokenExpiry?: Date;
   lastLoginAt?: Date;
@@ -109,6 +112,9 @@ const UserSchema = new Schema<IUser>(
       ),
       default: undefined,
     },
+    emailVerified: { type: Date, default: null },
+    emailVerifyToken: { type: String, select: false },
+    emailVerifyExpiry: { type: Date, select: false },
     resetToken: { type: String, select: false },
     resetTokenExpiry: { type: Date, select: false },
     lastLoginAt: { type: Date },

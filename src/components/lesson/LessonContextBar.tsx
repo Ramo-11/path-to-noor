@@ -29,14 +29,14 @@ export async function LessonContextBar({ place, lessonId, saved, signedIn, signI
               {path ? (
                 <Link
                   href={`/paths/${path.slug}`}
-                  className="inline-flex items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
+                  className="-my-3 inline-flex min-h-11 items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
                 >
                   {path.title}
                 </Link>
               ) : (
                 <Link
                   href="/library"
-                  className="inline-flex items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
+                  className="-my-3 inline-flex min-h-11 items-center text-meta font-medium text-ink-2 underline decoration-transparent underline-offset-[0.25em] transition-colors duration-150 hover:text-ink hover:decoration-ink"
                 >
                   {t("library")}
                 </Link>

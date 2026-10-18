@@ -7,6 +7,8 @@ import { Button } from "@/components/primer/Button";
 import { TextAreaField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
 import { Spinner } from "@/components/primer/Spinner";
+import { Link } from "@/i18n/navigation";
+import { track } from "@/lib/analytics";
 import { StatusChip } from "./StatusChip";
 
 interface MentorRequestData {
@@ -31,28 +33,40 @@ export function RequestPanel() {
   const [submitting, setSubmitting] = useState(false);
   const [canceling, setCanceling] = useState(false);
   const [formError, setFormError] = useState("");
+  const [needsVerify, setNeedsVerify] = useState(false);
   const [cancelError, setCancelError] = useState("");
 
-  async function load() {
+  const [attempt, setAttempt] = useState(0);
+
+  function load() {
     setPhase("loading");
-    try {
-      const res = await fetch("/api/user/mentor-request");
-      if (!res.ok) throw new Error("failed");
-      const data = await res.json();
-      setRequest(data.data ?? null);
-      setPhase("ready");
-    } catch {
-      setPhase("error");
-    }
+    setAttempt((n) => n + 1);
   }
 
   useEffect(() => {
-    load();
-  }, []);
+    let cancelled = false;
+    fetch("/api/user/mentor-request")
+      .then((res) => {
+        if (!res.ok) throw new Error("failed");
+        return res.json();
+      })
+      .then((data) => {
+        if (cancelled) return;
+        setRequest(data.data ?? null);
+        setPhase("ready");
+      })
+      .catch(() => {
+        if (!cancelled) setPhase("error");
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [attempt]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setFormError("");
+    setNeedsVerify(false);
     setSubmitting(true);
 
     try {
@@ -62,13 +76,26 @@ export function RequestPanel() {
         body: JSON.stringify({ message }),
       });
 
-      const data = await res.json();
+      const data = await res.json().catch(() => null);
 
       if (!res.ok) {
-        setFormError(data.error || t("submitError"));
+        const code = data?.error;
+        if (code === "email_unverified") {
+          setNeedsVerify(true);
+        } else if (code === "already_requested") {
+          setFormError(t("errorAlreadyRequested"));
+          load();
+        } else if (code === "revert_only") {
+          setFormError(t("errorRevertOnly"));
+        } else if (code === "invalid_input") {
+          setFormError(t("errorInvalid"));
+        } else {
+          setFormError(t("submitError"));
+        }
         return;
       }
 
+      track("mentor_requested");
       setRequest(data.data);
       setMessage("");
     } catch {
@@ -127,6 +154,19 @@ export function RequestPanel() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
+        {needsVerify ? (
+          <Notice tone="error">
+            <p>{t("errorEmailUnverified")}</p>
+            <div className="mt-3">
+              <Link
+                href="/settings"
+                className="inline-flex min-h-11 items-center text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
+              >
+                {t("errorEmailUnverifiedLink")}
+              </Link>
+            </div>
+          </Notice>
+        ) : null}
         {formError ? (
           <Notice tone="error">
             <p>{formError}</p>

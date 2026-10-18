@@ -18,9 +18,7 @@ export async function GET() {
       return NextResponse.json({ error: "User not found" }, { status: 404 });
     }
 
-    const completedLessonIds = ((user as any).progress || []).map(
-      (p: any) => p.lessonId.toString()
-    );
+    const completedLessonIds = (user.progress || []).map((p) => p.lessonId.toString());
     return NextResponse.json({ data: completedLessonIds });
   } catch (error) {
     console.error("[API] GET /user/progress error:", error);
@@ -51,19 +49,12 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Lesson not found" }, { status: 404 });
     }
 
-    // Check if already completed
-    const user = await User.findById(session.user.id);
-    if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
-    }
-
-    const alreadyCompleted = (user as any).progress.some(
-      (p: any) => p.lessonId.toString() === lessonId
+    const result = await User.updateOne(
+      { _id: session.user.id, "progress.lessonId": { $ne: lessonId } },
+      { $push: { progress: { lessonId, completedAt: new Date() } } }
     );
-
-    if (!alreadyCompleted) {
-      (user as any).progress.push({ lessonId, completedAt: new Date() });
-      await user.save();
+    if (result.matchedCount === 0 && !(await User.exists({ _id: session.user.id }))) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
     }
 
     return NextResponse.json({ message: "Lesson marked as complete" });

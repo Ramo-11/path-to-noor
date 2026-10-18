@@ -1,0 +1,41 @@
+{
+  "slug": "watch-never-lose-hope",
+  "minutes": 3,
+  "title": {
+    "en": "Never lose hope in the mercy of Allah",
+    "ar": "لا تيأس من رحمة الله",
+    "es": "Nunca pierdas la esperanza en la misericordia de Allah"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A short reminder from Mufti Menk on why you should never lose hope in the mercy of Allah."
+      }
+    ],
+    "ar": [
+      {
+        "p": "تذكرة قصيرة من المفتي إسماعيل منك بأنه لا ينبغي لك أبدًا أن تيأس من رحمة الله."
+      }
+    ],
+    "es": [
+      {
+        "p": "Un breve recordatorio de Mufti Menk sobre por qué nunca debes perder la esperanza en la misericordia de Allah."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=EEYlsGr33qU",
+    "title": {
+      "en": "Never lose hope in the mercy of Allah",
+      "ar": "لا تيأس من رحمة الله",
+      "es": "Nunca pierdas la esperanza en la misericordia de Allah"
+    },
+    "by": {
+      "en": "Mufti Ismail Menk",
+      "ar": "المفتي إسماعيل منك",
+      "es": "Mufti Ismail Menk"
+    },
+    "seconds": 186
+  }
+}

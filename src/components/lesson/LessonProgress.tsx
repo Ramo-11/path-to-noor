@@ -1,9 +1,10 @@
 "use client";
 
-import { createContext, useCallback, useContext, useMemo, useRef, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
+import { track } from "@/lib/analytics";
 import { STAGE_STYLES, type StageKey } from "@/lib/stages";
 
 type SaveStatus = "idle" | "saving" | "error";
@@ -19,11 +20,19 @@ const LessonProgressContext = createContext<LessonProgressValue | null>(null);
 
 interface ProviderProps {
   lessonId: string;
+  lessonSlug?: string;
   initialDone: boolean;
   children: React.ReactNode;
 }
 
-export function LessonProgressProvider({ lessonId, initialDone, children }: ProviderProps) {
+export function LessonProgressProvider({ lessonId, lessonSlug, initialDone, children }: ProviderProps) {
+  const analyticsKey = lessonSlug ?? lessonId;
+  const started = useRef<string | null>(null);
+  useEffect(() => {
+    if (started.current === analyticsKey) return;
+    started.current = analyticsKey;
+    track("lesson_started", { lesson: analyticsKey });
+  }, [analyticsKey]);
   const router = useRouter();
   const [done, setDone] = useState(initialDone);
   const [justDone, setJustDone] = useState(false);
@@ -44,6 +53,11 @@ export function LessonProgressProvider({ lessonId, initialDone, children }: Prov
       });
       if (!res.ok) throw new Error(`progress ${res.status}`);
       setStatus("idle");
+      track("lesson_completed", { lesson: analyticsKey });
+      try {
+        const visits = Number.parseInt(window.localStorage.getItem("bd.visits") ?? "0", 10);
+        if (!Number.isFinite(visits) || visits < 2) window.localStorage.setItem("bd.visits", "2");
+      } catch {}
       router.refresh();
     } catch {
       setDone(false);
@@ -52,7 +66,7 @@ export function LessonProgressProvider({ lessonId, initialDone, children }: Prov
     } finally {
       inFlight.current = false;
     }
-  }, [done, lessonId, router]);
+  }, [done, lessonId, router, analyticsKey]);
 
   const value = useMemo(() => ({ done, justDone, status, markDone }), [done, justDone, status, markDone]);
 

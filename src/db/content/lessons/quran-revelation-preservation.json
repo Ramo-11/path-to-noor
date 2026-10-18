@@ -1,6 +1,6 @@
 {
   "slug": "quran-revelation-preservation",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "How the Quran was revealed and preserved",
     "ar": "كيف نزل القرآن وكيف حُفظ",
@@ -9,50 +9,119 @@
   "body": {
     "en": [
       {
-        "p": "Welcome to this new path. You already pray and you know a few short surahs. Now it is time to get to know the Quran itself: where it came from, how it reached you, and why Muslims are confident that the words in a mushaf (a printed copy of the Quran) today are the same words the Prophet Muhammad, peace be upon him, recited. The Quran is the word of Allah, the Arabic name for God, the One God."
+        "p": "This lesson shows where the Quran came from, how it reached you, and why Muslims are confident its words today are the words the Prophet Muhammad, peace be upon him, recited."
+      },
+      {
+        "more": {
+          "title": "A note on words",
+          "blocks": [
+            {
+              "p": "A mushaf is a printed copy of the Quran. The Quran is the word of Allah, the Arabic name for God, the One God."
+            }
+          ]
+        }
       },
       {
         "h": "It began in Ramadan, through the angel Jibril"
       },
       {
-        "p": "The Quran began to come down in the month of Ramadan, on a blessed night called **Laylat al-Qadr** (the Night of Decree). Allah says:"
+        "p": "The Quran began to come down in Ramadan, on a blessed night called **Laylat al-Qadr** (the Night of Decree). Allah says:"
       },
       {
         "quote": "Indeed, We sent the Qur'an down during the Night of Decree.",
         "cite": "Quran 97:1 (Saheeh International translation of the meaning)"
       },
       {
-        "p": "It came through the angel **Jibril** (Gabriel), peace be upon him. The Quran calls him the Trustworthy Spirit and the Pure Spirit, and Allah tells the Prophet:"
+        "p": "It came through the angel **Jibril** (Gabriel), peace be upon him. The Quran calls him the Trustworthy Spirit and the Pure Spirit."
       },
       {
-        "quote": "Say, [O Muhammad], \"The Pure Spirit has brought it down from your Lord in truth to make firm those who believe and as guidance and good tidings to the Muslims.\"",
-        "cite": "Quran 16:102 (Saheeh International translation of the meaning)"
-      },
-      {
-        "p": "The Pure Spirit here is Jibril. The Quran was brought down to strengthen believers, including you, and to guide them. Receiving revelation was heavy. Aisha, may Allah be pleased with her, the Prophet's wife, said:"
-      },
-      {
-        "quote": "I saw him when the revelation was descending upon him on a very cold day. When it had left him, his forehead was dripping with sweat.",
-        "cite": "Sahih al-Bukhari 2 and Sahih Muslim 2333"
+        "more": {
+          "title": "More about the revelation",
+          "blocks": [
+            {
+              "p": "Allah tells the Prophet:"
+            },
+            {
+              "quote": "Say, [O Muhammad], \"The Pure Spirit has brought it down from your Lord in truth to make firm those who believe and as guidance and good tidings to the Muslims.\"",
+              "cite": "Quran 16:102 (Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "The Pure Spirit here is Jibril. The Quran was brought down to strengthen believers, including you, and to guide them."
+            },
+            {
+              "p": "Receiving revelation was heavy. Aisha, may Allah be pleased with her, the Prophet's wife, said:"
+            },
+            {
+              "quote": "I saw him when the revelation was descending upon him on a very cold day. When it had left him, his forehead was dripping with sweat.",
+              "cite": "Sahih al-Bukhari 2 and Sahih Muslim 2333"
+            }
+          ]
+        }
       },
       {
         "h": "Little by little, over about 23 years"
       },
       {
-        "p": "The Quran did not arrive as a finished book in one day. It came in parts, a few verses or a whole surah at a time, often in answer to what was happening in the Prophet's life and community. Allah says:"
+        "p": "The Quran did not arrive as a finished book in one day. It came a few verses or a whole surah at a time, often in answer to what was happening in the Prophet's life."
       },
       {
-        "quote": "And [it is] a Qur'an which We have separated [by intervals] that you might recite it to the people over a prolonged period. And We have sent it down progressively.",
-        "cite": "Quran 17:106 (Saheeh International translation of the meaning)"
+        "timeline": {
+          "title": "The companion Ibn Abbas gave the timeline",
+          "events": [
+            {
+              "when": "Age 40",
+              "text": "The Prophet began receiving revelation."
+            },
+            {
+              "when": "13 years",
+              "text": "He stayed in Makkah, receiving it."
+            },
+            {
+              "when": "10 years",
+              "text": "He lived in Madinah."
+            },
+            {
+              "when": "Age 63",
+              "text": "He died. That is about 23 years of revelation."
+            }
+          ]
+        }
       },
       {
-        "p": "The companion Ibn Abbas, may Allah be pleased with him, gave the timeline: the Prophet began receiving revelation at forty, stayed in Makkah for thirteen years receiving it, then lived ten years in Madinah, and died at sixty-three. That is about **23 years** of revelation."
+        "more": {
+          "title": "The verse",
+          "blocks": [
+            {
+              "p": "Allah says:"
+            },
+            {
+              "quote": "And [it is] a Qur'an which We have separated [by intervals] that you might recite it to the people over a prolonged period. And We have sent it down progressively.",
+              "cite": "Quran 17:106 (Saheeh International translation of the meaning)"
+            }
+          ]
+        }
       },
       {
         "h": "Kept in hearts and on pages"
       },
       {
-        "p": "From the very start, the Quran was kept in two ways at once: memorized and written. The Prophet recited each new passage to his companions (the believers who lived with him). Many learned it by heart, and some, such as **Zayd ibn Thabit**, may Allah be pleased with him, wrote it down as scribes of the revelation. They wrote on what they had: pieces of parchment, flat animal bones, and palm stalks."
+        "p": "From the very start, the Quran was kept in two ways at once. The Prophet recited each new passage to his companions (the believers who lived with him)."
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "In hearts",
+              "text": "Many companions learned it by heart"
+            },
+            {
+              "icon": "book",
+              "label": "On pages",
+              "text": "Scribes such as Zayd ibn Thabit, may Allah be pleased with him, wrote on parchment, flat animal bones, and palm stalks"
+            }
+          ]
+        }
       },
       {
         "p": "Every Ramadan the angel Jibril went over the Quran with the Prophet, and in the year the Prophet died they went over it twice."
@@ -61,17 +130,37 @@
         "h": "Gathered into one book"
       },
       {
-        "p": "Soon after the Prophet's death, many companions who knew the Quran by heart were killed in the battle of al-Yamamah. **Umar ibn al-Khattab** feared that parts of the Quran could be lost, and he urged the first caliph (leader of the Muslims), **Abu Bakr**, may Allah be pleased with them both, to gather it. Abu Bakr gave the task to Zayd ibn Thabit. Zayd felt the weight of it:"
+        "timeline": {
+          "events": [
+            {
+              "when": "After the Prophet's death",
+              "text": "Many companions who knew the Quran by heart were killed in the battle of al-Yamamah. Umar ibn al-Khattab feared that parts could be lost and urged the first caliph (leader of the Muslims), Abu Bakr, may Allah be pleased with them both, to gather it."
+            },
+            {
+              "when": "Zayd's task",
+              "text": "Abu Bakr gave the task to Zayd ibn Thabit, who collected the Quran from the written pieces and from the memories of the companions."
+            },
+            {
+              "when": "The pages",
+              "text": "They stayed with Abu Bakr, then with Umar, then with Hafsah, Umar's daughter, may Allah be pleased with her."
+            },
+            {
+              "when": "Time of Uthman",
+              "text": "Islam had spread far and people in different regions began to differ over how they read the Quran. The third caliph, Uthman ibn Affan, may Allah be pleased with him, had Hafsah's pages copied into standard copies, each called a mushaf, and sent one to every region."
+            },
+            {
+              "when": "Today",
+              "text": "Every mushaf printed today follows the text of those copies."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Zayd felt the weight of this task:"
       },
       {
         "quote": "By Allah, had he ordered me to move one of the mountains, it would not have been harder on me than what he ordered me to do in collecting the Qur'an.",
         "cite": "Sahih al-Bukhari 4986"
-      },
-      {
-        "p": "Zayd collected the Quran from the written pieces and from the memories of the companions. The pages stayed with Abu Bakr, then with Umar, then with Hafsah, Umar's daughter, may Allah be pleased with her."
-      },
-      {
-        "p": "Years later, in the time of the third caliph, **Uthman ibn Affan**, may Allah be pleased with him, Islam had spread far and people in different regions began to differ over how they read the Quran. Uthman had Hafsah's pages copied into standard copies, each called a *mushaf*, and sent one to every region. Every mushaf printed today follows the text of those copies."
       },
       {
         "quick": {
@@ -95,11 +184,15 @@
         "phrase": {
           "arabic": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
           "transliteration": "Innaa nahnu nazzalnadh-dhikra wa innaa lahoo lahaafizoon",
-          "meaning": "Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian."
+          "meaning": "Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.",
+          "audio": "/audio/quran/015009.mp3"
         }
       },
       {
-        "p": "Scholars of tafsir (explanation of the Quran) explain that Allah took it upon Himself to protect the Quran from anything being added to it, taken from it, or lost. Today Muslims all over the world, including children, memorize it completely, and when you open a mushaf you are reading the same words the Prophet recited."
+        "p": "Scholars of tafsir (explanation of the Quran) explain that Allah took it upon Himself to protect the Quran from anything being added to it, taken from it, or lost."
+      },
+      {
+        "p": "Today Muslims all over the world, including children, memorize it completely. When you open a mushaf, you are reading the same words the Prophet recited."
       },
       {
         "key": "The Quran is the word of Allah, brought by the angel Jibril over about 23 years, memorized and written from the start, and protected by Allah's own promise."
@@ -110,7 +203,17 @@
     ],
     "ar": [
       {
-        "p": "أهلًا بك في هذا المسار الجديد. أنت تصلي الآن وتحفظ بعض السور القصيرة، وقد حان الوقت لتتعرّف على القرآن نفسه: من أين جاء، وكيف وصل إليك، ولماذا يثق المسلمون بأن الكلمات التي في المصحف اليوم هي نفسها التي تلاها النبي محمد صلى الله عليه وسلم. فالقرآن كلام الله تعالى."
+        "p": "يبيّن هذا الدرس من أين جاء القرآن، وكيف وصل إليك، ولماذا يثق المسلمون بأن الكلمات التي في المصحف اليوم هي نفسها التي تلاها النبي محمد صلى الله عليه وسلم."
+      },
+      {
+        "more": {
+          "title": "ملاحظة على الكلمات",
+          "blocks": [
+            {
+              "p": "المصحف هو النسخة المكتوبة من القرآن. والقرآن كلام الله تعالى."
+            }
+          ]
+        }
       },
       {
         "h": "بدأ نزوله في رمضان على يد جبريل عليه السلام"
@@ -123,37 +226,96 @@
         "cite": "سورة القدر، الآية 1"
       },
       {
-        "p": "وليلة القدر ليلة الشرف والفضل، وهي إحدى ليالي شهر رمضان. ونزل القرآن بواسطة الملَك **جبريل** عليه السلام، الذي سمّاه الله في القرآن الروح الأمين وروح القدس، قال تعالى:"
+        "p": "ونزل القرآن بواسطة الملَك **جبريل** عليه السلام، الذي سمّاه الله في القرآن الروح الأمين وروح القدس."
       },
       {
-        "quote": "قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟ وَهُدًۭى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
-        "cite": "سورة النحل، الآية 102"
-      },
-      {
-        "p": "أي: قل لهم أيها الرسول إن القرآن ليس من عندك، بل نزّله جبريل من ربك بالصدق والعدل، تثبيتًا للمؤمنين، وهداية لهم، وبشارة لمن أسلموا لله. وكان تلقّي الوحي ثقيلًا، قالت عائشة رضي الله عنها زوج النبي صلى الله عليه وسلم:"
-      },
-      {
-        "quote": "ولقد رأيتُه ينزِل عليه الوَحْيُ في اليومِ الشديدِ البرْدِ، فيَفْصِمُ عنه وإنَّ جَبِينَه لَيَتَفَصَّدُ عَرَقًا",
-        "cite": "صحيح البخاري 2، وصحيح مسلم 2333"
+        "more": {
+          "title": "المزيد عن الوحي",
+          "blocks": [
+            {
+              "p": "قال تعالى:"
+            },
+            {
+              "quote": "قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟ وَهُدًۭى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+              "cite": "سورة النحل، الآية 102"
+            },
+            {
+              "p": "أي: قل لهم أيها الرسول إن القرآن ليس من عندك، بل نزّله جبريل من ربك بالصدق والعدل، تثبيتًا للمؤمنين، وهداية لهم."
+            },
+            {
+              "p": "وكان تلقّي الوحي ثقيلًا، قالت عائشة رضي الله عنها زوج النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "ولقد رأيتُه ينزِل عليه الوَحْيُ في اليومِ الشديدِ البرْدِ، فيَفْصِمُ عنه وإنَّ جَبِينَه لَيَتَفَصَّدُ عَرَقًا",
+              "cite": "صحيح البخاري 2، وصحيح مسلم 2333"
+            }
+          ]
+        }
       },
       {
         "h": "نزل مفرَّقًا على نحو ثلاث وعشرين سنة"
       },
       {
-        "p": "لم ينزل القرآن كتابًا كاملًا في يوم واحد، بل نزل آيات أو سورة كاملة في كل مرة، وكثيرًا ما نزل بحسب الأحداث التي عاشها النبي صلى الله عليه وسلم وأصحابه. قال الله تعالى:"
+        "p": "لم ينزل القرآن كتابًا كاملًا في يوم واحد، بل نزل آيات أو سورة كاملة في كل مرة، وكثيرًا ما نزل بحسب الأحداث التي عاشها النبي صلى الله عليه وسلم."
       },
       {
-        "quote": "وَقُرْءَانًۭا فَرَقْنَٰهُ لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍۢ وَنَزَّلْنَٰهُ تَنزِيلًۭا",
-        "cite": "سورة الإسراء، الآية 106"
+        "timeline": {
+          "title": "لخّص ابن عباس رضي الله عنهما المدة",
+          "events": [
+            {
+              "when": "في الأربعين",
+              "text": "بُعث النبي صلى الله عليه وسلم وبدأ الوحي."
+            },
+            {
+              "when": "ثلاث عشرة سنة",
+              "text": "مكث بمكة يوحى إليه."
+            },
+            {
+              "when": "عشر سنين",
+              "text": "ثم هاجر فعاش بالمدينة."
+            },
+            {
+              "when": "ثلاث وستون",
+              "text": "ومات وهو ابن ثلاث وستين. فمدة نزول الوحي نحو ثلاث وعشرين سنة."
+            }
+          ]
+        }
       },
       {
-        "p": "أي أنزلناه مفصَّلًا لتقرأه على الناس بتمهّل، وأنزلناه شيئًا بعد شيء بحسب الحوادث والأحوال. وقد لخّص ابن عباس رضي الله عنهما هذه المدة: بُعث النبي صلى الله عليه وسلم في الأربعين، فمكث بمكة ثلاث عشرة سنة يوحى إليه، ثم هاجر فعاش بالمدينة عشر سنين، ومات وهو ابن ثلاث وستين. فمدة نزول الوحي نحو **ثلاث وعشرين سنة**."
+        "more": {
+          "title": "الآية",
+          "blocks": [
+            {
+              "p": "قال الله تعالى:"
+            },
+            {
+              "quote": "وَقُرْءَانًۭا فَرَقْنَٰهُ لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍۢ وَنَزَّلْنَٰهُ تَنزِيلًۭا",
+              "cite": "سورة الإسراء، الآية 106"
+            }
+          ]
+        }
       },
       {
         "h": "محفوظ في الصدور وفي السطور"
       },
       {
-        "p": "حُفظ القرآن منذ البداية بطريقتين معًا: الحفظ في الصدور والكتابة في الصحف. كان النبي صلى الله عليه وسلم يتلو ما ينزل عليه على أصحابه، فحفظه كثير منهم، وكتبه بعضهم، ومنهم **زيد بن ثابت** رضي الله عنه، أحد كتّاب الوحي. وكانوا يكتبون على ما يتوفر لديهم: الرقاع، وعظام الأكتاف، وجريد النخل."
+        "p": "حُفظ القرآن منذ البداية بطريقتين معًا. كان النبي صلى الله عليه وسلم يتلو ما ينزل عليه على أصحابه."
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "في الصدور",
+              "text": "حفظه كثير من الصحابة"
+            },
+            {
+              "icon": "book",
+              "label": "في السطور",
+              "text": "كتبه كتّاب الوحي، ومنهم زيد بن ثابت رضي الله عنه، على الرقاع وعظام الأكتاف وجريد النخل"
+            }
+          ]
+        }
       },
       {
         "p": "وكان جبريل عليه السلام يدارس النبي صلى الله عليه وسلم القرآن في رمضان من كل عام، وعارضه به مرتين في العام الذي توفي فيه."
@@ -162,17 +324,37 @@
         "h": "جمعه في كتاب واحد"
       },
       {
-        "p": "بعد وفاة النبي صلى الله عليه وسلم بقليل، استُشهد عدد كبير من حفّاظ القرآن في معركة اليمامة، فخشي **عمر بن الخطاب** رضي الله عنه أن يضيع شيء من القرآن، فأشار على الخليفة الأول **أبي بكر الصديق** رضي الله عنه بجمعه. فكلّف أبو بكر زيد بن ثابت بهذه المهمة، فشعر زيد بثقلها وقال:"
+        "timeline": {
+          "events": [
+            {
+              "when": "بعد وفاة النبي صلى الله عليه وسلم",
+              "text": "استُشهد عدد كبير من حفّاظ القرآن في معركة اليمامة، فخشي عمر بن الخطاب رضي الله عنه أن يضيع شيء من القرآن، فأشار على الخليفة الأول أبي بكر الصديق رضي الله عنه بجمعه."
+            },
+            {
+              "when": "مهمة زيد",
+              "text": "كلّف أبو بكر زيد بن ثابت بهذه المهمة، فجمع القرآن من المكتوب ومن صدور الصحابة."
+            },
+            {
+              "when": "الصحف",
+              "text": "وبقيت الصحف عند أبي بكر، ثم عند عمر، ثم عند حفصة بنت عمر رضي الله عنهم."
+            },
+            {
+              "when": "زمن عثمان",
+              "text": "اتسعت رقعة الإسلام، وبدأ الناس في البلدان المختلفة يختلفون في القراءة، فأمر الخليفة عثمان بن عفان رضي الله عنه بنسخ صحف حفصة في مصاحف موحّدة، وأرسل إلى كل إقليم مصحفًا."
+            },
+            {
+              "when": "اليوم",
+              "text": "وكل مصحف يُطبع اليوم يتبع رسم تلك المصاحف."
+            }
+          ]
+        }
+      },
+      {
+        "p": "وشعر زيد بثقل هذه المهمة وقال:"
       },
       {
         "quote": "فواللهِ لو كلَّفني نَقْلَ جبل من الجبال ما كان أثقلَ عليَّ ممَّا أمرني به مِن جَمْعِ القرآن",
         "cite": "صحيح البخاري 4986"
-      },
-      {
-        "p": "فتتبّع زيد القرآن فجمعه من المكتوب ومن صدور الصحابة، وبقيت الصحف عند أبي بكر، ثم عند عمر، ثم عند حفصة بنت عمر رضي الله عنهم."
-      },
-      {
-        "p": "وبعد سنوات، في خلافة **عثمان بن عفان** رضي الله عنه، اتسعت رقعة الإسلام، وبدأ الناس في البلدان المختلفة يختلفون في القراءة، فأمر عثمان بنسخ صحف حفصة في مصاحف موحّدة، وأرسل إلى كل إقليم مصحفًا. وكل مصحف يُطبع اليوم يتبع رسم تلك المصاحف."
       },
       {
         "quick": {
@@ -196,11 +378,15 @@
         "phrase": {
           "arabic": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
           "transliteration": "Innaa nahnu nazzalnadh-dhikra wa innaa lahoo lahaafizoon",
-          "meaning": "إن الله هو الذي أنزل القرآن على النبي محمد صلى الله عليه وسلم، وهو سبحانه تكفّل بحفظه من أن يُزاد فيه أو يُنقص منه أو يضيع منه شيء."
+          "meaning": "إن الله هو الذي أنزل القرآن على النبي محمد صلى الله عليه وسلم، وهو سبحانه تكفّل بحفظه من أن يُزاد فيه أو يُنقص منه أو يضيع منه شيء.",
+          "audio": "/audio/quran/015009.mp3"
         }
       },
       {
-        "p": "واليوم يحفظ القرآنَ كاملًا مسلمون في كل أنحاء العالم، ومنهم الأطفال، وحين تفتح المصحف فأنت تقرأ الكلمات نفسها التي تلاها النبي صلى الله عليه وسلم."
+        "p": "واليوم يحفظ القرآنَ كاملًا مسلمون في كل أنحاء العالم، ومنهم الأطفال."
+      },
+      {
+        "p": "وحين تفتح المصحف فأنت تقرأ الكلمات نفسها التي تلاها النبي صلى الله عليه وسلم."
       },
       {
         "key": "القرآن كلام الله، نزل به جبريل عليه السلام على مدى نحو ثلاث وعشرين سنة، وحُفظ في الصدور والسطور منذ البداية، وتكفّل الله بحفظه."
@@ -211,50 +397,119 @@
     ],
     "es": [
       {
-        "p": "Bienvenido a este nuevo camino. Ya rezas y conoces algunas suras cortas. Ahora es momento de conocer el Corán en sí: de dónde vino, cómo llegó hasta ti y por qué los musulmanes confían en que las palabras de un mushaf (un ejemplar impreso del Corán) hoy son las mismas que recitó el Profeta Muhammad, la paz sea con él. El Corán es la palabra de Allah, el nombre árabe de Dios, el Dios Único."
+        "p": "Esta lección muestra de dónde vino el Corán, cómo llegó hasta ti y por qué los musulmanes confían en que sus palabras hoy son las que recitó el Profeta Muhammad, la paz sea con él."
+      },
+      {
+        "more": {
+          "title": "Una nota sobre las palabras",
+          "blocks": [
+            {
+              "p": "Un mushaf es un ejemplar impreso del Corán. El Corán es la palabra de Allah, el nombre árabe de Dios, el Dios Único."
+            }
+          ]
+        }
       },
       {
         "h": "Comenzó en Ramadán, a través del ángel Yibril"
       },
       {
-        "p": "El Corán comenzó a descender en el mes de Ramadán, en una noche bendita llamada **Laylat al-Qadr** (la Noche del Decreto). Allah dice:"
+        "p": "El Corán comenzó a descender en Ramadán, en una noche bendita llamada **Laylat al-Qadr** (la Noche del Decreto). Allah dice:"
       },
       {
         "quote": "Comencé la revelación [del Corán] en la noche de la predestinación.",
         "cite": "Corán 97:1 (traducción del significado de Isa García)"
       },
       {
-        "p": "Llegó a través del ángel **Yibril** (Gabriel), la paz sea con él. El Corán lo llama el Espíritu Leal y el Espíritu Santo, y Allah le dice al Profeta:"
+        "p": "Llegó a través del ángel **Yibril** (Gabriel), la paz sea con él. El Corán lo llama el Espíritu Leal y el Espíritu Santo."
       },
       {
-        "quote": "Diles: \"Es el Espíritu Santo [el ángel Gabriel] quien lo ha revelado [por orden] de tu Señor con la Verdad para afirmar a los creyentes, y como guía y albricias para los musulmanes que se someten a Dios\".",
-        "cite": "Corán 16:102 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "Aquí «el Espíritu Santo» es el ángel Yibril, como aclara la propia traducción. (Esta traducción usa la palabra «Dios» para Allah.) El Corán descendió para afirmar a los creyentes, también a ti, y para guiarlos. Recibir la revelación era algo pesado. Aisha, que Allah esté complacido con ella, la esposa del Profeta, dijo:"
-      },
-      {
-        "quote": "Lo vi cuando la revelación descendía sobre él en un día muy frío, y cuando terminaba, su frente goteaba de sudor.",
-        "cite": "Sahih al-Bujari 2 y Sahih Muslim 2333"
+        "more": {
+          "title": "Más sobre la revelación",
+          "blocks": [
+            {
+              "p": "Allah le dice al Profeta:"
+            },
+            {
+              "quote": "Diles: \"Es el Espíritu Santo [el ángel Gabriel] quien lo ha revelado [por orden] de tu Señor con la Verdad para afirmar a los creyentes, y como guía y albricias para los musulmanes que se someten a Dios\".",
+              "cite": "Corán 16:102 (traducción del significado de Isa García)"
+            },
+            {
+              "p": "Aquí «el Espíritu Santo» es el ángel Yibril, como aclara la propia traducción. (Esta traducción usa la palabra «Dios» para Allah.) El Corán descendió para afirmar a los creyentes, también a ti, y para guiarlos."
+            },
+            {
+              "p": "Recibir la revelación era algo pesado. Aisha, que Allah esté complacido con ella, la esposa del Profeta, dijo:"
+            },
+            {
+              "quote": "Lo vi cuando la revelación descendía sobre él en un día muy frío, y cuando terminaba, su frente goteaba de sudor.",
+              "cite": "Sahih al-Bujari 2 y Sahih Muslim 2333"
+            }
+          ]
+        }
       },
       {
         "h": "Poco a poco, durante unos 23 años"
       },
       {
-        "p": "El Corán no llegó como un libro terminado en un solo día. Llegó por partes, unas pocas aleyas (versículos) o una sura entera cada vez, muchas veces en respuesta a lo que ocurría en la vida del Profeta y de su comunidad. Allah dice:"
+        "p": "El Corán no llegó como un libro terminado en un solo día. Llegó unas pocas aleyas (versículos) o una sura entera cada vez, muchas veces en respuesta a lo que ocurría en la vida del Profeta."
       },
       {
-        "quote": "Te he revelado el Corán en partes para que se lo recites gradualmente a la gente. Te lo he ido revelando poco a poco.",
-        "cite": "Corán 17:106 (traducción del significado de Isa García)"
+        "timeline": {
+          "title": "El compañero Ibn Abbás resumió los tiempos",
+          "events": [
+            {
+              "when": "A los 40 años",
+              "text": "El Profeta comenzó a recibir la revelación."
+            },
+            {
+              "when": "13 años",
+              "text": "Permaneció en La Meca recibiéndola."
+            },
+            {
+              "when": "10 años",
+              "text": "Vivió en Medina."
+            },
+            {
+              "when": "A los 63 años",
+              "text": "Murió. Son unos 23 años de revelación."
+            }
+          ]
+        }
       },
       {
-        "p": "El compañero Ibn Abbás, que Allah esté complacido con él, resumió los tiempos: el Profeta comenzó a recibir la revelación a los cuarenta años, permaneció trece años en La Meca recibiéndola, luego vivió diez años en Medina y murió a los sesenta y tres. Son unos **23 años** de revelación."
+        "more": {
+          "title": "El versículo",
+          "blocks": [
+            {
+              "p": "Allah dice:"
+            },
+            {
+              "quote": "Te he revelado el Corán en partes para que se lo recites gradualmente a la gente. Te lo he ido revelando poco a poco.",
+              "cite": "Corán 17:106 (traducción del significado de Isa García)"
+            }
+          ]
+        }
       },
       {
         "h": "Guardado en los corazones y en las páginas"
       },
       {
-        "p": "Desde el principio, el Corán se guardó de dos maneras a la vez: memorizado y escrito. El Profeta recitaba cada pasaje nuevo a sus compañeros (los creyentes que vivían con él). Muchos lo aprendieron de memoria, y algunos, como **Zayd ibn Zabit**, que Allah esté complacido con él, lo escribían como escribas de la revelación. Escribían sobre lo que tenían: trozos de pergamino, huesos planos de animales y tallos de palmera."
+        "p": "Desde el principio, el Corán se guardó de dos maneras a la vez. El Profeta recitaba cada pasaje nuevo a sus compañeros (los creyentes que vivían con él)."
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "En los corazones",
+              "text": "Muchos compañeros lo aprendieron de memoria"
+            },
+            {
+              "icon": "book",
+              "label": "En las páginas",
+              "text": "Escribas como Zayd ibn Zabit, que Allah esté complacido con él, escribían sobre trozos de pergamino, huesos planos de animales y tallos de palmera"
+            }
+          ]
+        }
       },
       {
         "p": "Cada Ramadán el ángel Yibril repasaba el Corán con el Profeta, y en el año en que el Profeta murió lo repasaron dos veces."
@@ -263,17 +518,37 @@
         "h": "Reunido en un solo libro"
       },
       {
-        "p": "Poco después de la muerte del Profeta, muchos compañeros que sabían el Corán de memoria murieron en la batalla de al-Yamama. **Umar ibn al-Jattab** temió que se perdieran partes del Corán y pidió al primer califa (líder de los musulmanes), **Abu Bakr**, que Allah esté complacido con ambos, que lo reuniera. Abu Bakr encargó la tarea a Zayd ibn Zabit. Zayd sintió su peso y dijo:"
+        "timeline": {
+          "events": [
+            {
+              "when": "Tras la muerte del Profeta",
+              "text": "Muchos compañeros que sabían el Corán de memoria murieron en la batalla de al-Yamama. Umar ibn al-Jattab temió que se perdieran partes y pidió al primer califa (líder de los musulmanes), Abu Bakr, que Allah esté complacido con ambos, que lo reuniera."
+            },
+            {
+              "when": "La tarea de Zayd",
+              "text": "Abu Bakr encargó la tarea a Zayd ibn Zabit, que reunió el Corán a partir de los escritos y de la memoria de los compañeros."
+            },
+            {
+              "when": "Las páginas",
+              "text": "Quedaron con Abu Bakr, luego con Umar y después con Hafsa, la hija de Umar, que Allah esté complacido con ella."
+            },
+            {
+              "when": "Tiempos de Uzmán",
+              "text": "El Islam se había extendido mucho y en distintas regiones la gente empezó a diferir en la forma de leer el Corán. El tercer califa, Uzmán ibn Affán, que Allah esté complacido con él, hizo copiar las páginas de Hafsa en ejemplares uniformes, cada uno llamado mushaf, y envió uno a cada región."
+            },
+            {
+              "when": "Hoy",
+              "text": "Todo mushaf impreso hoy sigue el texto de esas copias."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Zayd sintió el peso de esta tarea y dijo:"
       },
       {
         "quote": "Por Allah, si me hubiera ordenado mover una de las montañas, no me habría resultado más pesado que lo que me ordenó: reunir el Corán.",
         "cite": "Sahih al-Bujari 4986"
-      },
-      {
-        "p": "Zayd reunió el Corán a partir de los escritos y de la memoria de los compañeros. Las páginas quedaron con Abu Bakr, luego con Umar y después con Hafsa, la hija de Umar, que Allah esté complacido con ella."
-      },
-      {
-        "p": "Años más tarde, en tiempos del tercer califa, **Uzmán ibn Affán**, que Allah esté complacido con él, el Islam se había extendido mucho y en distintas regiones la gente empezó a diferir en la forma de leer el Corán. Uzmán hizo copiar las páginas de Hafsa en ejemplares uniformes, cada uno llamado *mushaf*, y envió uno a cada región. Todo mushaf impreso hoy sigue el texto de esas copias."
       },
       {
         "quick": {
@@ -297,11 +572,15 @@
         "phrase": {
           "arabic": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
           "transliteration": "Innaa nahnu nazzalnadh-dhikra wa innaa lahoo lahaafizoon",
-          "meaning": "Yo he revelado el Corán y Yo soy su custodio."
+          "meaning": "Yo he revelado el Corán y Yo soy su custodio.",
+          "audio": "/audio/quran/015009.mp3"
         }
       },
       {
-        "p": "Los sabios del tafsir (la explicación del Corán) explican que Allah se encargó Él mismo de proteger el Corán de que se le añada algo, se le quite algo o se pierda. Hoy musulmanes de todo el mundo, incluidos niños, lo memorizan completo, y cuando abres un mushaf lees las mismas palabras que recitó el Profeta."
+        "p": "Los sabios del tafsir (la explicación del Corán) explican que Allah se encargó Él mismo de proteger el Corán de que se le añada algo, se le quite algo o se pierda."
+      },
+      {
+        "p": "Hoy musulmanes de todo el mundo, incluidos niños, lo memorizan completo. Cuando abres un mushaf, lees las mismas palabras que recitó el Profeta."
       },
       {
         "key": "El Corán es la palabra de Allah, traída por el ángel Yibril durante unos 23 años, memorizada y escrita desde el principio, y protegida por la promesa de Allah."

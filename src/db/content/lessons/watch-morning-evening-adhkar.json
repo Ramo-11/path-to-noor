@@ -1,0 +1,46 @@
+{
+  "slug": "watch-morning-evening-adhkar",
+  "minutes": 21,
+  "title": {
+    "en": "Morning and evening remembrances",
+    "ar": "أذكار الصباح والمساء",
+    "es": "Los recuerdos de la mañana y de la tarde"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Listen to the morning and evening adhkar, and repeat them along with the reciter until you know them."
+      }
+    ],
+    "ar": [
+      {
+        "p": "استمع إلى أذكار الصباح والمساء، وردّدها مع القارئ حتى تحفظها."
+      }
+    ],
+    "es": [
+      {
+        "p": "Escucha los adhkar de la mañana y de la tarde, y repítelos junto al recitador hasta aprenderlos."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=rP1bQ_zyGtQ",
+    "title": {
+      "en": "Morning and evening remembrances",
+      "ar": "أذكار الصباح والمساء",
+      "es": "Los recuerdos de la mañana y de la tarde"
+    },
+    "by": {
+      "en": "Recited by Mishary Rashid Alafasy",
+      "ar": "بصوت مشاري راشد العفاسي",
+      "es": "Recitado por Mishary Rashid Alafasy"
+    },
+    "seconds": 1255,
+    "note": {
+      "en": "Recited in Arabic with an English translation.",
+      "ar": "التلاوة بالعربية مع ترجمة إنجليزية.",
+      "es": "Recitado en árabe con traducción al inglés."
+    }
+  }
+}

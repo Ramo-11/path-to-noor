@@ -1,6 +1,6 @@
 {
   "slug": "res-dawah-basics",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "The basics of dawah: sharing Islam",
     "ar": "أساسيات الدعوة إلى الله",
@@ -9,7 +9,26 @@
   "body": {
     "en": [
       {
-        "p": "Now that you are Muslim, people will ask you about it: family, friends, coworkers. You may also want to share what you have found. This is called *dawah*, an Arabic word that means \"invitation\": inviting people to Allah. You do not need to be a scholar to do it well. You need good character, honesty, and gentleness."
+        "p": "Now that you are Muslim, people will ask you about it. Sharing what you have found is called *dawah*, an Arabic word that means \"invitation\": inviting people to Allah."
+      },
+      {
+        "facts": {
+          "title": "You do not need to be a scholar",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Good character"
+            },
+            {
+              "icon": "check",
+              "label": "Honesty"
+            },
+            {
+              "icon": "hands",
+              "label": "Gentleness"
+            }
+          ]
+        }
       },
       {
         "h": "What dawah means"
@@ -22,7 +41,10 @@
         "cite": "Quran 41:33 (translation of the meaning)"
       },
       {
-        "p": "Notice that the verse joins inviting to Allah with doing good. Your actions come first. The way you keep your promises, speak kindly, work honestly, and treat your family often says more than any argument."
+        "p": "The verse joins inviting to Allah with doing good. Your actions come first."
+      },
+      {
+        "p": "Keeping your promises, speaking kindly, working honestly, and treating your family well often says more than any argument."
       },
       {
         "p": "The Prophet Muhammad, peace be upon him, said: \"Convey from me even if one verse\" (Sahih al-Bukhari 3461). You can share the little you know, and that is valuable."
@@ -35,59 +57,156 @@
         "cite": "Quran 16:125 (translation of the meaning)"
       },
       {
-        "p": "This verse gives three keys: wisdom (saying the right thing, at the right time, in a way the person can understand), good instruction (kind and sincere advice), and discussing in the best way, calmly and gently."
+        "facts": {
+          "title": "Three keys in this verse",
+          "items": [
+            {
+              "icon": "compass",
+              "label": "Wisdom",
+              "text": "Saying the right thing, at the right time, in a way the person can understand"
+            },
+            {
+              "icon": "heart",
+              "label": "Good instruction",
+              "text": "Kind and sincere advice"
+            },
+            {
+              "icon": "ear",
+              "label": "The best way",
+              "text": "Discussing calmly and gently"
+            }
+          ]
+        }
       },
       {
-        "p": "When Allah sent the Prophet Musa (Moses) and his brother Harun (Aaron), peace be upon them, to Pharaoh, He said: \"Go, both of you, to Pharaoh. Indeed, he has transgressed.\" Yet He still told them: \"And speak to him with gentle speech that perhaps he may be reminded or fear [Allah]\" (20:43-44). If gentle words were commanded even with Pharaoh, they fit even better with your own family and friends."
-      },
-      {
-        "p": "The Prophet said:"
-      },
-      {
-        "quote": "Verily, lenience is not found in anything but it adorns it, and it is not removed from anything but it makes it defective.",
-        "cite": "Sahih Muslim 2594"
-      },
-      {
-        "quote": "Make matters easy and do not make them difficult, and give people glad tidings and do not drive them away.",
-        "cite": "Sahih al-Bukhari 69 and Sahih Muslim 1734 (agreed upon)"
+        "more": {
+          "title": "Gentleness, even with Pharaoh",
+          "blocks": [
+            {
+              "p": "When Allah sent the Prophet Musa (Moses) and his brother Harun (Aaron), peace be upon them, to Pharaoh, He said: \"Go, both of you, to Pharaoh. Indeed, he has transgressed.\" Yet He still told them: \"And speak to him with gentle speech that perhaps he may be reminded or fear [Allah]\" (20:43-44). If gentle words were commanded even with Pharaoh, they fit even better with your own family and friends."
+            },
+            {
+              "p": "The Prophet said:"
+            },
+            {
+              "quote": "Verily, lenience is not found in anything but it adorns it, and it is not removed from anything but it makes it defective.",
+              "cite": "Sahih Muslim 2594"
+            },
+            {
+              "quote": "Make matters easy and do not make them difficult, and give people glad tidings and do not drive them away.",
+              "cite": "Sahih al-Bukhari 69 and Sahih Muslim 1734 (agreed upon)"
+            }
+          ]
+        }
       },
       {
         "h": "Be honest when you do not know"
       },
       {
-        "p": "You will be asked questions you cannot answer yet. That is normal, even for people who have been Muslim all their lives. The companion Abdullah ibn Mas'ud, may Allah be pleased with him, said:"
+        "p": "You will be asked questions you cannot answer yet. That is normal, even for people who have been Muslim all their lives."
       },
       {
-        "quote": "O people, he who knows about something, let him say it. And he who does not know should say: 'Allah knows best.'",
-        "cite": "Sahih al-Bukhari 4774"
+        "scenario": {
+          "situation": "A coworker asks a hard question about Islam, and you do not know the answer.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "That is a good question. I don't know yet, but I will find out."
+            }
+          ]
+        }
       },
       {
         "phrase": {
           "arabic": "اللَّهُ أَعْلَمُ",
           "transliteration": "Allahu a'lam",
-          "meaning": "Allah knows best."
+          "meaning": "Allah knows best.",
+          "audio": "/audio/phrases/res-dawah-basics-1.mp3"
         }
       },
       {
-        "p": "It is perfectly fine to say: \"That is a good question. I don't know yet, but I will find out.\" Then ask a trusted imam or teacher. Never guess about what Allah or the Prophet said. In the same hadith where he said \"convey from me\", the Prophet warned strongly against deliberately saying something false about him (Sahih al-Bukhari 3461). And the Quran says: \"And do not pursue that of which you have no knowledge.\" (17:36)."
+        "p": "Then ask a trusted imam or teacher. Never guess about what Allah or the Prophet said."
+      },
+      {
+        "more": {
+          "title": "Why not guess",
+          "blocks": [
+            {
+              "p": "The companion Abdullah ibn Mas'ud, may Allah be pleased with him, said:"
+            },
+            {
+              "quote": "O people, he who knows about something, let him say it. And he who does not know should say: 'Allah knows best.'",
+              "cite": "Sahih al-Bukhari 4774"
+            },
+            {
+              "p": "In the same hadith where he said \"convey from me\", the Prophet warned strongly against deliberately saying something false about him (Sahih al-Bukhari 3461). And the Quran says: \"And do not pursue that of which you have no knowledge.\" (17:36)."
+            }
+          ]
+        }
       },
       {
         "h": "Avoid arguments"
       },
       {
-        "p": "Discussion is good; arguing to win is not. The Prophet said: \"I guarantee a house on the outskirts of Paradise for the one who refrains from arguing even if he is right...\" (Sunan Abi Dawud 4800, graded hasan). If a conversation turns heated, you can end it kindly: \"I don't think we will settle this today, but I'm glad you asked.\""
+        "p": "Discussion is good; arguing to win is not."
       },
       {
-        "p": "Remember that guiding hearts is Allah's work, not yours. Allah said to the Prophet himself: \"Indeed, [O Muhammad], you do not guide whom you like, but Allah guides whom He wills. And He is most knowing of the [rightly] guided.\" (28:56). And: \"There shall be no compulsion in [acceptance of] the religion.\" (2:256). Your part is to share with kindness. The results belong to Allah."
+        "p": "The Prophet said: \"I guarantee a house on the outskirts of Paradise for the one who refrains from arguing even if he is right...\" (Sunan Abi Dawud 4800, graded hasan)."
+      },
+      {
+        "scenario": {
+          "situation": "If a conversation turns heated, you can end it kindly.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "I don't think we will settle this today, but I'm glad you asked."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Guiding hearts is Allah's work, not yours. Your part is to share with kindness. The results belong to Allah."
+      },
+      {
+        "more": {
+          "title": "Allah's words to the Prophet",
+          "blocks": [
+            {
+              "p": "Allah said to the Prophet himself: \"Indeed, [O Muhammad], you do not guide whom you like, but Allah guides whom He wills. And He is most knowing of the [rightly] guided.\" (28:56). And: \"There shall be no compulsion in [acceptance of] the religion.\" (2:256)."
+            }
+          ]
+        }
       },
       {
         "h": "Caring for your family"
       },
       {
-        "p": "Your family may feel confused, hurt, or worried about your new faith. Islam asks you to keep treating them with love and respect. Even about parents who push their child to worship others besides Allah, the Quran says the child should not obey them in that, but should still \"accompany them in [this] world with appropriate kindness\" (31:15)."
+        "p": "Your family may feel confused, hurt, or worried about your new faith. Islam asks you to keep treating them with love and respect."
       },
       {
-        "p": "The companion Asma bint Abi Bakr, may Allah be pleased with her, was visited by her mother, who was not Muslim. She asked the Prophet whether she should keep good ties with her. He said: \"Yes, keep good relations with your mother\" (Sahih al-Bukhari 2620 and Sahih Muslim 1003)."
+        "p": "Even about parents who push their child to worship others besides Allah, the Quran says:"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "The child should not obey them in that",
+            "items": [
+              "Not in worshipping others besides Allah"
+            ]
+          },
+          "second": {
+            "title": "But should still",
+            "items": [
+              "\"accompany them in [this] world with appropriate kindness\" (31:15)"
+            ]
+          }
+        }
+      },
+      {
+        "p": "Asma bint Abi Bakr, may Allah be pleased with her, was visited by her mother, who was not Muslim. She asked the Prophet whether she should keep good ties with her."
+      },
+      {
+        "p": "He said: \"Yes, keep good relations with your mother\" (Sahih al-Bukhari 2620 and Sahih Muslim 1003)."
       },
       {
         "steps": {
@@ -122,7 +241,26 @@
     ],
     "ar": [
       {
-        "p": "بعد أن أسلمت سيسألك الناس عن ذلك: أسرتك وأصدقاؤك وزملاؤك في العمل. وربما رغبت أنت أيضا في أن تشاركهم ما وجدته. وهذا ما يسمى **الدعوة**: دعوة الناس إلى الله. ولست بحاجة إلى أن تكون عالما لتقوم بها على وجه حسن، بل تحتاج إلى حسن الخلق والصدق واللين."
+        "p": "بعد أن أسلمت سيسألك الناس عن ذلك. ومشاركة ما وجدته تسمى **الدعوة**: دعوة الناس إلى الله."
+      },
+      {
+        "facts": {
+          "title": "لست بحاجة إلى أن تكون عالما",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "حسن الخلق"
+            },
+            {
+              "icon": "check",
+              "label": "الصدق"
+            },
+            {
+              "icon": "hands",
+              "label": "اللين"
+            }
+          ]
+        }
       },
       {
         "h": "ما معنى الدعوة؟"
@@ -135,7 +273,10 @@
         "cite": "سورة فصلت: 33"
       },
       {
-        "p": "تأمل كيف جمعت الآية بين الدعوة إلى الله والعمل الصالح. فأفعالك تأتي أولا: وفاؤك بوعودك، وكلامك الطيب، وأمانتك في عملك، ومعاملتك لأسرتك، كثيرا ما تقول أكثر من أي حجة."
+        "p": "جمعت الآية بين الدعوة إلى الله والعمل الصالح. فأفعالك تأتي أولا."
+      },
+      {
+        "p": "وفاؤك بوعودك، وكلامك الطيب، وأمانتك في عملك، ومعاملتك لأسرتك، كثيرا ما تقول أكثر من أي حجة."
       },
       {
         "p": "وقال النبي محمد صلى الله عليه وسلم: «بَلِّغُوا عَنِّي وَلَوْ آيَةً» (صحيح البخاري 3461). فشارك القليل الذي تعرفه، فهو ذو قيمة."
@@ -148,59 +289,156 @@
         "cite": "سورة النحل: 125"
       },
       {
-        "p": "تضع هذه الآية ثلاثة مفاتيح: الحكمة، أي أن تخاطب الناس بالأسلوب المناسب لهم وفي الوقت المناسب، والموعظة الحسنة، أي النصح الصادق اللطيف، والمجادلة بالتي هي أحسن، أي الحوار بالرفق واللين. أما الهداية فبيد الله وحده."
+        "facts": {
+          "title": "ثلاثة مفاتيح في هذه الآية",
+          "items": [
+            {
+              "icon": "compass",
+              "label": "الحكمة",
+              "text": "أن تخاطب الناس بالأسلوب المناسب لهم وفي الوقت المناسب"
+            },
+            {
+              "icon": "heart",
+              "label": "الموعظة الحسنة",
+              "text": "النصح الصادق اللطيف"
+            },
+            {
+              "icon": "ear",
+              "label": "الأحسن",
+              "text": "الحوار بالرفق واللين"
+            }
+          ]
+        }
       },
       {
-        "p": "ولما أرسل الله موسى وأخاه هارون عليهما السلام إلى فرعون قال: «ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ»، ومع ذلك أمرهما فقال: «فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ» (سورة طه: 43 و44). فإذا أمر الله بالقول اللين مع فرعون، فهو أولى مع أسرتك وأصدقائك."
-      },
-      {
-        "p": "وقال النبي صلى الله عليه وسلم:"
-      },
-      {
-        "quote": "إِنَّ الرِّفْقَ لَا يَكُونُ فِي شَيْءٍ إِلَّا زَانَهُ، وَلَا يُنْزَعُ مِنْ شَيْءٍ إِلَّا شَانَهُ",
-        "cite": "صحيح مسلم (2594)"
-      },
-      {
-        "quote": "يَسِّرُوا وَلَا تُعَسِّرُوا، وَبَشِّرُوا وَلَا تُنَفِّرُوا",
-        "cite": "صحيح البخاري (69) وصحيح مسلم (1734)، متفق عليه"
+        "more": {
+          "title": "اللين حتى مع فرعون",
+          "blocks": [
+            {
+              "p": "ولما أرسل الله موسى وأخاه هارون عليهما السلام إلى فرعون قال: «ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ»، ومع ذلك أمرهما فقال: «فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ» (سورة طه: 43 و44). فإذا أمر الله بالقول اللين مع فرعون، فهو أولى مع أسرتك وأصدقائك."
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "إِنَّ الرِّفْقَ لَا يَكُونُ فِي شَيْءٍ إِلَّا زَانَهُ، وَلَا يُنْزَعُ مِنْ شَيْءٍ إِلَّا شَانَهُ",
+              "cite": "صحيح مسلم (2594)"
+            },
+            {
+              "quote": "يَسِّرُوا وَلَا تُعَسِّرُوا، وَبَشِّرُوا وَلَا تُنَفِّرُوا",
+              "cite": "صحيح البخاري (69) وصحيح مسلم (1734)، متفق عليه"
+            }
+          ]
+        }
       },
       {
         "h": "كن صادقا حين لا تعرف"
       },
       {
-        "p": "ستسأل أسئلة لا تعرف جوابها بعد، وهذا أمر طبيعي حتى لمن عاش مسلما طوال حياته. وقد قال الصحابي عبد الله بن مسعود رضي الله عنه:"
+        "p": "ستسأل أسئلة لا تعرف جوابها بعد، وهذا أمر طبيعي حتى لمن عاش مسلما طوال حياته."
       },
       {
-        "quote": "من عَلِم شيئا فَلْيَقُلْ به، ومن لم يَعْلَم، فَلْيَقُلْ: الله أعلم",
-        "cite": "صحيح البخاري (4774)"
+        "scenario": {
+          "situation": "سألك زميل في العمل سؤالا صعبا عن الإسلام ولا تعرف جوابه.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "سؤال جميل، لا أعرف جوابه الآن، لكنني سأبحث عنه."
+            }
+          ]
+        }
       },
       {
         "phrase": {
           "arabic": "اللَّهُ أَعْلَمُ",
           "transliteration": "Allahu a'lam",
-          "meaning": "الله أعلم بحقيقة الأمر مني."
+          "meaning": "الله أعلم بحقيقة الأمر مني.",
+          "audio": "/audio/phrases/res-dawah-basics-1.mp3"
         }
       },
       {
-        "p": "فلا بأس أن تقول: «سؤال جميل، لا أعرف جوابه الآن، لكنني سأبحث عنه». ثم اسأل إماما أو معلما تثق به. ولا تخمن أبدا فيما قاله الله أو قاله رسوله. ففي الحديث نفسه الذي قال فيه النبي صلى الله عليه وسلم «بَلِّغُوا عَنِّي» حذر تحذيرا شديدا من الكذب عليه عمدا (صحيح البخاري 3461). ويقول الله تعالى: «وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ» (سورة الإسراء: 36)."
+        "p": "ثم اسأل إماما أو معلما تثق به. ولا تخمن أبدا فيما قاله الله أو قاله رسوله."
+      },
+      {
+        "more": {
+          "title": "لماذا لا نخمن",
+          "blocks": [
+            {
+              "p": "وقد قال الصحابي عبد الله بن مسعود رضي الله عنه:"
+            },
+            {
+              "quote": "من عَلِم شيئا فَلْيَقُلْ به، ومن لم يَعْلَم، فَلْيَقُلْ: الله أعلم",
+              "cite": "صحيح البخاري (4774)"
+            },
+            {
+              "p": "ففي الحديث نفسه الذي قال فيه النبي صلى الله عليه وسلم «بَلِّغُوا عَنِّي» حذر تحذيرا شديدا من الكذب عليه عمدا (صحيح البخاري 3461). ويقول الله تعالى: «وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ» (سورة الإسراء: 36)."
+            }
+          ]
+        }
       },
       {
         "h": "تجنب الجدال"
       },
       {
-        "p": "الحوار أمر حسن، أما الجدال لأجل الغلبة فلا. قال النبي صلى الله عليه وسلم: «أنا زعيم ببيت في رَبَضِ الجنة لمن ترك المِرَاءَ وإن كان مُحِقًّا» (سنن أبي داود 4800، وهو حديث حسن). وإذا احتد الحديث فيمكنك أن تنهيه بلطف: «لا أظن أننا سنحسم هذا اليوم، لكنني سعيد بسؤالك»."
+        "p": "الحوار أمر حسن، أما الجدال لأجل الغلبة فلا."
       },
       {
-        "p": "وتذكر أن هداية القلوب بيد الله لا بيدك. قال الله لنبيه صلى الله عليه وسلم: «إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ» (سورة القصص: 56). وقال: «لَآ إِكْرَاهَ فِى ٱلدِّينِ» (سورة البقرة: 256). فعليك أن تبلغ برفق، والنتائج على الله."
+        "p": "قال النبي صلى الله عليه وسلم: «أنا زعيم ببيت في رَبَضِ الجنة لمن ترك المِرَاءَ وإن كان مُحِقًّا» (سنن أبي داود 4800، وهو حديث حسن)."
+      },
+      {
+        "scenario": {
+          "situation": "وإذا احتد الحديث فيمكنك أن تنهيه بلطف.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "لا أظن أننا سنحسم هذا اليوم، لكنني سعيد بسؤالك."
+            }
+          ]
+        }
+      },
+      {
+        "p": "هداية القلوب بيد الله لا بيدك. فعليك أن تبلغ برفق، والنتائج على الله."
+      },
+      {
+        "more": {
+          "title": "كلام الله لنبيه صلى الله عليه وسلم",
+          "blocks": [
+            {
+              "p": "قال الله لنبيه صلى الله عليه وسلم: «إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ» (سورة القصص: 56). وقال: «لَآ إِكْرَاهَ فِى ٱلدِّينِ» (سورة البقرة: 256)."
+            }
+          ]
+        }
       },
       {
         "h": "العناية بأسرتك"
       },
       {
-        "p": "قد تشعر أسرتك بالحيرة أو الألم أو القلق من دينك الجديد. والإسلام يأمرك أن تستمر في معاملتهم بالمحبة والاحترام. حتى الوالدان إذا جاهدا ولدهما على أن يشرك بالله، يأمره القرآن ألا يطيعهما في ذلك، ومع ذلك يقول: «وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا» (سورة لقمان: 15)."
+        "p": "قد تشعر أسرتك بالحيرة أو الألم أو القلق من دينك الجديد. والإسلام يأمرك أن تستمر في معاملتهم بالمحبة والاحترام."
       },
       {
-        "p": "وقد قدمت على الصحابية أسماء بنت أبي بكر رضي الله عنها أمها وهي مشركة، فسألت النبي صلى الله عليه وسلم: أفأصل أمي؟ فقال: «نَعَمْ، صِلِي أُمَّكِ» (صحيح البخاري 2620 وصحيح مسلم 1003)."
+        "p": "حتى الوالدان إذا جاهدا ولدهما على أن يشرك بالله، يقول القرآن:"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "لا يطيعهما في ذلك",
+            "items": [
+              "ألا يطيعهما في الشرك بالله"
+            ]
+          },
+          "second": {
+            "title": "ومع ذلك",
+            "items": [
+              "«وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا» (سورة لقمان: 15)"
+            ]
+          }
+        }
+      },
+      {
+        "p": "وقد قدمت على الصحابية أسماء بنت أبي بكر رضي الله عنها أمها وهي مشركة، فسألت النبي صلى الله عليه وسلم: أفأصل أمي؟"
+      },
+      {
+        "p": "فقال: «نَعَمْ، صِلِي أُمَّكِ» (صحيح البخاري 2620 وصحيح مسلم 1003)."
       },
       {
         "steps": {
@@ -235,7 +473,26 @@
     ],
     "es": [
       {
-        "p": "Ahora que eres musulmán, la gente te hará preguntas: tu familia, tus amigos, tus compañeros de trabajo. Quizás también quieras compartir lo que has encontrado. Esto se llama *dawah*, una palabra árabe que significa «invitación»: invitar a las personas a Allah. No necesitas ser un sabio para hacerlo bien. Necesitas buen carácter, sinceridad y amabilidad."
+        "p": "Ahora que eres musulmán, la gente te hará preguntas. Compartir lo que has encontrado se llama *dawah*, una palabra árabe que significa «invitación»: invitar a las personas a Allah."
+      },
+      {
+        "facts": {
+          "title": "No necesitas ser un sabio",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Buen carácter"
+            },
+            {
+              "icon": "check",
+              "label": "Sinceridad"
+            },
+            {
+              "icon": "hands",
+              "label": "Amabilidad"
+            }
+          ]
+        }
       },
       {
         "h": "Qué significa dawah"
@@ -248,7 +505,10 @@
         "cite": "Corán 41:33 (traducción del significado)"
       },
       {
-        "p": "Observa que la aleya une el invitar a Allah con el obrar bien. Tus acciones van primero. La manera en que cumples tus promesas, hablas con amabilidad, trabajas con honestidad y tratas a tu familia a menudo dice más que cualquier argumento."
+        "p": "La aleya une el invitar a Allah con el obrar bien. Tus acciones van primero."
+      },
+      {
+        "p": "Cumplir tus promesas, hablar con amabilidad, trabajar con honestidad y tratar bien a tu familia a menudo dice más que cualquier argumento."
       },
       {
         "p": "El Profeta Muhammad, la paz sea con él, dijo: «Comuniquen mi mensaje, aunque sea una sola aleya» (Sahih al-Bujari 3461). Puedes compartir lo poco que sabes, y eso es valioso."
@@ -261,59 +521,156 @@
         "cite": "Corán 16:125 (traducción del significado)"
       },
       {
-        "p": "Esta aleya da tres claves: sabiduría (decir lo correcto, en el momento adecuado y de una forma que la persona pueda entender), bellas palabras (consejos amables y sinceros) y dialogar de la mejor manera, con calma y suavidad."
+        "facts": {
+          "title": "Tres claves en esta aleya",
+          "items": [
+            {
+              "icon": "compass",
+              "label": "Sabiduría",
+              "text": "Decir lo correcto, en el momento adecuado y de una forma que la persona pueda entender"
+            },
+            {
+              "icon": "heart",
+              "label": "Bellas palabras",
+              "text": "Consejos amables y sinceros"
+            },
+            {
+              "icon": "ear",
+              "label": "De la mejor manera",
+              "text": "Dialogar con calma y suavidad"
+            }
+          ]
+        }
       },
       {
-        "p": "Cuando Allah envió al Profeta Musa (Moisés) y a su hermano Harun (Aarón), la paz sea con ellos, ante el Faraón, dijo: «Preséntense ante el Faraón, pues se ha extralimitado,» y aun así les ordenó: «pero háblenle cortésmente, para hacerlo entrar en razón o sienta temor de Dios» (20:43-44). Si se ordenaron palabras amables incluso con el Faraón, con tu propia familia y tus amigos encajan todavía mejor."
-      },
-      {
-        "p": "El Profeta dijo:"
-      },
-      {
-        "quote": "Siempre que la amabilidad esté presente en un asunto, lo embellecerá; mientras que, si no está presente, lo deteriorará.",
-        "cite": "Sahih Muslim 2594"
-      },
-      {
-        "quote": "Faciliten las cosas y no las dificulten. Sean portadores de buenas noticias y no de malas.",
-        "cite": "Sahih al-Bujari 69 y Sahih Muslim 1734 (registrado por ambos)"
+        "more": {
+          "title": "Amabilidad, incluso con el Faraón",
+          "blocks": [
+            {
+              "p": "Cuando Allah envió al Profeta Musa (Moisés) y a su hermano Harun (Aarón), la paz sea con ellos, ante el Faraón, dijo: «Preséntense ante el Faraón, pues se ha extralimitado,» y aun así les ordenó: «pero háblenle cortésmente, para hacerlo entrar en razón o sienta temor de Dios» (20:43-44). Si se ordenaron palabras amables incluso con el Faraón, con tu propia familia y tus amigos encajan todavía mejor."
+            },
+            {
+              "p": "El Profeta dijo:"
+            },
+            {
+              "quote": "Siempre que la amabilidad esté presente en un asunto, lo embellecerá; mientras que, si no está presente, lo deteriorará.",
+              "cite": "Sahih Muslim 2594"
+            },
+            {
+              "quote": "Faciliten las cosas y no las dificulten. Sean portadores de buenas noticias y no de malas.",
+              "cite": "Sahih al-Bujari 69 y Sahih Muslim 1734 (registrado por ambos)"
+            }
+          ]
+        }
       },
       {
         "h": "Sé sincero cuando no sepas algo"
       },
       {
-        "p": "Te harán preguntas que todavía no puedes responder. Es normal, incluso para quienes han sido musulmanes toda la vida. El compañero Abdullah ibn Mas'ud, que Allah esté complacido con él, dijo:"
+        "p": "Te harán preguntas que todavía no puedes responder. Es normal, incluso para quienes han sido musulmanes toda la vida."
       },
       {
-        "quote": "¡Oh, gente! Quien de ustedes sepa algo que lo diga, quien no sepa que diga: Allah sabe más.",
-        "cite": "Sahih al-Bujari 4774"
+        "scenario": {
+          "situation": "Un compañero de trabajo te hace una pregunta difícil sobre el Islam y no sabes la respuesta.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "Es una buena pregunta. Todavía no lo sé, pero lo voy a averiguar."
+            }
+          ]
+        }
       },
       {
         "phrase": {
           "arabic": "اللَّهُ أَعْلَمُ",
           "transliteration": "Allahu a'lam",
-          "meaning": "Allah sabe más."
+          "meaning": "Allah sabe más.",
+          "audio": "/audio/phrases/res-dawah-basics-1.mp3"
         }
       },
       {
-        "p": "Está muy bien decir: «Es una buena pregunta. Todavía no lo sé, pero lo voy a averiguar». Luego pregúntale a un imam o a un maestro de confianza. Nunca adivines lo que Allah o el Profeta dijeron. En el mismo hadiz en que dijo «comuniquen mi mensaje», el Profeta advirtió con fuerza contra decir a propósito algo falso sobre él (Sahih al-Bujari 3461). Y el Corán dice: «No hagan ni digan nada si no tienen conocimiento.» (17:36)."
+        "p": "Luego pregúntale a un imam o a un maestro de confianza. Nunca adivines lo que Allah o el Profeta dijeron."
+      },
+      {
+        "more": {
+          "title": "Por qué no adivinar",
+          "blocks": [
+            {
+              "p": "El compañero Abdullah ibn Mas'ud, que Allah esté complacido con él, dijo:"
+            },
+            {
+              "quote": "¡Oh, gente! Quien de ustedes sepa algo que lo diga, quien no sepa que diga: Allah sabe más.",
+              "cite": "Sahih al-Bujari 4774"
+            },
+            {
+              "p": "En el mismo hadiz en que dijo «comuniquen mi mensaje», el Profeta advirtió con fuerza contra decir a propósito algo falso sobre él (Sahih al-Bujari 3461). Y el Corán dice: «No hagan ni digan nada si no tienen conocimiento.» (17:36)."
+            }
+          ]
+        }
       },
       {
         "h": "Evita las discusiones"
       },
       {
-        "p": "Dialogar es bueno; discutir para ganar no lo es. El Profeta dijo: «Yo garantizo una casa en los alrededores del Jardín para quien abandone la discusión aunque tenga razón...» (Sunan Abi Dawud 4800, calificado como hasan). Si una conversación se pone tensa, puedes terminarla con amabilidad: «No creo que lo resolvamos hoy, pero me alegra que me lo hayas preguntado»."
+        "p": "Dialogar es bueno; discutir para ganar no lo es."
       },
       {
-        "p": "Recuerda que guiar los corazones es obra de Allah, no tuya. Allah le dijo al mismo Profeta: «Tú no puedes guiar a quien amas, sino que Dios guía a quien Él quiere. Él sabe quiénes seguirán la guía.» (28:56). Y también: «no se puede forzar a nadie a creer» (2:256). Tu parte es compartir con amabilidad. Los resultados le pertenecen a Allah."
+        "p": "El Profeta dijo: «Yo garantizo una casa en los alrededores del Jardín para quien abandone la discusión aunque tenga razón...» (Sunan Abi Dawud 4800, calificado como hasan)."
+      },
+      {
+        "scenario": {
+          "situation": "Si una conversación se pone tensa, puedes terminarla con amabilidad.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "No creo que lo resolvamos hoy, pero me alegra que me lo hayas preguntado."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Guiar los corazones es obra de Allah, no tuya. Tu parte es compartir con amabilidad. Los resultados le pertenecen a Allah."
+      },
+      {
+        "more": {
+          "title": "Las palabras de Allah al Profeta",
+          "blocks": [
+            {
+              "p": "Allah le dijo al mismo Profeta: «Tú no puedes guiar a quien amas, sino que Dios guía a quien Él quiere. Él sabe quiénes seguirán la guía.» (28:56). Y también: «no se puede forzar a nadie a creer» (2:256)."
+            }
+          ]
+        }
       },
       {
         "h": "Cuidar a tu familia"
       },
       {
-        "p": "Puede que tu familia se sienta confundida, herida o preocupada por tu nueva fe. El Islam te pide que sigas tratándola con amor y respeto. Incluso sobre los padres que presionan a su hijo para adorar a otros además de Allah, el Corán dice: «no los obedezcan pero trátenlos con respeto» (31:15)."
+        "p": "Puede que tu familia se sienta confundida, herida o preocupada por tu nueva fe. El Islam te pide que sigas tratándola con amor y respeto."
       },
       {
-        "p": "La compañera Asma bint Abi Bakr, que Allah esté complacido con ella, recibió la visita de su madre, que no era musulmana. Le preguntó al Profeta si debía mantener buenos lazos con ella. Él respondió: «Sí, mantén los buenos lazos con tu madre» (Sahih al-Bujari 2620 y Sahih Muslim 1003)."
+        "p": "Incluso sobre los padres que presionan a su hijo para adorar a otros además de Allah, el Corán dice:"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "No los obedezcan en eso",
+            "items": [
+              "No en adorar a otros además de Allah"
+            ]
+          },
+          "second": {
+            "title": "Pero",
+            "items": [
+              "«trátenlos con respeto» (31:15)"
+            ]
+          }
+        }
+      },
+      {
+        "p": "La compañera Asma bint Abi Bakr, que Allah esté complacido con ella, recibió la visita de su madre, que no era musulmana. Le preguntó al Profeta si debía mantener buenos lazos con ella."
+      },
+      {
+        "p": "Él respondió: «Sí, mantén los buenos lazos con tu madre» (Sahih al-Bujari 2620 y Sahih Muslim 1003)."
       },
       {
         "steps": {

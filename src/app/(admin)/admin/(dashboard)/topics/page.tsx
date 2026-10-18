@@ -39,10 +39,8 @@ export default async function TopicsPage({
     name: t.name,
     slug: t.slug,
     icon: t.icon || "",
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     parent: (() => {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const p = t.parent as any;
+      const p = t.parent as unknown as { _id: unknown; name: { en: string; ar: string; es: string }; slug: unknown } | null;
       if (p && typeof p === "object" && "name" in p) {
         return {
           _id: String(p._id),

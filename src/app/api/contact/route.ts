@@ -1,17 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendContactFormEmail } from "@/lib/email";
-import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { rateLimitShared, getClientIp } from "@/lib/rate-limit";
 import { contactSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
     const ip = getClientIp(request.headers);
-    const limit = rateLimit(`contact:${ip}`, 3, 15 * 60 * 1000);
+    const limit = await rateLimitShared(`contact:${ip}`, 3, 15 * 60 * 1000);
     if (!limit.success) {
       return NextResponse.json({ error: "rate_limit" }, { status: 429 });
     }
 
-    const body = await request.json();
+    const body = await request.json().catch(() => null);
+    if (!body || typeof body !== "object") {
+      return NextResponse.json({ error: "invalid_input" }, { status: 400 });
+    }
 
     // Honeypot — real users can't see this field; bots fill it.
     if (typeof body?.website === "string" && body.website.trim() !== "") {

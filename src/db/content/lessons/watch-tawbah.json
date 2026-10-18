@@ -1,0 +1,41 @@
+{
+  "slug": "watch-tawbah",
+  "minutes": 5,
+  "title": {
+    "en": "Repentance (tawbah)",
+    "ar": "التوبة",
+    "es": "El arrepentimiento (tawbah)"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Mufti Menk on turning back to Allah in repentance and starting again with a clean slate."
+      }
+    ],
+    "ar": [
+      {
+        "p": "المفتي إسماعيل منك عن الرجوع إلى الله بالتوبة وبدء صفحة جديدة."
+      }
+    ],
+    "es": [
+      {
+        "p": "Mufti Menk sobre volver a Allah con arrepentimiento y empezar de nuevo con el corazón limpio."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=PtynQ_TznW8",
+    "title": {
+      "en": "Repentance (tawbah)",
+      "ar": "التوبة",
+      "es": "El arrepentimiento (tawbah)"
+    },
+    "by": {
+      "en": "Mufti Ismail Menk",
+      "ar": "المفتي إسماعيل منك",
+      "es": "Mufti Ismail Menk"
+    },
+    "seconds": 290
+  }
+}

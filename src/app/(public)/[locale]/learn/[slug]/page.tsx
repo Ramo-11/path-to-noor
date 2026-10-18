@@ -24,6 +24,9 @@ import {
   titleLanguage,
 } from "@/components/lesson/lesson-context";
 import { excerpt, leadVideo } from "@/components/lesson/tiptap";
+import { LessonFeedback } from "@/components/feedback/LessonFeedback";
+import { ShareButton } from "@/components/feedback/ShareButton";
+import { OG_LOCALES } from "@/components/feedback/og-locale";
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -53,7 +56,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `/${locale}/learn/${slug}`,
       languages: { en: `/en/learn/${slug}`, ar: `/ar/learn/${slug}`, es: `/es/learn/${slug}` },
     },
-    openGraph: { type: "article", title, description: description || undefined },
+    openGraph: {
+      type: "article",
+      title,
+      description: description || undefined,
+      url: `/${locale}/learn/${slug}`,
+      siteName: "Basmet Dawah",
+      locale: OG_LOCALES[locale] ?? OG_LOCALES.en,
+    },
+    twitter: { card: "summary_large_image", title, description: description || undefined },
     robots: lesson.guestAccessible && lesson.audience !== "mentor" ? undefined : { index: false },
   };
 }
@@ -131,7 +142,7 @@ export default async function LessonPage({ params }: PageProps) {
       : null;
 
   return (
-    <LessonProgressProvider lessonId={lesson.id} initialDone={isDone}>
+    <LessonProgressProvider lessonId={lesson.id} lessonSlug={lesson.slug} initialDone={isDone}>
       <LessonContextBar
         place={place}
         lessonId={lesson.id}
@@ -163,6 +174,11 @@ export default async function LessonPage({ params }: PageProps) {
               ) : null}
               {signedIn ? <DoneMark /> : null}
             </p>
+          ) : null}
+          {picked.hasContent ? (
+            <div className="mt-5">
+              <ShareButton kind="lesson" slug={slug} title={title} />
+            </div>
           ) : null}
           {picked.isFallback ? (
             <p className="mt-5 max-w-[60ch] text-meta text-ink-2">
@@ -229,6 +245,8 @@ export default async function LessonPage({ params }: PageProps) {
             />
           </div>
         ) : null}
+
+        {picked.hasContent ? <LessonFeedback lessonSlug={slug} className="mt-10 sm:mt-12" /> : null}
 
         <LessonPager
           previous={place.previous}

@@ -1,5 +1,7 @@
 import { auth } from "@/lib/auth-config";
 import { NextResponse } from "next/server";
+import { connectDB } from "@/db/connection";
+import { User } from "@/db/models/User";
 
 interface AdminSession {
   user: {
@@ -18,33 +20,39 @@ export function isAdminSession(result: AuthResult): result is AdminSession {
   return !(result instanceof NextResponse);
 }
 
-export async function requireAdmin(): Promise<AuthResult> {
+export async function getCurrentAdmin(requireSuper = false): Promise<AdminSession | null> {
   const session = await auth();
+  if (!session?.user?.id) return null;
 
-  if (!session?.user) {
+  await connectDB();
+  const dbUser = await User.findById(session.user.id).select("role isActive").lean();
+  if (!dbUser || !dbUser.isActive) return null;
+
+  const allowed = requireSuper
+    ? dbUser.role === "super_admin"
+    : dbUser.role === "admin" || dbUser.role === "super_admin";
+  if (!allowed) return null;
+
+  return { user: { ...session.user, role: dbUser.role } };
+}
+
+async function guard(requireSuper: boolean): Promise<AuthResult> {
+  const session = await auth();
+  if (!session?.user?.id) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const isAdmin =
-    session.user.role === "admin" || session.user.role === "super_admin";
-
-  if (!isAdmin) {
+  const admin = await getCurrentAdmin(requireSuper);
+  if (!admin) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
+  return admin;
+}
 
-  return { user: session.user };
+export async function requireAdmin(): Promise<AuthResult> {
+  return guard(false);
 }
 
 export async function requireSuperAdmin(): Promise<AuthResult> {
-  const session = await auth();
-
-  if (!session?.user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  if (session.user.role !== "super_admin") {
-    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
-  }
-
-  return { user: session.user };
+  return guard(true);
 }

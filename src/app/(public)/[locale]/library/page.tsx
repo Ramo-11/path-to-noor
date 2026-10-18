@@ -46,21 +46,20 @@ export default async function LibraryPage({
   const rootTopicIds = rootTopics.map((topic) => topic._id);
 
   await connectDB();
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const modules = (await Module.find({
     ...moduleAudienceFilter(ctx),
     topics: { $in: rootTopicIds },
   })
     .select("topics lessons")
     .populate({ path: "lessons.lessonId", select: "_id", match: { published: true } })
-    .lean()) as any[];
+    .lean()) as unknown as {
+    topics?: { toString(): string }[];
+    lessons?: { lessonId?: unknown }[];
+  }[];
 
   const lessonCountByTopic = new Map<string, number>();
   for (const mod of modules) {
-    const publishedLessonCount = (mod.lessons || []).filter(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (entry: any) => entry.lessonId
-    ).length;
+    const publishedLessonCount = (mod.lessons || []).filter((entry) => entry.lessonId).length;
     for (const topicId of mod.topics || []) {
       const tid = topicId.toString();
       lessonCountByTopic.set(tid, (lessonCountByTopic.get(tid) || 0) + publishedLessonCount);

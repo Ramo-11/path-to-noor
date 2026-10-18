@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Layers, Pencil, Trash2 } from "lucide-react";
+import { Layers, Pencil } from "lucide-react";
 import { getModules } from "@/lib/data";
 import { paginationSchema } from "@/lib/validations";
 import { AdminPageHeader } from "@/components/admin/AdminPageHeader";

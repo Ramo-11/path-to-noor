@@ -1,6 +1,6 @@
 {
   "slug": "seerah-makkah-years",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "The Makkah years: calling to Allah with patience",
     "ar": "العهد المكي: الدعوة والصبر",
@@ -9,76 +9,61 @@
   "body": {
     "en": [
       {
-        "p": "For thirteen years after the first revelation, the Prophet Muhammad, peace be upon him, lived and taught in Makkah. These years were hard. The message was new, the believers were few, and many powerful people of Makkah fought against it. Yet this is where the strongest faith was built, and where the Prophet showed how to answer hardship with patience."
+        "p": "For thirteen years after the first revelation, the Prophet Muhammad, peace be upon him, called people to Allah in Makkah and showed how to answer hardship with patience."
       },
       {
-        "h": "Starting with those closest to him"
-      },
-      {
-        "p": "At first he invited people quietly: his family and close friends. Among the first to believe were his wife Khadijah, his close friend **Abu Bakr**, and his young cousin **Ali ibn Abi Talib**, may Allah be pleased with them. Then Allah commanded him:"
-      },
-      {
-        "quote": "And warn, [O Muhammad], your closest kindred.",
-        "cite": "Quran 26:214 (Saheeh International translation of the meaning)"
-      },
-      {
-        "p": "He climbed the hill of **Safa**, near the Kaaba, and called the clans of Quraysh by name until they gathered. He asked them: if I told you that horsemen in the valley were about to attack you, would you believe me? They said yes, for they had only ever known him to tell the truth. Then he said:"
-      },
-      {
-        "quote": "I am a warner to you in face of a terrific punishment.",
-        "cite": "Sahih al-Bukhari 4770"
-      },
-      {
-        "p": "His own uncle, Abu Lahab, answered him with insults, and many others turned away."
+        "timeline": {
+          "title": "Calling in Makkah",
+          "events": [
+            {
+              "when": "At first",
+              "text": "He invited his family and close friends quietly. Khadijah, **Abu Bakr** and **Ali ibn Abi Talib**, may Allah be pleased with them, were among the first to believe."
+            },
+            {
+              "when": "Then",
+              "text": "Allah commanded him to warn his closest kindred. He called the clans of Quraysh from the hill of **Safa**, and his uncle Abu Lahab answered with insults."
+            },
+            {
+              "when": "As Islam grew",
+              "text": "Opposition grew harsh. His uncle Abu Talib protected him in part, but the weakest believers suffered most."
+            },
+            {
+              "when": "About ten years in",
+              "text": "He lost his uncle Abu Talib and Khadijah, the two who supported him most. Muslims call this the Year of Sorrow."
+            }
+          ]
+        }
       },
       {
         "h": "Persecution and patience"
       },
       {
-        "p": "As more people accepted Islam, the opposition grew harsh. The Prophet was protected in part by his uncle Abu Talib, but the weakest believers, especially those who were enslaved or had no tribe to defend them, suffered the most. **Bilal ibn Rabah**, may Allah be pleased with him, was among those tortured for their faith. Through it all he kept repeating: \"*Ahad, Ahad*\", \"One, One\", meaning Allah is One (Sunan Ibn Majah 150). You will learn his full story in the lessons on the companions."
+        "p": "Those who were enslaved or had no tribe to defend them suffered the most. **Bilal ibn Rabah**, may Allah be pleased with him, kept repeating \"*Ahad, Ahad*\", \"One, One\", meaning Allah is One (Sunan Ibn Majah 150)."
       },
       {
-        "p": "The Prophet himself was harmed. Once, while he was praying, a man named Uqbah ibn Abi Mu'ayt twisted his garment around the Prophet's neck and choked him hard. Abu Bakr rushed in, pushed him away, and recited words from the Quran (Sahih al-Bukhari 3678):"
-      },
-      {
-        "quote": "Do you kill a man [merely] because he says, 'My Lord is Allah' while he has brought you clear proofs from your Lord?",
-        "cite": "Quran 40:28 (Saheeh International translation of the meaning)"
-      },
-      {
-        "p": "Looking back on those years, the Prophet said:"
-      },
-      {
-        "quote": "I have been intimidated in the path of Allah at a time when no one else was intimidated, and I have been harmed for the sake of Allah at a time when no one else was harmed",
-        "cite": "Sunan al-Tirmidhi 2472 (graded authentic)"
+        "p": "The Prophet himself was harmed. Once, while he prayed, Uqbah ibn Abi Mu'ayt choked him with his garment, and Abu Bakr pushed him away and recited from the Quran (Sahih al-Bukhari 3678)."
       },
       {
         "h": "\"But you are rushing\""
       },
       {
-        "p": "The companion Khabbab ibn al-Aratt, may Allah be pleased with him, came to the Prophet while he was resting in the shade of the Kaaba, and asked him to pray for their victory. The Prophet reminded him that believers before them had endured terrible torture without giving up their faith, and then said:"
+        "p": "Khabbab ibn al-Aratt, may Allah be pleased with him, asked the Prophet to pray for their victory. The Prophet reminded him that believers before them had endured terrible torture without giving up their faith, and said:"
       },
       {
         "quote": "By Allah, Allah will bring this matter (Islam) to its completion until the traveler will walk from Sana'a to Hadramaut fearing none except Allah and the wolf for his sheep, but you are rushing things.",
         "cite": "Sahih al-Bukhari 3612"
       },
       {
-        "p": "This is a lesson for every new Muslim. Change takes time. Be patient with yourself, with your family, and with the people around you."
+        "p": "Change takes time. Be patient with yourself, with your family, and with the people around you."
       },
       {
         "h": "The year of sorrow"
       },
       {
-        "p": "About ten years into his mission, the Prophet lost the two people who had supported him most. His uncle **Abu Talib**, who had protected him for years but never accepted Islam, was dying. The Prophet sat with him and pleaded:"
+        "p": "The Prophet pleaded with Abu Talib to say *La ilaha illallah*, but Abu Talib died without saying it. The Prophet loved his uncle and kept caring for him to the very end."
       },
       {
-        "quote": "O uncle, say: La ilāha illallāh (there is no god but Allah), a word with which I can defend you before Allah.",
-        "cite": "Sahih al-Bukhari 3884 and Sahih Muslim 24 (agreed upon)"
-      },
-      {
-        "p": "Abu Talib died without saying it, and the Prophet grieved deeply. If you have family members who are not Muslim, you may feel this moment in your own heart: the Prophet loved his uncle and kept caring for him to the very end. Around the same time, **Khadijah** died, three years before the migration to Madinah (Sahih al-Bukhari 3896). Muslims often call this time the Year of Sorrow."
-      },
-      {
-        "p": "Around this time he also went to the town of **Ta'if** to invite its leaders to Islam, and they rejected him harshly. He later told Aisha, may Allah be pleased with her, that this was the hardest day he faced. As he walked away in grief, the angel Jibril, peace be upon him, came with the angel of the mountains, who offered to crush the people who had hurt him between two mountains. The Prophet answered:"
+        "p": "At the town of **Ta'if**, its leaders rejected him harshly. He told Aisha, may Allah be pleased with her, it was the hardest day he faced. The angel of the mountains offered to crush the people who had hurt him between two mountains. The Prophet answered:"
       },
       {
         "quote": "No but I hope that Allah will let them beget children who will worship Allah Alone, and will worship None besides Him",
@@ -104,80 +89,116 @@
       },
       {
         "p": "Next: the migration to Madinah, where the first Muslim community was born."
+      },
+      {
+        "more": {
+          "title": "Verses, sayings and details",
+          "blocks": [
+            {
+              "p": "Allah commanded him:"
+            },
+            {
+              "quote": "And warn, [O Muhammad], your closest kindred.",
+              "cite": "Quran 26:214 (Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "He climbed Safa and called the clans of Quraysh by name until they gathered. He asked them: if I told you that horsemen in the valley were about to attack you, would you believe me? They said yes, for they had only ever known him to tell the truth. Then he said:"
+            },
+            {
+              "quote": "I am a warner to you in face of a terrific punishment.",
+              "cite": "Sahih al-Bukhari 4770"
+            },
+            {
+              "p": "When Uqbah choked him, Abu Bakr recited:"
+            },
+            {
+              "quote": "Do you kill a man [merely] because he says, 'My Lord is Allah' while he has brought you clear proofs from your Lord?",
+              "cite": "Quran 40:28 (Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "Looking back on those years, the Prophet said:"
+            },
+            {
+              "quote": "I have been intimidated in the path of Allah at a time when no one else was intimidated, and I have been harmed for the sake of Allah at a time when no one else was harmed",
+              "cite": "Sunan al-Tirmidhi 2472 (graded authentic)"
+            },
+            {
+              "p": "He sat with Abu Talib and pleaded:"
+            },
+            {
+              "quote": "O uncle, say: La ilāha illallāh (there is no god but Allah), a word with which I can defend you before Allah.",
+              "cite": "Sahih al-Bukhari 3884 and Sahih Muslim 24 (agreed upon)"
+            },
+            {
+              "p": "If you have family members who are not Muslim, you may feel this moment in your own heart."
+            },
+            {
+              "p": "Khadijah died three years before the migration to Madinah (Sahih al-Bukhari 3896)."
+            },
+            {
+              "p": "You will learn Bilal's full story in the lessons on the companions."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "ثلاث عشرة سنة بعد نزول الوحي عاشها النبي محمد صلى الله عليه وسلم في مكة يدعو ويعلّم. وكانت سنوات صعبة: الرسالة جديدة، والمؤمنون قليل، وكثير من أشراف مكة يحاربونها. لكن فيها بُني أقوى الإيمان، وفيها علّمنا النبي صلى الله عليه وسلم كيف نقابل الشدة بالصبر."
+        "p": "ثلاث عشرة سنة بعد نزول الوحي دعا النبي محمد صلى الله عليه وسلم الناس إلى الله في مكة، وعلّمنا كيف نقابل الشدة بالصبر."
       },
       {
-        "h": "البدء بالأقربين"
-      },
-      {
-        "p": "دعا في البداية سرًّا أهله وأصدقاءه المقربين، وكان من أوائل من آمن زوجه خديجة، وصديقه **أبو بكر الصديق**، وابن عمه الصغير **علي بن أبي طالب** رضي الله عنهم. ثم أمره الله تعالى فقال:"
-      },
-      {
-        "quote": "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ",
-        "cite": "سورة الشعراء، الآية 214"
-      },
-      {
-        "p": "أي حذّر الأقرب فالأقرب من قومك. فصعد **الصفا** قرب الكعبة، ونادى بطون قريش حتى اجتمعوا، فسألهم: لو أخبرتكم أن خيلًا بالوادي تريد أن تغير عليكم أكنتم مصدّقيّ؟ قالوا: نعم، ما جرّبنا عليك إلا صدقًا. فقال:"
-      },
-      {
-        "quote": "فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ",
-        "cite": "صحيح البخاري 4770"
-      },
-      {
-        "p": "فردّ عليه عمه أبو لهب بالسبّ، وأعرض كثيرون."
+        "timeline": {
+          "title": "الدعوة في مكة",
+          "events": [
+            {
+              "when": "في البداية",
+              "text": "دعا سرًّا أهله وأصدقاءه المقربين، وكان من أوائل من آمن خديجة و**أبو بكر الصديق** و**علي بن أبي طالب** رضي الله عنهم."
+            },
+            {
+              "when": "ثم",
+              "text": "أمره الله أن ينذر عشيرته الأقربين، فنادى بطون قريش من على **الصفا**، فردّ عليه عمه أبو لهب بالسبّ."
+            },
+            {
+              "when": "مع انتشار الإسلام",
+              "text": "اشتدّت المعارضة. وحماه عمه أبو طالب، أما المستضعفون فنالهم أشدّ الأذى."
+            },
+            {
+              "when": "بعد نحو عشر سنين",
+              "text": "فقد عمَّه أبا طالب وخديجة، أكثر من سانده. ويسمّي المسلمون هذه الفترة عام الحزن."
+            }
+          ]
+        }
       },
       {
         "h": "الأذى والصبر"
       },
       {
-        "p": "ولما كثر الداخلون في الإسلام اشتدّت المعارضة. وكان النبي صلى الله عليه وسلم محميًّا بعمه أبي طالب، أما المستضعفون، ولا سيما العبيد ومن لا عشيرة لهم، فقد نالهم أشدّ الأذى. وكان **بلال بن رباح** رضي الله عنه ممن عُذّبوا في الله، فكان يردّد: «أَحَدٌ أَحَدٌ» (سنن ابن ماجه 150)، أي الله واحد. وستتعرّف على قصته كاملة في دروس الصحابة."
+        "p": "وأشدّ من نالهم الأذى العبيد ومن لا عشيرة لهم. وكان **بلال بن رباح** رضي الله عنه يردّد: «أَحَدٌ أَحَدٌ» (سنن ابن ماجه 150)، أي الله واحد."
       },
       {
-        "p": "وأوذي النبي صلى الله عليه وسلم بنفسه، فبينما هو يصلي جاء عقبة بن أبي معيط فلفّ رداءه على عنقه وخنقه خنقًا شديدًا، فأقبل أبو بكر فدفعه عنه وتلا من القرآن (صحيح البخاري 3678):"
-      },
-      {
-        "quote": "أَتَقْتُلُونَ رَجُلًا أَن يَقُولَ رَبِّىَ ٱللَّهُ وَقَدْ جَآءَكُم بِٱلْبَيِّنَٰتِ مِن رَّبِّكُمْ",
-        "cite": "سورة غافر، الآية 28"
-      },
-      {
-        "p": "وقال النبي صلى الله عليه وسلم يصف تلك السنوات:"
-      },
-      {
-        "quote": "لَقَدْ أُخِفْتُ فِي اللَّهِ وَمَا يُخَافُ أَحَدٌ وَلَقَدْ أُوذِيتُ فِي اللَّهِ وَمَا يُؤْذَى أَحَدٌ",
-        "cite": "سنن الترمذي 2472 (حديث صحيح)"
+        "p": "وأوذي النبي صلى الله عليه وسلم بنفسه، فبينما هو يصلي لفّ عقبة بن أبي معيط رداءه على عنقه وخنقه، فدفعه عنه أبو بكر وتلا من القرآن (صحيح البخاري 3678)."
       },
       {
         "h": "«ولكنكم تستعجلون»"
       },
       {
-        "p": "جاء خبّاب بن الأرتّ رضي الله عنه إلى النبي صلى الله عليه وسلم وهو متوسّد بردة له في ظل الكعبة، فطلب منه أن يدعو لهم بالنصر، فذكّره النبي صلى الله عليه وسلم بأن المؤمنين قبلهم عُذّبوا أشدّ العذاب فما صدّهم ذلك عن دينهم، ثم قال:"
+        "p": "جاء خبّاب بن الأرتّ رضي الله عنه إلى النبي صلى الله عليه وسلم يطلب منه أن يدعو لهم بالنصر، فذكّره بأن المؤمنين قبلهم عُذّبوا أشدّ العذاب فما صدّهم ذلك عن دينهم، ثم قال:"
       },
       {
         "quote": "والله لَيُتِمَّنَّ الله هذا الأمر حتى يسير الراكب من صنعاء إلى حضرموت لا يخاف إلا الله والذئب على غَنَمِه، ولكنكم تستعجلون",
         "cite": "صحيح البخاري 3612"
       },
       {
-        "p": "وهذا درس لكل مسلم جديد: التغيير يحتاج إلى وقت، فاصبر على نفسك، وعلى أهلك، وعلى من حولك."
+        "p": "التغيير يحتاج إلى وقت، فاصبر على نفسك، وعلى أهلك، وعلى من حولك."
       },
       {
         "h": "عام الحزن"
       },
       {
-        "p": "بعد نحو عشر سنين من البعثة فقد النبي صلى الله عليه وسلم أكثر من سانده. فحين حضرت الوفاة عمَّه **أبا طالب**، الذي حماه سنين ولم يسلم، جلس عنده يرجوه:"
+        "p": "رجا النبي صلى الله عليه وسلم عمَّه أبا طالب أن يقول «لا إله إلا الله»، فمات ولم يقلها. وقد أحبّه النبي وظلّ حريصًا عليه إلى آخر لحظة."
       },
       {
-        "quote": "أَيْ عَمِّ، قُلْ: لَا إِلَهَ إِلَّا اللهُ، كَلِمَةً أُحَاجُّ لَكَ بِهَا عِنْدَ اللهِ",
-        "cite": "صحيح البخاري 3884، وصحيح مسلم 24 (متفق عليه)"
-      },
-      {
-        "p": "فمات أبو طالب ولم يقلها، فحزن النبي صلى الله عليه وسلم حزنًا شديدًا. وإن كان في أهلك من لم يسلم فلعلك تشعر بهذا الموقف في قلبك: لقد أحبّ النبي صلى الله عليه وسلم عمّه وظلّ حريصًا عليه إلى آخر لحظة. وفي الفترة نفسها توفيت **خديجة** رضي الله عنها قبل الهجرة بثلاث سنين (صحيح البخاري 3896). ويسمّي المسلمون هذه الفترة عام الحزن."
-      },
-      {
-        "p": "وفي تلك الفترة أيضًا ذهب إلى **الطائف** يدعو زعماءها إلى الإسلام، فردّوه ردًّا قاسيًا، وأخبر عائشة رضي الله عنها لاحقًا أنه كان أشدّ ما لقي. وبينما هو منصرف مهمومًا جاءه جبريل عليه السلام ومعه ملك الجبال، فعرض عليه أن يطبق عليهم الجبلين، فقال النبي صلى الله عليه وسلم:"
+        "p": "وفي **الطائف** ردّه زعماؤها ردًّا قاسيًا، وأخبر عائشة رضي الله عنها أنه كان أشدّ ما لقي. فعرض عليه ملك الجبال أن يطبق عليهم الجبلين، فقال النبي صلى الله عليه وسلم:"
       },
       {
         "quote": "بَلْ أَرْجُو أَنْ يُخْرِجَ اللَّهُ مِنْ أَصْلاَبِهِمْ مَنْ يَعْبُدُ اللَّهَ وَحْدَهُ لاَ يُشْرِكُ بِهِ شَيْئًا",
@@ -203,80 +224,116 @@
       },
       {
         "p": "في الدرس القادم: الهجرة إلى المدينة، حيث وُلد أول مجتمع مسلم."
+      },
+      {
+        "more": {
+          "title": "آيات وأحاديث وتفاصيل",
+          "blocks": [
+            {
+              "p": "أمره الله تعالى فقال:"
+            },
+            {
+              "quote": "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ",
+              "cite": "سورة الشعراء، الآية 214"
+            },
+            {
+              "p": "أي حذّر الأقرب فالأقرب من قومك. فصعد **الصفا** قرب الكعبة، ونادى بطون قريش حتى اجتمعوا، فسألهم: لو أخبرتكم أن خيلًا بالوادي تريد أن تغير عليكم أكنتم مصدّقيّ؟ قالوا: نعم، ما جرّبنا عليك إلا صدقًا. فقال:"
+            },
+            {
+              "quote": "فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ",
+              "cite": "صحيح البخاري 4770"
+            },
+            {
+              "p": "وحين خنقه عقبة تلا أبو بكر:"
+            },
+            {
+              "quote": "أَتَقْتُلُونَ رَجُلًا أَن يَقُولَ رَبِّىَ ٱللَّهُ وَقَدْ جَآءَكُم بِٱلْبَيِّنَٰتِ مِن رَّبِّكُمْ",
+              "cite": "سورة غافر، الآية 28"
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم يصف تلك السنوات:"
+            },
+            {
+              "quote": "لَقَدْ أُخِفْتُ فِي اللَّهِ وَمَا يُخَافُ أَحَدٌ وَلَقَدْ أُوذِيتُ فِي اللَّهِ وَمَا يُؤْذَى أَحَدٌ",
+              "cite": "سنن الترمذي 2472 (حديث صحيح)"
+            },
+            {
+              "p": "وجلس عند أبي طالب يرجوه:"
+            },
+            {
+              "quote": "أَيْ عَمِّ، قُلْ: لَا إِلَهَ إِلَّا اللهُ، كَلِمَةً أُحَاجُّ لَكَ بِهَا عِنْدَ اللهِ",
+              "cite": "صحيح البخاري 3884، وصحيح مسلم 24 (متفق عليه)"
+            },
+            {
+              "p": "وإن كان في أهلك من لم يسلم فلعلك تشعر بهذا الموقف في قلبك."
+            },
+            {
+              "p": "وتوفيت خديجة رضي الله عنها قبل الهجرة بثلاث سنين (صحيح البخاري 3896)."
+            },
+            {
+              "p": "وستتعرّف على قصة بلال كاملة في دروس الصحابة."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "Durante trece años después de la primera revelación, el Profeta Muhammad, la paz sea con él, vivió y enseñó en La Meca. Fueron años duros. El mensaje era nuevo, los creyentes eran pocos y muchos poderosos de La Meca lo combatían. Sin embargo, allí se construyó la fe más firme, y allí el Profeta mostró cómo responder a la dificultad con paciencia."
+        "p": "Durante trece años después de la primera revelación, el Profeta Muhammad, la paz sea con él, llamó a la gente a Allah en La Meca y mostró cómo responder a la dificultad con paciencia."
       },
       {
-        "h": "Empezar por los más cercanos"
-      },
-      {
-        "p": "Al principio invitó en privado a su familia y a sus amigos cercanos. Entre los primeros en creer estuvieron su esposa Jadiya, su amigo íntimo **Abu Bakr** y su joven primo **Ali ibn Abi Talib**, que Allah esté complacido con ellos. Después Allah le ordenó:"
-      },
-      {
-        "quote": "Advierte a tus familiares cercanos.",
-        "cite": "Corán 26:214 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "Subió a la colina de **Safa**, cerca de la Kaaba, y llamó por su nombre a los clanes de Quraish hasta que se reunieron. Les preguntó: si les dijera que hay jinetes en el valle a punto de atacarlos, ¿me creerían? Dijeron que sí, porque nunca le habían conocido otra cosa que la verdad. Entonces dijo:"
-      },
-      {
-        "quote": "Yo soy para ustedes un advertidor ante un castigo severo.",
-        "cite": "Sahih al-Bujari 4770"
-      },
-      {
-        "p": "Su propio tío, Abu Lahab, le respondió con insultos, y muchos otros se apartaron."
+        "timeline": {
+          "title": "La llamada en La Meca",
+          "events": [
+            {
+              "when": "Al principio",
+              "text": "Invitó en privado a su familia y a sus amigos cercanos. Jadiya, **Abu Bakr** y **Ali ibn Abi Talib**, que Allah esté complacido con ellos, estuvieron entre los primeros en creer."
+            },
+            {
+              "when": "Después",
+              "text": "Allah le ordenó advertir a sus familiares cercanos. Llamó a los clanes de Quraish desde la colina de **Safa**, y su tío Abu Lahab le respondió con insultos."
+            },
+            {
+              "when": "Al crecer el Islam",
+              "text": "La oposición se volvió dura. Su tío Abu Talib lo protegía en parte, pero los creyentes más débiles sufrieron más."
+            },
+            {
+              "when": "Unos diez años después",
+              "text": "Perdió a su tío Abu Talib y a Jadiya, quienes más lo apoyaban. Los musulmanes llaman a este tiempo el Año de la Tristeza."
+            }
+          ]
+        }
       },
       {
         "h": "Persecución y paciencia"
       },
       {
-        "p": "A medida que más personas aceptaban el Islam, la oposición se volvió dura. El Profeta estaba protegido en parte por su tío Abu Talib, pero los creyentes más débiles, sobre todo los esclavizados o los que no tenían una tribu que los defendiera, sufrieron más. **Bilal ibn Rabah**, que Allah esté complacido con él, estuvo entre los torturados por su fe. En medio de todo seguía repitiendo: «*Ahad, Ahad*», «Uno, Uno», es decir, Allah es Uno (Sunan Ibn Mayah 150). Conocerás su historia completa en las lecciones sobre los compañeros."
+        "p": "Los esclavizados o los que no tenían tribu que los defendiera sufrieron más. **Bilal ibn Rabah**, que Allah esté complacido con él, seguía repitiendo: «*Ahad, Ahad*», «Uno, Uno», es decir, Allah es Uno (Sunan Ibn Mayah 150)."
       },
       {
-        "p": "El Profeta mismo fue agredido. Una vez, mientras rezaba, un hombre llamado Uqba ibn Abi Mu'ait le enrolló la ropa alrededor del cuello y lo estranguló con fuerza. Abu Bakr acudió corriendo, lo apartó y recitó palabras del Corán (Sahih al-Bujari 3678). (La traducción de Isa García usa la palabra «Dios» para Allah.)"
-      },
-      {
-        "quote": "¿Matarán a un hombre solo porque dice: ‘Dios es mi Señor’, siendo que les ha presentado milagros de su Señor?",
-        "cite": "Corán 40:28 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "Recordando aquellos años, el Profeta dijo:"
-      },
-      {
-        "quote": "He sido atemorizado por la causa de Allah cuando nadie más lo era, y he sido perjudicado por la causa de Allah cuando nadie más lo era.",
-        "cite": "Sunan at-Tirmidi 2472 (calificado como auténtico)"
+        "p": "El Profeta mismo fue agredido. Una vez, mientras rezaba, Uqba ibn Abi Mu'ait le enrolló la ropa al cuello y lo estranguló, y Abu Bakr lo apartó y recitó palabras del Corán (Sahih al-Bujari 3678)."
       },
       {
         "h": "«Pero ustedes tienen prisa»"
       },
       {
-        "p": "El compañero Jabbab ibn al-Aratt, que Allah esté complacido con él, vino al Profeta mientras descansaba a la sombra de la Kaaba y le pidió que rogara por su victoria. El Profeta le recordó que los creyentes anteriores habían soportado torturas terribles sin abandonar su fe, y luego dijo:"
+        "p": "El compañero Jabbab ibn al-Aratt, que Allah esté complacido con él, le pidió al Profeta que rogara por su victoria. El Profeta le recordó que los creyentes anteriores habían soportado torturas terribles sin abandonar su fe, y dijo:"
       },
       {
         "quote": "Por Allah, Allah completará este asunto hasta que un viajero vaya de Saná a Hadramaut sin temer a nadie más que a Allah, y al lobo por sus ovejas. Pero ustedes tienen prisa.",
         "cite": "Sahih al-Bujari 3612"
       },
       {
-        "p": "Esta es una lección para todo nuevo musulmán. El cambio lleva tiempo. Ten paciencia contigo mismo, con tu familia y con la gente que te rodea."
+        "p": "El cambio lleva tiempo. Ten paciencia contigo mismo, con tu familia y con la gente que te rodea."
       },
       {
         "h": "El año de la tristeza"
       },
       {
-        "p": "Unos diez años después del comienzo de su misión, el Profeta perdió a las dos personas que más lo habían apoyado. Su tío **Abu Talib**, que lo protegió durante años pero nunca aceptó el Islam, se estaba muriendo. El Profeta se sentó a su lado y le rogó:"
+        "p": "El Profeta le rogó a Abu Talib que dijera *la ilaha illa Allah*, pero murió sin decirlas. El Profeta amaba a su tío y siguió preocupándose por él hasta el final."
       },
       {
-        "quote": "Oh, tío, di: la ilaha illa Allah (no hay más divinidad que Allah), unas palabras con las que yo pueda abogar por ti ante Allah.",
-        "cite": "Sahih al-Bujari 3884 y Sahih Muslim 24 (registrado por ambos)"
-      },
-      {
-        "p": "Abu Talib murió sin decirlas, y el Profeta sintió una gran tristeza. Si tienes familiares que no son musulmanes, quizá sientas este momento en tu propio corazón: el Profeta amaba a su tío y siguió preocupándose por él hasta el final. Por la misma época murió **Jadiya**, tres años antes de la emigración a Medina (Sahih al-Bujari 3896). Los musulmanes suelen llamar a este tiempo el Año de la Tristeza."
-      },
-      {
-        "p": "También por esa época fue a la ciudad de **Taif** para invitar a sus líderes al Islam, y lo rechazaron con dureza. Más tarde le dijo a Aisha, que Allah esté complacido con ella, que ese fue el día más duro que vivió. Mientras se alejaba afligido, el ángel Yibril, la paz sea con él, vino con el ángel de las montañas, que le ofreció aplastar entre dos montañas a quienes lo habían herido. El Profeta respondió:"
+        "p": "En **Taif**, sus líderes lo rechazaron con dureza. Le dijo a Aisha, que Allah esté complacido con ella, que ese fue el día más duro que vivió. El ángel de las montañas le ofreció aplastar entre dos montañas a quienes lo habían herido. El Profeta respondió:"
       },
       {
         "quote": "No, sino que espero que Allah haga salir de sus descendientes a quienes adoren solo a Allah, sin asociarle nada.",
@@ -302,6 +359,57 @@
       },
       {
         "p": "A continuación: la emigración a Medina, donde nació la primera comunidad musulmana."
+      },
+      {
+        "more": {
+          "title": "Versículos, dichos y detalles",
+          "blocks": [
+            {
+              "p": "Allah le ordenó:"
+            },
+            {
+              "quote": "Advierte a tus familiares cercanos.",
+              "cite": "Corán 26:214 (traducción del significado de Isa García)"
+            },
+            {
+              "p": "Subió a la colina de Safa y llamó por su nombre a los clanes de Quraish hasta que se reunieron. Les preguntó: si les dijera que hay jinetes en el valle a punto de atacarlos, ¿me creerían? Dijeron que sí, porque nunca le habían conocido otra cosa que la verdad. Entonces dijo:"
+            },
+            {
+              "quote": "Yo soy para ustedes un advertidor ante un castigo severo.",
+              "cite": "Sahih al-Bujari 4770"
+            },
+            {
+              "p": "Cuando Uqba lo estranguló, Abu Bakr recitó. (La traducción de Isa García usa la palabra «Dios» para Allah.)"
+            },
+            {
+              "quote": "¿Matarán a un hombre solo porque dice: ‘Dios es mi Señor’, siendo que les ha presentado milagros de su Señor?",
+              "cite": "Corán 40:28 (traducción del significado de Isa García)"
+            },
+            {
+              "p": "Recordando aquellos años, el Profeta dijo:"
+            },
+            {
+              "quote": "He sido atemorizado por la causa de Allah cuando nadie más lo era, y he sido perjudicado por la causa de Allah cuando nadie más lo era.",
+              "cite": "Sunan at-Tirmidi 2472 (calificado como auténtico)"
+            },
+            {
+              "p": "Se sentó junto a Abu Talib y le rogó:"
+            },
+            {
+              "quote": "Oh, tío, di: la ilaha illa Allah (no hay más divinidad que Allah), unas palabras con las que yo pueda abogar por ti ante Allah.",
+              "cite": "Sahih al-Bujari 3884 y Sahih Muslim 24 (registrado por ambos)"
+            },
+            {
+              "p": "Si tienes familiares que no son musulmanes, quizá sientas este momento en tu propio corazón."
+            },
+            {
+              "p": "Jadiya murió tres años antes de la emigración a Medina (Sahih al-Bujari 3896)."
+            },
+            {
+              "p": "Conocerás la historia completa de Bilal en las lecciones sobre los compañeros."
+            }
+          ]
+        }
       }
     ]
   },

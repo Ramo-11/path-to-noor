@@ -1,0 +1,41 @@
+{
+  "slug": "watch-why-bad-things-happen",
+  "minutes": 14,
+  "title": {
+    "en": "Why do bad things happen?",
+    "ar": "لماذا تقع المصائب؟",
+    "es": "¿Por qué ocurren cosas malas?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Omar Suleiman gives a spiritual answer to one of the hardest questions people ask."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يقدّم د. عمر سليمان جوابًا إيمانيًا عن واحد من أصعب الأسئلة التي يطرحها الناس."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Omar Suleiman ofrece una respuesta espiritual a una de las preguntas más difíciles que se hace la gente."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=vg4cK0Xlsq0",
+    "title": {
+      "en": "Why do bad things happen?",
+      "ar": "لماذا تقع المصائب؟",
+      "es": "¿Por qué ocurren cosas malas?"
+    },
+    "by": {
+      "en": "Dr. Omar Suleiman",
+      "ar": "د. عمر سليمان",
+      "es": "Dr. Omar Suleiman"
+    },
+    "seconds": 840
+  }
+}

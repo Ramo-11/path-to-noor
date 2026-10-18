@@ -1,0 +1,18 @@
+{
+  "title": "Buscar lecciones",
+  "lead": "Encuentra una lección por su título o por lo que trata.",
+  "label": "Buscar lecciones",
+  "placeholder": "Buscar lecciones",
+  "clear": "Borrar búsqueda",
+  "hint": "Escribe al menos 2 letras para buscar.",
+  "searching": "Buscando",
+  "count": "Resultados: {count}",
+  "minutes": "{count} min",
+  "signInToRead": "Inicia sesión para leer",
+  "emptyTitle": "Ninguna lección coincide",
+  "emptyBody": "Prueba con otra palabra o explora los caminos.",
+  "browsePaths": "Explorar caminos",
+  "errorTitle": "No pudimos buscar ahora",
+  "errorBody": "Revisa tu conexión e inténtalo de nuevo.",
+  "retry": "Intentar de nuevo"
+}

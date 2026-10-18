@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { headers } from "next/headers";
 import { Readex_Pro, Amiri } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
@@ -6,6 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
 import { OnboardingRedirect } from "@/components/shared/OnboardingRedirect";
 import { PlacementSync } from "@/components/placement/PlacementSync";
+import { VerifyEmailBanner } from "@/components/auth/VerifyEmailBanner";
 import { SiteShell } from "@/components/layout/SiteShell";
 import { getSiteUrl } from "@/config/env";
 import "@/app/globals.css";
@@ -92,11 +94,13 @@ export default async function LocaleLayout({
   const dir = locale === "ar" ? "rtl" : "ltr";
   const messages = await getMessages();
   const t = await getTranslations("nav");
+  const nonce = (await headers()).get("x-nonce") ?? undefined;
 
   return (
-    <html lang={locale} dir={dir} suppressHydrationWarning>
+    <html lang={locale} dir={dir} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script
+          nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
@@ -122,6 +126,7 @@ export default async function LocaleLayout({
           <NextIntlClientProvider messages={messages}>
             <PlacementSync />
             <OnboardingRedirect />
+            <VerifyEmailBanner />
             <SiteShell>{children}</SiteShell>
           </NextIntlClientProvider>
         </SessionProvider>

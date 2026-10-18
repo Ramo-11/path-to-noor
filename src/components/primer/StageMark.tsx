@@ -7,7 +7,7 @@ interface StageMarkProps {
 }
 
 const sizes = {
-  sm: "size-6 text-xs rounded-full",
+  sm: "size-7 text-sm rounded-full",
   md: "size-9 text-base rounded-full",
   lg: "size-14 text-2xl rounded-2xl",
   xl: "size-20 text-4xl rounded-3xl",

@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-five-beliefs",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "What the pillars of faith mean in your life",
     "ar": "معنى أركان الإيمان في حياتك",
@@ -9,7 +9,7 @@
   "body": {
     "en": [
       {
-        "p": "Beliefs are not only ideas to memorize. Each pillar of faith changes how you see your day. Here is each one in a few lines, with what Allah and His Messenger said about it."
+        "p": "Each pillar of faith changes how you see your day. Here is each one in a few lines, with what Allah and His Messenger said about it."
       },
       {
         "h": "Allah"
@@ -22,76 +22,125 @@
         "cite": "Quran 112:1-4 (Saheeh International translation)"
       },
       {
-        "p": "**In daily life:** every good thing you have comes from Him, so you thank Him. Every need you have, you can bring to Him. Scholars of tafsir (explanation of the Quran) explain *the Eternal Refuge* as the One whom everyone turns to for their needs."
+        "more": {
+          "title": "More on Allah",
+          "blocks": [
+            {
+              "p": "Scholars of tafsir (explanation of the Quran) explain *the Eternal Refuge* as the One whom everyone turns to for their needs."
+            }
+          ]
+        }
       },
       {
         "h": "The angels"
       },
       {
-        "p": "Angels are real beings created by Allah. The Prophet said: \"Angels were created from light\" (Sahih Muslim 2996). Allah describes them: \"they act by His command\" (Quran 21:27). Jibril is the angel who brought the Quran down to the Prophet's heart, by Allah's permission (Quran 2:97). Other angels write down what people do:"
+        "p": "Angels are real beings created by Allah. The Prophet said: \"Angels were created from light\" (Sahih Muslim 2996). Jibril is the angel who brought the Quran down to the Prophet's heart, by Allah's permission (Quran 2:97). Other angels write down what people do."
       },
       {
-        "quote": "And indeed, [appointed] over you are keepers, Noble and recording; They know whatever you do.",
-        "cite": "Quran 82:10-12 (Saheeh International translation)"
-      },
-      {
-        "p": "**In daily life:** this is a comfort, not a threat. Your good deeds, even small ones nobody else notices, are written down."
+        "more": {
+          "title": "What the Quran says about the angels",
+          "blocks": [
+            {
+              "p": "Allah describes them: \"they act by His command\" (Quran 21:27)."
+            },
+            {
+              "quote": "And indeed, [appointed] over you are keepers, Noble and recording; They know whatever you do.",
+              "cite": "Quran 82:10-12 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "h": "The books"
       },
       {
-        "p": "Allah sent revealed books to His messengers as guidance. The Quran mentions the Torah given to Moses, the Psalms given to David, and the Gospel given to Jesus, peace be upon them (Quran 17:2, 4:163, 5:46). Muslims believe in these books as Allah revealed them. The Quran is the last of them, and it confirms the message that came before it:"
+        "p": "Allah sent revealed books to His messengers as guidance. Muslims believe in these books as Allah revealed them. The Quran is the last of them, and it confirms the message that came before it."
       },
       {
-        "quote": "He has sent down upon you, [O Muhammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel. Before, as guidance for the people. And He revealed the Qur'an.",
-        "cite": "Quran 3:3-4 (Saheeh International translation)"
+        "facts": {
+          "items": [
+            {
+              "icon": "book",
+              "label": "The Torah",
+              "text": "Given to Moses, peace be upon him (Quran 17:2)."
+            },
+            {
+              "icon": "book",
+              "label": "The Psalms",
+              "text": "Given to David, peace be upon him (Quran 4:163)."
+            },
+            {
+              "icon": "book",
+              "label": "The Gospel",
+              "text": "Given to Jesus, peace be upon him (Quran 5:46)."
+            },
+            {
+              "icon": "book",
+              "label": "The Quran",
+              "text": "The last of them."
+            }
+          ]
+        }
       },
       {
-        "p": "Allah has promised to protect the Quran:"
-      },
-      {
-        "quote": "Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.",
-        "cite": "Quran 15:9 (Saheeh International translation)"
-      },
-      {
-        "p": "**In daily life:** the Quran is Allah's words to you. Read a little each day, in Arabic or in a translation of its meaning, and you will come to know your Lord."
+        "more": {
+          "title": "The Quran confirms, and Allah protects it",
+          "blocks": [
+            {
+              "quote": "He has sent down upon you, [O Muhammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel. Before, as guidance for the people. And He revealed the Qur'an.",
+              "cite": "Quran 3:3-4 (Saheeh International translation)"
+            },
+            {
+              "p": "Allah has promised to protect the Quran:"
+            },
+            {
+              "quote": "Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.",
+              "cite": "Quran 15:9 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "h": "The messengers"
       },
       {
-        "p": "Allah sent a messenger to every nation (Quran 16:36), among them Noah, Abraham, Moses, and Jesus, peace be upon them. Believers accept all of them:"
+        "p": "Allah sent a messenger to every nation (Quran 16:36), among them Noah, Abraham, Moses, and Jesus, peace be upon them. Believers accept all of them. The last of them is the Prophet Muhammad, whom the Quran calls \"the Messenger of Allah and last of the prophets\" (Quran 33:40)."
       },
       {
-        "quote": "All of them have believed in Allah and His angels and His books and His messengers, [saying], \"We make no distinction between any of His messengers.\"",
-        "cite": "Quran 2:285 (Saheeh International translation)"
-      },
-      {
-        "p": "The last of them is the Prophet Muhammad, whom the Quran calls \"the Messenger of Allah and last of the prophets\" (Quran 33:40)."
-      },
-      {
-        "p": "**In daily life:** if you grew up loving Jesus or Moses, peace be upon them, you have not lost them. As a Muslim you believe in, love, and honor every messenger Allah sent."
+        "more": {
+          "title": "Believers make no distinction",
+          "blocks": [
+            {
+              "quote": "All of them have believed in Allah and His angels and His books and His messengers, [saying], \"We make no distinction between any of His messengers.\"",
+              "cite": "Quran 2:285 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "h": "The Last Day"
       },
       {
-        "p": "This life will end, and every person will be raised to meet the results of what they did. Nothing is overlooked:"
+        "p": "This life will end, and every person will be raised to meet the results of what they did. Nothing is overlooked."
       },
       {
-        "quote": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds. So whoever does an atom's weight of good will see it, And whoever does an atom's weight of evil will see it.",
-        "cite": "Quran 99:6-8 (Saheeh International translation)"
-      },
-      {
-        "p": "Allah's generosity is greater than you might expect. The Prophet said, reporting from his Lord:"
-      },
-      {
-        "quote": "He who intends a good deed and does not do it, Allah writes it down with Himself as a full good deed; and if he intends it and does it, Allah writes it down with Himself as ten good deeds to seven hundred times, or many times over.",
-        "cite": "Sahih al-Bukhari 6491 and Sahih Muslim 131"
-      },
-      {
-        "p": "**In daily life:** nothing good you do is wasted, not even a kind word or a good intention."
+        "more": {
+          "title": "The verse, and Allah's generosity",
+          "blocks": [
+            {
+              "quote": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds. So whoever does an atom's weight of good will see it, And whoever does an atom's weight of evil will see it.",
+              "cite": "Quran 99:6-8 (Saheeh International translation)"
+            },
+            {
+              "p": "Allah's generosity is greater than you might expect. The Prophet said, reporting from his Lord:"
+            },
+            {
+              "quote": "He who intends a good deed and does not do it, Allah writes it down with Himself as a full good deed; and if he intends it and does it, Allah writes it down with Himself as ten good deeds to seven hundred times, or many times over.",
+              "cite": "Sahih al-Bukhari 6491 and Sahih Muslim 131"
+            }
+          ]
+        }
       },
       {
         "h": "Divine decree (qadar)"
@@ -104,11 +153,57 @@
         "cite": "Sahih Muslim 2664"
       },
       {
-        "p": "**In daily life:** you do your best, ask Allah for help, and then accept the outcome with a calm heart. Allah tells us why He taught us this:"
+        "more": {
+          "title": "Why Allah taught us this",
+          "blocks": [
+            {
+              "p": "Allah tells us why He taught us this:"
+            },
+            {
+              "quote": "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you.",
+              "cite": "Quran 57:23 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
-        "quote": "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you.",
-        "cite": "Quran 57:23 (Saheeh International translation)"
+        "h": "In your daily life"
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Allah",
+              "text": "Every good thing you have comes from Him, so you thank Him. Every need you have, you can bring to Him."
+            },
+            {
+              "icon": "shield",
+              "label": "The angels",
+              "text": "This is a comfort, not a threat. Your good deeds, even small ones nobody else notices, are written down."
+            },
+            {
+              "icon": "book",
+              "label": "The books",
+              "text": "The Quran is Allah's words to you. Read a little each day, in Arabic or in a translation of its meaning, and you will come to know your Lord."
+            },
+            {
+              "icon": "users",
+              "label": "The messengers",
+              "text": "If you grew up loving Jesus or Moses, peace be upon them, you have not lost them. You believe in, love, and honor every messenger Allah sent."
+            },
+            {
+              "icon": "scale",
+              "label": "The Last Day",
+              "text": "Nothing good you do is wasted, not even a kind word or a good intention."
+            },
+            {
+              "icon": "compass",
+              "label": "Divine decree",
+              "text": "You do your best, ask Allah for help, and then accept the outcome with a calm heart."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -131,7 +226,7 @@
     ],
     "ar": [
       {
-        "p": "أركان الإيمان ليست معلومات تُحفظ فحسب، بل كل ركن منها يغيّر نظرتك إلى يومك. وإليك كل ركن في سطور قليلة، مع ما قاله الله تعالى ورسوله صلى الله عليه وسلم فيه."
+        "p": "كل ركن من أركان الإيمان يغيّر نظرتك إلى يومك. وإليك كل ركن في سطور قليلة، مع ما قاله الله تعالى ورسوله صلى الله عليه وسلم فيه."
       },
       {
         "h": "الإيمان بالله"
@@ -144,76 +239,125 @@
         "cite": "سورة الإخلاص، الآيات 1 إلى 4"
       },
       {
-        "p": "**في حياتك اليومية:** كل نعمة عندك فهي من الله، فتشكره عليها. وكل حاجة لك ترفعها إليه، فهو «الصمد» أي المقصود وحده في قضاء الحوائج."
+        "more": {
+          "title": "المزيد عن الإيمان بالله",
+          "blocks": [
+            {
+              "p": "والصمد: المقصود وحده في قضاء الحوائج."
+            }
+          ]
+        }
       },
       {
         "h": "الإيمان بالملائكة"
       },
       {
-        "p": "الملائكة خلق حقيقي من خلق الله، قال النبي صلى الله عليه وسلم: «خُلقت الملائكة من نور» (صحيح مسلم 2996). ووصفهم الله تعالى بقوله: «وَهُم بِأَمْرِهِۦ يَعْمَلُونَ» (سورة الأنبياء، الآية 27). ومنهم جبريل عليه السلام، الذي نزل بالقرآن على قلب النبي صلى الله عليه وسلم بإذن الله (سورة البقرة، الآية 97). ومنهم من يكتبون أعمال الناس:"
+        "p": "الملائكة خلق حقيقي من خلق الله، قال النبي صلى الله عليه وسلم: «خُلقت الملائكة من نور» (صحيح مسلم 2996). ومنهم جبريل عليه السلام، الذي نزل بالقرآن على قلب النبي صلى الله عليه وسلم بإذن الله (سورة البقرة، الآية 97). ومنهم من يكتبون أعمال الناس."
       },
       {
-        "quote": "وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ (10) كِرَامًۭا كَٰتِبِينَ (11) يَعْلَمُونَ مَا تَفْعَلُونَ (12)",
-        "cite": "سورة الانفطار، الآيات 10 إلى 12"
-      },
-      {
-        "p": "**في حياتك اليومية:** هذا باب طمأنينة لا باب خوف، فأعمالك الصالحة كلها مكتوبة، حتى الصغيرة التي لا يراها أحد."
+        "more": {
+          "title": "ما يقوله القرآن عن الملائكة",
+          "blocks": [
+            {
+              "p": "ووصفهم الله تعالى بقوله: «وَهُم بِأَمْرِهِۦ يَعْمَلُونَ» (سورة الأنبياء، الآية 27)."
+            },
+            {
+              "quote": "وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ (10) كِرَامًۭا كَٰتِبِينَ (11) يَعْلَمُونَ مَا تَفْعَلُونَ (12)",
+              "cite": "سورة الانفطار، الآيات 10 إلى 12"
+            }
+          ]
+        }
       },
       {
         "h": "الإيمان بالكتب"
       },
       {
-        "p": "أنزل الله على رسله كتبا فيها هدى للناس. ويذكر القرآن التوراة التي آتاها الله موسى، والزبور الذي آتاه داود، والإنجيل الذي آتاه عيسى عليهم السلام (سورة الإسراء، الآية 2، وسورة النساء، الآية 163، وسورة المائدة، الآية 46). ونحن نؤمن بهذه الكتب كما أنزلها الله. والقرآن آخرها، وهو مصدّق لما قبله:"
+        "p": "أنزل الله على رسله كتبا فيها هدى للناس. ونحن نؤمن بهذه الكتب كما أنزلها الله. والقرآن آخرها، وهو مصدّق لما قبله."
       },
       {
-        "quote": "نَزَّلَ عَلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ (3) مِن قَبْلُ هُدًۭى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ (4)",
-        "cite": "سورة آل عمران، الآيتان 3 و4"
+        "facts": {
+          "items": [
+            {
+              "icon": "book",
+              "label": "التوراة",
+              "text": "التي آتاها الله موسى عليه السلام (سورة الإسراء، الآية 2)."
+            },
+            {
+              "icon": "book",
+              "label": "الزبور",
+              "text": "الذي آتاه داود عليه السلام (سورة النساء، الآية 163)."
+            },
+            {
+              "icon": "book",
+              "label": "الإنجيل",
+              "text": "الذي آتاه عيسى عليه السلام (سورة المائدة، الآية 46)."
+            },
+            {
+              "icon": "book",
+              "label": "القرآن",
+              "text": "آخرها."
+            }
+          ]
+        }
       },
       {
-        "p": "وقد تكفّل الله بحفظ القرآن من أن يُزاد فيه أو يُنقص منه:"
-      },
-      {
-        "quote": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
-        "cite": "سورة الحجر، الآية 9"
-      },
-      {
-        "p": "**في حياتك اليومية:** القرآن كلام الله إليك. اقرأ منه قليلا كل يوم بتدبّر، وستزداد معرفة بربك."
+        "more": {
+          "title": "القرآن مصدّق لما قبله، والله يحفظه",
+          "blocks": [
+            {
+              "quote": "نَزَّلَ عَلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ (3) مِن قَبْلُ هُدًۭى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ (4)",
+              "cite": "سورة آل عمران، الآيتان 3 و4"
+            },
+            {
+              "p": "وقد تكفّل الله بحفظ القرآن من أن يُزاد فيه أو يُنقص منه:"
+            },
+            {
+              "quote": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+              "cite": "سورة الحجر، الآية 9"
+            }
+          ]
+        }
       },
       {
         "h": "الإيمان بالرسل"
       },
       {
-        "p": "بعث الله في كل أمة رسولا (سورة النحل، الآية 36)، ومنهم نوح وإبراهيم وموسى وعيسى عليهم السلام. والمؤمنون يؤمنون بهم جميعا:"
+        "p": "بعث الله في كل أمة رسولا (سورة النحل، الآية 36)، ومنهم نوح وإبراهيم وموسى وعيسى عليهم السلام. والمؤمنون يؤمنون بهم جميعا. وخاتمهم النبي محمد صلى الله عليه وسلم، كما قال تعالى: «وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ» (سورة الأحزاب، الآية 40)."
       },
       {
-        "quote": "كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ",
-        "cite": "سورة البقرة، الآية 285"
-      },
-      {
-        "p": "وخاتمهم النبي محمد صلى الله عليه وسلم، كما قال تعالى: «وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ» (سورة الأحزاب، الآية 40)."
-      },
-      {
-        "p": "**في حياتك اليومية:** إن كنت نشأت على محبة عيسى أو موسى عليهما السلام فأنت لم تفقدهما، فالمسلم يؤمن بكل رسل الله ويحبهم ويوقّرهم."
+        "more": {
+          "title": "المؤمنون لا يفرقون بين الرسل",
+          "blocks": [
+            {
+              "quote": "كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ",
+              "cite": "سورة البقرة، الآية 285"
+            }
+          ]
+        }
       },
       {
         "h": "الإيمان باليوم الآخر"
       },
       {
-        "p": "هذه الحياة ستنتهي، وسيُبعث كل إنسان ليرى جزاء ما عمل، ولا يضيع عند الله شيء:"
+        "p": "هذه الحياة ستنتهي، وسيُبعث كل إنسان ليرى جزاء ما عمل، ولا يضيع عند الله شيء."
       },
       {
-        "quote": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ (6) فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ (7) وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ (8)",
-        "cite": "سورة الزلزلة، الآيات 6 إلى 8"
-      },
-      {
-        "p": "وكرم الله أوسع مما تظن، فقد قال النبي صلى الله عليه وسلم فيما يرويه عن ربه:"
-      },
-      {
-        "quote": "فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، فَإِنْ هُوَ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللهُ لَهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ، إِلَى أَضْعَافٍ كَثِيرَةٍ",
-        "cite": "متفق عليه: صحيح البخاري 6491، وصحيح مسلم 131"
-      },
-      {
-        "p": "**في حياتك اليومية:** لا يضيع شيء من الخير الذي تعمله، ولو كان كلمة طيبة أو نية صالحة."
+        "more": {
+          "title": "الآيات، وكرم الله",
+          "blocks": [
+            {
+              "quote": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ (6) فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ (7) وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ (8)",
+              "cite": "سورة الزلزلة، الآيات 6 إلى 8"
+            },
+            {
+              "p": "وكرم الله أوسع مما تظن، فقد قال النبي صلى الله عليه وسلم فيما يرويه عن ربه:"
+            },
+            {
+              "quote": "فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، فَإِنْ هُوَ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللهُ لَهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ، إِلَى أَضْعَافٍ كَثِيرَةٍ",
+              "cite": "متفق عليه: صحيح البخاري 6491، وصحيح مسلم 131"
+            }
+          ]
+        }
       },
       {
         "h": "الإيمان بالقدر"
@@ -226,14 +370,60 @@
         "cite": "صحيح مسلم 2664"
       },
       {
-        "p": "**في حياتك اليومية:** تبذل وسعك، وتستعين بالله، ثم ترضى بالنتيجة بقلب مطمئن. وقد بيّن الله لنا حكمة ذلك فقال:"
+        "more": {
+          "title": "حكمة ذلك",
+          "blocks": [
+            {
+              "p": "وقد بيّن الله لنا حكمة ذلك فقال:"
+            },
+            {
+              "quote": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ",
+              "cite": "سورة الحديد، الآية 23"
+            },
+            {
+              "p": "أي: لكي لا تحزنوا على ما فاتكم من الدنيا، ولا تفرحوا بما آتاكم فرح بطر وتكبّر."
+            }
+          ]
+        }
       },
       {
-        "quote": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ",
-        "cite": "سورة الحديد، الآية 23"
+        "h": "في حياتك اليومية"
       },
       {
-        "p": "أي: لكي لا تحزنوا على ما فاتكم من الدنيا، ولا تفرحوا بما آتاكم فرح بطر وتكبّر."
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "الإيمان بالله",
+              "text": "كل نعمة عندك فهي من الله، فتشكره عليها. وكل حاجة لك ترفعها إليه."
+            },
+            {
+              "icon": "shield",
+              "label": "الإيمان بالملائكة",
+              "text": "هذا باب طمأنينة لا باب خوف، فأعمالك الصالحة كلها مكتوبة، حتى الصغيرة التي لا يراها أحد."
+            },
+            {
+              "icon": "book",
+              "label": "الإيمان بالكتب",
+              "text": "القرآن كلام الله إليك. اقرأ منه قليلا كل يوم بتدبّر، وستزداد معرفة بربك."
+            },
+            {
+              "icon": "users",
+              "label": "الإيمان بالرسل",
+              "text": "إن كنت نشأت على محبة عيسى أو موسى عليهما السلام فأنت لم تفقدهما، فالمسلم يؤمن بكل رسل الله ويحبهم ويوقّرهم."
+            },
+            {
+              "icon": "scale",
+              "label": "الإيمان باليوم الآخر",
+              "text": "لا يضيع شيء من الخير الذي تعمله، ولو كان كلمة طيبة أو نية صالحة."
+            },
+            {
+              "icon": "compass",
+              "label": "الإيمان بالقدر",
+              "text": "تبذل وسعك، وتستعين بالله، ثم ترضى بالنتيجة بقلب مطمئن."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -256,7 +446,7 @@
     ],
     "es": [
       {
-        "p": "Las creencias no son solo ideas para memorizar. Cada pilar de la fe cambia la forma en que ves tu día. Aquí tienes cada uno en pocas líneas, con lo que Allah y Su Mensajero dijeron sobre él."
+        "p": "Cada pilar de la fe cambia la forma en que ves tu día. Aquí tienes cada uno en pocas líneas, con lo que Allah y Su Mensajero dijeron sobre él."
       },
       {
         "h": "Allah"
@@ -269,76 +459,125 @@
         "cite": "Corán 112:1-4 (traducción de Isa García)"
       },
       {
-        "p": "**En tu vida diaria:** todo lo bueno que tienes viene de Él, así que se lo agradeces. Toda necesidad que tengas, se la puedes presentar a Él. Los sabios del tafsir (la explicación del Corán) explican que *el Absoluto* es Aquel a quien todos acuden para cubrir sus necesidades."
+        "more": {
+          "title": "Más sobre Allah",
+          "blocks": [
+            {
+              "p": "Los sabios del tafsir (la explicación del Corán) explican que *el Absoluto* es Aquel a quien todos acuden para cubrir sus necesidades."
+            }
+          ]
+        }
       },
       {
         "h": "Los ángeles"
       },
       {
-        "p": "Los ángeles son seres reales creados por Allah. El Profeta dijo: «Los ángeles han sido creados de luz» (Sahih Muslim 2996). Allah los describe así: «cumplen con lo que Él manda» (Corán 21:27). Jibril es el ángel que descendió con el Corán al corazón del Profeta, con el permiso de Allah (Corán 2:97). Otros ángeles registran lo que hace la gente:"
+        "p": "Los ángeles son seres reales creados por Allah. El Profeta dijo: «Los ángeles han sido creados de luz» (Sahih Muslim 2996). Jibril es el ángel que descendió con el Corán al corazón del Profeta, con el permiso de Allah (Corán 2:97). Otros ángeles registran lo que hace la gente."
       },
       {
-        "quote": "Hay ángeles que registran sus obras, nobles escribas que saben lo que ustedes hacen.",
-        "cite": "Corán 82:10-12 (traducción de Isa García)"
-      },
-      {
-        "p": "**En tu vida diaria:** esto es un consuelo, no una amenaza. Tus buenas obras, incluso las pequeñas que nadie más ve, quedan registradas."
+        "more": {
+          "title": "Lo que dice el Corán sobre los ángeles",
+          "blocks": [
+            {
+              "p": "Allah los describe así: «cumplen con lo que Él manda» (Corán 21:27)."
+            },
+            {
+              "quote": "Hay ángeles que registran sus obras, nobles escribas que saben lo que ustedes hacen.",
+              "cite": "Corán 82:10-12 (traducción de Isa García)"
+            }
+          ]
+        }
       },
       {
         "h": "Los Libros"
       },
       {
-        "p": "Allah envió Libros revelados a Sus mensajeros como guía. El Corán menciona la Tora dada a Moisés, los Salmos dados a David y el Evangelio dado a Jesús, la paz sea con ellos (Corán 17:2, 4:163, 5:46). Los musulmanes creen en estos Libros tal como Allah los reveló. El Corán es el último de ellos y confirma el mensaje que vino antes:"
+        "p": "Allah envió Libros revelados a Sus mensajeros como guía. Los musulmanes creen en estos Libros tal como Allah los reveló. El Corán es el último de ellos y confirma el mensaje que vino antes."
       },
       {
-        "quote": "Él te reveló [¡oh, Mujámmad!] el Libro con la Verdad, para confirmar los mensajes anteriores, y ya había revelado la Tora y el Evangelio como guía para la gente, y reveló el criterio por el cual se discierne lo verdadero de lo falso.",
-        "cite": "Corán 3:3-4 (traducción de Isa García)"
+        "facts": {
+          "items": [
+            {
+              "icon": "book",
+              "label": "La Tora",
+              "text": "Dada a Moisés, la paz sea con él (Corán 17:2)."
+            },
+            {
+              "icon": "book",
+              "label": "Los Salmos",
+              "text": "Dados a David, la paz sea con él (Corán 4:163)."
+            },
+            {
+              "icon": "book",
+              "label": "El Evangelio",
+              "text": "Dado a Jesús, la paz sea con él (Corán 5:46)."
+            },
+            {
+              "icon": "book",
+              "label": "El Corán",
+              "text": "El último de ellos."
+            }
+          ]
+        }
       },
       {
-        "p": "Allah prometió proteger el Corán:"
-      },
-      {
-        "quote": "Yo he revelado el Corán y Yo soy su custodio.",
-        "cite": "Corán 15:9 (traducción de Isa García)"
-      },
-      {
-        "p": "**En tu vida diaria:** el Corán son las palabras de Allah para ti. Lee un poco cada día, en árabe o en una traducción de su significado, y llegarás a conocer a tu Señor."
+        "more": {
+          "title": "El Corán confirma, y Allah lo protege",
+          "blocks": [
+            {
+              "quote": "Él te reveló [¡oh, Mujámmad!] el Libro con la Verdad, para confirmar los mensajes anteriores, y ya había revelado la Tora y el Evangelio como guía para la gente, y reveló el criterio por el cual se discierne lo verdadero de lo falso.",
+              "cite": "Corán 3:3-4 (traducción de Isa García)"
+            },
+            {
+              "p": "Allah prometió proteger el Corán:"
+            },
+            {
+              "quote": "Yo he revelado el Corán y Yo soy su custodio.",
+              "cite": "Corán 15:9 (traducción de Isa García)"
+            }
+          ]
+        }
       },
       {
         "h": "Los mensajeros"
       },
       {
-        "p": "Allah envió un mensajero a cada nación (Corán 16:36), entre ellos Noé, Abraham, Moisés y Jesús, la paz sea con ellos. Los creyentes los aceptan a todos:"
+        "p": "Allah envió un mensajero a cada nación (Corán 16:36), entre ellos Noé, Abraham, Moisés y Jesús, la paz sea con ellos. Los creyentes los aceptan a todos. El último de ellos es el Profeta Muhammad, a quien el Corán llama «el Mensajero de Dios y el sello de los Profetas» (Corán 33:40)."
       },
       {
-        "quote": "Todos creen en Dios, en Sus ángeles, en Sus Libros y en Sus Mensajeros [diciendo:] \"No hacemos diferencia entre ninguno de Sus Mensajeros\".",
-        "cite": "Corán 2:285 (traducción de Isa García)"
-      },
-      {
-        "p": "El último de ellos es el Profeta Muhammad, a quien el Corán llama «el Mensajero de Dios y el sello de los Profetas» (Corán 33:40)."
-      },
-      {
-        "p": "**En tu vida diaria:** si creciste amando a Jesús o a Moisés, la paz sea con ellos, no los has perdido. Como musulmán crees en todos los mensajeros que Allah envió, los amas y los honras."
+        "more": {
+          "title": "Los creyentes no hacen distinción",
+          "blocks": [
+            {
+              "quote": "Todos creen en Dios, en Sus ángeles, en Sus Libros y en Sus Mensajeros [diciendo:] \"No hacemos diferencia entre ninguno de Sus Mensajeros\".",
+              "cite": "Corán 2:285 (traducción de Isa García)"
+            }
+          ]
+        }
       },
       {
         "h": "El Último Día"
       },
       {
-        "p": "Esta vida terminará, y cada persona será resucitada para encontrar el resultado de lo que hizo. Nada se pasa por alto:"
+        "p": "Esta vida terminará, y cada persona será resucitada para encontrar el resultado de lo que hizo. Nada se pasa por alto."
       },
       {
-        "quote": "Entonces, los seres humanos acudirán al Día del Juicio en grupos para conocer el resultado de sus obras. Quien haya realizado una obra de bien, tan pequeña como un átomo, la encontrará registrada. Y quien haya realizado una mala obra, tan pequeña como un átomo, la encontrará registrada.",
-        "cite": "Corán 99:6-8 (traducción de Isa García)"
-      },
-      {
-        "p": "La generosidad de Allah es mayor de lo que imaginas. El Profeta dijo, transmitiendo de su Señor:"
-      },
-      {
-        "quote": "Si alguien tiene la intención de hacer una buena acción y no llega a realizarla, Allah se la registrará como una buena acción completa; y si tiene la intención de hacerla y la hace, Allah se la registrará como una buena acción multiplicada desde diez hasta setecientas veces o muchas más.",
-        "cite": "Sahih al-Bujari 6491 y Sahih Muslim 131"
-      },
-      {
-        "p": "**En tu vida diaria:** nada bueno que hagas se desperdicia, ni siquiera una palabra amable o una buena intención."
+        "more": {
+          "title": "El versículo, y la generosidad de Allah",
+          "blocks": [
+            {
+              "quote": "Entonces, los seres humanos acudirán al Día del Juicio en grupos para conocer el resultado de sus obras. Quien haya realizado una obra de bien, tan pequeña como un átomo, la encontrará registrada. Y quien haya realizado una mala obra, tan pequeña como un átomo, la encontrará registrada.",
+              "cite": "Corán 99:6-8 (traducción de Isa García)"
+            },
+            {
+              "p": "La generosidad de Allah es mayor de lo que imaginas. El Profeta dijo, transmitiendo de su Señor:"
+            },
+            {
+              "quote": "Si alguien tiene la intención de hacer una buena acción y no llega a realizarla, Allah se la registrará como una buena acción completa; y si tiene la intención de hacerla y la hace, Allah se la registrará como una buena acción multiplicada desde diez hasta setecientas veces o muchas más.",
+              "cite": "Sahih al-Bujari 6491 y Sahih Muslim 131"
+            }
+          ]
+        }
       },
       {
         "h": "El decreto divino (qadar)"
@@ -351,11 +590,57 @@
         "cite": "Sahih Muslim 2664"
       },
       {
-        "p": "**En tu vida diaria:** haces lo mejor que puedes, pides ayuda a Allah y luego aceptas el resultado con el corazón tranquilo. Allah nos dice por qué nos enseñó esto:"
+        "more": {
+          "title": "Por qué nos enseñó esto Allah",
+          "blocks": [
+            {
+              "p": "Allah nos dice por qué nos enseñó esto:"
+            },
+            {
+              "quote": "No se depriman por lo que pierdan y no se regocijen con arrogancia por lo que se les ha concedido.",
+              "cite": "Corán 57:23 (traducción de Isa García)"
+            }
+          ]
+        }
       },
       {
-        "quote": "No se depriman por lo que pierdan y no se regocijen con arrogancia por lo que se les ha concedido.",
-        "cite": "Corán 57:23 (traducción de Isa García)"
+        "h": "En tu vida diaria"
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Allah",
+              "text": "Todo lo bueno que tienes viene de Él, así que se lo agradeces. Toda necesidad que tengas, se la puedes presentar a Él."
+            },
+            {
+              "icon": "shield",
+              "label": "Los ángeles",
+              "text": "Esto es un consuelo, no una amenaza. Tus buenas obras, incluso las pequeñas que nadie más ve, quedan registradas."
+            },
+            {
+              "icon": "book",
+              "label": "Los Libros",
+              "text": "El Corán son las palabras de Allah para ti. Lee un poco cada día, en árabe o en una traducción de su significado, y llegarás a conocer a tu Señor."
+            },
+            {
+              "icon": "users",
+              "label": "Los mensajeros",
+              "text": "Si creciste amando a Jesús o a Moisés, la paz sea con ellos, no los has perdido. Crees en todos los mensajeros que Allah envió, los amas y los honras."
+            },
+            {
+              "icon": "scale",
+              "label": "El Último Día",
+              "text": "Nada bueno que hagas se desperdicia, ni siquiera una palabra amable o una buena intención."
+            },
+            {
+              "icon": "compass",
+              "label": "El decreto divino",
+              "text": "Haces lo mejor que puedes, pides ayuda a Allah y luego aceptas el resultado con el corazón tranquilo."
+            }
+          ]
+        }
       },
       {
         "quick": {

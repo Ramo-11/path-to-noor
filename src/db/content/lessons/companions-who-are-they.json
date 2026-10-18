@@ -1,6 +1,6 @@
 {
   "slug": "companions-who-are-they",
-  "minutes": 7,
+  "minutes": 3,
   "title": {
     "en": "Who are the companions?",
     "ar": "من هم الصحابة؟",
@@ -9,39 +9,59 @@
   "body": {
     "en": [
       {
-        "p": "In this step you will meet some of the people who knew the Prophet Muhammad, peace be upon him, most closely. Muslims call them the **Sahabah**, the companions. One companion is a *sahabi* (a man) or a *sahabiyyah* (a woman)."
+        "p": "Muslims call the people who knew the Prophet Muhammad, peace be upon him, most closely the **Sahabah**, the companions."
       },
       {
         "h": "Who counts as a companion"
       },
       {
-        "p": "Scholars define a companion as someone who met the Prophet while believing in him, and who died as a Muslim. There were thousands of them: men and women, young and old, rich and poor, from many backgrounds. Bilal, may Allah be pleased with him, came from an Abyssinian (Ethiopian) family, and Salman, may Allah be pleased with him, came from Persia. Many of them began exactly where you are now: new to Islam, learning one step at a time. Some of them paid a heavy price for their faith."
+        "p": "Scholars define a companion as someone who met the Prophet while believing in him, and who died as a Muslim."
+      },
+      {
+        "facts": {
+          "title": "There were thousands",
+          "items": [
+            {
+              "icon": "users",
+              "label": "All kinds",
+              "text": "Men and women, young and old, rich and poor."
+            },
+            {
+              "icon": "globe",
+              "label": "Many backgrounds",
+              "text": "Bilal came from an Abyssinian (Ethiopian) family, Salman from Persia, may Allah be pleased with them."
+            },
+            {
+              "icon": "leaf",
+              "label": "Like you",
+              "text": "Many began exactly where you are now, new to Islam."
+            },
+            {
+              "icon": "shield",
+              "label": "A heavy price",
+              "text": "Some paid a heavy price for their faith."
+            }
+          ]
+        }
       },
       {
         "h": "Why they matter"
       },
       {
-        "p": "The companions heard the Quran from the Prophet himself, prayed behind him, and watched how he lived. Then they carried all of it to the next generation. Every verse you recite and every hadith you read reached you through them. Allah praises them in the Quran. He speaks of \"the first forerunners [in the faith] among the Muhajireen and the Ansar\" (the emigrants who left Makkah for the sake of Islam, and the helpers of Madinah who welcomed them) and \"those who followed them with good conduct\", and then says:"
+        "p": "Every verse and hadith you read reached you through them. Allah praises them in the Quran:"
       },
       {
         "quote": "Allah is pleased with them and they are pleased with Him, and He has prepared for them gardens beneath which rivers flow, wherein they will abide forever. That is the great attainment.",
         "cite": "Quran 9:100 (Saheeh International translation)"
       },
       {
-        "p": "Notice who is included: \"those who followed them with good conduct\". Scholars of tafsir (explanation of the Quran) explain that this means everyone who follows them in belief, in words, and in deeds. The door is open to you too."
-      },
-      {
-        "p": "The Prophet Muhammad also spoke about their generation:"
-      },
-      {
-        "quote": "The best of you are my generation, then those who follow them, then those who follow them.",
-        "cite": "Sahih al-Bukhari 3650 and Sahih Muslim 2535"
+        "p": "The door is open to you too: \"those who followed them with good conduct\" includes everyone who follows them in belief, in words, and in deeds."
       },
       {
         "h": "How Muslims speak about them"
       },
       {
-        "p": "Muslims speak about the companions with love and respect. After a companion's name you will often hear *radiyallahu 'anhu*, \"may Allah be pleased with him\". These words come from the Quran itself, from the verse you just read:"
+        "p": "After a companion's name you will often hear *radiyallahu 'anhu*, \"may Allah be pleased with him\". The words come from the verse you just read:"
       },
       {
         "phrase": {
@@ -51,15 +71,35 @@
         }
       },
       {
-        "p": "The ending changes depending on who you are speaking about:"
-      },
-      {
-        "ul": [
-          "*radiyallahu 'anhu*: may Allah be pleased with him",
-          "*radiyallahu 'anha*: may Allah be pleased with her",
-          "*radiyallahu 'anhuma*: may Allah be pleased with them both",
-          "*radiyallahu 'anhum*: may Allah be pleased with them all"
-        ]
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "رَّضِىَ",
+              "transliteration": "Radiya",
+              "meaning": "is pleased"
+            },
+            {
+              "arabic": "ٱللَّهُ",
+              "transliteration": "Allah",
+              "meaning": "Allah"
+            },
+            {
+              "arabic": "عَنْهُمْ",
+              "transliteration": "'anhum",
+              "meaning": "with them"
+            },
+            {
+              "arabic": "وَرَضُوا۟",
+              "transliteration": "wa radu",
+              "meaning": "and they are pleased"
+            },
+            {
+              "arabic": "عَنْهُ",
+              "transliteration": "'anh",
+              "meaning": "with Him"
+            }
+          ]
+        }
       },
       {
         "p": "The Prophet also warned against insulting them:"
@@ -69,7 +109,7 @@
         "cite": "Sahih al-Bukhari 3673 and Sahih Muslim 2541"
       },
       {
-        "p": "A *mudd* is a small measure, about what fills two cupped hands. Their small charity outweighs a mountain of gold from anyone after them, because of their sincerity and because they gave when Islam needed it most. This does not mean they were perfect. They were human, and they made mistakes. But Allah praised them, so we love them, speak well of them, and never insult them."
+        "p": "They were human, and they made mistakes. But Allah praised them, so we love them, speak well of them, and never insult them."
       },
       {
         "quick": {
@@ -88,43 +128,100 @@
       },
       {
         "p": "In the next four lessons you will meet four of them: Khadijah, Abu Bakr, Umar, and Bilal, may Allah be pleased with them."
+      },
+      {
+        "more": {
+          "title": "More about them",
+          "blocks": [
+            {
+              "p": "They heard the Quran from the Prophet himself, prayed behind him, and watched how he lived. Then they carried all of it to the next generation."
+            },
+            {
+              "p": "Allah speaks of \"the first forerunners [in the faith] among the Muhajireen and the Ansar\" (the emigrants who left Makkah for the sake of Islam, and the helpers of Madinah who welcomed them) and \"those who followed them with good conduct\". Scholars of tafsir (explanation of the Quran) explain that the last words mean everyone who follows them in belief, in words, and in deeds."
+            },
+            {
+              "p": "Some of them came from many backgrounds and began exactly where you are now, learning one step at a time."
+            },
+            {
+              "p": "The Prophet Muhammad also spoke about their generation:"
+            },
+            {
+              "quote": "The best of you are my generation, then those who follow them, then those who follow them.",
+              "cite": "Sahih al-Bukhari 3650 and Sahih Muslim 2535"
+            },
+            {
+              "p": "The ending changes depending on who you are speaking about:"
+            },
+            {
+              "ul": [
+                "*radiyallahu 'anhu*: may Allah be pleased with him",
+                "*radiyallahu 'anha*: may Allah be pleased with her",
+                "*radiyallahu 'anhuma*: may Allah be pleased with them both",
+                "*radiyallahu 'anhum*: may Allah be pleased with them all"
+              ]
+            },
+            {
+              "p": "A *mudd* is a small measure, about what fills two cupped hands. Their small charity outweighs a mountain of gold from anyone after them, because of their sincerity and because they gave when Islam needed it most."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "في هذه المرحلة تتعرف على بعض من عرفوا النبي محمدًا صلى الله عليه وسلم عن قرب، وهم **الصحابة**. والواحد منهم: صحابي إن كان رجلًا، وصحابية إن كانت امرأة."
+        "p": "يسمّي المسلمون من عرفوا النبي محمدًا صلى الله عليه وسلم عن قرب **الصحابة**."
       },
       {
         "h": "من هو الصحابي؟"
       },
       {
-        "p": "عرّف العلماء الصحابي بأنه من لقي النبي صلى الله عليه وسلم مؤمنًا به، ومات على الإسلام. وكانوا آلافًا: رجالًا ونساءً، صغارًا وكبارًا، أغنياء وفقراء، ومن أصول شتى؛ فبلال رضي الله عنه من أصل حبشي، وسلمان رضي الله عنه من فارس. وكثير منهم بدأ من حيث تبدأ أنت الآن: جديدًا على الإسلام، يتعلم خطوة بعد خطوة، وبعضهم دفع ثمنًا غاليًا من أجل إيمانه."
+        "p": "عرّف العلماء الصحابي بأنه من لقي النبي صلى الله عليه وسلم مؤمنًا به، ومات على الإسلام."
+      },
+      {
+        "facts": {
+          "title": "كانوا آلافًا",
+          "items": [
+            {
+              "icon": "users",
+              "label": "من كل الأصناف",
+              "text": "رجالًا ونساءً، صغارًا وكبارًا، أغنياء وفقراء."
+            },
+            {
+              "icon": "globe",
+              "label": "أصول شتى",
+              "text": "بلال من أصل حبشي، وسلمان من فارس، رضي الله عنهما."
+            },
+            {
+              "icon": "leaf",
+              "label": "مثلك",
+              "text": "كثير منهم بدأ من حيث تبدأ أنت الآن، جديدًا على الإسلام."
+            },
+            {
+              "icon": "shield",
+              "label": "ثمن غالٍ",
+              "text": "وبعضهم دفع ثمنًا غاليًا من أجل إيمانه."
+            }
+          ]
+        }
       },
       {
         "h": "لماذا هم مهمّون؟"
       },
       {
-        "p": "سمع الصحابة القرآن من النبي صلى الله عليه وسلم نفسه، وصلّوا خلفه، ورأوا كيف يعيش، ثم نقلوا ذلك كله إلى من بعدهم. فكل آية تتلوها، وكل حديث تقرؤه، وصل إليك عن طريقهم. وقد أثنى الله عليهم في القرآن فقال:"
+        "p": "كل حديث تقرؤه وكل آية وصلا إليك عن طريقهم. وقد أثنى الله عليهم في القرآن فقال:"
       },
       {
         "quote": "وَٱلسَّٰبِقُونَ ٱلْأَوَّلُونَ مِنَ ٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍۢ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ وَأَعَدَّ لَهُمْ جَنَّٰتٍۢ تَجْرِى تَحْتَهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
         "cite": "سورة التوبة: 100"
       },
       {
-        "p": "والسابقون الأولون هم الذين سبقوا الناس إلى الإيمان من المهاجرين الذين تركوا ديارهم في سبيل الله، والأنصار الذين نصروا رسول الله صلى الله عليه وسلم في المدينة. وانظر من يدخل معهم: «وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍۢ»، قال أهل التفسير: أي من اتبعهم في الاعتقاد والأقوال والأعمال. فالباب مفتوح لك أيضًا."
-      },
-      {
-        "p": "وقال النبي صلى الله عليه وسلم عن جيلهم:"
-      },
-      {
-        "quote": "خَيْرُكُمْ قَرْنِي، ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ",
-        "cite": "صحيح البخاري 3650، وصحيح مسلم 2535"
+        "p": "والباب مفتوح لك أيضًا: «وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍۢ» أي كل من اتبعهم في الاعتقاد والأقوال والأعمال."
       },
       {
         "h": "كيف يتحدث المسلمون عنهم"
       },
       {
-        "p": "يتحدث المسلمون عن الصحابة بمحبة وتوقير، ويقولون بعد اسم الصحابي: «رضي الله عنه». وهذه الكلمة مأخوذة من القرآن نفسه، من الآية التي قرأتها للتو:"
+        "p": "تسمع بعد اسم الصحابي «رضي الله عنه»، وهي كلمة مأخوذة من الآية التي قرأتها للتو:"
       },
       {
         "phrase": {
@@ -134,15 +231,35 @@
         }
       },
       {
-        "p": "وتتغيّر نهايتها بحسب من تتحدث عنه:"
-      },
-      {
-        "ul": [
-          "رضي الله عنه: للرجل",
-          "رضي الله عنها: للمرأة",
-          "رضي الله عنهما: للاثنين",
-          "رضي الله عنهم: للجماعة"
-        ]
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "رَّضِىَ",
+              "transliteration": "Radiya",
+              "meaning": "رضي"
+            },
+            {
+              "arabic": "ٱللَّهُ",
+              "transliteration": "Allah",
+              "meaning": "الله"
+            },
+            {
+              "arabic": "عَنْهُمْ",
+              "transliteration": "'anhum",
+              "meaning": "عنهم"
+            },
+            {
+              "arabic": "وَرَضُوا۟",
+              "transliteration": "wa radu",
+              "meaning": "ورضوا"
+            },
+            {
+              "arabic": "عَنْهُ",
+              "transliteration": "'anh",
+              "meaning": "عنه"
+            }
+          ]
+        }
       },
       {
         "p": "ونهى النبي صلى الله عليه وسلم عن سبّهم فقال:"
@@ -152,7 +269,7 @@
         "cite": "صحيح البخاري 3673، وصحيح مسلم 2541"
       },
       {
-        "p": "والمُدّ مقدار صغير يملأ كفّي الرجل المعتدل. فصدقتهم القليلة أعظم من جبل من الذهب ينفقه من جاء بعدهم، لصدق نياتهم، ولأنهم أنفقوا حين كان الإسلام في أشد الحاجة. وليس معنى ذلك أنهم كانوا بلا أخطاء، فهم بشر يخطئون، لكن الله أثنى عليهم، فنحن نحبهم، ونذكرهم بخير، ولا نسبّهم أبدًا."
+        "p": "وهم بشر يخطئون، لكن الله أثنى عليهم، فنحن نحبهم، ونذكرهم بخير، ولا نسبّهم أبدًا."
       },
       {
         "quick": {
@@ -171,43 +288,100 @@
       },
       {
         "p": "وفي الدروس الأربعة القادمة تتعرف على أربعة منهم: خديجة، وأبي بكر، وعمر، وبلال، رضي الله عنهم."
+      },
+      {
+        "more": {
+          "title": "المزيد عنهم",
+          "blocks": [
+            {
+              "p": "سمعوا القرآن من النبي صلى الله عليه وسلم نفسه، وصلّوا خلفه، ورأوا كيف يعيش، ثم نقلوا ذلك كله إلى من بعدهم."
+            },
+            {
+              "p": "والسابقون الأولون هم الذين سبقوا الناس إلى الإيمان من المهاجرين الذين تركوا ديارهم في سبيل الله، والأنصار الذين نصروا رسول الله صلى الله عليه وسلم في المدينة. وقال أهل التفسير في «وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍۢ»: أي من اتبعهم في الاعتقاد والأقوال والأعمال."
+            },
+            {
+              "p": "وكان منهم من أصول شتى بدأ من حيث تبدأ أنت الآن، يتعلم خطوة بعد خطوة."
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم عن جيلهم:"
+            },
+            {
+              "quote": "خَيْرُكُمْ قَرْنِي، ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ",
+              "cite": "صحيح البخاري 3650، وصحيح مسلم 2535"
+            },
+            {
+              "p": "وتتغيّر نهايتها بحسب من تتحدث عنه:"
+            },
+            {
+              "ul": [
+                "رضي الله عنه: للرجل",
+                "رضي الله عنها: للمرأة",
+                "رضي الله عنهما: للاثنين",
+                "رضي الله عنهم: للجماعة"
+              ]
+            },
+            {
+              "p": "والمُدّ مقدار صغير يملأ كفّي الرجل المعتدل. فصدقتهم القليلة أعظم من جبل من الذهب ينفقه من جاء بعدهم، لصدق نياتهم، ولأنهم أنفقوا حين كان الإسلام في أشد الحاجة."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "En esta etapa conocerás a algunas de las personas que conocieron más de cerca al Profeta Muhammad, la paz sea con él. Los musulmanes los llaman **Sahabah**, los compañeros. Un compañero es un *sahabi* (hombre) o una *sahabiyyah* (mujer)."
+        "p": "Los musulmanes llaman **Sahabah**, los compañeros, a quienes conocieron más de cerca al Profeta Muhammad, la paz sea con él."
       },
       {
         "h": "Quién es un compañero"
       },
       {
-        "p": "Los sabios definen al compañero como alguien que conoció al Profeta creyendo en él y que murió como musulmán. Fueron miles: hombres y mujeres, jóvenes y mayores, ricos y pobres, de muchos orígenes. Bilal, que Allah esté complacido con él, venía de una familia abisinia (etíope), y Salman, que Allah esté complacido con él, venía de Persia. Muchos de ellos empezaron exactamente donde estás tú ahora: nuevos en el islam, aprendiendo paso a paso. Algunos pagaron un precio muy alto por su fe."
+        "p": "Los sabios definen al compañero como alguien que conoció al Profeta creyendo en él y que murió como musulmán."
+      },
+      {
+        "facts": {
+          "title": "Fueron miles",
+          "items": [
+            {
+              "icon": "users",
+              "label": "De todo tipo",
+              "text": "Hombres y mujeres, jóvenes y mayores, ricos y pobres."
+            },
+            {
+              "icon": "globe",
+              "label": "Muchos orígenes",
+              "text": "Bilal venía de una familia abisinia (etíope) y Salman de Persia, que Allah esté complacido con ellos."
+            },
+            {
+              "icon": "leaf",
+              "label": "Como tú",
+              "text": "Muchos empezaron exactamente donde estás tú ahora, nuevos en el islam."
+            },
+            {
+              "icon": "shield",
+              "label": "Un precio alto",
+              "text": "Algunos pagaron un precio muy alto por su fe."
+            }
+          ]
+        }
       },
       {
         "h": "Por qué son importantes"
       },
       {
-        "p": "Los compañeros escucharon el Corán del propio Profeta, rezaron detrás de él y vieron cómo vivía. Luego transmitieron todo eso a la siguiente generación. Cada aleya que recitas y cada hadiz que lees te llegó a través de ellos. Allah los elogia en el Corán (en las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah):"
+        "p": "Cada aleya y cada hadiz que lees te llegó a través de ellos. Allah los elogia en el Corán (en las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah):"
       },
       {
         "quote": "Dios se complace con los primeros que aceptaron el Islam y emigraron [a Medina], se complace con aquellos que los socorrieron, y con todos los que sigan su ejemplo [en la fe y las buenas obras], y todos ellos se complacen con Dios. Él les ha reservado jardines por donde corren ríos, donde morarán por toda la eternidad. Ese es el triunfo grandioso.",
         "cite": "Corán 9:100"
       },
       {
-        "p": "Los primeros en creer fueron los *muhayirun* (los emigrantes que dejaron La Meca por el islam) y los *ansar* (los habitantes de Medina que los acogieron). Pero fíjate en quién más está incluido: Allah se complace también \"con todos los que sigan su ejemplo [en la fe y las buenas obras]\". Los sabios del tafsir explican que esto abarca a todos los que los siguen en la creencia, en las palabras y en los actos. La puerta también está abierta para ti."
-      },
-      {
-        "p": "El Profeta Muhammad también habló de su generación:"
-      },
-      {
-        "quote": "Los mejores de ustedes son mi generación, luego los que les siguen, luego los que les siguen.",
-        "cite": "Sahih al-Bujari 3650 y Sahih Muslim 2535 (traducción del significado)"
+        "p": "La puerta también está abierta para ti: Allah se complace también \"con todos los que sigan su ejemplo [en la fe y las buenas obras]\", es decir, con todos los que los siguen en la creencia, en las palabras y en los actos."
       },
       {
         "h": "Cómo hablan los musulmanes de ellos"
       },
       {
-        "p": "Los musulmanes hablan de los compañeros con amor y respeto. Después del nombre de un compañero, a menudo oirás *radiyallahu 'anhu*, \"que Allah esté complacido con él\". Estas palabras vienen del mismo Corán, de la aleya que acabas de leer:"
+        "p": "Después del nombre de un compañero, a menudo oirás *radiyallahu 'anhu*, \"que Allah esté complacido con él\". Las palabras vienen de la aleya que acabas de leer:"
       },
       {
         "phrase": {
@@ -217,15 +391,35 @@
         }
       },
       {
-        "p": "La terminación cambia según la persona de quien hablas:"
-      },
-      {
-        "ul": [
-          "*radiyallahu 'anhu*: que Allah esté complacido con él",
-          "*radiyallahu 'anha*: que Allah esté complacido con ella",
-          "*radiyallahu 'anhuma*: que Allah esté complacido con ambos",
-          "*radiyallahu 'anhum*: que Allah esté complacido con todos ellos"
-        ]
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "رَّضِىَ",
+              "transliteration": "Radiya",
+              "meaning": "está complacido"
+            },
+            {
+              "arabic": "ٱللَّهُ",
+              "transliteration": "Allah",
+              "meaning": "Allah"
+            },
+            {
+              "arabic": "عَنْهُمْ",
+              "transliteration": "'anhum",
+              "meaning": "con ellos"
+            },
+            {
+              "arabic": "وَرَضُوا۟",
+              "transliteration": "wa radu",
+              "meaning": "y ellos están complacidos"
+            },
+            {
+              "arabic": "عَنْهُ",
+              "transliteration": "'anh",
+              "meaning": "con Él"
+            }
+          ]
+        }
       },
       {
         "p": "El Profeta también advirtió que no se les insulte:"
@@ -235,7 +429,7 @@
         "cite": "Sahih al-Bujari 3673 y Sahih Muslim 2541 (traducción del significado)"
       },
       {
-        "p": "Un *mudd* es una medida pequeña, lo que cabe en las dos manos juntas. Su pequeña caridad pesa más que una montaña de oro de cualquiera que vino después, por su sinceridad y porque dieron cuando el islam más lo necesitaba. Esto no significa que fueran perfectos. Eran humanos y cometieron errores. Pero Allah los elogió, así que los amamos, hablamos bien de ellos y nunca los insultamos."
+        "p": "Eran humanos y cometieron errores. Pero Allah los elogió, así que los amamos, hablamos bien de ellos y nunca los insultamos."
       },
       {
         "quick": {
@@ -254,6 +448,43 @@
       },
       {
         "p": "En las próximas cuatro lecciones conocerás a cuatro de ellos: Jadiya, Abu Bakr, Úmar y Bilal, que Allah esté complacido con ellos."
+      },
+      {
+        "more": {
+          "title": "Más sobre ellos",
+          "blocks": [
+            {
+              "p": "Escucharon el Corán del propio Profeta, rezaron detrás de él y vieron cómo vivía. Luego transmitieron todo eso a la siguiente generación."
+            },
+            {
+              "p": "Los primeros en creer fueron los *muhayirun* (los emigrantes que dejaron La Meca por el islam) y los *ansar* (los habitantes de Medina que los acogieron). Los sabios del tafsir explican que lo de «los que sigan su ejemplo» abarca a todos los que los siguen en la creencia, en las palabras y en los actos."
+            },
+            {
+              "p": "Muchos de ellos, de orígenes muy distintos, empezaron exactamente donde estás tú ahora, aprendiendo paso a paso."
+            },
+            {
+              "p": "El Profeta Muhammad también habló de su generación:"
+            },
+            {
+              "quote": "Los mejores de ustedes son mi generación, luego los que les siguen, luego los que les siguen.",
+              "cite": "Sahih al-Bujari 3650 y Sahih Muslim 2535 (traducción del significado)"
+            },
+            {
+              "p": "La terminación cambia según la persona de quien hablas:"
+            },
+            {
+              "ul": [
+                "*radiyallahu 'anhu*: que Allah esté complacido con él",
+                "*radiyallahu 'anha*: que Allah esté complacido con ella",
+                "*radiyallahu 'anhuma*: que Allah esté complacido con ambos",
+                "*radiyallahu 'anhum*: que Allah esté complacido con todos ellos"
+              ]
+            },
+            {
+              "p": "Un *mudd* es una medida pequeña, lo que cabe en las dos manos juntas. Su pequeña caridad pesa más que una montaña de oro de cualquiera que vino después, por su sinceridad y porque dieron cuando el islam más lo necesitaba."
+            }
+          ]
+        }
       }
     ]
   },

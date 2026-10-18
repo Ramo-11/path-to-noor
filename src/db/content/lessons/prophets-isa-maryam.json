@@ -1,6 +1,6 @@
 {
   "slug": "prophets-isa-maryam",
-  "minutes": 9,
+  "minutes": 3,
   "title": {
     "en": "Isa and Maryam in Islam",
     "ar": "عيسى ومريم عليهما السلام في الإسلام",
@@ -9,87 +9,234 @@
   "body": {
     "en": [
       {
-        "p": "If you grew up Christian, you may have wondered what becomes of your love for Jesus now that you are Muslim. Here is the good news: you do not lose him. In Islam, Isa (Jesus) and his mother Maryam (Mary), peace be upon them, are loved and deeply honored. This lesson shows what the Quran says about them, plainly and respectfully. Where Muslims and Christians believe differently, it says so clearly and kindly. (A note on words: Allah is simply the Arabic word for God, the One God. Arabic-speaking Christians use the same word.)"
+        "p": "You do not lose Jesus by becoming Muslim: in Islam, Isa (Jesus) and his mother Maryam (Mary), peace be upon them, are loved and deeply honored."
+      },
+      {
+        "p": "This lesson shows what the Quran says about them, plainly and respectfully. Where Muslims and Christians believe differently, it says so kindly."
+      },
+      {
+        "more": {
+          "title": "A note on words",
+          "blocks": [
+            {
+              "p": "Allah is simply the Arabic word for God, the One God. Arabic-speaking Christians use the same word."
+            }
+          ]
+        }
       },
       {
         "h": "Maryam, chosen above the women of the worlds"
       },
       {
-        "p": "Maryam is the only woman the Quran mentions by name, and a whole surah, Surah Maryam (chapter 19), carries her name. The angels said to her:"
+        "p": "Maryam is the only woman the Quran mentions by name, and Surah Maryam (chapter 19) carries her name. The angels said to her:"
       },
       {
         "quote": "And [mention] when the angels said, \"O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds.",
         "cite": "Quran 3:42 (Saheeh International translation)"
       },
       {
-        "p": "The Prophet Muhammad, peace be upon him, also praised her:"
-      },
-      {
-        "quote": "Many men attained perfection, but of women none attained perfection except Āsiyah, the wife of Pharaoh, and Maryam, the daughter of ‘Imrān.",
-        "cite": "Sahih al-Bukhari 3411 and Sahih Muslim 2431"
+        "more": {
+          "title": "Praise from the Prophet",
+          "blocks": [
+            {
+              "p": "The Prophet Muhammad, peace be upon him, also praised her:"
+            },
+            {
+              "quote": "Many men attained perfection, but of women none attained perfection except Āsiyah, the wife of Pharaoh, and Maryam, the daughter of ‘Imrān.",
+              "cite": "Sahih al-Bukhari 3411 and Sahih Muslim 2431"
+            }
+          ]
+        }
       },
       {
         "h": "A miraculous birth"
       },
       {
-        "p": "The Quran tells how Maryam withdrew from her family to a place toward the east, and Allah sent her an angel who appeared to her as a man (Quran 19:16-17). Scholars of tafsir (explanation of the Quran) explain that this angel was Jibril (Gabriel). Frightened, she said she sought refuge in the Most Merciful from him (Quran 19:18). Then:"
-      },
-      {
-        "quote": "He said, \"I am only the messenger of your Lord to give you [news of] a pure boy.\" She said, \"How can I have a boy while no man has touched me and I have not been unchaste?\" He said, \"Thus [it will be]; your Lord says, 'It is easy for Me, and We will make him a sign to the people and a mercy from Us. And it is a matter [already] decreed.' \"",
-        "cite": "Quran 19:19-21 (Saheeh International translation)"
-      },
-      {
-        "p": "In another passage, the angels give her good news of \"a word from Him, whose name will be the Messiah, Jesus, the son of Mary\" (Quran 3:45). *A word from Him* means that Allah created Isa simply by His word of command. When Maryam asked how she could have a child when no man had touched her, the answer came: \"Such is Allah; He creates what He wills. When He decrees a matter, He only says to it, 'Be,' and it is.\" (Quran 3:47)."
-      },
-      {
-        "p": "Isa also spoke to people as a baby in the cradle (Quran 3:46). The first words the Quran records from him are:"
+        "timeline": {
+          "title": "The story in the Quran",
+          "events": [
+            {
+              "when": "Withdrawal",
+              "text": "Maryam withdrew from her family to a place toward the east (Quran 19:16-17)."
+            },
+            {
+              "when": "The angel",
+              "text": "Allah sent her an angel who appeared as a man. Scholars of tafsir (explanation of the Quran) explain that it was Jibril (Gabriel). Frightened, she sought refuge in the Most Merciful (Quran 19:18)."
+            },
+            {
+              "when": "The news",
+              "text": "The angels gave her good news of \"a word from Him, whose name will be the Messiah, Jesus, the son of Mary\" (Quran 3:45). It means Allah created Isa simply by His word of command."
+            },
+            {
+              "when": "Her question",
+              "text": "She asked how she could have a child when no man had touched her. The answer came: \"Such is Allah; He creates what He wills. When He decrees a matter, He only says to it, 'Be,' and it is.\" (Quran 3:47)"
+            },
+            {
+              "when": "In the cradle",
+              "text": "Isa spoke to people as a baby (Quran 3:46). The first words the Quran records from him:"
+            }
+          ]
+        }
       },
       {
         "quote": "[Jesus] said, \"Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet.",
         "cite": "Quran 19:30 (Saheeh International translation)"
       },
       {
+        "more": {
+          "title": "The angel's words",
+          "blocks": [
+            {
+              "quote": "He said, \"I am only the messenger of your Lord to give you [news of] a pure boy.\" She said, \"How can I have a boy while no man has touched me and I have not been unchaste?\" He said, \"Thus [it will be]; your Lord says, 'It is easy for Me, and We will make him a sign to the people and a mercy from Us. And it is a matter [already] decreed.' \"",
+              "cite": "Quran 19:19-21 (Saheeh International translation)"
+            }
+          ]
+        }
+      },
+      {
         "h": "A prophet and messenger of Allah"
       },
       {
-        "p": "This is the heart of what Muslims believe about Isa: he is a human being, a servant of Allah, and one of His greatest prophets and messengers. The Quran compares his creation to Adam's:"
+        "p": "This is the heart of what Muslims believe about Isa: he is a human being, a servant of Allah, and one of His greatest prophets and messengers."
       },
       {
-        "quote": "Indeed, the example of Jesus to Allah is like that of Adam.",
-        "cite": "Quran 3:59 (Saheeh International translation)"
+        "compare": {
+          "first": {
+            "title": "Adam",
+            "items": [
+              "Created with no father and no mother",
+              "No one considers him divine"
+            ]
+          },
+          "second": {
+            "title": "Isa",
+            "items": [
+              "Created with no father, by the same command: \"Be.\"",
+              "A miraculous birth shows the power of Allah. It does not make the one born divine."
+            ]
+          }
+        }
       },
       {
-        "p": "Adam was created with no father and no mother, and no one considers him divine. Isa was created with no father, by the same command: \"Be.\" A miraculous birth shows the power of Allah. It does not make the one who is born divine. This is where Muslims and Christians differ most: Muslims believe that Isa is not God and not the son of God, but the servant and messenger of God. You can say this clearly and still speak with love, because it comes from love for Isa too."
+        "more": {
+          "title": "The comparison in the Quran",
+          "blocks": [
+            {
+              "p": "The Quran compares his creation to Adam's:"
+            },
+            {
+              "quote": "Indeed, the example of Jesus to Allah is like that of Adam.",
+              "cite": "Quran 3:59 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
-        "p": "Allah supported him with great miracles. He healed the blind and people with leprosy and brought the dead back to life, each time \"by permission of Allah\" (Quran 3:49). Allah gave him a scripture, the Injil (Gospel), \"in which was guidance and light\" (Quran 5:46). And the Prophet Muhammad said: \"Both in this world and in the Hereafter, I am the nearest of all the people to Jesus, the son of Mary.\" (Sahih al-Bukhari 3443)."
+        "p": "This is where Muslims and Christians differ most."
+      },
+      {
+        "p": "Muslims believe that Isa is not God and not the son of God, but the servant and messenger of God."
+      },
+      {
+        "p": "You can say this clearly and still speak with love, because it comes from love for Isa too."
+      },
+      {
+        "facts": {
+          "title": "Great miracles, \"by permission of Allah\" (Quran 3:49)",
+          "items": [
+            {
+              "icon": "eye",
+              "label": "The blind",
+              "text": "He healed them"
+            },
+            {
+              "icon": "hands",
+              "label": "People with leprosy",
+              "text": "He healed them"
+            },
+            {
+              "icon": "sparkles",
+              "label": "The dead",
+              "text": "He brought them back to life"
+            },
+            {
+              "icon": "book",
+              "label": "The Injil (Gospel)",
+              "text": "\"in which was guidance and light\" (Quran 5:46)"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "More about Isa",
+          "blocks": [
+            {
+              "p": "The Prophet Muhammad said: \"Both in this world and in the Hereafter, I am the nearest of all the people to Jesus, the son of Mary.\" (Sahih al-Bukhari 3443)."
+            }
+          ]
+        }
       },
       {
         "h": "The end of his time on earth, and his return"
       },
       {
-        "p": "Christians believe that Jesus was crucified. The Quran teaches something different:"
+        "compare": {
+          "first": {
+            "title": "Christians believe",
+            "items": [
+              "Jesus was crucified."
+            ]
+          },
+          "second": {
+            "title": "The Quran teaches",
+            "items": [
+              "He was not killed and not crucified.",
+              "Allah raised him to Himself alive, body and soul, as scholars of tafsir explain."
+            ]
+          }
+        }
       },
       {
-        "quote": "And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them.",
-        "cite": "Quran 4:157 (Saheeh International translation)"
+        "more": {
+          "title": "The verses",
+          "blocks": [
+            {
+              "quote": "And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them.",
+              "cite": "Quran 4:157 (Saheeh International translation)"
+            },
+            {
+              "quote": "Rather, Allah raised him to Himself. And ever is Allah Exalted in Might and Wise.",
+              "cite": "Quran 4:158 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
-        "quote": "Rather, Allah raised him to Himself. And ever is Allah Exalted in Might and Wise.",
-        "cite": "Quran 4:158 (Saheeh International translation)"
+        "p": "The Prophet Muhammad also told us that Isa will come back before the end of time."
       },
       {
-        "p": "Scholars of tafsir explain that Allah raised Isa up to Himself alive, body and soul. The Prophet Muhammad also told us that Isa will come back before the end of time. In part of a longer hadith, he said:"
+        "p": "Muslims believe his return is one of the signs of the Last Day, and that he will rule with justice according to the final message Allah revealed."
       },
       {
-        "quote": "By the One in Whose Hand my soul is, the son of Mary will soon descend among you as a just judge.",
-        "cite": "Sahih al-Bukhari 3448 and Sahih Muslim 155"
+        "more": {
+          "title": "The hadith",
+          "blocks": [
+            {
+              "p": "In part of a longer hadith, he said:"
+            },
+            {
+              "quote": "By the One in Whose Hand my soul is, the son of Mary will soon descend among you as a just judge.",
+              "cite": "Sahih al-Bukhari 3448 and Sahih Muslim 155"
+            }
+          ]
+        }
       },
       {
-        "p": "Muslims believe that his return is one of the signs of the Last Day, and that he will rule with justice according to the final message Allah revealed."
+        "p": "Many new Muslims have Christian parents, grandparents, and friends. You can tell them honestly that you still love and honor Jesus and Mary, perhaps more than ever."
       },
       {
-        "p": "Many new Muslims have Christian parents, grandparents, and friends. You can tell them honestly that you still love and honor Jesus and Mary, perhaps more than ever. When you talk about your differences, the Quran asks you to speak \"in a way that is best\" and reminds everyone that \"our God and your God is one\" (Quran 29:46)."
+        "p": "When you talk about your differences, the Quran asks you to speak \"in a way that is best\" and reminds everyone that \"our God and your God is one\" (Quran 29:46)."
       },
       {
         "key": "In Islam, Isa is a beloved prophet and messenger of Allah, born miraculously to Maryam, the most honored of women. Muslims believe he was not killed or crucified but raised by Allah, and that he will return."
@@ -100,7 +247,20 @@
     ],
     "ar": [
       {
-        "p": "إن كنت نشأت في بيئة مسيحية، فلعلك تساءلت: ماذا بقي من حبك للمسيح بعد أن أسلمت؟ والبشرى أنك لم تفقده، فعيسى وأمه مريم عليهما السلام محبوبان معظّمان في الإسلام. ويعرض هذا الدرس ما قاله القرآن عنهما بوضوح واحترام، ويبيّن مواضع الخلاف بين المسلمين والمسيحيين بصراحة ولطف."
+        "p": "لا تفقد المسيح بإسلامك: فعيسى وأمه مريم عليهما السلام محبوبان معظّمان في الإسلام."
+      },
+      {
+        "p": "ويعرض هذا الدرس ما قاله القرآن عنهما بوضوح واحترام، ويبيّن مواضع الخلاف بين المسلمين والمسيحيين بلطف."
+      },
+      {
+        "more": {
+          "title": "ملاحظة على الكلمات",
+          "blocks": [
+            {
+              "p": "«الله» هو الاسم العربي لله، الإله الواحد. ويستخدم المسيحيون الناطقون بالعربية الكلمة نفسها."
+            }
+          ]
+        }
       },
       {
         "h": "مريم التي اصطفاها الله على نساء العالمين"
@@ -113,74 +273,208 @@
         "cite": "سورة آل عمران: 42"
       },
       {
-        "p": "أي: اختارك الله لطاعته، وطهّرك من الأخلاق الرذيلة، واختارك على نساء العالمين في زمانك. وأثنى عليها النبي محمد صلى الله عليه وسلم فقال:"
-      },
-      {
-        "quote": "كَمُل من الرجال كثير، ولم يَكمُل من النساء: إلا آسية امرأة فرعون، ومريم بنت عِمران",
-        "cite": "صحيح البخاري 3411، وصحيح مسلم 2431"
+        "more": {
+          "title": "ثناء النبي عليها",
+          "blocks": [
+            {
+              "p": "وأثنى عليها النبي محمد صلى الله عليه وسلم فقال:"
+            },
+            {
+              "quote": "كَمُل من الرجال كثير، ولم يَكمُل من النساء: إلا آسية امرأة فرعون، ومريم بنت عِمران",
+              "cite": "صحيح البخاري 3411، وصحيح مسلم 2431"
+            }
+          ]
+        }
       },
       {
         "h": "ميلاد معجز"
       },
       {
-        "p": "يحكي القرآن أن مريم اعتزلت أهلها في مكان من جهة الشرق، فأرسل الله إليها الملَك في صورة رجل (مريم: 16 و17)، وهو جبريل عليه السلام كما بيّن أهل التفسير. فاستعاذت بالرحمن منه (مريم: 18)، ثم:"
-      },
-      {
-        "quote": "قَالَ إِنَّمَآ أَنَا۠ رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَٰمًۭا زَكِيًّۭا قَالَتْ أَنَّىٰ يَكُونُ لِى غُلَٰمٌۭ وَلَمْ يَمْسَسْنِى بَشَرٌۭ وَلَمْ أَكُ بَغِيًّۭا قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌۭ ۖ وَلِنَجْعَلَهُۥٓ ءَايَةًۭ لِّلنَّاسِ وَرَحْمَةًۭ مِّنَّا ۚ وَكَانَ أَمْرًۭا مَّقْضِيًّۭا",
-        "cite": "سورة مريم: 19 إلى 21"
-      },
-      {
-        "p": "وفي موضع آخر بشّرتها الملائكة «بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ» (آل عمران: 45). ومعنى «بِكَلِمَةٍۢ مِّنْهُ»: أن الله خلقه بكلمته «كن» فكان، كما جاء جوابًا لسؤال مريم: «كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ» (آل عمران: 47)."
-      },
-      {
-        "p": "وتكلّم عيسى مع الناس وهو في المهد (آل عمران: 46)، وأول ما سجّله القرآن من كلامه:"
+        "timeline": {
+          "title": "القصة في القرآن",
+          "events": [
+            {
+              "when": "الاعتزال",
+              "text": "اعتزلت مريم أهلها في مكان من جهة الشرق (مريم: 16 و17)."
+            },
+            {
+              "when": "الملَك",
+              "text": "فأرسل الله إليها الملَك في صورة رجل، وهو جبريل عليه السلام كما بيّن أهل التفسير. فاستعاذت بالرحمن منه (مريم: 18)."
+            },
+            {
+              "when": "البشرى",
+              "text": "بشّرتها الملائكة «بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ» (آل عمران: 45). أي أن الله خلقه بكلمته «كن» فكان."
+            },
+            {
+              "when": "سؤالها",
+              "text": "سألت كيف يكون لها ولد ولم يمسسها بشر، فجاء الجواب: «كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ» (آل عمران: 47)."
+            },
+            {
+              "when": "في المهد",
+              "text": "وتكلّم عيسى مع الناس وهو في المهد (آل عمران: 46)، وأول ما سجّله القرآن من كلامه:"
+            }
+          ]
+        }
       },
       {
         "quote": "قَالَ إِنِّى عَبْدُ ٱللَّهِ ءَاتَىٰنِىَ ٱلْكِتَٰبَ وَجَعَلَنِى نَبِيًّۭا",
         "cite": "سورة مريم: 30"
       },
       {
+        "more": {
+          "title": "كلام الملَك",
+          "blocks": [
+            {
+              "quote": "قَالَ إِنَّمَآ أَنَا۠ رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَٰمًۭا زَكِيًّۭا قَالَتْ أَنَّىٰ يَكُونُ لِى غُلَٰمٌۭ وَلَمْ يَمْسَسْنِى بَشَرٌۭ وَلَمْ أَكُ بَغِيًّۭا قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌۭ ۖ وَلِنَجْعَلَهُۥٓ ءَايَةًۭ لِّلنَّاسِ وَرَحْمَةًۭ مِّنَّا ۚ وَكَانَ أَمْرًۭا مَّقْضِيًّۭا",
+              "cite": "سورة مريم: 19 إلى 21"
+            }
+          ]
+        }
+      },
+      {
         "h": "نبيّ ورسول من عند الله"
       },
       {
-        "p": "وهذا جوهر ما يعتقده المسلمون في عيسى: أنه بشر، عبدٌ لله، ومن أعظم أنبيائه ورسله. وقد شبّه القرآن خلقه بخلق آدم:"
+        "p": "وهذا جوهر ما يعتقده المسلمون في عيسى: أنه بشر، عبدٌ لله، ومن أعظم أنبيائه ورسله."
       },
       {
-        "quote": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ ءَادَمَ ۖ خَلَقَهُۥ مِن تُرَابٍۢ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
-        "cite": "سورة آل عمران: 59"
+        "compare": {
+          "first": {
+            "title": "آدم",
+            "items": [
+              "خُلق من غير أب ولا أم",
+              "ولم يقل أحد إنه إله"
+            ]
+          },
+          "second": {
+            "title": "عيسى",
+            "items": [
+              "خُلق من غير أب بالكلمة نفسها: «كن»",
+              "الميلاد المعجز دليل على قدرة الله، لا على ألوهية المولود"
+            ]
+          }
+        }
       },
       {
-        "p": "خُلق آدم من غير أب ولا أم، ولم يقل أحد إنه إله. وخُلق عيسى من غير أب بالكلمة نفسها: «كن». فالميلاد المعجز دليل على قدرة الله، لا على ألوهية المولود. وهنا يقع أكبر الخلاف بين المسلمين والمسيحيين: فالمسلمون يعتقدون أن عيسى ليس إلهًا ولا ابنًا لله، بل عبدُ الله ورسوله. ويمكنك أن تقول هذا بوضوح وأنت تتكلم بمحبة، فهو نابع من محبة عيسى أيضًا."
+        "more": {
+          "title": "المقارنة في القرآن",
+          "blocks": [
+            {
+              "p": "وقد شبّه القرآن خلقه بخلق آدم:"
+            },
+            {
+              "quote": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ ءَادَمَ ۖ خَلَقَهُۥ مِن تُرَابٍۢ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
+              "cite": "سورة آل عمران: 59"
+            }
+          ]
+        }
       },
       {
-        "p": "وأيّده الله بمعجزات عظيمة: فكان يبرئ الأكمه والأبرص ويحيي الموتى «بِإِذْنِ ٱللَّهِ» (آل عمران: 49). وآتاه الله الإنجيل «فِيهِ هُدًۭى وَنُورٌۭ» (المائدة: 46). وقال النبي محمد صلى الله عليه وسلم: «أَنَا أَوْلَى النَّاسِ بِعِيسَى ابْنِ مَرْيَمَ فِي الدُّنْيَا وَالآخِرَةِ» (صحيح البخاري 3443)."
+        "p": "وهنا يقع أكبر الخلاف بين المسلمين والمسيحيين."
+      },
+      {
+        "p": "فالمسلمون يعتقدون أن عيسى ليس إلهًا ولا ابنًا لله، بل عبدُ الله ورسوله."
+      },
+      {
+        "p": "ويمكنك أن تقول هذا بوضوح وأنت تتكلم بمحبة، فهو نابع من محبة عيسى أيضًا."
+      },
+      {
+        "facts": {
+          "title": "معجزات عظيمة «بِإِذْنِ ٱللَّهِ» (آل عمران: 49)",
+          "items": [
+            {
+              "icon": "eye",
+              "label": "الأكمه",
+              "text": "كان يبرئه"
+            },
+            {
+              "icon": "hands",
+              "label": "الأبرص",
+              "text": "كان يبرئه"
+            },
+            {
+              "icon": "sparkles",
+              "label": "الموتى",
+              "text": "كان يحييهم"
+            },
+            {
+              "icon": "book",
+              "label": "الإنجيل",
+              "text": "«فِيهِ هُدًۭى وَنُورٌۭ» (المائدة: 46)"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "المزيد عن عيسى",
+          "blocks": [
+            {
+              "p": "وقال النبي محمد صلى الله عليه وسلم: «أَنَا أَوْلَى النَّاسِ بِعِيسَى ابْنِ مَرْيَمَ فِي الدُّنْيَا وَالآخِرَةِ» (صحيح البخاري 3443)."
+            }
+          ]
+        }
       },
       {
         "h": "نهاية حياته على الأرض، ونزوله"
       },
       {
-        "p": "يعتقد المسيحيون أن المسيح صُلب، أما القرآن فيقرر غير ذلك:"
+        "compare": {
+          "first": {
+            "title": "يعتقد المسيحيون",
+            "items": [
+              "أن المسيح صُلب."
+            ]
+          },
+          "second": {
+            "title": "ويقرر القرآن",
+            "items": [
+              "أنه لم يُقتل ولم يُصلب.",
+              "رفعه الله إليه حيًّا ببدنه وروحه، كما قال أهل التفسير."
+            ]
+          }
+        }
       },
       {
-        "quote": "وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ",
-        "cite": "سورة النساء: 157"
+        "more": {
+          "title": "الآيتان",
+          "blocks": [
+            {
+              "quote": "وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ",
+              "cite": "سورة النساء: 157"
+            },
+            {
+              "quote": "بَل رَّفَعَهُ ٱللَّهُ إِلَيْهِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًۭا",
+              "cite": "سورة النساء: 158"
+            }
+          ]
+        }
       },
       {
-        "quote": "بَل رَّفَعَهُ ٱللَّهُ إِلَيْهِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًۭا",
-        "cite": "سورة النساء: 158"
-      },
-      {
-        "p": "قال أهل التفسير: رفعه الله إليه ببدنه وروحه حيًّا. وأخبرنا النبي صلى الله عليه وسلم أن عيسى سينزل قبل قيام الساعة، فقال في جزء من حديث أطول:"
-      },
-      {
-        "quote": "وَالَّذِي نَفْسِي بِيَدِهِ، لَيُوشِكَنَّ أَنْ يَنْزِلَ فِيكُمْ ابْنُ مَرْيَمَ حَكَمًا مُقْسِطًا",
-        "cite": "صحيح البخاري 3448، وصحيح مسلم 155"
+        "p": "وأخبرنا النبي صلى الله عليه وسلم أن عيسى سينزل قبل قيام الساعة."
       },
       {
         "p": "ويؤمن المسلمون أن نزوله من علامات الساعة، وأنه يحكم بالعدل بشريعة الإسلام، آخر رسالة أنزلها الله."
       },
       {
-        "p": "وكثير من المسلمين الجدد لهم آباء وأجداد وأصدقاء مسيحيون، فقل لهم بصدق إنك ما زلت تحب عيسى ومريم وتعظّمهما، بل ربما أكثر من قبل. وإذا تحدثتم عن مواضع الاختلاف، فالقرآن يأمرك أن تجادل «بِٱلَّتِى هِىَ أَحْسَنُ»، ويذكّر الجميع: «وَإِلَٰهُنَا وَإِلَٰهُكُمْ وَٰحِدٌۭ» (العنكبوت: 46)."
+        "more": {
+          "title": "الحديث",
+          "blocks": [
+            {
+              "p": "قال في جزء من حديث أطول:"
+            },
+            {
+              "quote": "وَالَّذِي نَفْسِي بِيَدِهِ، لَيُوشِكَنَّ أَنْ يَنْزِلَ فِيكُمْ ابْنُ مَرْيَمَ حَكَمًا مُقْسِطًا",
+              "cite": "صحيح البخاري 3448، وصحيح مسلم 155"
+            }
+          ]
+        }
+      },
+      {
+        "p": "وكثير من المسلمين الجدد لهم آباء وأجداد وأصدقاء مسيحيون، فقل لهم بصدق إنك ما زلت تحب عيسى ومريم وتعظّمهما، بل ربما أكثر من قبل."
+      },
+      {
+        "p": "وإذا تحدثتم عن مواضع الاختلاف، فالقرآن يأمرك أن تجادل «بِٱلَّتِى هِىَ أَحْسَنُ»، ويذكّر الجميع: «وَإِلَٰهُنَا وَإِلَٰهُكُمْ وَٰحِدٌۭ» (العنكبوت: 46)."
       },
       {
         "key": "عيسى في الإسلام نبيّ ورسول محبوب من رسل الله، وُلد بمعجزة من مريم، أشرف النساء. ويؤمن المسلمون أنه لم يُقتل ولم يُصلب، بل رفعه الله إليه، وأنه سينزل في آخر الزمان."
@@ -191,7 +485,20 @@
     ],
     "es": [
       {
-        "p": "Si creciste en un hogar cristiano, quizá te has preguntado qué pasa con tu amor por Jesús ahora que eres musulmán. Esta es la buena noticia: no lo pierdes. En el islam, Isa (Jesús) y su madre Maryam (María), la paz sea con ellos, son amados y profundamente honrados. Esta lección muestra lo que el Corán dice de ellos, con claridad y respeto. Donde musulmanes y cristianos creen cosas distintas, lo dice con claridad y con amabilidad. (Una nota sobre las palabras: Allah es simplemente la palabra árabe para Dios, el Dios Único. Los cristianos de habla árabe usan la misma palabra. En las citas del Corán, la traducción de Isa García usa «Dios».)"
+        "p": "No pierdes a Jesús al hacerte musulmán: en el islam, Isa (Jesús) y su madre Maryam (María), la paz sea con ellos, son amados y profundamente honrados."
+      },
+      {
+        "p": "Esta lección muestra lo que el Corán dice de ellos, con claridad y respeto. Donde musulmanes y cristianos creen cosas distintas, lo dice con amabilidad."
+      },
+      {
+        "more": {
+          "title": "Una nota sobre las palabras",
+          "blocks": [
+            {
+              "p": "Allah es simplemente la palabra árabe para Dios, el Dios Único. Los cristianos de habla árabe usan la misma palabra. En las citas del Corán, la traducción de Isa García usa «Dios»."
+            }
+          ]
+        }
       },
       {
         "h": "Maryam, elegida entre las mujeres del mundo"
@@ -204,74 +511,208 @@
         "cite": "Corán 3:42"
       },
       {
-        "p": "El Profeta Muhammad, la paz sea con él, también la elogió:"
-      },
-      {
-        "quote": "Muchos hombres alcanzaron la perfección, pero entre las mujeres no la alcanzaron sino Asiya, la esposa del Faraón, y Maryam, la hija de Imrán.",
-        "cite": "Sahih al-Bujari 3411 y Sahih Muslim 2431 (traducción del significado)"
+        "more": {
+          "title": "El elogio del Profeta",
+          "blocks": [
+            {
+              "p": "El Profeta Muhammad, la paz sea con él, también la elogió:"
+            },
+            {
+              "quote": "Muchos hombres alcanzaron la perfección, pero entre las mujeres no la alcanzaron sino Asiya, la esposa del Faraón, y Maryam, la hija de Imrán.",
+              "cite": "Sahih al-Bujari 3411 y Sahih Muslim 2431 (traducción del significado)"
+            }
+          ]
+        }
       },
       {
         "h": "Un nacimiento milagroso"
       },
       {
-        "p": "El Corán cuenta que Maryam se apartó de su familia hacia un lugar al este, y Allah le envió un ángel que se le presentó con forma humana (Corán 19:16-17). Los sabios del tafsir (la explicación del Corán) explican que ese ángel era Yibril (Gabriel). Asustada, dijo que se refugiaba en el Compasivo de él (Corán 19:18). Entonces:"
-      },
-      {
-        "quote": "Le dijo: \"Soy un enviado de tu Señor para agraciarte con un hijo puro\". Ella dijo: \"¿Cómo voy a tener un hijo si no me ha tocado ningún hombre ni he fornicado?\" Le dijo [el ángel]: \"Así será, pues tu Señor dice: ‘Eso es fácil para Mí. Lo convertiré [a tu hijo] en un milagro y una misericordia para la humanidad. Es un asunto decidido’\".",
-        "cite": "Corán 19:19-21"
-      },
-      {
-        "p": "En otro pasaje, los ángeles le dicen: \"Dios te albricia con Su Palabra [¡Sea!] será conocido como el Mesías Jesús, hijo de María\" (Corán 3:45). La expresión *Su Palabra* significa que Allah creó a Isa simplemente con Su palabra de mando: \"¡Sea!\". Cuando Maryam preguntó cómo podría tener un hijo si ningún hombre la había tocado, llegó la respuesta: \"¡Así será! Dios crea lo que quiere. Cuando decide algo, solo dice: ¡Sea!, y es.\" (Corán 3:47)."
-      },
-      {
-        "p": "Isa también habló a la gente siendo un bebé en la cuna (Corán 3:46). Las primeras palabras suyas que recoge el Corán son:"
+        "timeline": {
+          "title": "La historia en el Corán",
+          "events": [
+            {
+              "when": "El retiro",
+              "text": "Maryam se apartó de su familia hacia un lugar al este (Corán 19:16-17)."
+            },
+            {
+              "when": "El ángel",
+              "text": "Allah le envió un ángel que se le presentó con forma humana. Los sabios del tafsir (la explicación del Corán) explican que era Yibril (Gabriel). Asustada, dijo que se refugiaba en el Compasivo de él (Corán 19:18)."
+            },
+            {
+              "when": "La noticia",
+              "text": "Los ángeles le dijeron: \"Dios te albricia con Su Palabra [¡Sea!] será conocido como el Mesías Jesús, hijo de María\" (Corán 3:45). Significa que Allah creó a Isa simplemente con Su palabra de mando."
+            },
+            {
+              "when": "Su pregunta",
+              "text": "Maryam preguntó cómo podría tener un hijo si ningún hombre la había tocado. Llegó la respuesta: \"¡Así será! Dios crea lo que quiere. Cuando decide algo, solo dice: ¡Sea!, y es.\" (Corán 3:47)"
+            },
+            {
+              "when": "En la cuna",
+              "text": "Isa habló a la gente siendo un bebé (Corán 3:46). Las primeras palabras suyas que recoge el Corán son:"
+            }
+          ]
+        }
       },
       {
         "quote": "Entonces [Jesús] habló: \"Soy un siervo de Dios, Él me revelará el Libro y hará de mí un Profeta.",
         "cite": "Corán 19:30"
       },
       {
+        "more": {
+          "title": "Las palabras del ángel",
+          "blocks": [
+            {
+              "quote": "Le dijo: \"Soy un enviado de tu Señor para agraciarte con un hijo puro\". Ella dijo: \"¿Cómo voy a tener un hijo si no me ha tocado ningún hombre ni he fornicado?\" Le dijo [el ángel]: \"Así será, pues tu Señor dice: ‘Eso es fácil para Mí. Lo convertiré [a tu hijo] en un milagro y una misericordia para la humanidad. Es un asunto decidido’\".",
+              "cite": "Corán 19:19-21"
+            }
+          ]
+        }
+      },
+      {
         "h": "Un profeta y mensajero de Allah"
       },
       {
-        "p": "Este es el centro de lo que los musulmanes creen sobre Isa: es un ser humano, un siervo de Allah y uno de Sus más grandes profetas y mensajeros. El Corán compara su creación con la de Adán:"
+        "p": "Este es el centro de lo que los musulmanes creen sobre Isa: es un ser humano, un siervo de Allah y uno de Sus más grandes profetas y mensajeros."
       },
       {
-        "quote": "El ejemplo [de la creación] de Jesús ante Dios es como el de Adán, a quien creó del barro y luego le dijo: \"¡Sea!\", y fue.",
-        "cite": "Corán 3:59"
+        "compare": {
+          "first": {
+            "title": "Adán",
+            "items": [
+              "Creado sin padre y sin madre",
+              "Nadie lo considera divino"
+            ]
+          },
+          "second": {
+            "title": "Isa",
+            "items": [
+              "Creado sin padre, con la misma orden: \"¡Sea!\"",
+              "Un nacimiento milagroso muestra el poder de Allah. No convierte en divino a quien nace."
+            ]
+          }
+        }
       },
       {
-        "p": "Adán fue creado sin padre y sin madre, y nadie lo considera divino. Isa fue creado sin padre, con la misma orden: \"¡Sea!\". Un nacimiento milagroso muestra el poder de Allah. No convierte en divino a quien nace. Aquí está la mayor diferencia entre musulmanes y cristianos: los musulmanes creen que Isa no es Dios ni hijo de Dios, sino siervo y mensajero de Dios. Puedes decirlo con claridad y seguir hablando con amor, porque nace también del amor por Isa."
+        "more": {
+          "title": "La comparación en el Corán",
+          "blocks": [
+            {
+              "p": "El Corán compara su creación con la de Adán:"
+            },
+            {
+              "quote": "El ejemplo [de la creación] de Jesús ante Dios es como el de Adán, a quien creó del barro y luego le dijo: \"¡Sea!\", y fue.",
+              "cite": "Corán 3:59"
+            }
+          ]
+        }
       },
       {
-        "p": "Allah lo apoyó con grandes milagros. Curó a ciegos y a leprosos y devolvió la vida a los muertos, siempre \"con el permiso de Dios\" (Corán 3:49). Allah le dio una escritura, el Inyil (Evangelio), \"en el que había guía y luz\" (Corán 5:46). Y el Profeta Muhammad dijo: \"Soy el más cercano de toda la gente a Jesús, hijo de María, en esta vida y en la otra.\" (Sahih al-Bujari 3443, traducción del significado)."
+        "p": "Aquí está la mayor diferencia entre musulmanes y cristianos."
+      },
+      {
+        "p": "Los musulmanes creen que Isa no es Dios ni hijo de Dios, sino siervo y mensajero de Dios."
+      },
+      {
+        "p": "Puedes decirlo con claridad y seguir hablando con amor, porque nace también del amor por Isa."
+      },
+      {
+        "facts": {
+          "title": "Grandes milagros, \"con el permiso de Dios\" (Corán 3:49)",
+          "items": [
+            {
+              "icon": "eye",
+              "label": "Los ciegos",
+              "text": "Los curó"
+            },
+            {
+              "icon": "hands",
+              "label": "Los leprosos",
+              "text": "Los curó"
+            },
+            {
+              "icon": "sparkles",
+              "label": "Los muertos",
+              "text": "Les devolvió la vida"
+            },
+            {
+              "icon": "book",
+              "label": "El Inyil (Evangelio)",
+              "text": "\"en el que había guía y luz\" (Corán 5:46)"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Más sobre Isa",
+          "blocks": [
+            {
+              "p": "El Profeta Muhammad dijo: \"Soy el más cercano de toda la gente a Jesús, hijo de María, en esta vida y en la otra.\" (Sahih al-Bujari 3443, traducción del significado)."
+            }
+          ]
+        }
       },
       {
         "h": "El final de su tiempo en la tierra, y su regreso"
       },
       {
-        "p": "Los cristianos creen que Jesús fue crucificado. El Corán enseña algo distinto:"
+        "compare": {
+          "first": {
+            "title": "Los cristianos creen",
+            "items": [
+              "Que Jesús fue crucificado."
+            ]
+          },
+          "second": {
+            "title": "El Corán enseña",
+            "items": [
+              "Que no lo mataron ni lo crucificaron.",
+              "Allah lo elevó hacia Sí, vivo, en cuerpo y alma, como explican los sabios del tafsir."
+            ]
+          }
+        }
       },
       {
-        "quote": "Pero, aunque así lo creyeron, no lo mataron ni lo crucificaron.",
-        "cite": "Corán 4:157"
+        "more": {
+          "title": "Los versículos",
+          "blocks": [
+            {
+              "quote": "Pero, aunque así lo creyeron, no lo mataron ni lo crucificaron.",
+              "cite": "Corán 4:157"
+            },
+            {
+              "quote": "Dios lo ascendió al cielo [en cuerpo y alma]. Dios es Poderoso, Sabio.",
+              "cite": "Corán 4:158"
+            }
+          ]
+        }
       },
       {
-        "quote": "Dios lo ascendió al cielo [en cuerpo y alma]. Dios es Poderoso, Sabio.",
-        "cite": "Corán 4:158"
-      },
-      {
-        "p": "Los sabios del tafsir explican que Allah elevó a Isa hacia Sí, vivo, en cuerpo y alma. El Profeta Muhammad también nos dijo que Isa volverá antes del fin de los tiempos. En parte de un hadiz más largo, dijo:"
-      },
-      {
-        "quote": "Por aquel en Cuya mano está mi alma, el hijo de María descenderá pronto como un justo juez.",
-        "cite": "Sahih al-Bujari 3448 y Sahih Muslim 155"
+        "p": "El Profeta Muhammad también nos dijo que Isa volverá antes del fin de los tiempos."
       },
       {
         "p": "Los musulmanes creen que su regreso es una de las señales del Último Día, y que gobernará con justicia según el mensaje final que Allah reveló."
       },
       {
-        "p": "Muchos musulmanes nuevos tienen padres, abuelos y amigos cristianos. Puedes decirles con sinceridad que sigues amando y honrando a Jesús y a María, quizá más que nunca. Cuando hablen de sus diferencias, el Corán te pide: \"Debatan con la Gente del Libro con buenas maneras\", y recuerda a todos que \"El Dios de ustedes y nuestro Dios es uno\" (Corán 29:46)."
+        "more": {
+          "title": "El hadiz",
+          "blocks": [
+            {
+              "p": "En parte de un hadiz más largo, dijo:"
+            },
+            {
+              "quote": "Por aquel en Cuya mano está mi alma, el hijo de María descenderá pronto como un justo juez.",
+              "cite": "Sahih al-Bujari 3448 y Sahih Muslim 155"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Muchos musulmanes nuevos tienen padres, abuelos y amigos cristianos. Puedes decirles con sinceridad que sigues amando y honrando a Jesús y a María, quizá más que nunca."
+      },
+      {
+        "p": "Cuando hablen de sus diferencias, el Corán te pide: \"Debatan con la Gente del Libro con buenas maneras\", y recuerda a todos que \"El Dios de ustedes y nuestro Dios es uno\" (Corán 29:46)."
       },
       {
         "key": "En el islam, Isa es un profeta y mensajero amado de Allah, nacido milagrosamente de Maryam, la más honrada de las mujeres. Los musulmanes creen que no fue asesinado ni crucificado, sino elevado por Allah, y que regresará."
@@ -482,6 +923,22 @@
         "ar": "قال الله تعالى: «وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ»، وقال: «بَل رَّفَعَهُ ٱللَّهُ إِلَيْهِ» (النساء: 157 و158).",
         "es": "El Corán dice que \"no lo mataron ni lo crucificaron\" y que \"Dios lo ascendió al cielo\" (Corán 4:157-158)."
       }
+    }
+  ],
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=z7INhwe4IJI",
+      "title": {
+        "en": "A Muslim and a Christian discuss whether Jesus is divine",
+        "ar": "حوار بين مسلم ومسيحي حول ألوهية المسيح",
+        "es": "Un musulmán y un cristiano debaten si Jesús es divino"
+      },
+      "by": {
+        "en": "Muhammed Ali, The Muslim Lantern",
+        "ar": "محمد علي، The Muslim Lantern",
+        "es": "Muhammed Ali, The Muslim Lantern"
+      },
+      "seconds": 2103
     }
   ]
 }

@@ -17,6 +17,8 @@ import { OutcomesCard } from "@/components/paths/OutcomesCard";
 import { StepSection } from "@/components/paths/StepSection";
 import { StepTabs, type StepState, type StepTab } from "@/components/paths/StepTabs";
 import { pathDuration } from "@/components/paths/duration";
+import { ShareButton } from "@/components/feedback/ShareButton";
+import { OG_LOCALES } from "@/components/feedback/og-locale";
 
 type Params = Promise<{ locale: string; slug: string }>;
 
@@ -35,9 +37,24 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     const t = await getTranslations({ locale, namespace: "paths" });
     return { title: t("notFoundTitle") };
   }
+  const title = localized(path.title, locale);
+  const description = localized(path.description, locale) || undefined;
   return {
-    title: localized(path.title, locale),
-    description: localized(path.description, locale),
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}/paths/${slug}`,
+      languages: { en: `/en/paths/${slug}`, ar: `/ar/paths/${slug}`, es: `/es/paths/${slug}` },
+    },
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: `/${locale}/paths/${slug}`,
+      siteName: "Basmet Dawah",
+      locale: OG_LOCALES[locale] ?? OG_LOCALES.en,
+    },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
@@ -143,6 +160,9 @@ export default async function PathJourneyPage({ params }: { params: Params }) {
             </div>
             <div className="mt-7">
               <JourneyAction path={path} locale={locale} signedIn={signedIn} />
+            </div>
+            <div className="mt-4">
+              <ShareButton kind="path" slug={slug} title={title} />
             </div>
           </div>
 

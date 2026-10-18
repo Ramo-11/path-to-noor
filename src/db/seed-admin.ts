@@ -40,6 +40,7 @@ const UserSchema = new mongoose.Schema(
     isActive: { type: Boolean, default: true },
     preferredLanguage: { type: String, enum: ["en", "ar", "es"], default: "en" },
     lastLoginAt: { type: Date },
+    emailVerified: { type: Date, default: null },
   },
   { timestamps: true }
 );
@@ -89,6 +90,7 @@ async function main() {
     role,
     isActive: true,
     preferredLanguage: "en",
+    emailVerified: new Date(),
   });
 
   console.log(`\nCreated ${role} user "${email}" successfully.`);

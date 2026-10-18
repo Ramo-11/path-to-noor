@@ -1,6 +1,6 @@
 {
   "slug": "res-five-beliefs",
-  "minutes": 7,
+  "minutes": 4,
   "title": {
     "en": "The pillars of faith (iman)",
     "ar": "أركان الإيمان",
@@ -9,20 +9,13 @@
   "body": {
     "en": [
       {
-        "p": "You have learned the shahada and what it means. Now look at the beliefs that sit underneath it. In Arabic, faith is called *iman*. The Prophet Muhammad, peace be upon him, listed its pillars in one of the best-known hadith in Islam, the hadith of Jibril. (A *hadith* is a report of what the Prophet said or did.)"
+        "p": "Under the shahada sit the beliefs of faith, called *iman* in Arabic. The Prophet Muhammad, peace be upon him, listed them in the hadith of Jibril. (A *hadith* is a report of what the Prophet said or did.)"
       },
       {
         "h": "The hadith of Jibril"
       },
       {
-        "p": "The companion Umar ibn al-Khattab (may Allah be pleased with him) described a day when he and others were sitting with the Prophet. A man appeared in very white clothes, with very black hair. He showed no sign of travel, and none of them knew him. He sat facing the Prophet and asked him about Islam, then about iman, then about *ihsan* (worshipping Allah with excellence). When the man had gone, the Prophet told Umar:"
-      },
-      {
-        "quote": "He was Jibrīl (Gabriel). He came to teach you your religion.",
-        "cite": "Sahih Muslim 8"
-      },
-      {
-        "p": "When Jibril asked about iman, the Prophet answered:"
+        "p": "A man came to the Prophet and asked him about Islam, then about iman, then about *ihsan* (worshipping Allah with excellence). Afterward, the Prophet said it was Jibril (Gabriel). When Jibril asked about iman, the Prophet answered:"
       },
       {
         "quote": "It is to believe in Allah, His angels, His books, His messengers, and the Last Day, and believe in the divine decree, the pleasant and unpleasant aspects thereof.",
@@ -32,27 +25,89 @@
         "phrase": {
           "arabic": "أَنْ تُؤْمِنَ بِاللهِ، وَمَلَائِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الْآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
           "transliteration": "An tu'mina billahi, wa mala'ikatihi, wa kutubihi, wa rusulihi, wal-yawmil-akhir, wa tu'mina bil-qadari khayrihi wa sharrihi",
-          "meaning": "That you believe in Allah, His angels, His books, His messengers, and the Last Day, and that you believe in divine decree, both the pleasant and the unpleasant of it."
+          "meaning": "That you believe in Allah, His angels, His books, His messengers, and the Last Day, and that you believe in divine decree, both the pleasant and the unpleasant of it.",
+          "audio": "/audio/phrases/res-five-beliefs-1.mp3"
+        }
+      },
+      {
+        "more": {
+          "title": "The full story, as Umar told it",
+          "blocks": [
+            {
+              "p": "The companion Umar ibn al-Khattab (may Allah be pleased with him) described a day when he and others were sitting with the Prophet. A man appeared in very white clothes, with very black hair. He showed no sign of travel, and none of them knew him. He sat facing the Prophet and asked him about Islam, then about iman, then about *ihsan* (worshipping Allah with excellence). When the man had gone, the Prophet told Umar:"
+            },
+            {
+              "quote": "He was Jibrīl (Gabriel). He came to teach you your religion.",
+              "cite": "Sahih Muslim 8"
+            }
+          ]
         }
       },
       {
         "h": "The six pillars of faith"
       },
       {
-        "ol": [
-          "Belief in **Allah** (*al-iman billah*): He is One, with no partner, and He alone deserves worship.",
-          "Belief in His **angels** (*mala'ikatihi*): beings Allah created to worship Him and carry out His commands.",
-          "Belief in His **books** (*kutubihi*): the revelations Allah sent to His messengers. The last of them is the Quran.",
-          "Belief in His **messengers** (*rusulihi*): the people Allah chose to carry His message. The last of them is the Prophet Muhammad.",
-          "Belief in the **Last Day** (*al-yawm al-akhir*): life after death, when every person will see the good and the bad they did.",
-          "Belief in **divine decree** (*al-qadar*): nothing happens except by Allah's knowledge and will."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "star",
+              "label": "Allah",
+              "text": "He is One, with no partner, and He alone deserves worship."
+            },
+            {
+              "icon": "sparkles",
+              "label": "His angels",
+              "text": "Beings Allah created to worship Him and carry out His commands."
+            },
+            {
+              "icon": "book",
+              "label": "His books",
+              "text": "The revelations Allah sent to His messengers. The last of them is the Quran."
+            },
+            {
+              "icon": "message",
+              "label": "His messengers",
+              "text": "The people Allah chose to carry His message. The last of them is the Prophet Muhammad."
+            },
+            {
+              "icon": "clock",
+              "label": "The Last Day",
+              "text": "Life after death, when every person will see the good and the bad they did."
+            },
+            {
+              "icon": "scale",
+              "label": "Divine decree (qadar)",
+              "text": "Nothing happens except by Allah's knowledge and will."
+            }
+          ]
+        }
       },
       {
         "h": "Five or six?"
       },
       {
-        "p": "You may have heard of \"the five basic beliefs\". The Quran names five of these pillars together in one verse (Quran 4:136): Allah, His angels, His books, His messengers, and the Last Day. In the hadith of Jibril, the Prophet named the same five and added a sixth: belief in divine decree, called *qadar*. The Quran teaches this sixth pillar too:"
+        "compare": {
+          "first": {
+            "title": "The Quran (4:136) names five",
+            "items": [
+              "Allah",
+              "His angels",
+              "His books",
+              "His messengers",
+              "The Last Day"
+            ]
+          },
+          "second": {
+            "title": "The hadith of Jibril names six",
+            "items": [
+              "The same five",
+              "Plus divine decree (*qadar*)"
+            ]
+          }
+        }
+      },
+      {
+        "p": "The Quran teaches this sixth pillar too:"
       },
       {
         "quote": "Indeed, all things We created with predestination.",
@@ -65,7 +120,7 @@
         "h": "Faith lives in your day"
       },
       {
-        "p": "Iman is not only a list you agree with. It shows in what you say and do. The Prophet said that faith has over seventy or over sixty branches. The highest is saying *la ilaha illallah*, the lowest is removing something harmful from the road, and modesty is a branch of faith (Sahih Muslim 35). So a kind act as small as clearing a path is part of your faith too."
+        "p": "Iman is not only a list you agree with. It shows in what you say and do. The Prophet said that faith has over seventy or over sixty branches. The highest is saying *la ilaha illallah*, the lowest is removing something harmful from the road, and modesty is a branch of faith (Sahih Muslim 35)."
       },
       {
         "h": "Learn them by heart"
@@ -106,46 +161,101 @@
     ],
     "ar": [
       {
-        "p": "تعرّفتَ على الشهادتين ومعناهما. والآن ننظر في العقائد التي تقوم عليها الشهادتان، وهي أركان الإيمان. وقد ذكرها النبي محمد صلى الله عليه وسلم في حديث من أشهر الأحاديث في الإسلام، يُعرف بحديث جبريل."
+        "p": "أركان الإيمان هي العقائد التي تقوم عليها الشهادتان. وقد ذكرها النبي محمد صلى الله عليه وسلم في حديث جبريل، وهو من أشهر الأحاديث في الإسلام."
       },
       {
         "h": "حديث جبريل"
       },
       {
-        "p": "حدّث عمر بن الخطاب رضي الله عنه أنهم كانوا جلوسا عند النبي صلى الله عليه وسلم ذات يوم، فدخل عليهم رجل شديد بياض الثياب، شديد سواد الشعر، لا يُرى عليه أثر السفر، ولا يعرفه منهم أحد. فجلس إلى النبي صلى الله عليه وسلم وسأله عن الإسلام، ثم عن الإيمان، ثم عن الإحسان. فلما انصرف قال النبي صلى الله عليه وسلم لعمر:"
-      },
-      {
-        "quote": "فَإِنَّهُ جِبْرِيلُ، أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ",
-        "cite": "صحيح مسلم 8"
-      },
-      {
-        "p": "ولما سأله جبريل عن الإيمان قال صلى الله عليه وسلم:"
+        "p": "جاء رجل فسأل النبي صلى الله عليه وسلم عن الإسلام، ثم عن الإيمان، ثم عن الإحسان. وبعد انصرافه قال النبي صلى الله عليه وسلم إنه جبريل. ولما سأله جبريل عن الإيمان قال صلى الله عليه وسلم:"
       },
       {
         "phrase": {
           "arabic": "أَنْ تُؤْمِنَ بِاللهِ، وَمَلَائِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الْآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
           "transliteration": "An tu'mina billahi, wa mala'ikatihi, wa kutubihi, wa rusulihi, wal-yawmil-akhir, wa tu'mina bil-qadari khayrihi wa sharrihi",
-          "meaning": "أن تصدّق تصديقا جازما بالله، وبملائكته، وبكتبه، وبرسله، وباليوم الآخر، وبأن كل ما يجري في الكون بتقدير الله، ما نحبه منه وما نكرهه."
+          "meaning": "أن تصدّق تصديقا جازما بالله، وبملائكته، وبكتبه، وبرسله، وباليوم الآخر، وبأن كل ما يجري في الكون بتقدير الله، ما نحبه منه وما نكرهه.",
+          "audio": "/audio/phrases/res-five-beliefs-1.mp3"
+        }
+      },
+      {
+        "more": {
+          "title": "القصة كاملة كما رواها عمر",
+          "blocks": [
+            {
+              "p": "حدّث عمر بن الخطاب رضي الله عنه أنهم كانوا جلوسا عند النبي صلى الله عليه وسلم ذات يوم، فدخل عليهم رجل شديد بياض الثياب، شديد سواد الشعر، لا يُرى عليه أثر السفر، ولا يعرفه منهم أحد. فجلس إلى النبي صلى الله عليه وسلم وسأله عن الإسلام، ثم عن الإيمان، ثم عن الإحسان. فلما انصرف قال النبي صلى الله عليه وسلم لعمر:"
+            },
+            {
+              "quote": "فَإِنَّهُ جِبْرِيلُ، أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ",
+              "cite": "صحيح مسلم 8"
+            }
+          ]
         }
       },
       {
         "h": "أركان الإيمان الستة"
       },
       {
-        "ol": [
-          "**الإيمان بالله**: فهو واحد لا شريك له، وهو وحده المستحق للعبادة.",
-          "**الإيمان بالملائكة**: وهم خلق من خلق الله، خلقهم لعبادته وتنفيذ أمره.",
-          "**الإيمان بالكتب**: وهي ما أنزله الله على رسله من الوحي، وآخرها القرآن الكريم.",
-          "**الإيمان بالرسل**: وهم الذين اختارهم الله لتبليغ رسالته، وخاتمهم النبي محمد صلى الله عليه وسلم.",
-          "**الإيمان باليوم الآخر**: الحياة بعد الموت، حين يرى كل إنسان ما عمل من خير وشر.",
-          "**الإيمان بالقدر**: فلا يقع شيء في الكون إلا بعلم الله ومشيئته."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "star",
+              "label": "الله",
+              "text": "هو واحد لا شريك له، وهو وحده المستحق للعبادة."
+            },
+            {
+              "icon": "sparkles",
+              "label": "الملائكة",
+              "text": "خلق من خلق الله، خلقهم لعبادته وتنفيذ أمره."
+            },
+            {
+              "icon": "book",
+              "label": "الكتب",
+              "text": "ما أنزله الله على رسله من الوحي، وآخرها القرآن الكريم."
+            },
+            {
+              "icon": "message",
+              "label": "الرسل",
+              "text": "الذين اختارهم الله لتبليغ رسالته، وخاتمهم النبي محمد صلى الله عليه وسلم."
+            },
+            {
+              "icon": "clock",
+              "label": "اليوم الآخر",
+              "text": "الحياة بعد الموت، حين يرى كل إنسان ما عمل من خير وشر."
+            },
+            {
+              "icon": "scale",
+              "label": "القدر",
+              "text": "فلا يقع شيء في الكون إلا بعلم الله ومشيئته."
+            }
+          ]
+        }
       },
       {
         "h": "خمسة أم ستة؟"
       },
       {
-        "p": "ربما سمعت من يقول «المعتقدات الخمس». وذلك لأن الله تعالى ذكر خمسة من هذه الأركان مجتمعة في آية واحدة (سورة النساء، الآية 136): الله، وملائكته، وكتبه، ورسله، واليوم الآخر. وفي حديث جبريل ذكر النبي صلى الله عليه وسلم هذه الخمسة وزاد ركنا سادسا هو الإيمان بالقدر، والقرآن يقرر هذا الركن أيضا:"
+        "compare": {
+          "first": {
+            "title": "القرآن (سورة النساء، الآية 136) يذكر خمسة",
+            "items": [
+              "الله",
+              "وملائكته",
+              "وكتبه",
+              "ورسله",
+              "واليوم الآخر"
+            ]
+          },
+          "second": {
+            "title": "حديث جبريل يذكر ستة",
+            "items": [
+              "الخمسة نفسها",
+              "وزاد الإيمان بالقدر"
+            ]
+          }
+        }
+      },
+      {
+        "p": "والقرآن يقرر هذا الركن السادس أيضا:"
       },
       {
         "quote": "إِنَّا كُلَّ شَىْءٍ خَلَقْنَٰهُ بِقَدَرٍۢ",
@@ -158,7 +268,7 @@
         "h": "الإيمان يظهر في يومك"
       },
       {
-        "p": "الإيمان ليس قائمة تصدّق بها فحسب، بل يظهر في قولك وعملك. فقد أخبر النبي صلى الله عليه وسلم أن الإيمان بضع وسبعون أو بضع وستون شعبة، «فَأَفْضَلُهَا قَوْلُ لَا إِلَهَ إِلَّا اللهُ، وَأَدْنَاهَا إِمَاطَةُ الْأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الْإِيمَانِ» (صحيح مسلم 35). فحتى إزالة الأذى عن الطريق جزء من إيمانك."
+        "p": "الإيمان ليس قائمة تصدّق بها فحسب، بل يظهر في قولك وعملك. فقد أخبر النبي صلى الله عليه وسلم أن الإيمان بضع وسبعون أو بضع وستون شعبة، «فَأَفْضَلُهَا قَوْلُ لَا إِلَهَ إِلَّا اللهُ، وَأَدْنَاهَا إِمَاطَةُ الْأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الْإِيمَانِ» (صحيح مسلم 35)."
       },
       {
         "h": "احفظها عن ظهر قلب"
@@ -199,16 +309,13 @@
     ],
     "es": [
       {
-        "p": "Ya aprendiste la shahada y lo que significa. Ahora mira las creencias que la sostienen. En árabe, la fe se llama *iman*. El Profeta Muhammad, la paz sea con él, enumeró sus pilares en uno de los hadices más conocidos del islam, el hadiz de Jibril. (Un *hadiz* es un relato de lo que el Profeta dijo o hizo.)"
+        "p": "Bajo la shahada están las creencias de la fe, llamada *iman* en árabe. El Profeta Muhammad, la paz sea con él, las enumeró en el hadiz de Jibril. (Un *hadiz* es un relato de lo que el Profeta dijo o hizo.)"
       },
       {
         "h": "El hadiz de Jibril"
       },
       {
-        "p": "El compañero Umar ibn al-Jattab (que Allah esté complacido con él) contó que un día estaban sentados con el Profeta. Apareció un hombre con ropa muy blanca y cabello muy negro. No se le veían señales de viaje y ninguno de ellos lo conocía. Se sentó frente al Profeta y le preguntó por el islam, luego por el iman y luego por el *ihsan* (adorar a Allah con excelencia). Cuando el hombre se fue, el Profeta le dijo a Umar que era Jibril, el ángel Gabriel, que había venido a enseñarles su religión."
-      },
-      {
-        "p": "Cuando Jibril preguntó por el iman, el Profeta respondió:"
+        "p": "Un hombre se presentó ante el Profeta y le preguntó por el islam, luego por el iman y luego por el *ihsan* (adorar a Allah con excelencia). Después, el Profeta dijo que era Jibril (Gabriel). Cuando Jibril preguntó por el iman, el Profeta respondió:"
       },
       {
         "quote": "Es creer en Allah, Sus ángeles, Sus Libros, Sus enviados, el último día y el decreto divino, tanto bueno como malo",
@@ -218,27 +325,85 @@
         "phrase": {
           "arabic": "أَنْ تُؤْمِنَ بِاللهِ، وَمَلَائِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الْآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
           "transliteration": "An tu'mina billahi, wa mala'ikatihi, wa kutubihi, wa rusulihi, wal-yawmil-akhir, wa tu'mina bil-qadari khayrihi wa sharrihi",
-          "meaning": "Que creas en Allah, en Sus ángeles, en Sus Libros, en Sus mensajeros y en el Último Día, y que creas en el decreto divino, tanto en lo agradable como en lo desagradable."
+          "meaning": "Que creas en Allah, en Sus ángeles, en Sus Libros, en Sus mensajeros y en el Último Día, y que creas en el decreto divino, tanto en lo agradable como en lo desagradable.",
+          "audio": "/audio/phrases/res-five-beliefs-1.mp3"
+        }
+      },
+      {
+        "more": {
+          "title": "La historia completa, como la contó Umar",
+          "blocks": [
+            {
+              "p": "El compañero Umar ibn al-Jattab (que Allah esté complacido con él) contó que un día estaban sentados con el Profeta. Apareció un hombre con ropa muy blanca y cabello muy negro. No se le veían señales de viaje y ninguno de ellos lo conocía. Se sentó frente al Profeta y le preguntó por el islam, luego por el iman y luego por el *ihsan* (adorar a Allah con excelencia). Cuando el hombre se fue, el Profeta le dijo a Umar que era Jibril, el ángel Gabriel, que había venido a enseñarles su religión."
+            }
+          ]
         }
       },
       {
         "h": "Los seis pilares de la fe"
       },
       {
-        "ol": [
-          "Creer en **Allah** (*al-iman billah*): Él es Uno, sin copartícipes, y solo Él merece ser adorado.",
-          "Creer en Sus **ángeles** (*mala'ikatihi*): seres que Allah creó para adorarlo y cumplir Sus órdenes.",
-          "Creer en Sus **Libros** (*kutubihi*): las revelaciones que Allah envió a Sus mensajeros. La última de ellas es el Corán.",
-          "Creer en Sus **mensajeros** (*rusulihi*): las personas que Allah eligió para transmitir Su mensaje. El último de ellos es el Profeta Muhammad.",
-          "Creer en el **Último Día** (*al-yawm al-akhir*): la vida después de la muerte, cuando cada persona verá el bien y el mal que hizo.",
-          "Creer en el **decreto divino** (*al-qadar*): nada sucede sin el conocimiento y la voluntad de Allah."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "star",
+              "label": "Allah",
+              "text": "Él es Uno, sin copartícipes, y solo Él merece ser adorado."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Sus ángeles",
+              "text": "Seres que Allah creó para adorarlo y cumplir Sus órdenes."
+            },
+            {
+              "icon": "book",
+              "label": "Sus Libros",
+              "text": "Las revelaciones que Allah envió a Sus mensajeros. La última de ellas es el Corán."
+            },
+            {
+              "icon": "message",
+              "label": "Sus mensajeros",
+              "text": "Las personas que Allah eligió para transmitir Su mensaje. El último de ellos es el Profeta Muhammad."
+            },
+            {
+              "icon": "clock",
+              "label": "El Último Día",
+              "text": "La vida después de la muerte, cuando cada persona verá el bien y el mal que hizo."
+            },
+            {
+              "icon": "scale",
+              "label": "El decreto divino (qadar)",
+              "text": "Nada sucede sin el conocimiento y la voluntad de Allah."
+            }
+          ]
+        }
       },
       {
         "h": "¿Cinco o seis?"
       },
       {
-        "p": "Quizás has oído hablar de «las cinco creencias básicas». El Corán nombra cinco de estos pilares juntos en un solo versículo (Corán 4:136): Allah, Sus ángeles, Sus Libros, Sus mensajeros y el Último Día. En el hadiz de Jibril, el Profeta nombró esos mismos cinco y añadió un sexto: la fe en el decreto divino, llamado *qadar*. El Corán también enseña este sexto pilar:"
+        "compare": {
+          "first": {
+            "title": "El Corán (4:136) nombra cinco",
+            "items": [
+              "Allah",
+              "Sus ángeles",
+              "Sus Libros",
+              "Sus mensajeros",
+              "El Último Día"
+            ]
+          },
+          "second": {
+            "title": "El hadiz de Jibril nombra seis",
+            "items": [
+              "Los mismos cinco",
+              "Más el decreto divino (*qadar*)"
+            ]
+          }
+        }
+      },
+      {
+        "p": "El Corán también enseña este sexto pilar:"
       },
       {
         "quote": "He creado todas las cosas en su justa medida.",
@@ -251,7 +416,7 @@
         "h": "La fe vive en tu día"
       },
       {
-        "p": "El iman no es solo una lista con la que estás de acuerdo. Se nota en lo que dices y haces. El Profeta dijo que la fe tiene setenta y tantas o sesenta y tantas ramas. La más alta es decir *la ilaha illallah*, la más baja es apartar un obstáculo del camino, y el pudor también es una rama de la fe (Sahih Muslim 35). Así que un acto amable tan pequeño como despejar un camino también es parte de tu fe."
+        "p": "El iman no es solo una lista con la que estás de acuerdo. Se nota en lo que dices y haces. El Profeta dijo que la fe tiene setenta y tantas o sesenta y tantas ramas. La más alta es decir *la ilaha illallah*, la más baja es apartar un obstáculo del camino, y el pudor también es una rama de la fe (Sahih Muslim 35)."
       },
       {
         "h": "Apréndelos de memoria"
@@ -309,5 +474,21 @@
       "url": "https://hadeethenc.com/en/browse/hadith/6468"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=fhGIdPc9GBs",
+      "title": {
+        "en": "The six pillars of faith explained",
+        "ar": "شرح أركان الإيمان الستة",
+        "es": "Los seis pilares de la fe explicados"
+      },
+      "by": {
+        "en": "Saad Tasleem",
+        "ar": "سعد تسليم",
+        "es": "Saad Tasleem"
+      },
+      "seconds": 174
+    }
+  ]
 }

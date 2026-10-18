@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-five-pillars",
-  "minutes": 9,
+  "minutes": 5,
   "title": {
     "en": "What the five pillars mean in your life",
     "ar": "معنى أركان الإسلام في حياتك",
@@ -9,14 +9,42 @@
   "body": {
     "en": [
       {
-        "p": "Five pillars can sound like a lot when you are new. Here is some good news: the Prophet Muhammad, peace be upon him, taught Islam in order, one step at a time. When he sent his companion Muadh ibn Jabal (may Allah be pleased with him) to teach the people of Yemen, he told him:"
+        "p": "Five pillars can sound like a lot when you are new. Here is some good news: the Prophet Muhammad, peace be upon him, taught Islam in order, one step at a time."
       },
       {
-        "quote": "invite them to testify that none is worthy of worship except Allah and that Muhammad is the Messenger of Allah. If they obey you in that, tell them that Allah has enjoined on them five prayers every day and night. If they obey you in that, tell them that Allah has enjoined Zakah on them, to be taken from the rich amongst them and given to the poor amongst them.",
-        "cite": "Sahih al-Bukhari 1496 and Sahih Muslim 19"
+        "p": "When he sent his companion Muadh ibn Jabal (may Allah be pleased with him) to teach the people of Yemen, he taught in this order:"
       },
       {
-        "p": "First the shahada, then prayer, then zakah. The Prophet also said:"
+        "flow": {
+          "steps": [
+            {
+              "label": "Shahada",
+              "text": "Testify that none is worthy of worship except Allah and that Muhammad is the Messenger of Allah."
+            },
+            {
+              "label": "Prayer",
+              "text": "Five prayers every day and night."
+            },
+            {
+              "label": "Zakah",
+              "text": "To be taken from the rich amongst them and given to the poor amongst them."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "The Prophet's words to Muadh",
+          "blocks": [
+            {
+              "quote": "invite them to testify that none is worthy of worship except Allah and that Muhammad is the Messenger of Allah. If they obey you in that, tell them that Allah has enjoined on them five prayers every day and night. If they obey you in that, tell them that Allah has enjoined Zakah on them, to be taken from the rich amongst them and given to the poor amongst them.",
+              "cite": "Sahih al-Bukhari 1496 and Sahih Muslim 19"
+            }
+          ]
+        }
+      },
+      {
+        "p": "The Prophet also said:"
       },
       {
         "quote": "Indeed, the religion is easy. No one overburdens himself in the religion except that he will be overwhelmed by it. So, seek uprightness (be moderate) and try to be close to it and receive the glad tidings.",
@@ -45,37 +73,84 @@
         "h": "Zakah: sharing, once you have enough"
       },
       {
-        "p": "Zakah is not a tax on every amount you earn. It is due only on savings that reach a minimum amount called the *nisab*. The Prophet said:"
+        "p": "Zakah is not a tax on every amount you earn. It is due only on savings that reach a minimum amount called the *nisab*."
       },
       {
-        "quote": "Zakah is not due on what is less than five ounces, nor on what is less than five camels, nor on what is less than five Wasqs.",
-        "cite": "Sahih al-Bukhari 1447 and Sahih Muslim 979"
+        "compare": {
+          "first": {
+            "title": "Below the nisab",
+            "items": [
+              "You do not owe zakah.",
+              "Voluntary charity (*sadaqah*) of any amount is always open to you."
+            ]
+          },
+          "second": {
+            "title": "At or above the nisab for a full lunar year",
+            "items": [
+              "You give one fortieth (2.5 percent) to people in need (Sahih al-Bukhari 1454)."
+            ]
+          }
+        }
       },
       {
-        "p": "The hadith covers silver, camels, and harvested crops (a *wasq* is a measure of grain), and the five ounces are of silver. For money, scholars today use the value of gold or silver to set the nisab, and your local masjid can help you work it out. When your savings stay at or above the nisab for a full lunar year, you give one fortieth of them (2.5 percent) to people in need (Sahih al-Bukhari 1454). If your savings are below the nisab, you do not owe zakah. Voluntary charity (*sadaqah*) of any amount is always open to you."
+        "more": {
+          "title": "The hadith, and how the nisab is set",
+          "blocks": [
+            {
+              "p": "The Prophet said:"
+            },
+            {
+              "quote": "Zakah is not due on what is less than five ounces, nor on what is less than five camels, nor on what is less than five Wasqs.",
+              "cite": "Sahih al-Bukhari 1447 and Sahih Muslim 979"
+            },
+            {
+              "p": "The hadith covers silver, camels, and harvested crops (a *wasq* is a measure of grain), and the five ounces are of silver. For money, scholars today use the value of gold or silver to set the nisab, and your local masjid can help you work it out. When your savings stay at or above the nisab for a full lunar year, you give one fortieth of them (2.5 percent) to people in need (Sahih al-Bukhari 1454). If your savings are below the nisab, you do not owe zakah. Voluntary charity (*sadaqah*) of any amount is always open to you."
+            }
+          ]
+        }
       },
       {
         "h": "Fasting Ramadan: a month of closeness"
       },
       {
-        "p": "Once a year, in the month of Ramadan, Muslims fast from dawn until sunset (Quran 2:187). Allah says:"
+        "p": "Once a year, in the month of Ramadan, Muslims fast from dawn until sunset (Quran 2:187). Someone who is ill or traveling may skip those days and make them up later (Quran 2:184)."
       },
       {
-        "quote": "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous",
-        "cite": "Quran 2:183 (Saheeh International translation)"
-      },
-      {
-        "p": "Mercy is built into the fast. Someone who is ill or traveling may skip those days and make them up later (Quran 2:184), and Allah says in the same passage: \"Allah intends for you ease and does not intend for you hardship\" (Quran 2:185). The reward is great:"
-      },
-      {
-        "quote": "Whoever fasts Ramadan, out of faith and in pursuit of reward, his past sins will be forgiven.",
-        "cite": "Sahih al-Bukhari 38 and Sahih Muslim 760"
+        "more": {
+          "title": "The verses and the reward",
+          "blocks": [
+            {
+              "p": "Allah says:"
+            },
+            {
+              "quote": "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous",
+              "cite": "Quran 2:183 (Saheeh International translation)"
+            },
+            {
+              "p": "Mercy is built into the fast. Someone who is ill or traveling may skip those days and make them up later (Quran 2:184), and Allah says in the same passage: \"Allah intends for you ease and does not intend for you hardship\" (Quran 2:185). The reward is great:"
+            },
+            {
+              "quote": "Whoever fasts Ramadan, out of faith and in pursuit of reward, his past sins will be forgiven.",
+              "cite": "Sahih al-Bukhari 38 and Sahih Muslim 760"
+            }
+          ]
+        }
       },
       {
         "h": "Hajj: once in a lifetime, if you are able"
       },
       {
-        "p": "Hajj is the pilgrimage to the Kaaba in Makkah. The Quran makes it due from those who are able to find a way to it (Quran 3:97): healthy enough, with the means to travel and a safe way to get there. When a companion asked whether Hajj is every year, the Prophet said it is once, and anything more is voluntary (Sunan Abi Dawud 1721, graded sahih by al-Albani)."
+        "p": "Hajj is the pilgrimage to the Kaaba in Makkah, due once from those who are able to find a way to it (Quran 3:97)."
+      },
+      {
+        "more": {
+          "title": "Who is able, and how often",
+          "blocks": [
+            {
+              "p": "Hajj is the pilgrimage to the Kaaba in Makkah. The Quran makes it due from those who are able to find a way to it (Quran 3:97): healthy enough, with the means to travel and a safe way to get there. When a companion asked whether Hajj is every year, the Prophet said it is once, and anything more is voluntary (Sunan Abi Dawud 1721, graded sahih by al-Albani)."
+            }
+          ]
+        }
       },
       {
         "p": "If Hajj is not possible for you now, you are not falling short. Hold a sincere intention to go one day. As you learned earlier in this step, Allah writes down a good intention as a good deed."
@@ -119,14 +194,42 @@
     ],
     "ar": [
       {
-        "p": "قد تبدو أركان الإسلام الخمسة كثيرة على من أسلم حديثا. وإليك البشرى: كان النبي محمد صلى الله عليه وسلم يعلّم الإسلام بالتدريج، خطوة بعد خطوة. فحين بعث معاذ بن جبل رضي الله عنه إلى أهل اليمن قال له:"
+        "p": "قد تبدو أركان الإسلام الخمسة كثيرة على من أسلم حديثا. وإليك البشرى: كان النبي محمد صلى الله عليه وسلم يعلّم الإسلام بالتدريج، خطوة بعد خطوة."
       },
       {
-        "quote": "فَادْعُهُمْ إِلَى أَنْ يَشْهَدُوا أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ، فَإِنْ هُمْ أَطَاعُوا لَكَ بِذَلِكَ، فَأَخْبِرْهُمْ أَنَّ اللهَ قَدْ فَرَضَ عَلَيْهِمْ خَمْسَ صَلَوَاتٍ فِي كُلِّ يَوْمٍ وَلَيْلَةٍ، فَإِنْ هُمْ أَطَاعُوا لَكَ بِذَلِكَ، فَأَخْبِرْهُمْ أَنَّ اللهَ قَدْ فَرَضَ عَلَيْهِمْ صَدَقَةً تُؤْخَذُ مِنْ أَغْنِيَائِهِمْ فَتُرَدُّ عَلَى فُقَرَائِهِمْ",
-        "cite": "متفق عليه: صحيح البخاري 1496، وصحيح مسلم 19"
+        "p": "فحين بعث معاذ بن جبل رضي الله عنه إلى أهل اليمن علّمهم بهذا الترتيب:"
       },
       {
-        "p": "الشهادتان أولا، ثم الصلاة، ثم الزكاة. وقال صلى الله عليه وسلم أيضا:"
+        "flow": {
+          "steps": [
+            {
+              "label": "الشهادتان",
+              "text": "أن يشهدوا أن لا إله إلا الله، وأن محمدا رسول الله."
+            },
+            {
+              "label": "الصلاة",
+              "text": "خمس صلوات في كل يوم وليلة."
+            },
+            {
+              "label": "الزكاة",
+              "text": "صدقة تؤخذ من أغنيائهم فتُرد على فقرائهم."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "وصية النبي صلى الله عليه وسلم لمعاذ",
+          "blocks": [
+            {
+              "quote": "فَادْعُهُمْ إِلَى أَنْ يَشْهَدُوا أَنْ لَا إِلَهَ إِلَّا اللهُ، وَأَنَّ مُحَمَّدًا رَسُولُ اللهِ، فَإِنْ هُمْ أَطَاعُوا لَكَ بِذَلِكَ، فَأَخْبِرْهُمْ أَنَّ اللهَ قَدْ فَرَضَ عَلَيْهِمْ خَمْسَ صَلَوَاتٍ فِي كُلِّ يَوْمٍ وَلَيْلَةٍ، فَإِنْ هُمْ أَطَاعُوا لَكَ بِذَلِكَ، فَأَخْبِرْهُمْ أَنَّ اللهَ قَدْ فَرَضَ عَلَيْهِمْ صَدَقَةً تُؤْخَذُ مِنْ أَغْنِيَائِهِمْ فَتُرَدُّ عَلَى فُقَرَائِهِمْ",
+              "cite": "متفق عليه: صحيح البخاري 1496، وصحيح مسلم 19"
+            }
+          ]
+        }
+      },
+      {
+        "p": "وقال صلى الله عليه وسلم أيضا:"
       },
       {
         "quote": "إِنَّ الدِّينَ يُسْرٌ، وَلَنْ يُشَادَّ الدِّينَ أَحَدٌ إِلَّا غَلَبَهُ، فَسَدِّدُوا وَقَارِبُوا، وَأَبْشِرُوا",
@@ -149,43 +252,90 @@
         "cite": "سورة طه، الآية 14"
       },
       {
-        "p": "أي: أقم الصلاة لتذكرني فيها. وإن كنت لا تحفظ الأذكار كلها بعد فلست وحدك. تعلّم خطوة بخطوة: الوضوء أولا، ثم الحركات، ثم الأذكار. وصلِّ الصلوات الخمس بقدر ما تستطيع وأنت تتعلم، واستمر في التحسن، فقد قال النبي صلى الله عليه وسلم: «وَمَا أَمَرْتُكُمْ بِهِ فَافْعَلُوا مِنْهُ مَا اسْتَطَعْتُمْ» (متفق عليه: صحيح البخاري 7288، وصحيح مسلم 1337)."
+        "p": "وإن كنت لا تحفظ الأذكار كلها بعد فلست وحدك. تعلّم خطوة بخطوة: الوضوء أولا، ثم الحركات، ثم الأذكار. وصلِّ الصلوات الخمس بقدر ما تستطيع وأنت تتعلم، واستمر في التحسن، فقد قال النبي صلى الله عليه وسلم: «وَمَا أَمَرْتُكُمْ بِهِ فَافْعَلُوا مِنْهُ مَا اسْتَطَعْتُمْ» (متفق عليه: صحيح البخاري 7288، وصحيح مسلم 1337)."
       },
       {
         "h": "الزكاة: المشاركة حين يبلغ مالك النصاب"
       },
       {
-        "p": "الزكاة ليست ضريبة على كل مال تكسبه، وإنما تجب في المال الذي يبلغ قدرا معلوما يسمى «النصاب». قال النبي صلى الله عليه وسلم:"
+        "p": "الزكاة ليست ضريبة على كل مال تكسبه، وإنما تجب في المال الذي يبلغ قدرا معلوما يسمى النصاب."
       },
       {
-        "quote": "ليس فيما دون خمس أَوَاقٍ صدقة، ولا فيما دون خمس ذَوْدٍ صدقة، ولا فيما دُونَ خمسة أَوْسُقٍ صدقة",
-        "cite": "متفق عليه: صحيح البخاري 1447، وصحيح مسلم 979"
+        "compare": {
+          "first": {
+            "title": "إذا كان مالك دون النصاب",
+            "items": [
+              "فلا زكاة عليك.",
+              "وباب الصدقة مفتوح لك دائما بأي مبلغ."
+            ]
+          },
+          "second": {
+            "title": "إذا بلغ مالك النصاب ومرّ عليه عام هجري كامل",
+            "items": [
+              "تُخرج ربع العشر (2.5 بالمئة) لأهل الحاجة (صحيح البخاري 1454)."
+            ]
+          }
+        }
       },
       {
-        "p": "والأواقي الخمس المذكورة في الحديث من الفضة، والذَّود من الإبل، والأوسق كيلٌ للحبوب والثمار. ويقدّر العلماء اليوم نصاب النقود بقيمة الذهب أو الفضة، ويمكن للمسجد القريب منك أن يعينك على حسابه. فإذا بلغ مالك النصاب ومرّ عليه عام هجري كامل وجب عليك أن تُخرج ربع العشر (2.5 بالمئة) لأهل الحاجة، ففي الحديث: «وَفِي الرِّقَةِ رُبْعُ الْعُشْرِ» (صحيح البخاري 1454)، والرِّقة: الفضة. فإن كان مالك دون النصاب فلا زكاة عليك، وباب الصدقة مفتوح لك دائما بأي مبلغ."
+        "more": {
+          "title": "الحديث، وكيف يُحسب النصاب",
+          "blocks": [
+            {
+              "p": "قال النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "ليس فيما دون خمس أَوَاقٍ صدقة، ولا فيما دون خمس ذَوْدٍ صدقة، ولا فيما دُونَ خمسة أَوْسُقٍ صدقة",
+              "cite": "متفق عليه: صحيح البخاري 1447، وصحيح مسلم 979"
+            },
+            {
+              "p": "والأواقي الخمس المذكورة في الحديث من الفضة، والذَّود من الإبل، والأوسق كيلٌ للحبوب والثمار. ويقدّر العلماء اليوم نصاب النقود بقيمة الذهب أو الفضة، ويمكن للمسجد القريب منك أن يعينك على حسابه. فإذا بلغ مالك النصاب ومرّ عليه عام هجري كامل وجب عليك أن تُخرج ربع العشر (2.5 بالمئة) لأهل الحاجة، ففي الحديث: «وَفِي الرِّقَةِ رُبْعُ الْعُشْرِ» (صحيح البخاري 1454)، والرِّقة: الفضة. فإن كان مالك دون النصاب فلا زكاة عليك، وباب الصدقة مفتوح لك دائما بأي مبلغ."
+            }
+          ]
+        }
       },
       {
         "h": "صوم رمضان: شهر القرب"
       },
       {
-        "p": "في شهر رمضان من كل عام يصوم المسلمون من طلوع الفجر إلى غروب الشمس (سورة البقرة، الآية 187). قال الله تعالى:"
+        "p": "في شهر رمضان من كل عام يصوم المسلمون من طلوع الفجر إلى غروب الشمس (سورة البقرة، الآية 187). والمريض والمسافر لهما أن يفطرا ثم يقضيا عدد تلك الأيام (سورة البقرة، الآية 184)."
       },
       {
-        "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
-        "cite": "سورة البقرة، الآية 183"
-      },
-      {
-        "p": "والرحمة حاضرة في الصيام: فالمريض والمسافر لهما أن يفطرا ثم يقضيا عدد تلك الأيام (سورة البقرة، الآية 184)، وقال الله تعالى في السياق نفسه: «يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ» (سورة البقرة، الآية 185). وأجره عظيم، قال النبي صلى الله عليه وسلم:"
-      },
-      {
-        "quote": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
-        "cite": "متفق عليه: صحيح البخاري 38، وصحيح مسلم 760"
+        "more": {
+          "title": "الآيات والأجر",
+          "blocks": [
+            {
+              "p": "قال الله تعالى:"
+            },
+            {
+              "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+              "cite": "سورة البقرة، الآية 183"
+            },
+            {
+              "p": "والرحمة حاضرة في الصيام: فالمريض والمسافر لهما أن يفطرا ثم يقضيا عدد تلك الأيام (سورة البقرة، الآية 184)، وقال الله تعالى في السياق نفسه: «يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ» (سورة البقرة، الآية 185). وأجره عظيم، قال النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+              "cite": "متفق عليه: صحيح البخاري 38، وصحيح مسلم 760"
+            }
+          ]
+        }
       },
       {
         "h": "الحج: مرة في العمر لمن استطاع"
       },
       {
-        "p": "الحج هو قصد الكعبة المشرّفة في مكة لأداء المناسك، وقد أوجبه الله على المستطيع فقال: «وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًۭا» (سورة آل عمران، الآية 97)، والاستطاعة أن يكون المرء قادرا ببدنه وماله مع أمن الطريق. ولما سُئل النبي صلى الله عليه وسلم: أيكون الحج كل سنة؟ قال: «بَلْ مَرَّةً وَاحِدَةً فَمَنْ زَادَ فَهُوَ تَطَوُّعٌ» (سنن أبي داود 1721، وصححه الألباني)."
+        "p": "الحج هو قصد الكعبة المشرّفة في مكة، وهو مرة واحدة على من استطاع إليه سبيلا (سورة آل عمران، الآية 97)."
+      },
+      {
+        "more": {
+          "title": "من هو المستطيع، وكم مرة",
+          "blocks": [
+            {
+              "p": "الحج هو قصد الكعبة المشرّفة في مكة لأداء المناسك، وقد أوجبه الله على المستطيع فقال: «وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًۭا» (سورة آل عمران، الآية 97)، والاستطاعة أن يكون المرء قادرا ببدنه وماله مع أمن الطريق. ولما سُئل النبي صلى الله عليه وسلم: أيكون الحج كل سنة؟ قال: «بَلْ مَرَّةً وَاحِدَةً فَمَنْ زَادَ فَهُوَ تَطَوُّعٌ» (سنن أبي داود 1721، وصححه الألباني)."
+            }
+          ]
+        }
       },
       {
         "p": "فإن لم تستطع الحج الآن فلست مقصّرا. انوِ نية صادقة أن تحج يوما ما، فقد عرفت في هذه الخطوة أن الله يكتب النية الصالحة حسنة كاملة."
@@ -229,14 +379,42 @@
     ],
     "es": [
       {
-        "p": "Cinco pilares pueden parecer mucho cuando estás empezando en el islam. Aquí tienes una buena noticia: el Profeta Muhammad, la paz sea con él, enseñaba el islam en orden, paso a paso. Cuando envió a su compañero Muadh ibn Yabal (que Allah esté complacido con él) a enseñar a la gente de Yemen, le dijo:"
+        "p": "Cinco pilares pueden parecer mucho cuando estás empezando en el islam. Aquí tienes una buena noticia: el Profeta Muhammad, la paz sea con él, enseñaba el islam en orden, paso a paso."
       },
       {
-        "quote": "invítalos al testimonio de que no hay dios sino Allah y que yo soy Mensajero de Allah. Si te obedecen en ello, enséñales que Allah les ha prescrito cinco oraciones en el día y la noche. Si obedecen en ello, enséñales que Allah les ha prescrito una limosna sobre sus bienes; se toma de sus ricos y se entrega a sus necesitados.",
-        "cite": "Sahih al-Bujari 1496 y Sahih Muslim 19"
+        "p": "Cuando envió a su compañero Muadh ibn Yabal (que Allah esté complacido con él) a enseñar a la gente de Yemen, enseñó en este orden:"
       },
       {
-        "p": "Primero la shahada, luego la oración, luego el zakat. El Profeta también dijo:"
+        "flow": {
+          "steps": [
+            {
+              "label": "Shahada",
+              "text": "El testimonio de que no hay dios sino Allah y que él es Mensajero de Allah."
+            },
+            {
+              "label": "Oración",
+              "text": "Cinco oraciones en el día y la noche."
+            },
+            {
+              "label": "Zakat",
+              "text": "Una limosna sobre sus bienes; se toma de sus ricos y se entrega a sus necesitados."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Las palabras del Profeta a Muadh",
+          "blocks": [
+            {
+              "quote": "invítalos al testimonio de que no hay dios sino Allah y que yo soy Mensajero de Allah. Si te obedecen en ello, enséñales que Allah les ha prescrito cinco oraciones en el día y la noche. Si obedecen en ello, enséñales que Allah les ha prescrito una limosna sobre sus bienes; se toma de sus ricos y se entrega a sus necesitados.",
+              "cite": "Sahih al-Bujari 1496 y Sahih Muslim 19"
+            }
+          ]
+        }
+      },
+      {
+        "p": "El Profeta también dijo:"
       },
       {
         "quote": "Verdaderamente la religión (Din) es facilidad. Cuando una persona es extremista en la religión, esta termina derrotándola.",
@@ -265,40 +443,84 @@
         "h": "El zakat: compartir cuando tienes suficiente"
       },
       {
-        "p": "El zakat no es un impuesto sobre todo lo que ganas. Solo se debe sobre los ahorros que alcanzan una cantidad mínima llamada *nisab*. El Profeta dijo que no se debe zakat por la plata que no llega a cinco onzas, ni por menos de cinco camellos, ni por una cosecha menor de cinco cargas, llamadas *awsuq* (Sahih al-Bujari 1447 y Sahih Muslim 979)."
+        "p": "El zakat no es un impuesto sobre todo lo que ganas. Solo se debe sobre los ahorros que alcanzan una cantidad mínima llamada *nisab*."
       },
       {
-        "p": "Hoy los sabios usan el valor del oro o de la plata para fijar el nisab del dinero, y tu mezquita local puede ayudarte a calcularlo. Cuando tus ahorros se mantienen en el nisab o por encima durante un año lunar completo, entregas una cuadragésima parte (el 2,5 por ciento) a personas necesitadas (Sahih al-Bujari 1454). Si tus ahorros están por debajo del nisab, no debes zakat. La caridad voluntaria (*sadaqah*), de cualquier cantidad, siempre está a tu alcance."
+        "compare": {
+          "first": {
+            "title": "Por debajo del nisab",
+            "items": [
+              "No debes zakat.",
+              "La caridad voluntaria (*sadaqah*), de cualquier cantidad, siempre está a tu alcance."
+            ]
+          },
+          "second": {
+            "title": "En el nisab o por encima durante un año lunar completo",
+            "items": [
+              "Entregas una cuadragésima parte (el 2,5 por ciento) a personas necesitadas (Sahih al-Bujari 1454)."
+            ]
+          }
+        }
+      },
+      {
+        "more": {
+          "title": "El hadiz y cómo se fija el nisab",
+          "blocks": [
+            {
+              "p": "El Profeta dijo que no se debe zakat por la plata que no llega a cinco onzas, ni por menos de cinco camellos, ni por una cosecha menor de cinco cargas, llamadas *awsuq* (Sahih al-Bujari 1447 y Sahih Muslim 979)."
+            },
+            {
+              "p": "Hoy los sabios usan el valor del oro o de la plata para fijar el nisab del dinero, y tu mezquita local puede ayudarte a calcularlo. Cuando tus ahorros se mantienen en el nisab o por encima durante un año lunar completo, entregas una cuadragésima parte (el 2,5 por ciento) a personas necesitadas (Sahih al-Bujari 1454). Si tus ahorros están por debajo del nisab, no debes zakat. La caridad voluntaria (*sadaqah*), de cualquier cantidad, siempre está a tu alcance."
+            }
+          ]
+        }
       },
       {
         "h": "El ayuno de ramadán: un mes de cercanía"
       },
       {
-        "p": "Una vez al año, en el mes de ramadán, los musulmanes ayunan desde el alba hasta la puesta del sol (Corán 2:187). Allah dice:"
+        "p": "Una vez al año, en el mes de ramadán, los musulmanes ayunan desde el alba hasta la puesta del sol (Corán 2:187). Quien está enfermo o de viaje puede no ayunar esos días y reponerlos después (Corán 2:184)."
       },
       {
-        "quote": "¡Oh, creyentes! Se les prescribe el ayuno al igual que fue prescrito a quienes los precedieron, para que alcancen la piedad.",
-        "cite": "Corán 2:183 (traducción de Isa García)"
-      },
-      {
-        "p": "La misericordia es parte del ayuno. Quien está enfermo o de viaje puede no ayunar esos días y reponerlos después (Corán 2:184), y Allah dice en el mismo pasaje: «Dios desea facilitarles las cosas y no dificultárselas» (Corán 2:185). La recompensa es grande:"
-      },
-      {
-        "quote": "A quien ayune en ramadán con fe y esperanza le serán perdonadas sus faltas anteriores",
-        "cite": "Sahih al-Bujari 38 y Sahih Muslim 760"
+        "more": {
+          "title": "Los versículos y la recompensa",
+          "blocks": [
+            {
+              "p": "Allah dice:"
+            },
+            {
+              "quote": "¡Oh, creyentes! Se les prescribe el ayuno al igual que fue prescrito a quienes los precedieron, para que alcancen la piedad.",
+              "cite": "Corán 2:183 (traducción de Isa García)"
+            },
+            {
+              "p": "La misericordia es parte del ayuno. Quien está enfermo o de viaje puede no ayunar esos días y reponerlos después (Corán 2:184), y Allah dice en el mismo pasaje: «Dios desea facilitarles las cosas y no dificultárselas» (Corán 2:185). La recompensa es grande:"
+            },
+            {
+              "quote": "A quien ayune en ramadán con fe y esperanza le serán perdonadas sus faltas anteriores",
+              "cite": "Sahih al-Bujari 38 y Sahih Muslim 760"
+            }
+          ]
+        }
       },
       {
         "h": "El Hajj: una vez en la vida, si puedes"
       },
       {
-        "p": "El Hajj es la peregrinación a la Kaaba en La Meca. El Corán lo hace obligatorio para quienes pueden llegar a ella:"
+        "p": "El Hajj es la peregrinación a la Kaaba en La Meca, obligatoria una vez para quienes pueden llegar a ella (Corán 3:97)."
       },
       {
-        "quote": "Es obligatorio para las personas peregrinar a este templo si se encuentran en condiciones [físicas y económicas] de hacerlo.",
-        "cite": "Corán 3:97 (traducción de Isa García)"
-      },
-      {
-        "p": "Esto significa tener la salud, los medios para viajar y un camino seguro. Cuando un compañero preguntó si el Hajj es cada año, el Profeta respondió que es una sola vez, y que lo que se haga de más es voluntario (Sunan Abi Dawud 1721, calificado como sahih por al-Albani)."
+        "more": {
+          "title": "Quién puede, y cuántas veces",
+          "blocks": [
+            {
+              "quote": "Es obligatorio para las personas peregrinar a este templo si se encuentran en condiciones [físicas y económicas] de hacerlo.",
+              "cite": "Corán 3:97 (traducción de Isa García)"
+            },
+            {
+              "p": "Esto significa tener la salud, los medios para viajar y un camino seguro. Cuando un compañero preguntó si el Hajj es cada año, el Profeta respondió que es una sola vez, y que lo que se haga de más es voluntario (Sunan Abi Dawud 1721, calificado como sahih por al-Albani)."
+            }
+          ]
+        }
       },
       {
         "p": "Si ahora no puedes hacer el Hajj, no te estás quedando corto. Ten la intención sincera de ir algún día. Como aprendiste antes en este paso, Allah registra una buena intención como una buena obra."

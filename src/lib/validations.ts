@@ -5,12 +5,6 @@ import { STAGES } from "@/lib/stages";
 // Shared helpers
 // ---------------------------------------------------------------------------
 
-const bilingualString = z.object({
-  en: z.string().min(1, "English text is required"),
-  ar: z.string().min(1, "Arabic text is required"),
-  es: z.string().min(1, "Spanish text is required"),
-});
-
 /** English required, Arabic and Spanish optional (defaults to "") */
 const bilingualStringArOptional = z.object({
   en: z.string().min(1, "English text is required"),
@@ -18,11 +12,6 @@ const bilingualStringArOptional = z.object({
   es: z.string().default(""),
 });
 
-const bilingualStringOptional = z.object({
-  en: z.string().min(1, "English text is required").optional(),
-  ar: z.string().min(1, "Arabic text is required").optional(),
-  es: z.string().min(1, "Spanish text is required").optional(),
-});
 
 const bilingualAny = z.object({
   en: z.any(),
@@ -317,11 +306,14 @@ export const emailSchema = z
   .max(254, "Email is too long")
   .email("Invalid email address");
 
+export const localeSchema = z.enum(["en", "ar", "es"]);
+
 export const registerSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
   email: emailSchema,
   password: passwordSchema,
   userType: userTypeSchema.optional(),
+  locale: localeSchema.optional().default("en"),
 });
 
 export const setUserTypeSchema = z.object({
@@ -330,7 +322,27 @@ export const setUserTypeSchema = z.object({
 
 export const forgotPasswordSchema = z.object({
   email: emailSchema,
+  locale: localeSchema.optional().default("en"),
 });
+
+export const verifyEmailSchema = z.object({
+  token: z.string().min(32).max(256),
+});
+
+export const createSystemUserSchema = z.object({
+  name: z.string().trim().min(1, "Name is required").max(100),
+  email: emailSchema,
+  password: passwordSchema,
+  role: z.enum(["admin", "super_admin"]),
+});
+
+export const updateSystemUserSchema = z
+  .object({
+    name: z.string().trim().min(1, "Name is required").max(100).optional(),
+    role: z.enum(["admin", "super_admin"]).optional(),
+    isActive: z.boolean().optional(),
+  })
+  .strict();
 
 export const resetPasswordSchema = z.object({
   token: z.string().min(32).max(256),

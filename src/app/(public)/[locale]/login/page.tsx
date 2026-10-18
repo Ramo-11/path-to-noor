@@ -3,7 +3,7 @@
 import { Suspense, useState, type FormEvent } from "react";
 import { signIn } from "next-auth/react";
 import { useTranslations, useLocale } from "next-intl";
-import { useSearchParams } from "next/navigation";
+import { useRouter as useNextRouter, useSearchParams } from "next/navigation";
 import { Link, useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { TextField } from "@/components/primer/TextField";
@@ -17,6 +17,7 @@ function LoginForm() {
   const t = useTranslations("auth");
   const locale = useLocale();
   const router = useRouter();
+  const nextRouter = useNextRouter();
   const searchParams = useSearchParams();
   const callbackUrl = getSafeCallbackUrl(searchParams.get("callbackUrl"));
   const oauthError = searchParams.get("error");
@@ -39,7 +40,7 @@ function LoginForm() {
       });
 
       if (result?.error) {
-        setError(t("errorCredentials"));
+        setError(result.code === "too-many-attempts" ? t("errorTooMany") : t("errorCredentials"));
         setLoading(false);
         return;
       }
@@ -52,9 +53,15 @@ function LoginForm() {
       const sessionRes = await fetch("/api/auth/session");
       const session = await sessionRes.json();
       const role = session?.user?.role;
+      const preferred = session?.user?.preferredLanguage;
 
       if (role === "admin" || role === "super_admin") {
-        window.location.assign("/admin");
+        nextRouter.push("/admin");
+        return;
+      }
+
+      if (preferred === "en" || preferred === "ar" || preferred === "es") {
+        router.replace("/", { locale: preferred });
         return;
       }
 
@@ -98,10 +105,10 @@ function LoginForm() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <div className="mt-2 text-end">
+          <div className="mt-1 text-end">
             <Link
               href="/forgot-password"
-              className="text-[0.9375rem] text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] hover:text-ink hover:decoration-ink"
+              className="inline-flex min-h-11 items-center text-[0.9375rem] text-ink-2 underline decoration-rule-strong underline-offset-[0.25em] hover:text-ink hover:decoration-ink"
             >
               {t("forgotPassword")}
             </Link>
@@ -119,7 +126,7 @@ function LoginForm() {
         {t("dontHaveAccount")}{" "}
         <Link
           href="/register"
-          className="text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
+          className="inline-flex min-h-11 items-center text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
         >
           {t("signUp")}
         </Link>

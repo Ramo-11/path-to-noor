@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
-import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { rateLimitShared, getClientIp } from "@/lib/rate-limit";
 import { changePasswordSchema } from "@/lib/validations";
 
 export async function PUT(request: NextRequest) {
@@ -12,7 +12,7 @@ export async function PUT(request: NextRequest) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
-  const limit = rateLimit(
+  const limit = await rateLimitShared(
     `change-password:${session.user.id}:${getClientIp(request.headers)}`,
     5,
     15 * 60 * 1000
@@ -22,7 +22,7 @@ export async function PUT(request: NextRequest) {
   }
 
   try {
-    const parsed = changePasswordSchema.safeParse(await request.json());
+    const parsed = changePasswordSchema.safeParse(await request.json().catch(() => null));
     if (!parsed.success) {
       return NextResponse.json({ error: "invalid_input" }, { status: 400 });
     }

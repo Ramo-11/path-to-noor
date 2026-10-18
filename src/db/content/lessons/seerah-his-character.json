@@ -1,6 +1,6 @@
 {
   "slug": "seerah-his-character",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "His character: a mercy to the worlds",
     "ar": "أخلاقه صلى الله عليه وسلم: رحمة للعالمين",
@@ -9,84 +9,73 @@
   "body": {
     "en": [
       {
-        "p": "You have followed the life of the Prophet Muhammad, peace be upon him, from Makkah to Madinah. Now look at the man himself. Allah praised his character directly:"
+        "p": "Allah praised the character of the Prophet Muhammad, peace be upon him, directly:"
       },
       {
         "quote": "And indeed, you are of a great moral character.",
         "cite": "Quran 68:4 (Saheeh International translation of the meaning)"
       },
       {
-        "p": "A man once asked Aisha, may Allah be pleased with her, to describe the Prophet's character. She asked him: \"Do you not recite the Qur’an?\" He said yes. She said:"
+        "p": "A man once asked Aisha, may Allah be pleased with her, to describe it. She asked him: \"Do you not recite the Qur’an?\" He said yes. She said:"
       },
       {
         "phrase": {
           "arabic": "فَإِنَّ خُلُقَ نَبِيِّ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ كَانَ الْقُرْآنَ",
           "transliteration": "Fa-inna khuluqa nabiyyil-laahi sallal-laahu 'alayhi wa sallama kaanal-qur'aan",
-          "meaning": "Indeed, the Prophet's character was the Qur’an."
+          "meaning": "Indeed, the Prophet's character was the Qur’an.",
+          "audio": "/audio/phrases/seerah-his-character-1.mp3"
         }
       },
       {
-        "p": "In other words, what the Quran teaches, he lived. Anas ibn Malik, may Allah be pleased with him, who served him for years, said he \"was the best of people in terms of morals\" (Sahih al-Bukhari 6203 and Sahih Muslim 2310)."
+        "p": "What the Quran teaches, he lived. Anas ibn Malik, may Allah be pleased with him, who served him for years, said he \"was the best of people in terms of morals\" (Sahih al-Bukhari 6203 and Sahih Muslim 2310)."
       },
       {
         "h": "A mercy to all"
       },
       {
-        "quote": "And We have not sent you, [O Muhammad], except as a mercy to the worlds.",
-        "cite": "Quran 21:107 (Saheeh International translation of the meaning)"
-      },
-      {
-        "p": "His mercy reached everyone around him: children, animals, his family, the people who served him, and even those who hurt him."
+        "facts": {
+          "title": "His mercy reached everyone",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Children",
+              "text": "He shortened the prayer when he heard a baby cry (Sahih al-Bukhari 707)."
+            },
+            {
+              "icon": "leaf",
+              "label": "Animals",
+              "text": "Kindness to any living creature is rewarded (Sahih al-Bukhari 2363)."
+            },
+            {
+              "icon": "home",
+              "label": "His family",
+              "text": "He helped and served them (Sahih al-Bukhari 676)."
+            },
+            {
+              "icon": "hands",
+              "label": "Those who served him",
+              "text": "Anas served him ten years and never heard \"uff\" (Sahih al-Bukhari 6038)."
+            },
+            {
+              "icon": "shield",
+              "label": "Those who hurt him",
+              "text": "He pardoned and forgave (Sunan al-Tirmidhi 2016)."
+            }
+          ]
+        }
       },
       {
         "h": "With children"
       },
       {
-        "p": "He once kissed his grandson al-Hasan, may Allah be pleased with him, while a man named al-Aqra' ibn Habis, may Allah be pleased with him, was sitting with him. Al-Aqra' said: \"I have ten children, and I have never kissed any of them.\" The Prophet looked at him and said:"
+        "p": "He once kissed his grandson al-Hasan, may Allah be pleased with him. A man named al-Aqra' ibn Habis, may Allah be pleased with him, said: \"I have ten children, and I have never kissed any of them.\" The Prophet looked at him and said:"
       },
       {
         "quote": "Whoever does not show mercy will not be shown mercy!",
         "cite": "Sahih al-Bukhari 5997 and Sahih Muslim 2318 (agreed upon)"
       },
       {
-        "p": "He would pray while carrying his little granddaughter Umamah, may Allah be pleased with her, putting her down when he prostrated and picking her up when he stood (Sahih al-Bukhari 516 and Sahih Muslim 543). And when he led the prayer and heard a baby crying, he would shorten it so as not to make things hard for the mother (Sahih al-Bukhari 707)."
-      },
-      {
-        "h": "With animals"
-      },
-      {
-        "p": "He told of a man who, while walking on a road, found a dog panting with thirst. The man climbed down a well, filled his shoe with water, and gave the dog a drink, and Allah forgave him. The companions asked whether there is reward even for kindness to animals. He said:"
-      },
-      {
-        "quote": "There is a reward for (quenching the thirst of) every living creature.",
-        "cite": "Sahih al-Bukhari 2363 and Sahih Muslim 2244 (agreed upon)"
-      },
-      {
-        "p": "Once he entered a garden in Madinah where a camel, seeing him, groaned with tears in its eyes. He went to it and stroked it until it calmed down, then said to its young owner:"
-      },
-      {
-        "quote": "Do you not fear Allah regarding this animal which Allah has placed in your possession? It is complaining to me that you starve it and put it to toil.",
-        "cite": "Sunan Abi Dawud 2549 (sahih, al-Albani)"
-      },
-      {
-        "h": "With people"
-      },
-      {
-        "p": "Anas ibn Malik served him for ten years, and said the Prophet never once said \"uff\" to him (a word of annoyance), and never asked him \"Why did you do that?\" or \"Why didn't you do that?\" (Sahih al-Bukhari 6038 and Sahih Muslim 2309). At home, Aisha said, he helped and served his family, and when the time for prayer came he went out to pray (Sahih al-Bukhari 676). She also said he never struck a woman or a servant with his hand (Sahih Muslim 2328)."
-      },
-      {
-        "p": "When a Jewish boy who used to serve him fell ill, the Prophet went to visit him and sat by his head (Sahih al-Bukhari 1356). And Aisha summed up how he treated those who wronged him:"
-      },
-      {
-        "quote": "He did not repay evil with evil; rather, he would pardon and forgive.",
-        "cite": "Sunan al-Tirmidhi 2016 (hasan sahih)"
-      },
-      {
         "h": "Following his example today"
-      },
-      {
-        "quote": "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day and [who] remembers Allah often.",
-        "cite": "Quran 33:21 (Saheeh International translation of the meaning)"
       },
       {
         "p": "You do not need to change everything at once. Choose one quality and practise it this week:"
@@ -121,91 +110,128 @@
       },
       {
         "p": "You have completed the life of the Prophet. Check what you have learned below. Next, you will meet the prophets who came before him, peace be upon them all."
+      },
+      {
+        "more": {
+          "title": "More stories of his mercy",
+          "blocks": [
+            {
+              "p": "Allah said of him:"
+            },
+            {
+              "quote": "And We have not sent you, [O Muhammad], except as a mercy to the worlds.",
+              "cite": "Quran 21:107 (Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "He would pray while carrying his little granddaughter Umamah, may Allah be pleased with her, putting her down when he prostrated and picking her up when he stood (Sahih al-Bukhari 516 and Sahih Muslim 543)."
+            },
+            {
+              "p": "He told of a man who found a dog panting with thirst. The man climbed down a well, filled his shoe with water, and gave the dog a drink, and Allah forgave him. The companions asked whether there is reward even for kindness to animals. He said:"
+            },
+            {
+              "quote": "There is a reward for (quenching the thirst of) every living creature.",
+              "cite": "Sahih al-Bukhari 2363 and Sahih Muslim 2244 (agreed upon)"
+            },
+            {
+              "p": "Once he entered a garden in Madinah where a camel, seeing him, groaned with tears in its eyes. He went to it and stroked it until it calmed down, then said to its young owner:"
+            },
+            {
+              "quote": "Do you not fear Allah regarding this animal which Allah has placed in your possession? It is complaining to me that you starve it and put it to toil.",
+              "cite": "Sunan Abi Dawud 2549 (sahih, al-Albani)"
+            },
+            {
+              "p": "Anas never heard him ask \"Why did you do that?\" or \"Why didn't you do that?\" (Sahih al-Bukhari 6038 and Sahih Muslim 2309). When the time for prayer came, he went out to pray (Sahih al-Bukhari 676). Aisha said he never struck a woman or a servant with his hand (Sahih Muslim 2328)."
+            },
+            {
+              "p": "When a Jewish boy who used to serve him fell ill, the Prophet went to visit him and sat by his head (Sahih al-Bukhari 1356). And Aisha summed up how he treated those who wronged him:"
+            },
+            {
+              "quote": "He did not repay evil with evil; rather, he would pardon and forgive.",
+              "cite": "Sunan al-Tirmidhi 2016 (hasan sahih)"
+            },
+            {
+              "p": "Allah also said:"
+            },
+            {
+              "quote": "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day and [who] remembers Allah often.",
+              "cite": "Quran 33:21 (Saheeh International translation of the meaning)"
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "سرت مع سيرة النبي محمد صلى الله عليه وسلم من مكة إلى المدينة، فتأمّل الآن شخصه الكريم. لقد أثنى الله على خلقه فقال:"
+        "p": "أثنى الله على خلق النبي محمد صلى الله عليه وسلم فقال:"
       },
       {
         "quote": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍۢ",
         "cite": "سورة القلم، الآية 4"
       },
       {
-        "p": "أي إنك لعلى خلق عظيم، وهو ما اشتمل عليه القرآن من مكارم الأخلاق، فقد كان امتثال القرآن سجية له. وسأل رجل عائشة رضي الله عنها عن خلق النبي صلى الله عليه وسلم، فقالت: ألست تقرأ القرآن؟ قال: بلى، قالت:"
+        "p": "وسأل رجل عائشة رضي الله عنها عن خلقه، فقالت: ألست تقرأ القرآن؟ قال: بلى، قالت:"
       },
       {
         "phrase": {
           "arabic": "فَإِنَّ خُلُقَ نَبِيِّ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ كَانَ الْقُرْآنَ",
           "transliteration": "Fa-inna khuluqa nabiyyil-laahi sallal-laahu 'alayhi wa sallama kaanal-qur'aan",
-          "meaning": "كان خلقه العمل بالقرآن: يأتمر بأمره، وينتهي عمّا نهى عنه، ويتخلّق بما مدحه."
+          "meaning": "كان خلقه العمل بالقرآن: يأتمر بأمره، وينتهي عمّا نهى عنه، ويتخلّق بما مدحه.",
+          "audio": "/audio/phrases/seerah-his-character-1.mp3"
         }
       },
       {
-        "p": "أي ما علّمه القرآن عاشه. وقال أنس بن مالك رضي الله عنه، الذي خدمه سنين: «كَانَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَحْسَنَ النَّاسِ خُلُقًا» (صحيح البخاري 6203، وصحيح مسلم 2310)."
+        "p": "ما علّمه القرآن عاشه. وقال أنس بن مالك رضي الله عنه، الذي خدمه سنين: «كَانَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَحْسَنَ النَّاسِ خُلُقًا» (صحيح البخاري 6203، وصحيح مسلم 2310)."
       },
       {
         "h": "رحمة للعالمين"
       },
       {
-        "quote": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ",
-        "cite": "سورة الأنبياء، الآية 107"
-      },
-      {
-        "p": "وقد وسعت رحمته كل من حوله: الأطفال، والحيوان، وأهله، ومن كانوا يخدمونه، بل حتى من آذوه."
+        "facts": {
+          "title": "رحمته وسعت الجميع",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "الأطفال",
+              "text": "خفّف صلاته حين سمع بكاء صبي (صحيح البخاري 707)."
+            },
+            {
+              "icon": "leaf",
+              "label": "الحيوان",
+              "text": "في الإحسان إلى كل كبد رطبة أجر (صحيح البخاري 2363)."
+            },
+            {
+              "icon": "home",
+              "label": "أهله",
+              "text": "كان في خدمتهم (صحيح البخاري 676)."
+            },
+            {
+              "icon": "hands",
+              "label": "من خدموه",
+              "text": "خدمه أنس عشر سنين فما قال له «أُفٍّ» قط (صحيح البخاري 6038)."
+            },
+            {
+              "icon": "shield",
+              "label": "من آذوه",
+              "text": "كان يعفو ويصفح (سنن الترمذي 2016)."
+            }
+          ]
+        }
       },
       {
         "h": "مع الأطفال"
       },
       {
-        "p": "قبّل النبي صلى الله عليه وسلم حفيده الحسن بن علي رضي الله عنهما وعنده الأقرع بن حابس رضي الله عنه، فقال الأقرع: إن لي عشرة من الولد ما قبّلت منهم أحدًا، فنظر إليه النبي صلى الله عليه وسلم وقال:"
+        "p": "قبّل النبي صلى الله عليه وسلم حفيده الحسن رضي الله عنه، فقال الأقرع بن حابس رضي الله عنه: إن لي عشرة من الولد ما قبّلت منهم أحدًا، فنظر إليه النبي صلى الله عليه وسلم وقال:"
       },
       {
         "quote": "مَنْ لَا يَرْحَم لَا يُرْحَمُ!",
         "cite": "صحيح البخاري 5997، وصحيح مسلم 2318 (متفق عليه)"
       },
       {
-        "p": "وكان يصلي وهو حامل حفيدته الصغيرة أمامة رضي الله عنها، فإذا سجد وضعها وإذا قام حملها (صحيح البخاري 516، وصحيح مسلم 543). وكان إذا أمّ الناس فسمع بكاء صبي خفّف صلاته كراهة أن يشقّ على أمه (صحيح البخاري 707)."
-      },
-      {
-        "h": "مع الحيوان"
-      },
-      {
-        "p": "حدّث عن رجل اشتدّ عليه العطش في طريق، فوجد كلبًا يلهث من العطش، فنزل البئر فملأ خفّه ماءً فسقاه، فشكر الله له فغفر له. فسأله الصحابة: وإن لنا في البهائم أجرًا؟ فقال:"
-      },
-      {
-        "quote": "في كُلِّ كَبِدٍ رَطْبَةٍ أَجْرٌ",
-        "cite": "صحيح البخاري 2363، وصحيح مسلم 2244 (متفق عليه)"
-      },
-      {
-        "p": "ودخل مرة بستانًا لرجل من الأنصار فيه جمل، فلما رآه الجمل حنّ وذرفت عيناه، فأتاه فمسح عليه حتى سكن، ثم قال لصاحبه الشاب:"
-      },
-      {
-        "quote": "أفلا تتقي الله في هذه البهيمة التي مَلَّكَك الله إياها؟ فإنه يَشْكُو إلي أنك تُجِيعه وتُدْئِبه",
-        "cite": "سنن أبي داود 2549 (صحّحه الألباني)"
-      },
-      {
-        "h": "مع الناس"
-      },
-      {
-        "p": "خدمه أنس بن مالك عشر سنين، فما قال له «أُفٍّ» قط، ولا قال لشيء فعله: لم فعلته؟ ولا لشيء تركه: ألا فعلته؟ (صحيح البخاري 6038، وصحيح مسلم 2309). وقالت عائشة إنه كان في بيته في خدمة أهله، فإذا حضرت الصلاة خرج إلى الصلاة (صحيح البخاري 676)، وإنه ما ضرب بيده امرأة ولا خادمًا (صحيح مسلم 2328)."
-      },
-      {
-        "p": "ولما مرض غلام يهودي كان يخدمه، أتاه النبي صلى الله عليه وسلم يعوده فقعد عند رأسه (صحيح البخاري 1356). ووصفت عائشة رضي الله عنها معاملته لمن أساء إليه فقالت:"
-      },
-      {
-        "quote": "وَلاَ يَجْزِي بِالسَّيِّئَةِ السَّيِّئَةَ وَلَكِنْ يَعْفُو وَيَصْفَحُ",
-        "cite": "سنن الترمذي 2016 (حسن صحيح)"
-      },
-      {
         "h": "الاقتداء به اليوم"
       },
       {
-        "quote": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌۭ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًۭا",
-        "cite": "سورة الأحزاب، الآية 21"
-      },
-      {
-        "p": "أي لقد كان لكم في أقوال رسول الله صلى الله عليه وسلم وأفعاله وأحواله قدوة حسنة، يتأسّى بها من يرجو الله واليوم الآخر ويكثر من ذكر الله. ولا تحتاج إلى تغيير كل شيء مرة واحدة، فاختر خلقًا واحدًا وتدرّب عليه هذا الأسبوع:"
+        "p": "لا تحتاج إلى تغيير كل شيء مرة واحدة، فاختر خلقًا واحدًا وتدرّب عليه هذا الأسبوع:"
       },
       {
         "steps": {
@@ -237,91 +263,131 @@
       },
       {
         "p": "أتممت سيرة النبي صلى الله عليه وسلم. اختبر ما تعلّمته في الأسئلة التالية، ثم ستتعرّف في الخطوة القادمة على الأنبياء الذين سبقوه عليهم السلام."
+      },
+      {
+        "more": {
+          "title": "المزيد من قصص رحمته",
+          "blocks": [
+            {
+              "p": "قال الله تعالى:"
+            },
+            {
+              "quote": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ",
+              "cite": "سورة الأنبياء، الآية 107"
+            },
+            {
+              "p": "وكان يصلي وهو حامل حفيدته الصغيرة أمامة رضي الله عنها، فإذا سجد وضعها وإذا قام حملها (صحيح البخاري 516، وصحيح مسلم 543)."
+            },
+            {
+              "p": "حدّث عن رجل وجد كلبًا يلهث من العطش، فنزل البئر فملأ خفّه ماءً فسقاه، فشكر الله له فغفر له. فسأله الصحابة: وإن لنا في البهائم أجرًا؟ فقال:"
+            },
+            {
+              "quote": "في كُلِّ كَبِدٍ رَطْبَةٍ أَجْرٌ",
+              "cite": "صحيح البخاري 2363، وصحيح مسلم 2244 (متفق عليه)"
+            },
+            {
+              "p": "ودخل مرة بستانًا لرجل من الأنصار فيه جمل، فلما رآه الجمل حنّ وذرفت عيناه، فأتاه فمسح عليه حتى سكن، ثم قال لصاحبه الشاب:"
+            },
+            {
+              "quote": "أفلا تتقي الله في هذه البهيمة التي مَلَّكَك الله إياها؟ فإنه يَشْكُو إلي أنك تُجِيعه وتُدْئِبه",
+              "cite": "سنن أبي داود 2549 (صحّحه الألباني)"
+            },
+            {
+              "p": "وما قال أنس إنه سأله: لم فعلته؟ ولا: ألا فعلته؟ (صحيح البخاري 6038، وصحيح مسلم 2309). وإذا حضرت الصلاة خرج إلى الصلاة (صحيح البخاري 676). وقالت عائشة إنه ما ضرب بيده امرأة ولا خادمًا (صحيح مسلم 2328)."
+            },
+            {
+              "p": "ولما مرض غلام يهودي كان يخدمه، أتاه النبي صلى الله عليه وسلم يعوده فقعد عند رأسه (صحيح البخاري 1356). ووصفت عائشة رضي الله عنها معاملته لمن أساء إليه فقالت:"
+            },
+            {
+              "quote": "وَلاَ يَجْزِي بِالسَّيِّئَةِ السَّيِّئَةَ وَلَكِنْ يَعْفُو وَيَصْفَحُ",
+              "cite": "سنن الترمذي 2016 (حسن صحيح)"
+            },
+            {
+              "p": "وقال الله تعالى:"
+            },
+            {
+              "quote": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌۭ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًۭا",
+              "cite": "سورة الأحزاب، الآية 21"
+            },
+            {
+              "p": "أي لقد كان لكم في أقوال رسول الله صلى الله عليه وسلم وأفعاله وأحواله قدوة حسنة، يتأسّى بها من يرجو الله واليوم الآخر ويكثر من ذكر الله."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "Has seguido la vida del Profeta Muhammad, la paz sea con él, de La Meca a Medina. Ahora mira al hombre mismo. Allah elogió su carácter directamente:"
+        "p": "Allah elogió directamente el carácter del Profeta Muhammad, la paz sea con él:"
       },
       {
         "quote": "Eres de una naturaleza y moral grandiosas.",
         "cite": "Corán 68:4 (traducción del significado de Isa García)"
       },
       {
-        "p": "Una vez un hombre le pidió a Aisha, que Allah esté complacido con ella, que describiera el carácter del Profeta. Ella le preguntó: «¿Acaso no recitas el Corán?». Él dijo que sí. Ella dijo:"
+        "p": "Una vez un hombre le pidió a Aisha, que Allah esté complacido con ella, que lo describiera. Ella le preguntó: «¿Acaso no recitas el Corán?». Él dijo que sí. Ella dijo:"
       },
       {
         "phrase": {
           "arabic": "فَإِنَّ خُلُقَ نَبِيِّ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ كَانَ الْقُرْآنَ",
           "transliteration": "Fa-inna khuluqa nabiyyil-laahi sallal-laahu 'alayhi wa sallama kaanal-qur'aan",
-          "meaning": "En verdad, el carácter del Profeta de Allah era el Corán."
+          "meaning": "En verdad, el carácter del Profeta de Allah era el Corán.",
+          "audio": "/audio/phrases/seerah-his-character-1.mp3"
         }
       },
       {
-        "p": "Es decir, lo que el Corán enseña, él lo vivía. Anas ibn Malik, que Allah esté complacido con él, que lo sirvió durante años, dijo que era «la persona con el mejor carácter y comportamiento» (Sahih al-Bujari 6203 y Sahih Muslim 2310)."
+        "p": "Lo que el Corán enseña, él lo vivía. Anas ibn Malik, que Allah esté complacido con él, que lo sirvió durante años, dijo que era «la persona con el mejor carácter y comportamiento» (Sahih al-Bujari 6203 y Sahih Muslim 2310)."
       },
       {
         "h": "Una misericordia para todos"
       },
       {
-        "quote": "No te he enviado [¡oh, Mujámmad!] sino como misericordia para todos los seres.",
-        "cite": "Corán 21:107 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "Su misericordia alcanzaba a todos a su alrededor: los niños, los animales, su familia, quienes lo servían e incluso quienes le hacían daño."
+        "facts": {
+          "title": "Su misericordia alcanzaba a todos",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Los niños",
+              "text": "Acortaba la oración cuando oía llorar a un bebé (Sahih al-Bujari 707)."
+            },
+            {
+              "icon": "leaf",
+              "label": "Los animales",
+              "text": "La bondad con cualquier ser vivo es recompensada (Sahih al-Bujari 2363)."
+            },
+            {
+              "icon": "home",
+              "label": "Su familia",
+              "text": "Los ayudaba y los servía (Sahih al-Bujari 676)."
+            },
+            {
+              "icon": "hands",
+              "label": "Quienes lo servían",
+              "text": "Anas lo sirvió diez años y nunca le dijo «uf» (Sahih al-Bujari 6038)."
+            },
+            {
+              "icon": "shield",
+              "label": "Quienes le hacían daño",
+              "text": "Perdonaba y disculpaba (Sunan at-Tirmidhi 2016)."
+            }
+          ]
+        }
       },
       {
         "h": "Con los niños"
       },
       {
-        "p": "Una vez besó a su nieto al-Hasan, que Allah esté complacido con él, mientras un hombre llamado al-Aqra' ibn Habis, que Allah esté complacido con él, estaba sentado con él. Al-Aqra' dijo: «Tengo diez hijos y nunca he besado a ninguno». El Profeta lo miró y dijo:"
+        "p": "Una vez besó a su nieto al-Hasan, que Allah esté complacido con él. Un hombre llamado al-Aqra' ibn Habis, que Allah esté complacido con él, dijo: «Tengo diez hijos y nunca he besado a ninguno». El Profeta lo miró y dijo:"
       },
       {
         "quote": "¡Quien no tiene compasión no será compadecido!",
         "cite": "Sahih al-Bujari 5997 y Sahih Muslim 2318 (registrado por ambos)"
       },
       {
-        "p": "Rezaba cargando a su pequeña nieta Umama, que Allah esté complacido con ella: la dejaba en el suelo al postrarse y la levantaba al ponerse de pie (Sahih al-Bujari 516 y Sahih Muslim 543). Y cuando dirigía la oración y oía llorar a un bebé, la acortaba para no hacerle las cosas difíciles a la madre (Sahih al-Bujari 707)."
-      },
-      {
-        "h": "Con los animales"
-      },
-      {
-        "p": "Contó que un hombre, mientras iba por un camino, encontró a un perro jadeando de sed. El hombre bajó a un pozo, llenó su zapato de agua y le dio de beber al perro, y Allah lo perdonó. Los compañeros preguntaron si hay recompensa incluso por la bondad con los animales. Él dijo:"
-      },
-      {
-        "quote": "En cada ser vivo hay recompensa",
-        "cite": "Sahih al-Bujari 2363 y Sahih Muslim 2244 (registrado por ambos)"
-      },
-      {
-        "p": "Una vez entró en un huerto de Medina donde un camello, al verlo, gimió con lágrimas en los ojos. Se acercó, lo acarició hasta que se calmó y luego le dijo a su joven dueño:"
-      },
-      {
-        "quote": "¿No temes a Allah respecto a este animal que Allah puso en tu posesión? Me ha contado que lo haces pasar hambre y lo agotas con trabajo.",
-        "cite": "Sunan Abi Dawud 2549 (auténtico según al-Albani)"
-      },
-      {
-        "h": "Con las personas"
-      },
-      {
-        "p": "Anas ibn Malik lo sirvió durante diez años y dijo que el Profeta nunca le dijo «uf» (una palabra de fastidio), ni le preguntó «¿por qué hiciste eso?» o «¿por qué no hiciste aquello?» (Sahih al-Bujari 6038 y Sahih Muslim 2309). En casa, dijo Aisha, ayudaba y servía a su familia, y cuando llegaba la hora de la oración salía a rezar (Sahih al-Bujari 676). También dijo que nunca golpeó con su mano a una mujer ni a un sirviente (Sahih Muslim 2328)."
-      },
-      {
-        "p": "Cuando un muchacho judío que lo servía enfermó, el Profeta fue a visitarlo y se sentó junto a su cabeza (Sahih al-Bujari 1356). Y Aisha resumió cómo trataba a quienes le hacían mal:"
-      },
-      {
-        "quote": "No devolvía el mal con el mal, sino que perdonaba y disculpaba.",
-        "cite": "Sunan at-Tirmidi 2016 (hasan sahih)"
-      },
-      {
         "h": "Seguir su ejemplo hoy"
       },
       {
-        "quote": "En el Mensajero de Dios hay un bello ejemplo para quienes tienen esperanza en Dios, [anhelan ser recompensados] en el Día del Juicio y recuerdan frecuentemente a Dios.",
-        "cite": "Corán 33:21 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "(La traducción de Isa García usa la palabra «Dios» para Allah.) No necesitas cambiarlo todo de una vez. Elige una cualidad y practícala esta semana:"
+        "p": "No necesitas cambiarlo todo de una vez. Elige una cualidad y practícala esta semana:"
       },
       {
         "steps": {
@@ -353,6 +419,54 @@
       },
       {
         "p": "Has completado la vida del Profeta. Comprueba lo que aprendiste más abajo. A continuación conocerás a los profetas que vinieron antes que él, la paz sea con todos ellos."
+      },
+      {
+        "more": {
+          "title": "Más historias de su misericordia",
+          "blocks": [
+            {
+              "p": "Allah dijo de él:"
+            },
+            {
+              "quote": "No te he enviado [¡oh, Mujámmad!] sino como misericordia para todos los seres.",
+              "cite": "Corán 21:107 (traducción del significado de Isa García)"
+            },
+            {
+              "p": "Rezaba cargando a su pequeña nieta Umama, que Allah esté complacido con ella: la dejaba en el suelo al postrarse y la levantaba al ponerse de pie (Sahih al-Bujari 516 y Sahih Muslim 543)."
+            },
+            {
+              "p": "Contó que un hombre encontró a un perro jadeando de sed. El hombre bajó a un pozo, llenó su zapato de agua y le dio de beber al perro, y Allah lo perdonó. Los compañeros preguntaron si hay recompensa incluso por la bondad con los animales. Él dijo:"
+            },
+            {
+              "quote": "En cada ser vivo hay recompensa",
+              "cite": "Sahih al-Bujari 2363 y Sahih Muslim 2244 (registrado por ambos)"
+            },
+            {
+              "p": "Una vez entró en un huerto de Medina donde un camello, al verlo, gimió con lágrimas en los ojos. Se acercó, lo acarició hasta que se calmó y luego le dijo a su joven dueño:"
+            },
+            {
+              "quote": "¿No temes a Allah respecto a este animal que Allah puso en tu posesión? Me ha contado que lo haces pasar hambre y lo agotas con trabajo.",
+              "cite": "Sunan Abi Dawud 2549 (auténtico según al-Albani)"
+            },
+            {
+              "p": "Anas dijo que nunca le preguntó «¿por qué hiciste eso?» o «¿por qué no hiciste aquello?» (Sahih al-Bujari 6038 y Sahih Muslim 2309). Cuando llegaba la hora de la oración salía a rezar (Sahih al-Bujari 676). Aisha dijo que nunca golpeó con su mano a una mujer ni a un sirviente (Sahih Muslim 2328)."
+            },
+            {
+              "p": "Cuando un muchacho judío que lo servía enfermó, el Profeta fue a visitarlo y se sentó junto a su cabeza (Sahih al-Bujari 1356). Y Aisha resumió cómo trataba a quienes le hacían mal:"
+            },
+            {
+              "quote": "No devolvía el mal con el mal, sino que perdonaba y disculpaba.",
+              "cite": "Sunan at-Tirmidi 2016 (hasan sahih)"
+            },
+            {
+              "p": "(La traducción de Isa García usa la palabra «Dios» para Allah.) Allah también dijo:"
+            },
+            {
+              "quote": "En el Mensajero de Dios hay un bello ejemplo para quienes tienen esperanza en Dios, [anhelan ser recompensados] en el Día del Juicio y recuerdan frecuentemente a Dios.",
+              "cite": "Corán 33:21 (traducción del significado de Isa García)"
+            }
+          ]
+        }
       }
     ]
   },
@@ -569,6 +683,36 @@
         "ar": "قالت عائشة إن خلقه كان القرآن، فقد عاش ما يعلّمه القرآن، رحيمًا بالجميع.",
         "es": "Aisha dijo que su carácter era el Corán: vivía lo que el Corán enseña, con misericordia hacia todos."
       }
+    }
+  ],
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=PSvCsq6zjwU",
+      "title": {
+        "en": "Loving the Prophet, peace be upon him, more than yourself",
+        "ar": "أن تحب النبي صلى الله عليه وسلم أكثر من نفسك",
+        "es": "Amar al Profeta, la paz sea con él, más que a uno mismo"
+      },
+      "by": {
+        "en": "Dr. Omar Suleiman, Yaqeen Institute",
+        "ar": "د. عمر سليمان، معهد يقين",
+        "es": "Dr. Omar Suleiman, Yaqeen Institute"
+      },
+      "seconds": 2641
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c-7XB6Oncwc",
+      "title": {
+        "en": "How the Prophet, peace be upon him, treated his enemies",
+        "ar": "كيف تعامل النبي صلى الله عليه وسلم مع أعدائه",
+        "es": "Cómo trató el Profeta, la paz sea con él, a sus enemigos"
+      },
+      "by": {
+        "en": "Dr. Omar Suleiman, Yaqeen Institute",
+        "ar": "د. عمر سليمان، معهد يقين",
+        "es": "Dr. Omar Suleiman, Yaqeen Institute"
+      },
+      "seconds": 3298
     }
   ]
 }

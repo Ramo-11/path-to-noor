@@ -1,0 +1,41 @@
+{
+  "slug": "watch-last-ten-nights",
+  "minutes": 1,
+  "title": {
+    "en": "The last ten nights and Laylat al-Qadr",
+    "ar": "العشر الأواخر وليلة القدر",
+    "es": "Las últimas diez noches y Laylat al-Qadr"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Omar Suleiman on making the most of the last ten nights of Ramadan, when Laylat al-Qadr is sought."
+      }
+    ],
+    "ar": [
+      {
+        "p": "د. عمر سليمان عن اغتنام العشر الأواخر من رمضان، وفيها تُلتمس ليلة القدر."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Omar Suleiman sobre cómo aprovechar las últimas diez noches del Ramadán, en las que se busca Laylat al-Qadr."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=vr_e-YZpaMc",
+    "title": {
+      "en": "The last ten nights and Laylat al-Qadr",
+      "ar": "العشر الأواخر وليلة القدر",
+      "es": "Las últimas diez noches y Laylat al-Qadr"
+    },
+    "by": {
+      "en": "Dr. Omar Suleiman, Yaqeen Institute",
+      "ar": "د. عمر سليمان، معهد يقين",
+      "es": "Dr. Omar Suleiman, Yaqeen Institute"
+    },
+    "seconds": 59
+  }
+}

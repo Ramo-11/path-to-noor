@@ -12,6 +12,7 @@ import {
   type PlacementResult as ComputedPlacement,
 } from "@/lib/placement";
 import type { StageKey } from "@/lib/stages";
+import { track } from "@/lib/analytics";
 import { ExistingIntro, NewIntro } from "./PlacementIntro";
 import { PlacementResult, type SaveState } from "./PlacementResult";
 import { QuestionStep } from "./QuestionStep";
@@ -127,6 +128,7 @@ export function PlacementFlow({ recommendations, savedStage, isSignedIn }: Place
     const computed = computePlacement(collected);
     setOutcome({ answers: collected, computed, stage: computed.stage });
     setPhase("result");
+    track("placement_completed", { stage: computed.stage });
     persist(collected, computed.stage, { answers: collected });
   }
 
@@ -156,6 +158,7 @@ export function PlacementFlow({ recommendations, savedStage, isSignedIn }: Place
     setInteracted(true);
     setIndex(0);
     setPhase("questions");
+    track("placement_started");
   }
 
   function retake() {
@@ -167,6 +170,7 @@ export function PlacementFlow({ recommendations, savedStage, isSignedIn }: Place
     setSave("idle");
     failedBody.current = null;
     setPhase("questions");
+    track("placement_started");
   }
 
   function back() {

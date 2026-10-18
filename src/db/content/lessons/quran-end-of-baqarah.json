@@ -1,6 +1,6 @@
 {
   "slug": "quran-end-of-baqarah",
-  "minutes": 9,
+  "minutes": 3,
   "title": {
     "en": "The last two verses of Surah Al-Baqarah",
     "ar": "خواتيم سورة البقرة",
@@ -16,20 +16,70 @@
         "cite": "Sahih al-Bukhari 5009 and Sahih Muslim 807 (agreed upon)"
       },
       {
-        "p": "Scholars mention several meanings of \"they will suffice him\": that Allah protects the reader from evil and harm that night, or that the verses take the place of voluntary night prayer, among other views. Many scholars say all of these meanings can be intended. The night begins at sunset, so you can recite them at any time from Maghrib until dawn."
+        "p": "Scholars mention several meanings of \"they will suffice him\"."
       },
       {
-        "p": "These verses are also a special gift. An angel came down from heaven and said to the Prophet:"
+        "compare": {
+          "first": {
+            "title": "Protection",
+            "items": [
+              "Allah protects the reader from evil and harm that night."
+            ]
+          },
+          "second": {
+            "title": "Night prayer",
+            "items": [
+              "The verses take the place of voluntary night prayer."
+            ]
+          }
+        }
       },
       {
-        "quote": "Have glad tidings with two lights that have been given to you, which no prophet before you has been given: Surat al-Fātihah and the concluding verses of Surat al-Baqarah. You will not read one letter of them except that you will be given it.",
-        "cite": "Sahih Muslim 806"
+        "p": "There are other views too, and many scholars say all of these meanings can be intended. The night begins at sunset, so you can recite them from Maghrib until dawn."
+      },
+      {
+        "more": {
+          "title": "A special gift",
+          "blocks": [
+            {
+              "p": "These verses are also a special gift. An angel came down from heaven and said to the Prophet:"
+            },
+            {
+              "quote": "Have glad tidings with two lights that have been given to you, which no prophet before you has been given: Surat al-Fātihah and the concluding verses of Surat al-Baqarah. You will not read one letter of them except that you will be given it.",
+              "cite": "Sahih Muslim 806"
+            }
+          ]
+        }
       },
       {
         "h": "Verse 285: what believers believe"
       },
       {
-        "p": "When the verse just before these two was revealed, the companions found it very heavy, because it spoke of Allah holding people to account even for what is in their hearts. The Prophet told them to answer as believers: \"We hear and we obey.\" They said it sincerely, and Allah revealed these verses, praising them and easing their burden (Sahih Muslim 125)."
+        "flow": {
+          "title": "How it came",
+          "steps": [
+            {
+              "label": "Heavy",
+              "text": "When the verse just before these two was revealed, the companions found it very heavy, because it spoke of Allah holding people to account even for what is in their hearts."
+            },
+            {
+              "label": "The answer",
+              "text": "The Prophet told them to answer as believers: \"We hear and we obey.\""
+            },
+            {
+              "label": "Ease",
+              "text": "They said it sincerely, and Allah revealed these verses, praising them and easing their burden (Sahih Muslim 125)."
+            }
+          ]
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+          "transliteration": "Aamanar-rasoolu bimaa unzila ilayhi mir-rabbihee wal-mu'minoon Kullun aamana billaahi wa malaa'ikatihee wa kutubihee wa rusulih, laa nufarriqu bayna ahadim-mir-rusulih Wa qaaloo sami'naa wa ata'naa, ghufraanaka rabbanaa wa ilaykal-maseer",
+          "meaning": "The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allah and His angels and His books and His messengers, [saying], \"We make no distinction between any of His messengers.\" And they say, \"We hear and we obey. [We seek] Your forgiveness, our Lord, and to You is the [final] destination.\"",
+          "audio": "/audio/quran/002285.mp3"
+        }
       },
       {
         "phrase": {
@@ -53,10 +103,39 @@
         }
       },
       {
-        "p": "This verse sums up faith: belief in Allah, His angels, His books, and all of His messengers, without accepting some and rejecting others. Then comes the believer's answer, *sami'naa wa ata'naa*, \"we hear and we obey\", followed by a request for forgiveness."
+        "p": "This verse sums up faith: belief in Allah, His angels, His books, and all of His messengers, without accepting some and rejecting others."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "سَمِعْنَا",
+              "transliteration": "sami'naa",
+              "meaning": "we hear"
+            },
+            {
+              "arabic": "وَأَطَعْنَا",
+              "transliteration": "wa ata'naa",
+              "meaning": "and we obey"
+            },
+            {
+              "arabic": "غُفْرَانَكَ",
+              "transliteration": "ghufraanaka",
+              "meaning": "Your forgiveness"
+            }
+          ]
+        }
       },
       {
         "h": "Verse 286: ease, and a beautiful dua"
+      },
+      {
+        "phrase": {
+          "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+          "transliteration": "Laa yukallifullaahu nafsan illaa wus'ahaa, lahaa maa kasabat wa 'alayhaa mak-tasabat Rabbanaa laa tu'aakhidhnaa in naseenaa aw akhta'naa Rabbanaa wa laa tahmil 'alaynaa isran kamaa hamaltahoo 'alal-ladheena min qablinaa Rabbanaa wa laa tuhammilnaa maa laa taaqata lanaa bih Wa'fu 'annaa, waghfir lanaa, warhamnaa, anta mawlaanaa fansurnaa 'alal-qawmil-kaafireen",
+          "meaning": "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.",
+          "audio": "/audio/quran/002286.mp3"
+        }
       },
       {
         "phrase": {
@@ -66,7 +145,10 @@
         }
       },
       {
-        "p": "This may be the most comforting sentence in the Quran for a new Muslim: Allah never asks you for more than you are able to carry. You are not expected to be perfect on your first day. The verse then teaches you a **dua** (a personal prayer to Allah) in the words of the believers:"
+        "p": "This may be the most comforting sentence in the Quran for a new Muslim: Allah never asks you for more than you are able to carry. You are not expected to be perfect on your first day."
+      },
+      {
+        "p": "The verse then teaches you a **dua** (a personal prayer to Allah) in the words of the believers:"
       },
       {
         "phrase": {
@@ -97,7 +179,17 @@
         }
       },
       {
-        "p": "In the authentic report in Sahih Muslim, after each of these requests, Allah answered: \"Yes.\" And scholars explain the angel's words above to mean that whoever recites these verses is granted the good and the requests they contain. The final line calls Allah *Mawlaanaa*, our Protector, and asks for His help and victory over those who reject faith."
+        "p": "In the authentic report in Sahih Muslim, after each of these requests, Allah answered: \"Yes.\""
+      },
+      {
+        "more": {
+          "title": "More on the last verse",
+          "blocks": [
+            {
+              "p": "And scholars explain the angel's words above to mean that whoever recites these verses is granted the good and the requests they contain. The final line calls Allah *Mawlaanaa*, our Protector, and asks for His help and victory over those who reject faith."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -141,20 +233,70 @@
         "cite": "صحيح البخاري 5009، وصحيح مسلم 807 (متفق عليه)"
       },
       {
-        "p": "ذكر العلماء لمعنى «كفتاه» عدة أقوال: أن الله يكفيه بهما الشر والأذى تلك الليلة، أو أنهما تكفيانه عن قيام الليل، وغير ذلك، وقال كثير منهم إن هذه المعاني كلها محتملة. والليل يبدأ من غروب الشمس، فتستطيع أن تقرأهما في أي وقت من المغرب إلى الفجر."
+        "p": "ذكر العلماء لمعنى «كفتاه» عدة أقوال."
       },
       {
-        "p": "وهما كذلك هدية خاصة، فقد نزل ملك من السماء فقال للنبي صلى الله عليه وسلم:"
+        "compare": {
+          "first": {
+            "title": "الحماية",
+            "items": [
+              "أن الله يكفيه بهما الشر والأذى تلك الليلة."
+            ]
+          },
+          "second": {
+            "title": "قيام الليل",
+            "items": [
+              "أنهما تكفيانه عن قيام الليل."
+            ]
+          }
+        }
       },
       {
-        "quote": "أَبْشِرْ بِنُورَيْنِ أُوتِيتَهُمَا لَمْ يُؤْتَهُمَا نَبِيٌّ قَبْلَكَ: فَاتِحَةُ الْكِتَابِ، وَخَوَاتِيمُ سُورَةِ الْبَقَرَةِ، لَنْ تَقْرَأَ بِحَرْفٍ مِنْهُمَا إِلَّا أُعْطِيتَهُ",
-        "cite": "صحيح مسلم 806"
+        "p": "وقال كثير من العلماء إن هذه المعاني كلها محتملة. والليل يبدأ من غروب الشمس، فتستطيع أن تقرأهما في أي وقت من المغرب إلى الفجر."
+      },
+      {
+        "more": {
+          "title": "هدية خاصة",
+          "blocks": [
+            {
+              "p": "وهما كذلك هدية خاصة، فقد نزل ملك من السماء فقال للنبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "أَبْشِرْ بِنُورَيْنِ أُوتِيتَهُمَا لَمْ يُؤْتَهُمَا نَبِيٌّ قَبْلَكَ: فَاتِحَةُ الْكِتَابِ، وَخَوَاتِيمُ سُورَةِ الْبَقَرَةِ، لَنْ تَقْرَأَ بِحَرْفٍ مِنْهُمَا إِلَّا أُعْطِيتَهُ",
+              "cite": "صحيح مسلم 806"
+            }
+          ]
+        }
       },
       {
         "h": "الآية 285: ما يؤمن به المؤمنون"
       },
       {
-        "p": "لما نزلت الآية التي قبلهما اشتدّ ذلك على الصحابة، لأنها ذكرت أن الله يحاسب الناس حتى على ما في نفوسهم، فأمرهم النبي صلى الله عليه وسلم أن يقولوا: سمعنا وأطعنا، فقالوها صادقين، فأنزل الله هاتين الآيتين ثناءً عليهم وتخفيفًا عنهم (صحيح مسلم 125)."
+        "flow": {
+          "title": "كيف نزلتا",
+          "steps": [
+            {
+              "label": "ثقل شديد",
+              "text": "لما نزلت الآية التي قبلهما اشتدّ ذلك على الصحابة، لأنها ذكرت أن الله يحاسب الناس حتى على ما في نفوسهم."
+            },
+            {
+              "label": "الجواب",
+              "text": "أمرهم النبي صلى الله عليه وسلم أن يقولوا: سمعنا وأطعنا."
+            },
+            {
+              "label": "التخفيف",
+              "text": "فقالوها صادقين، فأنزل الله هاتين الآيتين ثناءً عليهم وتخفيفًا عنهم (صحيح مسلم 125)."
+            }
+          ]
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+          "transliteration": "Aamanar-rasoolu bimaa unzila ilayhi mir-rabbihee wal-mu'minoon Kullun aamana billaahi wa malaa'ikatihee wa kutubihee wa rusulih, laa nufarriqu bayna ahadim-mir-rusulih Wa qaaloo sami'naa wa ata'naa, ghufraanaka rabbanaa wa ilaykal-maseer",
+          "meaning": "صدّق الرسول صلى الله عليه وسلم بما أوحي إليه من ربه، وصدّق به المؤمنون كذلك. كلهم آمنوا بالله وملائكته وكتبه ورسله، ولا يؤمنون ببعض الرسل ويكفرون ببعض، بل يؤمنون بهم جميعًا. وقالوا: سمعنا يا ربنا وأطعنا، نسألك أن تغفر ذنوبنا، وإليك وحدك مرجعنا.",
+          "audio": "/audio/quran/002285.mp3"
+        }
       },
       {
         "phrase": {
@@ -178,10 +320,39 @@
         }
       },
       {
-        "p": "تلخّص هذه الآية الإيمان: الإيمان بالله وملائكته وكتبه ورسله جميعًا دون تفريق بينهم، ثم يأتي جواب المؤمن: «سمعنا وأطعنا»، ثم طلب المغفرة."
+        "p": "تلخّص هذه الآية الإيمان: الإيمان بالله وملائكته وكتبه ورسله جميعًا دون تفريق بينهم."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "سَمِعْنَا",
+              "transliteration": "sami'naa",
+              "meaning": "سمعنا"
+            },
+            {
+              "arabic": "وَأَطَعْنَا",
+              "transliteration": "wa ata'naa",
+              "meaning": "وأطعنا"
+            },
+            {
+              "arabic": "غُفْرَانَكَ",
+              "transliteration": "ghufraanaka",
+              "meaning": "نسألك المغفرة"
+            }
+          ]
+        }
       },
       {
         "h": "الآية 286: التيسير ودعاء جميل"
+      },
+      {
+        "phrase": {
+          "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+          "transliteration": "Laa yukallifullaahu nafsan illaa wus'ahaa, lahaa maa kasabat wa 'alayhaa mak-tasabat Rabbanaa laa tu'aakhidhnaa in naseenaa aw akhta'naa Rabbanaa wa laa tahmil 'alaynaa isran kamaa hamaltahoo 'alal-ladheena min qablinaa Rabbanaa wa laa tuhammilnaa maa laa taaqata lanaa bih Wa'fu 'annaa, waghfir lanaa, warhamnaa, anta mawlaanaa fansurnaa 'alal-qawmil-kaafireen",
+          "meaning": "لا يطلب الله من عباده ما لا يطيقونه؛ فمن عمل خيرًا نال جزاءه، ومن عمل شرًّا نال جزاءه. ربنا لا تعاقبنا إن نسينا شيئًا أو أخطأنا من غير قصد. ربنا لا تكلّفنا الأعمال الشاقة التي كلّفتها من كان قبلنا. ربنا لا تحمّلنا من التكاليف والمصائب ما لا نستطيعه. امحُ ذنوبنا، واستر عيوبنا، وارحمنا، أنت مالك أمرنا ومتولّيه، فانصرنا على من جحدوا دينك.",
+          "audio": "/audio/quran/002286.mp3"
+        }
       },
       {
         "phrase": {
@@ -191,7 +362,10 @@
         }
       },
       {
-        "p": "لعل هذه الجملة من أكثر ما يطمئن المسلم الجديد: فالله لا يطلب منك أكثر مما تطيق، ولست مطالبًا بالكمال من يومك الأول. ثم تعلّمك الآية **دعاءً** بكلمات المؤمنين:"
+        "p": "لعل هذه الجملة من أكثر ما يطمئن المسلم الجديد: فالله لا يطلب منك أكثر مما تطيق، ولست مطالبًا بالكمال من يومك الأول."
+      },
+      {
+        "p": "ثم تعلّمك الآية **دعاءً** بكلمات المؤمنين:"
       },
       {
         "phrase": {
@@ -222,7 +396,17 @@
         }
       },
       {
-        "p": "وفي الحديث الصحيح في صحيح مسلم أن الله تعالى قال بعد كل دعوة من هذه الدعوات: «نعم». وبيّن العلماء أن معنى قول الملك السابق أن من قرأ هاتين الآيتين أعطاه الله ما فيهما من الخير والدعاء والسؤال. وفي آخر الآية تنادي ربك بـ«مولانا»، أي متولّي أمرنا، وتسأله النصر على من جحدوا دينه."
+        "p": "وفي الحديث الصحيح في صحيح مسلم أن الله تعالى قال بعد كل دعوة من هذه الدعوات: «نعم»."
+      },
+      {
+        "more": {
+          "title": "المزيد عن الآية الأخيرة",
+          "blocks": [
+            {
+              "p": "وبيّن العلماء أن معنى قول الملك السابق أن من قرأ هاتين الآيتين أعطاه الله ما فيهما من الخير والدعاء والسؤال. وفي آخر الآية تنادي ربك بـ«مولانا»، أي متولّي أمرنا، وتسأله النصر على من جحدوا دينه."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -266,20 +450,70 @@
         "cite": "Sahih al-Bujari 5009 y Sahih Muslim 807 (registrado por ambos)"
       },
       {
-        "p": "Los sabios mencionan varios sentidos de «le son suficientes»: que Allah protege a quien las recita del mal y del daño esa noche, o que ocupan el lugar de la oración voluntaria de la noche, entre otras opiniones. Muchos sabios dicen que todos esos sentidos pueden ser correctos. La noche comienza con la puesta del sol, así que puedes recitarlas en cualquier momento desde el Magrib hasta el alba."
+        "p": "Los sabios mencionan varios sentidos de «le son suficientes»."
       },
       {
-        "p": "Estas aleyas son también un regalo especial. Un ángel descendió del cielo y le dijo al Profeta:"
+        "compare": {
+          "first": {
+            "title": "Protección",
+            "items": [
+              "Allah protege a quien las recita del mal y del daño esa noche."
+            ]
+          },
+          "second": {
+            "title": "Oración de la noche",
+            "items": [
+              "Las aleyas ocupan el lugar de la oración voluntaria de la noche."
+            ]
+          }
+        }
       },
       {
-        "quote": "Alégrate por dos luces que se te han dado y que no se le dieron a ningún profeta antes de ti: la Fátiha y las aleyas finales de la sura Al-Baqara. No recitarás ni una letra de ellas sin que se te conceda.",
-        "cite": "Sahih Muslim 806"
+        "p": "Hay también otras opiniones, y muchos sabios dicen que todos esos sentidos pueden ser correctos. La noche comienza con la puesta del sol, así que puedes recitarlas desde el Magrib hasta el alba."
+      },
+      {
+        "more": {
+          "title": "Un regalo especial",
+          "blocks": [
+            {
+              "p": "Estas aleyas son también un regalo especial. Un ángel descendió del cielo y le dijo al Profeta:"
+            },
+            {
+              "quote": "Alégrate por dos luces que se te han dado y que no se le dieron a ningún profeta antes de ti: la Fátiha y las aleyas finales de la sura Al-Baqara. No recitarás ni una letra de ellas sin que se te conceda.",
+              "cite": "Sahih Muslim 806"
+            }
+          ]
+        }
       },
       {
         "h": "La aleya 285: lo que creen los creyentes"
       },
       {
-        "p": "Cuando se reveló la aleya anterior a estas dos, a los compañeros les resultó muy pesada, porque hablaba de que Allah pide cuentas incluso de lo que hay en los corazones. El Profeta les dijo que respondieran como creyentes: «Oímos y obedecemos». Lo dijeron con sinceridad, y Allah reveló estas aleyas, elogiándolos y aliviando su carga (Sahih Muslim 125). (La traducción de Isa García usa la palabra «Dios» para Allah.)"
+        "flow": {
+          "title": "Cómo llegaron",
+          "steps": [
+            {
+              "label": "Pesada",
+              "text": "Cuando se reveló la aleya anterior a estas dos, a los compañeros les resultó muy pesada, porque hablaba de que Allah pide cuentas incluso de lo que hay en los corazones."
+            },
+            {
+              "label": "La respuesta",
+              "text": "El Profeta les dijo que respondieran como creyentes: «Oímos y obedecemos»."
+            },
+            {
+              "label": "Alivio",
+              "text": "Lo dijeron con sinceridad, y Allah reveló estas aleyas, elogiándolos y aliviando su carga (Sahih Muslim 125)."
+            }
+          ]
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+          "transliteration": "Aamanar-rasoolu bimaa unzila ilayhi mir-rabbihee wal-mu'minoon Kullun aamana billaahi wa malaa'ikatihee wa kutubihee wa rusulih, laa nufarriqu bayna ahadim-mir-rusulih Wa qaaloo sami'naa wa ata'naa, ghufraanaka rabbanaa wa ilaykal-maseer",
+          "meaning": "El Mensajero y sus seguidores creen en lo que le fue revelado por su Señor [al Mensajero]. Todos creen en Dios, en Sus ángeles, en Sus Libros y en Sus Mensajeros [diciendo:] \"No hacemos diferencia entre ninguno de Sus Mensajeros\". Y dicen: \"Oímos y obedecemos. Perdónanos Señor nuestro, que ante Ti retornaremos [para ser juzgados]\".",
+          "audio": "/audio/quran/002285.mp3"
+        }
       },
       {
         "phrase": {
@@ -303,10 +537,39 @@
         }
       },
       {
-        "p": "Esta aleya resume la fe: creer en Allah, en Sus ángeles, en Sus libros y en todos Sus mensajeros, sin aceptar a unos y rechazar a otros. Luego viene la respuesta del creyente, *sami'naa wa ata'naa*, «oímos y obedecemos», seguida de una petición de perdón."
+        "p": "Esta aleya resume la fe: creer en Allah, en Sus ángeles, en Sus libros y en todos Sus mensajeros, sin aceptar a unos y rechazar a otros."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "سَمِعْنَا",
+              "transliteration": "sami'naa",
+              "meaning": "oímos"
+            },
+            {
+              "arabic": "وَأَطَعْنَا",
+              "transliteration": "wa ata'naa",
+              "meaning": "y obedecemos"
+            },
+            {
+              "arabic": "غُفْرَانَكَ",
+              "transliteration": "ghufraanaka",
+              "meaning": "Tu perdón"
+            }
+          ]
+        }
       },
       {
         "h": "La aleya 286: facilidad y una hermosa dua"
+      },
+      {
+        "phrase": {
+          "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+          "transliteration": "Laa yukallifullaahu nafsan illaa wus'ahaa, lahaa maa kasabat wa 'alayhaa mak-tasabat Rabbanaa laa tu'aakhidhnaa in naseenaa aw akhta'naa Rabbanaa wa laa tahmil 'alaynaa isran kamaa hamaltahoo 'alal-ladheena min qablinaa Rabbanaa wa laa tuhammilnaa maa laa taaqata lanaa bih Wa'fu 'annaa, waghfir lanaa, warhamnaa, anta mawlaanaa fansurnaa 'alal-qawmil-kaafireen",
+          "meaning": "Dios no exige a nadie por encima de sus posibilidades, a su favor tendrá el bien que haga, y en su contra tendrá el mal que haga. ¡Señor nuestro! No nos castigues si olvidamos o cometemos un error. ¡Señor nuestro! No nos impongas una carga como la que impusiste a quienes nos precedieron. ¡Señor nuestro! No nos impongas algo superior a lo que podamos soportar. Perdónanos, absuélvenos y ten misericordia de nosotros. Tú eres nuestro Protector, concédenos el triunfo sobre los que niegan la verdad",
+          "audio": "/audio/quran/002286.mp3"
+        }
       },
       {
         "phrase": {
@@ -316,7 +579,10 @@
         }
       },
       {
-        "p": "Quizá sea la frase más reconfortante del Corán para un nuevo musulmán: Allah nunca te pide más de lo que puedes llevar. No se espera que seas perfecto desde el primer día. Luego la aleya te enseña una **dua** (una súplica personal a Allah) con las palabras de los creyentes:"
+        "p": "Quizá sea la frase más reconfortante del Corán para un nuevo musulmán: Allah nunca te pide más de lo que puedes llevar. No se espera que seas perfecto desde el primer día."
+      },
+      {
+        "p": "Luego la aleya te enseña una **dua** (una súplica personal a Allah) con las palabras de los creyentes:"
       },
       {
         "phrase": {
@@ -347,7 +613,17 @@
         }
       },
       {
-        "p": "En el relato auténtico de Sahih Muslim, después de cada una de estas peticiones Allah respondió: «Sí». Y los sabios explican que las palabras del ángel citadas arriba significan que a quien recita estas aleyas se le concede el bien y las peticiones que contienen. La última frase llama a Allah *Mawlaanaa*, nuestro Protector, y Le pide Su ayuda y el triunfo sobre quienes rechazan la fe."
+        "p": "En el relato auténtico de Sahih Muslim, después de cada una de estas peticiones Allah respondió: «Sí»."
+      },
+      {
+        "more": {
+          "title": "Más sobre la última aleya",
+          "blocks": [
+            {
+              "p": "Y los sabios explican que las palabras del ángel citadas arriba significan que a quien recita estas aleyas se le concede el bien y las peticiones que contienen. La última frase llama a Allah *Mawlaanaa*, nuestro Protector, y Le pide Su ayuda y el triunfo sobre quienes rechazan la fe."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -380,6 +656,16 @@
       },
       {
         "p": "En la última lección de este paso construirás un hábito diario sereno que lo reúne todo."
+      },
+      {
+        "more": {
+          "title": "Sobre la traducción",
+          "blocks": [
+            {
+              "p": "La traducción de Isa García usa la palabra «Dios» para Allah."
+            }
+          ]
+        }
       }
     ]
   },

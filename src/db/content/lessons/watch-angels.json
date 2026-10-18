@@ -1,0 +1,41 @@
+{
+  "slug": "watch-angels",
+  "minutes": 20,
+  "title": {
+    "en": "Belief in the angels",
+    "ar": "الإيمان بالملائكة",
+    "es": "La creencia en los ángeles"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Yasir Qadhi explains belief in the angels, one of the six pillars of faith."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يشرح د. ياسر قاضي الإيمان بالملائكة، وهو أحد أركان الإيمان الستة."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Yasir Qadhi explica la creencia en los ángeles, uno de los seis pilares de la fe."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=_tr3Y2US2mw",
+    "title": {
+      "en": "Belief in the angels",
+      "ar": "الإيمان بالملائكة",
+      "es": "La creencia en los ángeles"
+    },
+    "by": {
+      "en": "Dr. Yasir Qadhi, Memphis Islamic Center",
+      "ar": "د. ياسر قاضي، المركز الإسلامي في ممفيس",
+      "es": "Dr. Yasir Qadhi, Memphis Islamic Center"
+    },
+    "seconds": 1189
+  }
+}

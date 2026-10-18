@@ -1,6 +1,6 @@
 {
   "slug": "res-how-to-wudu",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "How to make wudu",
     "ar": "كيف تتوضأ",
@@ -9,43 +9,51 @@
   "body": {
     "en": [
       {
-        "p": "*Wudu* is the short washing a Muslim does before prayer. It takes only a few minutes, you can do it at any sink, and it is one of the first things you will learn. The Prophet Muhammad, peace be upon him, said that Allah does not accept the prayer of someone whose wudu has been broken until they make wudu again (Sahih al-Bukhari 6954 and Sahih Muslim 225)."
+        "p": "*Wudu* is the short washing a Muslim does before prayer. It takes a few minutes at any sink."
       },
       {
-        "p": "Wudu is also a blessing. Uthman ibn Affan (may Allah be pleased with him) showed people how the Prophet made wudu, and reported that the Prophet said that whoever makes wudu like this and then prays two rak'ahs without letting his mind wander will have his past sins forgiven (Sahih al-Bukhari 159 and Sahih Muslim 226)."
+        "p": "The Prophet Muhammad, peace be upon him, said that Allah does not accept the prayer of someone whose wudu has been broken until they make wudu again (Sahih al-Bukhari 6954 and Sahih Muslim 225)."
       },
       {
         "h": "What the Quran requires"
-      },
-      {
-        "p": "Allah describes wudu in the Quran:"
       },
       {
         "quote": "O you who have believed, when you rise to [perform] prayer, wash your faces and your forearms to the elbows and wipe over your heads and wash your feet to the ankles.",
         "cite": "Quran 5:6 (Saheeh International translation)"
       },
       {
-        "p": "So four things are required:"
+        "compare": {
+          "first": {
+            "title": "Required (the Quran)",
+            "items": [
+              "Wash your face.",
+              "Wash your arms up to and including the elbows.",
+              "Wipe over your head with wet hands.",
+              "Wash your feet up to and including the ankles."
+            ]
+          },
+          "second": {
+            "title": "Recommended (the Prophet's example)",
+            "items": [
+              "Wash your hands first.",
+              "Rinse your mouth and nose.",
+              "Wash each part three times.",
+              "Start with the right."
+            ]
+          }
+        }
       },
       {
-        "ol": [
-          "Wash your face.",
-          "Wash your arms up to and including the elbows.",
-          "Wipe over your head with wet hands.",
-          "Wash your feet up to and including the ankles."
-        ]
+        "p": "Make sure the water reaches every part. The Prophet once saw a man who had left a spot the size of a fingernail dry on his foot, and told him: \"Go back and perform your ablution properly.\" (Sahih Muslim 243)"
       },
       {
-        "p": "Make sure the water reaches every part of each of these. The Prophet once saw a man who had left a spot the size of a fingernail dry on his foot, and told him: \"Go back and perform your ablution properly.\" (Sahih Muslim 243)"
-      },
-      {
-        "p": "Your intention is in your heart: you simply know that you are making wudu for prayer. You do not need to say special words for it."
+        "p": "Your intention is in your heart. You do not need to say special words for it."
       },
       {
         "h": "The way the Prophet made wudu"
       },
       {
-        "p": "The Prophet's own wudu, as his companions described it, adds a few recommended steps (*sunnah*) around those four. This is the full way, based on the descriptions of Uthman and of Ali ibn Abi Talib (may Allah be pleased with them):"
+        "p": "This is the full way, based on the descriptions of Uthman and of Ali ibn Abi Talib (may Allah be pleased with them). It adds the recommended steps (*sunnah*) around the four required ones."
       },
       {
         "steps": {
@@ -65,29 +73,73 @@
         "p": "Washing each part three times is the most complete way. The Prophet also sometimes washed each part once, and sometimes twice (Sahih al-Bukhari 157 and 158), so washing once, thoroughly, is enough."
       },
       {
-        "p": "The four steps from the Quran are required. The others, such as washing your hands first, repeating three times, and starting with the right, come from the Prophet's example. Scholars differ on a few of these details, so it is best not to skip them. If the masjid you attend teaches a small detail differently, it is fine to follow its practice."
+        "p": "You can watch the wudu video in the \"Prayer video resources\" step to see every movement."
       },
       {
-        "p": "You can watch the wudu video in the \"Prayer video resources\" step to see every movement."
+        "more": {
+          "title": "A blessing, and where to follow your masjid",
+          "blocks": [
+            {
+              "p": "Wudu is also a blessing. Uthman ibn Affan (may Allah be pleased with him) showed people how the Prophet made wudu, and reported that the Prophet said that whoever makes wudu like this and then prays two rak'ahs without letting his mind wander will have his past sins forgiven (Sahih al-Bukhari 159 and Sahih Muslim 226)."
+            },
+            {
+              "p": "The four steps from the Quran are required. The others, such as washing your hands first, repeating three times, and starting with the right, come from the Prophet's example. Scholars differ on a few of these details, so it is best not to skip them. If the masjid you attend teaches a small detail differently, it is fine to follow its practice."
+            }
+          ]
+        }
       },
       {
         "h": "What breaks wudu"
       },
       {
-        "p": "Once you have wudu, it stays with you until something breaks it, so you can pray more than one prayer with it. Anas ibn Malik (may Allah be pleased with him) said that one wudu was enough for each of them as long as they had not broken it (Sahih al-Bukhari 214). Scholars agree that these things break wudu:"
+        "p": "Once you have wudu, it stays with you until something breaks it, so you can pray more than one prayer with it."
       },
       {
-        "ul": [
-          "Using the toilet (urinating or passing stool). The Quran mentions this when it says \"one of you comes from the place of relieving himself\" (Quran 5:6).",
-          "Passing wind. When Abu Hurayrah (may Allah be pleased with him) was asked what breaks wudu in this hadith, he explained it as passing wind, with or without sound (Sahih al-Bukhari 135).",
-          "Deep sleep, where you lose awareness of what is around you. In an authentic hadith, sleep is mentioned together with urinating and passing stool (Sunan al-Tirmidhi 96, hasan). A light doze while sitting up does not break wudu according to most scholars: the companions would nod off while waiting for the night prayer and then pray without renewing their wudu (Sahih Muslim 376)."
-        ]
+        "compare": {
+          "first": {
+            "title": "Breaks wudu (scholars agree)",
+            "items": [
+              "Using the toilet (urinating or passing stool).",
+              "Passing wind.",
+              "Deep sleep, where you lose awareness of what is around you."
+            ]
+          },
+          "second": {
+            "title": "Does not break wudu",
+            "items": [
+              "A light doze while sitting up (according to most scholars).",
+              "Doubt. If you are not sure, you still have wudu."
+            ]
+          }
+        }
       },
       {
-        "p": "If you are not sure whether you broke your wudu, you still have it. The Prophet said that someone who is unsure whether he passed wind should not leave the masjid \"unless he hears a sound or smells an odor\" (Sahih Muslim 362). Doubt does not break wudu; only certainty does."
+        "p": "Doubt does not break wudu; only certainty does."
       },
       {
-        "p": "**Where scholars differ:** some kinds of touching. Most scholars hold that touching your private parts directly with your hand breaks wudu, while the Hanafi school holds that it does not (Sunan Abi Dawud 181 and 182). Most scholars hold that ordinary touching of your husband or wife, without desire, does not break wudu, while the Shafi'i school holds that skin contact between a man and a woman who are not close family (*mahram*) does. If this matters for you, follow what your local masjid teaches."
+        "more": {
+          "title": "The evidence, and where scholars differ",
+          "blocks": [
+            {
+              "p": "Anas ibn Malik (may Allah be pleased with him) said that one wudu was enough for each of them as long as they had not broken it (Sahih al-Bukhari 214)."
+            },
+            {
+              "p": "The Quran mentions using the toilet when it says \"one of you comes from the place of relieving himself\" (Quran 5:6)."
+            },
+            {
+              "p": "When Abu Hurayrah (may Allah be pleased with him) was asked what breaks wudu in this hadith, he explained it as passing wind, with or without sound (Sahih al-Bukhari 135)."
+            },
+            {
+              "p": "In an authentic hadith, sleep is mentioned together with urinating and passing stool (Sunan al-Tirmidhi 96, hasan). A light doze while sitting up does not break wudu according to most scholars: the companions would nod off while waiting for the night prayer and then pray without renewing their wudu (Sahih Muslim 376)."
+            },
+            {
+              "p": "The Prophet said that someone who is unsure whether he passed wind should not leave the masjid \"unless he hears a sound or smells an odor\" (Sahih Muslim 362)."
+            },
+            {
+              "p": "**Where scholars differ:** some kinds of touching. Most scholars hold that touching your private parts directly with your hand breaks wudu, while the Hanafi school holds that it does not (Sunan Abi Dawud 181 and 182). Most scholars hold that ordinary touching of your husband or wife, without desire, does not break wudu, while the Shafi'i school holds that skin contact between a man and a woman who are not close family (*mahram*) does. If this matters for you, follow what your local masjid teaches."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -110,43 +162,51 @@
     ],
     "ar": [
       {
-        "p": "الوضوء غَسلٌ قصير يقوم به المسلم قبل الصلاة، لا يستغرق إلا دقائق، ويمكنك أداؤه عند أي مغسلة، وهو من أول ما تتعلّمه في صلاتك. قال النبي محمد صلى الله عليه وسلم: «لَا يَقْبَلُ اللهُ صَلَاةَ أَحَدِكُمْ إِذَا أَحْدَثَ حَتَّى يَتَوَضَّأَ» (صحيح البخاري 6954 وصحيح مسلم 225)، والحدث هو ما ينقض الوضوء."
+        "p": "الوضوء غَسلٌ قصير يقوم به المسلم قبل الصلاة، ويستغرق دقائق عند أي مغسلة."
       },
       {
-        "p": "والوضوء فوق ذلك نعمة وأجر، فقد توضأ عثمان بن عفان رضي الله عنه أمام الناس كما رأى النبي صلى الله عليه وسلم يتوضأ، ثم ذكر أنه صلى الله عليه وسلم قال: «مَنْ تَوَضَّأَ نَحْوَ وُضُوئِي هَذَا ثُمَّ صَلَّى رَكْعَتَيْنِ لَا يُحَدِّثُ فِيهِمَا نَفْسَهُ غَفَرَ اللهُ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (صحيح البخاري 159 وصحيح مسلم 226)."
+        "p": "قال النبي محمد صلى الله عليه وسلم: «لَا يَقْبَلُ اللهُ صَلَاةَ أَحَدِكُمْ إِذَا أَحْدَثَ حَتَّى يَتَوَضَّأَ» (صحيح البخاري 6954 وصحيح مسلم 225)، والحدث هو ما ينقض الوضوء."
       },
       {
         "h": "ما فرضه القرآن"
-      },
-      {
-        "p": "وصف الله تعالى الوضوء في القرآن فقال:"
       },
       {
         "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ",
         "cite": "سورة المائدة: 6"
       },
       {
-        "p": "فالفرائض المذكورة في الآية أربع:"
+        "compare": {
+          "first": {
+            "title": "الفرائض (في القرآن)",
+            "items": [
+              "غسل الوجه.",
+              "غسل اليدين إلى المرفقين، والمرفقان داخلان في الغسل.",
+              "مسح الرأس باليدين المبلولتين.",
+              "غسل الرجلين إلى الكعبين، والكعبان داخلان في الغسل."
+            ]
+          },
+          "second": {
+            "title": "المستحبات (هدي النبي صلى الله عليه وسلم)",
+            "items": [
+              "غسل الكفّين أولًا.",
+              "المضمضة والاستنشاق.",
+              "غسل كل عضو ثلاث مرات.",
+              "البدء باليمين."
+            ]
+          }
+        }
       },
       {
-        "ol": [
-          "غسل الوجه.",
-          "غسل اليدين إلى المرفقين، والمرفقان داخلان في الغسل، والمرفق هو المفصل الذي بين الذراع والعضد.",
-          "مسح الرأس باليدين المبلولتين.",
-          "غسل الرجلين إلى الكعبين، والكعبان داخلان في الغسل، وهما العظمان البارزان عند ملتقى الساق بالقدم."
-        ]
+        "p": "واحرص على أن يصل الماء إلى كل جزء، فقد رأى النبي صلى الله عليه وسلم رجلًا توضأ وترك على قدمه موضع ظُفر لم يصبه الماء، فقال له: «ارْجِعْ فَأَحْسِنْ وُضُوءَكَ» (صحيح مسلم 243)."
       },
       {
-        "p": "واحرص على أن يصل الماء إلى كل جزء من هذه الأعضاء، فقد رأى النبي صلى الله عليه وسلم رجلًا توضأ وترك على قدمه موضع ظُفر لم يصبه الماء، فقال له: «ارْجِعْ فَأَحْسِنْ وُضُوءَكَ» (صحيح مسلم 243)."
-      },
-      {
-        "p": "والنية محلّها القلب، فيكفي أن تعلم أنك تتوضأ للصلاة، ولا تحتاج إلى ألفاظ خاصة تقولها."
+        "p": "والنية محلّها القلب، ولا تحتاج إلى ألفاظ خاصة تقولها."
       },
       {
         "h": "صفة وضوء النبي صلى الله عليه وسلم"
       },
       {
-        "p": "وصف الصحابة وضوء النبي صلى الله عليه وسلم، وفيه سنن تحيط بهذه الفرائض الأربع. وهذه صفته كما رواها عثمان بن عفان وعلي بن أبي طالب رضي الله عنهما:"
+        "p": "وهذه صفته كما رواها عثمان بن عفان وعلي بن أبي طالب رضي الله عنهما، وفيها سنن تحيط بالفرائض الأربع."
       },
       {
         "steps": {
@@ -166,29 +226,73 @@
         "p": "والغسل ثلاثًا هو أكمل الوضوء، وقد توضأ النبي صلى الله عليه وسلم أحيانًا مرة مرة، وأحيانًا مرتين مرتين (صحيح البخاري 157 و158)، فالغسلة الواحدة إذا عمّت العضو كافية."
       },
       {
-        "p": "فالفرائض الأربع التي في الآية واجبة، وما زاد عليها، كغسل الكفّين أولًا، والتكرار ثلاثًا، والبدء باليمين، فهو من هدي النبي صلى الله عليه وسلم. وللعلماء خلاف في بعض هذه التفاصيل، فالأحسن ألا تترك شيئًا منها. وإن كان المسجد الذي تصلي فيه يعلّم تفصيلًا صغيرًا بطريقة مختلفة، فلا حرج أن تتبع ما عليه."
+        "p": "ويمكنك أن تشاهد مقطع الوضوء في خطوة «فيديوهات تعليم الصلاة» لترى كل حركة بوضوح."
       },
       {
-        "p": "ويمكنك أن تشاهد مقطع الوضوء في خطوة «فيديوهات تعليم الصلاة» لترى كل حركة بوضوح."
+        "more": {
+          "title": "نعمة الوضوء، واتباع مسجدك",
+          "blocks": [
+            {
+              "p": "والوضوء فوق ذلك نعمة وأجر، فقد توضأ عثمان بن عفان رضي الله عنه أمام الناس كما رأى النبي صلى الله عليه وسلم يتوضأ، ثم ذكر أنه صلى الله عليه وسلم قال: «مَنْ تَوَضَّأَ نَحْوَ وُضُوئِي هَذَا ثُمَّ صَلَّى رَكْعَتَيْنِ لَا يُحَدِّثُ فِيهِمَا نَفْسَهُ غَفَرَ اللهُ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ» (صحيح البخاري 159 وصحيح مسلم 226)."
+            },
+            {
+              "p": "فالفرائض الأربع التي في الآية واجبة، وما زاد عليها، كغسل الكفّين أولًا، والتكرار ثلاثًا، والبدء باليمين، فهو من هدي النبي صلى الله عليه وسلم. وللعلماء خلاف في بعض هذه التفاصيل، فالأحسن ألا تترك شيئًا منها. وإن كان المسجد الذي تصلي فيه يعلّم تفصيلًا صغيرًا بطريقة مختلفة، فلا حرج أن تتبع ما عليه."
+            }
+          ]
+        }
       },
       {
         "h": "ما ينقض الوضوء"
       },
       {
-        "p": "إذا توضأت بقي وضوؤك حتى ينتقض، فلك أن تصلي به أكثر من صلاة. قال أنس بن مالك رضي الله عنه: «يُجْزِئُ أَحَدَنَا الْوُضُوءُ مَا لَمْ يُحْدِثْ» (صحيح البخاري 214). واتفق العلماء على أن هذه الأمور تنقض الوضوء:"
+        "p": "إذا توضأت بقي وضوؤك حتى ينتقض، فلك أن تصلي به أكثر من صلاة."
       },
       {
-        "ul": [
-          "قضاء الحاجة من بول أو غائط، وقد ذكره الله في آية الوضوء بقوله: «أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ» (سورة المائدة: 6).",
-          "خروج الريح، فقد سأل رجلٌ أبا هريرة رضي الله عنه عن الحدث فقال: «فُسَاءٌ أَوْ ضُرَاطٌ» (صحيح البخاري 135)، أي خروج الريح بصوت أو بغير صوت.",
-          "النوم العميق الذي يغيب معه الإدراك، ففي حديث صفوان بن عسّال رضي الله عنه ذُكر النوم مع الغائط والبول: «وَلَكِنْ مِنْ غَائِطٍ وَبَوْلٍ وَنَوْمٍ» (سنن الترمذي 96، حديث حسن). أما النعاس الخفيف وأنت جالس فلا ينقض الوضوء عند أكثر العلماء، فقد كان الصحابة رضي الله عنهم «ينتظرون العشاء حتى تَخْفِقَ رُءُوسُهُمْ، ثم يصلُّون ولا يَتَوَضَّئُونَ» (صحيح مسلم 376)."
-        ]
+        "compare": {
+          "first": {
+            "title": "ينقض الوضوء (باتفاق العلماء)",
+            "items": [
+              "قضاء الحاجة من بول أو غائط.",
+              "خروج الريح.",
+              "النوم العميق الذي يغيب معه الإدراك."
+            ]
+          },
+          "second": {
+            "title": "لا ينقض الوضوء",
+            "items": [
+              "النعاس الخفيف وأنت جالس (عند أكثر العلماء).",
+              "الشك. فإن لم تتيقن فأنت على وضوئك."
+            ]
+          }
+        }
       },
       {
-        "p": "وإذا شككت هل انتقض وضوؤك أم لا، فأنت على وضوئك. فقد قال النبي صلى الله عليه وسلم فيمن أشكل عليه أخرج منه شيء أم لا: «فَلَا يَخْرُجَنَّ مِنَ الْمَسْجِدِ حَتَّى يَسْمَعَ صَوْتًا، أَوْ يَجِدَ رِيحًا» (صحيح مسلم 362). فالشك لا ينقض الوضوء، وإنما ينقضه اليقين."
+        "p": "فالشك لا ينقض الوضوء، وإنما ينقضه اليقين."
       },
       {
-        "p": "**مسائل اختلف فيها العلماء:** بعض أنواع اللمس. فأكثر العلماء على أن مسّ الفرج باليد مباشرة من غير حائل ينقض الوضوء، ويرى الحنفية أنه لا ينقضه (سنن أبي داود 181 و182). وأكثر العلماء على أن لمس الزوج أو الزوجة لمسًا عاديًا من غير شهوة لا ينقض الوضوء، ويرى الشافعية أن التقاء بشرة الرجل بالمرأة من غير المحارم ينقضه. فإن كانت المسألة تهمّك، فاتّبع ما يعلّمه مسجدك."
+        "more": {
+          "title": "الأدلة، ومسائل الخلاف",
+          "blocks": [
+            {
+              "p": "قال أنس بن مالك رضي الله عنه: «يُجْزِئُ أَحَدَنَا الْوُضُوءُ مَا لَمْ يُحْدِثْ» (صحيح البخاري 214)."
+            },
+            {
+              "p": "وقد ذكر الله قضاء الحاجة في آية الوضوء بقوله: «أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ» (سورة المائدة: 6)."
+            },
+            {
+              "p": "وسأل رجلٌ أبا هريرة رضي الله عنه عن الحدث فقال: «فُسَاءٌ أَوْ ضُرَاطٌ» (صحيح البخاري 135)، أي خروج الريح بصوت أو بغير صوت."
+            },
+            {
+              "p": "وفي حديث صفوان بن عسّال رضي الله عنه ذُكر النوم مع الغائط والبول: «وَلَكِنْ مِنْ غَائِطٍ وَبَوْلٍ وَنَوْمٍ» (سنن الترمذي 96، حديث حسن). أما النعاس الخفيف وأنت جالس فلا ينقض الوضوء عند أكثر العلماء، فقد كان الصحابة رضي الله عنهم «ينتظرون العشاء حتى تَخْفِقَ رُءُوسُهُمْ، ثم يصلُّون ولا يَتَوَضَّئُونَ» (صحيح مسلم 376)."
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم فيمن أشكل عليه أخرج منه شيء أم لا: «فَلَا يَخْرُجَنَّ مِنَ الْمَسْجِدِ حَتَّى يَسْمَعَ صَوْتًا، أَوْ يَجِدَ رِيحًا» (صحيح مسلم 362)."
+            },
+            {
+              "p": "**مسائل اختلف فيها العلماء:** بعض أنواع اللمس. فأكثر العلماء على أن مسّ الفرج باليد مباشرة من غير حائل ينقض الوضوء، ويرى الحنفية أنه لا ينقضه (سنن أبي داود 181 و182). وأكثر العلماء على أن لمس الزوج أو الزوجة لمسًا عاديًا من غير شهوة لا ينقض الوضوء، ويرى الشافعية أن التقاء بشرة الرجل بالمرأة من غير المحارم ينقضه. فإن كانت المسألة تهمّك، فاتّبع ما يعلّمه مسجدك."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -211,43 +315,51 @@
     ],
     "es": [
       {
-        "p": "El *wudu* es el lavado breve que el musulmán hace antes de la oración. Toma solo unos minutos, puedes hacerlo en cualquier lavabo y es una de las primeras cosas que aprenderás. El Profeta Muhammad, la paz sea con él, dijo que Allah no acepta la oración de quien ha perdido su wudu hasta que lo vuelva a hacer (Sahih al-Bujari 6954 y Sahih Muslim 225)."
+        "p": "El *wudu* es el lavado breve que el musulmán hace antes de la oración. Toma unos minutos en cualquier lavabo."
       },
       {
-        "p": "El wudu también es una bendición. Uzman ibn Affan (que Allah esté complacido con él) mostró a la gente cómo hacía el wudu el Profeta, y relató que el Profeta dijo que a quien haga el wudu de esa manera y luego rece dos rak'at sin distraerse se le perdonarán sus faltas anteriores (Sahih al-Bujari 159 y Sahih Muslim 226)."
+        "p": "El Profeta Muhammad, la paz sea con él, dijo que Allah no acepta la oración de quien ha perdido su wudu hasta que lo vuelva a hacer (Sahih al-Bujari 6954 y Sahih Muslim 225)."
       },
       {
         "h": "Lo que exige el Corán"
-      },
-      {
-        "p": "Allah describe el wudu en el Corán:"
       },
       {
         "quote": "¡Oh, creyentes! Cuando se dispongan a hacer la oración lávense el rostro y los brazos hasta los codos, pasen las manos [húmedas] por la cabeza y [laven] los pies hasta los tobillos.",
         "cite": "Corán 5:6 (traducción de Isa García)"
       },
       {
-        "p": "Así que hay cuatro cosas obligatorias:"
+        "compare": {
+          "first": {
+            "title": "Obligatorio (el Corán)",
+            "items": [
+              "Lavar el rostro.",
+              "Lavar los brazos hasta los codos, incluidos los codos.",
+              "Pasar las manos mojadas por la cabeza.",
+              "Lavar los pies hasta los tobillos, incluidos los tobillos."
+            ]
+          },
+          "second": {
+            "title": "Recomendado (el ejemplo del Profeta)",
+            "items": [
+              "Lavarte primero las manos.",
+              "Enjuagarte la boca y la nariz.",
+              "Lavar cada parte tres veces.",
+              "Empezar por la derecha."
+            ]
+          }
+        }
       },
       {
-        "ol": [
-          "Lavar el rostro.",
-          "Lavar los brazos hasta los codos, incluidos los codos.",
-          "Pasar las manos mojadas por la cabeza.",
-          "Lavar los pies hasta los tobillos, incluidos los tobillos."
-        ]
+        "p": "Asegúrate de que el agua llegue a toda la superficie. El Profeta vio una vez a un hombre que había dejado seca en el pie una zona del tamaño de una uña, y le dijo que volviera a hacer bien su wudu (Sahih Muslim 243)."
       },
       {
-        "p": "Asegúrate de que el agua llegue a toda la superficie de cada una de estas partes. El Profeta vio una vez a un hombre que había dejado seca en el pie una zona del tamaño de una uña, y le dijo que volviera a hacer bien su wudu (Sahih Muslim 243)."
-      },
-      {
-        "p": "La intención está en tu corazón: simplemente sabes que estás haciendo el wudu para rezar. No necesitas decir palabras especiales para ello."
+        "p": "La intención está en tu corazón. No necesitas decir palabras especiales para ello."
       },
       {
         "h": "Cómo hacía el wudu el Profeta"
       },
       {
-        "p": "El wudu del Profeta, tal como lo describieron sus compañeros, añade algunos pasos recomendados (*sunna*) alrededor de esas cuatro obligaciones. Esta es la forma completa, según las descripciones de Uzman y de Ali ibn Abi Talib (que Allah esté complacido con ellos):"
+        "p": "Esta es la forma completa, según las descripciones de Uzman y de Ali ibn Abi Talib (que Allah esté complacido con ellos). Añade pasos recomendados (*sunna*) alrededor de las cuatro obligaciones."
       },
       {
         "steps": {
@@ -267,29 +379,73 @@
         "p": "Lavar cada parte tres veces es la forma más completa. El Profeta también lavó a veces cada parte una sola vez, y a veces dos (Sahih al-Bujari 157 y 158), así que lavarla una vez, bien, es suficiente."
       },
       {
-        "p": "Los cuatro pasos del Corán son obligatorios. Los demás, como lavarse primero las manos, repetir tres veces y empezar por la derecha, vienen del ejemplo del Profeta. Los sabios tienen opiniones distintas sobre algunos de estos detalles, así que lo mejor es no omitirlos. Si la mezquita a la que vas enseña algún detalle pequeño de otra manera, está bien seguir su práctica."
+        "p": "Puedes ver el video del wudu en el paso «Recursos de video para la oración» para ver cada movimiento."
       },
       {
-        "p": "Puedes ver el video del wudu en el paso «Recursos de video para la oración» para ver cada movimiento."
+        "more": {
+          "title": "Una bendición, y seguir a tu mezquita",
+          "blocks": [
+            {
+              "p": "El wudu también es una bendición. Uzman ibn Affan (que Allah esté complacido con él) mostró a la gente cómo hacía el wudu el Profeta, y relató que el Profeta dijo que a quien haga el wudu de esa manera y luego rece dos rak'at sin distraerse se le perdonarán sus faltas anteriores (Sahih al-Bujari 159 y Sahih Muslim 226)."
+            },
+            {
+              "p": "Los cuatro pasos del Corán son obligatorios. Los demás, como lavarse primero las manos, repetir tres veces y empezar por la derecha, vienen del ejemplo del Profeta. Los sabios tienen opiniones distintas sobre algunos de estos detalles, así que lo mejor es no omitirlos. Si la mezquita a la que vas enseña algún detalle pequeño de otra manera, está bien seguir su práctica."
+            }
+          ]
+        }
       },
       {
         "h": "Qué anula el wudu"
       },
       {
-        "p": "Una vez que tienes wudu, se mantiene hasta que algo lo anule, así que puedes rezar más de una oración con él. Anas ibn Malik (que Allah esté complacido con él) dijo que a cada uno de ellos le bastaba un wudu mientras no lo anulara (Sahih al-Bujari 214). Los sabios están de acuerdo en que estas cosas anulan el wudu:"
+        "p": "Una vez que tienes wudu, se mantiene hasta que algo lo anule, así que puedes rezar más de una oración con él."
       },
       {
-        "ul": [
-          "Ir al baño (orinar o defecar). El Corán lo menciona cuando dice «han hecho sus necesidades [biológicas]» (Corán 5:6).",
-          "Expulsar gases. Cuando le preguntaron a Abu Huraira (que Allah esté complacido con él) qué anula el wudu en este hadiz, explicó que es expulsar gases, con sonido o sin él (Sahih al-Bujari 135).",
-          "El sueño profundo, en el que pierdes la conciencia de lo que te rodea. En un hadiz auténtico, el sueño se menciona junto con orinar y defecar (Sunan at-Tirmidhi 96, hasan). Según la mayoría de los sabios, una cabezada ligera estando sentado no anula el wudu: los compañeros del Profeta se adormecían mientras esperaban la oración de la noche y luego rezaban sin renovar su wudu (Sahih Muslim 376)."
-        ]
+        "compare": {
+          "first": {
+            "title": "Anula el wudu (los sabios coinciden)",
+            "items": [
+              "Ir al baño (orinar o defecar).",
+              "Expulsar gases.",
+              "El sueño profundo, en el que pierdes la conciencia de lo que te rodea."
+            ]
+          },
+          "second": {
+            "title": "No anula el wudu",
+            "items": [
+              "Una cabezada ligera estando sentado (según la mayoría de los sabios).",
+              "La duda. Si no estás seguro, todavía tienes wudu."
+            ]
+          }
+        }
       },
       {
-        "p": "Si no estás seguro de si has perdido el wudu, todavía lo tienes. El Profeta dijo que quien dude de si ha expulsado algo no debe salir de la mezquita «hasta que oiga un sonido o perciba un olor» (Sahih Muslim 362). La duda no anula el wudu; solo la certeza lo anula."
+        "p": "La duda no anula el wudu; solo la certeza lo anula."
       },
       {
-        "p": "**Donde los sabios difieren:** algunos tipos de contacto. La mayoría de los sabios sostiene que tocar directamente con la mano las partes íntimas anula el wudu, mientras que la escuela hanafí sostiene que no (Sunan Abi Dawud 181 y 182). La mayoría sostiene que el contacto normal, sin deseo, con tu esposo o tu esposa no anula el wudu, mientras que la escuela shafi'í sostiene que el contacto de piel entre un hombre y una mujer que no son familiares cercanos (*mahram*) sí lo anula. Si esto te afecta, sigue lo que enseña tu mezquita local."
+        "more": {
+          "title": "Las pruebas, y donde los sabios difieren",
+          "blocks": [
+            {
+              "p": "Anas ibn Malik (que Allah esté complacido con él) dijo que a cada uno de ellos le bastaba un wudu mientras no lo anulara (Sahih al-Bujari 214)."
+            },
+            {
+              "p": "El Corán menciona ir al baño cuando dice «han hecho sus necesidades [biológicas]» (Corán 5:6)."
+            },
+            {
+              "p": "Cuando le preguntaron a Abu Huraira (que Allah esté complacido con él) qué anula el wudu en este hadiz, explicó que es expulsar gases, con sonido o sin él (Sahih al-Bujari 135)."
+            },
+            {
+              "p": "En un hadiz auténtico, el sueño se menciona junto con orinar y defecar (Sunan at-Tirmidhi 96, hasan). Según la mayoría de los sabios, una cabezada ligera estando sentado no anula el wudu: los compañeros del Profeta se adormecían mientras esperaban la oración de la noche y luego rezaban sin renovar su wudu (Sahih Muslim 376)."
+            },
+            {
+              "p": "El Profeta dijo que quien dude de si ha expulsado algo no debe salir de la mezquita «hasta que oiga un sonido o perciba un olor» (Sahih Muslim 362)."
+            },
+            {
+              "p": "**Donde los sabios difieren:** algunos tipos de contacto. La mayoría de los sabios sostiene que tocar directamente con la mano las partes íntimas anula el wudu, mientras que la escuela hanafí sostiene que no (Sunan Abi Dawud 181 y 182). La mayoría sostiene que el contacto normal, sin deseo, con tu esposo o tu esposa no anula el wudu, mientras que la escuela shafi'í sostiene que el contacto de piel entre un hombre y una mujer que no son familiares cercanos (*mahram*) sí lo anula. Si esto te afecta, sigue lo que enseña tu mezquita local."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -373,5 +529,35 @@
       "url": "https://hadeethenc.com/en/browse/hadith/8396"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=eo3n_i-rHss",
+      "title": {
+        "en": "How to make wudu, step by step (for men)",
+        "ar": "كيفية الوضوء خطوة بخطوة (للرجال)",
+        "es": "Cómo hacer el wudu paso a paso (para hombres)"
+      },
+      "by": {
+        "en": "Adam Islamic Animation",
+        "ar": "Adam Islamic Animation",
+        "es": "Adam Islamic Animation"
+      },
+      "seconds": 258
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=quVqtpkYwNI",
+      "title": {
+        "en": "How to make wudu, step by step (for women)",
+        "ar": "كيفية الوضوء خطوة بخطوة (للنساء)",
+        "es": "Cómo hacer el wudu paso a paso (para mujeres)"
+      },
+      "by": {
+        "en": "Adam Islamic Animation",
+        "ar": "Adam Islamic Animation",
+        "es": "Adam Islamic Animation"
+      },
+      "seconds": 258
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-tawakkul",
-  "minutes": 8,
+  "minutes": 5,
   "title": {
     "en": "Tawakkul: trusting Allah",
     "ar": "التوكل على الله",
@@ -9,13 +9,31 @@
   "body": {
     "en": [
       {
-        "p": "Every phrase in this step points to one attitude of the heart: trusting Allah. In Arabic this is called *tawakkul*. In this lesson you will learn what tawakkul is, what it is not, and a few words that help you live it."
+        "p": "Every phrase in this step points to one attitude of the heart: trusting Allah. In Arabic this is called *tawakkul*."
       },
       {
         "h": "What tawakkul means"
       },
       {
-        "p": "*Tawakkul* means relying on Allah with your heart: depending on Him to bring you what is good and keep away what is harmful, in this life and in your faith, because nothing gives or withholds, harms or benefits, except by Him. At the same time, you take the practical steps that lead to good."
+        "p": "*Tawakkul* means relying on Allah with your heart, because nothing gives or withholds, harms or benefits, except by Him."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "Tawakkul is",
+            "items": [
+              "Relying on Allah with your heart",
+              "Doing your part fully"
+            ]
+          },
+          "second": {
+            "title": "Tawakkul is not",
+            "items": [
+              "Sitting back and waiting",
+              "Worrying until everything is under your control"
+            ]
+          }
+        }
       },
       {
         "p": "Allah promises:"
@@ -38,26 +56,46 @@
         "cite": "Sunan al-Tirmidhi 2344 (hasan sahih according to al-Tirmidhi)"
       },
       {
-        "p": "Notice what the birds do. They leave the nest every morning. They do not stay home waiting for food to fall from the sky. They go out, and Allah provides. Scholars draw this lesson from the hadith: true reliance on Allah does not contradict going out and working for your provision."
+        "p": "The birds leave the nest every morning, and Allah provides. True reliance on Allah does not contradict working for your provision."
       },
       {
-        "p": "And in another hadith he said:"
+        "flow": {
+          "title": "Do your part, then trust",
+          "steps": [
+            {
+              "label": "Do your part",
+              "text": "Study for the exam. Apply for the job. See the doctor."
+            },
+            {
+              "label": "Trust Allah",
+              "text": "Then leave the result in His hands."
+            }
+          ]
+        }
       },
       {
-        "quote": "Adhere to whatever brings you benefit, seek the help of Allah, and do not feel helpless.",
-        "cite": "Sahih Muslim 2664"
-      },
-      {
-        "p": "So the balance is simple: do your part fully, then leave the result to Allah. Study for the exam, then trust Allah. Apply for the job, then trust Allah. See the doctor, then trust Allah."
-      },
-      {
-        "p": "In that same hadith, the Prophet taught what to say when something happens that you did not want, instead of torturing yourself with \"if only\":"
-      },
-      {
-        "phrase": {
-          "arabic": "قَدَرُ اللهِ وَمَا شَاءَ فَعَلَ",
-          "transliteration": "Qadarullahi wa ma sha'a fa'al",
-          "meaning": "Allah has decreed, and whatever He wills, He does"
+        "more": {
+          "title": "Another hadith",
+          "blocks": [
+            {
+              "p": "And in another hadith he said:"
+            },
+            {
+              "quote": "Adhere to whatever brings you benefit, seek the help of Allah, and do not feel helpless.",
+              "cite": "Sahih Muslim 2664"
+            },
+            {
+              "p": "In that same hadith, the Prophet taught what to say when something happens that you did not want, instead of torturing yourself with \"if only\":"
+            },
+            {
+              "phrase": {
+                "arabic": "قَدَرُ اللهِ وَمَا شَاءَ فَعَلَ",
+                "transliteration": "Qadarullahi wa ma sha'a fa'al",
+                "meaning": "Allah has decreed, and whatever He wills, He does",
+                "audio": "/audio/phrases/res-meaning-tawakkul-1.mp3"
+              }
+            }
+          ]
         }
       },
       {
@@ -67,21 +105,29 @@
         "p": "In the Quran, when believers were warned that a great force had gathered against them, their faith only grew, and they answered with these words:"
       },
       {
-        "quote": "Those to whom hypocrites said, \"Indeed, the people have gathered against you, so fear them.\" But it [merely] increased them in faith, and they said, \"Sufficient for us is Allah, and [He is] the best Disposer of affairs.\"",
-        "cite": "Quran 3:173 (Saheeh International translation)"
-      },
-      {
         "phrase": {
           "arabic": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
           "transliteration": "Hasbunallahu wa ni'mal wakil",
-          "meaning": "Sufficient for us is Allah, and He is the best Disposer of affairs"
+          "meaning": "Sufficient for us is Allah, and He is the best Disposer of affairs",
+          "audio": "/audio/phrases/res-meaning-tawakkul-2.mp3"
         }
       },
       {
-        "p": "The companion Ibn Abbas (may Allah be pleased with him) said that the Prophet Ibrahim (Abraham), peace be upon him, said these words when he was thrown into the fire, and the Prophet Muhammad said them when he was told that people had gathered against him (Sahih al-Bukhari 4563)."
+        "more": {
+          "title": "In the Quran",
+          "blocks": [
+            {
+              "quote": "Those to whom hypocrites said, \"Indeed, the people have gathered against you, so fear them.\" But it [merely] increased them in faith, and they said, \"Sufficient for us is Allah, and [He is] the best Disposer of affairs.\"",
+              "cite": "Quran 3:173 (Saheeh International translation)"
+            },
+            {
+              "p": "The companion Ibn Abbas (may Allah be pleased with him) said that the Prophet Ibrahim (Abraham), peace be upon him, said these words when he was thrown into the fire, and the Prophet Muhammad said them when he was told that people had gathered against him (Sahih al-Bukhari 4563)."
+            }
+          ]
+        }
       },
       {
-        "p": "You can say it whenever you feel overwhelmed: a worrying test result, pressure from people around you, money that does not stretch far enough. It is not a way to stop trying. It is a way to stop carrying everything alone."
+        "p": "Say it whenever you feel overwhelmed. It is not a way to stop trying. It is a way to stop carrying everything alone."
       },
       {
         "h": "A daily habit of trust"
@@ -93,7 +139,8 @@
         "phrase": {
           "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
           "transliteration": "Bismillah, tawakkaltu alallah, la hawla wa la quwwata illa billah",
-          "meaning": "In the name of Allah, I place my trust in Allah, there is no might or power except by Allah"
+          "meaning": "In the name of Allah, I place my trust in Allah, there is no might or power except by Allah",
+          "audio": "/audio/phrases/res-meaning-tawakkul-3.mp3"
         }
       },
       {
@@ -132,13 +179,31 @@
     ],
     "ar": [
       {
-        "p": "كل عبارة في هذه المرحلة تشير إلى حال واحدة من أحوال القلب: الثقة بالله، وهي ما يسمى «التوكل». في هذا الدرس تتعرف على معنى التوكل، وما ليس منه، وكلمات تعينك على أن تعيشه."
+        "p": "كل عبارة في هذه المرحلة تشير إلى حال واحدة من أحوال القلب: الثقة بالله، وهي ما يسمى «التوكل»."
       },
       {
         "h": "معنى التوكل"
       },
       {
-        "p": "التوكل أن تعتمد بقلبك على الله في جلب ما ينفعك ودفع ما يضرك، في أمور الدنيا والدين، لأنه لا يعطي ولا يمنع ولا يضر ولا ينفع إلا هو سبحانه، مع أن تأخذ بالأسباب التي تجلب الخير."
+        "p": "التوكل أن تعتمد بقلبك على الله، لأنه لا يعطي ولا يمنع ولا يضر ولا ينفع إلا هو سبحانه."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "التوكل هو",
+            "items": [
+              "أن تعتمد بقلبك على الله",
+              "أن تعمل ما عليك كاملا"
+            ]
+          },
+          "second": {
+            "title": "التوكل ليس",
+            "items": [
+              "أن تجلس وتنتظر",
+              "أن تقلق حتى يصبح كل شيء تحت سيطرتك"
+            ]
+          }
+        }
       },
       {
         "p": "وقد وعد الله فقال:"
@@ -161,26 +226,46 @@
         "cite": "سنن الترمذي 2344 (قال الترمذي: حسن صحيح)"
       },
       {
-        "p": "تأمل ما تفعله الطيور: تخرج من أعشاشها كل صباح جائعة، ولا تبقى تنتظر أن يسقط عليها الطعام، فتخرج فيرزقها الله. ولذلك قال العلماء: التوكل لا ينافي الأخذ بالأسباب، فالسعي في طلب الرزق لا يضاد التوكل الحقيقي."
+        "p": "تخرج الطيور من أعشاشها كل صباح، فيرزقها الله. فالسعي في طلب الرزق لا يضاد التوكل الحقيقي."
       },
       {
-        "p": "وقال صلى الله عليه وسلم في حديث آخر:"
+        "flow": {
+          "title": "اعمل ثم توكل",
+          "steps": [
+            {
+              "label": "اعمل ما عليك",
+              "text": "ذاكر للامتحان. قدّم على الوظيفة. راجع الطبيب."
+            },
+            {
+              "label": "توكل على الله",
+              "text": "ثم اترك النتيجة لله."
+            }
+          ]
+        }
       },
       {
-        "quote": "احْرِصْ عَلَى مَا يَنْفَعُكَ، وَاسْتَعِنْ بِاللهِ وَلَا تَعْجَزْ",
-        "cite": "صحيح مسلم 2664"
-      },
-      {
-        "p": "فالأمر بسيط: اعمل ما عليك كاملا، ثم اترك النتيجة لله. ذاكر للامتحان ثم توكل على الله، وقدّم على الوظيفة ثم توكل على الله، وراجع الطبيب ثم توكل على الله."
-      },
-      {
-        "p": "وفي الحديث نفسه علّم النبي صلى الله عليه وسلم ما تقوله إذا أصابك ما لا تحب، بدلا من أن تعذّب نفسك بقول «لو»:"
-      },
-      {
-        "phrase": {
-          "arabic": "قَدَرُ اللهِ وَمَا شَاءَ فَعَلَ",
-          "transliteration": "Qadarullahi wa ma sha'a fa'al",
-          "meaning": "أي: هذا ما قدّره الله، وهو سبحانه يفعل ما يشاء"
+        "more": {
+          "title": "حديث آخر",
+          "blocks": [
+            {
+              "p": "وقال صلى الله عليه وسلم في حديث آخر:"
+            },
+            {
+              "quote": "احْرِصْ عَلَى مَا يَنْفَعُكَ، وَاسْتَعِنْ بِاللهِ وَلَا تَعْجَزْ",
+              "cite": "صحيح مسلم 2664"
+            },
+            {
+              "p": "وفي الحديث نفسه علّم النبي صلى الله عليه وسلم ما تقوله إذا أصابك ما لا تحب، بدلا من أن تعذّب نفسك بقول «لو»:"
+            },
+            {
+              "phrase": {
+                "arabic": "قَدَرُ اللهِ وَمَا شَاءَ فَعَلَ",
+                "transliteration": "Qadarullahi wa ma sha'a fa'al",
+                "meaning": "أي: هذا ما قدّره الله، وهو سبحانه يفعل ما يشاء",
+                "audio": "/audio/phrases/res-meaning-tawakkul-1.mp3"
+              }
+            }
+          ]
         }
       },
       {
@@ -190,21 +275,29 @@
         "p": "وفي القرآن أن المؤمنين لما خُوّفوا بأن الناس قد جمعوا لهم، زادهم ذلك إيمانا، وقالوا هذه الكلمات:"
       },
       {
-        "quote": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَٰنًۭا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
-        "cite": "سورة آل عمران، الآية 173"
-      },
-      {
         "phrase": {
           "arabic": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
           "transliteration": "Hasbunallahu wa ni'mal wakil",
-          "meaning": "أي: الله كافينا، ونعم من نفوّض إليه أمورنا"
+          "meaning": "أي: الله كافينا، ونعم من نفوّض إليه أمورنا",
+          "audio": "/audio/phrases/res-meaning-tawakkul-2.mp3"
         }
       },
       {
-        "p": "وقال ابن عباس رضي الله عنهما إن إبراهيم عليه السلام قالها حين أُلقي في النار، وقالها محمد صلى الله عليه وسلم حين قيل له إن الناس قد جمعوا لكم (صحيح البخاري 4563)."
+        "more": {
+          "title": "في القرآن",
+          "blocks": [
+            {
+              "quote": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَٰنًۭا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+              "cite": "سورة آل عمران، الآية 173"
+            },
+            {
+              "p": "وقال ابن عباس رضي الله عنهما إن إبراهيم عليه السلام قالها حين أُلقي في النار، وقالها محمد صلى الله عليه وسلم حين قيل له إن الناس قد جمعوا لكم (صحيح البخاري 4563)."
+            }
+          ]
+        }
       },
       {
-        "p": "قلها كلما شعرت أن الأمر أكبر منك: نتيجة فحص مقلقة، أو ضغط ممن حولك، أو مال لا يكفي. ليست طريقة للتوقف عن السعي، بل طريقة للتوقف عن حمل كل شيء وحدك."
+        "p": "قلها كلما شعرت أن الأمر أكبر منك. ليست طريقة للتوقف عن السعي، بل طريقة للتوقف عن حمل كل شيء وحدك."
       },
       {
         "h": "عادة يومية للتوكل"
@@ -216,7 +309,8 @@
         "phrase": {
           "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
           "transliteration": "Bismillah, tawakkaltu alallah, la hawla wa la quwwata illa billah",
-          "meaning": "أبدأ باسم الله، وأعتمد عليه، ولا تحوّل ولا قدرة إلا به"
+          "meaning": "أبدأ باسم الله، وأعتمد عليه، ولا تحوّل ولا قدرة إلا به",
+          "audio": "/audio/phrases/res-meaning-tawakkul-3.mp3"
         }
       },
       {
@@ -255,13 +349,31 @@
     ],
     "es": [
       {
-        "p": "Cada frase de esta etapa apunta a una misma actitud del corazón: confiar en Allah. En árabe se llama *tawakkul*. En esta lección aprenderás qué es el tawakkul, qué no es, y algunas palabras que te ayudan a vivirlo."
+        "p": "Cada frase de esta etapa apunta a una misma actitud del corazón: confiar en Allah. En árabe se llama *tawakkul*."
       },
       {
         "h": "Qué significa tawakkul"
       },
       {
-        "p": "*Tawakkul* significa apoyarte en Allah con el corazón: depender de Él para que te llegue lo bueno y se aparte lo dañino, en esta vida y en tu fe, porque nada da ni retiene, ni daña ni beneficia, sino por Él. Al mismo tiempo, das los pasos prácticos que llevan al bien."
+        "p": "*Tawakkul* significa apoyarte en Allah con el corazón, porque nada da ni retiene, ni daña ni beneficia, sino por Él."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "El tawakkul es",
+            "items": [
+              "Apoyarte en Allah con el corazón",
+              "Hacer tu parte por completo"
+            ]
+          },
+          "second": {
+            "title": "El tawakkul no es",
+            "items": [
+              "Quedarse sentado esperando",
+              "Preocuparte hasta tener todo bajo control"
+            ]
+          }
+        }
       },
       {
         "p": "Allah promete:"
@@ -284,26 +396,46 @@
         "cite": "Sunan at-Tirmidi 2344 (hasan sahih según at-Tirmidi)"
       },
       {
-        "p": "Fíjate en lo que hacen los pájaros. Salen del nido cada mañana. No se quedan esperando a que la comida caiga del cielo. Salen, y Allah los provee. Los sabios sacan esta lección del hadiz: la verdadera confianza en Allah no está reñida con salir a trabajar por tu sustento."
+        "p": "Los pájaros salen del nido cada mañana, y Allah los provee. La verdadera confianza en Allah no está reñida con salir a trabajar por tu sustento."
       },
       {
-        "p": "Y en otro hadiz dijo:"
+        "flow": {
+          "title": "Haz tu parte, luego confía",
+          "steps": [
+            {
+              "label": "Haz tu parte",
+              "text": "Estudia para el examen. Solicita el trabajo. Ve al médico."
+            },
+            {
+              "label": "Confía en Allah",
+              "text": "Luego deja el resultado en Sus manos."
+            }
+          ]
+        }
       },
       {
-        "quote": "Esfuérzate en lo que te es beneficioso y aprovéchalo, pide la ayuda de Allah y no te rindas.",
-        "cite": "Sahih Muslim 2664"
-      },
-      {
-        "p": "Así que el equilibrio es sencillo: haz tu parte por completo y luego deja el resultado en manos de Allah. Estudia para el examen y confía en Allah. Solicita el trabajo y confía en Allah. Ve al médico y confía en Allah."
-      },
-      {
-        "p": "En ese mismo hadiz, el Profeta enseñó qué decir cuando ocurre algo que no querías, en lugar de torturarte pensando \"si hubiera hecho tal cosa\":"
-      },
-      {
-        "phrase": {
-          "arabic": "قَدَرُ اللهِ وَمَا شَاءَ فَعَلَ",
-          "transliteration": "Qadarullahi wa ma sha'a fa'al",
-          "meaning": "Allah lo ha decretado y Él hace lo que desea"
+        "more": {
+          "title": "Otro hadiz",
+          "blocks": [
+            {
+              "p": "Y en otro hadiz dijo:"
+            },
+            {
+              "quote": "Esfuérzate en lo que te es beneficioso y aprovéchalo, pide la ayuda de Allah y no te rindas.",
+              "cite": "Sahih Muslim 2664"
+            },
+            {
+              "p": "En ese mismo hadiz, el Profeta enseñó qué decir cuando ocurre algo que no querías, en lugar de torturarte pensando \"si hubiera hecho tal cosa\":"
+            },
+            {
+              "phrase": {
+                "arabic": "قَدَرُ اللهِ وَمَا شَاءَ فَعَلَ",
+                "transliteration": "Qadarullahi wa ma sha'a fa'al",
+                "meaning": "Allah lo ha decretado y Él hace lo que desea",
+                "audio": "/audio/phrases/res-meaning-tawakkul-1.mp3"
+              }
+            }
+          ]
         }
       },
       {
@@ -313,21 +445,29 @@
         "p": "En el Corán, cuando a los creyentes les advirtieron que un gran enemigo se había reunido contra ellos, su fe solo creció, y respondieron con estas palabras:"
       },
       {
-        "quote": "A ellos les fue dicho: \"Los enemigos se han agrupado contra ustedes, no podrán con ellos\". Pero esto solo les aumentó la fe y dijeron: \"Dios es suficiente para nosotros, porque Él es el mejor protector\"",
-        "cite": "Corán 3:173 (traducción de Isa García)"
-      },
-      {
         "phrase": {
           "arabic": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
           "transliteration": "Hasbunallahu wa ni'mal wakil",
-          "meaning": "Allah nos basta, y Él es el mejor en quien delegar nuestros asuntos"
+          "meaning": "Allah nos basta, y Él es el mejor en quien delegar nuestros asuntos",
+          "audio": "/audio/phrases/res-meaning-tawakkul-2.mp3"
         }
       },
       {
-        "p": "El compañero Ibn Abbas (que Allah esté complacido con él) dijo que el profeta Ibrahim (Abraham), la paz sea con él, dijo estas palabras cuando lo arrojaron al fuego, y que el Profeta Muhammad las dijo cuando le avisaron que la gente se había reunido contra él (Sahih al-Bujari 4563)."
+        "more": {
+          "title": "En el Corán",
+          "blocks": [
+            {
+              "quote": "A ellos les fue dicho: \"Los enemigos se han agrupado contra ustedes, no podrán con ellos\". Pero esto solo les aumentó la fe y dijeron: \"Dios es suficiente para nosotros, porque Él es el mejor protector\"",
+              "cite": "Corán 3:173 (traducción de Isa García)"
+            },
+            {
+              "p": "El compañero Ibn Abbas (que Allah esté complacido con él) dijo que el profeta Ibrahim (Abraham), la paz sea con él, dijo estas palabras cuando lo arrojaron al fuego, y que el Profeta Muhammad las dijo cuando le avisaron que la gente se había reunido contra él (Sahih al-Bujari 4563)."
+            }
+          ]
+        }
       },
       {
-        "p": "Puedes decirla siempre que te sientas desbordado: un resultado médico que preocupa, la presión de la gente a tu alrededor, un dinero que no alcanza. No es una forma de dejar de intentarlo. Es una forma de dejar de cargar con todo tú solo."
+        "p": "Dila siempre que te sientas desbordado. No es una forma de dejar de intentarlo. Es una forma de dejar de cargar con todo tú solo."
       },
       {
         "h": "Un hábito diario de confianza"
@@ -339,7 +479,8 @@
         "phrase": {
           "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
           "transliteration": "Bismillah, tawakkaltu alallah, la hawla wa la quwwata illa billah",
-          "meaning": "En el nombre de Allah, confío en Allah, no hay fuerza ni poder sino por Allah"
+          "meaning": "En el nombre de Allah, confío en Allah, no hay fuerza ni poder sino por Allah",
+          "audio": "/audio/phrases/res-meaning-tawakkul-3.mp3"
         }
       },
       {

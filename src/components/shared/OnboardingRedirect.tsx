@@ -20,11 +20,14 @@ export function OnboardingRedirect() {
   const router = useRouter();
   const redirectingRef = useRef(false);
 
+  const hasUser = Boolean(session?.user);
+  const role = session?.user?.role;
+  const userType = session?.user?.userType;
+
   useEffect(() => {
     if (status !== "authenticated") return;
-    if (!session?.user) return;
+    if (!hasUser) return;
 
-    const role = session.user.role;
     if (role === "admin" || role === "super_admin") return;
 
     if (EXEMPT_PATHS.includes(pathname)) {
@@ -32,11 +35,11 @@ export function OnboardingRedirect() {
       return;
     }
 
-    if (!session.user.userType && !redirectingRef.current) {
+    if (!userType && !redirectingRef.current) {
       redirectingRef.current = true;
       router.replace("/onboarding");
     }
-  }, [status, session?.user?.userType, session?.user?.role, pathname, router]);
+  }, [status, hasUser, userType, role, pathname, router]);
 
   return null;
 }

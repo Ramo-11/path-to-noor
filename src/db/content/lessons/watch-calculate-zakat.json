@@ -1,0 +1,41 @@
+{
+  "slug": "watch-calculate-zakat",
+  "minutes": 12,
+  "title": {
+    "en": "How to calculate zakat",
+    "ar": "كيف تحسب الزكاة",
+    "es": "Cómo calcular el zakat"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A simple guide to working out how much zakat you owe."
+      }
+    ],
+    "ar": [
+      {
+        "p": "دليل مبسّط لحساب مقدار الزكاة الواجبة عليك."
+      }
+    ],
+    "es": [
+      {
+        "p": "Una guía sencilla para calcular cuánto zakat te corresponde pagar."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=f7vsCThn9ME",
+    "title": {
+      "en": "How to calculate zakat",
+      "ar": "كيف تحسب الزكاة",
+      "es": "Cómo calcular el zakat"
+    },
+    "by": {
+      "en": "Islamic Finance Guru",
+      "ar": "Islamic Finance Guru",
+      "es": "Islamic Finance Guru"
+    },
+    "seconds": 700
+  }
+}

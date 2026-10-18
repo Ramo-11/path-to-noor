@@ -1,6 +1,6 @@
 {
   "slug": "quran-ayat-al-kursi",
-  "minutes": 9,
+  "minutes": 3,
   "title": {
     "en": "Ayat al-Kursi: the greatest verse",
     "ar": "آية الكرسي: أعظم آية في القرآن",
@@ -9,7 +9,7 @@
   "body": {
     "en": [
       {
-        "p": "Some verses of the Quran are recited by Muslims every day. **Ayat al-Kursi**, \"the verse of the Kursi\", is one of them. It is verse 255 of Surah Al-Baqarah, the second surah of the Quran. In a single verse it tells you who Allah is: His life, His knowledge, His power, and His care for everything. In this lesson you will learn it in six small parts, with the meaning of each."
+        "p": "**Ayat al-Kursi**, \"the verse of the Kursi\", is verse 255 of Surah Al-Baqarah. In one verse it tells you who Allah is: His life, His knowledge, His power, and His care for everything."
       },
       {
         "h": "Why this verse is special"
@@ -25,20 +25,38 @@
         "p": "Abu al-Mundhir was Ubayy's nickname. The Prophet was confirming that his answer was right: this is the greatest verse in the Quran."
       },
       {
-        "p": "It is also a protection at night. The companion Abu Hurayrah, may Allah be pleased with him, was once guarding food collected for charity in Ramadan, and a thief came three nights in a row. On the third night the thief offered to teach him words that would benefit him: whoever recites Ayat al-Kursi when going to bed will have a guardian from Allah with him, and no devil will come near him until morning. When Abu Hurayrah told the Prophet, he said:"
+        "p": "It is also a protection at night. The Prophet confirmed that whoever recites Ayat al-Kursi when going to bed will have a guardian from Allah with him, and no devil will come near him until morning."
       },
       {
-        "quote": "He really spoke the truth, although he is an absolute liar.",
-        "cite": "Sahih al-Bukhari 2311"
-      },
-      {
-        "p": "The Prophet then told him that the visitor was a devil. Even so, the words were true, and the Prophet confirmed them."
+        "more": {
+          "title": "Abu Hurayrah and the thief",
+          "blocks": [
+            {
+              "p": "It is also a protection at night. The companion Abu Hurayrah, may Allah be pleased with him, was once guarding food collected for charity in Ramadan, and a thief came three nights in a row. On the third night the thief offered to teach him words that would benefit him: whoever recites Ayat al-Kursi when going to bed will have a guardian from Allah with him, and no devil will come near him until morning. When Abu Hurayrah told the Prophet, he said:"
+            },
+            {
+              "quote": "He really spoke the truth, although he is an absolute liar.",
+              "cite": "Sahih al-Bukhari 2311"
+            },
+            {
+              "p": "The Prophet then told him that the visitor was a devil. Even so, the words were true, and the Prophet confirmed them."
+            }
+          ]
+        }
       },
       {
         "h": "Learn it in six parts"
       },
       {
-        "p": "Listen to each part from a trusted reciter, repeat it a few times, then read what it means."
+        "phrase": {
+          "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+          "transliteration": "Allaahu laa ilaaha illaa huwal-hayyul-qayyoom Laa ta'khudhuhoo sinatun wa laa nawm. Lahoo maa fis-samaawaati wa maa fil-ard Man dhal-ladhee yashfa'u 'indahoo illaa bi-idhnih Ya'lamu maa bayna aydeehim wa maa khalfahum, wa laa yuheetoona bishay'im-min 'ilmihee illaa bimaa shaa' Wasi'a kursiyyuhus-samaawaati wal-ard, wa laa ya'ooduhoo hifzuhumaa Wa huwal-'aliyyul-'azeem",
+          "meaning": "Allah. There is no deity except Him, the Ever-Living, the Sustainer of [all] existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+          "audio": "/audio/quran/002255.mp3"
+        }
+      },
+      {
+        "p": "Play the whole verse, then learn it part by part. Repeat each part a few times, then read what it means."
       },
       {
         "phrase": {
@@ -48,7 +66,20 @@
         }
       },
       {
-        "p": "*Al-Hayy*, the Ever-Living: His life is complete and perfect, as befits His majesty. *Al-Qayyum*, the Sustainer: He takes care of everything that exists, at every moment."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْحَىُّ",
+              "transliteration": "Al-Hayy",
+              "meaning": "The Ever-Living: His life is complete and perfect"
+            },
+            {
+              "arabic": "ٱلْقَيُّومُ",
+              "transliteration": "Al-Qayyum",
+              "meaning": "The Sustainer: He takes care of everything that exists, at every moment"
+            }
+          ]
+        }
       },
       {
         "phrase": {
@@ -98,7 +129,20 @@
         }
       },
       {
-        "p": "He is above all of His creation, and every quality of greatness belongs to Him."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْعَلِىُّ",
+              "transliteration": "Al-'Aliyy",
+              "meaning": "The Most High: above all of His creation"
+            },
+            {
+              "arabic": "ٱلْعَظِيمُ",
+              "transliteration": "Al-'Azeem",
+              "meaning": "The Most Great: every quality of greatness belongs to Him"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -119,8 +163,8 @@
         "steps": {
           "title": "Learning Ayat al-Kursi in five days",
           "steps": [
-            "Day 1: listen to the whole verse several times from a trusted reciter.",
-            "Day 2: learn parts 1 and 2, saying them along with the recording.",
+            "Day 1: listen to the whole verse several times.",
+            "Day 2: learn parts 1 and 2 along with the recording.",
             "Day 3: review parts 1 and 2, then add parts 3 and 4.",
             "Day 4: review, then add parts 5 and 6.",
             "Day 5: recite the whole verse slowly, looking at the text when you need to.",
@@ -137,7 +181,7 @@
     ],
     "ar": [
       {
-        "p": "بعض آيات القرآن يقرؤها المسلمون كل يوم، ومنها **آية الكرسي**، وهي الآية 255 من سورة البقرة، ثاني سور القرآن. في آية واحدة تعرّفك بربك: حياته، وعلمه، وقدرته، وقيامه على كل شيء. ستتعلمها في هذا الدرس في ستة أجزاء صغيرة مع معنى كل جزء."
+        "p": "**آية الكرسي** هي الآية 255 من سورة البقرة. في آية واحدة تعرّفك بربك: حياته، وعلمه، وقدرته، وقيامه على كل شيء."
       },
       {
         "h": "لماذا هذه الآية عظيمة؟"
@@ -153,20 +197,38 @@
         "p": "وأبو المنذر كنية أُبيّ، وفي الحديث تأكيد النبي صلى الله عليه وسلم لجوابه: فآية الكرسي أعظم آية في القرآن."
       },
       {
-        "p": "وهي كذلك حفظ في الليل. فقد وكّل النبي صلى الله عليه وسلم أبا هريرة رضي الله عنه بحفظ زكاة رمضان، فجاءه سارق ثلاث ليالٍ متتالية، وفي الليلة الثالثة عرض عليه أن يعلّمه كلمات ينفعه الله بها: إذا أويت إلى فراشك فاقرأ آية الكرسي، \"فَإِنَّكَ لَنْ يَزَالَ عَلَيْكَ مِنَ اللَّهِ حَافِظٌ وَلاَ يَقْرَبَنَّكَ شَيْطَانٌ حَتَّى تُصْبِحَ\". فلما أخبر أبو هريرة النبيَّ صلى الله عليه وسلم قال:"
+        "p": "وهي كذلك حفظ في الليل. فقد أقرّ النبي صلى الله عليه وسلم أن من قرأها إذا أوى إلى فراشه: \"فَإِنَّكَ لَنْ يَزَالَ عَلَيْكَ مِنَ اللَّهِ حَافِظٌ وَلاَ يَقْرَبَنَّكَ شَيْطَانٌ حَتَّى تُصْبِحَ\"."
       },
       {
-        "quote": "أَمَا إِنَّهُ قَدْ صَدَقَكَ وَهُوَ كَذُوبٌ",
-        "cite": "صحيح البخاري 2311"
-      },
-      {
-        "p": "ثم أخبره النبي صلى الله عليه وسلم أن الذي كان يكلّمه شيطان. ومع ذلك كانت الكلمات صادقة، وأقرّها النبي صلى الله عليه وسلم."
+        "more": {
+          "title": "أبو هريرة والسارق",
+          "blocks": [
+            {
+              "p": "وهي كذلك حفظ في الليل. فقد وكّل النبي صلى الله عليه وسلم أبا هريرة رضي الله عنه بحفظ زكاة رمضان، فجاءه سارق ثلاث ليالٍ متتالية، وفي الليلة الثالثة عرض عليه أن يعلّمه كلمات ينفعه الله بها: إذا أويت إلى فراشك فاقرأ آية الكرسي، \"فَإِنَّكَ لَنْ يَزَالَ عَلَيْكَ مِنَ اللَّهِ حَافِظٌ وَلاَ يَقْرَبَنَّكَ شَيْطَانٌ حَتَّى تُصْبِحَ\". فلما أخبر أبو هريرة النبيَّ صلى الله عليه وسلم قال:"
+            },
+            {
+              "quote": "أَمَا إِنَّهُ قَدْ صَدَقَكَ وَهُوَ كَذُوبٌ",
+              "cite": "صحيح البخاري 2311"
+            },
+            {
+              "p": "ثم أخبره النبي صلى الله عليه وسلم أن الذي كان يكلّمه شيطان. ومع ذلك كانت الكلمات صادقة، وأقرّها النبي صلى الله عليه وسلم."
+            }
+          ]
+        }
       },
       {
         "h": "تعلّمها في ستة أجزاء"
       },
       {
-        "p": "استمع إلى كل جزء من قارئ متقن، وردّده عدة مرات، ثم اقرأ معناه."
+        "phrase": {
+          "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+          "transliteration": "Allaahu laa ilaaha illaa huwal-hayyul-qayyoom Laa ta'khudhuhoo sinatun wa laa nawm. Lahoo maa fis-samaawaati wa maa fil-ard Man dhal-ladhee yashfa'u 'indahoo illaa bi-idhnih Ya'lamu maa bayna aydeehim wa maa khalfahum, wa laa yuheetoona bishay'im-min 'ilmihee illaa bimaa shaa' Wasi'a kursiyyuhus-samaawaati wal-ard, wa laa ya'ooduhoo hifzuhumaa Wa huwal-'aliyyul-'azeem",
+          "meaning": "الله وحده المستحق للعبادة، الحيّ الذي له الحياة الكاملة كما يليق بجلاله، القائم على كل شيء. لا يأخذه نعاس ولا نوم، وكل ما في السماوات وما في الأرض ملك له. لا يجرؤ أحد أن يشفع عنده إلا بإذنه. علمه محيط بما مضى وما سيأتي، ولا يطّلع أحد من خلقه على شيء من علمه إلا بما أعلمه الله. وسع كرسيه السماوات والأرض، ولا يُثقله حفظهما. وهو العليّ فوق جميع خلقه، العظيم الذي له صفات العظمة كلها.",
+          "audio": "/audio/quran/002255.mp3"
+        }
+      },
+      {
+        "p": "استمع إلى الآية كاملة، ثم احفظها جزءًا جزءًا. ردّد كل جزء عدة مرات، ثم اقرأ معناه."
       },
       {
         "phrase": {
@@ -176,7 +238,20 @@
         }
       },
       {
-        "p": "**الحيّ**: له الحياة الكاملة التامة كما يليق بجلاله. **القيّوم**: القائم على كل شيء، المدبّر لأمر خلقه في كل لحظة."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْحَىُّ",
+              "transliteration": "Al-Hayy",
+              "meaning": "له الحياة الكاملة التامة كما يليق بجلاله"
+            },
+            {
+              "arabic": "ٱلْقَيُّومُ",
+              "transliteration": "Al-Qayyum",
+              "meaning": "القائم على كل شيء، المدبّر لأمر خلقه في كل لحظة"
+            }
+          ]
+        }
       },
       {
         "phrase": {
@@ -226,7 +301,20 @@
         }
       },
       {
-        "p": "هو العليّ بذاته وصفاته فوق جميع مخلوقاته، الجامع لجميع صفات العظمة والكبرياء."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْعَلِىُّ",
+              "transliteration": "Al-'Aliyy",
+              "meaning": "فوق جميع مخلوقاته"
+            },
+            {
+              "arabic": "ٱلْعَظِيمُ",
+              "transliteration": "Al-'Azeem",
+              "meaning": "له صفات العظمة والكبرياء كلها"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -265,7 +353,7 @@
     ],
     "es": [
       {
-        "p": "Algunas aleyas (versículos) del Corán las recitan los musulmanes cada día. **Ayat al-Kursi**, «la aleya del Kursi», es una de ellas. Es la aleya 255 de la sura Al-Baqara, la segunda sura del Corán. En una sola aleya te dice quién es Allah: Su vida, Su conocimiento, Su poder y Su cuidado de todo. En esta lección la aprenderás en seis partes pequeñas, con el significado de cada una."
+        "p": "**Ayat al-Kursi**, «la aleya del Kursi», es la aleya 255 de la sura Al-Baqara. En una sola aleya te dice quién es Allah: Su vida, Su conocimiento, Su poder y Su cuidado de todo."
       },
       {
         "h": "Por qué esta aleya es especial"
@@ -281,20 +369,38 @@
         "p": "Abu al-Mundhir era el sobrenombre de Ubay. El Profeta confirmaba que su respuesta era correcta: esta es la aleya más grandiosa del Corán."
       },
       {
-        "p": "También es una protección durante la noche. El compañero Abu Hurayra, que Allah esté complacido con él, vigilaba una vez los alimentos reunidos como caridad en Ramadán, y un ladrón vino tres noches seguidas. La tercera noche, el ladrón se ofreció a enseñarle unas palabras que le beneficiarían: quien recita Ayat al-Kursi al acostarse tendrá un guardián de parte de Allah, y ningún demonio se le acercará hasta la mañana. Cuando Abu Hurayra se lo contó al Profeta, él dijo:"
+        "p": "También es una protección durante la noche. El Profeta confirmó que quien recita Ayat al-Kursi al acostarse tendrá un guardián de parte de Allah, y ningún demonio se le acercará hasta la mañana."
       },
       {
-        "quote": "En verdad te dijo la verdad, aunque es un gran mentiroso.",
-        "cite": "Sahih al-Bujari 2311"
-      },
-      {
-        "p": "Luego el Profeta le dijo que el visitante era un demonio. Aun así, las palabras eran verdaderas, y el Profeta las confirmó."
+        "more": {
+          "title": "Abu Hurayra y el ladrón",
+          "blocks": [
+            {
+              "p": "También es una protección durante la noche. El compañero Abu Hurayra, que Allah esté complacido con él, vigilaba una vez los alimentos reunidos como caridad en Ramadán, y un ladrón vino tres noches seguidas. La tercera noche, el ladrón se ofreció a enseñarle unas palabras que le beneficiarían: quien recita Ayat al-Kursi al acostarse tendrá un guardián de parte de Allah, y ningún demonio se le acercará hasta la mañana. Cuando Abu Hurayra se lo contó al Profeta, él dijo:"
+            },
+            {
+              "quote": "En verdad te dijo la verdad, aunque es un gran mentiroso.",
+              "cite": "Sahih al-Bujari 2311"
+            },
+            {
+              "p": "Luego el Profeta le dijo que el visitante era un demonio. Aun así, las palabras eran verdaderas, y el Profeta las confirmó."
+            }
+          ]
+        }
       },
       {
         "h": "Apréndela en seis partes"
       },
       {
-        "p": "Escucha cada parte de un recitador confiable, repítela varias veces y después lee lo que significa."
+        "phrase": {
+          "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+          "transliteration": "Allaahu laa ilaaha illaa huwal-hayyul-qayyoom Laa ta'khudhuhoo sinatun wa laa nawm. Lahoo maa fis-samaawaati wa maa fil-ard Man dhal-ladhee yashfa'u 'indahoo illaa bi-idhnih Ya'lamu maa bayna aydeehim wa maa khalfahum, wa laa yuheetoona bishay'im-min 'ilmihee illaa bimaa shaa' Wasi'a kursiyyuhus-samaawaati wal-ard, wa laa ya'ooduhoo hifzuhumaa Wa huwal-'aliyyul-'azeem",
+          "meaning": "¡Dios! No existe nada ni nadie con derecho a ser adorado excepto Él, el Viviente [Eterno], el Sustentador [y Gobernador de toda la creación]. No Lo afectan somnolencia ni sueño. Suyo es cuanto hay en los cielos y la Tierra. ¿Quién podrá interceder ante Él si no es con Su permiso? Conoce el pasado y el futuro [lo manifiesto y lo oculto] y nadie abarca de Su conocimiento salvo lo que Él quiere. El escabel de Su Trono abarca los cielos y la Tierra, y la custodia [y mantenimiento] de ambos no Lo agobia. Y Él es el Sublime, el Grandioso.",
+          "audio": "/audio/quran/002255.mp3"
+        }
+      },
+      {
+        "p": "Escucha la aleya completa y luego apréndela parte por parte. Repite cada parte varias veces y después lee lo que significa."
       },
       {
         "phrase": {
@@ -304,7 +410,20 @@
         }
       },
       {
-        "p": "*Al-Hayy*, el Viviente: Su vida es completa y perfecta, como corresponde a Su majestad. *Al-Qayyum*, el Sustentador: Él cuida de todo lo que existe, en cada momento. (La traducción de Isa García usa la palabra «Dios» para Allah.)"
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْحَىُّ",
+              "transliteration": "Al-Hayy",
+              "meaning": "El Viviente: Su vida es completa y perfecta"
+            },
+            {
+              "arabic": "ٱلْقَيُّومُ",
+              "transliteration": "Al-Qayyum",
+              "meaning": "El Sustentador: cuida de todo lo que existe, en cada momento"
+            }
+          ]
+        }
       },
       {
         "phrase": {
@@ -354,7 +473,20 @@
         }
       },
       {
-        "p": "Él está por encima de toda Su creación, y toda cualidad de grandeza Le pertenece."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْعَلِىُّ",
+              "transliteration": "Al-'Aliyy",
+              "meaning": "El Sublime: por encima de toda Su creación"
+            },
+            {
+              "arabic": "ٱلْعَظِيمُ",
+              "transliteration": "Al-'Azim",
+              "meaning": "El Grandioso: toda cualidad de grandeza Le pertenece"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -389,6 +521,16 @@
       },
       {
         "p": "En la próxima lección aprenderás las dos últimas aleyas de la misma sura, que el Profeta también recomendó recitar cada noche."
+      },
+      {
+        "more": {
+          "title": "Sobre la traducción",
+          "blocks": [
+            {
+              "p": "La traducción de Isa García usa la palabra «Dios» para Allah."
+            }
+          ]
+        }
       }
     ]
   },

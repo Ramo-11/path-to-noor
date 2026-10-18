@@ -1,0 +1,41 @@
+{
+  "slug": "watch-modesty-hijab",
+  "minutes": 3,
+  "title": {
+    "en": "Modesty and the purpose of hijab",
+    "ar": "الحياء والحكمة من الحجاب",
+    "es": "El pudor y el propósito del hiyab"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Omar Suleiman on what hijab is and the purpose behind it."
+      }
+    ],
+    "ar": [
+      {
+        "p": "د. عمر سليمان عن الحجاب والحكمة منه."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Omar Suleiman sobre qué es el hiyab y cuál es su propósito."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=A3cxqvgWADY",
+    "title": {
+      "en": "Modesty and the purpose of hijab",
+      "ar": "الحياء والحكمة من الحجاب",
+      "es": "El pudor y el propósito del hiyab"
+    },
+    "by": {
+      "en": "Dr. Omar Suleiman",
+      "ar": "د. عمر سليمان",
+      "es": "Dr. Omar Suleiman"
+    },
+    "seconds": 178
+  }
+}

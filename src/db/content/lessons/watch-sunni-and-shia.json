@@ -1,0 +1,41 @@
+{
+  "slug": "watch-sunni-and-shia",
+  "minutes": 46,
+  "title": {
+    "en": "Sunni and Shia: understanding the difference",
+    "ar": "السنة والشيعة: فهم الفرق",
+    "es": "Suníes y chiíes: entender la diferencia"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "In a question and answer session for young people, Dr. Yasir Qadhi explains how Sunni and Shia Muslims differ."
+      }
+    ],
+    "ar": [
+      {
+        "p": "في جلسة أسئلة وأجوبة للشباب، يشرح د. ياسر قاضي الفرق بين السنة والشيعة."
+      }
+    ],
+    "es": [
+      {
+        "p": "En una sesión de preguntas y respuestas para jóvenes, el Dr. Yasir Qadhi explica en qué se diferencian suníes y chiíes."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=Wq6tTR1tbqc",
+    "title": {
+      "en": "Sunni and Shia: understanding the difference",
+      "ar": "السنة والشيعة: فهم الفرق",
+      "es": "Suníes y chiíes: entender la diferencia"
+    },
+    "by": {
+      "en": "Dr. Yasir Qadhi, EPIC Masjid",
+      "ar": "د. ياسر قاضي، مسجد EPIC",
+      "es": "Dr. Yasir Qadhi, EPIC Masjid"
+    },
+    "seconds": 2756
+  }
+}

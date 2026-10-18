@@ -22,7 +22,7 @@ export function StageGrid({ label }: { label: string }) {
                 <div className="m-2 size-24 shrink-0 overflow-hidden rounded-[calc(var(--radius-cell)-0.375rem)] sm:m-0 sm:aspect-[16/10] sm:size-auto sm:rounded-none">
                   <Illustration
                     name={STAGE_ART[stage]}
-                    sizes="(min-width: 640px) 33vw, 100vw"
+                    sizes="(min-width: 1152px) 360px, (min-width: 640px) 33vw, 96px"
                     className="transition-transform duration-500 ease-[var(--ease-fill)] group-hover:scale-[1.03]"
                   />
                 </div>

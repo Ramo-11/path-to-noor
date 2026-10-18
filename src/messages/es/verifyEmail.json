@@ -1,0 +1,22 @@
+{
+  "bannerMessage": "Confirma tu correo. Te enviamos un enlace.",
+  "bannerSent": "Enlace enviado. Revisa tu correo.",
+  "bannerError": "No pudimos enviar el enlace. Inténtalo más tarde.",
+  "resend": "Enviar el enlace de nuevo",
+  "sending": "Enviando",
+  "verifying": "Confirmando tu correo",
+  "verifyingDescription": "Un momento.",
+  "successTitle": "Correo confirmado",
+  "successDescription": "Gracias. Tu correo ya está confirmado.",
+  "continue": "Continuar",
+  "expiredTitle": "Este enlace ha vencido",
+  "expiredDescription": "Pide un enlace nuevo y te lo enviamos de inmediato.",
+  "invalidTitle": "Este enlace no es válido",
+  "invalidDescription": "Puede que el enlace esté incompleto o ya se haya reemplazado. Pide uno nuevo.",
+  "errorTitle": "No pudimos confirmar tu correo",
+  "errorDescription": "Algo salió mal. Inténtalo de nuevo en unos minutos.",
+  "resent": "Un enlace nuevo va en camino. Revisa tu correo.",
+  "resendError": "No pudimos enviar el enlace. Inténtalo más tarde.",
+  "signInToResend": "Inicia sesión primero y luego pide un enlace nuevo.",
+  "goToSignIn": "Ir a iniciar sesión"
+}

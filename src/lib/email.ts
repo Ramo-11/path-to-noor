@@ -6,61 +6,208 @@ function getResend(): Resend | null {
   return new Resend(apiKey);
 }
 
-export async function sendPasswordResetEmail(
-  to: string,
+type Locale = "en" | "ar" | "es";
+
+function asLocale(value: string | undefined): Locale {
+  return value === "ar" || value === "es" ? value : "en";
+}
+
+interface Copy {
+  hello: (name: string) => string;
+  resetSubject: string;
+  resetTitle: string;
+  resetBody: string;
+  resetButton: string;
+  resetIgnore: string;
+  verifySubject: string;
+  verifyTitle: string;
+  verifyBody: string;
+  verifyButton: string;
+  verifyIgnore: string;
+  existsSubject: string;
+  existsTitle: string;
+  existsBody: string;
+  existsButton: string;
+  existsIgnore: string;
+  footer: string;
+}
+
+const COPY: Record<Locale, Copy> = {
+  en: {
+    hello: (name) => `Hello ${name},`,
+    resetSubject: "Reset your password | Basmet Dawah",
+    resetTitle: "Reset your password",
+    resetBody:
+      "We received a request to reset your password. Choose a new one with the button below. This link expires in 1 hour.",
+    resetButton: "Reset password",
+    resetIgnore: "If you did not ask for this, you can ignore this email. Your password stays the same.",
+    verifySubject: "Confirm your email | Basmet Dawah",
+    verifyTitle: "Confirm your email",
+    verifyBody:
+      "Welcome to Basmet Dawah. Please confirm your email address with the button below. This link expires in 24 hours.",
+    verifyButton: "Confirm email",
+    verifyIgnore: "If you did not create an account, you can ignore this email.",
+    existsSubject: "You already have an account | Basmet Dawah",
+    existsTitle: "You already have an account",
+    existsBody:
+      "Someone tried to create a Basmet Dawah account with this email address. If it was you, just sign in. If you forgot your password, you can reset it from the sign in page.",
+    existsButton: "Go to sign in",
+    existsIgnore: "If it was not you, you can ignore this email. Nothing has changed on your account.",
+    footer: "Basmet Dawah | A guided learning platform for new Muslims",
+  },
+  ar: {
+    hello: (name) => `مرحبًا ${name}،`,
+    resetSubject: "إعادة تعيين كلمة المرور | بسمة دعوة",
+    resetTitle: "إعادة تعيين كلمة المرور",
+    resetBody:
+      "وصلنا طلب لإعادة تعيين كلمة المرور. اختر كلمة مرور جديدة من الزر أدناه. ينتهي الرابط بعد ساعة واحدة.",
+    resetButton: "إعادة تعيين كلمة المرور",
+    resetIgnore: "إن لم تطلب ذلك فتجاهل هذه الرسالة. ستبقى كلمة المرور كما هي.",
+    verifySubject: "أكّد بريدك الإلكتروني | بسمة دعوة",
+    verifyTitle: "أكّد بريدك الإلكتروني",
+    verifyBody:
+      "أهلًا بك في بسمة دعوة. أكّد عنوان بريدك الإلكتروني من الزر أدناه. ينتهي الرابط بعد 24 ساعة.",
+    verifyButton: "تأكيد البريد",
+    verifyIgnore: "إن لم تنشئ حسابًا فتجاهل هذه الرسالة.",
+    existsSubject: "لديك حساب بالفعل | بسمة دعوة",
+    existsTitle: "لديك حساب بالفعل",
+    existsBody:
+      "حاول أحدهم إنشاء حساب في بسمة دعوة بهذا البريد. إن كنت أنت فسجّل الدخول فقط. وإن نسيت كلمة المرور فيمكنك إعادة تعيينها من صفحة تسجيل الدخول.",
+    existsButton: "الذهاب إلى تسجيل الدخول",
+    existsIgnore: "إن لم تكن أنت فتجاهل هذه الرسالة. لم يتغير شيء في حسابك.",
+    footer: "بسمة دعوة | منصة تعلّم موجَّهة للمسلمين الجدد",
+  },
+  es: {
+    hello: (name) => `Hola ${name},`,
+    resetSubject: "Restablece tu contraseña | Basmet Dawah",
+    resetTitle: "Restablece tu contraseña",
+    resetBody:
+      "Recibimos una solicitud para restablecer tu contraseña. Elige una nueva con el botón de abajo. El enlace vence en 1 hora.",
+    resetButton: "Restablecer contraseña",
+    resetIgnore: "Si no lo pediste, puedes ignorar este correo. Tu contraseña no cambiará.",
+    verifySubject: "Confirma tu correo | Basmet Dawah",
+    verifyTitle: "Confirma tu correo",
+    verifyBody:
+      "Te damos la bienvenida a Basmet Dawah. Confirma tu correo con el botón de abajo. El enlace vence en 24 horas.",
+    verifyButton: "Confirmar correo",
+    verifyIgnore: "Si no creaste una cuenta, puedes ignorar este correo.",
+    existsSubject: "Ya tienes una cuenta | Basmet Dawah",
+    existsTitle: "Ya tienes una cuenta",
+    existsBody:
+      "Alguien intentó crear una cuenta de Basmet Dawah con este correo. Si fuiste tú, solo inicia sesión. Si olvidaste tu contraseña, puedes restablecerla desde la página de inicio de sesión.",
+    existsButton: "Ir a iniciar sesión",
+    existsIgnore: "Si no fuiste tú, ignora este correo. Tu cuenta no ha cambiado.",
+    footer: "Basmet Dawah | Una plataforma guiada para nuevos musulmanes",
+  },
+};
+
+function fromAddress(): string {
+  return process.env.RESEND_FROM || "Basmet Dawah <noreply@basmetdawah.com>";
+}
+
+function actionEmail(
+  locale: Locale,
+  copy: { title: string; body: string; button: string; ignore: string },
   name: string,
-  resetUrl: string
-): Promise<void> {
-  const resend = getResend();
-  const from = process.env.RESEND_FROM || "Basmet Dawah <noreply@basmetdawah.com>";
-
-  if (!resend) {
-    console.warn(
-      "[Email] Resend not configured (RESEND_API_KEY missing). Reset URL for",
-      to,
-      ":",
-      resetUrl
-    );
-    return;
-  }
-
-  const html = `
-    <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 560px; margin: 0 auto; padding: 40px 20px;">
+  url: string
+): string {
+  const c = COPY[locale];
+  const dir = locale === "ar" ? "rtl" : "ltr";
+  return `
+    <div dir="${dir}" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 560px; margin: 0 auto; padding: 40px 20px;">
       <div style="text-align: center; margin-bottom: 32px;">
         <h1 style="color: #1E3A5F; font-size: 24px; margin: 0;">Basmet Dawah</h1>
       </div>
       <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px;">
-        <h2 style="color: #1e293b; font-size: 20px; margin: 0 0 16px;">Reset Your Password</h2>
+        <h2 style="color: #1e293b; font-size: 20px; margin: 0 0 16px;">${escapeHtml(copy.title)}</h2>
         <p style="color: #475569; font-size: 15px; line-height: 1.6; margin: 0 0 24px;">
-          Hello ${name},<br><br>
-          We received a request to reset your password. Click the button below to choose a new one. This link expires in 1 hour.
+          ${escapeHtml(c.hello(name))}<br><br>
+          ${escapeHtml(copy.body)}
         </p>
         <div style="text-align: center; margin: 32px 0;">
-          <a href="${resetUrl}" style="display: inline-block; background: #1E3A5F; color: #ffffff; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 15px;">
-            Reset Password
+          <a href="${escapeHtml(url)}" style="display: inline-block; background: #1E3A5F; color: #ffffff; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 15px;">
+            ${escapeHtml(copy.button)}
           </a>
         </div>
         <p style="color: #94a3b8; font-size: 13px; line-height: 1.5; margin: 0;">
-          If you didn't request this, you can safely ignore this email. Your password won't be changed.
+          ${escapeHtml(copy.ignore)}
         </p>
       </div>
       <p style="color: #94a3b8; font-size: 12px; text-align: center; margin-top: 24px;">
-        Basmet Dawah &mdash; A guided learning platform for new Muslims
+        ${escapeHtml(c.footer)}
       </p>
     </div>
   `;
+}
 
-  const { error } = await resend.emails.send({
-    from,
-    to,
-    subject: "Reset Your Password — Basmet Dawah",
-    html,
-  });
-
+async function deliver(
+  label: string,
+  to: string,
+  subject: string,
+  html: string,
+  link: string
+): Promise<void> {
+  const resend = getResend();
+  if (!resend) {
+    console.warn(`[Email] Resend not configured (RESEND_API_KEY missing). ${label} for`, to, ":", link);
+    return;
+  }
+  const { error } = await resend.emails.send({ from: fromAddress(), to, subject, html });
   if (error) {
-    console.error("[Email] Failed to send reset email:", error);
+    console.error(`[Email] Failed to send ${label}:`, error);
     throw new Error("Failed to send email");
   }
+}
+
+export async function sendPasswordResetEmail(
+  to: string,
+  name: string,
+  resetUrl: string,
+  locale?: string
+): Promise<void> {
+  const l = asLocale(locale);
+  const c = COPY[l];
+  const html = actionEmail(
+    l,
+    { title: c.resetTitle, body: c.resetBody, button: c.resetButton, ignore: c.resetIgnore },
+    name,
+    resetUrl
+  );
+  await deliver("reset email", to, c.resetSubject, html, resetUrl);
+}
+
+export async function sendVerificationEmail(
+  to: string,
+  name: string,
+  verifyUrl: string,
+  locale?: string
+): Promise<void> {
+  const l = asLocale(locale);
+  const c = COPY[l];
+  const html = actionEmail(
+    l,
+    { title: c.verifyTitle, body: c.verifyBody, button: c.verifyButton, ignore: c.verifyIgnore },
+    name,
+    verifyUrl
+  );
+  await deliver("verification email", to, c.verifySubject, html, verifyUrl);
+}
+
+export async function sendAccountExistsEmail(
+  to: string,
+  name: string,
+  signInUrl: string,
+  locale?: string
+): Promise<void> {
+  const l = asLocale(locale);
+  const c = COPY[l];
+  const html = actionEmail(
+    l,
+    { title: c.existsTitle, body: c.existsBody, button: c.existsButton, ignore: c.existsIgnore },
+    name,
+    signInUrl
+  );
+  await deliver("account exists notice", to, c.existsSubject, html, signInUrl);
 }
 
 interface ContactFormData {
@@ -112,7 +259,7 @@ export async function sendContactFormEmail(data: ContactFormData): Promise<void>
         </div>
       </div>
       <p style="color: #94a3b8; font-size: 12px; text-align: center; margin-top: 24px;">
-        Basmet Dawah &mdash; Contact Form Submission
+        Basmet Dawah | Contact Form Submission
       </p>
     </div>
   `;
@@ -163,7 +310,7 @@ export async function sendMentorAssignmentEmail(
         </div>
       </div>
       <p style="color: #94a3b8; font-size: 12px; text-align: center; margin-top: 24px;">
-        Basmet Dawah &mdash; A guided learning platform for new Muslims
+        Basmet Dawah | A guided learning platform for new Muslims
       </p>
     </div>
   `;
@@ -171,7 +318,7 @@ export async function sendMentorAssignmentEmail(
   const { error } = await resend.emails.send({
     from,
     to: mentorEmail,
-    subject: "New Mentee Assigned — Basmet Dawah",
+    subject: "New Mentee Assigned | Basmet Dawah",
     html,
   });
 
@@ -212,7 +359,7 @@ export async function sendMenteeNotificationEmail(
         </div>
       </div>
       <p style="color: #94a3b8; font-size: 12px; text-align: center; margin-top: 24px;">
-        Basmet Dawah &mdash; A guided learning platform for new Muslims
+        Basmet Dawah | A guided learning platform for new Muslims
       </p>
     </div>
   `;
@@ -220,7 +367,7 @@ export async function sendMenteeNotificationEmail(
   const { error } = await resend.emails.send({
     from,
     to: menteeEmail,
-    subject: "Your Mentor Has Been Assigned! — Basmet Dawah",
+    subject: "Your Mentor Has Been Assigned! | Basmet Dawah",
     html,
   });
 

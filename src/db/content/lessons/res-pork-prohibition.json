@@ -1,6 +1,6 @@
 {
   "slug": "res-pork-prohibition",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Pork and the basics of halal food",
     "ar": "تحريم لحم الخنزير وأساسيات الطعام الحلال",
@@ -9,73 +9,136 @@
   "body": {
     "en": [
       {
-        "p": "Food is part of daily life, family, and culture, so changes at the table can feel big. The good news is that Islam permits far more food than it prohibits. This lesson covers the clear prohibition of pork, the basics of halal food, and how to eat with non-Muslim family in a kind way."
+        "p": "Islam permits far more food than it prohibits."
       },
       {
-        "h": "What the Quran says"
-      },
-      {
-        "p": "Before naming what is prohibited, Allah invites the believers to enjoy what is good:"
-      },
-      {
-        "quote": "O you who have believed, eat from the good things which We have provided for you and be grateful to Allah if it is [indeed] Him that you worship.",
-        "cite": "Quran 2:172 (translation of the meaning)"
-      },
-      {
-        "p": "Then, in the very next verse, He names what is prohibited:"
+        "h": "The clear prohibition"
       },
       {
         "quote": "He has only forbidden to you dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allah. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], there is no sin upon him. Indeed, Allah is Forgiving and Merciful.",
         "cite": "Quran 2:173 (translation of the meaning)"
       },
       {
-        "p": "The prohibition of pork also appears in other places in the Quran, including Surah Al-Ma'idah (5:3) and Surah Al-An'am (6:145). It is one of the clearest food rules in Islam, and Muslims agree on it."
+        "p": "Pork also appears in 5:3 and 6:145. It is one of the clearest food rules, and Muslims agree on it."
       },
       {
-        "h": "Why Muslims avoid pork"
+        "p": "You do not need health explanations. Allah prohibited it, and a believer trusts that Allah knows best. Leaving pork is an act of worship, obedience, and trust."
       },
       {
-        "p": "You may hear many explanations about health. A Muslim does not need any of them. The reason is simple: Allah prohibited it, and a believer trusts that Allah knows best. Look at how verse 2:172 ends: be grateful to Allah \"if it is [indeed] Him that you worship.\" Leaving pork is an act of worship, obedience, and trust."
+        "more": {
+          "title": "A reminder to be grateful",
+          "blocks": [
+            {
+              "p": "Before naming what is prohibited, Allah invites the believers to enjoy what is good:"
+            },
+            {
+              "quote": "O you who have believed, eat from the good things which We have provided for you and be grateful to Allah if it is [indeed] Him that you worship.",
+              "cite": "Quran 2:172 (translation of the meaning)"
+            },
+            {
+              "p": "Look at how verse 2:172 ends: be grateful to Allah \"if it is [indeed] Him that you worship.\""
+            }
+          ]
+        }
       },
       {
         "h": "The basics of halal food"
       },
       {
-        "p": "Most food is halal. The Quran tells people to eat from what is on earth that is \"lawful and good\" (2:168), and it names a short list of what is prohibited. Here are basics that Muslims agree on:"
+        "p": "Most food is halal. The Quran says to eat what is \"lawful and good\" (2:168). Muslims agree on these basics:"
       },
       {
-        "ul": [
-          "**Prohibited:** pork and anything made from it, such as ham, bacon, and lard. Many sausages and pepperonis contain pork, so check the label.",
-          "**Prohibited:** blood, and the meat of an animal that died without being slaughtered.",
-          "**Prohibited:** meat dedicated to anything other than Allah.",
-          "**Prohibited:** alcohol and anything that intoxicates, as you learned in the last lesson.",
-          "**Halal:** fruits, vegetables, grains, beans, bread, rice, and fish.",
-          "**Meat such as beef, lamb, and chicken** is halal when the animal is slaughtered in the Islamic way. Many Muslims buy meat with a halal label. Scholars discuss some details, such as meat from Christians and Jews and meat sold in non-Muslim countries, so follow the guidance of your local masjid."
-        ]
+        "compare": {
+          "first": {
+            "title": "Prohibited",
+            "items": [
+              "Pork and anything made from it: ham, bacon, lard. Many sausages and pepperonis contain pork, so check the label.",
+              "Blood, and the meat of an animal that died without being slaughtered.",
+              "Meat dedicated to anything other than Allah.",
+              "Alcohol and anything that intoxicates."
+            ]
+          },
+          "second": {
+            "title": "Halal",
+            "items": [
+              "Fruits, vegetables, grains, beans, bread, rice, and fish.",
+              "Beef, lamb, and chicken, when slaughtered in the Islamic way. Many Muslims buy meat with a halal label."
+            ]
+          }
+        }
       },
       {
-        "p": "Sometimes you will not be sure about an ingredient. The Prophet Muhammad, peace be upon him, taught a calm principle for moments like this:"
+        "more": {
+          "title": "Where scholars discuss details",
+          "blocks": [
+            {
+              "p": "Scholars discuss some details, such as meat from Christians and Jews and meat sold in non-Muslim countries. Follow the guidance of your local masjid."
+            }
+          ]
+        }
+      },
+      {
+        "h": "When you are not sure"
       },
       {
         "quote": "Verily, the lawful is clear, and the unlawful is clear, and between them are doubtful matters many people do not know. Whoever avoids doubtful matters clears his liability regarding his religion and his honor.",
         "cite": "Sahih al-Bukhari 52 and Sahih Muslim 1599 (agreed upon)"
       },
       {
-        "p": "So if you are unsure about something, it is fine to simply leave it and choose something you are sure about. Do your reasonable best, learn the common ingredients to watch for, and ask your local imam when a question keeps coming up. Remember: \"Allah does not charge a soul except [with that within] its capacity.\" (2:286)."
+        "p": "If you are unsure about something, it is fine to leave it and choose something you are sure about."
       },
       {
-        "h": "Eating with non-Muslim family and friends"
+        "p": "Learn the common ingredients to watch for, and ask your local imam when a question keeps coming up."
       },
       {
-        "p": "Many new Muslims live with family who are not Muslim. The table can become a place of tension, or a place to show the beauty of your faith. A few ideas:"
+        "more": {
+          "title": "Allah asks only what you can do",
+          "blocks": [
+            {
+              "p": "Do your reasonable best. Remember: \"Allah does not charge a soul except [with that within] its capacity.\" (2:286)."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "Tell your family kindly and early, for example before a holiday meal, so they are not surprised.",
-          "Thank them for the food they cook. Their effort is a gift, even when you cannot eat every dish.",
-          "Offer to bring a dish or help with the cooking, so there is always something you can enjoy together.",
-          "If a dish has pork in it, skip it quietly, without a speech. A warm \"This looks lovely, I just don't eat pork\" is enough."
-        ]
+        "h": "Eating with non-Muslim family"
+      },
+      {
+        "scenario": {
+          "situation": "Your aunt serves a dish with pork at a family dinner.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "I made this for everyone."
+            },
+            {
+              "from": "you",
+              "text": "Thank you for cooking. This looks lovely, I just don't eat pork."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "steps": [
+            {
+              "label": "Tell them early",
+              "text": "Say it kindly before a holiday meal."
+            },
+            {
+              "label": "Say thank you",
+              "text": "Their effort is a gift."
+            },
+            {
+              "label": "Bring a dish",
+              "text": "Offer to help cook."
+            },
+            {
+              "label": "Skip quietly",
+              "text": "No speech needed."
+            }
+          ]
+        }
       },
       {
         "p": "Your good manners at the table may say more about Islam than any explanation."
@@ -84,7 +147,7 @@
         "h": "The mercy of necessity"
       },
       {
-        "p": "Look again at the end of verse 2:173: \"But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], there is no sin upon him.\" If a person is truly forced, for example by severe hunger with nothing else to eat (5:3), there is no sin on them, as long as they do not eat it out of desire and do not go beyond their need. This is a real emergency, not convenience or awkwardness at a dinner. It shows that Islam's rules come with mercy, because Allah is Forgiving and Merciful."
+        "p": "If a person is truly forced, for example by severe hunger with nothing else to eat (5:3), there is no sin on them, as long as they do not eat out of desire or go beyond their need. This is a real emergency, not awkwardness at a dinner."
       },
       {
         "quick": {
@@ -100,80 +163,140 @@
       },
       {
         "key": "Pork is clearly prohibited, and Muslims avoid it out of obedience to Allah, not for any other reason. Most other food is permitted, and in true necessity Allah is Forgiving and Merciful."
-      },
-      {
-        "p": "Next, you will learn about a prohibition that protects hearts and families: zina, and the fresh start Islam gives you."
       }
     ],
     "ar": [
       {
-        "p": "الطعام جزء من الحياة اليومية ومن الأسرة والثقافة، ولذلك قد يبدو أي تغيير على المائدة كبيرا. والخبر الطيب أن ما أباحه الإسلام من الطعام أكثر بكثير مما حرمه. يتناول هذا الدرس تحريم لحم الخنزير، وأساسيات الطعام الحلال، وكيف تأكل مع أسرتك غير المسلمة بلطف."
+        "p": "أباح الإسلام من الطعام أكثر بكثير مما حرمه."
       },
       {
-        "h": "ماذا يقول القرآن؟"
-      },
-      {
-        "p": "قبل أن يذكر الله المحرمات، يدعو المؤمنين إلى الأكل من الطيبات وشكره:"
-      },
-      {
-        "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
-        "cite": "سورة البقرة: 172"
-      },
-      {
-        "p": "ثم يذكر في الآية التي تليها ما حرمه:"
+        "h": "التحريم الواضح"
       },
       {
         "quote": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيْرِ ٱللَّهِ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍۢ وَلَا عَادٍۢ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ",
         "cite": "سورة البقرة: 173"
       },
       {
-        "p": "في هذه الآية يبين الله أنه حرم علينا الميتة، وهي الحيوان الذي مات دون ذبح شرعي، والدم، ولحم الخنزير، وما ذبح لغير الله. وقد جاء تحريم لحم الخنزير في مواضع أخرى من القرآن أيضا، منها سورة المائدة (الآية 3) وسورة الأنعام (الآية 145)، وهو من أوضح أحكام الطعام في الإسلام، والمسلمون متفقون عليه."
+        "p": "وقد جاء تحريم لحم الخنزير في سورة المائدة (الآية 3) وسورة الأنعام (الآية 145). وهو من أوضح أحكام الطعام، والمسلمون متفقون عليه."
       },
       {
-        "h": "لماذا يترك المسلم لحم الخنزير؟"
+        "p": "لا تحتاج إلى تفسيرات صحية. الله حرمه، والمؤمن يثق بأن الله أعلم. وترك لحم الخنزير عبادة وطاعة وثقة بالله."
       },
       {
-        "p": "قد تسمع تفسيرات كثيرة تتعلق بالصحة، لكن المسلم لا يحتاج إلى شيء منها. السبب بسيط: الله حرمه، والمؤمن يثق بأن الله أعلم بما يصلح عباده. تأمل كيف ختمت الآية السابقة: «وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ». فترك لحم الخنزير عبادة وطاعة وثقة بالله."
+        "more": {
+          "title": "تذكير بالشكر",
+          "blocks": [
+            {
+              "p": "قبل أن يذكر الله المحرمات، يدعو المؤمنين إلى الأكل من الطيبات وشكره:"
+            },
+            {
+              "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+              "cite": "سورة البقرة: 172"
+            },
+            {
+              "p": "تأمل كيف ختمت الآية: «وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ»."
+            }
+          ]
+        }
       },
       {
         "h": "أساسيات الطعام الحلال"
       },
       {
-        "p": "معظم الطعام حلال، فالقرآن يأمر الناس بأن يأكلوا مما في الأرض حلالا طيبا (سورة البقرة: 168)، ويذكر قائمة قصيرة بما حرمه الله. وإليك أساسيات يتفق عليها المسلمون:"
+        "p": "معظم الطعام حلال، فالقرآن يأمر الناس بأن يأكلوا مما في الأرض حلالا طيبا (سورة البقرة: 168). وهذه أساسيات يتفق عليها المسلمون:"
       },
       {
-        "ul": [
-          "**حرام:** لحم الخنزير وكل ما يصنع منه، مثل لحم الخنزير المقدد وشحم الخنزير. وكثير من أنواع النقانق والببروني فيه لحم خنزير، فاقرأ المكونات.",
-          "**حرام:** الدم، ولحم الحيوان الذي مات دون ذبح شرعي.",
-          "**حرام:** ما ذبح لغير الله.",
-          "**حرام:** الخمر وكل ما يسكر، كما تعلمت في الدرس السابق.",
-          "**حلال:** الفواكه والخضروات والحبوب والبقول والخبز والأرز والسمك.",
-          "**اللحوم مثل لحم البقر والغنم والدجاج** حلال إذا ذبح الحيوان بالطريقة الشرعية. وكثير من المسلمين يشترون اللحم الذي يحمل علامة «حلال». وللعلماء تفصيل في بعض المسائل، مثل ذبائح أهل الكتاب واللحوم التي تباع في البلاد غير المسلمة، فاتبع إرشاد مسجدك المحلي."
-        ]
+        "compare": {
+          "first": {
+            "title": "حرام",
+            "items": [
+              "لحم الخنزير وكل ما يصنع منه: لحم الخنزير المقدد وشحمه. وكثير من أنواع النقانق والببروني فيه لحم خنزير، فاقرأ المكونات.",
+              "الدم، ولحم الحيوان الذي مات دون ذبح شرعي.",
+              "ما ذبح لغير الله.",
+              "الخمر وكل ما يسكر."
+            ]
+          },
+          "second": {
+            "title": "حلال",
+            "items": [
+              "الفواكه والخضروات والحبوب والبقول والخبز والأرز والسمك.",
+              "لحم البقر والغنم والدجاج إذا ذبح بالطريقة الشرعية. وكثير من المسلمين يشترون اللحم الذي يحمل علامة «حلال»."
+            ]
+          }
+        }
       },
       {
-        "p": "وقد لا تكون متأكدا أحيانا من أحد المكونات. وقد علمنا النبي محمد صلى الله عليه وسلم قاعدة هادئة لمثل هذه المواقف:"
+        "more": {
+          "title": "أين يختلف العلماء في التفاصيل",
+          "blocks": [
+            {
+              "p": "وللعلماء تفصيل في بعض المسائل، مثل ذبائح أهل الكتاب واللحوم التي تباع في البلاد غير المسلمة. فاتبع إرشاد مسجدك المحلي."
+            }
+          ]
+        }
+      },
+      {
+        "h": "عندما لا تكون متأكدا"
       },
       {
         "quote": "إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ، وَبَيْنَهُمَا مُشْتَبِهَاتٌ لَا يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ",
         "cite": "صحيح البخاري (52) وصحيح مسلم (1599)، متفق عليه"
       },
       {
-        "p": "فإذا شككت في شيء فلا بأس أن تتركه وتختار ما أنت متأكد منه. ابذل جهدك بقدر معقول، وتعلم المكونات الشائعة التي ينبغي الانتباه لها، واسأل إمام مسجدك حين تتكرر المسألة معك. وتذكر قول الله تعالى: «لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا» (سورة البقرة: 286)."
+        "p": "فإذا شككت في شيء فلا بأس أن تتركه وتختار ما أنت متأكد منه."
       },
       {
-        "h": "الأكل مع الأسرة والأصدقاء من غير المسلمين"
+        "p": "تعلم المكونات الشائعة التي ينبغي الانتباه لها، واسأل إمام مسجدك حين تتكرر المسألة معك."
       },
       {
-        "p": "كثير من المسلمين الجدد يعيشون مع أسر غير مسلمة. وقد تصبح المائدة موضع توتر، أو فرصة لإظهار جمال دينك. إليك بعض الأفكار:"
+        "more": {
+          "title": "الله لا يكلف إلا وسعا",
+          "blocks": [
+            {
+              "p": "ابذل جهدك بقدر معقول. وتذكر قول الله تعالى: «لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا» (سورة البقرة: 286)."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "أخبر أسرتك بلطف وفي وقت مبكر، قبل وجبة المناسبات مثلا، حتى لا يفاجؤوا.",
-          "اشكرهم على الطعام الذي يعدونه، فجهدهم هدية حتى لو لم تستطع أن تأكل من كل الأطباق.",
-          "اعرض أن تحضر طبقا أو تساعد في الطبخ، ليكون هناك دائما ما تستمتعون به معا.",
-          "إذا كان في طبق ما لحم خنزير فاتركه بهدوء ودون محاضرة. تكفي عبارة لطيفة مثل: «يبدو شهيا، لكنني لا آكل لحم الخنزير»."
-        ]
+        "h": "الأكل مع الأسرة غير المسلمة"
+      },
+      {
+        "scenario": {
+          "situation": "تقدم عمتك طبقا فيه لحم خنزير في عشاء عائلي.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "أعددت هذا للجميع."
+            },
+            {
+              "from": "you",
+              "text": "شكرا لك على الطبخ. يبدو شهيا، لكنني لا آكل لحم الخنزير."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "steps": [
+            {
+              "label": "أخبرهم مبكرا",
+              "text": "قلها بلطف قبل وجبة المناسبات."
+            },
+            {
+              "label": "اشكرهم",
+              "text": "جهدهم هدية."
+            },
+            {
+              "label": "أحضر طبقا",
+              "text": "اعرض أن تساعد في الطبخ."
+            },
+            {
+              "label": "اترك بهدوء",
+              "text": "دون محاضرة."
+            }
+          ]
+        }
       },
       {
         "p": "قد يعبر حسن خلقك على المائدة عن الإسلام أوضح من أي شرح."
@@ -182,7 +305,7 @@
         "h": "رحمة الله عند الضرورة"
       },
       {
-        "p": "تأمل خاتمة الآية مرة أخرى: «فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍۢ وَلَا عَادٍۢ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ». أي أن من ألجأته الضرورة الحقيقية إلى الأكل من هذه المحرمات، كمن اشتد به الجوع ولم يجد غيرها (سورة المائدة: 3)، فلا إثم عليه، بشرط ألا يأكل منها تلذذا ولا يتجاوز قدر حاجته. وهذه ضرورة حقيقية، لا مجرد راحة أو حرج في مأدبة. وهي تبين أن أحكام الإسلام مقرونة بالرحمة، وأن الله غفور رحيم."
+        "p": "من ألجأته الضرورة الحقيقية، كمن اشتد به الجوع ولم يجد غيرها (سورة المائدة: 3)، فلا إثم عليه، بشرط ألا يأكل منها تلذذا ولا يتجاوز قدر حاجته. وهذه ضرورة حقيقية، لا مجرد حرج في مأدبة."
       },
       {
         "quick": {
@@ -198,80 +321,140 @@
       },
       {
         "key": "لحم الخنزير محرم تحريما واضحا، ويتركه المسلم طاعة لله لا لسبب آخر. ومعظم الطعام غير ذلك مباح، وعند الضرورة الحقيقية فالله غفور رحيم."
-      },
-      {
-        "p": "في الدرس التالي ستتعرف على تحريم يحفظ القلوب والأسر: الزنى، وعلى البداية الجديدة التي يمنحك إياها الإسلام."
       }
     ],
     "es": [
       {
-        "p": "La comida es parte de la vida diaria, de la familia y de la cultura, así que los cambios en la mesa pueden sentirse grandes. La buena noticia es que el Islam permite muchos más alimentos de los que prohíbe. Esta lección trata la prohibición clara del cerdo, lo básico de la comida halal y cómo comer con tu familia no musulmana de una manera amable."
+        "p": "El Islam permite muchos más alimentos de los que prohíbe."
       },
       {
-        "h": "Lo que dice el Corán"
-      },
-      {
-        "p": "Antes de nombrar lo prohibido, Allah invita a los creyentes a disfrutar de lo bueno:"
-      },
-      {
-        "quote": "¡Oh, creyentes! Coman de las cosas buenas que les he proveído, y agradezcan a Dios, si es que [verdaderamente] solo a Él adoran.",
-        "cite": "Corán 2:172 (traducción del significado)"
-      },
-      {
-        "p": "Luego, en la aleya siguiente, nombra lo que está prohibido:"
+        "h": "La prohibición clara"
       },
       {
         "quote": "Sepan que [Dios] les ha prohibido [consumir] solamente la carne del animal muerto por causa natural, la sangre, la carne de cerdo y la del animal que haya sido sacrificado invocando un nombre distinto al de Dios. Pero quien se ve forzado por la necesidad, no por deseo y sin excederse, no comete pecado al hacerlo. Dios es Absolvedor, Indulgente.",
         "cite": "Corán 2:173 (traducción del significado)"
       },
       {
-        "p": "La prohibición del cerdo aparece también en otros lugares del Corán, como la sura Al-Ma'idah (5:3) y la sura Al-An'am (6:145). Es una de las normas alimentarias más claras del Islam, y los musulmanes están de acuerdo en ella."
+        "p": "El cerdo aparece también en 5:3 y 6:145. Es una de las normas alimentarias más claras, y los musulmanes están de acuerdo en ella."
       },
       {
-        "h": "Por qué los musulmanes no comen cerdo"
+        "p": "No necesitas explicaciones sobre la salud. Allah lo prohibió, y el creyente confía en que Allah sabe más. Dejar el cerdo es un acto de adoración, de obediencia y de confianza."
       },
       {
-        "p": "Quizás escuches muchas explicaciones sobre la salud. Un musulmán no necesita ninguna de ellas. La razón es sencilla: Allah lo prohibió, y el creyente confía en que Allah sabe más. Mira cómo termina la aleya 2:172: agradezcan a Dios «si es que [verdaderamente] solo a Él adoran». Dejar el cerdo es un acto de adoración, de obediencia y de confianza."
+        "more": {
+          "title": "Un recordatorio de gratitud",
+          "blocks": [
+            {
+              "p": "Antes de nombrar lo prohibido, Allah invita a los creyentes a disfrutar de lo bueno:"
+            },
+            {
+              "quote": "¡Oh, creyentes! Coman de las cosas buenas que les he proveído, y agradezcan a Dios, si es que [verdaderamente] solo a Él adoran.",
+              "cite": "Corán 2:172 (traducción del significado)"
+            },
+            {
+              "p": "Mira cómo termina la aleya 2:172: agradezcan a Dios «si es que [verdaderamente] solo a Él adoran»."
+            }
+          ]
+        }
       },
       {
         "h": "Lo básico de la comida halal"
       },
       {
-        "p": "La mayoría de los alimentos son halal. El Corán le dice a la gente que coma «de lo bueno y lo lícito» que hay en la Tierra (2:168) y menciona una lista corta de lo prohibido. Estos son puntos básicos en los que los musulmanes están de acuerdo:"
+        "p": "La mayoría de los alimentos son halal. El Corán dice que se coma «de lo bueno y lo lícito» (2:168). Los musulmanes están de acuerdo en estos puntos básicos:"
       },
       {
-        "ul": [
-          "**Prohibido:** el cerdo y todo lo que se hace con él, como el jamón, el tocino y la manteca de cerdo. Muchas salchichas y muchos pepperonis contienen cerdo, así que revisa la etiqueta.",
-          "**Prohibido:** la sangre y la carne de un animal que murió sin ser sacrificado.",
-          "**Prohibido:** la carne ofrecida a algo o alguien que no sea Allah.",
-          "**Prohibido:** el alcohol y todo lo que embriaga, como aprendiste en la lección anterior.",
-          "**Halal:** las frutas, las verduras, los granos, los frijoles, el pan, el arroz y el pescado.",
-          "**La carne de res, de cordero y de pollo** es halal cuando el animal se sacrifica de la forma islámica. Muchos musulmanes compran carne con sello halal. Los sabios estudian algunos detalles, como la carne de cristianos y judíos o la que se vende en países no musulmanes, así que sigue la orientación de tu mezquita local."
-        ]
+        "compare": {
+          "first": {
+            "title": "Prohibido",
+            "items": [
+              "El cerdo y todo lo que se hace con él: jamón, tocino, manteca. Muchas salchichas y muchos pepperonis contienen cerdo, así que revisa la etiqueta.",
+              "La sangre y la carne de un animal que murió sin ser sacrificado.",
+              "La carne ofrecida a algo o alguien que no sea Allah.",
+              "El alcohol y todo lo que embriaga."
+            ]
+          },
+          "second": {
+            "title": "Halal",
+            "items": [
+              "Las frutas, las verduras, los granos, los frijoles, el pan, el arroz y el pescado.",
+              "La carne de res, de cordero y de pollo, cuando se sacrifica de la forma islámica. Muchos musulmanes compran carne con sello halal."
+            ]
+          }
+        }
       },
       {
-        "p": "A veces no estarás seguro de algún ingrediente. El Profeta Muhammad, la paz sea con él, enseñó un principio sereno para estos momentos:"
+        "more": {
+          "title": "Donde los sabios estudian detalles",
+          "blocks": [
+            {
+              "p": "Los sabios estudian algunos detalles, como la carne de cristianos y judíos o la que se vende en países no musulmanes. Sigue la orientación de tu mezquita local."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Cuando no estás seguro"
       },
       {
         "quote": "Ciertamente, lo lícito es evidente y lo ilícito es evidente, y entre los dos hay asuntos dudosos que mucha gente desconoce. Quien se protege de ellos pone a salvo su religión y su honor.",
         "cite": "Sahih al-Bujari 52 y Sahih Muslim 1599 (registrado por ambos)"
       },
       {
-        "p": "Así que, si no estás seguro de algo, está bien dejarlo y elegir algo de lo que sí estés seguro. Haz tu mejor esfuerzo razonable, aprende qué ingredientes comunes conviene revisar y pregúntale a tu imam cuando una duda se repita. Recuerda: «Dios no exige a nadie por encima de sus posibilidades» (2:286)."
+        "p": "Si no estás seguro de algo, está bien dejarlo y elegir algo de lo que sí estés seguro."
       },
       {
-        "h": "Comer con familia y amigos no musulmanes"
+        "p": "Aprende qué ingredientes comunes conviene revisar y pregúntale a tu imam cuando una duda se repita."
       },
       {
-        "p": "Muchos nuevos musulmanes viven con familiares que no son musulmanes. La mesa puede volverse un lugar de tensión o un lugar para mostrar la belleza de tu fe. Algunas ideas:"
+        "more": {
+          "title": "Allah pide solo lo que puedes",
+          "blocks": [
+            {
+              "p": "Haz tu mejor esfuerzo razonable. Recuerda: «Dios no exige a nadie por encima de sus posibilidades» (2:286)."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "Avísale a tu familia con amabilidad y con tiempo, por ejemplo antes de una comida festiva, para que no se sorprendan.",
-          "Agradéceles la comida que preparan. Su esfuerzo es un regalo, aunque no puedas comer todos los platos.",
-          "Ofrece llevar un plato o ayudar a cocinar, para que siempre haya algo que puedan disfrutar juntos.",
-          "Si un plato tiene cerdo, déjalo con discreción y sin sermones. Un cálido «Se ve delicioso, solo que no como cerdo» es suficiente."
-        ]
+        "h": "Comer con familia no musulmana"
+      },
+      {
+        "scenario": {
+          "situation": "Tu tía sirve un plato con cerdo en una cena familiar.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "Preparé esto para todos."
+            },
+            {
+              "from": "you",
+              "text": "Gracias por cocinar. Se ve delicioso, solo que no como cerdo."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "steps": [
+            {
+              "label": "Avisa con tiempo",
+              "text": "Dilo con amabilidad antes de una comida festiva."
+            },
+            {
+              "label": "Da las gracias",
+              "text": "Su esfuerzo es un regalo."
+            },
+            {
+              "label": "Lleva un plato",
+              "text": "Ofrece ayudar a cocinar."
+            },
+            {
+              "label": "Déjalo con discreción",
+              "text": "Sin sermones."
+            }
+          ]
+        }
       },
       {
         "p": "Tus buenos modales en la mesa pueden decir más sobre el Islam que cualquier explicación."
@@ -280,7 +463,7 @@
         "h": "La misericordia en caso de necesidad"
       },
       {
-        "p": "Mira otra vez el final de la aleya 2:173: «Pero quien se ve forzado por la necesidad, no por deseo y sin excederse, no comete pecado al hacerlo.» Si una persona se ve realmente forzada, por ejemplo por un hambre extrema sin nada más que comer (5:3), no comete pecado, siempre que no coma por deseo y no vaya más allá de su necesidad. Se trata de una verdadera emergencia, no de comodidad ni de incomodidad en una cena. Esto muestra que las normas del Islam vienen con misericordia, porque Allah es Perdonador y Misericordioso."
+        "p": "Si una persona se ve realmente forzada, por ejemplo por un hambre extrema sin nada más que comer (5:3), no comete pecado, siempre que no coma por deseo ni vaya más allá de su necesidad. Es una verdadera emergencia, no una incomodidad en una cena."
       },
       {
         "quick": {
@@ -296,9 +479,6 @@
       },
       {
         "key": "El cerdo está claramente prohibido, y los musulmanes lo evitan por obediencia a Allah, no por otra razón. La mayoría de los demás alimentos están permitidos, y en una verdadera necesidad Allah es Perdonador y Misericordioso."
-      },
-      {
-        "p": "A continuación aprenderás sobre una prohibición que protege los corazones y las familias: el zina, y el nuevo comienzo que el Islam te da."
       }
     ]
   },
@@ -324,5 +504,21 @@
       "url": "https://hadeethenc.com/en/browse/hadith/4314"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=FpG_S0u9WOQ",
+      "title": {
+        "en": "Halal and haram food",
+        "ar": "الطعام الحلال والحرام",
+        "es": "Alimentos halal y haram"
+      },
+      "by": {
+        "en": "One Islam Productions",
+        "ar": "One Islam Productions",
+        "es": "One Islam Productions"
+      },
+      "seconds": 235
+    }
+  ]
 }

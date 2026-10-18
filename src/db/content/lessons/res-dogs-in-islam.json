@@ -1,6 +1,6 @@
 {
   "slug": "res-dogs-in-islam",
-  "minutes": 8,
+  "minutes": 5,
   "title": {
     "en": "Dogs in Islam: keeping, cleanliness, and kindness",
     "ar": "الكلاب في الإسلام: الاقتناء والطهارة والرحمة",
@@ -9,41 +9,48 @@
   "body": {
     "en": [
       {
-        "p": "Many people come to Islam from homes where a dog is part of the family. So one of the first questions new Muslims ask is: what does Islam say about dogs? This lesson walks you through three things, calmly: when keeping a dog is allowed, how to stay clean after contact with a dog, and the kindness Islam asks you to show every animal. If you have a dog right now, take a breath. Nothing here is meant to frighten you."
+        "p": "If you have a dog right now, take a breath: nothing here is meant to frighten you."
       },
       {
         "h": "When keeping a dog is allowed"
       },
       {
-        "p": "The Prophet Muhammad, peace be upon him, named the kinds of dogs a person may keep. The Companion Abdullah ibn Umar, may Allah be pleased with him, reported that the Messenger of Allah said:"
+        "p": "The Companion Abdullah ibn Umar, may Allah be pleased with him, reported that the Messenger of Allah, peace be upon him, said:"
       },
       {
         "quote": "\"Whoever keeps a dog, except a dog for hunting or for guarding livestock, his deeds will be reduced by two Qirāts every day.\" Sālim said: Abu Hurayrah, who had a farm, used to say: \"Or a farm dog.\"",
         "cite": "Sahih al-Bukhari 5481 and Sahih Muslim 1574 (agreed upon)"
       },
       {
-        "p": "A *qirat* is a measure of reward known to Allah (the Arabic word for God, the One God). From this hadith (a saying of the Prophet), scholars teach the following:"
+        "p": "A *qirat* is a measure of reward known to Allah. From this hadith (a saying of the Prophet), scholars teach:"
       },
       {
-        "ul": [
-          "Scholars report agreement that a dog should not be kept without a real need, for example only as a pet.",
-          "Dogs for hunting, for guarding livestock, and for guarding farms are allowed, because the hadith names them.",
-          "The majority of scholars also allow a guard dog for a home when there is a real need for protection, by comparing it to the dogs named in the hadith.",
-          "Scholars also allow dogs for other real needs, such as a guide dog for a person who is blind, or dogs that help find drugs or catch thieves."
-        ]
+        "compare": {
+          "first": {
+            "title": "Allowed",
+            "items": [
+              "Dogs for hunting, for guarding livestock, and for guarding farms (the hadith names them).",
+              "A home guard dog when there is a real need for protection (the majority of scholars).",
+              "Other real needs, such as a guide dog for a person who is blind, or dogs that help find drugs or catch thieves."
+            ]
+          },
+          "second": {
+            "title": "Not allowed",
+            "items": [
+              "A dog without a real need, for example only as a pet (scholars report agreement)."
+            ]
+          }
+        }
       },
       {
         "h": "Staying clean after contact with a dog"
       },
       {
-        "p": "The majority of scholars hold that a dog's saliva is *najis* (ritually impure). This means it must be washed off before you pray in that clothing or on that spot. Their evidence is this hadith, reported by Abu Hurayrah, may Allah be pleased with him:"
+        "p": "The majority of scholars hold that a dog's saliva is *najis* (ritually impure), so it must be washed off before you pray in that clothing or on that spot. Their evidence is this hadith, reported by Abu Hurayrah, may Allah be pleased with him:"
       },
       {
         "quote": "\"When a dog drinks from the vessel of any of you, let him wash it seven times.\" In a version by Muslim: \"the first of which is with dust.\"",
         "cite": "Sahih al-Bukhari 172 and Sahih Muslim 279 (agreed upon)"
-      },
-      {
-        "p": "Here is what this means in daily life, following the majority view:"
       },
       {
         "steps": {
@@ -58,40 +65,88 @@
         }
       },
       {
-        "p": "What about simply touching a dog? If the dog and your hand are both dry, nothing needs washing. If the dog's fur or body is wet, many scholars say to wash the spot the same way, seven times with one wash using soil, to be on the safe side."
+        "more": {
+          "title": "What about just touching a dog?",
+          "blocks": [
+            {
+              "p": "If the dog and your hand are both dry, nothing needs washing. If the dog's fur or body is wet, many scholars say to wash the spot the same way, seven times with one wash using soil, to be on the safe side."
+            }
+          ]
+        }
       },
       {
-        "p": "Some scholars, mainly of the Maliki school (one of the four main schools of Islamic law), hold that a dog's saliva is not impure. This lesson follows the majority view described above."
+        "p": "Some scholars, mainly of the Maliki school (one of the four main schools of Islamic law), hold that a dog's saliva is not impure. This lesson follows the majority view."
       },
       {
         "h": "Kindness to every animal"
       },
       {
-        "p": "None of this means dogs are bad. Islam asks for mercy toward all animals. The Prophet, peace be upon him, told of a man who was walking on a road and became very thirsty. He climbed down into a well and drank. When he came out, he saw a dog panting and eating wet earth from thirst. He went back down, filled his shoe with water, held it in his mouth as he climbed up, and gave the dog a drink. Allah accepted his deed and forgave him. The Companions asked whether there is reward in caring for animals. He answered:"
+        "p": "None of this means dogs are bad. Islam asks for mercy toward all animals. The Prophet, peace be upon him, told of a thirsty man who gave a panting dog a drink, and Allah forgave him. The Companions asked whether there is reward in caring for animals. He answered:"
       },
       {
         "phrase": {
           "arabic": "فِي كُلِّ كَبِدٍ رَطْبَةٍ أَجْرٌ",
           "transliteration": "Fi kulli kabidin ratbatin ajr",
-          "meaning": "There is a reward for (quenching the thirst of) every living creature."
+          "meaning": "There is a reward for (quenching the thirst of) every living creature.",
+          "audio": "/audio/phrases/res-dogs-in-islam-1.mp3"
         }
       },
       {
-        "p": "Feeding a hungry dog, giving water to a stray, and treating any animal gently are good deeds you can hope to be rewarded for."
+        "more": {
+          "title": "The full story",
+          "blocks": [
+            {
+              "flow": {
+                "steps": [
+                  {
+                    "label": "Very thirsty",
+                    "text": "A man on a road climbed down into a well and drank."
+                  },
+                  {
+                    "label": "A panting dog",
+                    "text": "Coming out, he saw a dog eating wet earth from thirst."
+                  },
+                  {
+                    "label": "He went back down",
+                    "text": "He filled his shoe with water and held it in his mouth as he climbed up."
+                  },
+                  {
+                    "label": "He gave the dog a drink",
+                    "text": "Allah accepted his deed and forgave him."
+                  }
+                ]
+              }
+            }
+          ]
+        }
       },
       {
         "h": "If you already have a dog"
       },
       {
-        "p": "Many new Muslims face this, and there is no need to panic. You have not lost your Islam, and you do not have to decide anything today."
+        "p": "Many new Muslims face this. You have not lost your Islam, and you do not have to decide anything today."
       },
       {
-        "ul": [
-          "Keep caring for your dog kindly while you work out the next step. Never abandon or neglect it.",
-          "Ask a local scholar or imam about your situation. A real need, such as protection or a disability, may make keeping it allowed.",
-          "If your dog is only a pet, the majority view is that it should not stay with you. Take your time to find it a loving new home, for example with a relative, a friend, or a trusted rescue group.",
-          "Until then, keep it out of the room where you pray, and clean any saliva the way you learned above."
-        ]
+        "flow": {
+          "steps": [
+            {
+              "label": "Keep caring for it",
+              "text": "Be kind while you decide. Never abandon or neglect it."
+            },
+            {
+              "label": "Ask a local scholar or imam",
+              "text": "A real need, such as protection or a disability, may make keeping it allowed."
+            },
+            {
+              "label": "If it is only a pet",
+              "text": "The majority view is that it should not stay with you. Take your time to find it a loving home, for example with a relative, a friend, or a trusted rescue group."
+            },
+            {
+              "label": "Until then",
+              "text": "Keep it out of the room where you pray, and clean any saliva the way you learned above."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -107,35 +162,42 @@
       },
       {
         "key": "Keep a dog only for a real need, wash its saliva seven times with one wash using soil, and be kind to every animal."
-      },
-      {
-        "p": "Next, you will look at another common question: what to do when your family celebrates the holidays of another faith."
       }
     ],
     "ar": [
       {
-        "p": "جاء كثير من الناس إلى الإسلام من بيوت يُعَدّ فيها الكلب فردًا من العائلة، ولذلك كان من أول ما يسأل عنه المسلم الجديد: ماذا يقول الإسلام عن الكلاب؟ يشرح لك هذا الدرس بهدوء ثلاثة أمور: متى يجوز اقتناء الكلب، وكيف تتطهر بعد ملامسته، وما الرحمة التي يطلبها منك الإسلام تجاه كل حيوان. وإن كان عندك كلب الآن فاطمئن، فليس في هذا الدرس ما يدعو إلى الخوف."
+        "p": "وإن كان عندك كلب الآن فاطمئن، فليس في هذا الدرس ما يدعو إلى الخوف."
       },
       {
         "h": "متى يجوز اقتناء الكلب؟"
       },
       {
-        "p": "بيّن النبي محمد صلى الله عليه وسلم أنواع الكلاب التي يجوز للإنسان أن يقتنيها، فعن عبد الله بن عمر رضي الله عنهما عن رسول الله صلى الله عليه وسلم قال:"
+        "p": "عن عبد الله بن عمر رضي الله عنهما عن رسول الله صلى الله عليه وسلم قال:"
       },
       {
         "quote": "«مَنِ اقْتَنَى كَلْبًا إِلَّا كَلْبَ ضَارٍ أَوْ مَاشِيَةٍ نَقَصَ مِنْ عَمَلِهِ كُلَّ يَوْمٍ قِيرَاطَانِ»، قَالَ سَالِمٌ: وَكَانَ أَبُو هُرَيْرَةَ يَقُولُ: «أَوْ كَلْبَ حَرْثٍ»، وَكَانَ صَاحِبَ حَرْثٍ.",
         "cite": "متفق عليه: صحيح البخاري 5481، وصحيح مسلم 1574"
       },
       {
-        "p": "والقيراط مقدار من الأجر يعلمه الله تعالى، و«الكلب الضاري» هو المدرَّب على الصيد، و«كلب الحرث» هو كلب حراسة الزرع. ومن هذا الحديث قرر العلماء ما يلي:"
+        "p": "والقيراط مقدار من الأجر يعلمه الله تعالى. ومن هذا الحديث قرر العلماء ما يلي:"
       },
       {
-        "ul": [
-          "نقل العلماء اتفاق الفقهاء على أنه لا يجوز اقتناء الكلب إلا لحاجة، فلا يُقتنى لمجرد التسلية أو الإعجاب بشكله.",
-          "يجوز اقتناء كلب الصيد، وكلب حراسة الماشية، وكلب حراسة الزرع، لأن الحديث نص عليها.",
-          "وقاس جمهور العلماء كلب حراسة البيوت على هذه الأنواع إذا وُجدت حاجة حقيقية إلى الحراسة.",
-          "وأجاز العلماء كذلك اقتناء الكلب لحاجات أخرى معتبرة، كالكلب الذي يقود الكفيف، والكلاب التي تكشف المخدرات أو تعين على تتبع اللصوص."
-        ]
+        "compare": {
+          "first": {
+            "title": "جائز",
+            "items": [
+              "كلب الصيد، وكلب حراسة الماشية، وكلب حراسة الزرع (نص عليها الحديث).",
+              "كلب حراسة البيت إذا وُجدت حاجة حقيقية إلى الحراسة (قول جمهور العلماء).",
+              "حاجات أخرى معتبرة، كالكلب الذي يقود الكفيف، والكلاب التي تكشف المخدرات أو تعين على تتبع اللصوص."
+            ]
+          },
+          "second": {
+            "title": "غير جائز",
+            "items": [
+              "كلب دون حاجة، لمجرد التسلية مثلًا (نقل العلماء الاتفاق)."
+            ]
+          }
+        }
       },
       {
         "h": "الطهارة بعد ملامسة الكلب"
@@ -146,9 +208,6 @@
       {
         "quote": "عَنْ أَبِي هُرَيْرَةَ رضي الله عنه قَالَ: إِنَّ رَسُولَ اللهِ صلى الله عليه وسلم قَالَ: «إِذَا شَرِبَ الْكَلْبُ فِي إِنَاءِ أَحَدِكُمْ فَلْيَغْسِلْهُ سَبْعًا». ولمسلم: « أولاهُنَّ بالتُراب».",
         "cite": "متفق عليه: صحيح البخاري 172، وصحيح مسلم 279"
-      },
-      {
-        "p": "وهذا ما يعنيه ذلك في حياتك اليومية على قول الجمهور:"
       },
       {
         "steps": {
@@ -163,40 +222,88 @@
         }
       },
       {
-        "p": "وماذا عن مجرد لمس الكلب؟ إذا كان الكلب جافًّا ويدك جافة فلا يلزمك غسل شيء. أما إذا كان شعره أو جسمه مبلولًا، فكثير من العلماء يرون غسل الموضع بالطريقة نفسها، سبع مرات إحداها بالتراب، احتياطًا."
+        "more": {
+          "title": "وماذا عن مجرد لمس الكلب؟",
+          "blocks": [
+            {
+              "p": "إذا كان الكلب جافًّا ويدك جافة فلا يلزمك غسل شيء. أما إذا كان شعره أو جسمه مبلولًا، فكثير من العلماء يرون غسل الموضع بالطريقة نفسها، سبع مرات إحداها بالتراب، احتياطًا."
+            }
+          ]
+        }
       },
       {
-        "p": "ويرى بعض العلماء، وأشهرهم المالكية (أتباع أحد المذاهب الفقهية الأربعة)، أن لعاب الكلب طاهر. ويعرض هذا الدرس قول الجمهور المذكور أعلاه."
+        "p": "ويرى بعض العلماء، وأشهرهم المالكية (أتباع أحد المذاهب الفقهية الأربعة)، أن لعاب الكلب طاهر. ويعرض هذا الدرس قول الجمهور."
       },
       {
         "h": "الرحمة بكل حيوان"
       },
       {
-        "p": "ولا يعني هذا كله أن الكلب مخلوق سيئ، فالإسلام يأمر بالرحمة بالحيوان كله. فقد أخبر النبي صلى الله عليه وسلم عن رجل كان يمشي في طريق فاشتد عليه العطش، فنزل بئرًا فشرب، ثم خرج فإذا كلب يلهث ويأكل التراب المبلول من شدة العطش، فنزل البئر مرة أخرى وملأ خفه ماء، وأمسكه بفمه حتى صعد، فسقى الكلب، فشكر الله له فغفر له. فسأله الصحابة: هل لنا في البهائم أجر؟ فقال:"
+        "p": "ولا يعني هذا أن الكلب مخلوق سيئ، فالإسلام يأمر بالرحمة بالحيوان كله. وقد أخبر النبي صلى الله عليه وسلم عن رجل عطشان سقى كلبًا يلهث فغفر الله له. فسأله الصحابة: هل لنا في البهائم أجر؟ فقال:"
       },
       {
         "phrase": {
           "arabic": "فِي كُلِّ كَبِدٍ رَطْبَةٍ أَجْرٌ",
           "transliteration": "Fi kulli kabidin ratbatin ajr",
-          "meaning": "في الإحسان إلى كل كائن حي أجر، كسقيه وإطعامه."
+          "meaning": "في الإحسان إلى كل كائن حي أجر، كسقيه وإطعامه.",
+          "audio": "/audio/phrases/res-dogs-in-islam-1.mp3"
         }
       },
       {
-        "p": "فإطعام كلب جائع، وسقي حيوان ضال، والرفق بأي حيوان، كلها أعمال صالحة ترجو ثوابها عند الله."
+        "more": {
+          "title": "القصة كاملة",
+          "blocks": [
+            {
+              "flow": {
+                "steps": [
+                  {
+                    "label": "اشتد عليه العطش",
+                    "text": "كان رجل يمشي في طريق، فنزل بئرًا فشرب."
+                  },
+                  {
+                    "label": "كلب يلهث",
+                    "text": "خرج فإذا كلب يأكل التراب المبلول من شدة العطش."
+                  },
+                  {
+                    "label": "نزل مرة أخرى",
+                    "text": "ملأ خفه ماء، وأمسكه بفمه حتى صعد."
+                  },
+                  {
+                    "label": "سقى الكلب",
+                    "text": "فشكر الله له فغفر له."
+                  }
+                ]
+              }
+            }
+          ]
+        }
       },
       {
         "h": "إذا كان عندك كلب الآن"
       },
       {
-        "p": "يمر كثير من المسلمين الجدد بهذا الموقف، فلا داعي للذعر. لم يضِع إسلامك، ولستَ مطالبًا باتخاذ قرار اليوم."
+        "p": "يمر كثير من المسلمين الجدد بهذا الموقف. لم يضِع إسلامك، ولستَ مطالبًا باتخاذ قرار اليوم."
       },
       {
-        "ul": [
-          "استمر في رعاية كلبك بلطف حتى تتضح لك الخطوة التالية، ولا تهمله ولا تتخلَّ عنه في الطريق.",
-          "اسأل عالمًا أو إمامًا في منطقتك عن حالتك، فقد تكون عندك حاجة حقيقية، كالحراسة أو إعاقة، تجعل اقتناءه جائزًا.",
-          "إذا كان الكلب للتسلية فقط، فقول الجمهور أنه لا يبقى عندك. خذ وقتك في البحث له عن بيت محب، كأحد أقاربك أو أصدقائك أو جمعية موثوقة لرعاية الحيوانات.",
-          "وإلى ذلك الحين، أبعده عن الغرفة التي تصلي فيها، واغسل لعابه بالطريقة التي تعلمتها."
-        ]
+        "flow": {
+          "steps": [
+            {
+              "label": "استمر في رعايته",
+              "text": "بلطف إلى أن تقرر، ولا تهمله ولا تتخلَّ عنه."
+            },
+            {
+              "label": "اسأل عالمًا أو إمامًا",
+              "text": "قد تكون عندك حاجة حقيقية، كالحراسة أو إعاقة، تجعل اقتناءه جائزًا."
+            },
+            {
+              "label": "إذا كان للتسلية فقط",
+              "text": "فقول الجمهور أنه لا يبقى عندك. خذ وقتك في البحث له عن بيت محب، كأحد أقاربك أو أصدقائك أو جمعية موثوقة لرعاية الحيوانات."
+            },
+            {
+              "label": "وإلى ذلك الحين",
+              "text": "أبعده عن الغرفة التي تصلي فيها، واغسل لعابه بالطريقة التي تعلمتها."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -212,48 +319,52 @@
       },
       {
         "key": "لا يُقتنى الكلب إلا لحاجة حقيقية، ويُغسل لعابه سبعًا إحداها بالتراب، والرحمة بكل حيوان عمل صالح تؤجر عليه."
-      },
-      {
-        "p": "وفي الدرس التالي تنظر في سؤال شائع آخر: ماذا تفعل حين تحتفل عائلتك بأعياد دين آخر؟"
       }
     ],
     "es": [
       {
-        "p": "Muchas personas llegan al Islam desde hogares donde el perro es parte de la familia. Por eso, una de las primeras preguntas de un nuevo musulmán es: ¿qué dice el Islam sobre los perros? Esta lección te explica con calma tres cosas: cuándo está permitido tener un perro, cómo mantenerte limpio después de tocar uno y la bondad que el Islam te pide con todos los animales. Si ahora mismo tienes un perro, respira tranquilo. Nada de esto busca asustarte."
+        "p": "Si ahora mismo tienes un perro, respira tranquilo: nada de esto busca asustarte."
       },
       {
         "h": "¿Cuándo está permitido tener un perro?"
       },
       {
-        "p": "El Profeta Muhammad, la paz sea con él, indicó qué perros se pueden tener. Abdullah Ibn Umar, que Allah esté complacido con él, narró que el Mensajero de Allah dijo:"
+        "p": "Abdullah Ibn Umar, que Allah esté complacido con él, narró que el Mensajero de Allah, la paz sea con él, dijo:"
       },
       {
         "quote": "\"Quien adquiera un perro que no sea para cazar o cuidar del ganado, disminuirá su recompensa cada día dos quilates\". Salim dijo: \"Abu Huraira solía decir: 'O un perro para vigilar los cultivos'. Él poseía tierras de cultivo\".",
         "cite": "Sahih al-Bujari 5481 y Sahih Muslim 1574 (registrado por ambos)"
       },
       {
-        "p": "El *qirat* (aquí traducido como \"quilate\") es una medida de recompensa que Allah conoce. Allah es la palabra árabe para Dios, el Dios Único. A partir de este hadiz (un dicho del Profeta), los sabios enseñan lo siguiente:"
+        "p": "El *qirat* (aquí traducido como \"quilate\") es una medida de recompensa que Allah conoce. A partir de este hadiz (un dicho del Profeta), los sabios enseñan:"
       },
       {
-        "ul": [
-          "Los sabios coinciden en que no se debe tener un perro sin una necesidad real, por ejemplo solo como mascota.",
-          "Se permiten los perros de caza, los que cuidan el ganado y los que vigilan los cultivos, porque el hadiz los menciona.",
-          "La mayoría de los sabios también permite un perro guardián para la casa cuando hay una necesidad real de protección, por analogía con los perros mencionados en el hadiz.",
-          "Los sabios permiten además perros para otras necesidades reales, como un perro guía para una persona ciega, o perros que detectan drogas o ayudan a atrapar ladrones."
-        ]
+        "compare": {
+          "first": {
+            "title": "Permitido",
+            "items": [
+              "Los perros de caza, los que cuidan el ganado y los que vigilan los cultivos (el hadiz los menciona).",
+              "Un perro guardián para la casa cuando hay una necesidad real de protección (la mayoría de los sabios).",
+              "Otras necesidades reales, como un perro guía para una persona ciega, o perros que detectan drogas o ayudan a atrapar ladrones."
+            ]
+          },
+          "second": {
+            "title": "No permitido",
+            "items": [
+              "Un perro sin una necesidad real, por ejemplo solo como mascota (los sabios coinciden)."
+            ]
+          }
+        }
       },
       {
         "h": "Mantenerte limpio después de tocar un perro"
       },
       {
-        "p": "La mayoría de los sabios sostiene que la saliva del perro es *nayis* (impura en sentido ritual). Esto significa que debe lavarse antes de rezar con esa ropa o en ese lugar. Su prueba es este hadiz, narrado por Abu Huraira, que Allah esté complacido con él:"
+        "p": "La mayoría de los sabios sostiene que la saliva del perro es *nayis* (impura en sentido ritual), por lo que debe lavarse antes de rezar con esa ropa o en ese lugar. Su prueba es este hadiz, narrado por Abu Huraira, que Allah esté complacido con él:"
       },
       {
         "quote": "\"Si un perro bebe de un recipiente de alguno de ustedes que lo lave siete veces\". Y en otro relato recopilado por Muslim: \"La primera de ellas con tierra\".",
         "cite": "Sahih al-Bujari 172 y Sahih Muslim 279 (registrado por ambos)"
-      },
-      {
-        "p": "Esto es lo que significa en la vida diaria, según la opinión de la mayoría:"
       },
       {
         "steps": {
@@ -268,40 +379,88 @@
         }
       },
       {
-        "p": "¿Y si solo tocas un perro? Si el perro y tu mano están secos, no hace falta lavar nada. Si el pelo o el cuerpo del perro están mojados, muchos sabios dicen que se lave esa parte de la misma manera, siete veces y una de ellas con tierra, por precaución."
+        "more": {
+          "title": "¿Y si solo tocas un perro?",
+          "blocks": [
+            {
+              "p": "Si el perro y tu mano están secos, no hace falta lavar nada. Si el pelo o el cuerpo del perro están mojados, muchos sabios dicen que se lave esa parte de la misma manera, siete veces y una de ellas con tierra, por precaución."
+            }
+          ]
+        }
       },
       {
-        "p": "Algunos sabios, sobre todo de la escuela malikí (una de las cuatro escuelas principales de jurisprudencia islámica), sostienen que la saliva del perro no es impura. Esta lección sigue la opinión de la mayoría explicada arriba."
+        "p": "Algunos sabios, sobre todo de la escuela malikí (una de las cuatro escuelas principales de jurisprudencia islámica), sostienen que la saliva del perro no es impura. Esta lección sigue la opinión de la mayoría."
       },
       {
         "h": "Bondad con todos los animales"
       },
       {
-        "p": "Nada de esto significa que los perros sean malos. El Islam pide misericordia con todos los animales. El Profeta, la paz sea con él, contó que un hombre iba por un camino y tuvo mucha sed. Bajó a un pozo y bebió. Al salir, vio a un perro jadeando y comiendo tierra húmeda por la sed. Volvió a bajar, llenó su zapato de agua, lo sostuvo con la boca mientras subía y le dio de beber al perro. Allah aceptó su acción y lo perdonó. Los compañeros preguntaron si hay recompensa por cuidar a los animales, y él respondió:"
+        "p": "Nada de esto significa que los perros sean malos. El Islam pide misericordia con todos los animales. El Profeta, la paz sea con él, contó de un hombre sediento que dio de beber a un perro jadeando, y Allah lo perdonó. Los compañeros preguntaron si hay recompensa por cuidar a los animales, y él respondió:"
       },
       {
         "phrase": {
           "arabic": "فِي كُلِّ كَبِدٍ رَطْبَةٍ أَجْرٌ",
           "transliteration": "Fi kulli kabidin ratbatin ayr",
-          "meaning": "En cada ser vivo hay recompensa."
+          "meaning": "En cada ser vivo hay recompensa.",
+          "audio": "/audio/phrases/res-dogs-in-islam-1.mp3"
         }
       },
       {
-        "p": "Dar de comer a un perro hambriento, dar agua a un animal callejero y tratar con suavidad a cualquier animal son buenas obras por las que puedes esperar recompensa."
+        "more": {
+          "title": "La historia completa",
+          "blocks": [
+            {
+              "flow": {
+                "steps": [
+                  {
+                    "label": "Mucha sed",
+                    "text": "Un hombre iba por un camino, bajó a un pozo y bebió."
+                  },
+                  {
+                    "label": "Un perro jadeando",
+                    "text": "Al salir, vio a un perro comiendo tierra húmeda por la sed."
+                  },
+                  {
+                    "label": "Volvió a bajar",
+                    "text": "Llenó su zapato de agua y lo sostuvo con la boca mientras subía."
+                  },
+                  {
+                    "label": "Le dio de beber al perro",
+                    "text": "Allah aceptó su acción y lo perdonó."
+                  }
+                ]
+              }
+            }
+          ]
+        }
       },
       {
         "h": "Si ya tienes un perro"
       },
       {
-        "p": "Muchos nuevos musulmanes pasan por esto, y no hay motivo para entrar en pánico. No has perdido tu Islam y no tienes que decidir nada hoy."
+        "p": "Muchos nuevos musulmanes pasan por esto. No has perdido tu Islam y no tienes que decidir nada hoy."
       },
       {
-        "ul": [
-          "Sigue cuidando a tu perro con cariño mientras buscas el siguiente paso. Nunca lo abandones ni lo descuides.",
-          "Pregunta a un sabio o imam de tu zona por tu caso. Una necesidad real, como la protección o una discapacidad, puede hacer que tenerlo esté permitido.",
-          "Si tu perro es solo una mascota, la opinión de la mayoría es que no debe quedarse contigo. Tómate tu tiempo para encontrarle un hogar cariñoso, por ejemplo con un familiar, un amigo o un refugio de confianza.",
-          "Mientras tanto, mantenlo fuera del cuarto donde rezas y limpia su saliva como aprendiste arriba."
-        ]
+        "flow": {
+          "steps": [
+            {
+              "label": "Sigue cuidándolo",
+              "text": "Con cariño mientras decides. Nunca lo abandones ni lo descuides."
+            },
+            {
+              "label": "Pregunta a un sabio o imam",
+              "text": "Una necesidad real, como la protección o una discapacidad, puede hacer que tenerlo esté permitido."
+            },
+            {
+              "label": "Si es solo una mascota",
+              "text": "La opinión de la mayoría es que no debe quedarse contigo. Tómate tu tiempo para encontrarle un hogar cariñoso, por ejemplo con un familiar, un amigo o un refugio de confianza."
+            },
+            {
+              "label": "Mientras tanto",
+              "text": "Mantenlo fuera del cuarto donde rezas y limpia su saliva como aprendiste arriba."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -317,9 +476,6 @@
       },
       {
         "key": "Ten un perro solo por una necesidad real, lava su saliva siete veces con una de ellas con tierra y sé bondadoso con todos los animales."
-      },
-      {
-        "p": "En la próxima lección verás otra pregunta común: qué hacer cuando tu familia celebra las fiestas de otra religión."
       }
     ]
   },

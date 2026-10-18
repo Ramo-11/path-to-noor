@@ -50,24 +50,27 @@ export async function POST(request: NextRequest) {
     const score = summary.score ?? 0;
     const passed = summary.passed === true;
 
-    const user = await User.findById(session.user.id);
-    if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    const quizObjectId = new Types.ObjectId(quizId);
+    const resultEntry = { quizId: quizObjectId, score, passed, completedAt: new Date() };
+    let saved = false;
+    for (let attempt = 0; attempt < 3 && !saved; attempt += 1) {
+      const replaced = await User.updateOne(
+        { _id: session.user.id, "quizResults.quizId": quizObjectId },
+        { $set: { "quizResults.$": resultEntry } }
+      );
+      if (replaced.matchedCount > 0) {
+        saved = true;
+        break;
+      }
+      const added = await User.updateOne(
+        { _id: session.user.id, "quizResults.quizId": { $ne: quizObjectId } },
+        { $push: { quizResults: resultEntry } }
+      );
+      saved = added.matchedCount > 0;
+      if (!saved && !(await User.exists({ _id: session.user.id }))) {
+        return NextResponse.json({ error: "User not found" }, { status: 404 });
+      }
     }
-
-    const resultEntry = {
-      quizId: new Types.ObjectId(quizId),
-      score,
-      passed,
-      completedAt: new Date(),
-    };
-    const existingIndex = user.quizResults.findIndex((r) => r.quizId.toString() === quizId);
-    if (existingIndex >= 0) {
-      user.quizResults[existingIndex] = resultEntry as (typeof user.quizResults)[number];
-    } else {
-      user.quizResults.push(resultEntry as (typeof user.quizResults)[number]);
-    }
-    await user.save();
 
     return NextResponse.json({
       data: {

@@ -88,22 +88,22 @@ export default async function LibrarySubjectPage({ params }: PageProps) {
     await connectDB();
     const user = await User.findById(session.user.id).select("completedTopics").lean();
     isLearned = (
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (user as any)?.completedTopics || []
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ).some((entry: any) => entry.topicId?.toString() === topicId);
+      (user as { completedTopics?: { topicId?: { toString(): string } }[] } | null)?.completedTopics || []
+    ).some((entry) => entry.topicId?.toString() === topicId);
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const moduleIds = (modules as any[]).map((mod) => mod._id.toString());
+  const moduleIds = (modules as unknown as { _id: { toString(): string } }[]).map((mod) => mod._id.toString());
   await connectDB();
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const pathsForModules = (await LearningPath.find({
     published: true,
     "modules.moduleId": { $in: moduleIds },
   })
     .select("title slug modules.moduleId")
-    .lean()) as any[];
+    .lean()) as unknown as {
+    title: { en: string; ar: string; es: string };
+    slug: string;
+    modules?: { moduleId?: { toString(): string } }[];
+  }[];
 
   const pathByModuleId = new Map<string, { title: { en: string; ar: string; es: string }; slug: string }>();
   for (const path of pathsForModules) {

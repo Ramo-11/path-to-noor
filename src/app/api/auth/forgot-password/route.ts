@@ -3,36 +3,39 @@ import crypto from "crypto";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { sendPasswordResetEmail } from "@/lib/email";
-import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { rateLimitShared, getClientIp } from "@/lib/rate-limit";
 import { getSiteUrl } from "@/config/env";
 import { forgotPasswordSchema } from "@/lib/validations";
+
+const GENERIC = "If an account with that email exists, a password reset link has been sent.";
 
 export async function POST(request: NextRequest) {
   try {
     const ip = getClientIp(request.headers);
-    const limit = rateLimit(`forgot-password:${ip}`, 3, 15 * 60 * 1000); // 3 attempts per 15 min
+    const limit = await rateLimitShared(`forgot-password:${ip}`, 5, 15 * 60 * 1000);
     if (!limit.success) {
       return NextResponse.json(
-        { error: "Too many requests. Please try again later." },
+        { error: "Too many requests. Please try again later.", code: "rate_limited" },
         { status: 429 }
       );
     }
 
-    const parsed = forgotPasswordSchema.safeParse(await request.json());
+    const parsed = forgotPasswordSchema.safeParse(await request.json().catch(() => null));
     if (!parsed.success) {
       // Always return generic success to prevent enumeration
-      return NextResponse.json({
-        message:
-          "If an account with that email exists, a password reset link has been sent.",
-      });
+      return NextResponse.json({ message: GENERIC });
     }
-    const { email } = parsed.data;
+    const { email, locale } = parsed.data;
+    const emailLimit = await rateLimitShared(`forgot-password-email:${email}`, 3, 60 * 60 * 1000);
+    if (!emailLimit.success) {
+      return NextResponse.json({ message: GENERIC });
+    }
 
     await connectDB();
 
     // Always return success to prevent email enumeration
     const user = await User.findOne({ email }).select(
-      "+resetToken +resetTokenExpiry"
+      "+password +resetToken +resetTokenExpiry"
     );
 
     if (user && user.password) {
@@ -44,24 +47,23 @@ export async function POST(request: NextRequest) {
         .digest("hex");
 
       user.resetToken = hashedToken;
-      user.resetTokenExpiry = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
+      user.resetTokenExpiry = new Date(Date.now() + 60 * 60 * 1000);
       await user.save();
 
       const siteUrl = getSiteUrl();
-      const resetUrl = `${siteUrl}/en/reset-password?token=${token}`;
+      const resetUrl = `${siteUrl}/${locale}/reset-password?token=${token}`;
 
-      await sendPasswordResetEmail(email, user.name, resetUrl);
+      await sendPasswordResetEmail(email, user.name, resetUrl, locale).catch((error) =>
+        console.error("[API] password reset email failed:", error)
+      );
     }
 
     // Always return same response to prevent email enumeration
-    return NextResponse.json({
-      message:
-        "If an account with that email exists, a password reset link has been sent.",
-    });
+    return NextResponse.json({ message: GENERIC });
   } catch (error) {
     console.error("[API] POST /auth/forgot-password error:", error);
     return NextResponse.json(
-      { error: "Failed to process request" },
+      { error: "Failed to process request", code: "server_error" },
       { status: 500 }
     );
   }

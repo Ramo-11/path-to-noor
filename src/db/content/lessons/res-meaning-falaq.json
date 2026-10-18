@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-falaq",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "The meaning of Surah Al-Falaq",
     "ar": "معاني سورة الفلق",
@@ -9,52 +9,79 @@
   "body": {
     "en": [
       {
-        "p": "Surah Al-Falaq teaches you what to do when something worries you: turn to Allah (the Arabic word for God, the One God) and ask for His protection. In this lesson you will go through its five verses and learn when the Prophet Muhammad, peace be upon him, recited it."
+        "p": "Surah Al-Falaq teaches you what to do when something worries you: turn to Allah (the Arabic word for God, the One God) and ask for His protection."
       },
       {
-        "p": "The key word is *a'oodhu*, \"I seek refuge\". To seek refuge is to run to someone stronger for safety and hold on to them. In this surah, you run to Allah."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "قُلْ",
+              "transliteration": "Qul",
+              "meaning": "say"
+            },
+            {
+              "arabic": "أَعُوذُ",
+              "transliteration": "a'oodhu",
+              "meaning": "I seek refuge"
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbi",
+              "meaning": "in the Lord of"
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "transliteration": "al-falaq",
+              "meaning": "the daybreak"
+            }
+          ]
+        }
+      },
+      {
+        "p": "To seek refuge is to run to someone stronger for safety and hold on to them. In this surah, you run to Allah."
       },
       {
         "h": "Verse by verse"
       },
       {
-        "p": "The English under each verse is the Saheeh International translation of the meaning. The explanations follow *Al-Tafsir al-Muyassar*, a short and widely used Arabic commentary."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
           "transliteration": "Qul a'oodhu / bi rabbil-falaq",
-          "meaning": "Say, \"I seek refuge in the Lord of daybreak"
+          "meaning": "Say, \"I seek refuge in the Lord of daybreak",
+          "audio": "/audio/quran/113001.mp3"
         }
       },
       {
-        "p": "*Al-Falaq* is the daybreak, the morning. You call on Allah as the Lord of the morning. There is comfort in that: the One who brings each new day is the One you are turning to."
+        "p": "*Al-Falaq* is the daybreak, the morning. The One who brings each new day is the One you are turning to."
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ مَا خَلَقَ",
           "transliteration": "Min sharri maa khalaq",
-          "meaning": "From the evil of that which He created"
+          "meaning": "From the evil of that which He created",
+          "audio": "/audio/quran/113002.mp3"
         }
       },
       {
-        "p": "This covers the harm that could come from anything Allah created. Instead of listing every possible danger, you place all of them in His hands at once."
+        "p": "This covers the harm that could come from anything Allah created. Instead of listing every danger, you place them all in His hands at once."
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
           "transliteration": "Wa min sharri ghaasiqin / idhaa waqab",
-          "meaning": "And from the evil of darkness when it settles"
+          "meaning": "And from the evil of darkness when it settles",
+          "audio": "/audio/quran/113003.mp3"
         }
       },
       {
-        "p": "*Ghaasiq* is the deep darkness of night, and *waqab* means that it comes in and settles. You ask for protection from the night when it grows dark, and from any harm it may hide."
+        "p": "*Ghaasiq* is the deep darkness of night, and *waqab* means that it comes in and settles. You ask for protection from the night and from any harm it may hide."
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
           "transliteration": "Wa min sharrin-naffaathaati / fil-'uqad",
-          "meaning": "And from the evil of the blowers in knots"
+          "meaning": "And from the evil of the blowers in knots",
+          "audio": "/audio/quran/113004.mp3"
         }
       },
       {
@@ -64,11 +91,12 @@
         "phrase": {
           "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
           "transliteration": "Wa min sharri haasidin / idhaa hasad",
-          "meaning": "And from the evil of an envier when he envies.\""
+          "meaning": "And from the evil of an envier when he envies.\"",
+          "audio": "/audio/quran/113005.mp3"
         }
       },
       {
-        "p": "Envy (*hasad*) is resenting a blessing Allah has given someone else, wishing it would be taken away, and wishing them harm. You ask Allah to protect you from an envious person when that envy stirs in them."
+        "p": "Envy (*hasad*) is resenting a blessing Allah has given someone else, wishing it would be taken away, and wishing them harm. You ask Allah to protect you from it."
       },
       {
         "h": "When the Prophet recited it"
@@ -77,11 +105,39 @@
         "p": "The Prophet taught simple times to recite Al-Falaq, often together with Al-Ikhlas and An-Nas. Al-Falaq and An-Nas together are called **al-Mu'awwidhatayn**, \"the two surahs of seeking refuge\"."
       },
       {
-        "ul": [
-          "**Morning and evening.** 'Abdullah ibn Khubayb, may Allah be pleased with him, reported that the Prophet told him to recite Al-Ikhlas, Al-Falaq and An-Nas three times in the evening and in the morning, and said: \"they will grant you protection from everything.\"",
-          "**Before sleep.** Aisha, may Allah be pleased with her, reported that every night when the Prophet went to bed, he would join his palms together, blow lightly into them, and recite Al-Ikhlas, Al-Falaq and An-Nas. Then he would wipe his hands over as much of his body as he could, starting with his head, his face and the front of his body. He did this three times.",
-          "**After each prayer.** 'Uqbah ibn 'Amir, may Allah be pleased with him, said that the Prophet told him to recite al-Mu'awwidhatayn (Al-Falaq and An-Nas) after every prayer."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "sun",
+              "label": "Morning and evening",
+              "text": "The Prophet told 'Abdullah ibn Khubayb to recite Al-Ikhlas, Al-Falaq and An-Nas three times."
+            },
+            {
+              "icon": "moon",
+              "label": "Before sleep",
+              "text": "The Prophet joined his palms, blew lightly into them, recited the three surahs, and wiped over his body, three times."
+            },
+            {
+              "icon": "hands",
+              "label": "After each prayer",
+              "text": "The Prophet told 'Uqbah ibn 'Amir to recite Al-Falaq and An-Nas."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "The reports behind these times",
+          "blocks": [
+            {
+              "ul": [
+                "**Morning and evening.** 'Abdullah ibn Khubayb, may Allah be pleased with him, reported that the Prophet told him to recite Al-Ikhlas, Al-Falaq and An-Nas three times in the evening and in the morning, and said: \"they will grant you protection from everything.\"",
+                "**Before sleep.** Aisha, may Allah be pleased with her, reported that every night when the Prophet went to bed, he would join his palms together, blow lightly into them, and recite Al-Ikhlas, Al-Falaq and An-Nas. Then he would wipe his hands over as much of his body as he could, starting with his head, his face and the front of his body. He did this three times.",
+                "**After each prayer.** 'Uqbah ibn 'Amir, may Allah be pleased with him, said that the Prophet told him to recite al-Mu'awwidhatayn (Al-Falaq and An-Nas) after every prayer."
+              ]
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -112,26 +168,60 @@
       },
       {
         "p": "Next, you will learn to recite Surah An-Nas, the last surah of the Quran and the partner of Al-Falaq."
+      },
+      {
+        "more": {
+          "title": "About the translation",
+          "blocks": [
+            {
+              "p": "The English under each verse is the Saheeh International translation of the meaning. The explanations follow *Al-Tafsir al-Muyassar*, a short and widely used Arabic commentary."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "تعلّمك سورة الفلق ماذا تفعل حين يقلقك شيء: أن تلجأ إلى الله وتطلب حمايته. في هذا الدرس تمر على آياتها الخمس، وتعرف متى كان النبي محمد صلى الله عليه وسلم يقرؤها."
+        "p": "تعلّمك سورة الفلق ماذا تفعل حين يقلقك شيء: أن تلجأ إلى الله، الإله الواحد، وتطلب حمايته."
       },
       {
-        "p": "الكلمة المفتاح هي «أَعُوذُ»، أي ألتجئ وأعتصم. والاستعاذة أن تلجأ إلى من هو أقوى منك طلبا للأمان وتتمسك به، وفي هذه السورة تلجأ إلى الله."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "قُلْ",
+              "transliteration": "",
+              "meaning": "قل"
+            },
+            {
+              "arabic": "أَعُوذُ",
+              "transliteration": "",
+              "meaning": "ألتجئ وأعتصم"
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "",
+              "meaning": "برب"
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "transliteration": "",
+              "meaning": "الصبح"
+            }
+          ]
+        }
+      },
+      {
+        "p": "والاستعاذة أن تلجأ إلى من هو أقوى منك طلبا للأمان وتتمسك به، وفي هذه السورة تلجأ إلى الله."
       },
       {
         "h": "الآيات آية آية"
       },
       {
-        "p": "نعتمد في شرح الآيات على «التفسير الميسر»، وهو تفسير مختصر سهل العبارة واسع الانتشار."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/113001.mp3"
         }
       },
       {
@@ -141,7 +231,8 @@
         "phrase": {
           "arabic": "مِن شَرِّ مَا خَلَقَ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/113002.mp3"
         }
       },
       {
@@ -151,7 +242,8 @@
         "phrase": {
           "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/113003.mp3"
         }
       },
       {
@@ -161,7 +253,8 @@
         "phrase": {
           "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/113004.mp3"
         }
       },
       {
@@ -171,7 +264,8 @@
         "phrase": {
           "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/113005.mp3"
         }
       },
       {
@@ -184,11 +278,39 @@
         "p": "علّم النبي صلى الله عليه وسلم أوقاتا سهلة تُقرأ فيها سورة الفلق، وكثيرا ما تكون مع سورتي الإخلاص والناس. وتسمى سورتا الفلق والناس معا **المعوّذتين**."
       },
       {
-        "ul": [
-          "**في الصباح والمساء.** عن عبد الله بن خبيب رضي الله عنه أن النبي صلى الله عليه وسلم أمره أن يقرأ سورة الإخلاص والمعوذتين حين يمسي وحين يصبح ثلاث مرات، وقال: «تَكْفِيكَ مِنْ كُلِّ شَيْءٍ».",
-          "**قبل النوم.** عن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم كان إذا أوى إلى فراشه كل ليلة جمع كفيه ثم نفث فيهما وقرأ سورة الإخلاص والفلق والناس، ثم مسح بهما ما استطاع من جسده، يبدأ برأسه ووجهه وما أقبل من جسده، ويفعل ذلك ثلاث مرات.",
-          "**بعد كل صلاة.** عن عقبة بن عامر رضي الله عنه أن رسول الله صلى الله عليه وسلم أمره أن يقرأ بالمعوذتين في دبر كل صلاة."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "sun",
+              "label": "الصباح والمساء",
+              "text": "أمر النبي صلى الله عليه وسلم عبد الله بن خبيب أن يقرأ الإخلاص والمعوذتين ثلاث مرات."
+            },
+            {
+              "icon": "moon",
+              "label": "قبل النوم",
+              "text": "كان النبي صلى الله عليه وسلم يجمع كفيه وينفث فيهما ويقرأ السور الثلاث، ثم يمسح بهما جسده، ثلاث مرات."
+            },
+            {
+              "icon": "hands",
+              "label": "بعد كل صلاة",
+              "text": "أمر النبي صلى الله عليه وسلم عقبة بن عامر أن يقرأ بالمعوذتين."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "الروايات في هذه الأوقات",
+          "blocks": [
+            {
+              "ul": [
+                "**في الصباح والمساء.** عن عبد الله بن خبيب رضي الله عنه أن النبي صلى الله عليه وسلم أمره أن يقرأ سورة الإخلاص والمعوذتين حين يمسي وحين يصبح ثلاث مرات، وقال: «تَكْفِيكَ مِنْ كُلِّ شَيْءٍ».",
+                "**قبل النوم.** عن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم كان إذا أوى إلى فراشه كل ليلة جمع كفيه ثم نفث فيهما وقرأ سورة الإخلاص والفلق والناس، ثم مسح بهما ما استطاع من جسده، يبدأ برأسه ووجهه وما أقبل من جسده، ويفعل ذلك ثلاث مرات.",
+                "**بعد كل صلاة.** عن عقبة بن عامر رضي الله عنه أن رسول الله صلى الله عليه وسلم أمره أن يقرأ بالمعوذتين في دبر كل صلاة."
+              ]
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -219,56 +341,93 @@
       },
       {
         "p": "في الدرس القادم ستتعلم قراءة سورة الناس، آخر سورة في القرآن ورفيقة سورة الفلق."
+      },
+      {
+        "more": {
+          "title": "عن الشرح",
+          "blocks": [
+            {
+              "p": "نعتمد في شرح الآيات على «التفسير الميسر»، وهو تفسير مختصر سهل العبارة واسع الانتشار."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "La sura Al-Falaq te enseña qué hacer cuando algo te preocupa: acudir a Allah (la palabra árabe para Dios, el Dios Único) y pedirle Su protección. En esta lección recorrerás sus cinco aleyas y verás cuándo la recitaba el Profeta Muhammad, la paz sea con él."
+        "p": "La sura Al-Falaq te enseña qué hacer cuando algo te preocupa: acudir a Allah (la palabra árabe para Dios, el Dios Único) y pedirle Su protección."
       },
       {
-        "p": "La palabra clave es *a'uudhu*, \"me refugio\". Refugiarse es correr hacia alguien más fuerte para estar a salvo y aferrarse a él. En esta sura, corres hacia Allah."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "قُلْ",
+              "transliteration": "Qul",
+              "meaning": "di"
+            },
+            {
+              "arabic": "أَعُوذُ",
+              "transliteration": "a'uudhu",
+              "meaning": "me refugio"
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbi",
+              "meaning": "en el Señor de"
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "transliteration": "al-falaq",
+              "meaning": "el amanecer"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Refugiarse es correr hacia alguien más fuerte para estar a salvo y aferrarse a él. En esta sura, corres hacia Allah."
       },
       {
         "h": "Aleya por aleya"
       },
       {
-        "p": "El texto en español debajo de cada aleya es la traducción del significado de Isa García. Las explicaciones siguen *Al-Tafsir al-Muyassar*, un comentario del Corán en árabe, breve y muy utilizado."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
           "transliteration": "Qul a'uudhu / bi rabbil-falaq",
-          "meaning": "Di: \"Me refugio en el Señor del amanecer,"
+          "meaning": "Di: \"Me refugio en el Señor del amanecer,",
+          "audio": "/audio/quran/113001.mp3"
         }
       },
       {
-        "p": "*Al-Falaq* es el alba, la mañana. Invocas a Allah como el Señor de la mañana. Eso da consuelo: Aquel que trae cada nuevo día es Aquel a quien acudes."
+        "p": "*Al-Falaq* es el alba, la mañana. Aquel que trae cada nuevo día es Aquel a quien acudes."
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ مَا خَلَقَ",
           "transliteration": "Min sharri maa jalaq",
-          "meaning": "de todo el mal que existe en lo que Él creó,"
+          "meaning": "de todo el mal que existe en lo que Él creó,",
+          "audio": "/audio/quran/113002.mp3"
         }
       },
       {
-        "p": "Esto abarca el daño que podría venir de cualquier cosa que Allah creó. En lugar de enumerar cada peligro posible, los pones todos en Sus manos de una vez."
+        "p": "Esto abarca el daño que podría venir de cualquier cosa que Allah creó. En lugar de enumerar cada peligro, los pones todos en Sus manos de una vez."
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
           "transliteration": "Wa min sharri ghaasiqin / idhaa waqab",
-          "meaning": "del mal de la oscuridad de la noche cuando se extiende,"
+          "meaning": "del mal de la oscuridad de la noche cuando se extiende,",
+          "audio": "/audio/quran/113003.mp3"
         }
       },
       {
-        "p": "*Ghaasiq* es la oscuridad profunda de la noche, y *waqab* significa que entra y se instala. Pides protección de la noche cuando oscurece y de cualquier daño que pueda esconder."
+        "p": "*Ghaasiq* es la oscuridad profunda de la noche, y *waqab* significa que entra y se instala. Pides protección de la noche y de cualquier daño que pueda esconder."
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
           "transliteration": "Wa min sharrin-naffaathaati / fil-'uqad",
-          "meaning": "del mal de las [hechiceras] sopladoras de nudos,"
+          "meaning": "del mal de las [hechiceras] sopladoras de nudos,",
+          "audio": "/audio/quran/113004.mp3"
         }
       },
       {
@@ -278,11 +437,12 @@
         "phrase": {
           "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
           "transliteration": "Wa min sharri haasidin / idhaa hasad",
-          "meaning": "y del mal del envidioso cuando envidia\"."
+          "meaning": "y del mal del envidioso cuando envidia\".",
+          "audio": "/audio/quran/113005.mp3"
         }
       },
       {
-        "p": "La envidia (*hasad*) es sentir rencor por una bendición que Allah le dio a otra persona, desear que se la quiten y desearle daño. Pides a Allah que te proteja de la persona envidiosa cuando esa envidia se despierta en ella."
+        "p": "La envidia (*hasad*) es sentir rencor por una bendición que Allah le dio a otra persona, desear que se la quiten y desearle daño. Pides a Allah que te proteja de ella."
       },
       {
         "h": "Cuándo la recitaba el Profeta"
@@ -291,11 +451,39 @@
         "p": "El Profeta enseñó momentos sencillos para recitar Al-Falaq, muchas veces junto con Al-Ijlás y An-Nas. A Al-Falaq y An-Nas juntas se les llama **al-Mu'awwidhatayn**, \"las dos suras de buscar refugio\"."
       },
       {
-        "ul": [
-          "**Al amanecer y al anochecer.** Abdullah ibn Jubaib, que Allah esté complacido con él, narró que el Profeta le dijo que recitara Al-Ijlás, Al-Falaq y An-Nas tres veces al anochecer y al amanecer, y le dijo: \"te bastará como protección para todo\".",
-          "**Antes de dormir.** Aisha, que Allah esté complacido con ella, narró que cada noche, al acostarse, el Profeta juntaba las palmas de las manos, soplaba suavemente en ellas y recitaba Al-Ijlás, Al-Falaq y An-Nas. Luego pasaba las manos por todo lo que alcanzaba de su cuerpo, empezando por la cabeza, la cara y la parte delantera del cuerpo. Lo hacía tres veces.",
-          "**Después de cada oración.** Uqba ibn Amir, que Allah esté complacido con él, contó que el Profeta le ordenó recitar al-Mu'awwidhatayn (Al-Falaq y An-Nas) después de cada oración."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "sun",
+              "label": "Al amanecer y al anochecer",
+              "text": "El Profeta le dijo a Abdullah ibn Jubaib que recitara Al-Ijlás, Al-Falaq y An-Nas tres veces."
+            },
+            {
+              "icon": "moon",
+              "label": "Antes de dormir",
+              "text": "El Profeta juntaba las palmas, soplaba suavemente en ellas, recitaba las tres suras y pasaba las manos por su cuerpo, tres veces."
+            },
+            {
+              "icon": "hands",
+              "label": "Después de cada oración",
+              "text": "El Profeta le ordenó a Uqba ibn Amir recitar Al-Falaq y An-Nas."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Los relatos detrás de estos momentos",
+          "blocks": [
+            {
+              "ul": [
+                "**Al amanecer y al anochecer.** Abdullah ibn Jubaib, que Allah esté complacido con él, narró que el Profeta le dijo que recitara Al-Ijlás, Al-Falaq y An-Nas tres veces al anochecer y al amanecer, y le dijo: \"te bastará como protección para todo\".",
+                "**Antes de dormir.** Aisha, que Allah esté complacido con ella, narró que cada noche, al acostarse, el Profeta juntaba las palmas de las manos, soplaba suavemente en ellas y recitaba Al-Ijlás, Al-Falaq y An-Nas. Luego pasaba las manos por todo lo que alcanzaba de su cuerpo, empezando por la cabeza, la cara y la parte delantera del cuerpo. Lo hacía tres veces.",
+                "**Después de cada oración.** Uqba ibn Amir, que Allah esté complacido con él, contó que el Profeta le ordenó recitar al-Mu'awwidhatayn (Al-Falaq y An-Nas) después de cada oración."
+              ]
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -326,6 +514,16 @@
       },
       {
         "p": "En la próxima lección aprenderás a recitar la sura An-Nas, la última sura del Corán y compañera de Al-Falaq."
+      },
+      {
+        "more": {
+          "title": "Sobre la traducción",
+          "blocks": [
+            {
+              "p": "El texto en español debajo de cada aleya es la traducción del significado de Isa García. Las explicaciones siguen *Al-Tafsir al-Muyassar*, un comentario del Corán en árabe, breve y muy utilizado."
+            }
+          ]
+        }
       }
     ]
   },

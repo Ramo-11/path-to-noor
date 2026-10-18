@@ -1,0 +1,41 @@
+{
+  "slug": "watch-sabr",
+  "minutes": 62,
+  "title": {
+    "en": "Patience (sabr)",
+    "ar": "الصبر",
+    "es": "La paciencia (sabr)"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Mufti Menk on the virtue of patience and how to hold on to it in hard times."
+      }
+    ],
+    "ar": [
+      {
+        "p": "المفتي إسماعيل منك عن فضل الصبر وكيف تتمسّك به في الأوقات الصعبة."
+      }
+    ],
+    "es": [
+      {
+        "p": "Mufti Menk sobre la virtud de la paciencia y cómo mantenerla en los momentos difíciles."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=ADiTs-ZXuhw",
+    "title": {
+      "en": "Patience (sabr)",
+      "ar": "الصبر",
+      "es": "La paciencia (sabr)"
+    },
+    "by": {
+      "en": "Mufti Ismail Menk",
+      "ar": "المفتي إسماعيل منك",
+      "es": "Mufti Ismail Menk"
+    },
+    "seconds": 3690
+  }
+}

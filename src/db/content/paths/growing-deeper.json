@@ -8,9 +8,9 @@
     "es": "Profundizar en la fe"
   },
   "description": {
-    "en": "Your prayer and the basics are in place, and now you are ready to go deeper. This path brings you closer to the Quran, the life of the Prophet Muhammad, peace be upon him, the prophets before him, his companions, and his Sunnah, one gentle step at a time.",
-    "ar": "لقد استقرت صلاتك وأساسيات دينك، وأنت الآن مستعد للتعمّق أكثر. يقرّبك هذا المسار من القرآن الكريم، ومن سيرة النبي محمد صلى الله عليه وسلم، والأنبياء من قبله، وأصحابه، وسنّته، خطوة هادئة بعد خطوة.",
-    "es": "Tu oración y lo básico ya están en su lugar, y ahora estás listo para profundizar. Este camino te acerca al Corán, a la vida del Profeta Muhammad, la paz sea con él, a los profetas anteriores a él, a sus compañeros y a su Sunnah, un paso sereno tras otro."
+    "en": "Your prayer and the basics are in place, and now you are ready to go deeper. This path brings you closer to the Quran, the life of the Prophet Muhammad, peace be upon him, the prophets before him, his companions, his Sunnah, belief in the unseen, and the schools of thought, one gentle step at a time.",
+    "ar": "لقد استقرت صلاتك وأساسيات دينك، وأنت الآن مستعد للتعمّق أكثر. يقرّبك هذا المسار من القرآن الكريم، ومن سيرة النبي محمد صلى الله عليه وسلم، والأنبياء من قبله، وأصحابه، وسنّته، والإيمان بالغيب، والمذاهب الإسلامية، خطوة هادئة بعد خطوة.",
+    "es": "Tu oración y lo básico ya están en su lugar, y ahora estás listo para profundizar. Este camino te acerca al Corán, a la vida del Profeta Muhammad, la paz sea con él, a los profetas anteriores a él, a sus compañeros, a su Sunnah, a la fe en lo oculto y a las escuelas de pensamiento, un paso sereno tras otro."
   },
   "outcomes": [
     {
@@ -37,6 +37,16 @@
       "en": "Understand what the Sunnah is and how hadith are checked, and live by a few authentic hadiths",
       "ar": "تفهم معنى السنّة وكيف يُتحقَّق من صحة الحديث، وتعمل بأحاديث صحيحة مختارة",
       "es": "Entender qué es la Sunnah y cómo se verifican los hadices, y vivir según algunos hadices auténticos"
+    },
+    {
+      "en": "Draw closer to Allah through His names, repentance, patience, and steadfastness",
+      "ar": "تتقرّب إلى الله بمعرفة أسمائه وبالتوبة والصبر والثبات",
+      "es": "Acercarte a Allah a través de Sus nombres, el arrepentimiento, la paciencia y la constancia"
+    },
+    {
+      "en": "Know what Islam teaches about the unseen, from the angels to the life after death, and how the schools of thought differ",
+      "ar": "تعرف ما يعلّمه الإسلام عن الغيب، من الملائكة إلى ما بعد الموت، وكيف تختلف المذاهب",
+      "es": "Conocer lo que enseña el Islam sobre lo oculto, de los ángeles a la vida después de la muerte, y en qué difieren las escuelas"
     }
   ],
   "steps": [
@@ -52,7 +62,9 @@
         "ar": "تعرّف كيف وصل إلينا القرآن، وكيف تبدأ قراءته، ومقطعين تقرؤهما كل ليلة، وعادة يومية هادئة.",
         "es": "Aprende cómo nos llegó el Corán, cómo empezar a leerlo, dos pasajes para recitar cada noche y un hábito diario sereno."
       },
-      "topics": ["quran"],
+      "topics": [
+        "quran"
+      ],
       "lessons": [
         "quran-revelation-preservation",
         "quran-reading-as-new-muslim",
@@ -73,7 +85,9 @@
         "ar": "سِر مع سيرة النبي محمد صلى الله عليه وسلم من مكة إلى المدينة، وتعلّم كيف تقتدي به.",
         "es": "Recorre la vida del Profeta Muhammad, la paz sea con él, de La Meca a Medina, y descubre cómo seguir su ejemplo."
       },
-      "topics": ["res-prophets"],
+      "topics": [
+        "res-prophets"
+      ],
       "lessons": [
         "seerah-early-life",
         "seerah-first-revelation",
@@ -95,7 +109,9 @@
         "ar": "تعرّف على الأنبياء الذين أرسلهم الله قبل محمد صلى الله عليه وسلم، ومنهم إبراهيم وموسى وعيسى عليهم السلام، والرسالة الواحدة التي جمعتهم.",
         "es": "Conoce a los profetas que Allah envió antes de Muhammad, entre ellos Ibrahim, Musa e Isa, la paz sea con ellos, y el único mensaje que todos compartieron."
       },
-      "topics": ["res-prophets"],
+      "topics": [
+        "res-prophets"
+      ],
       "lessons": [
         "prophets-who-are-they",
         "prophets-ibrahim",
@@ -115,7 +131,9 @@
         "ar": "تعرّف على الرجال والنساء الذين وقفوا مع النبي صلى الله عليه وسلم، مثل خديجة وأبي بكر وعمر وبلال رضي الله عنهم.",
         "es": "Conoce a los hombres y mujeres que estuvieron junto al Profeta, como Jadiya, Abu Bakr, Umar y Bilal, que Allah esté complacido con ellos."
       },
-      "topics": ["res-sahaba"],
+      "topics": [
+        "res-sahaba"
+      ],
       "lessons": [
         "companions-who-are-they",
         "companions-khadijah",
@@ -136,11 +154,82 @@
         "ar": "تعرّف على معنى السنّة، وكيف ميّز العلماء الأحاديث الصحيحة، وخمسة أحاديث تعيش بها.",
         "es": "Aprende qué es la Sunnah, cómo los sabios verificaron qué hadices son auténticos y cinco hadices para vivir según ellos."
       },
-      "topics": ["res-hadith"],
+      "topics": [
+        "res-hadith"
+      ],
       "lessons": [
         "hadith-what-is-sunnah",
         "hadith-how-authenticated",
         "hadith-five-to-live-by"
+      ]
+    },
+    {
+      "slug": "deeper-closer-to-allah",
+      "topics": [
+        "pillars-of-faith"
+      ],
+      "title": {
+        "en": "Growing closer to Allah",
+        "ar": "التقرّب إلى الله",
+        "es": "Acercarse a Allah"
+      },
+      "description": {
+        "en": "Get to know Allah through His names, and learn repentance, hope, patience, and steadfastness.",
+        "ar": "تعرّف على الله بأسمائه، وتعلّم التوبة والرجاء والصبر والثبات.",
+        "es": "Conoce a Allah a través de Sus nombres y aprende el arrepentimiento, la esperanza, la paciencia y la constancia."
+      },
+      "lessons": [
+        "watch-allah-names-mercy",
+        "watch-tawbah",
+        "watch-never-lose-hope",
+        "watch-sabr",
+        "watch-istiqamah"
+      ]
+    },
+    {
+      "slug": "deeper-unseen",
+      "topics": [
+        "pillars-of-faith"
+      ],
+      "title": {
+        "en": "Belief in the unseen",
+        "ar": "الإيمان بالغيب",
+        "es": "La fe en lo oculto"
+      },
+      "description": {
+        "en": "Learn what Islam teaches about the angels, the jinn, divine decree, death and the grave, the Day of Judgment, and Paradise.",
+        "ar": "تعرّف على ما يعلّمه الإسلام عن الملائكة والجن والقدر والموت والقبر ويوم القيامة والجنة.",
+        "es": "Aprende lo que enseña el Islam sobre los ángeles, los yinn, el decreto divino, la muerte y la tumba, el Día del Juicio y el Paraíso."
+      },
+      "lessons": [
+        "watch-angels",
+        "watch-jinn",
+        "watch-qadar",
+        "watch-why-bad-things-happen",
+        "watch-day-of-judgment",
+        "watch-death-and-barzakh",
+        "watch-entering-jannah",
+        "watch-shaytan"
+      ]
+    },
+    {
+      "slug": "deeper-schools",
+      "topics": [
+        "res-hadith"
+      ],
+      "title": {
+        "en": "Schools of thought",
+        "ar": "المذاهب الإسلامية",
+        "es": "Las escuelas de pensamiento"
+      },
+      "description": {
+        "en": "Learn what the four schools of Islamic law are, how to approach them, and how Sunni and Shia Muslims differ.",
+        "ar": "تعرّف على المذاهب الفقهية الأربعة وكيف تتعامل معها، وعلى الفرق بين السنة والشيعة.",
+        "es": "Aprende qué son las cuatro escuelas de la ley islámica, cómo acercarte a ellas y en qué se diferencian suníes y chiíes."
+      },
+      "lessons": [
+        "watch-four-madhhabs",
+        "watch-sunni-and-shia"
       ]
     }
   ]

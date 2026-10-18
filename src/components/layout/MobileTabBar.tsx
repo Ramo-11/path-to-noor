@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMounted } from "@/lib/use-mounted";
 import { useTranslations } from "next-intl";
 import { useSession } from "next-auth/react";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -11,11 +11,7 @@ export function MobileTabBar() {
   const t = useTranslations("nav");
   const pathname = usePathname();
   const { data: session, status } = useSession();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useMounted();
 
   if (isTabBarHidden(pathname)) return null;
 
@@ -44,7 +40,7 @@ export function MobileTabBar() {
               key={tab.href}
               href={tab.href}
               aria-current={active ? "page" : undefined}
-              className={`flex flex-col items-center justify-center gap-0.5 text-[0.6875rem] font-medium transition-colors duration-150 ${
+              className={`flex flex-col items-center justify-center gap-1 text-[0.8125rem] leading-none font-medium transition-colors duration-150 ${
                 active ? "text-primary" : "text-ink-3"
               }`}
             >

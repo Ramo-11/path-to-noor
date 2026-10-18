@@ -24,21 +24,15 @@ export default function SettingsPage() {
   const t = useTranslations("settings");
   const tCommon = useTranslations("common");
   const locale = useLocale();
-  const { status } = useSession();
+  const { status, data: session } = useSession();
 
   const [profile, setProfile] = useState<ProfileData | null>(null);
-  const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
-    if (status !== "authenticated") {
-      setLoading(false);
-      return;
-    }
+    if (status !== "authenticated") return;
 
     let cancelled = false;
-    setLoading(true);
-    setLoadError(false);
 
     fetch("/api/user/profile")
       .then((res) => {
@@ -46,19 +40,20 @@ export default function SettingsPage() {
         return res.json();
       })
       .then((data) => {
-        if (!cancelled && data.data) setProfile(data.data);
+        if (cancelled) return;
+        if (data.data) setProfile(data.data);
+        else setLoadError(true);
       })
       .catch(() => {
         if (!cancelled) setLoadError(true);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
       });
 
     return () => {
       cancelled = true;
     };
   }, [status]);
+
+  const loading = status === "loading" || (status === "authenticated" && !profile && !loadError);
 
   if (status === "unauthenticated") {
     return (
@@ -121,7 +116,11 @@ export default function SettingsPage() {
           <PasswordForm hasPassword={profile.hasPassword} />
         </section>
         <section className="card p-6 sm:p-8">
-          <AccountActions locale={locale} />
+          <AccountActions
+            locale={locale}
+            hasPassword={profile.hasPassword}
+            canDelete={session?.user?.role !== "admin" && session?.user?.role !== "super_admin"}
+          />
         </section>
       </div>
     </div>

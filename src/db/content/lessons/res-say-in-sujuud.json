@@ -1,6 +1,6 @@
 {
   "slug": "res-say-in-sujuud",
-  "minutes": 8,
+  "minutes": 5,
   "title": {
     "en": "What to say in prostration (sujud)",
     "ar": "ماذا تقول في السجود",
@@ -9,7 +9,26 @@
   "body": {
     "en": [
       {
-        "p": "After rising from ruku, you go down into *sujud* (prostration), with your forehead and nose on the ground. The Prophet Muhammad, peace be upon him, said: \"I have been commanded to prostrate on seven bones: the forehead (and he pointed to his nose), the hands, the knees, and the extremities of the feet\" (Sahih al-Bukhari 812 and Sahih Muslim 490). In each rak'ah you make two prostrations, with a short sitting between them."
+        "p": "After rising from ruku, you go down into *sujud* (prostration), with your forehead and nose on the ground. In each rak'ah you make two prostrations, with a short sitting between them."
+      },
+      {
+        "facts": {
+          "title": "Seven points on the ground",
+          "items": [
+            {
+              "label": "Forehead and nose"
+            },
+            {
+              "label": "Both hands"
+            },
+            {
+              "label": "Both knees"
+            },
+            {
+              "label": "Toes of both feet"
+            }
+          ]
+        }
       },
       {
         "p": "Sujud is the lowest position your body can take, and it is where you are closest to Allah. The Prophet said that a servant is nearest to his Lord while in prostration, so make plenty of *dua* (supplication) there (Sahih Muslim 482). Allah says in the Quran:"
@@ -19,40 +38,96 @@
         "cite": "Quran 96:19 (Saheeh International translation)"
       },
       {
+        "more": {
+          "title": "The Prophet's words",
+          "blocks": [
+            {
+              "p": "The Prophet Muhammad, peace be upon him, said: \"I have been commanded to prostrate on seven bones: the forehead (and he pointed to his nose), the hands, the knees, and the extremities of the feet\" (Sahih al-Bukhari 812 and Sahih Muslim 490)."
+            }
+          ]
+        }
+      },
+      {
         "h": "What to say in sujud"
       },
       {
         "phrase": {
           "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
           "transliteration": "Subhana Rabbiyal-A'la",
-          "meaning": "Glory be to my Lord, the Most High."
+          "meaning": "Glory be to my Lord, the Most High.",
+          "audio": "/audio/phrases/res-say-in-sujuud-1.mp3"
         }
       },
       {
-        "p": "This is what Hudhayfah (may Allah be pleased with him) heard the Prophet say in his prostration (Sahih Muslim 772 and Sunan al-Tirmidhi 262). In ruku you praised your Lord as the Most Great. Now, with your face on the ground, you declare that He is the Most High. The words echo the Quran:"
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "سُبْحَانَ",
+              "transliteration": "Subhana",
+              "meaning": "glory be to"
+            },
+            {
+              "arabic": "رَبِّيَ",
+              "transliteration": "Rabbiya",
+              "meaning": "my Lord"
+            },
+            {
+              "arabic": "الأَعْلَى",
+              "transliteration": "Al-A'la",
+              "meaning": "the Most High"
+            }
+          ]
+        }
+      },
+      {
+        "p": "In ruku you praised your Lord as the Most Great. Now, with your face on the ground, you declare that He is the Most High. The words echo the Quran:"
       },
       {
         "quote": "Exalt the name of your Lord, the Most High",
         "cite": "Quran 87:1 (Saheeh International translation)"
       },
       {
-        "p": "As in ruku, most Muslims say it three times, and once is fine while you are learning. Stay still for a moment; the Prophet taught: \"then prostrate until you are at ease in prostration\" (Sahih al-Bukhari 757 and Sahih Muslim 397)."
+        "p": "As in ruku, most Muslims say it three times, and once is fine while you are learning. Stay still for a moment."
+      },
+      {
+        "more": {
+          "title": "Where this comes from",
+          "blocks": [
+            {
+              "p": "This is what Hudhayfah (may Allah be pleased with him) heard the Prophet say in his prostration (Sahih Muslim 772 and Sunan al-Tirmidhi 262)."
+            },
+            {
+              "p": "The Prophet taught: \"then prostrate until you are at ease in prostration\" (Sahih al-Bukhari 757 and Sahih Muslim 397)."
+            }
+          ]
+        }
       },
       {
         "h": "Making dua in sujud"
       },
       {
-        "p": "Dua means asking Allah for what you need. Because sujud is the moment of closeness, it is a special time to ask. After *Subhana Rabbiyal-A'la*, you may add a dua. Aisha (may Allah be pleased with her) reported that the Prophet often said this in both ruku and sujud (Sahih al-Bukhari 817 and Sahih Muslim 484):"
+        "p": "Dua means asking Allah for what you need. Sujud is the moment of closeness, so it is a special time to ask. After *Subhana Rabbiyal-A'la*, you may add a dua. Aisha (may Allah be pleased with her) reported that the Prophet often said this in both ruku and sujud (Sahih al-Bukhari 817 and Sahih Muslim 484):"
       },
       {
         "phrase": {
           "arabic": "سُبْحَانَكَ اللهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللهُمَّ اغْفِرْ لِي",
           "transliteration": "Subhanakallahumma Rabbana wa bihamdika, Allahummaghfir li",
-          "meaning": "Glory be to You, O Allah, our Lord, and praise be to You. O Allah, forgive me."
+          "meaning": "Glory be to You, O Allah, our Lord, and praise be to You. O Allah, forgive me.",
+          "audio": "/audio/phrases/res-say-in-sujuud-2.mp3"
         }
       },
       {
-        "p": "Learning a few short duas in Arabic is a good goal. You can always ask Allah for anything in your own words and your own language outside the prayer, for example right after you finish. Scholars differ on making dua inside the prayer in your own words or in other languages, so ask your local imam how your masjid teaches it."
+        "p": "You can always ask Allah for anything in your own words and your own language outside the prayer, for example right after you finish."
+      },
+      {
+        "more": {
+          "title": "Dua in your own words",
+          "blocks": [
+            {
+              "p": "Scholars differ on making dua inside the prayer in your own words or in other languages, so ask your local imam how your masjid teaches it."
+            }
+          ]
+        }
       },
       {
         "h": "Sitting between the two prostrations"
@@ -64,11 +139,22 @@
         "phrase": {
           "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
           "transliteration": "Rabbighfir li, Rabbighfir li",
-          "meaning": "My Lord, forgive me. My Lord, forgive me."
+          "meaning": "My Lord, forgive me. My Lord, forgive me.",
+          "audio": "/audio/phrases/res-say-in-sujuud-3.mp3"
         }
       },
       {
-        "p": "Then you say *Allahu Akbar* and make the second sujud in the same way. Abu Hurayrah (may Allah be pleased with him) described the Prophet saying Allahu Akbar as he went down into each prostration and as he raised his head from it (Sahih al-Bukhari 789, agreed upon)."
+        "p": "Then you say *Allahu Akbar* and make the second sujud in the same way."
+      },
+      {
+        "more": {
+          "title": "On saying Allahu Akbar",
+          "blocks": [
+            {
+              "p": "Abu Hurayrah (may Allah be pleased with him) described the Prophet saying Allahu Akbar as he went down into each prostration and as he raised his head from it (Sahih al-Bukhari 789, agreed upon)."
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -105,7 +191,26 @@
     ],
     "ar": [
       {
-        "p": "بعد الرفع من الركوع تسجد، فتضع جبهتك وأنفك على الأرض. قال النبي محمد صلى الله عليه وسلم: «أُمِرْتُ أَنْ أَسْجُدَ عَلَى سَبْعَةِ أَعْظُمٍ: عَلَى الْجَبْهَةِ وَأَشَارَ بِيَدِهِ عَلَى أَنْفِهِ، وَالْيَدَيْنِ، وَالرُّكْبَتَيْنِ، وَأَطْرَافِ الْقَدَمَيْنِ» (صحيح البخاري 812 وصحيح مسلم 490). وفي كل ركعة سجدتان، بينهما جلسة قصيرة."
+        "p": "بعد الرفع من الركوع تسجد، فتضع جبهتك وأنفك على الأرض. وفي كل ركعة سجدتان، بينهما جلسة قصيرة."
+      },
+      {
+        "facts": {
+          "title": "سبعة مواضع على الأرض",
+          "items": [
+            {
+              "label": "الجبهة والأنف"
+            },
+            {
+              "label": "اليدان"
+            },
+            {
+              "label": "الركبتان"
+            },
+            {
+              "label": "أطراف القدمين"
+            }
+          ]
+        }
       },
       {
         "p": "والسجود أخفض ما يكون عليه بدنك، وهو أقرب ما تكون فيه من ربك، فقد قال النبي صلى الله عليه وسلم: «أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ، فَأَكْثِرُوا الدُّعَاءَ» (صحيح مسلم 482). وقال الله تعالى:"
@@ -115,7 +220,17 @@
         "cite": "سورة العلق: 19"
       },
       {
-        "p": "أي اسجد لربك، واقترب منه بالتحبّب إليه بطاعته."
+        "more": {
+          "title": "كلام النبي",
+          "blocks": [
+            {
+              "p": "قال النبي محمد صلى الله عليه وسلم: «أُمِرْتُ أَنْ أَسْجُدَ عَلَى سَبْعَةِ أَعْظُمٍ: عَلَى الْجَبْهَةِ وَأَشَارَ بِيَدِهِ عَلَى أَنْفِهِ، وَالْيَدَيْنِ، وَالرُّكْبَتَيْنِ، وَأَطْرَافِ الْقَدَمَيْنِ» (صحيح البخاري 812 وصحيح مسلم 490)."
+            },
+            {
+              "p": "أي اسجد لربك، واقترب منه بالتحبّب إليه بطاعته."
+            }
+          ]
+        }
       },
       {
         "h": "ما تقوله في السجود"
@@ -124,18 +239,53 @@
         "phrase": {
           "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
           "transliteration": "",
-          "meaning": "أنزّه ربي الأعلى عن كل نقص وعيب."
+          "meaning": "أنزّه ربي الأعلى عن كل نقص وعيب.",
+          "audio": "/audio/phrases/res-say-in-sujuud-1.mp3"
         }
       },
       {
-        "p": "هذا ما سمعه حذيفة رضي الله عنه من النبي صلى الله عليه وسلم في سجوده (صحيح مسلم 772 وسنن الترمذي 262). ففي الركوع عظّمت ربك بأنه العظيم، وها أنت ووجهك على الأرض تُقرّ بأنه الأعلى. وفي القرآن:"
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "سُبْحَانَ",
+              "transliteration": "Subhana",
+              "meaning": "تنزيه"
+            },
+            {
+              "arabic": "رَبِّيَ",
+              "transliteration": "Rabbiya",
+              "meaning": "ربي"
+            },
+            {
+              "arabic": "الأَعْلَى",
+              "transliteration": "Al-A'la",
+              "meaning": "الأعلى"
+            }
+          ]
+        }
+      },
+      {
+        "p": "ففي الركوع عظّمت ربك بأنه العظيم، وها أنت ووجهك على الأرض تُقرّ بأنه الأعلى. وفي القرآن:"
       },
       {
         "quote": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
         "cite": "سورة الأعلى: 1"
       },
       {
-        "p": "وكما في الركوع، يكرّرها أكثر المسلمين ثلاث مرات، ولا حرج أن تقولها مرة واحدة ما دمت تتعلّم. واطمئن في سجودك، فقد قال النبي صلى الله عليه وسلم: «ثُمَّ اسْجُدْ حَتَّى تَطْمَئِنَّ سَاجِدًا، ثُمَّ ارْفَعْ حَتَّى تَطْمَئِنَّ جَالِسًا» (صحيح البخاري 757 وصحيح مسلم 397)."
+        "p": "وكما في الركوع، يكرّرها أكثر المسلمين ثلاث مرات، ولا حرج أن تقولها مرة واحدة ما دمت تتعلّم. واطمئن في سجودك."
+      },
+      {
+        "more": {
+          "title": "من أين جاء هذا",
+          "blocks": [
+            {
+              "p": "هذا ما سمعه حذيفة رضي الله عنه من النبي صلى الله عليه وسلم في سجوده (صحيح مسلم 772 وسنن الترمذي 262)."
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم: «ثُمَّ اسْجُدْ حَتَّى تَطْمَئِنَّ سَاجِدًا، ثُمَّ ارْفَعْ حَتَّى تَطْمَئِنَّ جَالِسًا» (صحيح البخاري 757 وصحيح مسلم 397)."
+            }
+          ]
+        }
       },
       {
         "h": "الدعاء في السجود"
@@ -147,11 +297,22 @@
         "phrase": {
           "arabic": "سُبْحَانَكَ اللهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللهُمَّ اغْفِرْ لِي",
           "transliteration": "",
-          "meaning": "أنزّهك يا الله ربنا، وأحمدك، اللهم اغفر لي."
+          "meaning": "أنزّهك يا الله ربنا، وأحمدك، اللهم اغفر لي.",
+          "audio": "/audio/phrases/res-say-in-sujuud-2.mp3"
         }
       },
       {
-        "p": "ومن الحسن أن تحفظ أدعية قصيرة مما ورد عن النبي صلى الله عليه وسلم. ولك دائمًا أن تدعو الله بما شئت خارج الصلاة، كأن تدعوه بعد أن تفرغ منها مباشرة. وللعلماء خلاف في الدعاء داخل الصلاة بغير ما ورد من الأدعية، أو بغير العربية، فاسأل إمام مسجدك عمّا يعلّمه."
+        "p": "ولك دائمًا أن تدعو الله بما شئت خارج الصلاة، كأن تدعوه بعد أن تفرغ منها مباشرة."
+      },
+      {
+        "more": {
+          "title": "الدعاء بكلماتك",
+          "blocks": [
+            {
+              "p": "وللعلماء خلاف في الدعاء داخل الصلاة بغير ما ورد من الأدعية، أو بغير العربية، فاسأل إمام مسجدك عمّا يعلّمه."
+            }
+          ]
+        }
       },
       {
         "h": "الجلوس بين السجدتين"
@@ -163,11 +324,22 @@
         "phrase": {
           "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
           "transliteration": "",
-          "meaning": "يا رب، امحُ ذنوبي واستر عيوبي."
+          "meaning": "يا رب، امحُ ذنوبي واستر عيوبي.",
+          "audio": "/audio/phrases/res-say-in-sujuud-3.mp3"
         }
       },
       {
-        "p": "ثم تقول: الله أكبر، وتسجد السجدة الثانية كالأولى. وقد وصف أبو هريرة رضي الله عنه النبي صلى الله عليه وسلم أنه كان يكبّر حين يسجد وحين يرفع رأسه (صحيح البخاري 789، متفق عليه)."
+        "p": "ثم تقول: الله أكبر، وتسجد السجدة الثانية كالأولى."
+      },
+      {
+        "more": {
+          "title": "عن قول الله أكبر",
+          "blocks": [
+            {
+              "p": "وقد وصف أبو هريرة رضي الله عنه النبي صلى الله عليه وسلم أنه كان يكبّر حين يسجد وحين يرفع رأسه (صحيح البخاري 789، متفق عليه)."
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -204,7 +376,26 @@
     ],
     "es": [
       {
-        "p": "Después de levantarte del ruku', bajas al *suyud* (la postración), con la frente y la nariz en el suelo. El Profeta Muhammad, la paz sea con él, dijo que se le ordenó postrarse sobre siete partes del cuerpo: la frente (y señaló también la nariz), las manos, las rodillas y las puntas de los pies (Sahih al-Bujari 812 y Sahih Muslim 490). En cada rak'a haces dos postraciones, con una breve sentada entre ellas."
+        "p": "Después de levantarte del ruku', bajas al *suyud* (la postración), con la frente y la nariz en el suelo. En cada rak'a haces dos postraciones, con una breve sentada entre ellas."
+      },
+      {
+        "facts": {
+          "title": "Siete puntos en el suelo",
+          "items": [
+            {
+              "label": "Frente y nariz"
+            },
+            {
+              "label": "Las dos manos"
+            },
+            {
+              "label": "Las dos rodillas"
+            },
+            {
+              "label": "Las puntas de los pies"
+            }
+          ]
+        }
       },
       {
         "p": "El suyud es la posición más baja que puede tomar tu cuerpo, y es donde estás más cerca de Allah. El Profeta dijo que el siervo está más cerca de su Señor cuando está postrado, así que hay que hacer mucha *dua* (súplica) en ese momento (Sahih Muslim 482). Allah dice en el Corán:"
@@ -214,24 +405,69 @@
         "cite": "Corán 96:19 (traducción de Isa García)"
       },
       {
+        "more": {
+          "title": "Las palabras del Profeta",
+          "blocks": [
+            {
+              "p": "El Profeta Muhammad, la paz sea con él, dijo que se le ordenó postrarse sobre siete partes del cuerpo: la frente (y señaló también la nariz), las manos, las rodillas y las puntas de los pies (Sahih al-Bujari 812 y Sahih Muslim 490)."
+            }
+          ]
+        }
+      },
+      {
         "h": "Qué decir en el suyud"
       },
       {
         "phrase": {
           "arabic": "سُبْحَانَ رَبِّيَ الأَعْلَى",
           "transliteration": "Subhana Rabbiyal-A'la",
-          "meaning": "Gloria a mi Señor, el Altísimo."
+          "meaning": "Gloria a mi Señor, el Altísimo.",
+          "audio": "/audio/phrases/res-say-in-sujuud-1.mp3"
         }
       },
       {
-        "p": "Esto es lo que Hudaifa (que Allah esté complacido con él) oyó decir al Profeta en su postración (Sahih Muslim 772 y Sunan at-Tirmidhi 262). En el ruku' alabaste a tu Señor como el Grandioso. Ahora, con el rostro en el suelo, declaras que Él es el Altísimo. Estas palabras recuerdan al Corán:"
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "سُبْحَانَ",
+              "transliteration": "Subhana",
+              "meaning": "gloria a"
+            },
+            {
+              "arabic": "رَبِّيَ",
+              "transliteration": "Rabbiya",
+              "meaning": "mi Señor"
+            },
+            {
+              "arabic": "الأَعْلَى",
+              "transliteration": "Al-A'la",
+              "meaning": "el Altísimo"
+            }
+          ]
+        }
+      },
+      {
+        "p": "En el ruku' alabaste a tu Señor como el Grandioso. Ahora, con el rostro en el suelo, declaras que Él es el Altísimo. Estas palabras recuerdan al Corán:"
       },
       {
         "quote": "Glorifica el nombre de tu Señor, el Altísimo",
         "cite": "Corán 87:1 (traducción de Isa García)"
       },
       {
-        "p": "Como en el ruku', la mayoría de los musulmanes lo dice tres veces, y una vez está bien mientras aprendes. Quédate quieto un momento: el Profeta enseñó a hacer el suyud hasta estar tranquilo en él (Sahih al-Bujari 757 y Sahih Muslim 397)."
+        "p": "Como en el ruku', la mayoría de los musulmanes lo dice tres veces, y una vez está bien mientras aprendes. Quédate quieto un momento."
+      },
+      {
+        "more": {
+          "title": "De dónde viene esto",
+          "blocks": [
+            {
+              "p": "Esto es lo que Hudaifa (que Allah esté complacido con él) oyó decir al Profeta en su postración (Sahih Muslim 772 y Sunan at-Tirmidhi 262)."
+            },
+            {
+              "p": "El Profeta enseñó a hacer el suyud hasta estar tranquilo en él (Sahih al-Bujari 757 y Sahih Muslim 397)."
+            }
+          ]
+        }
       },
       {
         "h": "Hacer dua en el suyud"
@@ -243,11 +479,22 @@
         "phrase": {
           "arabic": "سُبْحَانَكَ اللهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللهُمَّ اغْفِرْ لِي",
           "transliteration": "Subhanakal-lahumma Rabbana wa bihamdika, Al-lahummagfir li",
-          "meaning": "Gloria a Ti, oh Allah, Señor nuestro, y alabado seas. Oh Allah, perdóname."
+          "meaning": "Gloria a Ti, oh Allah, Señor nuestro, y alabado seas. Oh Allah, perdóname.",
+          "audio": "/audio/phrases/res-say-in-sujuud-2.mp3"
         }
       },
       {
-        "p": "Aprender algunas duas cortas en árabe es una buena meta. Siempre puedes pedirle a Allah lo que quieras con tus propias palabras y en tu propio idioma fuera de la oración, por ejemplo justo después de terminarla. Los sabios tienen opiniones distintas sobre hacer dua dentro de la oración con tus propias palabras o en otros idiomas, así que pregunta a tu imam local cómo lo enseña tu mezquita."
+        "p": "Siempre puedes pedirle a Allah lo que quieras con tus propias palabras y en tu propio idioma fuera de la oración, por ejemplo justo después de terminarla."
+      },
+      {
+        "more": {
+          "title": "Dua con tus propias palabras",
+          "blocks": [
+            {
+              "p": "Los sabios tienen opiniones distintas sobre hacer dua dentro de la oración con tus propias palabras o en otros idiomas, así que pregunta a tu imam local cómo lo enseña tu mezquita."
+            }
+          ]
+        }
       },
       {
         "h": "La sentada entre las dos postraciones"
@@ -259,11 +506,22 @@
         "phrase": {
           "arabic": "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
           "transliteration": "Rabbigfir li, Rabbigfir li",
-          "meaning": "Señor mío, perdóname. Señor mío, perdóname."
+          "meaning": "Señor mío, perdóname. Señor mío, perdóname.",
+          "audio": "/audio/phrases/res-say-in-sujuud-3.mp3"
         }
       },
       {
-        "p": "Después dices *Al-lahu Akbar* y haces el segundo suyud de la misma forma. Abu Huraira (que Allah esté complacido con él) describió que el Profeta decía Al-lahu Akbar al bajar a cada postración y al levantar la cabeza de ella (Sahih al-Bujari 789, hadiz en el que coinciden al-Bujari y Muslim)."
+        "p": "Después dices *Al-lahu Akbar* y haces el segundo suyud de la misma forma."
+      },
+      {
+        "more": {
+          "title": "Sobre decir Allahu Akbar",
+          "blocks": [
+            {
+              "p": "Abu Huraira (que Allah esté complacido con él) describió que el Profeta decía Al-lahu Akbar al bajar a cada postración y al levantar la cabeza de ella (Sahih al-Bujari 789, hadiz en el que coinciden al-Bujari y Muslim)."
+            }
+          ]
+        }
       },
       {
         "steps": {

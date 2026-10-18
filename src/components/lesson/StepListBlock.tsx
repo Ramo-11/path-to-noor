@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useId, useState, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
 import type { StepListAttrs } from "@/lib/lesson-blocks";
@@ -10,10 +10,17 @@ interface StepListBlockProps extends StepListAttrs {
   storageKey: string;
 }
 
-function readTicks(key: string, length: number): boolean[] | null {
+function readRaw(key: string): string | null {
   try {
-    const raw = window.sessionStorage.getItem(key);
-    if (!raw) return null;
+    return window.sessionStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function parseTicks(raw: string | null, length: number): boolean[] | null {
+  if (!raw) return null;
+  try {
     const parsed: unknown = JSON.parse(raw);
     if (!Array.isArray(parsed)) return null;
     return Array.from({ length }, (_, i) => parsed[i] === true);
@@ -21,6 +28,8 @@ function readTicks(key: string, length: number): boolean[] | null {
     return null;
   }
 }
+
+const noopSubscribe = () => () => {};
 
 function writeTicks(key: string, ticks: boolean[]) {
   try {
@@ -37,14 +46,12 @@ function writeTicks(key: string, ticks: boolean[]) {
 export function StepListBlock({ title, steps, storageKey }: StepListBlockProps) {
   const t = useTranslations("blocks");
   const titleId = useId();
-  const [ticks, setTicks] = useState<boolean[]>(() => steps.map(() => false));
+  const [localTicks, setTicks] = useState<boolean[] | null>(null);
+  const storedRaw = useSyncExternalStore(noopSubscribe, () => readRaw(storageKey), () => null);
   const [flooded, setFlooded] = useState<boolean[]>(() => steps.map(() => false));
   const count = steps.length;
 
-  useEffect(() => {
-    const stored = readTicks(storageKey, count);
-    if (stored) setTicks(stored);
-  }, [storageKey, count]);
+  const ticks = localTicks ?? parseTicks(storedRaw, count) ?? steps.map(() => false);
 
   function toggle(index: number) {
     const next = ticks.map((value, i) => (i === index ? !value : value));

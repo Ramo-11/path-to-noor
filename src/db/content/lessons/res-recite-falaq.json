@@ -1,6 +1,6 @@
 {
   "slug": "res-recite-falaq",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "How to recite Surah Al-Falaq",
     "ar": "كيف تقرأ سورة الفلق",
@@ -9,7 +9,7 @@
   "body": {
     "en": [
       {
-        "p": "Surah Al-Falaq is the 113th chapter of the Quran. It has five short verses, and in it you ask Allah (the Arabic word for God, the One God) for protection. *Al-Falaq* means the daybreak."
+        "p": "Surah Al-Falaq is the 113th chapter of the Quran. In its five short verses you ask Allah for protection. *Al-Falaq* means the daybreak."
       },
       {
         "p": "Al-Falaq and the surah after it, An-Nas, came as a special gift. 'Uqbah ibn 'Amir, may Allah be pleased with him, reported that the Prophet Muhammad, peace be upon him, said:"
@@ -25,29 +25,63 @@
         "h": "Before you start"
       },
       {
-        "p": "You already practiced the method with Al-Ikhlas: listen, repeat, and add one verse at a time. Keep a recording by any well-known reciter close by (the Quran.com page in the sources below has audio) and follow the transliteration as you listen. There is no rush. 'Abdullah ibn Mas'ud, may Allah be pleased with him, reported that the Prophet said:"
+        "p": "You already practiced the method with Al-Ikhlas: listen, repeat, and add one verse at a time. Follow the transliteration as you listen to a recording by a well-known reciter."
       },
       {
-        "quote": "Whoever recites a letter from the Book of Allah will be credited with a good deed for it, and a good deed is multiplied tenfold.",
-        "cite": "Sunan al-Tirmidhi 2910"
+        "p": "There is no rush. Every letter you manage today counts, even if the whole surah takes you a week."
       },
       {
-        "p": "Every letter you manage today counts, even if the whole surah takes you a week."
+        "more": {
+          "title": "The reward for every letter",
+          "blocks": [
+            {
+              "p": "'Abdullah ibn Mas'ud, may Allah be pleased with him, reported that the Prophet said:"
+            },
+            {
+              "quote": "Whoever recites a letter from the Book of Allah will be credited with a good deed for it, and a good deed is multiplied tenfold.",
+              "cite": "Sunan al-Tirmidhi 2910"
+            }
+          ]
+        }
       },
       {
         "h": "Sounds to listen for"
       },
       {
-        "ul": [
-          "*dh* is the soft \"th\" in \"this\".",
-          "*sh* is as in \"show\".",
-          "*kh* is a rough sound from the back of the throat, like the \"ch\" in the Scottish word \"loch\".",
-          "*gh* is a gargled sound, close to a French r.",
-          "*th* is the \"th\" in \"think\".",
-          "The apostrophe (') marks the letter 'ayn, a tight sound from the middle of the throat. If you cannot make it yet, do your best and keep listening.",
-          "Doubled letters, like the *rr* in *sharri*, are held a moment longer.",
-          "Every verse ends on *q*, *b* or *d*. When you stop on these letters, give them a small bounce, like an echo. Reciters call this *qalqalah*."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "dh, th, sh",
+              "text": "dh is the soft \"th\" in \"this\". th is the \"th\" in \"think\". sh is as in \"show\"."
+            },
+            {
+              "icon": "message",
+              "label": "kh",
+              "text": "A rough sound from the back of the throat, like the \"ch\" in the Scottish word \"loch\"."
+            },
+            {
+              "icon": "sparkles",
+              "label": "gh",
+              "text": "A gargled sound, close to a French r."
+            },
+            {
+              "icon": "eye",
+              "label": "' (ayn)",
+              "text": "A tight sound from the middle of the throat. If you cannot make it yet, do your best and keep listening."
+            },
+            {
+              "icon": "clock",
+              "label": "Doubled letters",
+              "text": "Hold them a moment longer, like the rr in sharri."
+            },
+            {
+              "icon": "check",
+              "label": "Verse ends",
+              "text": "Every verse ends on q, b or d. Give them a small bounce, like an echo. Reciters call this qalqalah."
+            }
+          ]
+        }
       },
       {
         "h": "The opening: the basmala"
@@ -56,52 +90,71 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "Bismil-laahir / rahmaanir / raheem",
-          "meaning": "In the name of Allah, the Entirely Merciful, the Especially Merciful."
+          "meaning": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "The five verses"
       },
       {
-        "p": "The English under each verse is the Saheeh International translation of its meaning. The next lesson explains each verse."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
           "transliteration": "Qul a'oodhu / bi rabbil-falaq",
-          "meaning": "Say, \"I seek refuge in the Lord of daybreak"
+          "meaning": "Say, \"I seek refuge in the Lord of daybreak",
+          "audio": "/audio/quran/113001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ مَا خَلَقَ",
           "transliteration": "Min sharri maa khalaq",
-          "meaning": "From the evil of that which He created"
+          "meaning": "From the evil of that which He created",
+          "audio": "/audio/quran/113002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
           "transliteration": "Wa min sharri ghaasiqin / idhaa waqab",
-          "meaning": "And from the evil of darkness when it settles"
+          "meaning": "And from the evil of darkness when it settles",
+          "audio": "/audio/quran/113003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
           "transliteration": "Wa min sharrin-naffaathaati / fil-'uqad",
-          "meaning": "And from the evil of the blowers in knots"
+          "meaning": "And from the evil of the blowers in knots",
+          "audio": "/audio/quran/113004.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
           "transliteration": "Wa min sharri haasidin / idhaa hasad",
-          "meaning": "And from the evil of an envier when he envies.\""
+          "meaning": "And from the evil of an envier when he envies.\"",
+          "audio": "/audio/quran/113005.mp3"
         }
       },
       {
-        "p": "Notice the rhythm: verse 2 begins with *min sharri* (\"from the evil of\"), and verses 3 to 5 begin with *wa min sharri* (\"and from the evil of\"). Once you know that phrase, you already know part of every verse after the first."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "وَمِن",
+              "transliteration": "Wa min",
+              "meaning": "and from"
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "sharri",
+              "meaning": "the evil of"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Verse 2 begins with *min sharri*, and verses 3 to 5 begin with *wa min sharri*. Once you know that phrase, you already know part of every verse after the first."
       },
       {
         "steps": {
@@ -109,11 +162,9 @@
           "steps": [
             "Listen to the whole surah once while following the transliteration.",
             "Say min sharri and wa min sharri a few times until they feel easy.",
-            "Learn verses 1 and 2, then say them together.",
-            "Add verse 3, then say verses 1 to 3 together.",
+            "Learn verses 1 and 2, then add verse 3, each time saying everything so far from the start.",
             "Add verses 4 and 5, one at a time, then recite the whole surah from the basmala.",
-            "Recite Al-Ikhlas and then Al-Falaq, to keep the first surah fresh.",
-            "Come back tomorrow and recite both again before moving on."
+            "Recite Al-Ikhlas and then Al-Falaq, and come back tomorrow to recite both again before moving on."
           ]
         }
       },
@@ -121,7 +172,22 @@
         "h": "Reciting it in your prayer"
       },
       {
-        "p": "Just like Al-Ikhlas, you can recite Al-Falaq after Al-Fatiha in the first two rak'ahs (units) of your prayer, following the Prophet's practice of reciting Al-Fatiha and then another surah. Now that you know two surahs, you could recite Al-Ikhlas in the first rak'ah and Al-Falaq in the second."
+        "p": "Just like Al-Ikhlas, you can recite Al-Falaq after Al-Fatiha in the first two rak'ahs (units) of your prayer, following the Prophet's practice of reciting Al-Fatiha and then another surah."
+      },
+      {
+        "flow": {
+          "title": "With two surahs",
+          "steps": [
+            {
+              "label": "First rak'ah",
+              "text": "Al-Fatiha, then Al-Ikhlas."
+            },
+            {
+              "label": "Second rak'ah",
+              "text": "Al-Fatiha, then Al-Falaq."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -157,26 +223,58 @@
         "h": "قبل أن تبدأ"
       },
       {
-        "p": "جرّبت هذه الطريقة مع سورة الإخلاص: استمع، وردّد، وأضف آية واحدة في كل مرة. اجعل تلاوة قارئ معروف قريبة منك (في صفحة Quran.com المذكورة في المصادر تلاوة صوتية)، وتابع النص وأنت تستمع. لا داعي للعجلة، فعن عبد الله بن مسعود رضي الله عنه أن رسول الله صلى الله عليه وسلم قال:"
+        "p": "جرّبت هذه الطريقة مع سورة الإخلاص: استمع، وردّد، وأضف آية واحدة في كل مرة. وتابع النص وأنت تستمع إلى قارئ معروف."
       },
       {
-        "quote": "«مَنْ قَرَأَ حَرْفًا مِنْ كِتَابِ اللهِ فَلَهُ بِهِ حَسَنَةٌ، وَالْحَسَنَةُ بِعَشْرِ أَمْثَالِهَا»",
-        "cite": "سنن الترمذي 2910"
+        "p": "لا داعي للعجلة، فكل حرف تتقنه اليوم محسوب لك، حتى لو استغرق حفظ السورة كلها أسبوعا."
       },
       {
-        "p": "فكل حرف تتقنه اليوم محسوب لك، حتى لو استغرق حفظ السورة كلها أسبوعا."
+        "more": {
+          "title": "أجر كل حرف",
+          "blocks": [
+            {
+              "p": "فعن عبد الله بن مسعود رضي الله عنه أن رسول الله صلى الله عليه وسلم قال:"
+            },
+            {
+              "quote": "«مَنْ قَرَأَ حَرْفًا مِنْ كِتَابِ اللهِ فَلَهُ بِهِ حَسَنَةٌ، وَالْحَسَنَةُ بِعَشْرِ أَمْثَالِهَا»",
+              "cite": "سنن الترمذي 2910"
+            }
+          ]
+        }
       },
       {
         "h": "علامات تساعدك على القراءة"
       },
       {
-        "ul": [
-          "كل آية في هذه السورة تنتهي بحرف من حروف القلقلة (القاف أو الباء أو الدال)، فإذا وقفت عليه ساكنا نطقته بنبرة خفيفة كأنه يرتد: «ٱلْفَلَقْ»، «خَلَقْ»، «وَقَبْ»، «ٱلْعُقَدْ»، «حَسَدْ».",
-          "الألف الصغيرة في «ٱلنَّفَّٰثَٰتِ» تُقرأ ألفا ممدودة في الموضعين.",
-          "الياء في «فِى» مكتوبة بلا نقط في رسم المصحف، ولا تُمد هنا عند الوصل لأن بعدها لاما ساكنة.",
-          "التنوين في «غَاسِقٍ» يُنطق نونا واضحة لأن بعده همزة.",
-          "الحرف المشدد، مثل الراء في «شَرِّ»، يُنطق بثبات أطول قليلا."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "sparkles",
+              "label": "القلقلة",
+              "text": "كل آية تنتهي بحرف من حروف القلقلة (القاف أو الباء أو الدال)، فإذا وقفت عليه ساكنا نطقته بنبرة خفيفة كأنه يرتد: «ٱلْفَلَقْ»، «خَلَقْ»، «وَقَبْ»، «ٱلْعُقَدْ»، «حَسَدْ»."
+            },
+            {
+              "icon": "ear",
+              "label": "الألف الصغيرة",
+              "text": "في «ٱلنَّفَّٰثَٰتِ» تُقرأ ألفا ممدودة في الموضعين."
+            },
+            {
+              "icon": "message",
+              "label": "الياء",
+              "text": "في «فِى» مكتوبة بلا نقط في رسم المصحف، ولا تُمد هنا عند الوصل لأن بعدها لاما ساكنة."
+            },
+            {
+              "icon": "droplet",
+              "label": "التنوين",
+              "text": "في «غَاسِقٍ» يُنطق نونا واضحة لأن بعده همزة."
+            },
+            {
+              "icon": "check",
+              "label": "الشدّة",
+              "text": "الحرف المشدد، مثل الراء في «شَرِّ»، يُنطق بثبات أطول قليلا."
+            }
+          ]
+        }
       },
       {
         "h": "البداية: البسملة"
@@ -185,48 +283,67 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "",
-          "meaning": "أبدأ باسم الله مستعينا به، وهو الرحمن الذي وسعت رحمته الخلق كلهم، الرحيم بالمؤمنين."
+          "meaning": "أبدأ باسم الله مستعينا به، وهو الرحمن الذي وسعت رحمته الخلق كلهم، الرحيم بالمؤمنين.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "الآيات الخمس"
       },
       {
-        "p": "هذه هي السورة آية آية، ومع كل آية معنى مختصر، وفي الدرس القادم شرح أوفى."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
           "transliteration": "",
-          "meaning": "قل: ألتجئ وأعتصم برب الصبح."
+          "meaning": "قل: ألتجئ وأعتصم برب الصبح.",
+          "audio": "/audio/quran/113001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ مَا خَلَقَ",
           "transliteration": "",
-          "meaning": "من شر كل ما خلقه الله وأذاه."
+          "meaning": "من شر كل ما خلقه الله وأذاه.",
+          "audio": "/audio/quran/113002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
           "transliteration": "",
-          "meaning": "ومن شر الليل حين يشتد ظلامه ويدخل."
+          "meaning": "ومن شر الليل حين يشتد ظلامه ويدخل.",
+          "audio": "/audio/quran/113003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
           "transliteration": "",
-          "meaning": "ومن شر الساحرات اللاتي ينفخن في العقد بقصد السحر."
+          "meaning": "ومن شر الساحرات اللاتي ينفخن في العقد بقصد السحر.",
+          "audio": "/audio/quran/113004.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
           "transliteration": "",
-          "meaning": "ومن شر الحاسد حين يحسد الناس على ما أعطاهم الله."
+          "meaning": "ومن شر الحاسد حين يحسد الناس على ما أعطاهم الله.",
+          "audio": "/audio/quran/113005.mp3"
+        }
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "وَمِن",
+              "transliteration": "",
+              "meaning": "ومن"
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "",
+              "meaning": "الشر والأذى"
+            }
+          ]
         }
       },
       {
@@ -238,11 +355,9 @@
           "steps": [
             "استمع إلى السورة كاملة مرة واحدة وأنت تتابع النص.",
             "ردّد «مِن شَرِّ» و«وَمِن شَرِّ» عدة مرات حتى تسهل عليك.",
-            "احفظ الآيتين الأولى والثانية، ثم اقرأهما معا.",
-            "أضف الآية الثالثة، ثم اقرأ الآيات من الأولى إلى الثالثة.",
+            "احفظ الآيتين الأولى والثانية، ثم أضف الثالثة، وفي كل مرة اقرأ ما حفظته من البداية.",
             "أضف الآيتين الرابعة والخامسة، كل واحدة وحدها، ثم اقرأ السورة كاملة من البسملة.",
-            "اقرأ سورة الإخلاص ثم سورة الفلق، لتبقى السورة الأولى حاضرة في ذاكرتك.",
-            "عد غدا واقرأ السورتين مرة أخرى قبل أن تنتقل إلى جديد."
+            "اقرأ سورة الإخلاص ثم سورة الفلق، وعد غدا فاقرأهما مرة أخرى قبل أن تنتقل إلى جديد."
           ]
         }
       },
@@ -250,7 +365,22 @@
         "h": "قراءتها في صلاتك"
       },
       {
-        "p": "كما في سورة الإخلاص، تستطيع أن تقرأ سورة الفلق بعد الفاتحة في الركعتين الأوليين من صلاتك، اتباعا لما كان يفعله النبي صلى الله عليه وسلم من قراءة الفاتحة ثم سورة. والآن وقد حفظت سورتين، يمكنك مثلا أن تقرأ الإخلاص في الركعة الأولى والفلق في الثانية."
+        "p": "كما في سورة الإخلاص، تستطيع أن تقرأ سورة الفلق بعد الفاتحة في الركعتين الأوليين من صلاتك، اتباعا لما كان يفعله النبي صلى الله عليه وسلم من قراءة الفاتحة ثم سورة."
+      },
+      {
+        "flow": {
+          "title": "مع سورتين",
+          "steps": [
+            {
+              "label": "الركعة الأولى",
+              "text": "الفاتحة ثم الإخلاص."
+            },
+            {
+              "label": "الركعة الثانية",
+              "text": "الفاتحة ثم الفلق."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -273,7 +403,7 @@
     ],
     "es": [
       {
-        "p": "La sura Al-Falaq es el capítulo 113 del Corán. Tiene cinco aleyas cortas y en ella le pides protección a Allah (la palabra árabe para Dios, el Dios Único). *Al-Falaq* significa el alba, el amanecer."
+        "p": "La sura Al-Falaq es el capítulo 113 del Corán. En sus cinco aleyas cortas le pides protección a Allah. *Al-Falaq* significa el alba, el amanecer."
       },
       {
         "p": "Al-Falaq y la sura que viene después, An-Nas, llegaron como un regalo especial. Uqba ibn Amir, que Allah esté complacido con él, narró que el Profeta Muhammad, la paz sea con él, dijo:"
@@ -289,30 +419,63 @@
         "h": "Antes de empezar"
       },
       {
-        "p": "Ya practicaste el método con Al-Ijlás: escuchar, repetir y añadir una aleya cada vez. Ten cerca una grabación de cualquier recitador reconocido (la página de Quran.com en las fuentes tiene audio) y sigue la transliteración mientras escuchas. No hay prisa. Abdullah ibn Masud, que Allah esté complacido con él, narró que el Profeta dijo:"
+        "p": "Ya practicaste el método con Al-Ijlás: escuchar, repetir y añadir una aleya cada vez. Sigue la transliteración mientras escuchas una grabación de un recitador reconocido."
       },
       {
-        "quote": "Quien recite una letra del Libro de Allah tendrá una buena acción en su haber, y cada buena acción se multiplica por diez veces.",
-        "cite": "Sunan at-Tirmidi 2910"
+        "p": "No hay prisa. Cada letra que logres hoy cuenta, aunque la sura completa te lleve una semana."
       },
       {
-        "p": "Cada letra que logres hoy cuenta, aunque la sura completa te lleve una semana."
+        "more": {
+          "title": "La recompensa de cada letra",
+          "blocks": [
+            {
+              "p": "Abdullah ibn Masud, que Allah esté complacido con él, narró que el Profeta dijo:"
+            },
+            {
+              "quote": "Quien recite una letra del Libro de Allah tendrá una buena acción en su haber, y cada buena acción se multiplica por diez veces.",
+              "cite": "Sunan at-Tirmidi 2910"
+            }
+          ]
+        }
       },
       {
         "h": "Sonidos a los que prestar atención"
       },
       {
-        "ul": [
-          "*dh* suena como la d suave de \"nada\".",
-          "*sh* suena como en la palabra inglesa \"show\".",
-          "*j* es la j española de \"jamón\", un sonido áspero desde el fondo de la garganta.",
-          "*gh* es un sonido gutural, parecido a la r francesa.",
-          "*th* suena como la z de España o la th inglesa de \"think\".",
-          "El apóstrofo (') marca la letra 'ayn, un sonido apretado que sale de la mitad de la garganta. Si todavía no te sale, hazlo lo mejor que puedas y sigue escuchando.",
-          "La *h* siempre se pronuncia, suave y aspirada, como en Al-Ijlás.",
-          "Las letras dobles, como la *rr* de *sharri*, se sostienen un instante más.",
-          "Cada aleya termina en *q*, *b* o *d*. Cuando te detengas en esas letras, dales un pequeño rebote, como un eco. Los recitadores llaman a esto *qalqalah*."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "dh, sh, th",
+              "text": "dh suena como la d suave de \"nada\". sh suena como en la palabra inglesa \"show\". th suena como la z de España o la th inglesa de \"think\"."
+            },
+            {
+              "icon": "message",
+              "label": "j, gh",
+              "text": "j es la j española de \"jamón\", un sonido áspero desde el fondo de la garganta. gh es un sonido gutural, parecido a la r francesa."
+            },
+            {
+              "icon": "eye",
+              "label": "' (ayn)",
+              "text": "Un sonido apretado que sale de la mitad de la garganta. Si todavía no te sale, hazlo lo mejor que puedas y sigue escuchando."
+            },
+            {
+              "icon": "sparkles",
+              "label": "h",
+              "text": "Siempre se pronuncia, suave y aspirada, como en Al-Ijlás."
+            },
+            {
+              "icon": "clock",
+              "label": "Letras dobles",
+              "text": "Se sostienen un instante más, como la rr de sharri."
+            },
+            {
+              "icon": "check",
+              "label": "Fin de aleya",
+              "text": "Cada aleya termina en q, b o d. Dales un pequeño rebote, como un eco. Los recitadores llaman a esto qalqalah."
+            }
+          ]
+        }
       },
       {
         "h": "El comienzo: la basmala"
@@ -321,52 +484,71 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "Bismil-laahir / rahmaanir / rahiim",
-          "meaning": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes."
+          "meaning": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "Las cinco aleyas"
       },
       {
-        "p": "El texto en español debajo de cada aleya es la traducción del significado de Isa García. La próxima lección explica cada aleya."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
           "transliteration": "Qul a'uudhu / bi rabbil-falaq",
-          "meaning": "Di: \"Me refugio en el Señor del amanecer,"
+          "meaning": "Di: \"Me refugio en el Señor del amanecer,",
+          "audio": "/audio/quran/113001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ مَا خَلَقَ",
           "transliteration": "Min sharri maa jalaq",
-          "meaning": "de todo el mal que existe en lo que Él creó,"
+          "meaning": "de todo el mal que existe en lo que Él creó,",
+          "audio": "/audio/quran/113002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
           "transliteration": "Wa min sharri ghaasiqin / idhaa waqab",
-          "meaning": "del mal de la oscuridad de la noche cuando se extiende,"
+          "meaning": "del mal de la oscuridad de la noche cuando se extiende,",
+          "audio": "/audio/quran/113003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
           "transliteration": "Wa min sharrin-naffaathaati / fil-'uqad",
-          "meaning": "del mal de las [hechiceras] sopladoras de nudos,"
+          "meaning": "del mal de las [hechiceras] sopladoras de nudos,",
+          "audio": "/audio/quran/113004.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
           "transliteration": "Wa min sharri haasidin / idhaa hasad",
-          "meaning": "y del mal del envidioso cuando envidia\"."
+          "meaning": "y del mal del envidioso cuando envidia\".",
+          "audio": "/audio/quran/113005.mp3"
         }
       },
       {
-        "p": "Fíjate en el ritmo: la aleya 2 empieza con *min sharri* (\"del mal de\") y las aleyas 3 a 5 empiezan con *wa min sharri* (\"y del mal de\"). Cuando sabes esa frase, ya conoces una parte de cada aleya después de la primera."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "وَمِن",
+              "transliteration": "Wa min",
+              "meaning": "y del"
+            },
+            {
+              "arabic": "شَرِّ",
+              "transliteration": "sharri",
+              "meaning": "mal de"
+            }
+          ]
+        }
+      },
+      {
+        "p": "La aleya 2 empieza con *min sharri* y las aleyas 3 a 5 empiezan con *wa min sharri*. Cuando sabes esa frase, ya conoces una parte de cada aleya después de la primera."
       },
       {
         "steps": {
@@ -374,11 +556,9 @@
           "steps": [
             "Escucha la sura completa una vez mientras sigues la transliteración.",
             "Di min sharri y wa min sharri varias veces hasta que te resulten fáciles.",
-            "Aprende las aleyas 1 y 2 y luego dilas juntas.",
-            "Añade la aleya 3 y di juntas las aleyas 1 a 3.",
+            "Aprende las aleyas 1 y 2, añade la 3, y cada vez di todo desde el principio.",
             "Añade las aleyas 4 y 5, una por una, y luego recita la sura completa desde la basmala.",
-            "Recita Al-Ijlás y después Al-Falaq, para mantener fresca la primera sura.",
-            "Vuelve mañana y recita las dos otra vez antes de seguir."
+            "Recita Al-Ijlás y después Al-Falaq, y vuelve mañana a recitar las dos antes de seguir."
           ]
         }
       },
@@ -386,7 +566,22 @@
         "h": "Recitarla en tu oración"
       },
       {
-        "p": "Igual que Al-Ijlás, puedes recitar Al-Falaq después de Al-Fátiha en las dos primeras rak'as (unidades) de tu oración, siguiendo la práctica del Profeta de recitar Al-Fátiha y luego otra sura. Ahora que sabes dos suras, podrías recitar Al-Ijlás en la primera rak'a y Al-Falaq en la segunda."
+        "p": "Igual que Al-Ijlás, puedes recitar Al-Falaq después de Al-Fátiha en las dos primeras rak'as (unidades) de tu oración, siguiendo la práctica del Profeta de recitar Al-Fátiha y luego otra sura."
+      },
+      {
+        "flow": {
+          "title": "Con dos suras",
+          "steps": [
+            {
+              "label": "Primera rak'a",
+              "text": "Al-Fátiha y luego Al-Ijlás."
+            },
+            {
+              "label": "Segunda rak'a",
+              "text": "Al-Fátiha y luego Al-Falaq."
+            }
+          ]
+        }
       },
       {
         "quick": {

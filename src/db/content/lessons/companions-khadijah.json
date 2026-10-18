@@ -1,6 +1,6 @@
 {
   "slug": "companions-khadijah",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Khadijah: the first to believe",
     "ar": "خديجة بنت خويلد رضي الله عنها: أول من آمن",
@@ -9,52 +9,86 @@
   "body": {
     "en": [
       {
-        "p": "Khadijah bint Khuwaylid, may Allah be pleased with her, was the first wife of the Prophet Muhammad, peace be upon him, and she is widely held to be the very first person to believe in him. Muslims call her one of the *Mothers of the Believers*, a title that comes from the Quran, which says of the Prophet's wives: \"his wives are [in the position of] their mothers\" (Quran 33:6)."
+        "p": "Khadijah bint Khuwaylid, may Allah be pleased with her, was the first wife of the Prophet Muhammad, peace be upon him, and is widely held to be the first person to believe in him."
       },
       {
-        "h": "Before Islam"
+        "facts": {
+          "title": "Who she was",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "First wife",
+              "text": "He married no one else while she lived (Sahih Muslim 2436)."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Businesswoman",
+              "text": "Respected and successful in Makkah."
+            },
+            {
+              "icon": "star",
+              "label": "First to believe",
+              "text": "Widely held to be the very first."
+            },
+            {
+              "icon": "users",
+              "label": "Mother of the Believers",
+              "text": "A title from the Quran: \"his wives are [in the position of] their mothers\" (Quran 33:6)."
+            }
+          ]
+        }
       },
       {
-        "p": "According to the well-known accounts of the seerah (the Prophet's biography), Khadijah was a respected and successful businesswoman in Makkah. The young Muhammad took charge of one of her trade caravans, and his honesty impressed her so much that she proposed marriage to him. She had been married before. They had children together, and years later the Prophet still spoke of it with gratitude: \"I had children from her\" (Sahih al-Bukhari 3818). As long as she lived, he did not marry any other woman (Sahih Muslim 2436)."
+        "timeline": {
+          "title": "Her story",
+          "events": [
+            {
+              "when": "Before Islam",
+              "text": "The young Muhammad took charge of one of her caravans, and she proposed marriage."
+            },
+            {
+              "when": "The first revelation",
+              "text": "She comforted him and took him to her cousin Waraqah ibn Nawfal."
+            },
+            {
+              "when": "Years later",
+              "text": "The angel Jibril brought her a greeting from Allah."
+            },
+            {
+              "when": "Before the Hijrah",
+              "text": "She died in Makkah, but he never stopped remembering her. Whenever he slaughtered a sheep, he sent meat to her friends (Sahih al-Bukhari 3818 and Sahih Muslim 2435)."
+            }
+          ]
+        }
       },
       {
         "h": "The night everything changed"
       },
       {
-        "p": "When the first revelation came to the Prophet in the cave of Hira, he came home with his heart trembling and said, \"Cover me! Cover me!\" When the fear had passed, he told Khadijah what had happened and said, \"Indeed, I feared for myself.\" She answered:"
+        "p": "After the first revelation he came home trembling and told Khadijah: \"Indeed, I feared for myself.\" She answered:"
       },
       {
         "quote": "No, by Allah, Allah will never fail you. Verily, you maintain kinship ties, help those in need, support the destitute, provide the guests with food and shelter, and assist those affected by calamities.",
         "cite": "Sahih al-Bukhari 3 and Sahih Muslim 160"
       },
       {
-        "p": "She did not panic, and she did not doubt him. She reminded him of who he was: a man who kept his family ties and cared for the weak. Then she took him to her cousin Waraqah ibn Nawfal, an elderly man who had become a Christian before Islam and knew the earlier scriptures. When Waraqah heard what had happened, he said it was the same angel whom Allah had sent to Musa (Sahih al-Bukhari 3)."
+        "p": "She did not panic or doubt him. She took him to Waraqah, who said it was the same angel Allah had sent to Musa (Sahih al-Bukhari 3)."
       },
       {
-        "p": "If someone stands by you in your faith, you know how much this matters. If no one does yet, remember that Allah sent Khadijah to the Prophet at the moment he needed her most. Ask Allah for good companions, and try to be that kind of support for someone else."
+        "p": "If no one stands by you yet, ask Allah for good companions, and be that support for someone else."
       },
       {
         "h": "Honored by her Lord"
       },
       {
-        "p": "Some years later, the angel Jibril (Gabriel) came to the Prophet while Khadijah was on her way to him, and said:"
+        "p": "The angel Jibril (Gabriel) came to the Prophet while Khadijah was on her way to him, and said:"
       },
       {
         "quote": "This is Khadija coming to you with a dish having meat soup (or some food or drink). When she reaches you, greet her on behalf of her Lord (i.e. Allah) and on my behalf, and give her the glad tidings of having a Qasab palace in Paradise wherein there will be neither any noise nor any fatigue (trouble).",
         "cite": "Sahih al-Bukhari 3820 and Sahih Muslim 2432"
       },
       {
-        "p": "*Qasab* here means hollow pearl, as scholars explain. Think about it: Allah Himself sent her His greeting of peace. The Prophet also said: \"The best of its women is Maryam, daughter of Imran, and the best of its women is Khadijah.\" (Sahih al-Bukhari 3432), meaning the best women of their times."
-      },
-      {
-        "h": "Loved and remembered"
-      },
-      {
-        "p": "Khadijah died in Makkah before the Hijrah (the Prophet's emigration to Madinah), but he never stopped remembering her. His wife Aisha, may Allah be pleased with her, said that she never felt as jealous of any woman as she did of Khadijah, even though she had never seen her, because the Prophet mentioned her so often. Whenever he slaughtered a sheep, he sent meat to Khadijah's friends (Sahih al-Bukhari 3818 and Sahih Muslim 2435). Once, when Aisha spoke about her in a moment of jealousy, he said:"
-      },
-      {
-        "quote": "My love of her has been planted in my heart (by Allah).",
-        "cite": "Sahih Muslim 2435"
+        "p": "Allah Himself sent her His greeting of peace."
       },
       {
         "quick": {
@@ -73,56 +107,125 @@
       },
       {
         "p": "Next, you will meet Abu Bakr as-Siddiq, the Prophet's closest friend and his companion on the journey to Madinah."
+      },
+      {
+        "more": {
+          "title": "More about her",
+          "blocks": [
+            {
+              "p": "Muslims call her one of the *Mothers of the Believers*."
+            },
+            {
+              "p": "Allah sent Khadijah to the Prophet at the moment he needed her most."
+            },
+            {
+              "p": "She reminded him of who he was: a man who kept his family ties and cared for the weak."
+            },
+            {
+              "p": "According to the well-known accounts of the seerah (the Prophet's biography), she had been married before. They had children together, and years later the Prophet still spoke of it with gratitude: \"I had children from her\" (Sahih al-Bukhari 3818)."
+            },
+            {
+              "p": "When the first revelation came to the Prophet in the cave of Hira, he came home with his heart trembling and said, \"Cover me! Cover me!\""
+            },
+            {
+              "p": "Waraqah was an elderly man who had become a Christian before Islam and knew the earlier scriptures."
+            },
+            {
+              "p": "*Qasab* here means hollow pearl, as scholars explain. The Prophet also said: \"The best of its women is Maryam, daughter of Imran, and the best of its women is Khadijah.\" (Sahih al-Bukhari 3432), meaning the best women of their times."
+            },
+            {
+              "p": "His wife Aisha, may Allah be pleased with her, said that she never felt as jealous of any woman as she did of Khadijah, even though she had never seen her, because the Prophet mentioned her so often. Once, when Aisha spoke about her in a moment of jealousy, he said:"
+            },
+            {
+              "quote": "My love of her has been planted in my heart (by Allah).",
+              "cite": "Sahih Muslim 2435"
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "خديجة بنت خويلد رضي الله عنها أول زوجات النبي محمد صلى الله عليه وسلم، وهي على القول المشهور أول من آمن به على الإطلاق. ويسمّيها المسلمون من «أمهات المؤمنين»، وهو لقب مأخوذ من القرآن، إذ قال الله في أزواج النبي: «وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ» (الأحزاب: 6)."
+        "p": "خديجة بنت خويلد رضي الله عنها أول زوجات النبي محمد صلى الله عليه وسلم، وهي على القول المشهور أول من آمن به على الإطلاق."
       },
       {
-        "h": "قبل الإسلام"
+        "facts": {
+          "title": "من هي؟",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "أول زوجاته",
+              "text": "لم يتزوج عليها حتى ماتت (صحيح مسلم 2436)."
+            },
+            {
+              "icon": "sparkles",
+              "label": "تاجرة",
+              "text": "ذات شرف ومال وتجارة في مكة."
+            },
+            {
+              "icon": "star",
+              "label": "أول من آمن",
+              "text": "على القول المشهور."
+            },
+            {
+              "icon": "users",
+              "label": "أم المؤمنين",
+              "text": "لقب مأخوذ من القرآن: «وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ» (الأحزاب: 6)."
+            }
+          ]
+        }
       },
       {
-        "p": "تذكر كتب السيرة المشهورة أن خديجة كانت امرأة ذات شرف ومال وتجارة في مكة، وأن محمدًا في شبابه خرج في تجارة لها، فأعجبها صدقه وأمانته حتى عرضت عليه الزواج. وكانت قد تزوجت قبله. ورُزقا الأولاد، وكان النبي صلى الله عليه وسلم يذكر ذلك بعد سنين بامتنان فيقول: «إنها كانت وكانت وكان لي منها وَلَدٌ» (صحيح البخاري 3818). ولم يتزوج عليها غيرها حتى ماتت (صحيح مسلم 2436)."
+        "timeline": {
+          "title": "قصتها",
+          "events": [
+            {
+              "when": "قبل الإسلام",
+              "text": "خرج محمد في شبابه في تجارة لها، فعرضت عليه الزواج."
+            },
+            {
+              "when": "أول الوحي",
+              "text": "طمأنته وانطلقت به إلى ابن عمها ورقة بن نوفل."
+            },
+            {
+              "when": "بعد سنين",
+              "text": "جاء جبريل عليه السلام بسلام من الله عليها."
+            },
+            {
+              "when": "قبل الهجرة",
+              "text": "توفيت في مكة، لكنه لم ينقطع عن ذكرها، وكان إذا ذبح الشاة أرسل منها إلى صديقاتها (صحيح البخاري 3818، وصحيح مسلم 2435)."
+            }
+          ]
+        }
       },
       {
         "h": "الليلة التي تغيّر فيها كل شيء"
       },
       {
-        "p": "لما نزل الوحي أول مرة على النبي صلى الله عليه وسلم في غار حراء، رجع إلى بيته يرجف فؤاده وهو يقول: «زَمِّلُونِي، زَمِّلُونِي». فلما ذهب عنه الروع أخبر خديجة بما حدث وقال: «لَقَدْ خَشِيتُ عَلَى نَفْسِي». فأجابته:"
+        "p": "لما نزل الوحي أول مرة رجع إلى بيته يرجف فؤاده، فأخبر خديجة وقال: «لَقَدْ خَشِيتُ عَلَى نَفْسِي». فأجابته:"
       },
       {
         "quote": "كَلَّا وَاللَّهِ مَا يُخْزِيكَ اللَّهُ أَبَدًا، إِنَّكَ لَتَصِلُ الرَّحِمَ، وَتَحْمِلُ الكَلَّ، وَتَكْسِبُ المَعْدُومَ، وَتَقْرِي الضَّيْفَ، وَتُعِينُ عَلَى نَوَائِبِ الحَقِّ",
         "cite": "صحيح البخاري 3، وصحيح مسلم 160"
       },
       {
-        "p": "لم تفزع، ولم تشكّ فيه، بل ذكّرته بحقيقته: رجل يصل رحمه ويحمل الضعيف. ثم انطلقت به إلى ابن عمها ورقة بن نوفل، وكان شيخًا كبيرًا تنصّر في الجاهلية وعرف الكتب السابقة، فلما سمع الخبر قال: «هَذَا النَّامُوسُ الَّذِي نَزَّلَ اللَّهُ عَلَى مُوسَى» (صحيح البخاري 3)."
+        "p": "لم تفزع ولم تشكّ فيه. ثم انطلقت به إلى ورقة، فلما سمع الخبر قال: «هَذَا النَّامُوسُ الَّذِي نَزَّلَ اللَّهُ عَلَى مُوسَى» (صحيح البخاري 3)."
       },
       {
-        "p": "إن كان في حياتك من يقف بجانبك في إيمانك فأنت تعرف قيمة ذلك. وإن لم يكن بعد، فتذكّر أن الله ساق خديجة إلى النبي صلى الله عليه وسلم في اللحظة التي كان أحوج ما يكون إليها. فاسأل الله الصحبة الصالحة، وكن أنت سندًا لغيرك."
+        "p": "وإن لم يكن في حياتك من يقف بجانبك بعد، فاسأل الله الصحبة الصالحة، وكن أنت سندًا لغيرك."
       },
       {
         "h": "سلامٌ من ربها"
       },
       {
-        "p": "وبعد سنين جاء جبريل عليه السلام إلى النبي صلى الله عليه وسلم وخديجة في طريقها إليه، فقال:"
+        "p": "جاء جبريل عليه السلام إلى النبي صلى الله عليه وسلم وخديجة في طريقها إليه، فقال:"
       },
       {
         "quote": "هَذِهِ خَدِيجَةُ قَدْ أَتَتْ مَعَهَا إِنَاءٌ فِيهِ إِدَامٌ أَوْ طَعَامٌ أَوْ شَرَابٌ، فَإِذَا هِيَ أَتَتْكَ فَاقْرَأْ عَلَيْهَا السَّلاَمَ مِنْ رَبِّهَا وَمِنِّي، وَبَشِّرْهَا بِبَيْتٍ فِي الْجَنَّةِ مِنْ قَصَبٍ، لاَ صَخَبَ فِيهِ وَلاَ نَصَبَ",
         "cite": "صحيح البخاري 3820، وصحيح مسلم 2432"
       },
       {
-        "p": "والقَصَب هنا: اللؤلؤ المجوّف كما بيّن العلماء. فتأمّل: الله نفسه أرسل إليها السلام. وقال النبي صلى الله عليه وسلم: «خَيْرُ نِسَائِهَا مَرْيَمُ ابْنَةُ عِمْرَانَ، وَخَيْرُ نِسَائِهَا خَدِيجَةُ» (صحيح البخاري 3432)، أي خير نساء زمانهما."
-      },
-      {
-        "h": "محبة لا تنقطع"
-      },
-      {
-        "p": "توفيت خديجة في مكة قبل الهجرة، لكن النبي صلى الله عليه وسلم لم ينقطع عن ذكرها. وقالت زوجته عائشة رضي الله عنها إنها ما غارت على امرأة كما غارت على خديجة، مع أنها لم ترها، لكثرة ما كان يذكرها، وكان إذا ذبح الشاة أرسل منها إلى صديقات خديجة (صحيح البخاري 3818، وصحيح مسلم 2435). وحين ذكرتها عائشة يومًا في لحظة غيرة، قال:"
-      },
-      {
-        "quote": "إني قد رُزِقْتُ حُبَّها",
-        "cite": "صحيح مسلم 2435"
+        "p": "فالله نفسه أرسل إليها السلام."
       },
       {
         "quick": {
@@ -141,56 +244,125 @@
       },
       {
         "p": "وفي الدرس القادم تتعرف على أبي بكر الصديق، صديق النبي صلى الله عليه وسلم الأقرب، وصاحبه في طريق الهجرة إلى المدينة."
+      },
+      {
+        "more": {
+          "title": "المزيد عنها",
+          "blocks": [
+            {
+              "p": "ويسمّيها المسلمون من «أمهات المؤمنين»."
+            },
+            {
+              "p": "ساق الله خديجة إلى النبي صلى الله عليه وسلم في اللحظة التي كان أحوج ما يكون إليها."
+            },
+            {
+              "p": "ذكّرته بحقيقته: رجل يصل رحمه ويحمل الضعيف."
+            },
+            {
+              "p": "وتذكر كتب السيرة المشهورة أنها كانت قد تزوجت قبله، وأنهما رُزقا الأولاد، وكان النبي صلى الله عليه وسلم يذكر ذلك بعد سنين بامتنان فيقول: «إنها كانت وكانت وكان لي منها وَلَدٌ» (صحيح البخاري 3818)."
+            },
+            {
+              "p": "ولما نزل الوحي أول مرة في غار حراء رجع إلى بيته يرجف فؤاده وهو يقول: «زَمِّلُونِي، زَمِّلُونِي»."
+            },
+            {
+              "p": "وكان ورقة شيخًا كبيرًا تنصّر في الجاهلية وعرف الكتب السابقة."
+            },
+            {
+              "p": "والقَصَب هنا: اللؤلؤ المجوّف كما بيّن العلماء. وقال النبي صلى الله عليه وسلم: «خَيْرُ نِسَائِهَا مَرْيَمُ ابْنَةُ عِمْرَانَ، وَخَيْرُ نِسَائِهَا خَدِيجَةُ» (صحيح البخاري 3432)، أي خير نساء زمانهما."
+            },
+            {
+              "p": "وقالت زوجته عائشة رضي الله عنها إنها ما غارت على امرأة كما غارت على خديجة، مع أنها لم ترها، لكثرة ما كان يذكرها. وحين ذكرتها عائشة يومًا في لحظة غيرة، قال:"
+            },
+            {
+              "quote": "إني قد رُزِقْتُ حُبَّها",
+              "cite": "صحيح مسلم 2435"
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "Jadiya bint Juwailid, que Allah esté complacido con ella, fue la primera esposa del Profeta Muhammad, la paz sea con él, y según la opinión más extendida fue la primera persona en creer en él. Los musulmanes la llaman una de las *Madres de los Creyentes*, un título que viene del Corán, que dice de las esposas del Profeta: \"las esposas del Profeta [deben ser respetadas como si fueran] sus madres\" (Corán 33:6)."
+        "p": "Jadiya bint Juwailid, que Allah esté complacido con ella, fue la primera esposa del Profeta Muhammad, la paz sea con él, y según la opinión más extendida fue la primera persona en creer en él."
       },
       {
-        "h": "Antes del islam"
+        "facts": {
+          "title": "Quién fue",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Primera esposa",
+              "text": "No se casó con ninguna otra mujer mientras ella vivió (Sahih Muslim 2436)."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Comerciante",
+              "text": "Respetada y próspera en La Meca."
+            },
+            {
+              "icon": "star",
+              "label": "La primera en creer",
+              "text": "Según la opinión más extendida."
+            },
+            {
+              "icon": "users",
+              "label": "Madre de los Creyentes",
+              "text": "Un título del Corán: \"las esposas del Profeta [deben ser respetadas como si fueran] sus madres\" (Corán 33:6)."
+            }
+          ]
+        }
       },
       {
-        "p": "Según los relatos conocidos de la *sira* (la biografía del Profeta), Jadiya era una mujer de negocios respetada y próspera en La Meca. El joven Muhammad se encargó de una de sus caravanas comerciales, y su honradez la impresionó tanto que ella le propuso matrimonio. Ella había estado casada antes. Tuvieron hijos juntos, y años después el Profeta todavía lo recordaba con gratitud (Sahih al-Bujari 3818). Mientras ella vivió, él no se casó con ninguna otra mujer (Sahih Muslim 2436)."
+        "timeline": {
+          "title": "Su historia",
+          "events": [
+            {
+              "when": "Antes del islam",
+              "text": "El joven Muhammad se encargó de una de sus caravanas, y ella le propuso matrimonio."
+            },
+            {
+              "when": "La primera revelación",
+              "text": "Lo tranquilizó y lo llevó con su primo Waraqa ibn Nawfal."
+            },
+            {
+              "when": "Años después",
+              "text": "El ángel Yibril le trajo un saludo de Allah."
+            },
+            {
+              "when": "Antes de la Hégira",
+              "text": "Murió en La Meca, pero él nunca dejó de recordarla. Cada vez que sacrificaba una oveja, enviaba carne a sus amigas (Sahih al-Bujari 3818 y Sahih Muslim 2435)."
+            }
+          ]
+        }
       },
       {
         "h": "La noche en que todo cambió"
       },
       {
-        "p": "Cuando la primera revelación llegó al Profeta en la cueva de Hira, volvió a casa con el corazón temblando y dijo: \"Cúbranme, cúbranme\". Cuando se le pasó el miedo, le contó a Jadiya lo que había ocurrido y le dijo: \"Temí por mí mismo\". Ella le respondió:"
+        "p": "Tras la primera revelación volvió a casa temblando y le dijo a Jadiya: \"Temí por mí mismo\". Ella le respondió:"
       },
       {
         "quote": "No, por Allah, Allah nunca te deshonrará. Tú mantienes los lazos familiares, cargas con el peso de los débiles, das al que no tiene, recibes a los huéspedes y ayudas a quienes sufren las desgracias de la vida.",
         "cite": "Sahih al-Bujari 3 y Sahih Muslim 160 (traducción del significado)"
       },
       {
-        "p": "No se asustó ni dudó de él. Le recordó quién era: un hombre que mantenía los lazos familiares y cuidaba de los débiles. Después lo llevó con su primo Waraqa ibn Nawfal, un anciano que se había hecho cristiano antes del islam y conocía las escrituras anteriores. Cuando Waraqa escuchó lo ocurrido, dijo que era el mismo ángel que Allah había enviado a Musa (Sahih al-Bujari 3)."
+        "p": "No se asustó ni dudó de él. Lo llevó con Waraqa, quien dijo que era el mismo ángel que Allah había enviado a Musa (Sahih al-Bujari 3)."
       },
       {
-        "p": "Si alguien te apoya en tu fe, sabes lo mucho que eso vale. Si todavía no tienes a nadie, recuerda que Allah le envió a Jadiya al Profeta justo cuando más la necesitaba. Pídele a Allah buenas compañías, y trata de ser ese apoyo para otra persona."
+        "p": "Si todavía no tienes a nadie que te apoye, pídele a Allah buenas compañías, y sé ese apoyo para otra persona."
       },
       {
         "h": "Honrada por su Señor"
       },
       {
-        "p": "Algunos años después, el ángel Yibril (Gabriel) vino al Profeta mientras Jadiya se dirigía hacia él, y le dijo:"
+        "p": "El ángel Yibril (Gabriel) vino al Profeta mientras Jadiya se dirigía hacia él, y le dijo:"
       },
       {
         "quote": "Esta es Jadiya, que viene hacia ti con un recipiente de comida o bebida. Cuando llegue, transmítele el saludo de paz de parte de su Señor y de mi parte, y anúnciale una casa en el Paraíso hecha de perla hueca, donde no habrá ruido ni cansancio.",
         "cite": "Sahih al-Bujari 3820 y Sahih Muslim 2432 (traducción del significado)"
       },
       {
-        "p": "Piénsalo: el mismo Allah le envió Su saludo de paz. El Profeta también dijo: \"La mejor de sus mujeres es Maryam, hija de Imrán, y la mejor de sus mujeres es Jadiya.\" (Sahih al-Bujari 3432), es decir, las mejores mujeres de su tiempo."
-      },
-      {
-        "h": "Amada y recordada"
-      },
-      {
-        "p": "Jadiya murió en La Meca antes de la Hégira (la emigración del Profeta a Medina), pero él nunca dejó de recordarla. Su esposa Aisha, que Allah esté complacido con ella, contó que nunca sintió tantos celos de ninguna mujer como de Jadiya, aunque nunca la conoció, porque el Profeta la mencionaba muy a menudo. Cada vez que sacrificaba una oveja, enviaba carne a las amigas de Jadiya (Sahih al-Bujari 3818 y Sahih Muslim 2435). Una vez, cuando Aisha habló de ella en un momento de celos, él dijo:"
-      },
-      {
-        "quote": "Ciertamente se me ha regalado su amor como don.",
-        "cite": "Sahih Muslim 2435"
+        "p": "El mismo Allah le envió Su saludo de paz."
       },
       {
         "quick": {
@@ -209,6 +381,41 @@
       },
       {
         "p": "A continuación conocerás a Abu Bakr as-Siddiq, el amigo más cercano del Profeta y su compañero en el viaje a Medina."
+      },
+      {
+        "more": {
+          "title": "Más sobre ella",
+          "blocks": [
+            {
+              "p": "Los musulmanes la llaman una de las *Madres de los Creyentes*."
+            },
+            {
+              "p": "Allah le envió a Jadiya al Profeta justo cuando más la necesitaba."
+            },
+            {
+              "p": "Le recordó quién era: un hombre que mantenía los lazos familiares y cuidaba de los débiles."
+            },
+            {
+              "p": "Según los relatos conocidos de la *sira* (la biografía del Profeta), ella había estado casada antes. Tuvieron hijos juntos, y años después el Profeta todavía lo recordaba con gratitud (Sahih al-Bujari 3818)."
+            },
+            {
+              "p": "Cuando la primera revelación llegó al Profeta en la cueva de Hira, volvió a casa con el corazón temblando y dijo: \"Cúbranme, cúbranme\"."
+            },
+            {
+              "p": "Waraqa era un anciano que se había hecho cristiano antes del islam y conocía las escrituras anteriores."
+            },
+            {
+              "p": "El Profeta también dijo: \"La mejor de sus mujeres es Maryam, hija de Imrán, y la mejor de sus mujeres es Jadiya.\" (Sahih al-Bujari 3432), es decir, las mejores mujeres de su tiempo."
+            },
+            {
+              "p": "Su esposa Aisha, que Allah esté complacido con ella, contó que nunca sintió tantos celos de ninguna mujer como de Jadiya, aunque nunca la conoció, porque el Profeta la mencionaba muy a menudo. Una vez, cuando Aisha habló de ella en un momento de celos, él dijo:"
+            },
+            {
+              "quote": "Ciertamente se me ha regalado su amor como don.",
+              "cite": "Sahih Muslim 2435"
+            }
+          ]
+        }
       }
     ]
   },

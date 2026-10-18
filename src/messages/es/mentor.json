@@ -36,5 +36,10 @@
   "noMentees": "Aún no tienes aprendices",
   "noMenteesBody": "Verás aquí a quien nuestro equipo empareje contigo.",
   "assignedOn": "Emparejado el {date}",
-  "menteesLoadError": "No pudimos cargar tus aprendices. Intenta de nuevo."
+  "menteesLoadError": "No pudimos cargar tus aprendices. Intenta de nuevo.",
+  "errorEmailUnverified": "Confirma tu correo electrónico antes de pedir un mentor.",
+  "errorEmailUnverifiedLink": "Ir a ajustes",
+  "errorAlreadyRequested": "Ya tienes una solicitud de mentor.",
+  "errorRevertOnly": "Las solicitudes de mentor son para quienes acaban de llegar al Islam.",
+  "errorInvalid": "Revisa tu mensaje e inténtalo de nuevo."
 }

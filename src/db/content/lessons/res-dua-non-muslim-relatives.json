@@ -1,6 +1,6 @@
 {
   "slug": "res-dua-non-muslim-relatives",
-  "minutes": 9,
+  "minutes": 5,
   "title": {
     "en": "Making dua for non-Muslim loved ones who have passed away",
     "ar": "الدعاء للأحبة غير المسلمين بعد وفاتهم",
@@ -9,13 +9,13 @@
   "body": {
     "en": [
       {
-        "p": "If you are reading this because someone you love has died, we are so sorry for your loss. Losing a parent, a grandparent, or a dear friend is painful, and it can hurt in a special way when they were not Muslim. This lesson gently explains what Islam teaches about *dua* (personal prayer to Allah) for them, and the many ways of love that remain open to you."
+        "p": "If someone you love has died, we are so sorry. Here is what Islam teaches about *dua* (personal prayer to Allah) for loved ones who were not Muslim, and the love that remains open to you."
       },
       {
         "h": "Even the Prophet wept"
       },
       {
-        "p": "Your grief is not a weakness in your faith. The Prophet Muhammad, peace be upon him, lost his mother, Aminah, when he was a young child. Later in his life he visited her grave. Abu Hurayrah, may Allah be pleased with him, reported that the Prophet wept there, and those around him wept too. Then he said:"
+        "p": "Your grief is not a weakness in your faith. The Prophet Muhammad, peace be upon him, lost his mother, Aminah, when he was a young child. Later he visited her grave. Abu Hurayrah, may Allah be pleased with him, reported that the Prophet wept there, and those around him wept too. Then he said:"
       },
       {
         "quote": "I sought permission from my Lord to beg forgiveness for her but it was not granted to me, and I sought permission to visit her grave and it was granted to me so visit the graves, for that makes you mindful of death",
@@ -25,58 +25,91 @@
         "h": "What the Quran says"
       },
       {
-        "p": "Allah says:"
-      },
-      {
         "quote": "It is not for the Prophet and those who have believed to ask forgiveness for the polytheists, even if they were relatives, after it has become clear to them that they are companions of Hellfire.",
         "cite": "Quran 9:113 (translation of the meaning)"
       },
       {
-        "p": "Scholars explain that this verse is about people who died without believing in Allah alone. Based on this verse and the hadith above, scholars agree, and several describe it as a consensus, that a Muslim does not ask Allah's forgiveness or mercy for a relative who died as a non-Muslim. This can be hard to read. Remember that the Prophet himself felt this pain for his own mother, and he accepted Allah's decision."
+        "p": "Scholars explain that this verse is about people who died without believing in Allah alone. Based on this verse and the hadith above, scholars agree, and several describe it as a consensus, that a Muslim does not ask Allah's forgiveness or mercy for a relative who died as a non-Muslim."
+      },
+      {
+        "p": "This can be hard to read. The Prophet himself felt this pain for his own mother, and he accepted Allah's decision."
       },
       {
         "h": "Leave the final judgment to Allah"
       },
       {
-        "p": "This ruling is about what we ask for in our prayers. It is not your job to decide anyone's final place. We act on what we can see, and only Allah knows what passed between a person and Him in their last moments. He is perfectly just:"
+        "p": "This ruling is about what we ask for in our prayers, not about anyone's final place. Only Allah knows what passed between a person and Him in their last moments, and He is perfectly just."
       },
       {
-        "quote": "And your Lord does injustice to no one.",
-        "cite": "Quran 18:49 (end of the verse, translation of the meaning)"
+        "more": {
+          "title": "Allah's justice",
+          "blocks": [
+            {
+              "quote": "And your Lord does injustice to no one.",
+              "cite": "Quran 18:49 (end of the verse, translation of the meaning)"
+            }
+          ]
+        }
       },
       {
         "h": "The love that remains open to you"
       },
       {
-        "ul": [
-          "**Grieve and remember.** Crying is natural and allowed. You may visit their grave to remember them and reflect on life, as the Prophet visited his mother's grave.",
-          "**Keep the family ties.** Stay close to your grandparents, aunts, uncles, cousins, and siblings, whether they are Muslim or not. The Prophet told Asma bint Abi Bakr, may Allah be pleased with her, to keep good ties with her mother, who was not Muslim.",
-          "**Honor the people they loved.** The Prophet taught that one of the finest forms of goodness to a parent is keeping ties with the people that parent loved. Being kind to your parent's friends is a beautiful way to honor their memory.",
-          "**Pray for the living.** You may ask Allah to guide your living relatives, and many scholars also allow asking Him to grant them health and wellbeing."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Grieve and remember",
+              "text": "Crying is natural and allowed. You may visit their grave, as the Prophet visited his mother's grave."
+            },
+            {
+              "icon": "users",
+              "label": "Keep family ties",
+              "text": "Stay close to your relatives, whether they are Muslim or not. The Prophet told Asma bint Abi Bakr, may Allah be pleased with her, to keep good ties with her mother, who was not Muslim."
+            },
+            {
+              "icon": "gift",
+              "label": "Honor the people they loved",
+              "text": "One of the finest forms of goodness to a parent is keeping ties with the people that parent loved (the Prophet's teaching)."
+            },
+            {
+              "icon": "hands",
+              "label": "Pray for the living",
+              "text": "You may ask Allah to guide your living relatives, and many scholars also allow asking Him to grant them health and wellbeing."
+            }
+          ]
+        }
       },
       {
         "h": "A story of hope for the living"
       },
       {
-        "p": "Abu Hurayrah used to invite his mother to Islam, and one day she said something hurtful about the Prophet. He came to the Prophet in tears and asked him to pray for her. The Prophet said:"
+        "p": "Abu Hurayrah invited his mother to Islam, and one day she said something hurtful about the Prophet. He came to the Prophet in tears and asked him to pray for her. The Prophet said:"
       },
       {
         "phrase": {
           "arabic": "اللَّهُمَّ اهْدِ أُمَّ أَبِي هُرَيْرَةَ",
           "transliteration": "Allahumma ihdi umma Abi Hurayrah",
-          "meaning": "O Allah, guide the mother of Abu Hurayrah."
+          "meaning": "O Allah, guide the mother of Abu Hurayrah.",
+          "audio": "/audio/phrases/res-dua-non-muslim-relatives-1.mp3"
         }
       },
       {
-        "p": "When Abu Hurayrah reached home, his mother asked him to wait, then opened the door and declared the shahada. He went back to the Prophet weeping with joy (Sahih Muslim 2491). You can make this kind of dua for your mother, your father, or anyone you love, in your own words and in any language. And remember that guidance is in Allah's hands, not yours:"
+        "p": "When Abu Hurayrah reached home, his mother asked him to wait, then opened the door and declared the shahada. He went back to the Prophet weeping with joy (Sahih Muslim 2491)."
       },
       {
-        "quote": "Indeed, [O Muhammad], you do not guide whom you like, but Allah guides whom He wills. And He is most knowing of the [rightly] guided.",
-        "cite": "Quran 28:56 (translation of the meaning)"
+        "p": "You can make this kind of dua for anyone you love, in your own words and in any language. Guidance is in Allah's hands, not yours. Your part is to love them, pray for them, and show them good character."
       },
       {
-        "p": "Your part is to love them, pray for them, and show them good character. The rest belongs to Allah."
+        "more": {
+          "title": "Guidance belongs to Allah",
+          "blocks": [
+            {
+              "quote": "Indeed, [O Muhammad], you do not guide whom you like, but Allah guides whom He wills. And He is most knowing of the [rightly] guided.",
+              "cite": "Quran 28:56 (translation of the meaning)"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -92,14 +125,11 @@
       },
       {
         "key": "You do not ask forgiveness for a loved one who died as a non-Muslim, but love still has many paths: grieving, remembering, keeping family ties, being kind to those they loved, praying for the living, and trusting Allah's perfect justice."
-      },
-      {
-        "p": "This completes the step. In the next step, you will learn how to share your faith through good character."
       }
     ],
     "ar": [
       {
-        "p": "إن كنت تقرأ هذا الدرس لأن عزيزًا عليك قد رحل، فإننا نشاركك حزنك. ففقد الوالد أو الجد أو الصديق مؤلم، وقد يكون الألم أشد حين لا يكون مسلمًا. يشرح لك هذا الدرس برفق ما يعلّمه الإسلام في الدعاء له، والأبواب الكثيرة من المحبة التي تبقى مفتوحة أمامك."
+        "p": "إن كان عزيز عليك قد رحل، فإننا نشاركك حزنك. إليك ما يعلّمه الإسلام في الدعاء للأحبة غير المسلمين، والمحبة التي تبقى مفتوحة أمامك."
       },
       {
         "h": "حتى النبي صلى الله عليه وسلم بكى"
@@ -115,35 +145,60 @@
         "h": "ماذا يقول القرآن؟"
       },
       {
-        "p": "قال الله تعالى:"
-      },
-      {
         "quote": "مَا كَانَ لِلنَّبِىِّ وَٱلَّذِينَ ءَامَنُوٓا۟ أَن يَسْتَغْفِرُوا۟ لِلْمُشْرِكِينَ وَلَوْ كَانُوٓا۟ أُو۟لِى قُرْبَىٰ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمْ أَنَّهُمْ أَصْحَٰبُ ٱلْجَحِيمِ",
         "cite": "التوبة: 113"
       },
       {
-        "p": "أي: ما كان ينبغي للنبي صلى الله عليه وسلم ولا للمؤمنين أن يدعوا بالمغفرة للمشركين ولو كانوا من أقرب الناس إليهم، بعد أن ماتوا على الشرك. وبناءً على هذه الآية والحديث السابق اتفق العلماء، بل نقل غير واحد منهم الإجماع، على أن المسلم لا يطلب المغفرة ولا الرحمة لقريب مات على غير الإسلام. وقد يكون هذا صعبًا على قلبك، فتذكّر أن النبي صلى الله عليه وسلم نفسه وجد هذا الألم في أمه، ورضي بحكم الله."
+        "p": "أي: ما كان ينبغي للنبي صلى الله عليه وسلم ولا للمؤمنين أن يدعوا بالمغفرة للمشركين ولو كانوا من أقرب الناس إليهم، بعد أن ماتوا على الشرك. وبناءً على هذه الآية والحديث السابق اتفق العلماء، بل نقل غير واحد منهم الإجماع، على أن المسلم لا يطلب المغفرة ولا الرحمة لقريب مات على غير الإسلام."
+      },
+      {
+        "p": "وقد يكون هذا صعبًا على قلبك، فتذكّر أن النبي صلى الله عليه وسلم نفسه وجد هذا الألم في أمه، ورضي بحكم الله."
       },
       {
         "h": "دع الحكم الأخير لله"
       },
       {
-        "p": "هذا الحكم يتعلق بما نطلبه في دعائنا، وليس من شأنك أن تحكم على مصير أحد. نحن نعامل الناس بما ظهر لنا، والله وحده يعلم ما كان بين العبد وربه في لحظاته الأخيرة، وهو سبحانه العدل الذي لا يظلم أحدًا:"
+        "p": "هذا الحكم يتعلق بما نطلبه في دعائنا، وليس من شأنك أن تحكم على مصير أحد. والله وحده يعلم ما كان بين العبد وربه في لحظاته الأخيرة، وهو سبحانه العدل الذي لا يظلم أحدًا."
       },
       {
-        "quote": "وَلَا يَظْلِمُ رَبُّكَ أَحَدًۭا",
-        "cite": "الكهف: 49 (من آخر الآية)"
+        "more": {
+          "title": "عدل الله",
+          "blocks": [
+            {
+              "quote": "وَلَا يَظْلِمُ رَبُّكَ أَحَدًۭا",
+              "cite": "الكهف: 49 (من آخر الآية)"
+            }
+          ]
+        }
       },
       {
         "h": "أبواب المحبة المفتوحة أمامك"
       },
       {
-        "ul": [
-          "**احزن وتذكّر:** البكاء طبيعي وجائز، ولك أن تزور قبره لتتذكره وتعتبر، كما زار النبي صلى الله عليه وسلم قبر أمه.",
-          "**صِل رحمك:** ابقَ قريبًا من أجدادك وأعمامك وعماتك وأخوالك وخالاتك وأبنائهم وإخوتك، مسلمين كانوا أو غير مسلمين، فقد أمر النبي صلى الله عليه وسلم أسماء بنت أبي بكر رضي الله عنهما أن تصل أمها وهي غير مسلمة.",
-          "**أكرم من كان يحبهم:** علّمنا النبي صلى الله عليه وسلم أن من أبرّ البر أن يصل الإنسان أهل وُدّ أبيه، والإحسان إلى أصدقاء والدك أو والدتك طريقة جميلة لإكرام ذكراهما.",
-          "**ادعُ للأحياء:** لك أن تسأل الله أن يهدي أقاربك الأحياء، وأجاز كثير من العلماء كذلك الدعاء لهم بالصحة والعافية."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "احزن وتذكّر",
+              "text": "البكاء طبيعي وجائز، ولك أن تزور قبره، كما زار النبي صلى الله عليه وسلم قبر أمه."
+            },
+            {
+              "icon": "users",
+              "label": "صِل رحمك",
+              "text": "ابقَ قريبًا من أقاربك، مسلمين كانوا أو غير مسلمين، فقد أمر النبي صلى الله عليه وسلم أسماء بنت أبي بكر رضي الله عنهما أن تصل أمها وهي غير مسلمة."
+            },
+            {
+              "icon": "gift",
+              "label": "أكرم من كان يحبهم",
+              "text": "من أبرّ البر أن يصل الإنسان أهل وُدّ أبيه (علّمنا ذلك النبي صلى الله عليه وسلم)."
+            },
+            {
+              "icon": "hands",
+              "label": "ادعُ للأحياء",
+              "text": "لك أن تسأل الله أن يهدي أقاربك الأحياء، وأجاز كثير من العلماء كذلك الدعاء لهم بالصحة والعافية."
+            }
+          ]
+        }
       },
       {
         "h": "قصة أمل للأحياء"
@@ -155,18 +210,26 @@
         "phrase": {
           "arabic": "اللَّهُمَّ اهْدِ أُمَّ أَبِي هُرَيْرَةَ",
           "transliteration": "Allahumma ihdi umma Abi Hurayrah",
-          "meaning": "دعاء بأن يهدي الله أمَّ أبي هريرة إلى الإسلام."
+          "meaning": "دعاء بأن يهدي الله أمَّ أبي هريرة إلى الإسلام.",
+          "audio": "/audio/phrases/res-dua-non-muslim-relatives-1.mp3"
         }
       },
       {
-        "p": "فلما وصل أبو هريرة إلى بيته طلبت منه أمه أن ينتظر، ثم فتحت الباب ونطقت بالشهادتين، فرجع إلى النبي صلى الله عليه وسلم يبكي من الفرح (رواه مسلم 2491). وتستطيع أن تدعو بمثل هذا الدعاء لأمك أو أبيك أو لكل من تحب، بكلماتك وبأي لغة. وتذكّر أن الهداية بيد الله لا بيدك:"
+        "p": "فلما وصل أبو هريرة إلى بيته طلبت منه أمه أن ينتظر، ثم فتحت الباب ونطقت بالشهادتين، فرجع إلى النبي صلى الله عليه وسلم يبكي من الفرح (رواه مسلم 2491)."
       },
       {
-        "quote": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
-        "cite": "القصص: 56"
+        "p": "وتستطيع أن تدعو بمثل هذا الدعاء لكل من تحب، بكلماتك وبأي لغة. والهداية بيد الله لا بيدك، ودورك أن تحبهم وتدعو لهم وتريهم حسن الخلق."
       },
       {
-        "p": "أي: إنك لا تملك أن توفّق للهداية من أحببت، ولكن ذلك بيد الله يهدي من يشاء. فدورك أن تحبهم وتدعو لهم وتريهم حسن الخلق، والباقي لله."
+        "more": {
+          "title": "الهداية بيد الله",
+          "blocks": [
+            {
+              "quote": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+              "cite": "القصص: 56"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -182,14 +245,11 @@
       },
       {
         "key": "لا تستغفر لعزيز مات على غير الإسلام، ولكن للمحبة طرقًا كثيرة: الحزن والتذكر، وصلة الرحم، والإحسان إلى من كان يحبهم، والدعاء للأحياء، والثقة بعدل الله الكامل."
-      },
-      {
-        "p": "وبهذا تكتمل هذه المرحلة، وفي المرحلة التالية تتعلم كيف تدعو إلى دينك بحسن الخلق."
       }
     ],
     "es": [
       {
-        "p": "Si estás leyendo esto porque alguien a quien amas ha fallecido, lo sentimos mucho. Perder a un padre, a una abuela o a un amigo querido duele, y puede doler de una manera especial cuando esa persona no era musulmana. Esta lección explica con delicadeza lo que el Islam enseña sobre la *dua* (la súplica personal a Allah) por ellos, y las muchas formas de amor que siguen abiertas para ti."
+        "p": "Si alguien a quien amas ha fallecido, lo sentimos mucho. Esto es lo que el Islam enseña sobre la *dua* (la súplica personal a Allah) por los seres queridos que no eran musulmanes, y el amor que sigue abierto para ti."
       },
       {
         "h": "Incluso el Profeta lloró"
@@ -205,35 +265,60 @@
         "h": "Lo que dice el Corán"
       },
       {
-        "p": "Allah dice:"
-      },
-      {
         "quote": "No corresponde que el Profeta ni los creyentes pidan perdón por los idólatras aunque se trate de sus parientes, una vez que se haga evidente que serán de la gente del Infierno.",
         "cite": "Corán 9:113 (traducción del significado)"
       },
       {
-        "p": "Los sabios explican que este versículo trata de las personas que murieron sin creer en Allah como único Dios. Con base en este versículo y en el hadiz anterior, los sabios coinciden, y varios lo describen como un consenso, en que el musulmán no pide a Allah perdón ni misericordia para un familiar que murió sin ser musulmán. Puede ser difícil de leer. Recuerda que el Profeta mismo sintió este dolor por su propia madre y aceptó la decisión de Allah."
+        "p": "Los sabios explican que este versículo trata de las personas que murieron sin creer en Allah como único Dios. Con base en este versículo y en el hadiz anterior, los sabios coinciden, y varios lo describen como un consenso, en que el musulmán no pide a Allah perdón ni misericordia para un familiar que murió sin ser musulmán."
+      },
+      {
+        "p": "Puede ser difícil de leer. El Profeta mismo sintió este dolor por su propia madre y aceptó la decisión de Allah."
       },
       {
         "h": "Deja el juicio final a Allah"
       },
       {
-        "p": "Esta regla se refiere a lo que pedimos en nuestras súplicas. No te corresponde decidir el destino final de nadie. Actuamos según lo que podemos ver, y solo Allah sabe lo que pasó entre una persona y Él en sus últimos momentos. Él es perfectamente justo:"
+        "p": "Esta regla se refiere a lo que pedimos en nuestras súplicas. No te corresponde decidir el destino final de nadie. Solo Allah sabe lo que pasó entre una persona y Él en sus últimos momentos, y Él es perfectamente justo."
       },
       {
-        "quote": "tu Señor no oprimirá a nadie.",
-        "cite": "Corán 18:49 (final del versículo, traducción del significado)"
+        "more": {
+          "title": "La justicia de Allah",
+          "blocks": [
+            {
+              "quote": "tu Señor no oprimirá a nadie.",
+              "cite": "Corán 18:49 (final del versículo, traducción del significado)"
+            }
+          ]
+        }
       },
       {
         "h": "El amor que sigue abierto para ti"
       },
       {
-        "ul": [
-          "**Llora y recuerda.** Llorar es natural y está permitido. Puedes visitar su tumba para recordarlo y reflexionar sobre la vida, como el Profeta visitó la tumba de su madre.",
-          "**Mantén los lazos familiares.** Sigue cerca de tus abuelos, tíos, primos y hermanos, sean musulmanes o no. El Profeta le dijo a Asma bint Abi Bakr, que Allah esté complacido con ella, que mantuviera los lazos con su madre, que no era musulmana.",
-          "**Honra a quienes ellos amaban.** El Profeta enseñó que una de las mejores formas de bondad hacia un padre es mantener la relación con las personas que ese padre amaba. Ser amable con los amigos de tu padre o de tu madre es una forma hermosa de honrar su memoria.",
-          "**Pide por los vivos.** Puedes pedir a Allah que guíe a tus familiares vivos, y muchos sabios también permiten pedir que les conceda salud y bienestar."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Llora y recuerda",
+              "text": "Llorar es natural y está permitido. Puedes visitar su tumba, como el Profeta visitó la tumba de su madre."
+            },
+            {
+              "icon": "users",
+              "label": "Mantén los lazos familiares",
+              "text": "Sigue cerca de tus familiares, sean musulmanes o no. El Profeta le dijo a Asma bint Abi Bakr, que Allah esté complacido con ella, que mantuviera los lazos con su madre, que no era musulmana."
+            },
+            {
+              "icon": "gift",
+              "label": "Honra a quienes amaban",
+              "text": "Una de las mejores formas de bondad hacia un padre es mantener la relación con las personas que ese padre amaba (enseñanza del Profeta)."
+            },
+            {
+              "icon": "hands",
+              "label": "Pide por los vivos",
+              "text": "Puedes pedir a Allah que guíe a tus familiares vivos, y muchos sabios también permiten pedir que les conceda salud y bienestar."
+            }
+          ]
+        }
       },
       {
         "h": "Una historia de esperanza para los vivos"
@@ -245,18 +330,26 @@
         "phrase": {
           "arabic": "اللَّهُمَّ اهْدِ أُمَّ أَبِي هُرَيْرَةَ",
           "transliteration": "Allahumma ihdi umma Abi Hurayrah",
-          "meaning": "Oh Allah, guía a la madre de Abu Huraira."
+          "meaning": "Oh Allah, guía a la madre de Abu Huraira.",
+          "audio": "/audio/phrases/res-dua-non-muslim-relatives-1.mp3"
         }
       },
       {
-        "p": "Cuando Abu Huraira llegó a su casa, su madre le pidió que esperara, luego abrió la puerta y pronunció la shahada. Él volvió con el Profeta llorando de alegría (Sahih Muslim 2491). Tú puedes hacer este tipo de dua por tu madre, tu padre o cualquier persona que ames, con tus propias palabras y en cualquier idioma. Y recuerda que la guía está en manos de Allah, no en las tuyas:"
+        "p": "Cuando Abu Huraira llegó a su casa, su madre le pidió que esperara, luego abrió la puerta y pronunció la shahada. Él volvió con el Profeta llorando de alegría (Sahih Muslim 2491)."
       },
       {
-        "quote": "Tú no puedes guiar a quien amas, sino que Dios guía a quien Él quiere. Él sabe quiénes seguirán la guía.",
-        "cite": "Corán 28:56 (traducción del significado)"
+        "p": "Puedes hacer este tipo de dua por cualquier persona que ames, con tus propias palabras y en cualquier idioma. La guía está en manos de Allah, no en las tuyas. Tu parte es amarlos, orar por ellos y mostrarles buen carácter."
       },
       {
-        "p": "Tu parte es amarlos, orar por ellos y mostrarles buen carácter. Lo demás le pertenece a Allah."
+        "more": {
+          "title": "La guía le pertenece a Allah",
+          "blocks": [
+            {
+              "quote": "Tú no puedes guiar a quien amas, sino que Dios guía a quien Él quiere. Él sabe quiénes seguirán la guía.",
+              "cite": "Corán 28:56 (traducción del significado)"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -272,9 +365,6 @@
       },
       {
         "key": "No pides perdón por un ser querido que murió sin ser musulmán, pero el amor todavía tiene muchos caminos: llorar, recordar, mantener los lazos familiares, ser amable con quienes amaba, pedir por los vivos y confiar en la justicia perfecta de Allah."
-      },
-      {
-        "p": "Con esto termina esta etapa. En la siguiente aprenderás a compartir tu fe a través del buen carácter."
       }
     ]
   },

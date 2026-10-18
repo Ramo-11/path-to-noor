@@ -1,9 +1,14 @@
-import { BookOpen, Route, GraduationCap, Users, Layers, FileQuestion } from "lucide-react";
+import Link from "next/link";
+import { BookOpen, Route, GraduationCap, Users, Layers, FileQuestion, Flag } from "lucide-react";
 import { getDashboardStats } from "@/lib/data";
+import { connectDB } from "@/db/connection";
+import { LessonReport } from "@/db/models/LessonReport";
 import { AnalyticsCharts } from "@/components/admin/AnalyticsCharts";
 
 export default async function AdminDashboardPage() {
   const stats = await getDashboardStats();
+  await connectDB();
+  const openReports = await LessonReport.countDocuments({ kind: "report", status: "open" });
 
   const cards = [
     { label: "Topics", value: stats.topics, icon: BookOpen, color: "bg-primary-100 dark:bg-primary-900/30 text-primary-600" },
@@ -41,6 +46,20 @@ export default async function AdminDashboardPage() {
             </div>
           </div>
         ))}
+        <Link
+          href="/admin/reports"
+          className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 hover:border-primary-300 dark:hover:border-primary-700 transition-colors"
+        >
+          <div className="flex items-center gap-4">
+            <div className="p-3 rounded-lg bg-rose-100 dark:bg-rose-900/30 text-rose-600">
+              <Flag className="h-5 w-5" />
+            </div>
+            <div>
+              <p className="text-2xl font-bold text-slate-900 dark:text-white">{openReports}</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400">Open reports</p>
+            </div>
+          </div>
+        </Link>
       </div>
 
       <div className="mt-8">

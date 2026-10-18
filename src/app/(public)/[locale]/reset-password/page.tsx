@@ -7,8 +7,7 @@ import { Button } from "@/components/primer/Button";
 import { TextField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
 import { AuthShell } from "@/components/auth/AuthShell";
-
-const INVALID_TOKEN_ERROR = "Invalid or expired reset token";
+import { authErrorKey } from "@/components/auth/auth-errors";
 
 function ResetPasswordForm() {
   const t = useTranslations("resetPassword");
@@ -69,13 +68,14 @@ function ResetPasswordForm() {
         body: JSON.stringify({ token, password }),
       });
 
-      const data = await res.json();
+      const data = await res.json().catch(() => ({}));
       if (!res.ok) {
-        if (data.error === INVALID_TOKEN_ERROR) {
+        const key = authErrorKey(data.code, res.status);
+        if (key === "invalid_token" || key === "expired_token") {
           setTokenInvalid(true);
           return;
         }
-        setError(data.error || t("error"));
+        setError(t(`errors.${key}`));
         return;
       }
 

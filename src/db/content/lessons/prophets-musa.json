@@ -1,6 +1,6 @@
 {
   "slug": "prophets-musa",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "Musa: patience and trust",
     "ar": "موسى عليه السلام: الصبر والثقة بالله",
@@ -9,40 +9,46 @@
   "body": {
     "en": [
       {
-        "p": "Musa, peace be upon him, known in English as Moses, is one of the prophets whose story the Quran tells most fully, across many surahs. He was given a special honor: \"And Allah spoke to Moses with [direct] speech.\" (Quran 4:164). His life was full of fear, hard choices, and long waiting, and through all of it he learned to trust Allah. That is why his story speaks so directly to anyone starting something new."
+        "p": "Musa (Moses), peace be upon him, is one of the prophets whose story the Quran tells most fully, and it speaks to anyone starting something new."
       },
       {
-        "h": "A baby in the river"
+        "h": "A baby, a mistake, a journey"
       },
       {
-        "p": "Musa was born in Egypt at a time when Pharaoh was oppressing the Children of Israel and killing their newborn sons (Quran 28:4). Allah inspired his mother with a plan that must have seemed impossible:"
+        "timeline": {
+          "events": [
+            {
+              "when": "Born in Egypt",
+              "text": "Pharaoh was oppressing the Children of Israel and killing their newborn sons (Quran 28:4). Allah inspired Musa's mother to cast him into the river."
+            },
+            {
+              "when": "In the river",
+              "text": "Pharaoh's household picked him out, and Pharaoh's wife said, \"Do not kill him\" (Quran 28:9). Allah returned him to his mother."
+            },
+            {
+              "when": "A mistake",
+              "text": "As a young man, before he was a prophet, he struck a man who died, which he did not intend (Quran 28:15)."
+            },
+            {
+              "when": "Leaving Egypt",
+              "text": "He left in fear, alone, saying: \"Perhaps my Lord will guide me to the sound way.\" (Quran 28:22)"
+            },
+            {
+              "when": "Madyan",
+              "text": "He helped two women water their flocks."
+            }
+          ]
+        }
       },
       {
-        "quote": "And We inspired to the mother of Moses, \"Suckle him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him [one] of the messengers.\"",
-        "cite": "Quran 28:7 (Saheeh International translation)"
-      },
-      {
-        "p": "Pharaoh's own household picked the baby out of the river, and Pharaoh's wife said, \"Do not kill him\" (Quran 28:9). Then Allah kept His promise:"
-      },
-      {
-        "quote": "So We restored him to his mother that she might be content and not grieve and that she would know that the promise of Allah is true.",
-        "cite": "Quran 28:13 (Saheeh International translation)"
-      },
-      {
-        "p": "Allah's plan was working the whole time, even while it looked like the worst was happening."
-      },
-      {
-        "h": "A mistake, and forgiveness"
-      },
-      {
-        "p": "As a young man, before he became a prophet, Musa stepped into a fight to help someone. He struck a man, and the man died, which Musa did not intend (Quran 28:15). He turned to Allah at once:"
+        "p": "Musa admitted his wrong and turned to Allah at once. If you carry regret about your past, notice what happened:"
       },
       {
         "quote": "He said, \"My Lord, indeed I have wronged myself, so forgive me,\" and He forgave him. Indeed, He is the Forgiving, the Merciful.",
         "cite": "Quran 28:16 (Saheeh International translation)"
       },
       {
-        "p": "If you carry regret about your past, notice this: Musa admitted his wrong, asked for forgiveness, and Allah forgave him. Then Musa left Egypt in fear, alone, saying: \"Perhaps my Lord will guide me to the sound way.\" (Quran 28:22). In the land of Madyan he helped two women water their flocks, then sat down in the shade, hungry and far from home, and made this dua:"
+        "p": "Then, in the shade, hungry and far from home, he made this dua:"
       },
       {
         "phrase": {
@@ -52,34 +58,72 @@
         }
       },
       {
+        "more": {
+          "title": "More about his early life",
+          "blocks": [
+            {
+              "p": "He was given a special honor: \"And Allah spoke to Moses with [direct] speech.\" (Quran 4:164)."
+            },
+            {
+              "p": "Allah inspired his mother with a plan that must have seemed impossible:"
+            },
+            {
+              "quote": "And We inspired to the mother of Moses, \"Suckle him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him [one] of the messengers.\"",
+              "cite": "Quran 28:7 (Saheeh International translation)"
+            },
+            {
+              "p": "Then Allah kept His promise:"
+            },
+            {
+              "quote": "So We restored him to his mother that she might be content and not grieve and that she would know that the promise of Allah is true.",
+              "cite": "Quran 28:13 (Saheeh International translation)"
+            },
+            {
+              "p": "Allah's plan was working the whole time, even while it looked like the worst was happening."
+            }
+          ]
+        }
+      },
+      {
         "h": "Called to a mission"
       },
       {
-        "p": "Years later, traveling at night with his family, Musa saw a fire in the distance (Quran 20:10). When he came near, Allah called to him:"
+        "p": "Years later, at night with his family, Musa saw a fire in the distance (Quran 20:10). Allah called to him and gave him a task that would frighten anyone: \"Go to Pharaoh\" (Quran 20:24)."
       },
       {
-        "quote": "Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance.",
-        "cite": "Quran 20:14 (Saheeh International translation)"
-      },
-      {
-        "p": "Then Allah gave him a task that would frighten anyone: \"Go to Pharaoh\" (Quran 20:24). Musa did not pretend to be fearless. He asked Allah for exactly what he needed:"
+        "p": "Musa did not pretend to be fearless. He asked Allah for exactly what he needed:"
       },
       {
         "phrase": {
           "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
           "transliteration": "Rabbish-rahli sadri, wa yassirli amri, wahlul 'uqdatan min lisani, yafqahu qawli",
-          "meaning": "My Lord, expand for me my breast [with assurance], and ease for me my task, and untie the knot from my tongue, that they may understand my speech."
+          "meaning": "My Lord, expand for me my breast [with assurance], and ease for me my task, and untie the knot from my tongue, that they may understand my speech.",
+          "audio": [
+            "/audio/quran/020025.mp3",
+            "/audio/quran/020026.mp3",
+            "/audio/quran/020027.mp3",
+            "/audio/quran/020028.mp3"
+          ]
         }
       },
       {
-        "p": "He also asked for his brother Harun (Aaron) to help him, and Allah answered: \"You have been granted your request, O Moses.\" (Quran 20:36). Allah even told them how to speak to the most arrogant ruler on earth:"
-      },
-      {
-        "quote": "And speak to him with gentle speech that perhaps he may be reminded or fear [Allah].",
-        "cite": "Quran 20:44 (Saheeh International translation)"
-      },
-      {
-        "p": "When they said they were afraid, Allah reassured them: \"Fear not. Indeed, I am with you both; I hear and I see.\" (Quran 20:46)."
+        "flow": {
+          "title": "Allah answered",
+          "steps": [
+            {
+              "label": "Harun",
+              "text": "He asked for his brother Harun (Aaron) to help him. Allah answered: \"You have been granted your request, O Moses.\" (Quran 20:36)"
+            },
+            {
+              "label": "Speak gently",
+              "text": "Allah told them how to speak to the most arrogant ruler on earth: with gentle speech (Quran 20:44)."
+            },
+            {
+              "label": "Fear not",
+              "text": "When they said they were afraid, Allah reassured them: \"Fear not. Indeed, I am with you both; I hear and I see.\" (Quran 20:46)"
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -93,10 +137,31 @@
         }
       },
       {
+        "more": {
+          "title": "More from this part of the story",
+          "blocks": [
+            {
+              "p": "When Musa came near the fire, Allah called to him:"
+            },
+            {
+              "quote": "Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance.",
+              "cite": "Quran 20:14 (Saheeh International translation)"
+            },
+            {
+              "p": "About speaking to Pharaoh:"
+            },
+            {
+              "quote": "And speak to him with gentle speech that perhaps he may be reminded or fear [Allah].",
+              "cite": "Quran 20:44 (Saheeh International translation)"
+            }
+          ]
+        }
+      },
+      {
         "h": "The sea"
       },
       {
-        "p": "In the end, Allah told Musa to leave Egypt by night with the believers (Quran 26:52), and Pharaoh chased them with his army. They reached the sea with nowhere to go:"
+        "p": "Allah told Musa to leave Egypt by night with the believers (Quran 26:52). Pharaoh chased them, and they reached the sea with nowhere to go:"
       },
       {
         "quote": "And when the two companies saw one another, the companions of Moses said, \"Indeed, we are to be overtaken!\" [Moses] said, \"No! Indeed, with me is my Lord; He will guide me.\"",
@@ -106,11 +171,18 @@
         "p": "Allah told Musa to strike the sea with his staff, and it parted (Quran 26:63). \"And We saved Moses and those with him, all together\" (Quran 26:65)."
       },
       {
-        "p": "Musa's patience became an example for the Prophet Muhammad, peace be upon him, too. Once, when someone accused him of being unfair, the Prophet said:"
-      },
-      {
-        "quote": "May Allah have mercy upon Mūsa! He was hurt more than this but he remained patient.",
-        "cite": "Sahih al-Bukhari 3150 and Sahih Muslim 1062"
+        "more": {
+          "title": "An example for the Prophet Muhammad",
+          "blocks": [
+            {
+              "p": "Musa's patience became an example for the Prophet Muhammad, peace be upon him, too. Once, when someone accused him of being unfair, the Prophet said:"
+            },
+            {
+              "quote": "May Allah have mercy upon Mūsa! He was hurt more than this but he remained patient.",
+              "cite": "Sahih al-Bukhari 3150 and Sahih Muslim 1062"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -133,40 +205,46 @@
     ],
     "ar": [
       {
-        "p": "موسى عليه السلام من الأنبياء الذين فصّل القرآن قصتهم في سور كثيرة، وقد خصّه الله بشرف عظيم: «وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًۭا» (النساء: 164). كانت حياته مليئة بالخوف والقرارات الصعبة والانتظار الطويل، وتعلّم في ذلك كله أن يثق بالله. ولهذا تخاطب قصته كل من يبدأ طريقًا جديدًا."
+        "p": "موسى عليه السلام من الأنبياء الذين فصّل القرآن قصتهم، وتخاطب قصته كل من يبدأ طريقًا جديدًا."
       },
       {
-        "h": "طفل في النهر"
+        "h": "طفل، وخطأ، ورحلة"
       },
       {
-        "p": "وُلد موسى في مصر في زمنٍ كان فرعون يستضعف فيه بني إسرائيل ويذبّح أبناءهم (القصص: 4). فألهم الله أمه أمرًا يبدو مستحيلًا:"
+        "timeline": {
+          "events": [
+            {
+              "when": "وُلد في مصر",
+              "text": "كان فرعون يستضعف بني إسرائيل ويذبّح أبناءهم (القصص: 4). فألهم الله أم موسى أن تُلقيه في النهر."
+            },
+            {
+              "when": "في النهر",
+              "text": "فالتقطه آل فرعون من النهر، وقالت امرأة فرعون: «لَا تَقْتُلُوهُ» (القصص: 9). ورده الله إلى أمه."
+            },
+            {
+              "when": "خطأ",
+              "text": "وفي شبابه، قبل النبوة، ضرب موسى رجلًا فمات، ولم يكن يقصد قتله (القصص: 15)."
+            },
+            {
+              "when": "الخروج من مصر",
+              "text": "خرج خائفًا وحيدًا وهو يقول: «عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ» (القصص: 22)."
+            },
+            {
+              "when": "مدين",
+              "text": "وسقى للمرأتين غنمهما."
+            }
+          ]
+        }
       },
       {
-        "quote": "وَأَوْحَيْنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِى ٱلْيَمِّ وَلَا تَخَافِى وَلَا تَحْزَنِىٓ ۖ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ",
-        "cite": "سورة القصص: 7"
-      },
-      {
-        "p": "فالتقطه آل فرعون من النهر، وقالت امرأة فرعون: «لَا تَقْتُلُوهُ» (القصص: 9). ثم وفّى الله بوعده:"
-      },
-      {
-        "quote": "فَرَدَدْنَٰهُ إِلَىٰٓ أُمِّهِۦ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ وَلِتَعْلَمَ أَنَّ وَعْدَ ٱللَّهِ حَقٌّۭ",
-        "cite": "سورة القصص: 13"
-      },
-      {
-        "p": "كان تدبير الله يسير طوال الوقت، حتى حين بدا أن أسوأ ما يكون قد وقع."
-      },
-      {
-        "h": "خطأ ثم مغفرة"
-      },
-      {
-        "p": "وفي شبابه، قبل النبوة، تدخّل موسى في شجار لينصر رجلًا من قومه، فضرب رجلًا فمات، ولم يكن يقصد قتله (القصص: 15). فرجع إلى الله فورًا:"
+        "p": "اعترف موسى بخطئه ورجع إلى الله فورًا. وإن كنت تحمل ندمًا على ماضيك فتأمّل ما حدث:"
       },
       {
         "quote": "قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
         "cite": "سورة القصص: 16"
       },
       {
-        "p": "وإن كنت تحمل ندمًا على ماضيك فتأمّل هذا: اعترف موسى بخطئه، وطلب المغفرة، فغفر الله له. ثم خرج من مصر خائفًا وحيدًا وهو يقول: «عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ» (القصص: 22). وفي مدين سقى للمرأتين غنمهما، ثم جلس في الظل جائعًا بعيدًا عن أهله، ودعا بهذا الدعاء:"
+        "p": "ثم جلس في الظل جائعًا بعيدًا عن أهله، ودعا بهذا الدعاء:"
       },
       {
         "phrase": {
@@ -176,34 +254,72 @@
         }
       },
       {
+        "more": {
+          "title": "المزيد عن بداياته",
+          "blocks": [
+            {
+              "p": "وقد خصّه الله بشرف عظيم: «وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًۭا» (النساء: 164)."
+            },
+            {
+              "p": "فألهم الله أمه أمرًا يبدو مستحيلًا:"
+            },
+            {
+              "quote": "وَأَوْحَيْنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِى ٱلْيَمِّ وَلَا تَخَافِى وَلَا تَحْزَنِىٓ ۖ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ",
+              "cite": "سورة القصص: 7"
+            },
+            {
+              "p": "ثم وفّى الله بوعده:"
+            },
+            {
+              "quote": "فَرَدَدْنَٰهُ إِلَىٰٓ أُمِّهِۦ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ وَلِتَعْلَمَ أَنَّ وَعْدَ ٱللَّهِ حَقٌّۭ",
+              "cite": "سورة القصص: 13"
+            },
+            {
+              "p": "كان تدبير الله يسير طوال الوقت، حتى حين بدا أن أسوأ ما يكون قد وقع."
+            }
+          ]
+        }
+      },
+      {
         "h": "التكليف بالرسالة"
       },
       {
-        "p": "وبعد سنين، وهو يسير ليلًا مع أهله، رأى موسى نارًا من بعيد (طه: 10)، فلما أتاها ناداه الله:"
+        "p": "وبعد سنين، وهو يسير ليلًا مع أهله، رأى موسى نارًا من بعيد (طه: 10). فناداه الله وكلّفه بمهمة تُخيف أي إنسان: «ٱذْهَبْ إِلَىٰ فِرْعَوْنَ» (طه: 24)."
       },
       {
-        "quote": "إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
-        "cite": "سورة طه: 14"
-      },
-      {
-        "p": "ثم كلّفه الله بمهمة تُخيف أي إنسان: «ٱذْهَبْ إِلَىٰ فِرْعَوْنَ» (طه: 24). ولم يتظاهر موسى بأنه لا يخاف، بل سأل الله ما يحتاج إليه بالضبط:"
+        "p": "ولم يتظاهر موسى بأنه لا يخاف، بل سأل الله ما يحتاج إليه بالضبط:"
       },
       {
         "phrase": {
           "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
           "transliteration": "Rabbish-rahli sadri, wa yassirli amri, wahlul 'uqdatan min lisani, yafqahu qawli",
-          "meaning": "ربِّ وسّع لي صدري، وسهّل لي أمري، وأطلق لساني بفصيح المنطق، ليفهموا كلامي."
+          "meaning": "ربِّ وسّع لي صدري، وسهّل لي أمري، وأطلق لساني بفصيح المنطق، ليفهموا كلامي.",
+          "audio": [
+            "/audio/quran/020025.mp3",
+            "/audio/quran/020026.mp3",
+            "/audio/quran/020027.mp3",
+            "/audio/quran/020028.mp3"
+          ]
         }
       },
       {
-        "p": "وسأل الله أن يجعل أخاه هارون عونًا له، فأجابه الله: «قَدْ أُوتِيتَ سُؤْلَكَ يَٰمُوسَىٰ» (طه: 36). بل علّمهما الله كيف يخاطبان أشدّ الملوك طغيانًا:"
-      },
-      {
-        "quote": "فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ",
-        "cite": "سورة طه: 44"
-      },
-      {
-        "p": "ولما قالا إنهما يخافان، طمأنهما الله: «لَا تَخَافَآ ۖ إِنَّنِى مَعَكُمَآ أَسْمَعُ وَأَرَىٰ» (طه: 46)."
+        "flow": {
+          "title": "فأجابه الله",
+          "steps": [
+            {
+              "label": "هارون",
+              "text": "سأل الله أن يجعل أخاه هارون عونًا له، فأجابه: «قَدْ أُوتِيتَ سُؤْلَكَ يَٰمُوسَىٰ» (طه: 36)."
+            },
+            {
+              "label": "قولًا لينًا",
+              "text": "وعلّمهما الله كيف يخاطبان أشدّ الملوك طغيانًا: بقول لين (طه: 44)."
+            },
+            {
+              "label": "لا تخافا",
+              "text": "ولما قالا إنهما يخافان، طمأنهما الله: «لَا تَخَافَآ ۖ إِنَّنِى مَعَكُمَآ أَسْمَعُ وَأَرَىٰ» (طه: 46)."
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -217,10 +333,31 @@
         }
       },
       {
+        "more": {
+          "title": "المزيد من هذا الجزء من القصة",
+          "blocks": [
+            {
+              "p": "فلما أتى موسى النار ناداه الله:"
+            },
+            {
+              "quote": "إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
+              "cite": "سورة طه: 14"
+            },
+            {
+              "p": "وعن مخاطبة فرعون:"
+            },
+            {
+              "quote": "فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ",
+              "cite": "سورة طه: 44"
+            }
+          ]
+        }
+      },
+      {
         "h": "البحر"
       },
       {
-        "p": "وفي النهاية أمر الله موسى أن يسري بالمؤمنين ليلًا (الشعراء: 52)، فتبعهم فرعون بجنوده، حتى وصلوا إلى البحر ولا مهرب:"
+        "p": "أمر الله موسى أن يسري بالمؤمنين ليلًا (الشعراء: 52)، فتبعهم فرعون، حتى وصلوا إلى البحر ولا مهرب:"
       },
       {
         "quote": "فَلَمَّا تَرَٰٓءَا ٱلْجَمْعَانِ قَالَ أَصْحَٰبُ مُوسَىٰٓ إِنَّا لَمُدْرَكُونَ قَالَ كَلَّآ ۖ إِنَّ مَعِىَ رَبِّى سَيَهْدِينِ",
@@ -230,11 +367,18 @@
         "p": "فأوحى الله إلى موسى أن يضرب البحر بعصاه فانفلق (الشعراء: 63)، وأنجى الله موسى ومن معه أجمعين (الشعراء: 65)."
       },
       {
-        "p": "وصار صبر موسى قدوة للنبي محمد صلى الله عليه وسلم نفسه، فحين اتّهمه رجل بعدم العدل في القسمة قال:"
-      },
-      {
-        "quote": "يَرحم الله موسى، قد أُوذي بأكثر من هذا فصبر",
-        "cite": "صحيح البخاري 3150، وصحيح مسلم 1062"
+        "more": {
+          "title": "قدوة للنبي محمد صلى الله عليه وسلم",
+          "blocks": [
+            {
+              "p": "وصار صبر موسى قدوة للنبي محمد صلى الله عليه وسلم نفسه، فحين اتّهمه رجل بعدم العدل في القسمة قال:"
+            },
+            {
+              "quote": "يَرحم الله موسى، قد أُوذي بأكثر من هذا فصبر",
+              "cite": "صحيح البخاري 3150، وصحيح مسلم 1062"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -257,40 +401,46 @@
     ],
     "es": [
       {
-        "p": "Musa, la paz sea con él, conocido en español como Moisés, es uno de los profetas cuya historia el Corán cuenta con más detalle, en muchas suras. Recibió un honor especial: \"Dios habló con Moisés directamente\" (Corán 4:164). Su vida estuvo llena de miedo, decisiones difíciles y largas esperas, y en todo ello aprendió a confiar en Allah. Por eso su historia habla tan directamente a quien empieza algo nuevo. (En las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah.)"
+        "p": "Musa (Moisés), la paz sea con él, es uno de los profetas cuya historia el Corán cuenta con más detalle, y habla a quien empieza algo nuevo. (En las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah.)"
       },
       {
-        "h": "Un bebé en el río"
+        "h": "Un bebé, un error, un viaje"
       },
       {
-        "p": "Musa nació en Egipto en una época en la que el Faraón oprimía a los Hijos de Israel y mataba a sus hijos varones recién nacidos (Corán 28:4). Allah inspiró a su madre un plan que debió de parecer imposible:"
+        "timeline": {
+          "events": [
+            {
+              "when": "Nació en Egipto",
+              "text": "El Faraón oprimía a los Hijos de Israel y mataba a sus hijos varones recién nacidos (Corán 28:4). Allah inspiró a la madre de Musa que lo dejara en el río."
+            },
+            {
+              "when": "En el río",
+              "text": "La familia del Faraón sacó al bebé del río, y la esposa del Faraón dijo: \"No lo mates\" (Corán 28:9). Allah lo devolvió a su madre."
+            },
+            {
+              "when": "Un error",
+              "text": "Siendo joven, antes de ser profeta, golpeó a un hombre y el hombre murió, algo que no pretendía (Corán 28:15)."
+            },
+            {
+              "when": "Salir de Egipto",
+              "text": "Salió con miedo, solo, diciendo: \"¡Pueda que mi Señor me guie por el camino correcto!\" (Corán 28:22)"
+            },
+            {
+              "when": "Madián",
+              "text": "Ayudó a dos mujeres a dar de beber a su rebaño."
+            }
+          ]
+        }
       },
       {
-        "quote": "Inspiré a la madre de Moisés: \"Amamántalo, y cuando temas por él déjalo [en un cesto de mimbre] en el río. No temas ni te entristezcas, porque te lo devolveré y lo haré un Mensajero\".",
-        "cite": "Corán 28:7"
-      },
-      {
-        "p": "La propia familia del Faraón sacó al bebé del río, y la esposa del Faraón dijo: \"No lo mates\" (Corán 28:9). Entonces Allah cumplió Su promesa:"
-      },
-      {
-        "quote": "Así se lo devolví a su madre [como nodriza] para consuelo de sus ojos, para que no se entristeciera y supiera que la promesa de Dios siempre se cumple",
-        "cite": "Corán 28:13"
-      },
-      {
-        "p": "El plan de Allah estaba en marcha todo el tiempo, incluso cuando parecía que ocurría lo peor."
-      },
-      {
-        "h": "Un error, y el perdón"
-      },
-      {
-        "p": "Siendo joven, antes de ser profeta, Musa intervino en una pelea para ayudar a alguien. Golpeó a un hombre y el hombre murió, algo que Musa no pretendía (Corán 28:15). Se volvió a Allah de inmediato:"
+        "p": "Musa reconoció su error y se volvió a Allah de inmediato. Si cargas con remordimientos por tu pasado, fíjate en lo que pasó:"
       },
       {
         "quote": "Dijo: \"¡Señor mío! He sido injusto conmigo mismo; perdóname\". Y [Dios] lo perdonó, porque Él es Absolvedor, Misericordioso.",
         "cite": "Corán 28:16"
       },
       {
-        "p": "Si cargas con remordimientos por tu pasado, fíjate en esto: Musa reconoció su error, pidió perdón y Allah lo perdonó. Después salió de Egipto con miedo, solo, diciendo: \"¡Pueda que mi Señor me guie por el camino correcto!\" (Corán 28:22). En la tierra de Madián ayudó a dos mujeres a dar de beber a su rebaño, y luego se sentó a la sombra, con hambre y lejos de casa, e hizo esta súplica:"
+        "p": "Luego, a la sombra, con hambre y lejos de casa, hizo esta súplica:"
       },
       {
         "phrase": {
@@ -300,34 +450,72 @@
         }
       },
       {
+        "more": {
+          "title": "Más sobre sus comienzos",
+          "blocks": [
+            {
+              "p": "Recibió un honor especial: \"Dios habló con Moisés directamente\" (Corán 4:164)."
+            },
+            {
+              "p": "Allah inspiró a su madre un plan que debió de parecer imposible:"
+            },
+            {
+              "quote": "Inspiré a la madre de Moisés: \"Amamántalo, y cuando temas por él déjalo [en un cesto de mimbre] en el río. No temas ni te entristezcas, porque te lo devolveré y lo haré un Mensajero\".",
+              "cite": "Corán 28:7"
+            },
+            {
+              "p": "Entonces Allah cumplió Su promesa:"
+            },
+            {
+              "quote": "Así se lo devolví a su madre [como nodriza] para consuelo de sus ojos, para que no se entristeciera y supiera que la promesa de Dios siempre se cumple",
+              "cite": "Corán 28:13"
+            },
+            {
+              "p": "El plan de Allah estaba en marcha todo el tiempo, incluso cuando parecía que ocurría lo peor."
+            }
+          ]
+        }
+      },
+      {
         "h": "Llamado a una misión"
       },
       {
-        "p": "Años después, viajando de noche con su familia, Musa vio un fuego a lo lejos (Corán 20:10). Cuando se acercó, Allah lo llamó:"
+        "p": "Años después, de noche con su familia, Musa vio un fuego a lo lejos (Corán 20:10). Allah lo llamó y le dio una tarea que asustaría a cualquiera: ir ante el Faraón (Corán 20:24)."
       },
       {
-        "quote": "Yo soy Allah, y no hay más divinidad que Yo. Adórame solo a Mí y haz la oración para recordarme.",
-        "cite": "Corán 20:14"
-      },
-      {
-        "p": "Luego Allah le dio una tarea que asustaría a cualquiera: ir ante el Faraón (Corán 20:24). Musa no fingió no tener miedo. Le pidió a Allah exactamente lo que necesitaba:"
+        "p": "Musa no fingió no tener miedo. Le pidió a Allah exactamente lo que necesitaba:"
       },
       {
         "phrase": {
           "arabic": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
           "transliteration": "Rabbish-rahli sadri, wa yassirli amri, wahlul 'uqdatan min lisani, yafqahu qawli",
-          "meaning": "¡Oh, Señor mío! Abre mi corazón [y dame valor], facilita mi misión, suelta el nudo que hay en mi lengua para que comprendan mis palabras."
+          "meaning": "¡Oh, Señor mío! Abre mi corazón [y dame valor], facilita mi misión, suelta el nudo que hay en mi lengua para que comprendan mis palabras.",
+          "audio": [
+            "/audio/quran/020025.mp3",
+            "/audio/quran/020026.mp3",
+            "/audio/quran/020027.mp3",
+            "/audio/quran/020028.mp3"
+          ]
         }
       },
       {
-        "p": "También pidió que su hermano Harun (Aarón) lo ayudara, y Allah respondió: \"Te ha sido concedido lo que pides, ¡oh, Moisés!\" (Corán 20:36). Allah les enseñó incluso cómo hablarle al gobernante más arrogante de la tierra:"
-      },
-      {
-        "quote": "pero háblenle cortésmente, para hacerlo entrar en razón o sienta temor de Dios",
-        "cite": "Corán 20:44"
-      },
-      {
-        "p": "Cuando dijeron que tenían miedo, Allah los tranquilizó: \"No tengan miedo, pues Yo estoy con ustedes escuchando y observando todo.\" (Corán 20:46)."
+        "flow": {
+          "title": "Allah respondió",
+          "steps": [
+            {
+              "label": "Harun",
+              "text": "Pidió que su hermano Harun (Aarón) lo ayudara, y Allah respondió: \"Te ha sido concedido lo que pides, ¡oh, Moisés!\" (Corán 20:36)"
+            },
+            {
+              "label": "Hablar con suavidad",
+              "text": "Allah les enseñó cómo hablarle al gobernante más arrogante de la tierra: con cortesía (Corán 20:44)."
+            },
+            {
+              "label": "No teman",
+              "text": "Cuando dijeron que tenían miedo, Allah los tranquilizó: \"No tengan miedo, pues Yo estoy con ustedes escuchando y observando todo.\" (Corán 20:46)"
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -341,10 +529,31 @@
         }
       },
       {
+        "more": {
+          "title": "Más de esta parte de la historia",
+          "blocks": [
+            {
+              "p": "Cuando Musa se acercó al fuego, Allah lo llamó:"
+            },
+            {
+              "quote": "Yo soy Allah, y no hay más divinidad que Yo. Adórame solo a Mí y haz la oración para recordarme.",
+              "cite": "Corán 20:14"
+            },
+            {
+              "p": "Sobre cómo hablarle al Faraón:"
+            },
+            {
+              "quote": "pero háblenle cortésmente, para hacerlo entrar en razón o sienta temor de Dios",
+              "cite": "Corán 20:44"
+            }
+          ]
+        }
+      },
+      {
         "h": "El mar"
       },
       {
-        "p": "Al final, Allah ordenó a Musa salir de Egipto de noche con los creyentes (Corán 26:52), y el Faraón los persiguió con su ejército. Llegaron al mar sin ningún lugar adonde ir:"
+        "p": "Allah ordenó a Musa salir de Egipto de noche con los creyentes (Corán 26:52). El Faraón los persiguió y llegaron al mar sin ningún lugar adonde ir:"
       },
       {
         "quote": "Cuando los dos grupos se divisaron, los seguidores de Moisés exclamaron: \"¡[Pronto] seremos alcanzados!\" Dijo [Moisés]: \"¡No, [no nos alcanzarán]! Pues mi Señor está conmigo, y Él me guiará [para saber cómo salvarnos]\".",
@@ -354,11 +563,18 @@
         "p": "Allah le ordenó a Musa golpear el mar con su vara, y el mar se abrió (Corán 26:63). Allah salvó a Musa y a todos los que estaban con él (Corán 26:65)."
       },
       {
-        "p": "La paciencia de Musa fue un ejemplo incluso para el Profeta Muhammad, la paz sea con él. Una vez, cuando alguien lo acusó de no ser justo en un reparto, el Profeta dijo:"
-      },
-      {
-        "quote": "Que Allah tenga misericordia de Moisés fue probado con más que esto y tuvo paciencia.",
-        "cite": "Sahih al-Bujari 3150 y Sahih Muslim 1062"
+        "more": {
+          "title": "Un ejemplo para el Profeta Muhammad",
+          "blocks": [
+            {
+              "p": "La paciencia de Musa fue un ejemplo incluso para el Profeta Muhammad, la paz sea con él. Una vez, cuando alguien lo acusó de no ser justo en un reparto, el Profeta dijo:"
+            },
+            {
+              "quote": "Que Allah tenga misericordia de Moisés fue probado con más que esto y tuvo paciencia.",
+              "cite": "Sahih al-Bujari 3150 y Sahih Muslim 1062"
+            }
+          ]
+        }
       },
       {
         "quick": {

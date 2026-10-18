@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-fatiha",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "What Surah Al-Fatiha means",
     "ar": "معاني سورة الفاتحة",
@@ -9,10 +9,10 @@
   "body": {
     "en": [
       {
-        "p": "You now know how to recite Al-Fatiha. This lesson walks through what each verse means, so that when you say it in prayer you know what you are saying to Allah. The English meanings below are from the Saheeh International translation. A translation carries the meaning, but the Quran itself is the Arabic."
+        "p": "You know how to recite Al-Fatiha. Here is what each verse says to Allah."
       },
       {
-        "p": "The Prophet Muhammad, peace be upon him, told us that Allah says: \"I have divided prayer between Myself and My servant into two halves, and My servant shall have what he has asked for.\" He then explained that as you recite each verse of Al-Fatiha, Allah answers you (Sahih Muslim 395). Keep this in mind as you read on."
+        "p": "The Prophet Muhammad, peace be upon him, told us that Allah says: \"I have divided prayer between Myself and My servant into two halves, and My servant shall have what he has asked for.\" As you recite each verse, Allah answers you (Sahih Muslim 395)."
       },
       {
         "h": "Praising Allah (verses 1 to 4)"
@@ -22,28 +22,64 @@
         "cite": "Quran 1:1"
       },
       {
-        "p": "You begin in the name of Allah, asking His help for what you are about to do. Two of His names come right away, and both are about mercy: *Ar-Rahman*, whose mercy covers all of creation, and *Ar-Rahim*, who is especially merciful to the believers."
+        "p": "You begin in the name of Allah, asking for His help."
       },
       {
         "quote": "[All] praise is [due] to Allah, Lord of the worlds",
         "cite": "Quran 1:2"
       },
       {
-        "p": "All praise belongs to Allah, because every one of His qualities is perfect and every blessing you have comes from Him. *Rabb* (Lord) means the One who created everything, takes care of it, and provides for it. When you say this verse, Allah says: \"My servant has praised Me.\""
+        "p": "Every blessing you have comes from Him. Allah says: \"My servant has praised Me.\""
       },
       {
         "quote": "The Entirely Merciful, the Especially Merciful,",
         "cite": "Quran 1:3"
       },
       {
-        "p": "His mercy is mentioned again, as if to reassure you before anything else. Allah responds: \"My servant has extolled Me.\""
+        "p": "Allah responds: \"My servant has extolled Me.\""
       },
       {
         "quote": "Sovereign of the Day of Recompense.",
         "cite": "Quran 1:4"
       },
       {
-        "p": "Allah alone is the Master of the Day of Recompense, the Day of Judgment, when every deed will be repaid with justice. Saying this in every rak'ah reminds you of the life to come and encourages you to do good. Allah responds: \"My servant has glorified Me.\""
+        "p": "That is the Day of Judgment, when every deed will be repaid with justice. Allah responds: \"My servant has glorified Me.\""
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "transliteration": "Al-hamdu",
+              "meaning": "all praise"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "transliteration": "lillahi",
+              "meaning": "belongs to Allah"
+            },
+            {
+              "arabic": "رَبِّ",
+              "transliteration": "Rabb",
+              "meaning": "Lord: creates, cares for and provides"
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "transliteration": "Ar-Rahman",
+              "meaning": "mercy for all creation"
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "transliteration": "Ar-Rahim",
+              "meaning": "especially merciful to believers"
+            },
+            {
+              "arabic": "مَٰلِكِ",
+              "transliteration": "Maliki",
+              "meaning": "Master"
+            }
+          ]
+        }
       },
       {
         "h": "The promise at the center (verse 5)"
@@ -53,7 +89,28 @@
         "cite": "Quran 1:5"
       },
       {
-        "p": "This is the heart of the surah. You promise to worship Allah alone, and to ask Him alone for help in everything, because everything is in His hands. It frees your heart from depending on anyone or anything other than Allah. Allah responds: \"This is between Me and My servant, and My servant shall have what he has asked for.\""
+        "p": "The heart of the surah: you promise to worship Allah alone and ask Him alone for help. Allah responds: \"This is between Me and My servant, and My servant shall have what he has asked for.\""
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "إِيَّاكَ",
+              "transliteration": "Iyyaka",
+              "meaning": "it is You"
+            },
+            {
+              "arabic": "نَعْبُدُ",
+              "transliteration": "na'budu",
+              "meaning": "we worship"
+            },
+            {
+              "arabic": "نَسْتَعِينُ",
+              "transliteration": "nasta'in",
+              "meaning": "we ask for help"
+            }
+          ]
+        }
       },
       {
         "h": "Asking for guidance (verses 6 and 7)"
@@ -63,14 +120,14 @@
         "cite": "Quran 1:6"
       },
       {
-        "p": "Now you ask for the thing you need most: to be guided to the straight path, and kept firm on it until you meet Allah. The straight path is Islam, the clear way that leads to Allah's pleasure and to Paradise, shown by the Prophet Muhammad."
+        "p": "You ask to be guided to the straight path, which is Islam, and kept firm on it until you meet Allah."
       },
       {
         "quote": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
         "cite": "Quran 1:7"
       },
       {
-        "p": "You ask to walk the path of those Allah has blessed: the prophets, the truthful, the martyrs, and the righteous. You ask not to be like those who knew the truth and chose not to follow it, and not like those who lost the way. Allah responds: \"This is for My servant, and My servant shall have what he has asked for.\""
+        "p": "You ask to walk the path of the prophets, the truthful, the martyrs and the righteous, and not to be like those who knew the truth and did not follow it, or those who lost the way. Allah responds: \"This is for My servant, and My servant shall have what he has asked for.\""
       },
       {
         "p": "After the last verse you say *Ameen*, which means \"O Allah, answer.\""
@@ -79,16 +136,35 @@
         "h": "What Al-Fatiha teaches you"
       },
       {
-        "ul": [
-          "Allah is full of mercy. His mercy is the first thing you mention about Him, and you mention it twice.",
-          "Allah is your Lord, who cares for you and for everything around you.",
-          "Life has a purpose and a Day of Judgment, and Allah is its just Master.",
-          "Worship belongs to Allah alone, and you can turn to Him for help with anything.",
-          "Guidance is a gift you ask for every day, many times a day."
-        ]
-      },
-      {
-        "p": "Seen this way, Al-Fatiha is not just words to get through. It is a conversation: you praise Allah, you make a promise, you ask, and He answers."
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Mercy",
+              "text": "You mention it first, and twice."
+            },
+            {
+              "icon": "home",
+              "label": "Lord",
+              "text": "He cares for you and everything around you."
+            },
+            {
+              "icon": "scale",
+              "label": "Judgment",
+              "text": "Life has a purpose, and Allah is its just Master."
+            },
+            {
+              "icon": "hands",
+              "label": "Worship",
+              "text": "Yours to Allah alone. Ask Him for anything."
+            },
+            {
+              "icon": "compass",
+              "label": "Guidance",
+              "text": "A gift you ask for every day."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -107,14 +183,24 @@
       },
       {
         "p": "Next, you will learn wudu, the washing that prepares you for prayer."
+      },
+      {
+        "more": {
+          "title": "About the translation",
+          "blocks": [
+            {
+              "p": "The English meanings are from the Saheeh International translation. A translation carries the meaning, but the Quran itself is the Arabic."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "تعلّمت في الدرس السابق كيف تقرأ الفاتحة، وفي هذا الدرس تتأمّل معنى كل آية منها، حتى تعرف ما تقوله لربك وأنت تصلي. والشرح هنا مبنيّ على التفسير الميسّر."
+        "p": "تعلّمت كيف تقرأ الفاتحة، وهذا ما تقوله كل آية منها لربك."
       },
       {
-        "p": "أخبرنا النبي محمد صلى الله عليه وسلم أن الله تعالى قال: «قَسَمْتُ الصَّلَاةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ، وَلِعَبْدِي مَا سَأَلَ»، ثم بيّن أن الله يجيب عبده عند كل آية من الفاتحة (صحيح مسلم 395). فاستحضر هذا المعنى وأنت تقرأ ما يلي."
+        "p": "أخبرنا النبي محمد صلى الله عليه وسلم أن الله تعالى قال: «قَسَمْتُ الصَّلَاةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ، وَلِعَبْدِي مَا سَأَلَ»، ثم بيّن أن الله يجيب عبده عند كل آية من الفاتحة (صحيح مسلم 395)."
       },
       {
         "h": "الثناء على الله (الآيات من 1 إلى 4)"
@@ -124,28 +210,64 @@
         "cite": "سورة الفاتحة: 1"
       },
       {
-        "p": "تبدأ باسم الله مستعينًا به على ما تقرأ. و«الله» اسم الربّ المعبود بحق دون سواه، ولا يُسمّى به غيره سبحانه. ثم يأتي اسمان من أسمائه كلاهما عن الرحمة: «الرحمن» الذي وسعت رحمته جميع الخلق، و«الرحيم» بالمؤمنين."
+        "p": "تبدأ باسم الله مستعينًا به."
       },
       {
         "quote": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
         "cite": "سورة الفاتحة: 2"
       },
       {
-        "p": "الحمد كله لله، لأن صفاته كلها صفات كمال، ولأن كل نعمة عندك، ظاهرة كانت أو باطنة، فهي منه. و«الربّ» هو الذي أنشأ الخلق، ويقوم بأمورهم، ويربّيهم بنعمه. وحين تقرأ هذه الآية يقول الله تعالى: «حَمِدَنِي عَبْدِي»."
+        "p": "كل نعمة عندك فهي منه. ويقول الله تعالى: «حَمِدَنِي عَبْدِي»."
       },
       {
         "quote": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
         "cite": "سورة الفاتحة: 3"
       },
       {
-        "p": "تتكرّر الرحمة مرة أخرى، كأنها تطمئن قلبك قبل كل شيء. ويقول الله تعالى: «أَثْنَى عَلَيَّ عَبْدِي»."
+        "p": "ويقول الله تعالى: «أَثْنَى عَلَيَّ عَبْدِي»."
       },
       {
         "quote": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
         "cite": "سورة الفاتحة: 4"
       },
       {
-        "p": "الله وحده مالك يوم القيامة، وهو يوم الجزاء على الأعمال. وفي قراءتك لهذه الآية في كل ركعة تذكيرٌ لك باليوم الآخر، وحثٌّ على الاستعداد له بالعمل الصالح والبعد عن المعاصي. ويقول الله تعالى: «مَجَّدَنِي عَبْدِي»."
+        "p": "هو يوم القيامة، يوم الجزاء على الأعمال. ويقول الله تعالى: «مَجَّدَنِي عَبْدِي»."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "transliteration": "",
+              "meaning": "الثناء كله"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "transliteration": "",
+              "meaning": "ملك لله"
+            },
+            {
+              "arabic": "رَبِّ",
+              "transliteration": "",
+              "meaning": "يخلق ويرعى ويربّي"
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "transliteration": "",
+              "meaning": "رحمته تسع الخلق"
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "transliteration": "",
+              "meaning": "الرحيم بالمؤمنين"
+            },
+            {
+              "arabic": "مَٰلِكِ",
+              "transliteration": "",
+              "meaning": "المالك"
+            }
+          ]
+        }
       },
       {
         "h": "العهد في قلب السورة (الآية 5)"
@@ -155,7 +277,28 @@
         "cite": "سورة الفاتحة: 5"
       },
       {
-        "p": "هذه الآية قلب السورة: تعاهد ربك أن تعبده وحده، وأن تستعين به وحده في أمورك كلها، لأن الأمر كله بيده. وفيها شفاء للقلب من التعلّق بغير الله. ويقول الله تعالى: «هَذَا بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ»."
+        "p": "قلب السورة: تعاهد ربك أن تعبده وحده، وأن تستعين به وحده. ويقول الله تعالى: «هَذَا بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ»."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "إِيَّاكَ",
+              "transliteration": "",
+              "meaning": "إياك وحدك"
+            },
+            {
+              "arabic": "نَعْبُدُ",
+              "transliteration": "",
+              "meaning": "نعبد"
+            },
+            {
+              "arabic": "نَسْتَعِينُ",
+              "transliteration": "",
+              "meaning": "نستعين"
+            }
+          ]
+        }
       },
       {
         "h": "طلب الهداية (الآيتان 6 و7)"
@@ -165,14 +308,14 @@
         "cite": "سورة الفاتحة: 6"
       },
       {
-        "p": "ثم تسأل ربك أعظم ما تحتاج إليه: أن يدلّك على الطريق المستقيم ويوفّقك إليه، وأن يثبّتك عليه حتى تلقاه. والصراط المستقيم هو الإسلام، الطريق الواضح الموصل إلى رضوان الله وجنته، الذي دلّ عليه النبي محمد صلى الله عليه وسلم."
+        "p": "تسأل ربك أن يدلّك على الطريق المستقيم، وهو الإسلام، ويثبّتك عليه حتى تلقاه."
       },
       {
         "quote": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
         "cite": "سورة الفاتحة: 7"
       },
       {
-        "p": "تسأل الله أن يسلك بك طريق الذين أنعم عليهم من النبيين والصدّيقين والشهداء والصالحين، وألا يجعلك ممن عرفوا الحق ولم يعملوا به، ولا ممن ضلّوا الطريق فلم يهتدوا إليه. ويقول الله تعالى: «هَذَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ»."
+        "p": "تسأل الله أن يسلك بك طريق النبيين والصدّيقين والشهداء والصالحين، وألا تكون ممن عرفوا الحق ولم يعملوا به، ولا ممن ضلّوا الطريق. ويقول الله تعالى: «هَذَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ»."
       },
       {
         "p": "وبعد الآية الأخيرة تقول: آمين، أي: اللهم استجب."
@@ -181,16 +324,35 @@
         "h": "ماذا تعلّمك الفاتحة؟"
       },
       {
-        "ul": [
-          "أن الله واسع الرحمة، فالرحمة أول ما تذكره من صفاته، وتذكرها مرتين.",
-          "أن الله ربك الذي يرعاك ويرعى كل ما حولك.",
-          "أن للحياة غاية، وأن بعدها يوم حساب، والله مالكه العادل.",
-          "أن العبادة لله وحده، وأنك تستطيع أن تلجأ إليه في كل حاجة.",
-          "أن الهداية نعمة تسألها كل يوم مرات كثيرة."
-        ]
-      },
-      {
-        "p": "فالفاتحة ليست كلمات تُقال على عجل، بل مناجاة: تحمد الله، وتعاهده، وتسأله، وهو سبحانه يجيبك."
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "الرحمة",
+              "text": "تذكرها أولًا، وتذكرها مرتين."
+            },
+            {
+              "icon": "home",
+              "label": "الرب",
+              "text": "يرعاك ويرعى كل ما حولك."
+            },
+            {
+              "icon": "scale",
+              "label": "الحساب",
+              "text": "للحياة غاية، والله مالك يوم الحساب العادل."
+            },
+            {
+              "icon": "hands",
+              "label": "العبادة",
+              "text": "لله وحده، فاسأله في كل حاجة."
+            },
+            {
+              "icon": "compass",
+              "label": "الهداية",
+              "text": "نعمة تسألها كل يوم."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -209,14 +371,24 @@
       },
       {
         "p": "وفي الدرس التالي تتعلّم الوضوء، وهو الطهارة التي تستعد بها للصلاة."
+      },
+      {
+        "more": {
+          "title": "عن الترجمة",
+          "blocks": [
+            {
+              "p": "الشرح هنا مبنيّ على التفسير الميسّر."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "Ya sabes cómo recitar Al-Fatiha. En esta lección verás lo que significa cada aleya, para que al decirla en la oración sepas lo que le estás diciendo a Allah. Los significados en español son de la traducción de Isa García, que usa la palabra «Dios» para referirse a Allah. Una traducción transmite el significado, pero el Corán en sí es el texto árabe."
+        "p": "Ya sabes recitar Al-Fatiha. Esto es lo que dice cada aleya a Allah."
       },
       {
-        "p": "El Profeta Muhammad, la paz sea con él, nos contó que Allah dice: «He dividido la oración (as-salat) en dos mitades entre mi siervo y Yo, y Mi siervo obtendrá lo que pide». Después explicó que, cuando recitas cada aleya de Al-Fatiha, Allah te responde (Sahih Muslim 395). Tenlo presente mientras sigues leyendo."
+        "p": "El Profeta Muhammad, la paz sea con él, nos contó que Allah dice: «He dividido la oración (as-salat) en dos mitades entre mi siervo y Yo, y Mi siervo obtendrá lo que pide». Después explicó que, cuando recitas cada aleya de Al-Fatiha, Allah te responde (Sahih Muslim 395)."
       },
       {
         "h": "Alabar a Allah (aleyas 1 a 4)"
@@ -226,28 +398,64 @@
         "cite": "Corán 1:1"
       },
       {
-        "p": "Empiezas en el nombre de Allah, pidiendo Su ayuda para lo que vas a hacer. Enseguida aparecen dos de Sus nombres, y los dos hablan de misericordia: *Ar-Rahman*, cuya misericordia abarca a toda la creación, y *Ar-Rahim*, que es especialmente misericordioso con los creyentes."
+        "p": "Empiezas en el nombre de Allah, pidiendo Su ayuda."
       },
       {
         "quote": "Todas las alabanzas son para Dios, Señor de todo cuanto existe,",
         "cite": "Corán 1:2"
       },
       {
-        "p": "Toda alabanza pertenece a Allah, porque todas Sus cualidades son perfectas y cada bendición que tienes viene de Él. *Rabb* (Señor) significa Aquel que lo creó todo, lo cuida y lo sustenta. Cuando dices esta aleya, Allah dice: «Mi siervo Me ha alabado»."
+        "p": "Cada bendición que tienes viene de Él. Allah dice: «Mi siervo Me ha alabado»."
       },
       {
         "quote": "el Compasivo, el Misericordioso.",
         "cite": "Corán 1:3"
       },
       {
-        "p": "Su misericordia se menciona otra vez, como para tranquilizarte antes que nada. Allah responde: «Mi siervo Me ha elogiado»."
+        "p": "Allah responde: «Mi siervo Me ha elogiado»."
       },
       {
         "quote": "Soberano absoluto del Día del Juicio Final,",
         "cite": "Corán 1:4"
       },
       {
-        "p": "Solo Allah es el Soberano del Día del Juicio, cuando cada acción recibirá su justa retribución. Decir esto en cada rak'a te recuerda la vida que viene y te anima a hacer el bien. Allah responde: «Mi siervo Me ha glorificado»."
+        "p": "Es el Día del Juicio, cuando cada acción recibirá su justa retribución. Allah responde: «Mi siervo Me ha glorificado»."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "transliteration": "Al-hamdu",
+              "meaning": "toda alabanza"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "transliteration": "lil-lahi",
+              "meaning": "pertenece a Allah"
+            },
+            {
+              "arabic": "رَبِّ",
+              "transliteration": "Rabb",
+              "meaning": "Señor: crea, cuida y sustenta"
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "transliteration": "Ar-Rahman",
+              "meaning": "misericordia para toda la creación"
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "transliteration": "Ar-Rahim",
+              "meaning": "especialmente misericordioso con los creyentes"
+            },
+            {
+              "arabic": "مَٰلِكِ",
+              "transliteration": "Maliki",
+              "meaning": "Soberano"
+            }
+          ]
+        }
       },
       {
         "h": "La promesa en el centro (aleya 5)"
@@ -257,7 +465,28 @@
         "cite": "Corán 1:5"
       },
       {
-        "p": "Este es el corazón de la sura. Prometes adorar solo a Allah y pedirle solo a Él ayuda en todo, porque todo está en Sus manos. Esto libera tu corazón de depender de alguien o de algo que no sea Allah. Allah responde: «Esto es entre Mi siervo y Yo, y le daré a Mi siervo lo que pide»."
+        "p": "El corazón de la sura: prometes adorar solo a Allah y pedirle solo a Él ayuda. Allah responde: «Esto es entre Mi siervo y Yo, y le daré a Mi siervo lo que pide»."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "إِيَّاكَ",
+              "transliteration": "Iyyaka",
+              "meaning": "solo a Ti"
+            },
+            {
+              "arabic": "نَعْبُدُ",
+              "transliteration": "na'budu",
+              "meaning": "adoramos"
+            },
+            {
+              "arabic": "نَسْتَعِينُ",
+              "transliteration": "nasta'in",
+              "meaning": "imploramos ayuda"
+            }
+          ]
+        }
       },
       {
         "h": "Pedir guía (aleyas 6 y 7)"
@@ -267,14 +496,14 @@
         "cite": "Corán 1:6"
       },
       {
-        "p": "Ahora pides lo que más necesitas: que Allah te guíe al camino recto y te mantenga firme en él hasta que te encuentres con Él. El camino recto es el Islam, el camino claro que lleva a la complacencia de Allah y al Paraíso, y que mostró el Profeta Muhammad."
+        "p": "Pides que Allah te guíe al camino recto, que es el Islam, y te mantenga firme en él hasta que te encuentres con Él."
       },
       {
         "quote": "El camino de los que has colmado con Tus favores, no el de los que cayeron en Tu ira, ni el de los que se extraviaron.",
         "cite": "Corán 1:7"
       },
       {
-        "p": "Pides seguir el camino de quienes Allah ha bendecido: los profetas, los veraces, los mártires y los justos. Pides no ser como quienes conocieron la verdad y decidieron no seguirla, ni como quienes perdieron el camino. Allah responde: «Esto es para Mi siervo y tiene lo que pide»."
+        "p": "Pides seguir el camino de los profetas, los veraces, los mártires y los justos, y no ser como quienes conocieron la verdad y no la siguieron, ni como quienes perdieron el camino. Allah responde: «Esto es para Mi siervo y tiene lo que pide»."
       },
       {
         "p": "Después de la última aleya dices *Amín*, que significa «Oh Allah, responde»."
@@ -283,16 +512,35 @@
         "h": "Lo que te enseña Al-Fatiha"
       },
       {
-        "ul": [
-          "Allah está lleno de misericordia. Su misericordia es lo primero que mencionas de Él, y la mencionas dos veces.",
-          "Allah es tu Señor, que cuida de ti y de todo lo que te rodea.",
-          "La vida tiene un propósito y un Día del Juicio, y Allah es su Soberano justo.",
-          "La adoración pertenece solo a Allah, y puedes acudir a Él para pedir ayuda en cualquier cosa.",
-          "La guía es un regalo que pides cada día, muchas veces al día."
-        ]
-      },
-      {
-        "p": "Vista así, Al-Fatiha no es solo un conjunto de palabras que hay que decir. Es una conversación: alabas a Allah, haces una promesa, pides, y Él responde."
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Misericordia",
+              "text": "Es lo primero que mencionas, y dos veces."
+            },
+            {
+              "icon": "home",
+              "label": "Señor",
+              "text": "Cuida de ti y de todo lo que te rodea."
+            },
+            {
+              "icon": "scale",
+              "label": "Juicio",
+              "text": "La vida tiene un propósito, y Allah es su Soberano justo."
+            },
+            {
+              "icon": "hands",
+              "label": "Adoración",
+              "text": "Solo para Allah. Pídele cualquier cosa."
+            },
+            {
+              "icon": "compass",
+              "label": "Guía",
+              "text": "Un regalo que pides cada día."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -311,6 +559,16 @@
       },
       {
         "p": "A continuación aprenderás el wudu, el lavado que te prepara para la oración."
+      },
+      {
+        "more": {
+          "title": "Sobre la traducción",
+          "blocks": [
+            {
+              "p": "Los significados en español son de la traducción de Isa García, que usa la palabra «Dios» para referirse a Allah. Una traducción transmite el significado, pero el Corán en sí es el texto árabe."
+            }
+          ]
+        }
       }
     ]
   },
@@ -328,5 +586,21 @@
       "url": "https://hadeethenc.com/en/browse/hadith/65099"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=_8I6BZQED7E",
+      "title": {
+        "en": "Getting to know Surah Al-Fatiha",
+        "ar": "التعرّف على سورة الفاتحة",
+        "es": "Conocer la sura Al-Fatiha"
+      },
+      "by": {
+        "en": "Nouman Ali Khan, Quran Weekly",
+        "ar": "نعمان علي خان، Quran Weekly",
+        "es": "Nouman Ali Khan, Quran Weekly"
+      },
+      "seconds": 1487
+    }
+  ]
 }

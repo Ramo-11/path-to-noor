@@ -1,6 +1,6 @@
 {
   "slug": "prophets-ibrahim",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Ibrahim: the friend of Allah",
     "ar": "إبراهيم عليه السلام: خليل الله",
@@ -9,66 +9,131 @@
   "body": {
     "en": [
       {
-        "p": "Ibrahim, peace be upon him, known in English as Abraham, is honored by Jews, Christians, and Muslims. In Islam he holds a special place. Two of his sons, Ismail and Ishaq, were prophets, and so were many of his descendants, including the Prophet Muhammad, peace be upon him. The Quran describes Ibrahim this way: \"he was one inclining toward truth, a Muslim [submitting to Allah]\" (Quran 3:67). In other words, he turned away from everything false and gave himself fully to Allah."
+        "p": "Ibrahim (Abraham), peace be upon him, is honored by Jews, Christians, and Muslims."
       },
       {
         "h": "Looking for the truth"
       },
       {
-        "p": "Ibrahim grew up among people who worshipped idols, and his own father was one of them. The Quran tells us:"
+        "p": "He grew up among idol worshippers, and his own father was one of them."
       },
       {
-        "quote": "when Abraham said to his father Azar, \"Do you take idols as deities? Indeed, I see you and your people to be in manifest error.\"",
-        "cite": "Quran 6:74 (Saheeh International translation)"
+        "flow": {
+          "title": "One night under the open sky",
+          "steps": [
+            {
+              "label": "The star",
+              "text": "He said, \"This is my lord.\" When it set, he said, \"I like not those that disappear.\""
+            },
+            {
+              "label": "The moon and sun",
+              "text": "He did the same with the moon, then with the sun, the greatest of them all."
+            },
+            {
+              "label": "The answer",
+              "text": "Whatever rises and sets cannot be God."
+            }
+          ]
+        }
       },
       {
-        "p": "Then the Quran describes a night under the open sky. Ibrahim saw a star and said, \"This is my lord.\" When it set, he said, \"I like not those that disappear.\" He did the same with the moon, and then with the sun, the greatest of them all. Scholars of tafsir (explanation of the Quran) explain that he was reasoning with his people, who worshipped the stars, to show them step by step that anything that rises and sets, that comes and goes, cannot be God. At the end he declared:"
+        "p": "Scholars of tafsir (explanation of the Quran) explain that he was reasoning with his people, who worshipped the stars. Then he declared:"
       },
       {
         "quote": "But when it set, he said, \"O my people, indeed I am free from what you associate with Allah. Indeed, I have turned my face toward He who created the heavens and the earth, inclining toward truth, and I am not of those who associate others with Allah.\"",
         "cite": "Quran 6:78-79 (Saheeh International translation)"
       },
       {
-        "p": "Many new Muslims recognize something of their own journey here: looking honestly at the world, asking hard questions, and finally turning to the One who created it all. The Arabic word for this is *hanif*: someone who turns away from every false god and inclines toward the truth."
+        "p": "Many new Muslims see their own journey here. A *hanif* turns away from every false god and inclines toward the truth."
+      },
+      {
+        "more": {
+          "title": "More about Ibrahim",
+          "blocks": [
+            {
+              "p": "Two of his sons, Ismail and Ishaq, were prophets, and so were many of his descendants, including the Prophet Muhammad, peace be upon him."
+            },
+            {
+              "p": "The Quran describes him this way: \"he was one inclining toward truth, a Muslim [submitting to Allah]\" (Quran 3:67). In other words, he turned away from everything false and gave himself fully to Allah."
+            },
+            {
+              "p": "The Quran also tells us:"
+            },
+            {
+              "quote": "when Abraham said to his father Azar, \"Do you take idols as deities? Indeed, I see you and your people to be in manifest error.\"",
+              "cite": "Quran 6:74 (Saheeh International translation)"
+            },
+            {
+              "p": "The star, the moon and the sun show that he reasoned step by step: anything that rises and sets, that comes and goes, cannot be God."
+            }
+          ]
+        }
       },
       {
         "h": "The fire that did not burn"
       },
       {
-        "p": "Ibrahim asked his people, \"What are these statues to which you are devoted?\" (Quran 21:52). When they would not listen, he broke their idols, leaving only the largest one, so that they might come back to it and think (Quran 21:58). In their anger they decided to burn him (Quran 21:68). But Allah protected him:"
+        "p": "His people would not listen, so he broke their idols (Quran 21:58). In anger they decided to burn him (Quran 21:68). Allah protected him:"
       },
       {
         "quote": "Allah said, \"O fire, be coolness and safety upon Abraham.\"",
         "cite": "Quran 21:69 (Saheeh International translation)"
       },
       {
-        "p": "The companion Ibn Abbas, may Allah be pleased with him, reported the words Ibrahim said when he was thrown into the fire (Sahih al-Bukhari 4563). Centuries later, the Prophet Muhammad and his companions said the same words when they were told that a great army had gathered against them (Quran 3:173):"
+        "more": {
+          "title": "More about the idols",
+          "blocks": [
+            {
+              "p": "Ibrahim asked his people, \"What are these statues to which you are devoted?\" (Quran 21:52)."
+            },
+            {
+              "p": "He left only the largest idol, so that they might come back to it and think (Quran 21:58)."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Ibn Abbas, may Allah be pleased with him, reported the words Ibrahim said in the fire (Sahih al-Bukhari 4563). The Prophet Muhammad and his companions said them too, when told a great army had gathered against them (Quran 3:173):"
       },
       {
         "phrase": {
           "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
           "transliteration": "Hasbunallahu wa ni'mal-wakil",
-          "meaning": "Allah is sufficient for us, and He is the best disposer of affairs."
+          "meaning": "Allah is sufficient for us, and He is the best disposer of affairs.",
+          "audio": "/audio/phrases/prophets-ibrahim-1.mp3"
         }
       },
       {
-        "p": "You can say these words whenever you feel afraid or overwhelmed. They do not mean you stop trying. They mean you do your part, and then you rest your heart on Allah."
+        "p": "Say them when you feel afraid. They do not mean you stop trying: you do your part, then rest your heart on Allah."
       },
       {
         "h": "Building the Kaaba"
       },
       {
-        "p": "Allah commanded Ibrahim to take Hajar, the mother of Ismail, and their baby son to the empty valley of Makkah, where there was no one and no water. As he turned to leave, she asked him, \"Has Allah ordered you to do so?\" He said, \"Yes.\" She replied, \"Then He will not neglect us\" (Sahih al-Bukhari 3364). When their water ran out, she ran between the hills of Safa and Marwah looking for help, seven times. Allah then sent an angel, and the water of Zamzam began to flow. The Prophet Muhammad said that her search is the origin of the walk that pilgrims make between those two hills today."
+        "timeline": {
+          "title": "From the valley to the House",
+          "events": [
+            {
+              "when": "The valley",
+              "text": "Allah commanded Ibrahim to leave Hajar, the mother of Ismail, and their baby son in the empty valley of Makkah. She asked, \"Has Allah ordered you to do so?\" He said, \"Yes.\" She replied, \"Then He will not neglect us\" (Sahih al-Bukhari 3364)."
+            },
+            {
+              "when": "Zamzam",
+              "text": "When the water ran out, she ran seven times between the hills of Safa and Marwah. Allah sent an angel, and Zamzam began to flow."
+            },
+            {
+              "when": "Years later",
+              "text": "Ibrahim told Ismail that Allah had commanded him to build a House there. Ismail answered, \"Do what your Lord has ordered you to do.\""
+            },
+            {
+              "when": "The House",
+              "text": "Ismail brought the stones and Ibrahim built (Sahih al-Bukhari 3364)."
+            }
+          ]
+        }
       },
       {
-        "p": "Years later, Ibrahim came back and told Ismail that Allah had commanded him to build a House there. Ismail answered, \"Do what your Lord has ordered you to do.\" Ismail brought the stones and Ibrahim built (Sahih al-Bukhari 3364). The Quran records what they said as they worked:"
-      },
-      {
-        "quote": "And [mention] when Abraham was raising the foundations of the House and [with him] Ishmael, [saying], \"Our Lord, accept [this] from us. Indeed You are the Hearing, the Knowing.",
-        "cite": "Quran 2:127 (Saheeh International translation)"
-      },
-      {
-        "p": "They were building the House of Allah, and still they did not assume their work would be accepted. They asked. You can use their words after any good deed, big or small:"
+        "p": "Still they asked Allah to accept their work. Use their words after any good deed, big or small:"
       },
       {
         "phrase": {
@@ -78,17 +143,44 @@
         }
       },
       {
+        "more": {
+          "title": "More from this story",
+          "blocks": [
+            {
+              "p": "The Prophet Muhammad said that Hajar's search for water is the origin of the walk that pilgrims make between those two hills today."
+            },
+            {
+              "p": "The Quran records what they said as they worked:"
+            },
+            {
+              "quote": "And [mention] when Abraham was raising the foundations of the House and [with him] Ishmael, [saying], \"Our Lord, accept [this] from us. Indeed You are the Hearing, the Knowing.",
+              "cite": "Quran 2:127 (Saheeh International translation)"
+            },
+            {
+              "p": "They were building the House of Allah, and still they did not assume their work would be accepted. They asked."
+            }
+          ]
+        }
+      },
+      {
         "h": "The friend of Allah"
       },
       {
-        "p": "Allah gave Ibrahim a title of great honor:"
+        "p": "Allah called Ibrahim *khalil*, a friend of the closest kind. He lived that closeness through a lifetime of trust: in the fire, in the empty valley, and in every command of his Lord."
       },
       {
-        "quote": "And Allah took Abraham as an intimate friend.",
-        "cite": "Quran 4:125 (Saheeh International translation)"
-      },
-      {
-        "p": "The Arabic word is *khalil*, a friend of the closest kind. Ibrahim lived that closeness through a lifetime of trust: in the fire, in the empty valley, and in every command of his Lord."
+        "more": {
+          "title": "The verse",
+          "blocks": [
+            {
+              "p": "Allah gave Ibrahim a title of great honor:"
+            },
+            {
+              "quote": "And Allah took Abraham as an intimate friend.",
+              "cite": "Quran 4:125 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -111,66 +203,131 @@
     ],
     "ar": [
       {
-        "p": "إبراهيم عليه السلام نبيٌّ يعظّمه اليهود والنصارى والمسلمون، وله في الإسلام مكانة خاصة: فابناه إسماعيل وإسحاق كانا نبيَّين، وكذلك كثير من ذريته، ومنهم النبي محمد صلى الله عليه وسلم. ووصفه القرآن بأنه «كَانَ حَنِيفًۭا مُّسْلِمًۭا» (آل عمران: 67)، أي مائلًا عن كل باطل، مستسلمًا لربه، متّبعًا لأمره."
+        "p": "إبراهيم عليه السلام نبيٌّ يعظّمه اليهود والنصارى والمسلمون."
       },
       {
         "h": "البحث عن الحق"
       },
       {
-        "p": "نشأ إبراهيم بين قوم يعبدون الأصنام، وكان أبوه منهم. قال الله تعالى:"
+        "p": "نشأ بين قوم يعبدون الأصنام، وكان أبوه منهم."
       },
       {
-        "quote": "وَإِذْ قَالَ إِبْرَٰهِيمُ لِأَبِيهِ ءَازَرَ أَتَتَّخِذُ أَصْنَامًا ءَالِهَةً ۖ إِنِّىٓ أَرَىٰكَ وَقَوْمَكَ فِى ضَلَٰلٍۢ مُّبِينٍۢ",
-        "cite": "سورة الأنعام: 74"
+        "flow": {
+          "title": "ليلة تحت السماء",
+          "steps": [
+            {
+              "label": "الكوكب",
+              "text": "قال: «هَٰذَا رَبِّى»، فلما غاب قال: «لَآ أُحِبُّ ٱلْءَافِلِينَ»."
+            },
+            {
+              "label": "القمر والشمس",
+              "text": "ثم فعل مثل ذلك مع القمر، ثم مع الشمس وهي أكبرها."
+            },
+            {
+              "label": "الجواب",
+              "text": "ما يغيب لا يكون إلهًا."
+            }
+          ]
+        }
       },
       {
-        "p": "ثم يصف القرآن ليلةً تحت السماء: رأى إبراهيم كوكبًا فقال: «هَٰذَا رَبِّى»، فلما غاب قال: «لَآ أُحِبُّ ٱلْءَافِلِينَ». ثم فعل مثل ذلك مع القمر، ثم مع الشمس وهي أكبرها. وقد بيّن أهل التفسير أنه كان يحاجّ قومه الذين يعبدون الكواكب، ليُثبت لهم خطوةً بعد خطوة أن ما يطلع ويغيب لا يكون إلهًا. ثم أعلن في النهاية:"
+        "p": "وقد بيّن أهل التفسير أنه كان يحاجّ قومه الذين يعبدون الكواكب. ثم أعلن في النهاية:"
       },
       {
         "quote": "فَلَمَّآ أَفَلَتْ قَالَ يَٰقَوْمِ إِنِّى بَرِىٓءٌۭ مِّمَّا تُشْرِكُونَ إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ حَنِيفًۭا ۖ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
         "cite": "سورة الأنعام: 78 و79"
       },
       {
-        "p": "ويجد كثير من المسلمين الجدد في هذه القصة شيئًا من رحلتهم: نظرٌ صادق في هذا الكون، وأسئلة صعبة، ثم إقبال على الخالق الذي فطر كل شيء. وهذا معنى «الحنيف»: المائل عن الشرك إلى التوحيد."
+        "p": "ويجد كثير من المسلمين الجدد في هذه القصة شيئًا من رحلتهم. والحنيف هو المائل عن الشرك إلى التوحيد."
+      },
+      {
+        "more": {
+          "title": "المزيد عن إبراهيم",
+          "blocks": [
+            {
+              "p": "ابناه إسماعيل وإسحاق كانا نبيَّين، وكذلك كثير من ذريته، ومنهم النبي محمد صلى الله عليه وسلم."
+            },
+            {
+              "p": "ووصفه القرآن بأنه «كَانَ حَنِيفًۭا مُّسْلِمًۭا» (آل عمران: 67)، أي مائلًا عن كل باطل، مستسلمًا لربه، متّبعًا لأمره."
+            },
+            {
+              "p": "وقال الله تعالى:"
+            },
+            {
+              "quote": "وَإِذْ قَالَ إِبْرَٰهِيمُ لِأَبِيهِ ءَازَرَ أَتَتَّخِذُ أَصْنَامًا ءَالِهَةً ۖ إِنِّىٓ أَرَىٰكَ وَقَوْمَكَ فِى ضَلَٰلٍۢ مُّبِينٍۢ",
+              "cite": "سورة الأنعام: 74"
+            },
+            {
+              "p": "فالكوكب والقمر والشمس تُظهر أنه كان يستدل خطوةً بعد خطوة: ما يطلع ويغيب، ويجيء ويذهب، لا يكون إلهًا."
+            }
+          ]
+        }
       },
       {
         "h": "النار التي لم تحرق"
       },
       {
-        "p": "سأل إبراهيم قومه: «مَا هَٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَٰكِفُونَ» (الأنبياء: 52)، فلما لم يستجيبوا كسّر أصنامهم وترك كبيرها، لعلهم يرجعون إليه فيتبين لهم عجزها (الأنبياء: 58). فغضبوا وقرروا أن يحرقوه (الأنبياء: 68)، لكن الله حفظه:"
+        "p": "لم يستجب قومه، فكسّر أصنامهم (الأنبياء: 58). فغضبوا وقرروا أن يحرقوه (الأنبياء: 68)، لكن الله حفظه:"
       },
       {
         "quote": "قُلْنَا يَٰنَارُ كُونِى بَرْدًۭا وَسَلَٰمًا عَلَىٰٓ إِبْرَٰهِيمَ",
         "cite": "سورة الأنبياء: 69"
       },
       {
-        "p": "وقد روى الصحابي عبد الله بن عباس رضي الله عنهما الكلمة التي قالها إبراهيم حين أُلقي في النار (صحيح البخاري 4563)، وهي الكلمة نفسها التي قالها النبي محمد صلى الله عليه وسلم وأصحابه بعد قرون حين قيل لهم إن الناس قد جمعوا لهم (آل عمران: 173):"
+        "more": {
+          "title": "المزيد عن الأصنام",
+          "blocks": [
+            {
+              "p": "سأل إبراهيم قومه: «مَا هَٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَٰكِفُونَ» (الأنبياء: 52)."
+            },
+            {
+              "p": "وترك كبير الأصنام، لعلهم يرجعون إليه فيتبين لهم عجزها (الأنبياء: 58)."
+            }
+          ]
+        }
+      },
+      {
+        "p": "وقد روى الصحابي عبد الله بن عباس رضي الله عنهما الكلمة التي قالها إبراهيم حين أُلقي في النار (صحيح البخاري 4563). وقالها النبي محمد صلى الله عليه وسلم وأصحابه حين قيل لهم إن الناس قد جمعوا لهم (آل عمران: 173):"
       },
       {
         "phrase": {
           "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
           "transliteration": "Hasbunallahu wa ni'mal-wakil",
-          "meaning": "الله كافينا، وهو نِعم من نفوّض إليه أمورنا ونتوكل عليه."
+          "meaning": "الله كافينا، وهو نِعم من نفوّض إليه أمورنا ونتوكل عليه.",
+          "audio": "/audio/phrases/prophets-ibrahim-1.mp3"
         }
       },
       {
-        "p": "قلها كلما شعرت بالخوف أو ضاقت بك الأمور. وليس معناها أن تترك العمل، بل أن تؤدي ما عليك ثم تُسلم قلبك لله."
+        "p": "قلها كلما شعرت بالخوف. وليس معناها أن تترك العمل، بل أن تؤدي ما عليك ثم تُسلم قلبك لله."
       },
       {
         "h": "بناء الكعبة"
       },
       {
-        "p": "أمر الله إبراهيم أن يأخذ هاجر أم إسماعيل وابنهما الرضيع إلى وادي مكة، حيث لا أحد ولا ماء. ولما انصرف سألته: «آللَّهُ الَّذِي أَمَرَكَ بِهَذَا» فقال: «نَعَمْ»، فقالت: «إِذًا لاَ يُضَيِّعُنَا» (صحيح البخاري 3364). ولما نفد الماء سعت بين الصفا والمروة تبحث عن أحد، سبع مرات، فأرسل الله مَلَكًا فتفجّر ماء زمزم. وأخبر النبي صلى الله عليه وسلم أن سعيها هذا أصل سعي الحجاج بين الصفا والمروة إلى اليوم."
+        "timeline": {
+          "title": "من الوادي إلى البيت",
+          "events": [
+            {
+              "when": "الوادي",
+              "text": "أمر الله إبراهيم أن يترك هاجر أم إسماعيل وابنهما الرضيع في وادي مكة. سألته: «آللَّهُ الَّذِي أَمَرَكَ بِهَذَا» فقال: «نَعَمْ»، فقالت: «إِذًا لاَ يُضَيِّعُنَا» (صحيح البخاري 3364)."
+            },
+            {
+              "when": "زمزم",
+              "text": "ولما نفد الماء سعت سبع مرات بين الصفا والمروة، فأرسل الله مَلَكًا فتفجّر ماء زمزم."
+            },
+            {
+              "when": "بعد سنين",
+              "text": "أخبر إبراهيم إسماعيل أن الله أمره أن يبني هناك بيتًا، فقال إسماعيل: «فَاصْنَعْ مَا أَمَرَكَ رَبُّكَ»."
+            },
+            {
+              "when": "البيت",
+              "text": "فكان إسماعيل يأتي بالحجارة وإبراهيم يبني (صحيح البخاري 3364)."
+            }
+          ]
+        }
       },
       {
-        "p": "وبعد سنين عاد إبراهيم وأخبر إسماعيل أن الله أمره أن يبني هناك بيتًا، فقال إسماعيل: «فَاصْنَعْ مَا أَمَرَكَ رَبُّكَ». فكان إسماعيل يأتي بالحجارة وإبراهيم يبني (صحيح البخاري 3364). وسجّل القرآن ما كانا يقولانه وهما يعملان:"
-      },
-      {
-        "quote": "وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
-        "cite": "سورة البقرة: 127"
-      },
-      {
-        "p": "كانا يبنيان بيت الله، ومع ذلك لم يَأمنا أن يُردّ عملهما، بل سألا الله القبول. ويمكنك أن تدعو بدعائهما بعد كل عمل صالح، صغيرًا كان أو كبيرًا:"
+        "p": "ومع ذلك سألا الله القبول. ادعُ بدعائهما بعد كل عمل صالح، صغيرًا كان أو كبيرًا:"
       },
       {
         "phrase": {
@@ -180,17 +337,44 @@
         }
       },
       {
+        "more": {
+          "title": "المزيد من القصة",
+          "blocks": [
+            {
+              "p": "وأخبر النبي صلى الله عليه وسلم أن سعي هاجر هذا أصل سعي الحجاج بين الصفا والمروة إلى اليوم."
+            },
+            {
+              "p": "وسجّل القرآن ما كانا يقولانه وهما يعملان:"
+            },
+            {
+              "quote": "وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+              "cite": "سورة البقرة: 127"
+            },
+            {
+              "p": "كانا يبنيان بيت الله، ومع ذلك لم يَأمنا أن يُردّ عملهما، بل سألا الله القبول."
+            }
+          ]
+        }
+      },
+      {
         "h": "خليل الله"
       },
       {
-        "p": "وأكرم الله إبراهيم بمنزلة عظيمة، فقال تعالى:"
+        "p": "سمّى الله إبراهيم «الخليل»، وهو الصفيّ الذي بلغ أعلى مقامات المحبة. وقد عاش هذا القرب بعمرٍ من الثقة بالله: في النار، وفي الوادي المقفر، وفي كل أمرٍ أمره به ربه."
       },
       {
-        "quote": "وَٱتَّخَذَ ٱللَّهُ إِبْرَٰهِيمَ خَلِيلًۭا",
-        "cite": "سورة النساء: 125"
-      },
-      {
-        "p": "والخليل هو الصفيّ الذي بلغ أعلى مقامات المحبة. وقد عاش إبراهيم هذا القرب بعمرٍ من الثقة بالله: في النار، وفي الوادي المقفر، وفي كل أمرٍ أمره به ربه."
+        "more": {
+          "title": "الآية",
+          "blocks": [
+            {
+              "p": "وأكرم الله إبراهيم بمنزلة عظيمة، فقال تعالى:"
+            },
+            {
+              "quote": "وَٱتَّخَذَ ٱللَّهُ إِبْرَٰهِيمَ خَلِيلًۭا",
+              "cite": "سورة النساء: 125"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -213,66 +397,131 @@
     ],
     "es": [
       {
-        "p": "Ibrahim, la paz sea con él, conocido en español como Abraham, es honrado por judíos, cristianos y musulmanes. En el islam tiene un lugar especial. Dos de sus hijos, Ismail e Ishaq, fueron profetas, y también muchos de sus descendientes, entre ellos el Profeta Muhammad, la paz sea con él. El Corán dice de Ibrahim que \"fue un monoteísta creyente en Dios\" (Corán 3:67). Es decir, se apartó de todo lo falso y se entregó por completo a Allah. (En las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah.)"
+        "p": "Ibrahim (Abraham), la paz sea con él, es honrado por judíos, cristianos y musulmanes."
       },
       {
         "h": "En busca de la verdad"
       },
       {
-        "p": "Ibrahim creció entre personas que adoraban ídolos, y su propio padre era una de ellas. El Corán nos cuenta:"
+        "p": "Creció entre personas que adoraban ídolos, y su propio padre era una de ellas."
       },
       {
-        "quote": "cuando Abraham le dijo a su padre Ázar: \"¿Tomas a los ídolos por divinidades? Creo que tú y tu pueblo están en un claro extravío\".",
-        "cite": "Corán 6:74"
+        "flow": {
+          "title": "Una noche bajo el cielo abierto",
+          "steps": [
+            {
+              "label": "La estrella",
+              "text": "Dijo: \"¡Este es mi Señor!\" Cuando desapareció, dijo: \"No adoro lo que se ausenta\"."
+            },
+            {
+              "label": "La luna y el sol",
+              "text": "Hizo lo mismo con la luna y después con el sol, el más grande de todos."
+            },
+            {
+              "label": "La respuesta",
+              "text": "Lo que se pone no puede ser Dios."
+            }
+          ]
+        }
       },
       {
-        "p": "Luego el Corán describe una noche bajo el cielo abierto. Ibrahim vio una estrella y dijo: \"¡Este es mi Señor!\" Cuando desapareció, dijo: \"No adoro lo que se ausenta\". Hizo lo mismo con la luna, y después con el sol, el más grande de todos. Los sabios del tafsir (la explicación del Corán) explican que razonaba con su pueblo, que adoraba a los astros, para mostrarles paso a paso que lo que sale y se pone, lo que viene y se va, no puede ser Dios. Al final declaró:"
+        "p": "Los sabios del tafsir (la explicación del Corán) explican que razonaba con su pueblo, que adoraba a los astros. Luego declaró:"
       },
       {
         "quote": "Pero cuando desapareció dijo: \"¡Pueblo mío! Yo estoy libre de asociarle, como ustedes, divinidades a Dios. Me consagro a Quien creó los cielos y la Tierra, soy monoteísta puro. No soy de los que Le asocian divinidades a Dios [en la adoración]\".",
         "cite": "Corán 6:78-79"
       },
       {
-        "p": "Muchos musulmanes nuevos reconocen aquí algo de su propio camino: mirar el mundo con sinceridad, hacerse preguntas difíciles y, por fin, volverse hacia Aquel que lo creó todo. La palabra árabe para esto es *hanif*: alguien que se aparta de todo dios falso y se inclina hacia la verdad."
+        "p": "Muchos musulmanes nuevos reconocen aquí su propio camino. Un *hanif* se aparta de todo dios falso y se inclina hacia la verdad."
+      },
+      {
+        "more": {
+          "title": "Más sobre Ibrahim",
+          "blocks": [
+            {
+              "p": "Dos de sus hijos, Ismail e Ishaq, fueron profetas, y también muchos de sus descendientes, entre ellos el Profeta Muhammad, la paz sea con él."
+            },
+            {
+              "p": "El Corán dice de Ibrahim que \"fue un monoteísta creyente en Dios\" (Corán 3:67). Es decir, se apartó de todo lo falso y se entregó por completo a Allah. (En las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah.)"
+            },
+            {
+              "p": "El Corán también nos cuenta:"
+            },
+            {
+              "quote": "cuando Abraham le dijo a su padre Ázar: \"¿Tomas a los ídolos por divinidades? Creo que tú y tu pueblo están en un claro extravío\".",
+              "cite": "Corán 6:74"
+            },
+            {
+              "p": "La estrella, la luna y el sol muestran que razonaba paso a paso: lo que sale y se pone, lo que viene y se va, no puede ser Dios."
+            }
+          ]
+        }
       },
       {
         "h": "El fuego que no quemó"
       },
       {
-        "p": "Ibrahim preguntó a su pueblo: \"¿Qué son estas estatuas a las que dedican su adoración?\" (Corán 21:52). Como no quisieron escuchar, rompió sus ídolos y dejó solo el más grande, para que volvieran a él y reflexionaran (Corán 21:58). Llenos de ira, decidieron quemarlo (Corán 21:68). Pero Allah lo protegió:"
+        "p": "Su pueblo no quiso escuchar, así que rompió sus ídolos (Corán 21:58). Llenos de ira, decidieron quemarlo (Corán 21:68). Allah lo protegió:"
       },
       {
         "quote": "Pero dijo [Dios]: \"¡Oh, fuego! Sé fresco y no dañes a Abraham\".",
         "cite": "Corán 21:69"
       },
       {
-        "p": "El compañero Ibn Abbas, que Allah esté complacido con él, transmitió las palabras que Ibrahim dijo cuando fue arrojado al fuego (Sahih al-Bujari 4563). Siglos después, el Profeta Muhammad y sus compañeros dijeron las mismas palabras cuando les avisaron de que un gran ejército se había reunido contra ellos (Corán 3:173):"
+        "more": {
+          "title": "Más sobre los ídolos",
+          "blocks": [
+            {
+              "p": "Ibrahim preguntó a su pueblo: \"¿Qué son estas estatuas a las que dedican su adoración?\" (Corán 21:52)."
+            },
+            {
+              "p": "Dejó solo el ídolo más grande, para que volvieran a él y reflexionaran (Corán 21:58)."
+            }
+          ]
+        }
+      },
+      {
+        "p": "El compañero Ibn Abbas, que Allah esté complacido con él, transmitió las palabras que Ibrahim dijo en el fuego (Sahih al-Bujari 4563). El Profeta Muhammad y sus compañeros las dijeron también cuando les avisaron de que un gran ejército se había reunido contra ellos (Corán 3:173):"
       },
       {
         "phrase": {
           "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
           "transliteration": "Hasbunallahu wa ni'mal-wakil",
-          "meaning": "Allah nos basta, y Él es el mejor en quien confiar nuestros asuntos."
+          "meaning": "Allah nos basta, y Él es el mejor en quien confiar nuestros asuntos.",
+          "audio": "/audio/phrases/prophets-ibrahim-1.mp3"
         }
       },
       {
-        "p": "Puedes decir estas palabras siempre que sientas miedo o te sientas desbordado. No significan que dejes de esforzarte. Significan que haces tu parte y luego descansas tu corazón en Allah."
+        "p": "Dilas cuando sientas miedo. No significan que dejes de esforzarte: haces tu parte y luego descansas tu corazón en Allah."
       },
       {
         "h": "La construcción de la Kaaba"
       },
       {
-        "p": "Allah ordenó a Ibrahim llevar a Hayar, la madre de Ismail, y a su hijo pequeño al valle vacío de La Meca, donde no había nadie ni agua. Cuando él se daba la vuelta para irse, ella le preguntó: \"¿Te ordenó Allah hacer esto?\" Él respondió: \"Sí\". Ella dijo: \"Entonces Él no nos abandonará\" (Sahih al-Bujari 3364). Cuando se les acabó el agua, ella corrió entre las colinas de Safa y Marwa buscando ayuda, siete veces. Entonces Allah envió a un ángel y brotó el agua de Zamzam. El Profeta Muhammad dijo que esa búsqueda es el origen del recorrido que hacen hoy los peregrinos entre esas dos colinas."
+        "timeline": {
+          "title": "Del valle a la Casa",
+          "events": [
+            {
+              "when": "El valle",
+              "text": "Allah ordenó a Ibrahim dejar a Hayar, la madre de Ismail, y a su hijo pequeño en el valle vacío de La Meca. Ella le preguntó: \"¿Te ordenó Allah hacer esto?\" Él respondió: \"Sí\". Ella dijo: \"Entonces Él no nos abandonará\" (Sahih al-Bujari 3364)."
+            },
+            {
+              "when": "Zamzam",
+              "text": "Cuando se les acabó el agua, ella corrió siete veces entre las colinas de Safa y Marwa. Allah envió a un ángel y brotó el agua de Zamzam."
+            },
+            {
+              "when": "Años después",
+              "text": "Ibrahim le dijo a Ismail que Allah le había ordenado construir allí una Casa. Ismail respondió: \"Haz lo que tu Señor te ha ordenado\"."
+            },
+            {
+              "when": "La Casa",
+              "text": "Ismail traía las piedras e Ibrahim construía (Sahih al-Bujari 3364)."
+            }
+          ]
+        }
       },
       {
-        "p": "Años después, Ibrahim volvió y le dijo a Ismail que Allah le había ordenado construir allí una Casa. Ismail respondió: \"Haz lo que tu Señor te ha ordenado\". Ismail traía las piedras e Ibrahim construía (Sahih al-Bujari 3364). El Corán recoge lo que decían mientras trabajaban:"
-      },
-      {
-        "quote": "Y [recuerden] cuando Abraham e Ismael levantaron los cimientos de La Casa, dijeron: \"¡Oh, Señor! Acepta nuestra obra. Tú eres el que todo lo oye, todo lo sabe\".",
-        "cite": "Corán 2:127"
-      },
-      {
-        "p": "Estaban construyendo la Casa de Allah y, aun así, no dieron por hecho que su obra sería aceptada. Lo pidieron. Tú puedes usar sus palabras después de cualquier buena obra, grande o pequeña:"
+        "p": "Aun así pidieron a Allah que aceptara su obra. Usa sus palabras después de cualquier buena obra, grande o pequeña:"
       },
       {
         "phrase": {
@@ -282,17 +531,44 @@
         }
       },
       {
+        "more": {
+          "title": "Más de esta historia",
+          "blocks": [
+            {
+              "p": "El Profeta Muhammad dijo que la búsqueda de Hayar es el origen del recorrido que hacen hoy los peregrinos entre esas dos colinas."
+            },
+            {
+              "p": "El Corán recoge lo que decían mientras trabajaban:"
+            },
+            {
+              "quote": "Y [recuerden] cuando Abraham e Ismael levantaron los cimientos de La Casa, dijeron: \"¡Oh, Señor! Acepta nuestra obra. Tú eres el que todo lo oye, todo lo sabe\".",
+              "cite": "Corán 2:127"
+            },
+            {
+              "p": "Estaban construyendo la Casa de Allah y, aun así, no dieron por hecho que su obra sería aceptada. Lo pidieron."
+            }
+          ]
+        }
+      },
+      {
         "h": "El amigo íntimo de Allah"
       },
       {
-        "p": "Allah le dio a Ibrahim un título de gran honor:"
+        "p": "Allah llamó a Ibrahim *jalil*, un amigo de la cercanía más profunda. Vivió esa cercanía con toda una vida de confianza: en el fuego, en el valle vacío y en cada orden de su Señor."
       },
       {
-        "quote": "Dios tomó a Abraham como uno de Sus siervos más amados.",
-        "cite": "Corán 4:125"
-      },
-      {
-        "p": "La palabra árabe es *jalil*, un amigo de la cercanía más profunda. Ibrahim vivió esa cercanía con toda una vida de confianza: en el fuego, en el valle vacío y en cada orden de su Señor."
+        "more": {
+          "title": "El versículo",
+          "blocks": [
+            {
+              "p": "Allah le dio a Ibrahim un título de gran honor:"
+            },
+            {
+              "quote": "Dios tomó a Abraham como uno de Sus siervos más amados.",
+              "cite": "Corán 4:125"
+            }
+          ]
+        }
       },
       {
         "quick": {

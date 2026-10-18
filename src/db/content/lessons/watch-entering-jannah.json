@@ -1,0 +1,41 @@
+{
+  "slug": "watch-entering-jannah",
+  "minutes": 12,
+  "title": {
+    "en": "The moment you enter Paradise",
+    "ar": "لحظة دخولك الجنة",
+    "es": "El momento en que entras al Paraíso"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "An episode of Dr. Omar Suleiman's series on Jannah, about the moment the believers enter Paradise."
+      }
+    ],
+    "ar": [
+      {
+        "p": "حلقة من سلسلة د. عمر سليمان عن الجنة، عن اللحظة التي يدخل فيها المؤمنون الجنة."
+      }
+    ],
+    "es": [
+      {
+        "p": "Un episodio de la serie del Dr. Omar Suleiman sobre la Jannah, acerca del momento en que los creyentes entran al Paraíso."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=TRhN4m0LUxE",
+    "title": {
+      "en": "The moment you enter Paradise",
+      "ar": "لحظة دخولك الجنة",
+      "es": "El momento en que entras al Paraíso"
+    },
+    "by": {
+      "en": "Dr. Omar Suleiman, Yaqeen Institute",
+      "ar": "د. عمر سليمان، معهد يقين",
+      "es": "Dr. Omar Suleiman, Yaqeen Institute"
+    },
+    "seconds": 698
+  }
+}

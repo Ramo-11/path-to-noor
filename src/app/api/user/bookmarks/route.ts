@@ -3,6 +3,7 @@ import { Types } from "mongoose";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { Lesson } from "@/db/models/Lesson";
 import { bookmarkSchema } from "@/lib/validations";
 
 export async function GET() {
@@ -39,7 +40,7 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const parsed = bookmarkSchema.safeParse(await request.json());
+    const parsed = bookmarkSchema.safeParse(await request.json().catch(() => null));
     if (!parsed.success) {
       return NextResponse.json(
         { error: "Invalid lessonId" },
@@ -49,18 +50,17 @@ export async function POST(request: NextRequest) {
     const { lessonId } = parsed.data;
 
     await connectDB();
-    const user = await User.findById(session.user.id);
-    if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    const lessonExists = await Lesson.exists({ _id: lessonId, published: true });
+    if (!lessonExists) {
+      return NextResponse.json({ error: "Lesson not found" }, { status: 404 });
     }
 
-    const alreadyBookmarked = user.bookmarks.some(
-      (id) => id.toString() === lessonId
+    const result = await User.updateOne(
+      { _id: session.user.id },
+      { $addToSet: { bookmarks: new Types.ObjectId(lessonId) } }
     );
-
-    if (!alreadyBookmarked) {
-      user.bookmarks.push(new Types.ObjectId(lessonId));
-      await user.save();
+    if (result.matchedCount === 0) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
     }
 
     return NextResponse.json({ message: "Bookmark added" });
@@ -80,7 +80,7 @@ export async function DELETE(request: NextRequest) {
   }
 
   try {
-    const parsed = bookmarkSchema.safeParse(await request.json());
+    const parsed = bookmarkSchema.safeParse(await request.json().catch(() => null));
     if (!parsed.success) {
       return NextResponse.json(
         { error: "Invalid lessonId" },

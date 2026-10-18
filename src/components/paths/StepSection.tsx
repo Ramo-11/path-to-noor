@@ -144,7 +144,7 @@ export async function StepSection({
                       ) : isNext ? (
                         <span
                           aria-hidden="true"
-                          className="inline-flex min-h-10 min-w-10 shrink-0 items-center justify-center gap-1.5 rounded-full bg-primary px-2.5 text-[0.9375rem] font-medium text-on-primary transition-colors duration-150 group-hover/row:bg-primary-hover sm:px-3.5"
+                          className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-1.5 rounded-full bg-primary px-2.5 text-[0.9375rem] font-medium text-on-primary transition-colors duration-150 group-hover/row:bg-primary-hover sm:px-3.5"
                         >
                           <span className="hidden sm:inline">{tl("start")}</span>
                           <ArrowRight className="size-4 rtl:rotate-180" />

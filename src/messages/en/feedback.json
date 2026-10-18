@@ -1,0 +1,40 @@
+{
+  "share": {
+    "label": "Share",
+    "copied": "Link copied",
+    "copiedNote": "You can paste it anywhere.",
+    "failed": "Could not copy the link."
+  },
+  "trap": "Leave this field empty",
+  "helpful": {
+    "title": "Was this helpful?",
+    "yes": "Yes",
+    "no": "Not really",
+    "thanks": "Thank you for telling us.",
+    "error": "That did not go through. Please try again."
+  },
+  "report": {
+    "open": "Something wrong with this lesson?",
+    "reasonLabel": "What is the problem?",
+    "reasons": {
+      "incorrect": "Wrong or unclear information",
+      "translation": "Translation problem",
+      "video": "Video not working",
+      "other": "Something else"
+    },
+    "reasonRequired": "Choose what is wrong.",
+    "noteLabel": "Anything else we should know? (optional)",
+    "noteCount": "{count} of {max}",
+    "send": "Send report",
+    "cancel": "Cancel",
+    "thanks": "Thank you. We will look into it.",
+    "error": "That did not send. Please try again.",
+    "limit": "You have sent a lot just now. Please try again in a little while."
+  },
+  "og": {
+    "tagline": "A free, guided path for new Muslims",
+    "lesson": "Lesson",
+    "path": "Learning path",
+    "site": "Basmet Dawah"
+  }
+}

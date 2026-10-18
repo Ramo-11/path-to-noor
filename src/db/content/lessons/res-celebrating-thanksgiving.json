@@ -1,6 +1,6 @@
 {
   "slug": "res-celebrating-thanksgiving",
-  "minutes": 7,
+  "minutes": 4,
   "title": {
     "en": "Can I spend Thanksgiving with my family?",
     "ar": "هل أقضي عيد الشكر مع عائلتي؟",
@@ -9,19 +9,29 @@
   "body": {
     "en": [
       {
-        "p": "For many families in North America, Thanksgiving is the one day of the year when everyone sits around the same table. If your family is not Muslim, you might wonder whether you can still be part of it. This lesson explains how scholars look at national holidays, what they agree you can do, and how to make the long weekend about family ties."
+        "p": "Thanksgiving is the one day many families sit at the same table, so you may wonder if you can be part of it."
       },
       {
         "h": "Religious festivals and national holidays"
       },
       {
-        "p": "In the previous lessons you learned that the majority of scholars hold that Muslims do not celebrate the religious festivals of other faiths. Thanksgiving is a national holiday, and for many families it is mostly about food and being together. Scholars today differ on how to treat days like this:"
+        "p": "The majority of scholars hold that Muslims do not celebrate the religious festivals of other faiths. Thanksgiving is a national holiday, and for many families it is mostly about food and being together. Scholars today differ:"
       },
       {
-        "ul": [
-          "Many scholars, including the fatwa services IslamWeb and IslamQA and the Assembly of Muslim Jurists of America (AMJA), advise Muslims not to celebrate Thanksgiving as a festival of their own, because Allah gave Muslims their festivals: Eid al-Fitr and Eid al-Adha. They advise against the day's special customs, such as holding or joining the Thanksgiving dinner as a celebration.",
-          "Other scholars see it as a cultural day and allow joining a family meal, as long as the food is halal and nothing forbidden takes place."
-        ]
+        "compare": {
+          "first": {
+            "title": "The more careful view",
+            "items": [
+              "Many scholars, including IslamWeb, IslamQA, and the Assembly of Muslim Jurists of America (AMJA), advise Muslims not to celebrate Thanksgiving as a festival of their own, because Allah gave Muslims Eid al-Fitr and Eid al-Adha. They advise against its special customs, such as holding or joining the Thanksgiving dinner as a celebration."
+            ]
+          },
+          "second": {
+            "title": "The cultural view",
+            "items": [
+              "Other scholars see it as a cultural day and allow joining a family meal, as long as the food is halal and nothing forbidden takes place."
+            ]
+          }
+        }
       },
       {
         "p": "This lesson follows the first, more careful view. If you are unsure what applies to you, ask a scholar you trust."
@@ -30,16 +40,16 @@
         "h": "What scholars agree you can do"
       },
       {
-        "p": "Here is the good news: even the scholars who are most careful about the holiday itself say that using the days off to be with your relatives is fine. Keeping family ties strong is something Islam loves."
+        "p": "Even the scholars most careful about the holiday itself say that using the days off to be with your relatives is fine. Keeping family ties strong is something Islam loves."
       },
       {
         "steps": {
           "title": "A family-centered long weekend",
           "steps": [
-            "Visit your parents and relatives during the long weekend. Your presence is a gift to them.",
+            "Visit your parents and relatives. Your presence is a gift.",
             "Following the careful view, choose a time other than the holiday dinner itself, such as the day before or the day after, or visit once the meal is over. Scholars say it is fine to eat food left over from the meal rather than let it go to waste.",
-            "Help your parents in practical ways: shopping, cleaning up, or driving older relatives.",
-            "Keep conversations warm. If someone asks why you do things differently, answer simply and kindly."
+            "Help in practical ways: shopping, cleaning up, or driving older relatives.",
+            "Keep conversations warm. If asked why you do things differently, answer simply and kindly."
           ]
         }
       },
@@ -47,13 +57,13 @@
         "h": "Keeping your food halal"
       },
       {
-        "p": "Whenever you eat with family, the usual food rules apply. Pork and alcohol are forbidden (Quran 5:3 and 5:90), including hidden forms such as bacon in the stuffing or wine in a sauce. Meat also needs to be halal (permitted). If you are not sure about the turkey or another meat, it is fine to kindly pass on it and enjoy the other dishes, or to bring a halal dish of your own."
+        "p": "The usual food rules apply. Pork and alcohol are forbidden (Quran 5:3 and 5:90), including hidden forms such as bacon in the stuffing or wine in a sauce. Meat also needs to be halal (permitted). Not sure about the turkey? Kindly pass on it and enjoy the other dishes, or bring a halal dish of your own."
       },
       {
         "h": "Gratitude, every day"
       },
       {
-        "p": "For a Muslim, giving thanks is not limited to one day a year. Every time you say *alhamdulillah* (all praise is for Allah), you are thanking Him. Your family may notice that gratitude now fills your whole year, and that can say more about Islam than words."
+        "p": "Giving thanks is not limited to one day a year. Every *alhamdulillah* (all praise is for Allah) thanks Him, and your family may notice that gratitude fills your whole year."
       },
       {
         "quick": {
@@ -69,41 +79,48 @@
       },
       {
         "key": "Use the holiday to strengthen family ties, keep your food halal, and keep your celebrations for Eid."
-      },
-      {
-        "p": "In the last lesson of this step, you will look at a tender question: making dua for loved ones who were not Muslim."
       }
     ],
     "ar": [
       {
-        "p": "عيد الشكر (Thanksgiving) عند كثير من العائلات في أمريكا الشمالية هو اليوم الوحيد في العام الذي يجتمع فيه الجميع حول مائدة واحدة. وإن لم تكن عائلتك مسلمة فقد تتساءل: هل ما زلت أستطيع أن أكون معهم؟ يشرح لك هذا الدرس نظرة العلماء إلى الأعياد الوطنية، وما يتفقون على جوازه، وكيف تجعل عطلة نهاية الأسبوع الطويلة وقتًا لصلة الرحم."
+        "p": "عيد الشكر (Thanksgiving) هو اليوم الذي تجتمع فيه عائلات كثيرة حول مائدة واحدة، فقد تتساءل: هل أستطيع أن أكون معهم؟"
       },
       {
         "h": "الأعياد الدينية والأعياد الوطنية"
       },
       {
-        "p": "تعلمت في الدروس السابقة أن جمهور العلماء يرون أن المسلم لا يحتفل بالأعياد الدينية لأهل الأديان الأخرى. أما عيد الشكر فهو عطلة وطنية، وهو عند كثير من العائلات مناسبة للطعام والاجتماع. وقد اختلف العلماء المعاصرون في حكم مثل هذه الأيام:"
+        "p": "يرى جمهور العلماء أن المسلم لا يحتفل بالأعياد الدينية لأهل الأديان الأخرى. أما عيد الشكر فهو عطلة وطنية، وهو عند كثير من العائلات مناسبة للطعام والاجتماع. وقد اختلف العلماء المعاصرون في حكم مثل هذه الأيام:"
       },
       {
-        "ul": [
-          "فكثير من العلماء، ومنهم موقعا إسلام ويب والإسلام سؤال وجواب ومجمع فقهاء الشريعة بأمريكا (أمجا)، يرون ألا يحتفل المسلم بعيد الشكر عيدًا له، لأن الله أعطى المسلمين عيديهم: عيد الفطر وعيد الأضحى، ويرون ترك عادات ذلك اليوم الخاصة به، كإقامة عشاء عيد الشكر أو حضوره احتفالًا بالمناسبة.",
-          "ويرى علماء آخرون أنه يوم ثقافي، ويجيزون مشاركة العائلة طعامها ما دام الطعام حلالًا ولم يقع فيه محرم."
-        ]
+        "compare": {
+          "first": {
+            "title": "القول الأحوط",
+            "items": [
+              "كثير من العلماء، ومنهم موقعا إسلام ويب والإسلام سؤال وجواب ومجمع فقهاء الشريعة بأمريكا (أمجا)، يرون ألا يحتفل المسلم بعيد الشكر عيدًا له، لأن الله أعطى المسلمين عيد الفطر وعيد الأضحى. ويرون ترك عاداته الخاصة، كإقامة عشاء عيد الشكر أو حضوره احتفالًا بالمناسبة."
+            ]
+          },
+          "second": {
+            "title": "القول الثقافي",
+            "items": [
+              "ويرى علماء آخرون أنه يوم ثقافي، ويجيزون مشاركة العائلة طعامها ما دام الطعام حلالًا ولم يقع فيه محرم."
+            ]
+          }
+        }
       },
       {
-        "p": "ويأخذ هذا الدرس بالقول الأول الأكثر احتياطًا، وإن لم تكن متأكدًا مما ينطبق عليك فاسأل عالمًا تثق به."
+        "p": "ويأخذ هذا الدرس بالقول الأول الأكثر احتياطًا. وإن لم تكن متأكدًا مما ينطبق عليك فاسأل عالمًا تثق به."
       },
       {
         "h": "ما يتفق العلماء على جوازه"
       },
       {
-        "p": "والخبر الطيب أن أشد العلماء احتياطًا في شأن هذا اليوم يقولون إن استغلال أيام العطلة للاجتماع بالأقارب لا حرج فيه، وصلة الرحم مما يحبه الإسلام."
+        "p": "حتى أشد العلماء احتياطًا في شأن هذا اليوم يقولون إن استغلال أيام العطلة للاجتماع بالأقارب لا حرج فيه، وصلة الرحم مما يحبه الإسلام."
       },
       {
         "steps": {
           "title": "عطلة طويلة محورها العائلة",
           "steps": [
-            "زر والديك وأقاربك في أيام العطلة، فحضورك هدية لهم.",
+            "زر والديك وأقاربك، فحضورك هدية.",
             "وعلى القول الأحوط، اختر وقتًا غير وقت عشاء العيد نفسه، كاليوم الذي قبله أو الذي بعده، أو زرهم بعد انتهاء العشاء، وقد ذكر العلماء أنه لا بأس بأكل ما بقي من الطعام بدلًا من إتلافه.",
             "أعن والديك في الأمور العملية: التسوق، والتنظيف، وتوصيل كبار السن من الأقارب.",
             "اجعل حديثك دافئًا، وإن سألك أحد لماذا تفعل الأمور بطريقة مختلفة فأجبه ببساطة ولطف."
@@ -114,13 +131,13 @@
         "h": "حافظ على حلال طعامك"
       },
       {
-        "p": "كلما أكلت مع عائلتك فأحكام الطعام المعتادة قائمة: فلحم الخنزير والخمر محرمان (المائدة: 3، والمائدة: 90)، ومن ذلك صورهما الخفية، كقطع لحم الخنزير في الحشوة أو النبيذ في الصلصة. ويجب كذلك أن يكون اللحم حلالًا. فإن لم تكن متأكدًا من الديك الرومي أو غيره من اللحوم فلا بأس أن تعتذر عنه بلطف وتأكل من الأطباق الأخرى، أو أن تحضر معك طبقًا حلالًا."
+        "p": "أحكام الطعام المعتادة قائمة: فلحم الخنزير والخمر محرمان (المائدة: 3، والمائدة: 90)، ومن ذلك صورهما الخفية، كقطع لحم الخنزير في الحشوة أو النبيذ في الصلصة. ويجب كذلك أن يكون اللحم حلالًا. فإن لم تكن متأكدًا من الديك الرومي فاعتذر عنه بلطف وكل من الأطباق الأخرى، أو أحضر معك طبقًا حلالًا."
       },
       {
         "h": "الشكر كل يوم"
       },
       {
-        "p": "الشكر عند المسلم لا يقتصر على يوم واحد في العام، ففي كل مرة تقول فيها: «الحمد لله» فأنت تشكر الله تعالى. وقد تلاحظ عائلتك أن الشكر صار يملأ عامك كله، وهذا قد يعبّر عن الإسلام أكثر من الكلام."
+        "p": "الشكر عند المسلم لا يقتصر على يوم واحد في العام، ففي كل مرة تقول فيها: «الحمد لله» فأنت تشكر الله تعالى. وقد تلاحظ عائلتك أن الشكر صار يملأ عامك كله."
       },
       {
         "quick": {
@@ -136,26 +153,33 @@
       },
       {
         "key": "اجعل العطلة وقتًا لصلة الرحم، وحافظ على حلال طعامك، واجعل احتفالك في العيدين."
-      },
-      {
-        "p": "وفي الدرس الأخير من هذه المرحلة تنظر في سؤال رقيق: الدعاء للأحبة الذين لم يكونوا مسلمين."
       }
     ],
     "es": [
       {
-        "p": "Para muchas familias en Norteamérica, el Día de Acción de Gracias (Thanksgiving) es el único día del año en que todos se sientan a la misma mesa. Si tu familia no es musulmana, quizá te preguntes si todavía puedes ser parte de ese momento. Esta lección explica cómo ven los sabios las fiestas nacionales, en qué coinciden que sí puedes hacer y cómo convertir el fin de semana largo en tiempo para los lazos familiares."
+        "p": "El Día de Acción de Gracias es el día en que muchas familias se sientan a la misma mesa, y quizá te preguntes si puedes ser parte de ello."
       },
       {
         "h": "Fiestas religiosas y fiestas nacionales"
       },
       {
-        "p": "En las lecciones anteriores aprendiste que la mayoría de los sabios sostiene que los musulmanes no celebran las fiestas religiosas de otras religiones. El Día de Acción de Gracias es una fiesta nacional, y para muchas familias se trata sobre todo de comida y de estar juntos. Los sabios de hoy tienen opiniones distintas sobre días así:"
+        "p": "La mayoría de los sabios sostiene que los musulmanes no celebran las fiestas religiosas de otras religiones. El Día de Acción de Gracias es una fiesta nacional, y para muchas familias se trata sobre todo de comida y de estar juntos. Los sabios de hoy tienen opiniones distintas:"
       },
       {
-        "ul": [
-          "Muchos sabios, entre ellos los servicios de fatwas IslamWeb e IslamQA y la Asamblea de Juristas Musulmanes de América (AMJA), aconsejan que el musulmán no celebre el Día de Acción de Gracias como una fiesta propia, porque Allah dio a los musulmanes sus fiestas: Eid al-Fitr y Eid al-Adha. Aconsejan dejar las costumbres propias de ese día, como organizar la cena de Acción de Gracias o asistir a ella como celebración.",
-          "Otros sabios lo ven como un día cultural y permiten compartir la comida familiar, siempre que la comida sea halal y no ocurra nada prohibido."
-        ]
+        "compare": {
+          "first": {
+            "title": "La opinión más cuidadosa",
+            "items": [
+              "Muchos sabios, entre ellos IslamWeb, IslamQA y la Asamblea de Juristas Musulmanes de América (AMJA), aconsejan que el musulmán no celebre el Día de Acción de Gracias como una fiesta propia, porque Allah dio a los musulmanes Eid al-Fitr y Eid al-Adha. Aconsejan dejar sus costumbres propias, como organizar la cena o asistir a ella como celebración."
+            ]
+          },
+          "second": {
+            "title": "La opinión cultural",
+            "items": [
+              "Otros sabios lo ven como un día cultural y permiten compartir la comida familiar, siempre que la comida sea halal y no ocurra nada prohibido."
+            ]
+          }
+        }
       },
       {
         "p": "Esta lección sigue la primera opinión, la más cuidadosa. Si no estás seguro de qué se aplica a tu caso, pregunta a un sabio de confianza."
@@ -164,15 +188,15 @@
         "h": "Lo que los sabios coinciden en que puedes hacer"
       },
       {
-        "p": "La buena noticia es que incluso los sabios más cuidadosos con la fiesta en sí dicen que aprovechar los días libres para estar con tus familiares está bien. Mantener fuertes los lazos familiares es algo que el Islam ama."
+        "p": "Incluso los sabios más cuidadosos con la fiesta en sí dicen que aprovechar los días libres para estar con tus familiares está bien. Mantener fuertes los lazos familiares es algo que el Islam ama."
       },
       {
         "steps": {
           "title": "Un fin de semana largo centrado en la familia",
           "steps": [
-            "Visita a tus padres y familiares durante el fin de semana largo. Tu presencia es un regalo para ellos.",
+            "Visita a tus padres y familiares. Tu presencia es un regalo.",
             "Siguiendo la opinión cuidadosa, elige un momento distinto a la cena festiva misma, como el día antes o el día después, o visítalos cuando la cena haya terminado. Los sabios dicen que está bien comer lo que sobró de la comida en lugar de desperdiciarlo.",
-            "Ayuda a tus padres en lo práctico: hacer las compras, limpiar o llevar a los familiares mayores.",
+            "Ayuda en lo práctico: hacer las compras, limpiar o llevar a los familiares mayores.",
             "Mantén conversaciones cálidas. Si alguien pregunta por qué haces las cosas de otra manera, responde de forma sencilla y amable."
           ]
         }
@@ -181,13 +205,13 @@
         "h": "Mantén tu comida halal"
       },
       {
-        "p": "Siempre que comas con tu familia, se aplican las reglas de siempre sobre la comida. El cerdo y el alcohol están prohibidos (Corán 5:3 y 5:90), incluso en formas escondidas como tocino en el relleno o vino en una salsa. La carne también debe ser halal (permitida). Si no estás seguro del pavo o de otra carne, está bien rechazarla con amabilidad y disfrutar los demás platos, o llevar un plato halal preparado por ti."
+        "p": "Se aplican las reglas de siempre sobre la comida. El cerdo y el alcohol están prohibidos (Corán 5:3 y 5:90), incluso en formas escondidas como tocino en el relleno o vino en una salsa. La carne también debe ser halal (permitida). ¿No estás seguro del pavo? Recházalo con amabilidad y disfruta los demás platos, o lleva un plato halal."
       },
       {
         "h": "Gratitud todos los días"
       },
       {
-        "p": "Para un musulmán, dar gracias no se limita a un día del año. Cada vez que dices *alhamdulillah* (toda alabanza es para Allah), le estás dando gracias. Tu familia puede notar que la gratitud ahora llena todo tu año, y eso puede decir más del Islam que las palabras."
+        "p": "Para un musulmán, dar gracias no se limita a un día del año. Cada *alhamdulillah* (toda alabanza es para Allah) es una forma de agradecerle, y tu familia puede notar que la gratitud llena todo tu año."
       },
       {
         "quick": {
@@ -203,9 +227,6 @@
       },
       {
         "key": "Usa el feriado para fortalecer los lazos familiares, mantén tu comida halal y guarda tus celebraciones para el Eid."
-      },
-      {
-        "p": "En la última lección de esta etapa verás una pregunta delicada: hacer dua por los seres queridos que no eran musulmanes."
       }
     ]
   },

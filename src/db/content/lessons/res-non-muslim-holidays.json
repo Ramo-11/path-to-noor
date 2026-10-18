@@ -1,6 +1,6 @@
 {
   "slug": "res-non-muslim-holidays",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Can I celebrate non-Muslim holidays?",
     "ar": "هل أحتفل بأعياد غير المسلمين؟",
@@ -9,7 +9,7 @@
   "body": {
     "en": [
       {
-        "p": "Your first holiday season as a Muslim can bring mixed feelings. You love your family, and you remember what these days meant to you growing up. At the same time, you want to be true to your new faith. Both feelings are good, and you do not have to choose between your faith and your family. This lesson explains what the majority of scholars teach about the religious holidays of other faiths, why, and how to keep your family close."
+        "p": "You love your family and you want to be true to your faith, and you do not have to choose between them."
       },
       {
         "h": "What the majority of scholars say"
@@ -18,10 +18,20 @@
         "p": "The majority of scholars hold that a Muslim does not celebrate or take part in the religious festivals of other faiths, such as Christmas or Easter. Many scholars describe this as a point of agreement. In practice, it means not joining:"
       },
       {
-        "ul": [
-          "the worship or religious rituals of the day, such as a church service;",
-          "the celebration itself, such as the holiday party or festive meal held for the occasion, its decorations, or exchanging gifts for the festival."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ban",
+              "label": "Worship and rituals",
+              "text": "The religious rituals of the day, such as a church service."
+            },
+            {
+              "icon": "ban",
+              "label": "The celebration itself",
+              "text": "The holiday party or festive meal held for the occasion, its decorations, or exchanging gifts for the festival."
+            }
+          ]
+        }
       },
       {
         "p": "Some contemporary scholars are more lenient about the social side of these days. This lesson follows the majority view."
@@ -30,51 +40,79 @@
         "h": "Why: Allah gave you your own festivals"
       },
       {
-        "p": "A religious festival is one of the clearest signs of a faith. When the Prophet Muhammad, peace be upon him, came to Madinah, the people there had two days of play and celebration from the time before Islam. Anas ibn Malik, may Allah be pleased with him, reported that the Prophet told them:"
+        "p": "A religious festival is one of the clearest signs of a faith. When the Prophet Muhammad, peace be upon him, came to Madinah, the people there had two days of play and celebration from before Islam. Anas ibn Malik, may Allah be pleased with him, reported that the Prophet told them:"
       },
       {
         "quote": "Allah has substituted for them something better than them, the day of sacrifice and the day of the breaking of the fast",
         "cite": "Sunan Abi Dawud 1134 (sahih)"
       },
       {
-        "p": "These two days are **Eid al-Adha** (the festival of the sacrifice) and **Eid al-Fitr** (the festival that ends Ramadan). *Eid* means a festival that returns every year. Stepping back from another faith's festival is not a rejection of your family. It is making room for the celebrations Allah chose for you, and you can share their joy with your family too."
+        "p": "These two days are **Eid al-Adha** (the festival of the sacrifice) and **Eid al-Fitr** (the festival that ends Ramadan). Stepping back from another faith's festival is not a rejection of your family. It is making room for the celebrations Allah chose for you, and you can share their joy with your family too."
       },
       {
         "h": "Kindness to your family stays"
       },
       {
-        "p": "Islam does not ask you to pull away from your parents. Allah speaks about parents who even push their child to worship others besides Him, and He still commands kindness toward them:"
+        "p": "Islam does not ask you to pull away from your parents. Allah commands kindness even toward parents who push their child to worship others besides Him. You do not follow them in what goes against your faith, but you keep treating them well."
       },
       {
-        "quote": "But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them but accompany them in [this] world with appropriate kindness and follow the way of those who turn back to Me [in repentance]. Then to Me will be your return, and I will inform you about what you used to do.",
-        "cite": "Quran 31:15 (translation of the meaning)"
-      },
-      {
-        "p": "So you do not follow them in what goes against your faith, but you keep treating them well. Allah also says about people of other faiths who live in peace with you:"
-      },
-      {
-        "quote": "Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes.",
-        "cite": "Quran 60:8 (translation of the meaning)"
-      },
-      {
-        "p": "The verse continues: being kind and fair to them is welcome, because Allah loves those who act justly. When the mother of Asma bint Abi Bakr, may Allah be pleased with her, came to visit her while still not Muslim, Asma asked the Prophet whether she should keep ties with her. He answered:"
+        "p": "When the mother of Asma bint Abi Bakr, may Allah be pleased with her, came to visit her while still not Muslim, Asma asked the Prophet whether she should keep ties with her. He answered:"
       },
       {
         "quote": "Yes, keep ties with your mother.",
         "cite": "Sahih al-Bukhari 2620 and Sahih Muslim 1003 (agreed upon), translation of the meaning"
       },
       {
+        "more": {
+          "title": "What Allah says about kindness",
+          "blocks": [
+            {
+              "p": "Allah speaks about parents who push their child to worship others besides Him, and still commands kindness toward them:"
+            },
+            {
+              "quote": "But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them but accompany them in [this] world with appropriate kindness and follow the way of those who turn back to Me [in repentance]. Then to Me will be your return, and I will inform you about what you used to do.",
+              "cite": "Quran 31:15 (translation of the meaning)"
+            },
+            {
+              "p": "Allah also says about people of other faiths who live in peace with you:"
+            },
+            {
+              "quote": "Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes.",
+              "cite": "Quran 60:8 (translation of the meaning)"
+            },
+            {
+              "p": "The verse continues: being kind and fair to them is welcome, because Allah loves those who act justly."
+            }
+          ]
+        }
+      },
+      {
         "h": "Ideas for the holiday season"
+      },
+      {
+        "scenario": {
+          "situation": "Your mother invites you to her church's Christmas service.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "Will you come with us on Christmas Eve?"
+            },
+            {
+              "from": "you",
+              "text": "I cannot join the service, but I would love to spend another day with you."
+            }
+          ]
+        }
       },
       {
         "steps": {
           "title": "Staying close without celebrating",
           "steps": [
-            "Tell your family early and gently what you will and will not join, so no one feels hurt on the day.",
-            "Visit and call them often during the season, on ordinary days and at ordinary times.",
+            "Tell your family early and gently what you will and will not join.",
+            "Visit and call them often, on ordinary days.",
             "If they give you a gift, you may accept it with thanks, as long as it is not something forbidden, such as alcohol.",
             "Give your own gifts at other times of the year, and share your Eid sweets and joy with them.",
-            "Help in everyday ways: run errands, drive an older relative, be there when they need you."
+            "Help in everyday ways: run errands, drive an older relative."
           ]
         }
       },
@@ -95,14 +133,11 @@
       },
       {
         "key": "You can say no to the celebration and still say yes to your family."
-      },
-      {
-        "p": "Next, you will learn what to say when someone wishes you a happy holiday, and warm words you can use instead."
       }
     ],
     "ar": [
       {
-        "p": "قد يحمل إليك موسم الأعياد الأول بعد إسلامك مشاعر مختلطة؛ فأنت تحب عائلتك، وتتذكر ما كانت تعنيه لك هذه الأيام في صغرك، وفي الوقت نفسه تريد أن تكون صادقًا مع دينك الجديد. وكلا الشعورين طيب، ولست مضطرًا إلى الاختيار بين دينك وعائلتك. يشرح لك هذا الدرس ما يقوله جمهور العلماء عن الأعياد الدينية لأهل الأديان الأخرى، والحكمة من ذلك، وكيف تبقى قريبًا من أهلك."
+        "p": "أنت تحب عائلتك وتريد أن تكون صادقًا مع دينك، ولست مضطرًا إلى الاختيار بينهما."
       },
       {
         "h": "ماذا يقول جمهور العلماء؟"
@@ -111,10 +146,20 @@
         "p": "ذهب جمهور العلماء إلى أن المسلم لا يحتفل بالأعياد الدينية لأهل الأديان الأخرى ولا يشارك فيها، كعيد الميلاد وعيد الفصح، بل نقل كثير من العلماء اتفاق أهل العلم على ذلك. ويعني هذا عمليًّا ألا تشارك في:"
       },
       {
-        "ul": [
-          "عبادات ذلك اليوم وشعائره الدينية، كالقداس في الكنيسة.",
-          "الاحتفال نفسه، كحفلة العيد أو المأدبة التي تقام بمناسبته، وزينته، وتبادل الهدايا لأجله."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ban",
+              "label": "العبادات والشعائر",
+              "text": "شعائر ذلك اليوم الدينية، كالقداس في الكنيسة."
+            },
+            {
+              "icon": "ban",
+              "label": "الاحتفال نفسه",
+              "text": "حفلة العيد أو المأدبة التي تقام بمناسبته، وزينته، وتبادل الهدايا لأجله."
+            }
+          ]
+        }
       },
       {
         "p": "ويتساهل بعض العلماء المعاصرين في الجانب الاجتماعي من هذه الأيام، ويعرض هذا الدرس قول الجمهور."
@@ -130,44 +175,72 @@
         "cite": "سنن أبي داود 1134، وصححه الألباني"
       },
       {
-        "p": "وهذان اليومان هما عيد الأضحى وعيد الفطر، والعيد هو اليوم الذي يعود ويتكرر كل عام. وليس ابتعادك عن عيد دين آخر رفضًا لعائلتك، بل هو إفساح المجال للأعياد التي اختارها الله لك، ويمكنك أن تُشرك عائلتك في فرحتك بها."
+        "p": "وهذان اليومان هما عيد الأضحى وعيد الفطر. وليس ابتعادك عن عيد دين آخر رفضًا لعائلتك، بل هو إفساح المجال للأعياد التي اختارها الله لك، ويمكنك أن تُشرك عائلتك في فرحتك بها."
       },
       {
         "h": "البر بعائلتك باقٍ"
       },
       {
-        "p": "لا يطلب منك الإسلام أن تبتعد عن والديك، فقد قال الله تعالى عن الوالدين اللذين يدعوان ولدهما إلى الشرك نفسه، ومع ذلك أمر بمصاحبتهما بالمعروف:"
+        "p": "لا يطلب منك الإسلام أن تبتعد عن والديك، فقد أمر الله بمصاحبة الوالدين بالمعروف حتى لو دعوا ولدهما إلى الشرك به. فلا تطعهما فيما يخالف دينك، ولكن صاحبهما في الدنيا بالمعروف."
       },
       {
-        "quote": "وَإِن جَٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
-        "cite": "لقمان: 15"
-      },
-      {
-        "p": "أي: لا تطعهما فيما يخالف دينك، ولكن صاحبهما في الدنيا بالمعروف فيما لا إثم فيه. وقال تعالى عن أهل الأديان الأخرى الذين يعيشون معك في سلام:"
-      },
-      {
-        "quote": "لَّا يَنْهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمْ يُقَٰتِلُوكُمْ فِى ٱلدِّينِ وَلَمْ يُخْرِجُوكُم مِّن دِيَٰرِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوٓا۟ إِلَيْهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
-        "cite": "الممتحنة: 8"
-      },
-      {
-        "p": "أي: لا ينهاكم الله عن إكرام من لم يقاتلكم بسبب الدين ولم يخرجكم من دياركم، ولا عن العدل فيهم والإحسان إليهم. ولما قدمت على أسماء بنت أبي بكر رضي الله عنهما أمُّها وهي مشركة، سألت النبي صلى الله عليه وسلم: أفأصل أمي؟ فقال:"
+        "p": "ولما قدمت على أسماء بنت أبي بكر رضي الله عنهما أمُّها وهي مشركة، سألت النبي صلى الله عليه وسلم: أفأصل أمي؟ فقال:"
       },
       {
         "quote": "«نَعَمْ، صِلِي أُمَّكِ»",
         "cite": "متفق عليه: صحيح البخاري 2620، وصحيح مسلم 1003"
       },
       {
+        "more": {
+          "title": "ماذا يقول الله عن البر",
+          "blocks": [
+            {
+              "p": "قال الله تعالى عن الوالدين اللذين يدعوان ولدهما إلى الشرك به، ومع ذلك أمر بمصاحبتهما بالمعروف:"
+            },
+            {
+              "quote": "وَإِن جَٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+              "cite": "لقمان: 15"
+            },
+            {
+              "p": "وقال تعالى عن أهل الأديان الأخرى الذين يعيشون معك في سلام:"
+            },
+            {
+              "quote": "لَّا يَنْهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمْ يُقَٰتِلُوكُمْ فِى ٱلدِّينِ وَلَمْ يُخْرِجُوكُم مِّن دِيَٰرِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوٓا۟ إِلَيْهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+              "cite": "الممتحنة: 8"
+            },
+            {
+              "p": "أي: لا ينهاكم الله عن إكرام من لم يقاتلكم بسبب الدين ولم يخرجكم من دياركم، ولا عن العدل فيهم والإحسان إليهم."
+            }
+          ]
+        }
+      },
+      {
         "h": "أفكار لموسم الأعياد"
+      },
+      {
+        "scenario": {
+          "situation": "تدعوك أمك إلى قداس عيد الميلاد في كنيستها.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "هل تأتي معنا ليلة عيد الميلاد؟"
+            },
+            {
+              "from": "you",
+              "text": "لا أستطيع المشاركة في القداس، لكنني أحب أن أقضي معك يومًا آخر."
+            }
+          ]
+        }
       },
       {
         "steps": {
           "title": "قريب منهم دون أن تحتفل",
           "steps": [
-            "أخبر عائلتك مبكرًا وبلطف بما ستشارك فيه وما لن تشارك فيه، حتى لا يتأذى أحد يوم العيد.",
-            "زرهم واتصل بهم كثيرًا في هذا الموسم، في الأيام والأوقات العادية.",
+            "أخبر عائلتك مبكرًا وبلطف بما ستشارك فيه وما لن تشارك فيه.",
+            "زرهم واتصل بهم كثيرًا، في الأيام العادية.",
             "إن أهدوا إليك هدية فلك أن تقبلها شاكرًا، ما لم تكن شيئًا محرمًا كالخمر.",
             "قدّم هداياك في أوقات أخرى من العام، وشاركهم حلوى عيدك وفرحتك به.",
-            "أعنهم في شؤونهم اليومية: قضاء الحاجات، وتوصيل كبار السن من الأقارب، والوقوف معهم عند الحاجة."
+            "أعنهم في شؤونهم اليومية: قضاء الحاجات، وتوصيل كبار السن من الأقارب."
           ]
         }
       },
@@ -188,14 +261,11 @@
       },
       {
         "key": "تستطيع أن تقول «لا» للاحتفال، و«نعم» لعائلتك."
-      },
-      {
-        "p": "وفي الدرس التالي تتعلم ماذا تقول حين يهنئك أحد بعيده، وكلمات دافئة تستطيع أن تقولها بدلًا من ذلك."
       }
     ],
     "es": [
       {
-        "p": "Tu primera temporada de fiestas como musulmán puede traer sentimientos encontrados. Amas a tu familia y recuerdas lo que esos días significaban para ti de niño. Al mismo tiempo, quieres ser fiel a tu nueva fe. Ambos sentimientos son buenos, y no tienes que elegir entre tu fe y tu familia. Esta lección explica lo que enseña la mayoría de los sabios sobre las fiestas religiosas de otras religiones, por qué, y cómo mantener cerca a tu familia."
+        "p": "Amas a tu familia y quieres ser fiel a tu fe, y no tienes que elegir entre ambas."
       },
       {
         "h": "Lo que dice la mayoría de los sabios"
@@ -204,10 +274,20 @@
         "p": "La mayoría de los sabios sostiene que un musulmán no celebra ni participa en las fiestas religiosas de otras religiones, como la Navidad o la Pascua. Muchos sabios lo describen como un punto de acuerdo. En la práctica, significa no participar en:"
       },
       {
-        "ul": [
-          "la adoración o los ritos religiosos del día, como una misa o un servicio en la iglesia;",
-          "la celebración en sí, como la fiesta o la comida festiva que se organiza por la ocasión, sus adornos o el intercambio de regalos por la fiesta."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ban",
+              "label": "Adoración y ritos",
+              "text": "Los ritos religiosos del día, como una misa o un servicio en la iglesia."
+            },
+            {
+              "icon": "ban",
+              "label": "La celebración en sí",
+              "text": "La fiesta o la comida festiva que se organiza por la ocasión, sus adornos o el intercambio de regalos por la fiesta."
+            }
+          ]
+        }
       },
       {
         "p": "Algunos sabios contemporáneos son más flexibles con el lado social de estos días. Esta lección sigue la opinión de la mayoría."
@@ -223,24 +303,13 @@
         "cite": "Sunan Abi Dawud 1134 (sahih), traducción del significado"
       },
       {
-        "p": "Esos dos días son **Eid al-Adha** (la fiesta del sacrificio) y **Eid al-Fitr** (la fiesta que cierra el Ramadán). *Eid* significa una fiesta que regresa cada año. Apartarte de la fiesta de otra religión no es rechazar a tu familia. Es dar lugar a las celebraciones que Allah eligió para ti, y también puedes compartir su alegría con tu familia."
+        "p": "Esos dos días son **Eid al-Adha** (la fiesta del sacrificio) y **Eid al-Fitr** (la fiesta que cierra el Ramadán). Apartarte de la fiesta de otra religión no es rechazar a tu familia. Es dar lugar a las celebraciones que Allah eligió para ti, y también puedes compartir su alegría con tu familia."
       },
       {
         "h": "La bondad con tu familia se queda"
       },
       {
-        "p": "El Islam no te pide que te alejes de tus padres. Allah habla de los padres que incluso presionan a su hijo para que adore a otros junto a Él, y aun así ordena tratarlos bien:"
-      },
-      {
-        "quote": "Si tus padres se esfuerzan por hacer que caigas en la idolatría de dedicar actos de adoración a otro que Dios, lo cual es algo que no te he enseñado, no los obedezcan pero trátenlos con respeto. Sigan el camino de los piadosos, pues ante Mí comparecerán y les informaré de lo que hacían.",
-        "cite": "Corán 31:15 (traducción del significado)"
-      },
-      {
-        "p": "Es decir, no los sigues en lo que va contra tu fe, pero sigues tratándolos bien. Allah también dice sobre las personas de otras religiones que viven en paz contigo:"
-      },
-      {
-        "quote": "Dios no les prohíbe hacer el bien y tratar con justicia a quienes no los han combatido por causa de la religión ni los han expulsado de sus hogares, porque Dios ama a los que actúan con justicia.",
-        "cite": "Corán 60:8 (traducción del significado)"
+        "p": "El Islam no te pide que te alejes de tus padres. Allah ordena tratarlos bien incluso cuando presionan a su hijo para que adore a otros junto a Él. No los sigues en lo que va contra tu fe, pero sigues tratándolos bien."
       },
       {
         "p": "Cuando la madre de Asma bint Abi Bakr, que Allah esté complacido con ella, vino a visitarla sin ser musulmana, Asma preguntó al Profeta si debía mantener los lazos con ella. Él respondió:"
@@ -250,17 +319,53 @@
         "cite": "Sahih al-Bujari 2620 y Sahih Muslim 1003 (registrado por ambos), traducción del significado"
       },
       {
+        "more": {
+          "title": "Lo que dice Allah sobre la bondad",
+          "blocks": [
+            {
+              "p": "Allah habla de los padres que presionan a su hijo para que adore a otros junto a Él, y aun así ordena tratarlos bien:"
+            },
+            {
+              "quote": "Si tus padres se esfuerzan por hacer que caigas en la idolatría de dedicar actos de adoración a otro que Dios, lo cual es algo que no te he enseñado, no los obedezcan pero trátenlos con respeto. Sigan el camino de los piadosos, pues ante Mí comparecerán y les informaré de lo que hacían.",
+              "cite": "Corán 31:15 (traducción del significado)"
+            },
+            {
+              "p": "Allah también dice sobre las personas de otras religiones que viven en paz contigo:"
+            },
+            {
+              "quote": "Dios no les prohíbe hacer el bien y tratar con justicia a quienes no los han combatido por causa de la religión ni los han expulsado de sus hogares, porque Dios ama a los que actúan con justicia.",
+              "cite": "Corán 60:8 (traducción del significado)"
+            }
+          ]
+        }
+      },
+      {
         "h": "Ideas para la temporada de fiestas"
+      },
+      {
+        "scenario": {
+          "situation": "Tu madre te invita a la misa de Navidad de su iglesia.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "¿Vendrás con nosotros en Nochebuena?"
+            },
+            {
+              "from": "you",
+              "text": "No puedo participar en la misa, pero me encantaría pasar otro día contigo."
+            }
+          ]
+        }
       },
       {
         "steps": {
           "title": "Cerca de ellos sin celebrar",
           "steps": [
-            "Explica a tu familia con tiempo y con cariño en qué participarás y en qué no, para que nadie se sienta herido ese día.",
-            "Visítalos y llámalos seguido durante la temporada, en días y horas comunes.",
+            "Explica a tu familia con tiempo y con cariño en qué participarás y en qué no.",
+            "Visítalos y llámalos seguido, en días comunes.",
             "Si te dan un regalo, puedes aceptarlo con gratitud, siempre que no sea algo prohibido, como el alcohol.",
             "Da tus propios regalos en otras épocas del año y comparte con ellos los dulces y la alegría de tu Eid.",
-            "Ayuda en lo cotidiano: haz mandados, lleva a un familiar mayor, acompáñalos cuando te necesiten."
+            "Ayuda en lo cotidiano: haz mandados, lleva a un familiar mayor."
           ]
         }
       },
@@ -281,9 +386,6 @@
       },
       {
         "key": "Puedes decir no a la celebración y seguir diciendo sí a tu familia."
-      },
-      {
-        "p": "En la próxima lección aprenderás qué decir cuando alguien te desea felices fiestas y qué palabras cálidas puedes usar en su lugar."
       }
     ]
   },

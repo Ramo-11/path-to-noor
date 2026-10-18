@@ -1,6 +1,6 @@
 {
   "slug": "seerah-madinah-farewell",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "Madinah, the conquest of Makkah, and the farewell",
     "ar": "المدينة وفتح مكة والوداع",
@@ -9,35 +9,64 @@
   "body": {
     "en": [
       {
-        "p": "The Prophet Muhammad, peace be upon him, lived in Madinah for ten years. In that decade a small community grew into a nation, the Quran continued to come down, and Islam spread across Arabia. This lesson walks through those years briefly and ends with his last days."
+        "p": "The Prophet Muhammad, peace be upon him, lived in Madinah for ten years, and in that time a small community grew into a nation."
       },
       {
-        "h": "Life in Madinah"
+        "facts": {
+          "title": "Shaped in Madinah",
+          "items": [
+            {
+              "icon": "moon",
+              "label": "Ramadan",
+              "text": "The fast of Ramadan came in these years."
+            },
+            {
+              "icon": "hands",
+              "label": "Zakah",
+              "text": "The yearly charity."
+            },
+            {
+              "icon": "home",
+              "label": "Family life",
+              "text": "Many teachings about family life."
+            }
+          ]
+        }
       },
       {
-        "p": "Much of the daily practice of Islam took shape in Madinah: the fast of Ramadan, zakah (the yearly charity), and many teachings about family life came during these years. The Muslims also faced real danger. Quraysh and their allies fought them in several battles, including Badr, Uhud, and the Battle of the Trench. There were also times of peace, such as the years after the treaty agreed at al-Hudaybiyah. Through it all the Prophet taught, led the prayer, settled disputes, visited the sick, and lived simply among his people."
+        "timeline": {
+          "title": "Ten years in Madinah",
+          "events": [
+            {
+              "when": "Years of struggle",
+              "text": "Battles at Badr, Uhud, and the Trench, then peace after al-Hudaybiyah."
+            },
+            {
+              "when": "Eighth year after the hijrah",
+              "text": "The conquest of Makkah."
+            },
+            {
+              "when": "Tenth year after the hijrah",
+              "text": "The Farewell Pilgrimage, his only Hajj after the hijrah."
+            },
+            {
+              "when": "632 CE",
+              "text": "A few months after returning to Madinah, he fell ill and passed away."
+            }
+          ]
+        }
       },
       {
         "h": "The conquest of Makkah"
       },
       {
-        "p": "In the eighth year after the hijrah, the Prophet returned to Makkah with a large army of believers, and the city was entered with little resistance. The people who had mocked him, persecuted his companions, and fought him for years were now in his hands. Instead of revenge, he announced safety: whoever entered the house of Abu Sufyan, one of the leaders of Quraysh, would be safe, and the people went into their homes and closed their doors (Sahih Muslim 1780)."
-      },
-      {
-        "p": "Then he went to the Kaaba and walked around it in worship. When he came to an idol beside the House, he struck at it with the bow in his hand, reciting:"
-      },
-      {
-        "quote": "And say, \"Truth has come, and falsehood has departed. Indeed is falsehood, [by nature], ever bound to depart.\"",
-        "cite": "Quran 17:81 (Saheeh International translation of the meaning)"
-      },
-      {
-        "p": "The house that Ibrahim, peace be upon him, built for the worship of Allah alone was returned to its purpose."
+        "p": "The people who had fought him for years were now in his hands. Instead of revenge, he announced safety: whoever entered the house of Abu Sufyan would be safe (Sahih Muslim 1780)."
       },
       {
         "h": "The farewell pilgrimage"
       },
       {
-        "p": "In the tenth year after the hijrah, the Prophet announced that he would perform Hajj (the pilgrimage to Makkah), and huge numbers of people came to travel with him and learn from him. It was his only Hajj after the hijrah, and it became known as the Farewell Pilgrimage. On the day of Arafah he addressed the people. The companion Jabir ibn Abdullah, may Allah be pleased with him, preserved parts of that sermon (Sahih Muslim 1218). Among its words:"
+        "p": "On the day of Arafah he addressed the huge crowd, and Jabir ibn Abdullah, may Allah be pleased with him, preserved parts of the sermon (Sahih Muslim 1218). Among its words:"
       },
       {
         "ul": [
@@ -47,10 +76,7 @@
         ]
       },
       {
-        "p": "Then he asked the crowd: \"You will be asked about me, so what will you say?\" They replied: \"We testify that you have conveyed and fulfilled the message and given counsel.\" He raised his finger toward the sky, pointed it toward the people, and said three times: \"O Allah, bear witness.\""
-      },
-      {
-        "p": "It was during this pilgrimage, while the Prophet stood at Arafah on a Friday, that Allah revealed these words (Sahih al-Bukhari 45):"
+        "p": "While he stood at Arafah on a Friday, Allah revealed these words (Sahih al-Bukhari 45):"
       },
       {
         "quote": "This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion.",
@@ -60,28 +86,14 @@
         "h": "His passing"
       },
       {
-        "p": "A few months after returning to Madinah, in the year 632 CE, the Prophet fell ill. He passed away in the home of his wife Aisha, may Allah be pleased with her, with his head resting on her, at the age of sixty-three. Aisha said the last words he spoke were:"
-      },
-      {
-        "quote": "O Allah, the highest Companion.",
-        "cite": "Sahih al-Bukhari 4463 and Sahih Muslim 2444 (agreed upon)"
-      },
-      {
-        "p": "The companions were in shock. Umar ibn al-Khattab, may Allah be pleased with him, could not accept that the Prophet had died. Then Abu Bakr arrived, may Allah be pleased with him, uncovered the Prophet's face, kissed him, and went out to the people. He said:"
+        "p": "He passed away in the home of his wife Aisha, may Allah be pleased with her, at the age of sixty-three. The companions were in shock. Abu Bakr, may Allah be pleased with him, went out to the people and said:"
       },
       {
         "quote": "Whoever worshipped Muhammad, then Muhammad is dead, but whoever worshipped Allah, then Allah is Alive and shall never die.",
         "cite": "Sahih al-Bukhari 3668"
       },
       {
-        "p": "Then he recited this verse:"
-      },
-      {
-        "quote": "Muhammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allah at all; but Allah will reward the grateful.",
-        "cite": "Quran 3:144 (Saheeh International translation of the meaning)"
-      },
-      {
-        "p": "These words steadied the community, and they can steady you too: we love the Prophet deeply, and we worship Allah alone, who never dies."
+        "p": "These words steadied the community, and they can steady you too: we worship Allah alone, who never dies."
       },
       {
         "quick": {
@@ -100,39 +112,111 @@
       },
       {
         "p": "In the last lesson of this step, you will look at the character that made him so beloved, and how you can follow his example today."
+      },
+      {
+        "more": {
+          "title": "More from these years",
+          "blocks": [
+            {
+              "p": "Through it all he taught, led the prayer, settled disputes, visited the sick, and lived simply among his people."
+            },
+            {
+              "p": "He returned to Makkah with a large army, and the city was entered with little resistance. Abu Sufyan was one of the leaders of Quraysh."
+            },
+            {
+              "p": "At the Kaaba, he walked around it in worship. When he came to an idol beside the House, he struck at it with the bow in his hand, reciting:"
+            },
+            {
+              "quote": "And say, \"Truth has come, and falsehood has departed. Indeed is falsehood, [by nature], ever bound to depart.\"",
+              "cite": "Quran 17:81 (Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "The house that Ibrahim, peace be upon him, built for the worship of Allah alone was returned to its purpose."
+            },
+            {
+              "p": "Then he asked the crowd: \"You will be asked about me, so what will you say?\" They replied: \"We testify that you have conveyed and fulfilled the message and given counsel.\" He raised his finger toward the sky, pointed it toward the people, and said three times: \"O Allah, bear witness.\""
+            },
+            {
+              "p": "Aisha said the last words he spoke were:"
+            },
+            {
+              "quote": "O Allah, the highest Companion.",
+              "cite": "Sahih al-Bukhari 4463 and Sahih Muslim 2444 (agreed upon)"
+            },
+            {
+              "p": "Umar ibn al-Khattab, may Allah be pleased with him, could not accept that the Prophet had died. Then Abu Bakr arrived, uncovered the Prophet's face, kissed him, and went out to the people. Then he recited this verse:"
+            },
+            {
+              "quote": "Muhammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allah at all; but Allah will reward the grateful.",
+              "cite": "Quran 3:144 (Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "He passed away with his head resting on Aisha."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "عاش النبي محمد صلى الله عليه وسلم في المدينة عشر سنين، نما فيها المجتمع الصغير حتى صار أمة، واستمر نزول القرآن، وانتشر الإسلام في جزيرة العرب. يمرّ هذا الدرس على تلك السنين باختصار، ويختم بأيامه الأخيرة."
+        "p": "عاش النبي محمد صلى الله عليه وسلم في المدينة عشر سنين، نما فيها المجتمع الصغير حتى صار أمة."
       },
       {
-        "h": "الحياة في المدينة"
+        "facts": {
+          "title": "ما تشكّل في المدينة",
+          "items": [
+            {
+              "icon": "moon",
+              "label": "رمضان",
+              "text": "فُرض صيام رمضان في هذه السنين."
+            },
+            {
+              "icon": "hands",
+              "label": "الزكاة",
+              "text": "الصدقة السنوية."
+            },
+            {
+              "icon": "home",
+              "label": "شؤون الأسرة",
+              "text": "نزلت أحكام كثيرة فيها."
+            }
+          ]
+        }
       },
       {
-        "p": "في المدينة تشكّل كثير من شعائر الإسلام اليومية: فُرض صيام رمضان، والزكاة، ونزلت أحكام كثيرة في شؤون الأسرة. وواجه المسلمون أخطارًا حقيقية، فقاتلتهم قريش وحلفاؤها في معارك منها بدر وأحد والخندق. وكانت هناك أيضًا فترات سلم، كالسنين التي أعقبت صلح الحديبية. وفي كل ذلك كان النبي صلى الله عليه وسلم يعلّم، ويؤمّ الناس في الصلاة، ويقضي بينهم، ويعود المرضى، ويعيش بينهم ببساطة."
+        "timeline": {
+          "title": "عشر سنين في المدينة",
+          "events": [
+            {
+              "when": "سنوات الشدة",
+              "text": "معارك بدر وأحد والخندق، ثم سلم بعد صلح الحديبية."
+            },
+            {
+              "when": "السنة الثامنة من الهجرة",
+              "text": "فتح مكة."
+            },
+            {
+              "when": "السنة العاشرة من الهجرة",
+              "text": "حجة الوداع، وهي حجته الوحيدة بعد الهجرة."
+            },
+            {
+              "when": "632 للميلاد",
+              "text": "مرض بعد رجوعه إلى المدينة بأشهر قليلة، ثم توفي."
+            }
+          ]
+        }
       },
       {
         "h": "فتح مكة"
       },
       {
-        "p": "في السنة الثامنة من الهجرة عاد النبي صلى الله عليه وسلم إلى مكة بجيش كبير من المؤمنين، فدخلها دون مقاومة تُذكر. وصار الذين سخروا منه وآذوا أصحابه وقاتلوه سنين في قبضته، فلم ينتقم، بل أعلن الأمان، فقال: «مَنْ دخَل دار أبي سفيان فهو آمن»، فأقبل الناس إلى دار أبي سفيان وأغلقوا أبوابهم (صحيح مسلم 1780)."
-      },
-      {
-        "p": "ثم أتى الكعبة فطاف بها، فلما أتى على صنم إلى جنب البيت جعل يطعنه بقوس كانت في يده وهو يتلو:"
-      },
-      {
-        "quote": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًۭا",
-        "cite": "سورة الإسراء، الآية 81"
-      },
-      {
-        "p": "أي جاء الإسلام وذهب الشرك، فالباطل لا بقاء له، والحق هو الثابت الباقي. وعاد البيت الذي بناه إبراهيم عليه السلام لعبادة الله وحده إلى ما بُني له."
+        "p": "صار الذين قاتلوه سنين في قبضته، فلم ينتقم، بل أعلن الأمان، فقال: «مَنْ دخَل دار أبي سفيان فهو آمن»، فأقبل الناس إلى دار أبي سفيان وأغلقوا أبوابهم (صحيح مسلم 1780)."
       },
       {
         "h": "حجة الوداع"
       },
       {
-        "p": "وفي السنة العاشرة من الهجرة أعلن النبي صلى الله عليه وسلم أنه حاجّ، فقدم خلق كثير ليحجّوا معه ويتعلّموا منه، وكانت حجته الوحيدة بعد الهجرة، وعُرفت بحجة الوداع. وفي يوم عرفة خطب الناس، وحفظ جابر بن عبد الله رضي الله عنه أجزاء من تلك الخطبة (صحيح مسلم 1218)، ومنها:"
+        "p": "وفي يوم عرفة خطب الجمع الكبير، وحفظ جابر بن عبد الله رضي الله عنه أجزاء من تلك الخطبة (صحيح مسلم 1218)، ومنها:"
       },
       {
         "ul": [
@@ -140,9 +224,6 @@
           "«فَاتَّقُوا اللَّهَ فِي النِّسَاءِ»",
           "«وَقَدْ تَرَكْتُ فِيكُمْ مَا لَنْ تَضِلُّوا بَعْدَهُ إِنِ اعْتَصَمْتُمْ بِهِ كِتَابَ اللَّهِ»"
         ]
-      },
-      {
-        "p": "ثم سأل الناس: «وَأَنْتُمْ تُسْأَلُونَ عَنِّي فَمَا أَنْتُمْ قَائِلُونَ»، فقالوا: «نَشْهَدُ أَنَّكَ قَدْ بَلَّغْتَ وَأَدَّيْتَ وَنَصَحْتَ»، فرفع إصبعه السبابة إلى السماء ثم نكتها إلى الناس وقال ثلاث مرات: «اللَّهُمَّ اشْهَدِ»."
       },
       {
         "p": "وفي هذه الحجة، والنبي صلى الله عليه وسلم واقف بعرفة يوم جمعة، أنزل الله تعالى (صحيح البخاري 45):"
@@ -155,28 +236,14 @@
         "h": "وفاته صلى الله عليه وسلم"
       },
       {
-        "p": "وبعد رجوعه إلى المدينة بأشهر قليلة، سنة 632 للميلاد، مرض النبي صلى الله عليه وسلم، وتوفي في بيت زوجه عائشة رضي الله عنها ورأسه عليها، وهو ابن ثلاث وستين سنة. وقالت عائشة إن آخر كلمة تكلّم بها:"
-      },
-      {
-        "quote": "اللهمَّ الرَّفِيقَ الأعلى",
-        "cite": "صحيح البخاري 4463، وصحيح مسلم 2444 (متفق عليه)"
-      },
-      {
-        "p": "وصُدم الصحابة، ولم يصدّق عمر بن الخطاب رضي الله عنه أن النبي صلى الله عليه وسلم قد مات، حتى جاء أبو بكر رضي الله عنه فكشف عن وجهه وقبّله، ثم خرج إلى الناس فقال:"
+        "p": "توفي في بيت زوجه عائشة رضي الله عنها، وهو ابن ثلاث وستين سنة. وصُدم الصحابة، فخرج أبو بكر رضي الله عنه إلى الناس فقال:"
       },
       {
         "quote": "مَنْ كَانَ يَعْبُدُ مُحَمَّدًا صلى الله عليه وسلم فَإِنَّ مُحَمَّدًا قَدْ مَاتَ، وَمَنْ كَانَ يَعْبُدُ اللَّهَ فَإِنَّ اللَّهَ حَىٌّ لاَ يَمُوتُ",
         "cite": "صحيح البخاري 3668"
       },
       {
-        "p": "ثم تلا قوله تعالى:"
-      },
-      {
-        "quote": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًۭٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
-        "cite": "سورة آل عمران، الآية 144"
-      },
-      {
-        "p": "أي ما محمد إلا رسول كالرسل الذين سبقوه، يبلّغ رسالة ربه، أفإن مات أو قُتل رجعتم عن دينكم؟ ومن رجع فلن يضرّ الله شيئًا، وسيجزي الله الشاكرين. فثبّتت هذه الكلمات الصحابة، وهي تثبّتك أنت أيضًا: نحبّ النبي صلى الله عليه وسلم حبًّا عظيمًا، ونعبد الله وحده الحيّ الذي لا يموت."
+        "p": "فثبّتت هذه الكلمات الصحابة، وهي تثبّتك أنت أيضًا: نعبد الله وحده الحيّ الذي لا يموت."
       },
       {
         "quick": {
@@ -195,39 +262,114 @@
       },
       {
         "p": "في آخر درس من هذه الخطوة ستتأمّل الأخلاق التي جعلته محبوبًا، وكيف تقتدي به اليوم."
+      },
+      {
+        "more": {
+          "title": "المزيد من هذه السنين",
+          "blocks": [
+            {
+              "p": "وفي كل ذلك كان يعلّم، ويؤمّ الناس في الصلاة، ويقضي بينهم، ويعود المرضى، ويعيش بينهم ببساطة."
+            },
+            {
+              "p": "عاد إلى مكة بجيش كبير من المؤمنين، فدخلها دون مقاومة تُذكر. وكان أبو سفيان من زعماء قريش."
+            },
+            {
+              "p": "ثم أتى الكعبة فطاف بها، فلما أتى على صنم إلى جنب البيت جعل يطعنه بقوس كانت في يده وهو يتلو:"
+            },
+            {
+              "quote": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًۭا",
+              "cite": "سورة الإسراء، الآية 81"
+            },
+            {
+              "p": "أي جاء الإسلام وذهب الشرك، فالباطل لا بقاء له، والحق هو الثابت الباقي. وعاد البيت الذي بناه إبراهيم عليه السلام لعبادة الله وحده إلى ما بُني له."
+            },
+            {
+              "p": "ثم سأل الناس: «وَأَنْتُمْ تُسْأَلُونَ عَنِّي فَمَا أَنْتُمْ قَائِلُونَ»، فقالوا: «نَشْهَدُ أَنَّكَ قَدْ بَلَّغْتَ وَأَدَّيْتَ وَنَصَحْتَ»، فرفع إصبعه السبابة إلى السماء ثم نكتها إلى الناس وقال ثلاث مرات: «اللَّهُمَّ اشْهَدِ»."
+            },
+            {
+              "p": "وقالت عائشة إن آخر كلمة تكلّم بها:"
+            },
+            {
+              "quote": "اللهمَّ الرَّفِيقَ الأعلى",
+              "cite": "صحيح البخاري 4463، وصحيح مسلم 2444 (متفق عليه)"
+            },
+            {
+              "p": "ولم يصدّق عمر بن الخطاب رضي الله عنه أن النبي صلى الله عليه وسلم قد مات، حتى جاء أبو بكر فكشف عن وجهه وقبّله، ثم خرج إلى الناس. ثم تلا قوله تعالى:"
+            },
+            {
+              "quote": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًۭٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
+              "cite": "سورة آل عمران، الآية 144"
+            },
+            {
+              "p": "أي ما محمد إلا رسول كالرسل الذين سبقوه، يبلّغ رسالة ربه، أفإن مات أو قُتل رجعتم عن دينكم؟ ومن رجع فلن يضرّ الله شيئًا، وسيجزي الله الشاكرين."
+            },
+            {
+              "p": "وتوفي ورأسه على عائشة رضي الله عنها."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "El Profeta Muhammad, la paz sea con él, vivió diez años en Medina. En esa década una pequeña comunidad se convirtió en una nación, el Corán siguió descendiendo y el Islam se extendió por Arabia. Esta lección recorre esos años brevemente y termina con sus últimos días."
+        "p": "El Profeta Muhammad, la paz sea con él, vivió diez años en Medina, y en ese tiempo una pequeña comunidad se convirtió en una nación."
       },
       {
-        "h": "La vida en Medina"
+        "facts": {
+          "title": "Lo que tomó forma en Medina",
+          "items": [
+            {
+              "icon": "moon",
+              "label": "Ramadán",
+              "text": "El ayuno de Ramadán llegó en esos años."
+            },
+            {
+              "icon": "hands",
+              "label": "Zakat",
+              "text": "La caridad anual."
+            },
+            {
+              "icon": "home",
+              "label": "Vida familiar",
+              "text": "Muchas enseñanzas sobre la vida familiar."
+            }
+          ]
+        }
       },
       {
-        "p": "Gran parte de la práctica diaria del Islam tomó forma en Medina: el ayuno de Ramadán, el zakat (la caridad anual) y muchas enseñanzas sobre la vida familiar llegaron en esos años. Los musulmanes también enfrentaron peligros reales. Quraish y sus aliados los combatieron en varias batallas, entre ellas Badr, Uhud y la Batalla de la Trinchera. Hubo también tiempos de paz, como los años que siguieron al tratado de al-Hudaybiya. En todo ello el Profeta enseñaba, dirigía la oración, resolvía disputas, visitaba a los enfermos y vivía con sencillez entre su gente."
+        "timeline": {
+          "title": "Diez años en Medina",
+          "events": [
+            {
+              "when": "Años de lucha",
+              "text": "Batallas en Badr, Uhud y la Trinchera, y luego paz tras el tratado de al-Hudaybiya."
+            },
+            {
+              "when": "Octavo año después de la hégira",
+              "text": "La conquista de La Meca."
+            },
+            {
+              "when": "Décimo año después de la hégira",
+              "text": "La Peregrinación de Despedida, su único Hayy después de la hégira."
+            },
+            {
+              "when": "Año 632",
+              "text": "Pocos meses después de volver a Medina, enfermó y falleció."
+            }
+          ]
+        }
       },
       {
         "h": "La conquista de La Meca"
       },
       {
-        "p": "En el octavo año después de la hégira, el Profeta regresó a La Meca con un gran ejército de creyentes, y la ciudad fue tomada casi sin resistencia. Quienes se habían burlado de él, habían perseguido a sus compañeros y lo habían combatido durante años estaban ahora en sus manos. En lugar de vengarse, anunció seguridad: quien entrara en la casa de Abu Sufyán, uno de los líderes de Quraish, estaría a salvo, y la gente entró en sus casas y cerró sus puertas (Sahih Muslim 1780)."
-      },
-      {
-        "p": "Luego fue a la Kaaba y la rodeó en adoración. Al llegar a un ídolo que estaba junto a la Casa, lo golpeó con el arco que tenía en la mano, recitando:"
-      },
-      {
-        "quote": "Y di: \"Ha triunfado la Verdad y se ha disipado la falsedad; la falsedad siempre se desvanece\".",
-        "cite": "Corán 17:81 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "La casa que Ibrahim, la paz sea con él, construyó para adorar solo a Allah volvió a su propósito."
+        "p": "Quienes lo habían combatido durante años estaban ahora en sus manos. En lugar de vengarse, anunció seguridad: quien entrara en la casa de Abu Sufyán estaría a salvo (Sahih Muslim 1780)."
       },
       {
         "h": "La peregrinación de despedida"
       },
       {
-        "p": "En el décimo año después de la hégira, el Profeta anunció que haría el Hayy (la peregrinación a La Meca), y una multitud vino para viajar con él y aprender de él. Fue su único Hayy después de la hégira, y se conoció como la Peregrinación de Despedida. El día de Arafa se dirigió a la gente. El compañero Yabir ibn Abdullah, que Allah esté complacido con él, conservó partes de ese sermón (Sahih Muslim 1218). Entre sus palabras:"
+        "p": "El día de Arafa se dirigió a la gran multitud, y el compañero Yabir ibn Abdullah, que Allah esté complacido con él, conservó partes del sermón (Sahih Muslim 1218). Entre sus palabras:"
       },
       {
         "ul": [
@@ -237,10 +379,7 @@
         ]
       },
       {
-        "p": "Luego preguntó a la multitud: «Se les preguntará por mí, ¿qué dirán?». Respondieron: «Atestiguamos que has transmitido el mensaje, lo has cumplido y has dado buen consejo». Él levantó el dedo hacia el cielo, lo señaló hacia la gente y dijo tres veces: «Oh Allah, sé testigo»."
-      },
-      {
-        "p": "Fue durante esta peregrinación, mientras el Profeta estaba en Arafa un viernes, cuando Allah reveló estas palabras (Sahih al-Bujari 45):"
+        "p": "Mientras el Profeta estaba en Arafa un viernes, Allah reveló estas palabras (Sahih al-Bujari 45):"
       },
       {
         "quote": "Hoy les he perfeccionado su forma de adoración, he completado Mi gracia sobre ustedes y he dispuesto que el Islam sea su religión.",
@@ -250,28 +389,14 @@
         "h": "Su fallecimiento"
       },
       {
-        "p": "Pocos meses después de volver a Medina, en el año 632, el Profeta enfermó. Falleció en la casa de su esposa Aisha, que Allah esté complacido con ella, con la cabeza apoyada en ella, a los sesenta y tres años. Aisha dijo que sus últimas palabras fueron:"
-      },
-      {
-        "quote": "Oh Allah, con el Compañero Altísimo.",
-        "cite": "Sahih al-Bujari 4463 y Sahih Muslim 2444 (registrado por ambos)"
-      },
-      {
-        "p": "Los compañeros quedaron conmocionados. Umar ibn al-Jattab, que Allah esté complacido con él, no podía aceptar que el Profeta hubiera muerto. Entonces llegó Abu Bakr, que Allah esté complacido con él, descubrió el rostro del Profeta, lo besó y salió hacia la gente. Dijo:"
+        "p": "Falleció en la casa de su esposa Aisha, que Allah esté complacido con ella, a los sesenta y tres años. Los compañeros quedaron conmocionados. Abu Bakr, que Allah esté complacido con él, salió hacia la gente y dijo:"
       },
       {
         "quote": "Quien adoraba a Muhammad, sepa que Muhammad ha muerto; y quien adoraba a Allah, sepa que Allah está vivo y nunca muere.",
         "cite": "Sahih al-Bujari 3668"
       },
       {
-        "p": "Luego recitó esta aleya (la traducción de Isa García usa la palabra «Dios» para Allah):"
-      },
-      {
-        "quote": "Mujámmad es un Mensajero a quien precedieron otros. ¿Si muriera o le dieran muerte, volverían al paganismo? Quien regrese al paganismo no perjudica a Dios. Dios retribuirá generosamente a los agradecidos.",
-        "cite": "Corán 3:144 (traducción del significado de Isa García)"
-      },
-      {
-        "p": "Estas palabras dieron firmeza a la comunidad, y también pueden dártela a ti: amamos profundamente al Profeta, y adoramos solo a Allah, que nunca muere."
+        "p": "Estas palabras dieron firmeza a la comunidad, y también pueden dártela a ti: adoramos solo a Allah, que nunca muere."
       },
       {
         "quick": {
@@ -290,6 +415,49 @@
       },
       {
         "p": "En la última lección de este paso verás el carácter que lo hizo tan amado, y cómo puedes seguir su ejemplo hoy."
+      },
+      {
+        "more": {
+          "title": "Más de estos años",
+          "blocks": [
+            {
+              "p": "En todo ello enseñaba, dirigía la oración, resolvía disputas, visitaba a los enfermos y vivía con sencillez entre su gente."
+            },
+            {
+              "p": "Regresó a La Meca con un gran ejército, y la ciudad fue tomada casi sin resistencia. Abu Sufyán era uno de los líderes de Quraish."
+            },
+            {
+              "p": "Rodeó la Kaaba en adoración. Al llegar a un ídolo que estaba junto a la Casa, lo golpeó con el arco que tenía en la mano, recitando:"
+            },
+            {
+              "quote": "Y di: \"Ha triunfado la Verdad y se ha disipado la falsedad; la falsedad siempre se desvanece\".",
+              "cite": "Corán 17:81 (traducción del significado de Isa García)"
+            },
+            {
+              "p": "La casa que Ibrahim, la paz sea con él, construyó para adorar solo a Allah volvió a su propósito."
+            },
+            {
+              "p": "Luego preguntó a la multitud: «Se les preguntará por mí, ¿qué dirán?». Respondieron: «Atestiguamos que has transmitido el mensaje, lo has cumplido y has dado buen consejo». Él levantó el dedo hacia el cielo, lo señaló hacia la gente y dijo tres veces: «Oh Allah, sé testigo»."
+            },
+            {
+              "p": "Aisha dijo que sus últimas palabras fueron:"
+            },
+            {
+              "quote": "Oh Allah, con el Compañero Altísimo.",
+              "cite": "Sahih al-Bujari 4463 y Sahih Muslim 2444 (registrado por ambos)"
+            },
+            {
+              "p": "Úmar ibn al-Jattab, que Allah esté complacido con él, no podía aceptar que el Profeta hubiera muerto. Entonces Abu Bakr llegó, descubrió el rostro del Profeta, lo besó y salió hacia la gente. Luego recitó esta aleya (la traducción de Isa García usa la palabra «Dios» para Allah):"
+            },
+            {
+              "quote": "Mujámmad es un Mensajero a quien precedieron otros. ¿Si muriera o le dieran muerte, volverían al paganismo? Quien regrese al paganismo no perjudica a Dios. Dios retribuirá generosamente a los agradecidos.",
+              "cite": "Corán 3:144 (traducción del significado de Isa García)"
+            },
+            {
+              "p": "Falleció con la cabeza apoyada en Aisha."
+            }
+          ]
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "slug": "res-alcohol-prohibition",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Alcohol and intoxicants are prohibited",
     "ar": "تحريم الخمر وكل مسكر",
@@ -9,70 +9,140 @@
   "body": {
     "en": [
       {
-        "p": "Drinking may have been a normal part of your life before Islam: at dinners, parties, celebrations, or after work. Now you have probably heard that Muslims do not drink alcohol. This lesson explains what the prohibition covers, where it comes from, and how to handle real situations calmly."
+        "p": "Here is what the alcohol prohibition covers and how to handle real moments."
       },
       {
-        "p": "First, two words you will meet all through this step. **Halal** means permitted. **Haram** means prohibited by Allah (the Arabic word for God, the One God). This step looks at some important things that are haram, starting with alcohol."
+        "facts": {
+          "title": "Two words to know",
+          "items": [
+            {
+              "icon": "check",
+              "label": "Halal",
+              "text": "Permitted"
+            },
+            {
+              "icon": "ban",
+              "label": "Haram",
+              "text": "Prohibited by Allah (the Arabic word for God, the One God)"
+            }
+          ]
+        }
       },
       {
         "h": "What the Quran says"
-      },
-      {
-        "p": "In Surah Al-Ma'idah, the fifth chapter of the Quran, Allah says:"
       },
       {
         "quote": "O you who have believed, indeed, intoxicants, gambling, [sacrificing on] stone alters [to other than Allah], and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful.",
         "cite": "Quran 5:90 (translation of the meaning)"
       },
       {
-        "p": "The word translated here as \"intoxicants\" is *khamr*: anything that clouds and covers the mind. The next verse names some of its harm:"
+        "p": "The word translated \"intoxicants\" is *khamr*: anything that clouds and covers the mind."
       },
       {
-        "quote": "Satan only wants to cause between you animosity and hatred through intoxicants and gambling and to avert you from the remembrance of Allah and from prayer. So will you not desist?",
-        "cite": "Quran 5:91 (translation of the meaning)"
-      },
-      {
-        "p": "Notice what these verses point to: anger and hatred between people, and being pulled away from remembering Allah and from prayer. A clear mind is how you pray, learn, keep your promises, and look after the people you love."
+        "more": {
+          "title": "The next verse",
+          "blocks": [
+            {
+              "quote": "Satan only wants to cause between you animosity and hatred through intoxicants and gambling and to avert you from the remembrance of Allah and from prayer. So will you not desist?",
+              "cite": "Quran 5:91 (translation of the meaning)"
+            },
+            {
+              "p": "These verses point to anger and hatred between people, and being pulled away from remembering Allah and from prayer. A clear mind is how you pray, learn, keep your promises, and look after the people you love."
+            }
+          ]
+        }
       },
       {
         "h": "Every intoxicant, even a little"
       },
       {
-        "p": "People sometimes ask whether this means only wine, or only getting drunk. The Prophet Muhammad, peace be upon him, made it clear:"
+        "p": "The Prophet Muhammad, peace be upon him, said: \"Whatever intoxicates in large amounts, its small amount is forbidden.\" (Sunan Abi Dawud 3681, graded hasan, which means good and reliable)."
       },
       {
-        "quote": "Every intoxicant is Khamr (alcoholic drink), and every intoxicant is prohibited.",
-        "cite": "Sahih Muslim 2003"
+        "compare": {
+          "first": {
+            "title": "Not the rule",
+            "items": [
+              "\"Do not get drunk.\""
+            ]
+          },
+          "second": {
+            "title": "The rule",
+            "items": [
+              "\"Do not drink it at all\", not even one glass. This includes beer, wine, spirits, and anything else that intoxicates."
+            ]
+          }
+        }
       },
       {
-        "p": "He also said: \"Whatever intoxicates in large amounts, its small amount is forbidden.\" (Sunan Abi Dawud 3681, graded hasan, which means good and reliable). So the rule is not \"do not get drunk\". It is \"do not drink it at all\", not even one glass. This includes beer, wine, spirits, and anything else that intoxicates."
+        "p": "Tiny traces of alcohol in some foods, medicines, or products are details that scholars discuss. If one comes up, ask the imam at your local masjid (mosque)."
       },
       {
-        "p": "Questions about tiny traces of alcohol in some foods, medicines, or products are details that scholars discuss. If one comes up for you, ask the imam at your local masjid (mosque)."
+        "more": {
+          "title": "Another saying of the Prophet",
+          "blocks": [
+            {
+              "quote": "Every intoxicant is Khamr (alcoholic drink), and every intoxicant is prohibited.",
+              "cite": "Sahih Muslim 2003"
+            }
+          ]
+        }
       },
       {
         "h": "Real life: family, friends, and work"
       },
       {
-        "p": "Leaving alcohol is simple to understand, but it can feel awkward at first. Here are some gentle ways to handle common moments:"
+        "scenario": {
+          "situation": "A coworker offers you a drink at a work event.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "Want a drink?"
+            },
+            {
+              "from": "you",
+              "text": "No thanks, I don't drink. It is part of my faith."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "**When someone offers you a drink:** a friendly \"No thanks, I don't drink\" is enough. If they ask why, you can say it is part of your faith. You do not owe anyone a debate.",
-          "**Family gatherings:** keeping good ties with your family matters in Islam. Ask for juice, water, or a soft drink early. If the drinking gets heavy, it is okay to step outside or head home early. If you are unsure how to handle a regular family situation, a trusted imam can help.",
-          "**Work events:** order a non-alcoholic drink first, so the question rarely comes up. You can also suggest lunch or coffee for team outings.",
-          "**Old habits and places:** if your social life was built around bars, try new places to meet friends: a cafe, a walk, a shared meal, or the masjid.",
-          "**If you drank heavily or every day:** talk to a doctor about stopping safely. Getting help is a strong and responsible step."
-        ]
+        "p": "You do not owe anyone a debate. More gentle ways to handle common moments:"
       },
       {
-        "p": "If your job itself involves selling or serving alcohol, that is a bigger question, because the Prophet taught that Allah and His Messenger prohibited selling alcohol (Sahih al-Bukhari 2236 and Sahih Muslim 1581). It also affects your income, so do not panic. Speak privately with a trusted scholar or imam, who can help you plan your next steps."
+        "facts": {
+          "items": [
+            {
+              "icon": "home",
+              "label": "Family gatherings",
+              "text": "Ask for juice, water, or a soft drink early. If the drinking gets heavy, step outside or head home early. Keeping good ties with family matters in Islam."
+            },
+            {
+              "icon": "users",
+              "label": "Work events",
+              "text": "Order a non-alcoholic drink first. Suggest lunch or coffee for team outings."
+            },
+            {
+              "icon": "compass",
+              "label": "Old habits and places",
+              "text": "Try a cafe, a walk, a shared meal, or the masjid."
+            },
+            {
+              "icon": "heart",
+              "label": "If you drank heavily",
+              "text": "Talk to a doctor about stopping safely. Getting help is a strong and responsible step."
+            }
+          ]
+        }
+      },
+      {
+        "p": "If your job involves selling or serving alcohol, that is a bigger question, because the Prophet taught that Allah and His Messenger prohibited selling alcohol (Sahih al-Bukhari 2236 and Sahih Muslim 1581). Do not panic. Speak privately with a trusted scholar or imam."
       },
       {
         "h": "If you slip"
       },
       {
-        "p": "Maybe one day you drink even though you know it is haram. If that happens, do not let shame push you away from Allah. The door of *tawbah* (repentance, turning back to Allah) is open. Allah says:"
+        "p": "Do not let shame push you away from Allah. The door of *tawbah* (repentance, turning back to Allah) is open."
       },
       {
         "quote": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.\"",
@@ -86,21 +156,22 @@
           "title": "Turning back to Allah after a slip",
           "steps": [
             "Stop, and leave the drink behind.",
-            "Let yourself feel sincere regret for what happened.",
-            "Ask Allah for forgiveness, in your own words and in any language.",
-            "Make a firm intention not to go back to it, and remove what led you there if you can.",
-            "Once your mind is clear, keep up your prayers. One mistake is never a reason to stop praying."
+            "Feel sincere regret.",
+            "Ask Allah for forgiveness, in any language.",
+            "Intend firmly not to go back, and stay away from what led you there.",
+            "Keep up your prayers. One mistake is never a reason to stop praying."
           ]
         }
       },
       {
-        "p": "The Prophet taught this phrase for asking forgiveness (Sunan Abi Dawud 1517, graded sahih by al-Albani). You can begin with just its first words, *Astaghfirullah*: \"I ask Allah for forgiveness.\""
+        "p": "The Prophet taught this phrase for asking forgiveness (Sunan Abi Dawud 1517, graded sahih by al-Albani). You can begin with just *Astaghfirullah*: \"I ask Allah for forgiveness.\""
       },
       {
         "phrase": {
           "arabic": "أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
           "transliteration": "Astaghfirullahal-ladhi la ilaha illa huwal-hayyul-qayyumu wa atubu ilayh",
-          "meaning": "I ask forgiveness from Allah, there is no deity except Him, the Ever-Living, the Sustainer of existence, and I turn to Him in repentance."
+          "meaning": "I ask forgiveness from Allah, there is no deity except Him, the Ever-Living, the Sustainer of existence, and I turn to Him in repentance.",
+          "audio": "/audio/phrases/res-alcohol-prohibition-1.mp3"
         }
       },
       {
@@ -117,81 +188,148 @@
       },
       {
         "key": "Every intoxicant is prohibited, even a small amount. And if you slip, the door of repentance is open: turn back to Allah sincerely."
-      },
-      {
-        "p": "Next, you will look at another clear prohibition, one that shows up at the dinner table: pork, and the basics of halal food."
       }
     ],
     "ar": [
       {
-        "p": "ربما كان شرب الخمر جزءا عاديا من حياتك قبل الإسلام: في العشاء والحفلات والمناسبات أو بعد العمل. والآن لعلك سمعت أن المسلمين لا يشربون الخمر. يشرح هذا الدرس ما يشمله هذا التحريم، ومن أين جاء، وكيف تتعامل بهدوء مع المواقف الواقعية."
+        "p": "إليك ما يشمله تحريم الخمر وكيف تتعامل مع المواقف الواقعية."
       },
       {
-        "p": "أولا، كلمتان ستمران بك كثيرا في هذه الخطوة: **الحلال** هو ما أباحه الله، و**الحرام** هو ما منعه الله ونهى عنه. وتتناول هذه الخطوة بعض المحرمات المهمة، ونبدأ بالخمر."
+        "facts": {
+          "title": "كلمتان تستحقان المعرفة",
+          "items": [
+            {
+              "icon": "check",
+              "label": "الحلال",
+              "text": "ما أباحه الله"
+            },
+            {
+              "icon": "ban",
+              "label": "الحرام",
+              "text": "ما منعه الله ونهى عنه"
+            }
+          ]
+        }
       },
       {
         "h": "ماذا يقول القرآن؟"
-      },
-      {
-        "p": "يقول الله تعالى في سورة المائدة:"
       },
       {
         "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْخَمْرُ وَٱلْمَيْسِرُ وَٱلْأَنصَابُ وَٱلْأَزْلَٰمُ رِجْسٌۭ مِّنْ عَمَلِ ٱلشَّيْطَٰنِ فَٱجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ",
         "cite": "سورة المائدة: 90"
       },
       {
-        "quote": "إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ",
-        "cite": "سورة المائدة: 91"
+        "p": "الخمر هي كل ما يسكر ويغطي العقل."
       },
       {
-        "p": "في هاتين الآيتين يأمر الله المؤمنين باجتناب الخمر، وهي كل ما يسكر ويغطي العقل، ويبين أنها مع الميسر (القمار) وما ذكر معهما إثم من تزيين الشيطان. ثم يوضح أن الشيطان يريد بها أن يوقع العداوة والبغضاء بين الناس، وأن يصرفهم عن ذكر الله وعن الصلاة. فالعقل الصافي هو الذي تصلي به وتتعلم وتفي بوعودك وترعى من تحب."
+        "more": {
+          "title": "الآية التالية",
+          "blocks": [
+            {
+              "quote": "إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ",
+              "cite": "سورة المائدة: 91"
+            },
+            {
+              "p": "وتشير الآيتان إلى العداوة والبغضاء بين الناس، وإلى الصرف عن ذكر الله وعن الصلاة. فالعقل الصافي هو الذي تصلي به وتتعلم وتفي بوعودك وترعى من تحب."
+            }
+          ]
+        }
       },
       {
         "h": "كل مسكر حرام ولو كان قليلا"
       },
       {
-        "p": "قد يسأل بعض الناس: هل المقصود نوع واحد من الخمر فقط؟ أو السكر وحده؟ وقد بين النبي محمد صلى الله عليه وسلم ذلك بقوله:"
+        "p": "قال النبي محمد صلى الله عليه وسلم: «مَا أَسْكَرَ كَثِيرُهُ فَقَلِيلُهُ حَرَامٌ» (سنن أبي داود 3681، وهو حديث حسن)."
       },
       {
-        "quote": "كل مُسْكِرٍ خَمْرٌ، وكل مُسْكِرٍ حرام",
-        "cite": "صحيح مسلم (2003)"
+        "compare": {
+          "first": {
+            "title": "ليست القاعدة",
+            "items": [
+              "«لا تسكر»."
+            ]
+          },
+          "second": {
+            "title": "القاعدة",
+            "items": [
+              "«لا تشرب منه شيئا»، ولو كأسا واحدة. ويدخل في ذلك الجعة (البيرة) والنبيذ والمشروبات الروحية وكل ما يسكر."
+            ]
+          }
+        }
       },
       {
-        "p": "وقال أيضا: «مَا أَسْكَرَ كَثِيرُهُ فَقَلِيلُهُ حَرَامٌ» (سنن أبي داود 3681، وهو حديث حسن). فالقاعدة ليست «لا تسكر»، بل «لا تشرب منه شيئا»، ولو كأسا واحدة. ويدخل في ذلك الجعة (البيرة) والنبيذ والمشروبات الروحية وكل ما يسكر."
+        "p": "أما بقايا الكحول اليسيرة في بعض الأطعمة أو الأدوية أو المنتجات، فهي تفاصيل يبحثها العلماء. فإن احتجت إلى شيء منها فاسأل إمام المسجد القريب منك."
       },
       {
-        "p": "أما المسائل الدقيقة، مثل بقايا الكحول اليسيرة في بعض الأطعمة أو الأدوية أو المنتجات، فهي تفاصيل يبحثها العلماء. فإن احتجت إلى شيء منها فاسأل إمام المسجد القريب منك."
+        "more": {
+          "title": "حديث آخر للنبي صلى الله عليه وسلم",
+          "blocks": [
+            {
+              "quote": "كل مُسْكِرٍ خَمْرٌ، وكل مُسْكِرٍ حرام",
+              "cite": "صحيح مسلم (2003)"
+            }
+          ]
+        }
       },
       {
         "h": "في الحياة اليومية: الأسرة والأصدقاء والعمل"
       },
       {
-        "p": "ترك الخمر سهل الفهم، لكنه قد يبدو محرجا في البداية. إليك طرقا لطيفة للتعامل مع مواقف شائعة:"
+        "scenario": {
+          "situation": "يعرض عليك زميل في العمل شرابا في مناسبة للعمل.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "هل تريد شرابا؟"
+            },
+            {
+              "from": "you",
+              "text": "لا، شكرا، أنا لا أشرب. هذا جزء من ديني."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "**إذا عرض عليك أحد شرابا:** تكفي عبارة لطيفة مثل: «لا، شكرا، أنا لا أشرب». وإن سألك عن السبب فقل إن ذلك جزء من دينك، ولست مضطرا إلى الدخول في جدال.",
-          "**في اللقاءات العائلية:** صلة الأسرة أمر مهم في الإسلام. اطلب عصيرا أو ماء أو مشروبا غازيا من البداية. وإن كثر الشرب في المكان فلا بأس أن تخرج قليلا أو تعود إلى بيتك مبكرا. وإن لم تعرف كيف تتعامل مع موقف عائلي يتكرر، فإمام تثق به يمكنه أن يساعدك.",
-          "**في مناسبات العمل:** اطلب مشروبا خاليا من الكحول أولا، فنادرا ما يسألك أحد بعد ذلك. ويمكنك أيضا أن تقترح غداء أو قهوة للقاءات الفريق.",
-          "**العادات والأماكن القديمة:** إن كانت حياتك الاجتماعية تدور حول الحانات، فجرب أماكن جديدة للقاء أصدقائك: مقهى، أو نزهة سيرا على الأقدام، أو وجبة مشتركة، أو المسجد.",
-          "**إن كنت تشرب بكثرة أو كل يوم:** تحدث مع طبيب ليساعدك على التوقف بأمان. طلب المساعدة خطوة قوية ومسؤولة."
-        ]
+        "p": "ولست مضطرا إلى الدخول في جدال. وهذه طرق لطيفة أخرى للتعامل مع مواقف شائعة:"
       },
       {
-        "p": "أما إن كان عملك نفسه يتضمن بيع الخمر أو تقديمها، فهذه مسألة أكبر، لأن النبي صلى الله عليه وسلم بين أن الله ورسوله حرما بيع الخمر (صحيح البخاري 2236 وصحيح مسلم 1581). وهي تمس دخلك أيضا، فلا تفزع، بل تحدث على انفراد مع عالم أو إمام تثق به، ليساعدك على ترتيب خطواتك القادمة."
+        "facts": {
+          "items": [
+            {
+              "icon": "home",
+              "label": "اللقاءات العائلية",
+              "text": "اطلب عصيرا أو ماء أو مشروبا غازيا من البداية. وإن كثر الشرب فلا بأس أن تخرج قليلا أو تعود إلى بيتك مبكرا. فصلة الأسرة أمر مهم في الإسلام."
+            },
+            {
+              "icon": "users",
+              "label": "مناسبات العمل",
+              "text": "اطلب مشروبا خاليا من الكحول أولا. واقترح غداء أو قهوة للقاءات الفريق."
+            },
+            {
+              "icon": "compass",
+              "label": "العادات والأماكن القديمة",
+              "text": "جرب مقهى، أو نزهة سيرا على الأقدام، أو وجبة مشتركة، أو المسجد."
+            },
+            {
+              "icon": "heart",
+              "label": "إن كنت تشرب بكثرة",
+              "text": "تحدث مع طبيب ليساعدك على التوقف بأمان. طلب المساعدة خطوة قوية ومسؤولة."
+            }
+          ]
+        }
+      },
+      {
+        "p": "أما إن كان عملك يتضمن بيع الخمر أو تقديمها، فهذه مسألة أكبر، لأن النبي صلى الله عليه وسلم بين أن الله ورسوله حرما بيع الخمر (صحيح البخاري 2236 وصحيح مسلم 1581). فلا تفزع، بل تحدث على انفراد مع عالم أو إمام تثق به."
       },
       {
         "h": "إذا زلت قدمك"
       },
       {
-        "p": "ربما تشرب يوما مع علمك أنه حرام. إن حدث ذلك فلا تدع الشعور بالخزي يبعدك عن الله، فباب التوبة (الرجوع إلى الله) مفتوح. يقول الله تعالى:"
+        "p": "لا تدع الشعور بالخزي يبعدك عن الله، فباب التوبة (الرجوع إلى الله) مفتوح."
       },
       {
         "quote": "۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
         "cite": "سورة الزمر: 53"
-      },
-      {
-        "p": "في هذه الآية ينادي الله عباده الذين أكثروا من الذنوب ألا ييأسوا من رحمته، ويخبرهم أنه يغفر الذنوب جميعا لمن تاب منها ورجع إليه."
       },
       {
         "p": "فالرجوع إلى الله مرة بعد مرة ليس فشلا، بل هو صفة خير الناس."
@@ -201,10 +339,10 @@
           "title": "الرجوع إلى الله بعد الزلة",
           "steps": [
             "توقف واترك الشراب.",
-            "دع قلبك يشعر بندم صادق على ما حدث.",
-            "اطلب من الله المغفرة بكلماتك أنت، وبأي لغة.",
-            "اعزم عزما صادقا على ألا تعود إليه، وابتعد إن استطعت عما قادك إليه.",
-            "حين يصفو ذهنك واظب على صلواتك. فالخطأ الواحد ليس سببا لترك الصلاة أبدا."
+            "اشعر بندم صادق.",
+            "اطلب من الله المغفرة بأي لغة.",
+            "اعزم عزما صادقا على ألا تعود، وابتعد عما قادك إليه.",
+            "واظب على صلواتك. فالخطأ الواحد ليس سببا لترك الصلاة أبدا."
           ]
         }
       },
@@ -215,7 +353,8 @@
         "phrase": {
           "arabic": "أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
           "transliteration": "Astaghfirullahal-ladhi la ilaha illa huwal-hayyul-qayyumu wa atubu ilayh",
-          "meaning": "أطلب من الله أن يغفر لي، وهو الذي لا معبود بحق سواه، الحي الذي لا يموت، القائم بتدبير كل شيء، وأرجع إليه تائبا."
+          "meaning": "أطلب من الله أن يغفر لي، وهو الذي لا معبود بحق سواه، الحي الذي لا يموت، القائم بتدبير كل شيء، وأرجع إليه تائبا.",
+          "audio": "/audio/phrases/res-alcohol-prohibition-1.mp3"
         }
       },
       {
@@ -232,77 +371,144 @@
       },
       {
         "key": "كل مسكر حرام ولو كان قليلا. وإن زلت قدمك فباب التوبة مفتوح: ارجع إلى الله بصدق."
-      },
-      {
-        "p": "في الدرس التالي ستتعرف على تحريم آخر واضح يظهر على مائدة الطعام: لحم الخنزير، وأساسيات الطعام الحلال."
       }
     ],
     "es": [
       {
-        "p": "Quizás beber era algo normal en tu vida antes del Islam: en cenas, fiestas, celebraciones o después del trabajo. Ahora seguramente has escuchado que los musulmanes no beben alcohol. Esta lección explica qué abarca esta prohibición, de dónde viene y cómo manejar situaciones reales con calma."
+        "p": "Aquí está lo que abarca la prohibición del alcohol y cómo manejar situaciones reales."
       },
       {
-        "p": "Primero, dos palabras que verás a lo largo de este paso. **Halal** significa permitido. **Haram** significa prohibido por Allah (la palabra árabe para Dios, el Único Dios; por eso la traducción del Corán que citamos dice «Dios»). Este paso trata algunas cosas importantes que son haram, empezando por el alcohol."
+        "facts": {
+          "title": "Dos palabras que conviene saber",
+          "items": [
+            {
+              "icon": "check",
+              "label": "Halal",
+              "text": "Permitido"
+            },
+            {
+              "icon": "ban",
+              "label": "Haram",
+              "text": "Prohibido por Allah (la palabra árabe para Dios, el Único Dios)"
+            }
+          ]
+        }
       },
       {
         "h": "Lo que dice el Corán"
-      },
-      {
-        "p": "En la sura Al-Ma'idah, el quinto capítulo del Corán, Allah dice:"
       },
       {
         "quote": "¡Oh, creyentes! Los embriagantes, las apuestas, los altares [sobre los cuales eran degollados los animales como ofrenda para los ídolos] y consultar la suerte [por ejemplo] con flechas, son una obra inmunda del demonio. Aléjense de todo ello, que así tendrán éxito [en esta vida y en la próxima].",
         "cite": "Corán 5:90 (traducción del significado)"
       },
       {
-        "p": "La palabra que aquí se traduce como «embriagantes» es *jamr*: todo lo que nubla y cubre la mente. La aleya siguiente menciona parte de su daño:"
+        "p": "La palabra que aquí se traduce como «embriagantes» es *jamr*: todo lo que nubla y cubre la mente."
       },
       {
-        "quote": "El demonio pretende [con esas cosas] sembrar entre la gente la discordia y el odio, y apartarlos del recuerdo de Dios y la oración valiéndose de los embriagantes y las apuestas. ¿No van a dejarlo ya?",
-        "cite": "Corán 5:91 (traducción del significado)"
-      },
-      {
-        "p": "Observa lo que señalan estas aleyas: enojo y odio entre las personas, y alejarse del recuerdo de Allah y de la oración. Con una mente clara rezas, aprendes, cumples tus promesas y cuidas a quienes amas."
+        "more": {
+          "title": "La aleya siguiente",
+          "blocks": [
+            {
+              "quote": "El demonio pretende [con esas cosas] sembrar entre la gente la discordia y el odio, y apartarlos del recuerdo de Dios y la oración valiéndose de los embriagantes y las apuestas. ¿No van a dejarlo ya?",
+              "cite": "Corán 5:91 (traducción del significado)"
+            },
+            {
+              "p": "Estas aleyas señalan el enojo y el odio entre las personas, y el alejarse del recuerdo de Allah y de la oración. Con una mente clara rezas, aprendes, cumples tus promesas y cuidas a quienes amas."
+            }
+          ]
+        }
       },
       {
         "h": "Todo embriagante, aunque sea poco"
       },
       {
-        "p": "A veces la gente pregunta si esto se refiere solo al vino o solo a emborracharse. El Profeta Muhammad, la paz sea con él, lo dejó claro:"
+        "p": "El Profeta Muhammad, la paz sea con él, dijo: «Lo que embriaga en gran cantidad está prohibido incluso en pequeña cantidad» (Sunan Abi Dawud 3681, calificado como hasan, es decir, bueno y confiable)."
       },
       {
-        "quote": "Todo embriagante es \"jamr\" (vino o bebida alcohólica) y todo embriagante está prohibido.",
-        "cite": "Sahih Muslim 2003"
+        "compare": {
+          "first": {
+            "title": "No es la regla",
+            "items": [
+              "«No te emborraches»."
+            ]
+          },
+          "second": {
+            "title": "La regla",
+            "items": [
+              "«No lo bebas en absoluto», ni siquiera una copa. Esto incluye la cerveza, el vino, los licores y cualquier otra cosa que embriague."
+            ]
+          }
+        }
       },
       {
-        "p": "También dijo: «Lo que embriaga en gran cantidad está prohibido incluso en pequeña cantidad» (Sunan Abi Dawud 3681, calificado como hasan, es decir, bueno y confiable). Así que la regla no es «no te emborraches», sino «no lo bebas en absoluto», ni siquiera una copa. Esto incluye la cerveza, el vino, los licores y cualquier otra cosa que embriague."
+        "p": "Las pequeñas trazas de alcohol en algunos alimentos, medicinas o productos son detalles que los sabios estudian. Si te surge una, pregúntale al imam de tu mezquita local."
       },
       {
-        "p": "Las preguntas sobre pequeñas trazas de alcohol en algunos alimentos, medicinas o productos son detalles que los sabios estudian. Si te surge una, pregúntale al imam de tu mezquita local."
+        "more": {
+          "title": "Otro dicho del Profeta",
+          "blocks": [
+            {
+              "quote": "Todo embriagante es \"jamr\" (vino o bebida alcohólica) y todo embriagante está prohibido.",
+              "cite": "Sahih Muslim 2003"
+            }
+          ]
+        }
       },
       {
         "h": "La vida real: familia, amigos y trabajo"
       },
       {
-        "p": "Dejar el alcohol es fácil de entender, pero al principio puede sentirse incómodo. Aquí tienes algunas formas amables de manejar momentos comunes:"
+        "scenario": {
+          "situation": "Un compañero te ofrece una bebida en un evento de trabajo.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "¿Quieres algo de beber?"
+            },
+            {
+              "from": "you",
+              "text": "No, gracias, no bebo. Es parte de mi fe."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "**Cuando alguien te ofrece una bebida:** un amable «No, gracias, no bebo» es suficiente. Si te preguntan por qué, puedes decir que es parte de tu fe. No le debes un debate a nadie.",
-          "**Reuniones familiares:** mantener buenos lazos con tu familia es importante en el Islam. Pide jugo, agua o un refresco desde el principio. Si se bebe mucho, está bien salir un momento o irte temprano. Si no sabes cómo manejar una situación familiar frecuente, un imam de confianza puede ayudarte.",
-          "**Eventos de trabajo:** pide primero una bebida sin alcohol, así casi nadie te preguntará. También puedes proponer un almuerzo o un café para las salidas del equipo.",
-          "**Viejos hábitos y lugares:** si tu vida social giraba en torno a los bares, prueba otros lugares para ver a tus amigos: una cafetería, una caminata, una comida compartida o la mezquita.",
-          "**Si bebías mucho o todos los días:** habla con un médico para dejarlo de forma segura. Pedir ayuda es un paso fuerte y responsable."
-        ]
+        "p": "No le debes un debate a nadie. Otras formas amables de manejar momentos comunes:"
       },
       {
-        "p": "Si tu propio trabajo consiste en vender o servir alcohol, es una cuestión más grande, porque el Profeta enseñó que Allah y Su Mensajero prohibieron vender alcohol (Sahih al-Bujari 2236 y Sahih Muslim 1581). También afecta tus ingresos, así que no entres en pánico. Habla en privado con un sabio o un imam de confianza, que puede ayudarte a planear tus próximos pasos."
+        "facts": {
+          "items": [
+            {
+              "icon": "home",
+              "label": "Reuniones familiares",
+              "text": "Pide jugo, agua o un refresco desde el principio. Si se bebe mucho, está bien salir un momento o irte temprano. Mantener buenos lazos con tu familia es importante en el Islam."
+            },
+            {
+              "icon": "users",
+              "label": "Eventos de trabajo",
+              "text": "Pide primero una bebida sin alcohol. Propón un almuerzo o un café para las salidas del equipo."
+            },
+            {
+              "icon": "compass",
+              "label": "Viejos hábitos y lugares",
+              "text": "Prueba una cafetería, una caminata, una comida compartida o la mezquita."
+            },
+            {
+              "icon": "heart",
+              "label": "Si bebías mucho",
+              "text": "Habla con un médico para dejarlo de forma segura. Pedir ayuda es un paso fuerte y responsable."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Si tu propio trabajo consiste en vender o servir alcohol, es una cuestión más grande, porque el Profeta enseñó que Allah y Su Mensajero prohibieron vender alcohol (Sahih al-Bujari 2236 y Sahih Muslim 1581). No entres en pánico. Habla en privado con un sabio o un imam de confianza."
       },
       {
         "h": "Si tropiezas"
       },
       {
-        "p": "Quizás algún día bebas aunque sepas que es haram. Si eso pasa, no dejes que la vergüenza te aleje de Allah. La puerta de la *tawbah* (el arrepentimiento, volver a Allah) está abierta. Allah dice:"
+        "p": "No dejes que la vergüenza te aleje de Allah. La puerta de la *tawbah* (el arrepentimiento, volver a Allah) está abierta."
       },
       {
         "quote": "Di: \"¡Oh, siervos míos que están sumidos en el pecado [perjudicándose a sí mismos]! No desesperen de la misericordia de Dios. Dios tiene poder para perdonar todos los pecados. Él es el Perdonador, el Misericordioso\".",
@@ -316,21 +522,22 @@
           "title": "Volver a Allah después de tropezar",
           "steps": [
             "Detente y deja la bebida.",
-            "Permítete sentir un arrepentimiento sincero por lo que pasó.",
-            "Pide perdón a Allah con tus propias palabras, en cualquier idioma.",
-            "Toma la firme intención de no volver a hacerlo y, si puedes, aléjate de lo que te llevó a ello.",
-            "Cuando tu mente esté clara, sigue con tus oraciones. Un error nunca es motivo para dejar de rezar."
+            "Siente un arrepentimiento sincero.",
+            "Pide perdón a Allah en cualquier idioma.",
+            "Toma la firme intención de no volver, y aléjate de lo que te llevó a ello.",
+            "Sigue con tus oraciones. Un error nunca es motivo para dejar de rezar."
           ]
         }
       },
       {
-        "p": "El Profeta enseñó esta frase para pedir perdón (Sunan Abi Dawud 1517, calificado como sahih por al-Albani). Puedes empezar solo con sus primeras palabras, *Astaghfirullah*: «Pido perdón a Allah»."
+        "p": "El Profeta enseñó esta frase para pedir perdón (Sunan Abi Dawud 1517, calificado como sahih por al-Albani). Puedes empezar solo con *Astaghfirullah*: «Pido perdón a Allah»."
       },
       {
         "phrase": {
           "arabic": "أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
           "transliteration": "Astaghfirullahal-ladhi la ilaha illa huwal-hayyul-qayyumu wa atubu ilayh",
-          "meaning": "Pido perdón a Allah, fuera de Quien no hay otra divinidad, el Viviente, el Sustentador de todo lo que existe, y a Él me vuelvo arrepentido."
+          "meaning": "Pido perdón a Allah, fuera de Quien no hay otra divinidad, el Viviente, el Sustentador de todo lo que existe, y a Él me vuelvo arrepentido.",
+          "audio": "/audio/phrases/res-alcohol-prohibition-1.mp3"
         }
       },
       {
@@ -347,9 +554,6 @@
       },
       {
         "key": "Todo embriagante está prohibido, aunque sea poco. Y si tropiezas, la puerta del arrepentimiento está abierta: vuelve a Allah con sinceridad."
-      },
-      {
-        "p": "A continuación verás otra prohibición clara, una que aparece en la mesa: el cerdo y lo básico de la comida halal."
       }
     ]
   },

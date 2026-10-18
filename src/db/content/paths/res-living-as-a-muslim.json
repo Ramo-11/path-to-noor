@@ -20,6 +20,122 @@
       "en": "Share your faith through good character",
       "ar": "تدعو إلى دينك بحسن الخلق",
       "es": "Compartir tu fe a través del buen carácter"
+    },
+    {
+      "en": "Get ready for Ramadan, zakat, and Hajj",
+      "ar": "تستعدّ لرمضان والزكاة والحج",
+      "es": "Prepararte para el Ramadán, el zakat y el Hajj"
+    },
+    {
+      "en": "Meet hard questions about God and faith with confidence",
+      "ar": "تواجه الأسئلة الصعبة عن الله والإيمان بثقة",
+      "es": "Afrontar con confianza las preguntas difíciles sobre Dios y la fe"
+    }
+  ],
+  "steps": [
+    {
+      "slug": "res-islamic-phrases"
+    },
+    {
+      "slug": "res-dua-remembrance",
+      "topics": [
+        "res-supplication"
+      ],
+      "title": {
+        "en": "Dua and remembrance",
+        "ar": "الدعاء والذكر",
+        "es": "La dua y el recuerdo de Allah"
+      },
+      "description": {
+        "en": "Learn a comprehensive dua to carry with you, and the remembrances Muslims say every morning and evening.",
+        "ar": "تعلّم دعاءً جامعًا يرافقك، والأذكار التي يقولها المسلم كل صباح ومساء.",
+        "es": "Aprende una dua completa que te acompañe y los recuerdos que los musulmanes dicen cada mañana y cada tarde."
+      },
+      "lessons": [
+        "watch-comprehensive-dua",
+        "watch-morning-evening-adhkar"
+      ]
+    },
+    {
+      "slug": "res-fasting-zakat-hajj",
+      "topics": [
+        "pillars-of-faith"
+      ],
+      "title": {
+        "en": "Fasting, zakat, and Hajj",
+        "ar": "الصيام والزكاة والحج",
+        "es": "El ayuno, el zakat y el Hajj"
+      },
+      "description": {
+        "en": "Get ready for Ramadan, learn how zakat is worked out, and see how Hajj and Umrah are performed.",
+        "ar": "استعدّ لرمضان، وتعرّف كيف تُحسب الزكاة، وشاهد كيف يُؤدّى الحج والعمرة.",
+        "es": "Prepárate para el Ramadán, aprende cómo se calcula el zakat y mira cómo se realizan el Hajj y la Umrah."
+      },
+      "lessons": [
+        "watch-fasting-rules",
+        "watch-fasting-tips",
+        "watch-last-ten-nights",
+        "watch-connect-in-ramadan",
+        "watch-calculate-zakat",
+        "watch-hajj-guide",
+        "watch-umrah-guide"
+      ]
+    },
+    {
+      "slug": "res-halal-haram-basics"
+    },
+    {
+      "slug": "res-family-community",
+      "topics": [
+        "res-common-questions"
+      ],
+      "title": {
+        "en": "Family, community, and character",
+        "ar": "الأسرة والمجتمع والأخلاق",
+        "es": "La familia, la comunidad y el carácter"
+      },
+      "description": {
+        "en": "Find your place in the community, keep good ties with your family, and grow in the character Islam asks of you.",
+        "ar": "اعثر على مكانك في المجتمع، وحافظ على صلتك بأسرتك، وتحلَّ بالأخلاق التي يدعو إليها الإسلام.",
+        "es": "Encuentra tu lugar en la comunidad, cuida la relación con tu familia y crece en el carácter que pide el Islam."
+      },
+      "lessons": [
+        "watch-struggles-of-reverts",
+        "watch-non-muslim-parents",
+        "watch-marriage",
+        "watch-modesty-hijab",
+        "watch-character-conduct"
+      ]
+    },
+    {
+      "slug": "res-certainty-in-faith",
+      "topics": [
+        "pillars-of-faith"
+      ],
+      "title": {
+        "en": "Certainty in your faith",
+        "ar": "اليقين في إيمانك",
+        "es": "Certeza en tu fe"
+      },
+      "description": {
+        "en": "Hear the evidence for the existence of God and for the prophethood of Muhammad, peace be upon him, and learn how to handle doubts when they come.",
+        "ar": "استمع إلى الأدلة على وجود الله، وعلى صدق نبوة محمد صلى الله عليه وسلم، وتعلّم كيف تتعامل مع الشكوك حين تأتيك.",
+        "es": "Conoce las pruebas de la existencia de Dios y de la profecía de Muhammad, la paz sea con él, y aprende a afrontar las dudas cuando lleguen."
+      },
+      "lessons": [
+        "watch-existence-of-god",
+        "watch-proofs-of-prophethood",
+        "watch-overcoming-doubts"
+      ]
+    },
+    {
+      "slug": "res-common-questions"
+    },
+    {
+      "slug": "res-dawah-intro"
+    },
+    {
+      "slug": "res-dawah-videos"
     }
   ]
 }

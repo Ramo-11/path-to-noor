@@ -17,5 +17,14 @@
   "tryAgain": "Intentar de nuevo",
   "remember": "Recuerda",
   "sourcesCount": "Fuentes ({count})",
-  "watchOn": "Ver el video en {site}"
+  "watchOn": "Ver el video en {site}",
+  "quickLabel": "Repaso rápido",
+  "listen": "Escuchar",
+  "stop": "Detener",
+  "audioLoading": "Cargando el audio",
+  "audioError": "El audio no cargó. Toca para intentarlo de nuevo.",
+  "breakdownLabel": "Palabra por palabra",
+  "scenarioYou": "Tú dices",
+  "scenarioThem": "Te dicen",
+  "speedLabel": "Velocidad de reproducción {rate}. Toca para cambiarla."
 }

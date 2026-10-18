@@ -1,11 +1,20 @@
 import type { MetadataRoute } from "next";
 import { getSiteUrl } from "@/config/env";
+import { connectDB } from "@/db/connection";
+import { Lesson } from "@/db/models/Lesson";
 import { getPublicTopics, getPublicLearningPaths } from "@/lib/data";
 
 const STATIC_ROUTES = ["", "/start", "/paths", "/library", "/mentor", "/contact", "/privacy", "/terms"];
 const LOCALES = ["en", "ar", "es"] as const;
 
 export const revalidate = 3600;
+
+async function getIndexableLessons() {
+  await connectDB();
+  return Lesson.find({ published: true, guestAccessible: true, audience: { $ne: "mentor" } })
+    .select("slug updatedAt")
+    .lean();
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl = getSiteUrl();
@@ -21,9 +30,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   );
 
   try {
-    const [topics, paths] = await Promise.all([
+    const [topics, paths, lessons] = await Promise.all([
       getPublicTopics(),
       getPublicLearningPaths(),
+      getIndexableLessons(),
     ]);
 
     const dynamicEntries = LOCALES.flatMap((locale) => [
@@ -45,7 +55,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       })),
     ]);
 
-    return [...staticEntries, ...dynamicEntries];
+    const lessonEntries = lessons.flatMap((lesson) =>
+      LOCALES.map((locale) => ({
+        url: `${siteUrl}/${locale}/learn/${lesson.slug}`,
+        lastModified: lesson.updatedAt || now,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+        alternates: {
+          languages: Object.fromEntries(
+            LOCALES.map((alt) => [alt, `${siteUrl}/${alt}/learn/${lesson.slug}`])
+          ),
+        },
+      }))
+    );
+
+    return [...staticEntries, ...dynamicEntries, ...lessonEntries];
   } catch (err) {
     console.error("[sitemap] failed to load dynamic entries:", err);
     return staticEntries;

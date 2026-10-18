@@ -377,6 +377,16 @@
     margin-top: 0.35em;
   }
 
+  .lesson-prose .lesson-block ul,
+  .lesson-prose .lesson-block ol {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  .lesson-prose .lesson-block li + li {
+    margin-top: 0;
+  }
+
   .lesson-prose li::marker {
     color: var(--primary);
   }
@@ -396,11 +406,24 @@
   }
 
   .lesson-prose blockquote {
-    background: var(--canvas);
-    border: 1px solid var(--rule);
+    background: var(--primary-tint);
     border-radius: var(--radius-cell);
-    padding: 1.1em 1.35em;
-    color: var(--ink-2);
+    padding: 1.25em 1.4em;
+    color: var(--ink);
+  }
+
+  .lesson-prose blockquote > * + * {
+    margin-top: 0.75em;
+  }
+
+  .lesson-prose blockquote > p:not(:first-child):last-child:has(> em:only-child) {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--ink-3);
+  }
+
+  .lesson-prose blockquote > p:not(:first-child):last-child > em:only-child {
+    font-style: normal;
   }
 
   .lesson-prose code {

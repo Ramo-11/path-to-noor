@@ -8,7 +8,7 @@ import { mentorRequestCreateSchema } from "@/lib/validations";
 export async function GET() {
   const session = await auth();
   if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
   try {
@@ -26,7 +26,7 @@ export async function GET() {
   } catch (error) {
     console.error("[API] GET /user/mentor-request error:", error);
     return NextResponse.json(
-      { error: "Failed to fetch mentor request" },
+      { error: "server_error" },
       { status: 500 }
     );
   }
@@ -35,22 +35,28 @@ export async function GET() {
 export async function POST(request: NextRequest) {
   const session = await auth();
   if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  }
+
+  const parsed = mentorRequestCreateSchema.safeParse(await request.json().catch(() => null));
+  if (!parsed.success) {
+    return NextResponse.json({ error: "invalid_input" }, { status: 400 });
   }
 
   try {
     await connectDB();
 
-    const user = await User.findById(session.user.id).select("userType").lean();
+    const user = await User.findById(session.user.id).select("userType emailVerified").lean();
     if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
+      return NextResponse.json({ error: "not_found" }, { status: 404 });
     }
 
     if (user.userType !== "revert") {
-      return NextResponse.json(
-        { error: "Only revert users can request a mentor" },
-        { status: 403 }
-      );
+      return NextResponse.json({ error: "revert_only" }, { status: 403 });
+    }
+
+    if (!user.emailVerified) {
+      return NextResponse.json({ error: "email_unverified" }, { status: 403 });
     }
 
     const existingRequest = await MentorRequest.findOne({
@@ -59,19 +65,7 @@ export async function POST(request: NextRequest) {
     });
 
     if (existingRequest) {
-      return NextResponse.json(
-        { error: "You already have a pending or assigned mentor request" },
-        { status: 409 }
-      );
-    }
-
-    const body = await request.json();
-    const parsed = mentorRequestCreateSchema.safeParse(body);
-    if (!parsed.success) {
-      return NextResponse.json(
-        { error: "Please check your message and try again" },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: "already_requested" }, { status: 409 });
     }
 
     const mentorRequest = await MentorRequest.create({
@@ -79,23 +73,17 @@ export async function POST(request: NextRequest) {
       message: parsed.data.message,
     });
 
-    return NextResponse.json(
-      { data: mentorRequest, message: "Mentor request submitted" },
-      { status: 201 }
-    );
+    return NextResponse.json({ data: mentorRequest }, { status: 201 });
   } catch (error) {
     console.error("[API] POST /user/mentor-request error:", error);
-    return NextResponse.json(
-      { error: "Failed to submit mentor request" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "server_error" }, { status: 500 });
   }
 }
 
 export async function DELETE() {
   const session = await auth();
   if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
   try {
@@ -108,7 +96,7 @@ export async function DELETE() {
 
     if (!mentorRequest) {
       return NextResponse.json(
-        { error: "No pending request to cancel" },
+        { error: "not_found" },
         { status: 404 }
       );
     }
@@ -119,7 +107,7 @@ export async function DELETE() {
   } catch (error) {
     console.error("[API] DELETE /user/mentor-request error:", error);
     return NextResponse.json(
-      { error: "Failed to cancel mentor request" },
+      { error: "server_error" },
       { status: 500 }
     );
   }

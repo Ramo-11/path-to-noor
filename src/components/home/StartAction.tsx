@@ -70,7 +70,7 @@ export function StartAction({ candidates, reflectStored }: StartActionProps) {
                 </Button>
                 <Link
                   href="/start"
-                  className="text-meta text-ink-2 underline decoration-rule-strong transition-colors duration-150 hover:decoration-ink"
+                  className="inline-flex min-h-11 items-center text-[0.875rem] text-ink-2 underline decoration-rule-strong transition-colors duration-150 hover:decoration-ink"
                 >
                   {t("yourStartingPoint", {
                     number: STAGE_NUMBER[stage],

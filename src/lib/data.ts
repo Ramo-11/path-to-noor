@@ -8,6 +8,8 @@ import { LearningPath } from "@/db/models/LearningPath";
 import { Quiz } from "@/db/models/Quiz";
 import { User } from "@/db/models/User";
 import { Story } from "@/db/models/Story";
+import { isStageKey, localized, type StageKey } from "@/lib/stages";
+import { lessonAccess } from "@/components/lesson/lesson-access";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -978,4 +980,181 @@ export async function getAdminUserDetail(userId: string) {
     pathProgress: activePaths,
     allPathProgress: pathProgress,
   };
+}
+
+export interface LessonSearchResult {
+  slug: string;
+  title: string;
+  minutes: number;
+  pathTitle: string | null;
+  stepTitle: string | null;
+  stage: StageKey | null;
+  access: "open" | "signIn";
+}
+
+interface SearchEntry extends LessonSearchResult {
+  titleKey: string;
+  textKey: string;
+  audience: string;
+  guestAccessible: boolean;
+  pathOrder: number;
+  lessonOrder: number;
+}
+
+const SEARCH_LOCALES = ["en", "ar", "es"] as const;
+const SEARCH_TTL_MS = 5 * 60 * 1000;
+const searchIndexes = new Map<string, { builtAt: number; entries: SearchEntry[] }>();
+const searchBuilds = new Map<string, Promise<SearchEntry[]>>();
+
+function normalizeForSearch(value: string): string {
+  return value
+    .normalize("NFKD")
+    .replace(/[\p{M}ـ]/gu, "")
+    .replace(/[أإآ]/g, "ا")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function collectNodeText(value: unknown, out: string[], depth = 0) {
+  if (depth > 40 || !value || typeof value !== "object") return;
+  const node = value as { type?: unknown; text?: unknown; attrs?: unknown; content?: unknown };
+  if (typeof node.text === "string") out.push(node.text);
+  if (node.attrs && typeof node.attrs === "object") {
+    for (const [key, attr] of Object.entries(node.attrs as Record<string, unknown>)) {
+      if (key === "src" || key === "href" || key === "audio") continue;
+      if (typeof attr === "string") out.push(attr);
+      else if (Array.isArray(attr)) {
+        for (const item of attr) if (typeof item === "string") out.push(item);
+      }
+    }
+  }
+  if (Array.isArray(node.content)) {
+    for (const child of node.content) collectNodeText(child, out, depth + 1);
+  }
+}
+
+function lessonPlainText(content: unknown): string {
+  const parts: string[] = [];
+  collectNodeText(content, parts);
+  return parts.join(" ");
+}
+
+async function buildSearchIndex(locale: string): Promise<SearchEntry[]> {
+  await connectDB();
+  const [lessons, modules, paths] = await Promise.all([
+    Lesson.find({ published: true })
+      .select("title slug estimatedMinutes audience guestAccessible moduleId content")
+      .lean(),
+    Module.find({ published: true }).select("title lessons").lean(),
+    LearningPath.find({ published: true })
+      .select("title stage order modules")
+      .sort({ order: 1, createdAt: 1 })
+      .lean(),
+  ]);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const moduleById = new Map<string, any>();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  for (const mod of modules as any[]) moduleById.set(mod._id.toString(), mod);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const pathByModule = new Map<string, { path: any; index: number }>();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  (paths as any[]).forEach((path, index) => {
+    for (const entry of path.modules || []) {
+      const mid = entry.moduleId?.toString();
+      if (mid && !pathByModule.has(mid)) pathByModule.set(mid, { path, index });
+    }
+  });
+
+  const entries: SearchEntry[] = [];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  for (const lesson of lessons as any[]) {
+    const mid = lesson.moduleId?.toString();
+    const mod = mid ? moduleById.get(mid) : undefined;
+    const placed = mid ? pathByModule.get(mid) : undefined;
+    const title = localized(lesson.title, locale);
+    const localContent = lesson.content?.[locale];
+    const content = lessonPlainText(localContent).length > 0 ? localContent : lesson.content?.en;
+    const lessonOrder =
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (mod?.lessons || []).find((l: any) => l.lessonId?.toString() === lesson._id.toString())?.order ?? 0;
+
+    entries.push({
+      slug: lesson.slug,
+      title,
+      minutes: lesson.estimatedMinutes || 0,
+      pathTitle: placed ? localized(placed.path.title, locale) : null,
+      stepTitle: mod ? localized(mod.title, locale) : null,
+      stage: isStageKey(placed?.path.stage) ? placed!.path.stage : null,
+      access: "open",
+      titleKey: normalizeForSearch(`${title} ${lesson.title?.en ?? ""}`),
+      textKey: normalizeForSearch(lessonPlainText(content)),
+      audience: lesson.audience || "all",
+      guestAccessible: lesson.guestAccessible !== false,
+      pathOrder: placed ? placed.index : 9999,
+      lessonOrder,
+    });
+  }
+  return entries;
+}
+
+async function getSearchIndex(locale: string): Promise<SearchEntry[]> {
+  const cached = searchIndexes.get(locale);
+  if (cached && Date.now() - cached.builtAt < SEARCH_TTL_MS) return cached.entries;
+
+  let pending = searchBuilds.get(locale);
+  if (!pending) {
+    pending = buildSearchIndex(locale)
+      .then((entries) => {
+        searchIndexes.set(locale, { builtAt: Date.now(), entries });
+        return entries;
+      })
+      .finally(() => searchBuilds.delete(locale));
+    searchBuilds.set(locale, pending);
+  }
+  return pending;
+}
+
+export async function searchPublicLessons(
+  query: string,
+  locale: string,
+  user: { id?: string; userType?: string } | null | undefined,
+  limit = 20
+): Promise<LessonSearchResult[]> {
+  const safeLocale = (SEARCH_LOCALES as readonly string[]).includes(locale) ? locale : "en";
+  const tokens = normalizeForSearch(query).split(" ").filter(Boolean);
+  if (tokens.length === 0) return [];
+
+  const entries = await getSearchIndex(safeLocale);
+  const scored: Array<{ entry: SearchEntry; score: number }> = [];
+
+  for (const entry of entries) {
+    const access = lessonAccess(entry, user);
+    if (access === "hidden") continue;
+
+    const inTitle = tokens.every((token) => entry.titleKey.includes(token));
+    const inText = access === "open" && tokens.every((token) => entry.titleKey.includes(token) || entry.textKey.includes(token));
+    if (!inTitle && !inText) continue;
+
+    scored.push({ entry, score: inTitle ? 2 : 1 });
+  }
+
+  scored.sort(
+    (a, b) =>
+      b.score - a.score ||
+      a.entry.pathOrder - b.entry.pathOrder ||
+      a.entry.lessonOrder - b.entry.lessonOrder
+  );
+
+  return scored.slice(0, limit).map(({ entry }) => ({
+    slug: entry.slug,
+    title: entry.title,
+    minutes: entry.minutes,
+    pathTitle: entry.pathTitle,
+    stepTitle: entry.stepTitle,
+    stage: entry.stage,
+    access: lessonAccess(entry, user) === "signIn" ? "signIn" : "open",
+  }));
 }

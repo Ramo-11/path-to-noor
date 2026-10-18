@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-alhamdulillah",
-  "minutes": 7,
+  "minutes": 4,
   "title": {
     "en": "Alhamdulillah: all praise is for Allah",
     "ar": "الحمد لله: معناها ومتى نقولها",
@@ -9,39 +9,71 @@
   "body": {
     "en": [
       {
-        "p": "*Alhamdulillah* may be the phrase you hear most often from Muslims. Ask \"How are you?\" and the answer is often \"Alhamdulillah\". It opens the Quran right after the basmala, and it fits every kind of day. In this lesson you will learn what it means and when to say it."
+        "p": "*Alhamdulillah* may be the phrase you hear most from Muslims. It fits every kind of day."
       },
       {
         "phrase": {
           "arabic": "الْحَمْدُ لِلَّهِ",
           "transliteration": "Alhamdulillah",
-          "meaning": "All praise is for Allah"
+          "meaning": "All praise is for Allah",
+          "audio": "/audio/phrases/res-meaning-alhamdulillah-1.mp3"
         }
       },
       {
         "h": "What it means"
       },
       {
-        "p": "*Al-hamd* means praise. *Lillah* means for Allah. So *Alhamdulillah* means all praise belongs to Allah. Scholars explain that this praise is \"ascribing complete perfection to Allah, along with loving and extolling Him.\" It includes thanking Allah for His blessings, and it also praises Him for who He is."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "الْحَمْدُ",
+              "transliteration": "Al-hamd",
+              "meaning": "praise"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "transliteration": "Lillah",
+              "meaning": "for Allah"
+            }
+          ],
+          "result": "All praise belongs to Allah"
+        }
       },
       {
         "p": "You thank a person for one favor. With *Alhamdulillah* you praise Allah for who He is and for all His blessings, the ones you notice and the ones you never see."
       },
       {
+        "more": {
+          "title": "What scholars say",
+          "blocks": [
+            {
+              "p": "Scholars explain that this praise is \"ascribing complete perfection to Allah, along with loving and extolling Him.\" It includes thanking Allah for His blessings, and it also praises Him for who He is."
+            }
+          ]
+        }
+      },
+      {
         "h": "The first words of Al-Fatiha"
       },
       {
-        "p": "Surah Al-Fatiha, which you recite in every unit of prayer, begins with the basmala, \"In the name of Allah, the Entirely Merciful, the Especially Merciful.\" Then it continues:"
+        "p": "Surah Al-Fatiha, which you recite in every unit of prayer, begins with the basmala. Then it continues:"
       },
       {
         "quote": "[All] praise is [due] to Allah, Lord of the worlds.",
         "cite": "Quran 1:2 (Saheeh International translation)"
       },
       {
-        "p": "*Rabb al-alamin*, Lord of the worlds, means the One who created all beings, takes care of their affairs, and nurtures them with His blessings. So every time you pray, you begin by praising Him."
+        "p": "*Rabb al-alamin*, Lord of the worlds, means the One who created all beings, takes care of their affairs, and nurtures them with His blessings."
       },
       {
-        "p": "The Prophet Muhammad, peace be upon him, said that *Alhamdulillah* fills the scale of good deeds (Sahih Muslim 223)."
+        "more": {
+          "title": "More from the Prophet",
+          "blocks": [
+            {
+              "p": "The Prophet Muhammad, peace be upon him, said that *Alhamdulillah* fills the scale of good deeds (Sahih Muslim 223)."
+            }
+          ]
+        }
       },
       {
         "h": "In good times and in hard times"
@@ -54,17 +86,29 @@
         "cite": "Sahih Muslim 2999"
       },
       {
-        "p": "Saying *Alhamdulillah* on a hard day does not mean pretending you are fine. You can be sad and still praise Allah. It means trusting that He is still wise and still good to you, even when you cannot yet see how."
+        "compare": {
+          "first": {
+            "title": "A good day",
+            "items": [
+              "Be grateful. Say Alhamdulillah."
+            ]
+          },
+          "second": {
+            "title": "A hard day",
+            "items": [
+              "Be patient. You can be sad and still praise Allah."
+            ]
+          }
+        }
+      },
+      {
+        "p": "It means trusting that He is still wise and still good to you, even when you cannot yet see how."
       },
       {
         "h": "When you sneeze"
       },
       {
-        "p": "Islam even turns a sneeze into a small moment of worship and kindness. The Prophet said:"
-      },
-      {
-        "quote": "When one of you sneezes, he should say 'alhamdu-lillāh' (praise be to Allah) and his brother or companion should say to him: 'yarhamuk Allah' (may Allah have mercy on you). When he says so to him, the sneezer should reply: 'yahdīkum Allah wa yuslih bālakum!' (may Allah guide you and grant you well being).",
-        "cite": "Sahih al-Bukhari 6224"
+        "p": "Islam turns a sneeze into a small exchange of prayers, in three short sentences."
       },
       {
         "steps": {
@@ -77,7 +121,18 @@
         }
       },
       {
-        "p": "It is a small exchange of prayers for each other, three short sentences long. Try it the next time someone sneezes near you."
+        "more": {
+          "title": "The hadith",
+          "blocks": [
+            {
+              "p": "The Prophet said:"
+            },
+            {
+              "quote": "When one of you sneezes, he should say 'alhamdu-lillāh' (praise be to Allah) and his brother or companion should say to him: 'yarhamuk Allah' (may Allah have mercy on you). When he says so to him, the sneezer should reply: 'yahdīkum Allah wa yuslih bālakum!' (may Allah guide you and grant you well being).",
+              "cite": "Sahih al-Bukhari 6224"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -100,39 +155,71 @@
     ],
     "ar": [
       {
-        "p": "لعل «الحمد لله» أكثر عبارة تسمعها من المسلمين. تسأل أحدهم: «كيف حالك؟» فيجيب: «الحمد لله». وبها يبدأ القرآن بعد البسملة، وهي تناسب كل يوم وكل حال. في هذا الدرس تتعرف على معناها ومتى تقولها."
+        "p": "لعل «الحمد لله» أكثر عبارة تسمعها من المسلمين، وهي تناسب كل يوم وكل حال."
       },
       {
         "phrase": {
           "arabic": "الْحَمْدُ لِلَّهِ",
           "transliteration": "Alhamdulillah",
-          "meaning": "الثناء كله لله وحده"
+          "meaning": "الثناء كله لله وحده",
+          "audio": "/audio/phrases/res-meaning-alhamdulillah-1.mp3"
         }
       },
       {
         "h": "معناها"
       },
       {
-        "p": "«الحمد» هو الثناء، و«لله» أي: لله وحده. فمعنى العبارة: كل الثناء لله. وقد بيّن العلماء أن الحمد وصف الله بالكمال التام مع محبته وتعظيمه، ففيه شكر الله على نعمه، والثناء عليه بصفاته."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "الْحَمْدُ",
+              "transliteration": "Al-hamd",
+              "meaning": "الثناء"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "transliteration": "Lillah",
+              "meaning": "لله وحده"
+            }
+          ],
+          "result": "كل الثناء لله"
+        }
       },
       {
         "p": "فأنت تشكر الإنسان على معروف صنعه لك، أما «الحمد لله» فثناء على الله بصفاته الكاملة، وبنعمه كلها، ما تراه منها وما لا تراه."
       },
       {
+        "more": {
+          "title": "ماذا قال العلماء",
+          "blocks": [
+            {
+              "p": "بيّن العلماء أن الحمد وصف الله بالكمال التام مع محبته وتعظيمه، ففيه شكر الله على نعمه، والثناء عليه بصفاته."
+            }
+          ]
+        }
+      },
+      {
         "h": "أول الفاتحة"
       },
       {
-        "p": "سورة الفاتحة التي تقرؤها في كل ركعة تبدأ بالبسملة: «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»، ثم تقول:"
+        "p": "سورة الفاتحة التي تقرؤها في كل ركعة تبدأ بالبسملة، ثم تقول:"
       },
       {
         "quote": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
         "cite": "سورة الفاتحة، الآية 2"
       },
       {
-        "p": "أي: الثناء على الله بصفاته التي كلها صفات كمال، وبنعمه الظاهرة والباطنة. و«رب العالمين» هو الذي أنشأ الخلق، ويقوم بأمورهم، ويربيهم بنعمه. فأنت في كل صلاة تبدأ بحمده سبحانه."
+        "p": "و«رب العالمين» هو الذي أنشأ الخلق، ويقوم بأمورهم، ويربيهم بنعمه."
       },
       {
-        "p": "وأخبر النبي محمد صلى الله عليه وسلم أن «الْحَمْدُ لِلهِ تَمْلَأُ الْمِيزَانَ» (صحيح مسلم 223)."
+        "more": {
+          "title": "المزيد من كلام النبي",
+          "blocks": [
+            {
+              "p": "وأخبر النبي محمد صلى الله عليه وسلم أن «الْحَمْدُ لِلهِ تَمْلَأُ الْمِيزَانَ» (صحيح مسلم 223)."
+            }
+          ]
+        }
       },
       {
         "h": "في الرخاء والشدة"
@@ -145,17 +232,29 @@
         "cite": "صحيح مسلم 2999"
       },
       {
-        "p": "وليس معنى أن تقول «الحمد لله» في يوم صعب أن تتظاهر بأنك بخير. يمكنك أن تحزن وتحمد الله في الوقت نفسه. معناها أنك تثق بأن الله حكيم، وأنه ما زال يحسن إليك، حتى لو لم تتبين ذلك بعد."
+        "compare": {
+          "first": {
+            "title": "يوم طيب",
+            "items": [
+              "اشكر الله وقل: الحمد لله."
+            ]
+          },
+          "second": {
+            "title": "يوم صعب",
+            "items": [
+              "اصبر. يمكنك أن تحزن وتحمد الله في الوقت نفسه."
+            ]
+          }
+        }
+      },
+      {
+        "p": "معناها أنك تثق بأن الله حكيم، وأنه ما زال يحسن إليك، حتى لو لم تتبين ذلك بعد."
       },
       {
         "h": "عند العطاس"
       },
       {
-        "p": "حتى العطسة يجعلها الإسلام لحظة عبادة ولطف. قال النبي صلى الله عليه وسلم:"
-      },
-      {
-        "quote": "إذا عَطَسَ أَحَدُكُم فَلْيَقُل: الحَمْدُ للهِ، وَلْيَقُلْ لَهُ أَخُوهُ أو صاحبُهُ: يَرْحَمُكَ الله، فإذا قال له: يرحمك الله، فَلْيَقُلْ: يَهْدِيكُم الله ويُصْلِحُ بَالَكُم",
-        "cite": "صحيح البخاري 6224"
+        "p": "يجعل الإسلام العطسة تبادلا صغيرا للدعاء، في ثلاث جمل قصيرة."
       },
       {
         "steps": {
@@ -168,7 +267,18 @@
         }
       },
       {
-        "p": "إنه تبادل صغير للدعاء، في ثلاث جمل قصيرة. جرّبه في المرة القادمة التي يعطس فيها أحد بجوارك."
+        "more": {
+          "title": "الحديث",
+          "blocks": [
+            {
+              "p": "قال النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "إذا عَطَسَ أَحَدُكُم فَلْيَقُل: الحَمْدُ للهِ، وَلْيَقُلْ لَهُ أَخُوهُ أو صاحبُهُ: يَرْحَمُكَ الله، فإذا قال له: يرحمك الله، فَلْيَقُلْ: يَهْدِيكُم الله ويُصْلِحُ بَالَكُم",
+              "cite": "صحيح البخاري 6224"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -191,39 +301,71 @@
     ],
     "es": [
       {
-        "p": "*Alhamdulillah* quizás sea la frase que más escuchas de los musulmanes. Preguntas \"¿Cómo estás?\" y muchas veces la respuesta es \"Alhamdulillah\". Abre el Corán justo después de la basmala y encaja en cualquier tipo de día. En esta lección aprenderás qué significa y cuándo decirla."
+        "p": "*Alhamdulillah* quizás sea la frase que más escuchas de los musulmanes. Encaja en cualquier tipo de día."
       },
       {
         "phrase": {
           "arabic": "الْحَمْدُ لِلَّهِ",
           "transliteration": "Alhamdulillah",
-          "meaning": "Toda alabanza es para Allah"
+          "meaning": "Toda alabanza es para Allah",
+          "audio": "/audio/phrases/res-meaning-alhamdulillah-1.mp3"
         }
       },
       {
         "h": "Qué significa"
       },
       {
-        "p": "*Al-hamd* significa alabanza. *Lillah* significa para Allah. Así, *Alhamdulillah* significa que toda alabanza pertenece a Allah. Los sabios explican que esta alabanza es atribuir a Allah atributos de perfección, con amor y enaltecimiento. Incluye agradecer a Allah por Sus bendiciones y también alabarlo por quién es Él."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "الْحَمْدُ",
+              "transliteration": "Al-hamd",
+              "meaning": "alabanza"
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "transliteration": "Lillah",
+              "meaning": "para Allah"
+            }
+          ],
+          "result": "Toda alabanza pertenece a Allah"
+        }
       },
       {
         "p": "A una persona le agradeces un favor. Con *Alhamdulillah* alabas a Allah por quién es Él y por todas Sus bendiciones, las que notas y las que nunca ves."
       },
       {
+        "more": {
+          "title": "Lo que dicen los sabios",
+          "blocks": [
+            {
+              "p": "Los sabios explican que esta alabanza es atribuir a Allah atributos de perfección, con amor y enaltecimiento. Incluye agradecer a Allah por Sus bendiciones y también alabarlo por quién es Él."
+            }
+          ]
+        }
+      },
+      {
         "h": "Las primeras palabras de Al-Fatiha"
       },
       {
-        "p": "La sura Al-Fatiha, que recitas en cada unidad de la oración, empieza con la basmala, \"En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes.\" Luego continúa:"
+        "p": "La sura Al-Fatiha, que recitas en cada unidad de la oración, empieza con la basmala. Luego continúa:"
       },
       {
         "quote": "Todas las alabanzas son para Dios, Señor de todo cuanto existe,",
         "cite": "Corán 1:2 (traducción de Isa García)"
       },
       {
-        "p": "En esta traducción, Dios es Allah. *Rabb al-alamin*, Señor de los mundos, es Quien creó a todos los seres, se ocupa de sus asuntos y los cuida con Sus bendiciones. Así que cada vez que rezas, empiezas alabándolo."
+        "p": "*Rabb al-alamin*, Señor de los mundos, es Quien creó a todos los seres, se ocupa de sus asuntos y los cuida con Sus bendiciones."
       },
       {
-        "p": "El Profeta Muhammad, la paz sea con él, dijo que *Alhamdulillah* llena la balanza de las buenas obras (Sahih Muslim 223)."
+        "more": {
+          "title": "Más palabras del Profeta",
+          "blocks": [
+            {
+              "p": "El Profeta Muhammad, la paz sea con él, dijo que *Alhamdulillah* llena la balanza de las buenas obras (Sahih Muslim 223)."
+            }
+          ]
+        }
       },
       {
         "h": "En los buenos tiempos y en los difíciles"
@@ -236,17 +378,29 @@
         "cite": "Sahih Muslim 2999"
       },
       {
-        "p": "Decir *Alhamdulillah* en un día difícil no significa fingir que estás bien. Puedes estar triste y aun así alabar a Allah. Significa confiar en que Él sigue siendo sabio y sigue siendo bueno contigo, aunque todavía no veas cómo."
+        "compare": {
+          "first": {
+            "title": "Un día bueno",
+            "items": [
+              "Sé agradecido. Di Alhamdulillah."
+            ]
+          },
+          "second": {
+            "title": "Un día difícil",
+            "items": [
+              "Sé paciente. Puedes estar triste y aun así alabar a Allah."
+            ]
+          }
+        }
+      },
+      {
+        "p": "Significa confiar en que Él sigue siendo sabio y sigue siendo bueno contigo, aunque todavía no veas cómo."
       },
       {
         "h": "Cuando estornudas"
       },
       {
-        "p": "El islam convierte incluso un estornudo en un pequeño momento de adoración y amabilidad. El Profeta dijo:"
-      },
-      {
-        "quote": "Si alguno de ustedes estornuda que diga: ‘Al hamdulillah’ y que su hermano o compañero le diga a su vez: ‘Yarhamukallah’. Y el primero le responderá con la siguiente petición: ‘Yahdikumullahu wa yuslih bálakum.’ (Que Allah te guíe y mejore tu estado).",
-        "cite": "Sahih al-Bujari 6224"
+        "p": "El islam convierte un estornudo en un pequeño intercambio de oraciones, en tres frases cortas."
       },
       {
         "steps": {
@@ -259,7 +413,18 @@
         }
       },
       {
-        "p": "Es un pequeño intercambio de oraciones del uno por el otro, en tres frases cortas. Pruébalo la próxima vez que alguien estornude cerca de ti."
+        "more": {
+          "title": "El hadiz",
+          "blocks": [
+            {
+              "p": "El Profeta dijo:"
+            },
+            {
+              "quote": "Si alguno de ustedes estornuda que diga: ‘Al hamdulillah’ y que su hermano o compañero le diga a su vez: ‘Yarhamukallah’. Y el primero le responderá con la siguiente petición: ‘Yahdikumullahu wa yuslih bálakum.’ (Que Allah te guíe y mejore tu estado).",
+              "cite": "Sahih al-Bujari 6224"
+            }
+          ]
+        }
       },
       {
         "quick": {

@@ -1,6 +1,6 @@
 {
   "slug": "res-jumuah-prayer",
-  "minutes": 9,
+  "minutes": 5,
   "title": {
     "en": "The Friday prayer (Jumuah)",
     "ar": "صلاة الجمعة",
@@ -9,14 +9,14 @@
   "body": {
     "en": [
       {
-        "p": "Friday is a special day for Muslims. At midday, in place of the usual Dhuhr prayer, Muslims gather at the masjid for **Jumuah**, the Friday prayer. Allah says:"
+        "p": "Friday is a special day for Muslims. At midday, in place of the usual Dhuhr prayer, they gather at the masjid for **Jumuah**, the Friday prayer. Allah says:"
       },
       {
         "quote": "O you who have believed, when [the adhan] is called for the prayer on the day of Jumu'ah [Friday], then proceed to the remembrance of Allah and leave trade. That is better for you, if you only knew.",
         "cite": "Quran 62:9 (Saheeh International translation of the meaning)"
       },
       {
-        "p": "In other words: when the call is made for prayer on Friday, go to hear the sermon and pray, and set aside buying, selling, and anything else that keeps you from it. Scholars take this verse as a proof that attending Jumuah and listening to the sermon is an obligation."
+        "p": "When the call is made for prayer on Friday, go to hear the sermon and pray, and set aside buying, selling, and anything else that keeps you from it. Scholars take this verse as a proof that attending Jumuah and listening to the sermon is an obligation."
       },
       {
         "h": "Who must attend"
@@ -25,40 +25,105 @@
         "p": "The Prophet Muhammad, peace be upon him, said: \"Jumuah is a duty upon every Muslim in congregation, except four: a slave, a woman, a child, or a sick person\" (Abu Dawud, sahih). The majority of scholars, including the four schools, also exempt the traveler. In practice:"
       },
       {
-        "ul": [
-          "**Adult men who are not traveling** attend Jumuah every week, unless they have a valid excuse such as illness.",
-          "**Women, children, travelers, and the sick** are not required to attend. On Friday they pray Dhuhr as usual.",
-          "**Anyone who does attend** and prays Jumuah with the imam does not pray Dhuhr that day; scholars agree this is enough for them. Women may attend if they wish."
-        ]
+        "compare": {
+          "first": {
+            "title": "Must attend",
+            "items": [
+              "Adult men who are not traveling attend Jumuah every week, unless they have a valid excuse such as illness."
+            ]
+          },
+          "second": {
+            "title": "Not required to attend",
+            "items": [
+              "Women, children, travelers, and the sick.",
+              "On Friday they pray Dhuhr as usual."
+            ]
+          }
+        }
+      },
+      {
+        "p": "Anyone who does attend and prays Jumuah with the imam does not pray Dhuhr that day; scholars agree this is enough for them. Women may attend if they wish."
       },
       {
         "h": "What happens at Jumuah"
       },
       {
-        "ol": [
-          "The adhan is called.",
-          "The imam gives two sermons (each is called a **khutbah**), standing, with a short sitting between them (Bukhari and Muslim).",
-          "The iqamah is called, and everyone prays **two units** (*rak'ahs*) together behind the imam (al-Nasa'i, sahih).",
-          "These two units take the place of the four units of Dhuhr for that day."
-        ]
-      },
-      {
-        "p": "The Prophet kept both his prayer and his sermon moderate in length (Muslim)."
+        "flow": {
+          "steps": [
+            {
+              "label": "Adhan",
+              "text": "The adhan is called."
+            },
+            {
+              "label": "Two sermons",
+              "text": "The imam gives two sermons (each is called a **khutbah**), standing, with a short sitting between them (Bukhari and Muslim)."
+            },
+            {
+              "label": "Prayer",
+              "text": "The iqamah is called, and everyone prays **two units** (*rak'ahs*) together behind the imam (al-Nasa'i, sahih)."
+            },
+            {
+              "label": "In place of Dhuhr",
+              "text": "These two units take the place of the four units of Dhuhr for that day."
+            }
+          ]
+        }
       },
       {
         "h": "Etiquette of the day"
       },
       {
-        "ul": [
-          "**Take a bath (ghusl).** The Prophet said: \"Whoever of you comes to attend the Friday prayer, let him take a shower\" (Bukhari and Muslim). Most scholars, including the four imams, consider it strongly recommended rather than required. The Prophet also said that whoever only makes wudu on Friday has done well, and whoever bathes has done better (Tirmidhi and others, hasan).",
-          "**Come clean and fresh.** The Prophet mentioned purifying yourself as much as you can and using oil or perfume from your home (Bukhari). Women going to the masjid do not wear perfume, as the Prophet instructed (Muslim).",
-          "**Arrive early.** The Prophet said that on Friday the angels stand at the masjid door recording people in the order they arrive, and when the imam comes out, they fold their records and listen to the sermon (Bukhari and Muslim).",
-          "**Do not push between people.** The Prophet mentioned not separating two people who are sitting together (Bukhari). Find a space without stepping over anyone.",
-          "**Listen quietly to the sermon.** The Prophet said: \"If you say to your companion 'listen' on Friday while the Imam is delivering the sermon, you have thus engaged in idle talk\" (Bukhari and Muslim). Even telling someone else to be quiet is too much, so give the khutbah your full attention."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "droplet",
+              "label": "Take a bath (ghusl)",
+              "text": "Most scholars, including the four imams, consider it strongly recommended rather than required."
+            },
+            {
+              "icon": "leaf",
+              "label": "Come clean and fresh",
+              "text": "Purify yourself as much as you can and use oil or perfume from your home. Women going to the masjid do not wear perfume."
+            },
+            {
+              "icon": "clock",
+              "label": "Arrive early",
+              "text": "On Friday the angels record people in the order they arrive."
+            },
+            {
+              "icon": "users",
+              "label": "Do not push between people",
+              "text": "Find a space without stepping over anyone."
+            },
+            {
+              "icon": "ear",
+              "label": "Listen quietly to the sermon",
+              "text": "Even telling someone else to be quiet is idle talk. Give the khutbah your full attention."
+            }
+          ]
+        }
       },
       {
-        "p": "The Prophet said that whoever bathes on Friday, purifies himself, uses some scent, does not separate two people, prays what is written for him, and listens quietly while the imam speaks, will have his sins between that Friday and the next forgiven (Bukhari)."
+        "more": {
+          "title": "What the Prophet said about these manners",
+          "blocks": [
+            {
+              "ul": [
+                "**Take a bath (ghusl).** The Prophet said: \"Whoever of you comes to attend the Friday prayer, let him take a shower\" (Bukhari and Muslim). Most scholars, including the four imams, consider it strongly recommended rather than required. The Prophet also said that whoever only makes wudu on Friday has done well, and whoever bathes has done better (Tirmidhi and others, hasan).",
+                "**Come clean and fresh.** The Prophet mentioned purifying yourself as much as you can and using oil or perfume from your home (Bukhari). Women going to the masjid do not wear perfume, as the Prophet instructed (Muslim).",
+                "**Arrive early.** The Prophet said that on Friday the angels stand at the masjid door recording people in the order they arrive, and when the imam comes out, they fold their records and listen to the sermon (Bukhari and Muslim).",
+                "**Do not push between people.** The Prophet mentioned not separating two people who are sitting together (Bukhari). Find a space without stepping over anyone.",
+                "**Listen quietly to the sermon.** The Prophet said: \"If you say to your companion 'listen' on Friday while the Imam is delivering the sermon, you have thus engaged in idle talk\" (Bukhari and Muslim). Even telling someone else to be quiet is too much, so give the khutbah your full attention."
+              ]
+            },
+            {
+              "p": "The Prophet said that whoever bathes on Friday, purifies himself, uses some scent, does not separate two people, prays what is written for him, and listens quietly while the imam speaks, will have his sins between that Friday and the next forgiven (Bukhari)."
+            },
+            {
+              "p": "The Prophet kept both his prayer and his sermon moderate in length (Muslim)."
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -98,7 +163,7 @@
     ],
     "ar": [
       {
-        "p": "يوم الجمعة يوم مميز عند المسلمين. ففي وقت الظهر يجتمع المسلمون في المسجد لأداء **صلاة الجمعة** بدلًا من صلاة الظهر المعتادة. قال الله تعالى:"
+        "p": "يوم الجمعة يوم مميز عند المسلمين. ففي وقت الظهر يجتمعون في المسجد لأداء **صلاة الجمعة** بدلًا من صلاة الظهر المعتادة. قال الله تعالى:"
       },
       {
         "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
@@ -114,40 +179,105 @@
         "p": "قال النبي محمد صلى الله عليه وسلم: «الْجُمُعَةُ حَقٌّ وَاجِبٌ عَلَى كُلِّ مُسْلِمٍ فِي جَمَاعَةٍ إِلاَّ أَرْبَعَةً عَبْدٌ مَمْلُوكٌ أَوِ امْرَأَةٌ أَوْ صَبِيٌّ أَوْ مَرِيضٌ» (رواه أبو داود، وهو صحيح). ويستثني جمهور العلماء، ومنهم المذاهب الأربعة، المسافرَ أيضًا. وبعبارة عملية:"
       },
       {
-        "ul": [
-          "**الرجال البالغون غير المسافرين** يحضرون الجمعة كل أسبوع، إلا من كان له عذر كالمرض.",
-          "**النساء والأطفال والمسافرون والمرضى** لا تجب عليهم الجمعة، ويصلّون الظهر يوم الجمعة كالمعتاد.",
-          "**ومن حضر منهم** وصلى الجمعة مع الإمام فلا يصلي الظهر ذلك اليوم، وهذا يجزئه باتفاق العلماء. ويجوز للمرأة أن تحضر إن شاءت."
-        ]
+        "compare": {
+          "first": {
+            "title": "تجب عليهم",
+            "items": [
+              "الرجال البالغون غير المسافرين يحضرون الجمعة كل أسبوع، إلا من كان له عذر كالمرض."
+            ]
+          },
+          "second": {
+            "title": "لا تجب عليهم",
+            "items": [
+              "النساء والأطفال والمسافرون والمرضى.",
+              "ويصلّون الظهر يوم الجمعة كالمعتاد."
+            ]
+          }
+        }
+      },
+      {
+        "p": "ومن حضر منهم وصلى الجمعة مع الإمام فلا يصلي الظهر ذلك اليوم، وهذا يجزئه باتفاق العلماء. ويجوز للمرأة أن تحضر إن شاءت."
       },
       {
         "h": "ماذا يحدث في صلاة الجمعة"
       },
       {
-        "ol": [
-          "يُؤذَّن للصلاة.",
-          "يخطب الإمام خطبتين وهو قائم، يجلس بينهما جلسة قصيرة (رواه البخاري ومسلم).",
-          "تُقام الصلاة، ويصلي الجميع **ركعتين** خلف الإمام (رواه النسائي، وهو صحيح).",
-          "وتقوم هاتان الركعتان مقام أربع ركعات الظهر في ذلك اليوم."
-        ]
-      },
-      {
-        "p": "وكانت صلاة النبي صلى الله عليه وسلم قصدًا، وخطبته قصدًا، أي معتدلة الطول (رواه مسلم)."
+        "flow": {
+          "steps": [
+            {
+              "label": "الأذان",
+              "text": "يُؤذَّن للصلاة."
+            },
+            {
+              "label": "خطبتان",
+              "text": "يخطب الإمام خطبتين وهو قائم، يجلس بينهما جلسة قصيرة (رواه البخاري ومسلم)."
+            },
+            {
+              "label": "الصلاة",
+              "text": "تُقام الصلاة، ويصلي الجميع **ركعتين** خلف الإمام (رواه النسائي، وهو صحيح)."
+            },
+            {
+              "label": "بدل الظهر",
+              "text": "وتقوم هاتان الركعتان مقام أربع ركعات الظهر في ذلك اليوم."
+            }
+          ]
+        }
       },
       {
         "h": "آداب يوم الجمعة"
       },
       {
-        "ul": [
-          "**الاغتسال.** قال النبي صلى الله عليه وسلم: «مَنْ جَاءَ مِنْكُمُ الْجُمُعَةَ فَلْيَغْتَسِلْ» (رواه البخاري ومسلم). وجمهور العلماء، ومنهم الأئمة الأربعة، على أنه سنة مؤكدة لا واجب؛ فقد أخبر النبي صلى الله عليه وسلم أن من توضأ يوم الجمعة فحسن، ومن اغتسل فهو أفضل (رواه الترمذي وغيره، وهو حسن).",
-          "**النظافة والطيب.** ذكر النبي صلى الله عليه وسلم التطهر ما استطاع المرء، وأن يدّهن من دهنه أو يمس من طيب بيته (رواه البخاري). والمرأة إذا خرجت إلى المسجد لا تتطيب، كما أمر النبي صلى الله عليه وسلم (رواه مسلم).",
-          "**التبكير.** أخبر النبي صلى الله عليه وسلم أن الملائكة تقف يوم الجمعة على باب المسجد تكتب الأول فالأول، فإذا خرج الإمام طووا صحفهم واستمعوا إلى الخطبة (رواه البخاري ومسلم).",
-          "**عدم التفريق بين الناس.** ذكر النبي صلى الله عليه وسلم ألا يفرّق المرء بين اثنين جالسين (رواه البخاري)، فاجلس حيث تجد مكانًا دون أن تتخطى أحدًا.",
-          "**الإنصات للخطبة.** قال النبي صلى الله عليه وسلم: «إذا قُلْتَ لِصَاحِبِكَ: أَنْصِتْ، يومَ الجمعةِ، والْإِمامُ يَخْطُبُ، فَقَدْ لَغَوْتَ» (رواه البخاري ومسلم). فحتى قولك لغيرك «أنصت» لغو، فأعطِ الخطبة انتباهك كله."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "droplet",
+              "label": "الاغتسال",
+              "text": "وجمهور العلماء، ومنهم الأئمة الأربعة، على أنه سنة مؤكدة لا واجب."
+            },
+            {
+              "icon": "leaf",
+              "label": "النظافة والطيب",
+              "text": "تطهّر ما استطعت، وادّهن من دهنك أو مسّ من طيب بيتك. والمرأة إذا خرجت إلى المسجد لا تتطيب."
+            },
+            {
+              "icon": "clock",
+              "label": "التبكير",
+              "text": "الملائكة تكتب الناس يوم الجمعة الأول فالأول."
+            },
+            {
+              "icon": "users",
+              "label": "عدم التفريق بين الناس",
+              "text": "اجلس حيث تجد مكانًا دون أن تتخطى أحدًا."
+            },
+            {
+              "icon": "ear",
+              "label": "الإنصات للخطبة",
+              "text": "حتى قولك لغيرك «أنصت» لغو، فأعطِ الخطبة انتباهك كله."
+            }
+          ]
+        }
       },
       {
-        "p": "وأخبر النبي صلى الله عليه وسلم أن من اغتسل يوم الجمعة، وتطهر، وتطيّب، ولم يفرّق بين اثنين، وصلى ما كُتب له، وأنصت إذا تكلم الإمام، غُفر له ما بينه وبين الجمعة الأخرى (رواه البخاري)."
+        "more": {
+          "title": "ماذا قال النبي صلى الله عليه وسلم عن هذه الآداب",
+          "blocks": [
+            {
+              "ul": [
+                "**الاغتسال.** قال النبي صلى الله عليه وسلم: «مَنْ جَاءَ مِنْكُمُ الْجُمُعَةَ فَلْيَغْتَسِلْ» (رواه البخاري ومسلم). وجمهور العلماء، ومنهم الأئمة الأربعة، على أنه سنة مؤكدة لا واجب؛ فقد أخبر النبي صلى الله عليه وسلم أن من توضأ يوم الجمعة فحسن، ومن اغتسل فهو أفضل (رواه الترمذي وغيره، وهو حسن).",
+                "**النظافة والطيب.** ذكر النبي صلى الله عليه وسلم التطهر ما استطاع المرء، وأن يدّهن من دهنه أو يمس من طيب بيته (رواه البخاري). والمرأة إذا خرجت إلى المسجد لا تتطيب، كما أمر النبي صلى الله عليه وسلم (رواه مسلم).",
+                "**التبكير.** أخبر النبي صلى الله عليه وسلم أن الملائكة تقف يوم الجمعة على باب المسجد تكتب الأول فالأول، فإذا خرج الإمام طووا صحفهم واستمعوا إلى الخطبة (رواه البخاري ومسلم).",
+                "**عدم التفريق بين الناس.** ذكر النبي صلى الله عليه وسلم ألا يفرّق المرء بين اثنين جالسين (رواه البخاري)، فاجلس حيث تجد مكانًا دون أن تتخطى أحدًا.",
+                "**الإنصات للخطبة.** قال النبي صلى الله عليه وسلم: «إذا قُلْتَ لِصَاحِبِكَ: أَنْصِتْ، يومَ الجمعةِ، والْإِمامُ يَخْطُبُ، فَقَدْ لَغَوْتَ» (رواه البخاري ومسلم). فحتى قولك لغيرك «أنصت» لغو، فأعطِ الخطبة انتباهك كله."
+              ]
+            },
+            {
+              "p": "وأخبر النبي صلى الله عليه وسلم أن من اغتسل يوم الجمعة، وتطهر، وتطيّب، ولم يفرّق بين اثنين، وصلى ما كُتب له، وأنصت إذا تكلم الإمام، غُفر له ما بينه وبين الجمعة الأخرى (رواه البخاري)."
+            },
+            {
+              "p": "وكانت صلاة النبي صلى الله عليه وسلم قصدًا، وخطبته قصدًا، أي معتدلة الطول (رواه مسلم)."
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -187,14 +317,14 @@
     ],
     "es": [
       {
-        "p": "El viernes es un día especial para los musulmanes. Al mediodía, en lugar de la oración habitual de Duhr, los musulmanes se reúnen en la mezquita para la **yumu'ah** (en inglés suele escribirse Jumuah), la oración del viernes. Allah dice:"
+        "p": "El viernes es un día especial para los musulmanes. Al mediodía, en lugar de la oración habitual de Duhr, se reúnen en la mezquita para la **yumu'ah** (en inglés suele escribirse Jumuah), la oración del viernes. Allah dice:"
       },
       {
         "quote": "¡Creyentes! Cuando sea realizado el llamado a la oración del día viernes, acudan al recuerdo de Dios y abandonen el comercio, es lo mejor para ustedes. ¡Si supieran!",
         "cite": "Corán 62:9 (traducción del significado de Isa García)"
       },
       {
-        "p": "Es decir: cuando se hace el llamado a la oración del viernes, ve a escuchar el sermón y a rezar, y deja la compra, la venta y todo lo que te distraiga de ello. Los sabios toman esta aleya como prueba de que asistir a la yumu'ah y escuchar el sermón es una obligación."
+        "p": "Cuando se hace el llamado a la oración del viernes, ve a escuchar el sermón y a rezar, y deja la compra, la venta y todo lo que te distraiga de ello. Los sabios toman esta aleya como prueba de que asistir a la yumu'ah y escuchar el sermón es una obligación."
       },
       {
         "h": "Quién debe asistir"
@@ -203,40 +333,105 @@
         "p": "El Profeta Muhammad, la paz sea con él, dijo que la yumu'ah es un deber para todo musulmán en congregación, excepto cuatro: un esclavo, una mujer, un niño o un enfermo (Abu Dawud, sahih). La mayoría de los sabios, incluidas las cuatro escuelas, también exime al viajero. En la práctica:"
       },
       {
-        "ul": [
-          "**Los hombres adultos que no están de viaje** asisten a la yumu'ah cada semana, salvo que tengan una excusa válida, como una enfermedad.",
-          "**Las mujeres, los niños, los viajeros y los enfermos** no están obligados a asistir. El viernes rezan Duhr como de costumbre.",
-          "**Quien sí asiste** y reza la yumu'ah con el imam no reza Duhr ese día; los sabios coinciden en que eso le basta. Las mujeres pueden asistir si lo desean."
-        ]
+        "compare": {
+          "first": {
+            "title": "Deben asistir",
+            "items": [
+              "Los hombres adultos que no están de viaje asisten a la yumu'ah cada semana, salvo que tengan una excusa válida, como una enfermedad."
+            ]
+          },
+          "second": {
+            "title": "No están obligados a asistir",
+            "items": [
+              "Las mujeres, los niños, los viajeros y los enfermos.",
+              "El viernes rezan Duhr como de costumbre."
+            ]
+          }
+        }
+      },
+      {
+        "p": "Quien sí asiste y reza la yumu'ah con el imam no reza Duhr ese día; los sabios coinciden en que eso le basta. Las mujeres pueden asistir si lo desean."
       },
       {
         "h": "Qué ocurre en la yumu'ah"
       },
       {
-        "ol": [
-          "Se hace el adhan.",
-          "El imam da dos sermones (cada uno se llama **jutbah**), de pie, con una breve sentada entre ellos (Bujari y Muslim).",
-          "Se hace la iqamah y todos rezan **dos unidades** (*rak'at*) juntos detrás del imam (an-Nasa'i, sahih).",
-          "Estas dos unidades ocupan el lugar de las cuatro unidades de Duhr ese día."
-        ]
-      },
-      {
-        "p": "El Profeta mantenía tanto su oración como su sermón de una duración moderada (Muslim)."
+        "flow": {
+          "steps": [
+            {
+              "label": "Adhan",
+              "text": "Se hace el adhan."
+            },
+            {
+              "label": "Dos sermones",
+              "text": "El imam da dos sermones (cada uno se llama **jutbah**), de pie, con una breve sentada entre ellos (Bujari y Muslim)."
+            },
+            {
+              "label": "Oración",
+              "text": "Se hace la iqamah y todos rezan **dos unidades** (*rak'at*) juntos detrás del imam (an-Nasa'i, sahih)."
+            },
+            {
+              "label": "En lugar de Duhr",
+              "text": "Estas dos unidades ocupan el lugar de las cuatro unidades de Duhr ese día."
+            }
+          ]
+        }
       },
       {
         "h": "Buenas costumbres del día"
       },
       {
-        "ul": [
-          "**Date un baño (gusl).** El Profeta dijo: \"Quién de ustedes vaya a la oración del viernes que se lave todo el cuerpo antes\" (Bujari y Muslim). La mayoría de los sabios, incluidos los cuatro imames, lo considera muy recomendado, no obligatorio. El Profeta también dijo que quien solo hace el wudu el viernes ha hecho bien, y quien se baña ha hecho algo mejor (Tirmidhi y otros, hasan).",
-          "**Ve limpio y fresco.** El Profeta mencionó purificarse tanto como se pueda y usar aceite o perfume de casa (Bujari). Las mujeres que van a la mezquita no se ponen perfume, como indicó el Profeta (Muslim).",
-          "**Llega temprano.** El Profeta dijo que el viernes los ángeles se colocan en la puerta de la mezquita y anotan a la gente en el orden en que llega, y cuando sale el imam, cierran sus registros y escuchan el sermón (Bujari y Muslim).",
-          "**No te metas entre la gente.** El Profeta mencionó no separar a dos personas que están sentadas juntas (Bujari). Busca un espacio sin pasar por encima de nadie.",
-          "**Escucha el sermón en silencio.** El Profeta dijo: \"Si le dices a tu compañero que calle y preste atención durante el sermón del imam del viernes, habrás hablado en vano\" (Bujari y Muslim). Incluso pedirle a otro que se calle es demasiado, así que presta toda tu atención a la jutbah."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "droplet",
+              "label": "Date un baño (gusl)",
+              "text": "La mayoría de los sabios, incluidos los cuatro imames, lo considera muy recomendado, no obligatorio."
+            },
+            {
+              "icon": "leaf",
+              "label": "Ve limpio y fresco",
+              "text": "Purifícate tanto como puedas y usa aceite o perfume de casa. Las mujeres que van a la mezquita no se ponen perfume."
+            },
+            {
+              "icon": "clock",
+              "label": "Llega temprano",
+              "text": "El viernes los ángeles anotan a la gente en el orden en que llega."
+            },
+            {
+              "icon": "users",
+              "label": "No te metas entre la gente",
+              "text": "Busca un espacio sin pasar por encima de nadie."
+            },
+            {
+              "icon": "ear",
+              "label": "Escucha el sermón en silencio",
+              "text": "Incluso pedirle a otro que se calle es hablar en vano. Presta toda tu atención a la jutbah."
+            }
+          ]
+        }
       },
       {
-        "p": "El Profeta dijo que a quien se bañe el viernes, se purifique, use algo de perfume, no separe a dos personas, rece lo que le corresponda y escuche en silencio mientras habla el imam, se le perdonarán sus pecados entre ese viernes y el siguiente (Bujari)."
+        "more": {
+          "title": "Lo que dijo el Profeta sobre estas costumbres",
+          "blocks": [
+            {
+              "ul": [
+                "**Date un baño (gusl).** El Profeta dijo: \"Quién de ustedes vaya a la oración del viernes que se lave todo el cuerpo antes\" (Bujari y Muslim). La mayoría de los sabios, incluidos los cuatro imames, lo considera muy recomendado, no obligatorio. El Profeta también dijo que quien solo hace el wudu el viernes ha hecho bien, y quien se baña ha hecho algo mejor (Tirmidhi y otros, hasan).",
+                "**Ve limpio y fresco.** El Profeta mencionó purificarse tanto como se pueda y usar aceite o perfume de casa (Bujari). Las mujeres que van a la mezquita no se ponen perfume, como indicó el Profeta (Muslim).",
+                "**Llega temprano.** El Profeta dijo que el viernes los ángeles se colocan en la puerta de la mezquita y anotan a la gente en el orden en que llega, y cuando sale el imam, cierran sus registros y escuchan el sermón (Bujari y Muslim).",
+                "**No te metas entre la gente.** El Profeta mencionó no separar a dos personas que están sentadas juntas (Bujari). Busca un espacio sin pasar por encima de nadie.",
+                "**Escucha el sermón en silencio.** El Profeta dijo: \"Si le dices a tu compañero que calle y preste atención durante el sermón del imam del viernes, habrás hablado en vano\" (Bujari y Muslim). Incluso pedirle a otro que se calle es demasiado, así que presta toda tu atención a la jutbah."
+              ]
+            },
+            {
+              "p": "El Profeta dijo que a quien se bañe el viernes, se purifique, use algo de perfume, no separe a dos personas, rece lo que le corresponda y escuche en silencio mientras habla el imam, se le perdonarán sus pecados entre ese viernes y el siguiente (Bujari)."
+            },
+            {
+              "p": "El Profeta mantenía tanto su oración como su sermón de una duración moderada (Muslim)."
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -345,5 +540,21 @@
       "url": "https://sunnah.com/muslim:881a"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=XqJDrUYFaVs",
+      "title": {
+        "en": "Why the Friday prayer and its sermon matter",
+        "ar": "أهمية صلاة الجمعة وخطبتها",
+        "es": "La importancia de la oración del viernes y su sermón"
+      },
+      "by": {
+        "en": "Faisal Ali",
+        "ar": "فيصل علي",
+        "es": "Faisal Ali"
+      },
+      "seconds": 2058
+    }
+  ]
 }

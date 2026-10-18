@@ -1,6 +1,6 @@
 {
   "slug": "prophets-who-are-they",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "Who are the prophets?",
     "ar": "من هم الأنبياء؟",
@@ -9,76 +9,162 @@
   "body": {
     "en": [
       {
-        "p": "You already know the Prophet Muhammad, peace be upon him, as the messenger who brought you the Quran. But he was not the first. Long before him, Allah (the Arabic word for God, the One God) sent many prophets to guide people back to Him. In this step you will meet some of them, and see why a Muslim loves every one of them."
+        "p": "Long before the Prophet Muhammad, peace be upon him, Allah sent many prophets to guide people back to Him."
       },
       {
         "h": "Believing in all of them"
       },
       {
-        "p": "Belief in Allah's messengers is one of the pillars of faith, and a Muslim does not pick and choose among them. The Quran describes the believers like this:"
+        "p": "Belief in Allah's messengers is a pillar of faith, and a Muslim does not pick and choose among them."
       },
       {
         "quote": "The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allah and His angels and His books and His messengers, [saying], \"We make no distinction between any of His messengers.\"",
         "cite": "Quran 2:285 (Saheeh International translation)"
       },
       {
-        "p": "*We make no distinction* means that believers do not accept some messengers and reject others. They accept all of them as true messengers of Allah. Allah also tells the believers to believe in the scriptures He sent before the Quran:"
+        "p": "*We make no distinction* means believers accept all of them as true messengers. So loving Musa (Moses) or Isa (Jesus), peace be upon them, is not stepping outside Islam. It is practicing it."
       },
       {
-        "quote": "O you who have believed, believe in Allah and His Messenger and the Book that He sent down upon His Messenger and the Scripture which He sent down before.",
-        "cite": "Quran 4:136 (Saheeh International translation)"
-      },
-      {
-        "p": "So when you love and honor Musa (Moses) or Isa (Jesus), peace be upon them, you are not stepping outside Islam. You are practicing it."
+        "more": {
+          "title": "The scriptures before the Quran",
+          "blocks": [
+            {
+              "p": "Allah also tells the believers to believe in the scriptures He sent before the Quran:"
+            },
+            {
+              "quote": "O you who have believed, believe in Allah and His Messenger and the Book that He sent down upon His Messenger and the Scripture which He sent down before.",
+              "cite": "Quran 4:136 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "h": "Prophets and messengers"
       },
       {
-        "p": "Arabic has two words here. A **nabi** is a prophet, and a **rasul** is a messenger. The Quran uses both, and describes Musa with both at once: \"he was a messenger and a prophet\" (Quran 19:51). Scholars commonly explain that every messenger is also a prophet, but not every prophet is a messenger. You do not need to sort them into lists. What matters is that you believe in them and honor them all."
+        "p": "A **nabi** is a prophet, and a **rasul** is a messenger. Scholars commonly explain that every messenger is also a prophet, but not every prophet is a messenger."
       },
       {
-        "p": "How many were there? More than we know. Allah said to the Prophet Muhammad:"
+        "p": "You do not need to sort them into lists. What matters is that you believe in them and honor them all."
       },
       {
-        "quote": "And We have already sent messengers before you. Among them are those [whose stories] We have related to you, and among them are those [whose stories] We have not related to you.",
-        "cite": "Quran 40:78 (Saheeh International translation)"
+        "more": {
+          "title": "More about prophets and messengers",
+          "blocks": [
+            {
+              "p": "The Quran uses both words, and describes Musa with both at once: \"he was a messenger and a prophet\" (Quran 19:51)."
+            },
+            {
+              "p": "How many were there? More than we know. Allah said to the Prophet Muhammad:"
+            },
+            {
+              "quote": "And We have already sent messengers before you. Among them are those [whose stories] We have related to you, and among them are those [whose stories] We have not related to you.",
+              "cite": "Quran 40:78 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "h": "The prophets named in the Quran"
       },
       {
-        "p": "Scholars commonly count 25 prophets and messengers mentioned by name in the Quran. Here they are, with a place where each one is named:"
+        "p": "Scholars commonly count 25 prophets and messengers named in the Quran. Here is a place where each is named:"
       },
       {
-        "ul": [
-          "In one passage, Allah names eighteen of them together: Ibrahim (Abraham), Ishaq (Isaac), Yaqub (Jacob), Nuh (Noah), Dawud (David), Sulayman (Solomon), Ayyub (Job), Yusuf (Joseph), Musa (Moses), Harun (Aaron), Zakariya (Zechariah), Yahya (John), Isa (Jesus), Ilyas (Elias), Ismail (Ishmael), Al-Yasa (Elisha), Yunus (Jonah), and Lut (Lot). Then He says of them: \"Those are the ones to whom We gave the Scripture and authority and prophethood\" (Quran 6:83-89).",
-          "Adam, the first human. The Quran says that Allah chose him (Quran 3:33), and the Prophet Muhammad confirmed that Adam was a prophet.",
-          "Idris, described as \"a man of truth and a prophet\" (Quran 19:56).",
-          "Hud, Salih, and Shu'ayb, each sent to his own people with the same words: \"O my people, worship Allah; you have no deity other than Him\" (Quran 7:65, 7:73, 7:85).",
-          "Dhul-Kifl, praised together with Ismail and Idris as being \"of the patient\" (Quran 21:85). Scholars have discussed whether he was a prophet or a righteous man; either way, the Quran honors him.",
-          "Muhammad, \"the Messenger of Allah and last of the prophets\" (Quran 33:40)."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "users",
+              "label": "Eighteen together",
+              "text": "Named in one passage (Quran 6:83-89)"
+            },
+            {
+              "icon": "leaf",
+              "label": "Adam",
+              "text": "The first human, whom Allah chose (Quran 3:33)"
+            },
+            {
+              "icon": "star",
+              "label": "Idris",
+              "text": "\"a man of truth and a prophet\" (Quran 19:56)"
+            },
+            {
+              "icon": "mountain",
+              "label": "Hud, Salih, Shu'ayb",
+              "text": "Each sent to his own people (Quran 7:65, 7:73, 7:85)"
+            },
+            {
+              "icon": "heart",
+              "label": "Dhul-Kifl",
+              "text": "Praised as \"of the patient\" (Quran 21:85)"
+            },
+            {
+              "icon": "book",
+              "label": "Muhammad",
+              "text": "\"last of the prophets\" (Quran 33:40)"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "The full details",
+          "blocks": [
+            {
+              "ul": [
+                "In one passage, Allah names eighteen of them together: Ibrahim (Abraham), Ishaq (Isaac), Yaqub (Jacob), Nuh (Noah), Dawud (David), Sulayman (Solomon), Ayyub (Job), Yusuf (Joseph), Musa (Moses), Harun (Aaron), Zakariya (Zechariah), Yahya (John), Isa (Jesus), Ilyas (Elias), Ismail (Ishmael), Al-Yasa (Elisha), Yunus (Jonah), and Lut (Lot). Then He says of them: \"Those are the ones to whom We gave the Scripture and authority and prophethood\" (Quran 6:83-89).",
+                "Adam, the first human. The Quran says that Allah chose him (Quran 3:33), and the Prophet Muhammad confirmed that Adam was a prophet.",
+                "Idris, described as \"a man of truth and a prophet\" (Quran 19:56).",
+                "Hud, Salih, and Shu'ayb, each sent to his own people with the same words: \"O my people, worship Allah; you have no deity other than Him\" (Quran 7:65, 7:73, 7:85).",
+                "Dhul-Kifl, praised together with Ismail and Idris as being \"of the patient\" (Quran 21:85). Scholars have discussed whether he was a prophet or a righteous man; either way, the Quran honors him.",
+                "Muhammad, \"the Messenger of Allah and last of the prophets\" (Quran 33:40)."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "One message"
       },
       {
-        "p": "The prophets lived in different lands and different times, but they all called people to the same thing:"
+        "p": "They lived in different lands and times, but all called people to the same thing:"
       },
       {
         "quote": "And We sent not before you any messenger except that We revealed to him that, \"There is no deity except Me, so worship Me.\"",
         "cite": "Quran 21:25 (Saheeh International translation)"
       },
       {
-        "p": "The details of their laws could differ. Allah says: \"To each of you We prescribed a law and a method\" (Quran 5:48). But the core never changed: worship Allah alone. The Prophet Muhammad described this with a picture from family life:"
+        "compare": {
+          "first": {
+            "title": "What differed",
+            "items": [
+              "The details of their laws (Quran 5:48)"
+            ]
+          },
+          "second": {
+            "title": "What never changed",
+            "items": [
+              "Worship Allah alone"
+            ]
+          }
+        }
       },
       {
-        "quote": "The prophets are paternal brothers; their mothers are different, but their religion is one.",
-        "cite": "Sahih al-Bukhari 3443 and Sahih Muslim 2365"
-      },
-      {
-        "p": "Brothers who share a father but have different mothers still share what matters most. In the same way, the prophets share one religion, the worship of Allah alone, even though the details of their laws were different."
+        "more": {
+          "title": "The prophets are brothers",
+          "blocks": [
+            {
+              "p": "The Prophet Muhammad described this with a picture from family life:"
+            },
+            {
+              "quote": "The prophets are paternal brothers; their mothers are different, but their religion is one.",
+              "cite": "Sahih al-Bukhari 3443 and Sahih Muslim 2365"
+            },
+            {
+              "p": "Brothers who share a father but have different mothers still share what matters most. In the same way, the prophets share one religion, the worship of Allah alone."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -96,14 +182,21 @@
         "h": "The last of the prophets"
       },
       {
-        "p": "The line of prophets ended with the Prophet Muhammad:"
+        "p": "The line of prophets ended with the Prophet Muhammad. Scholars of tafsir (explanation of the Quran) explain there is no prophet after him until the Day of Judgment."
       },
       {
-        "quote": "Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and last of the prophets.",
-        "cite": "Quran 33:40 (Saheeh International translation)"
+        "p": "Allah sent him to all people (Quran 34:28). Following him is how you follow all the prophets: he brought the same message, in its final form."
       },
       {
-        "p": "Scholars of tafsir (explanation of the Quran) explain that there is no prophet after him until the Day of Judgment. His message is not for one nation only: Allah sent him to all people (Quran 34:28). That is why, today, following him is how you follow all the prophets. He brought the same message they brought, in its final form."
+        "more": {
+          "title": "The verse",
+          "blocks": [
+            {
+              "quote": "Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and last of the prophets.",
+              "cite": "Quran 33:40 (Saheeh International translation)"
+            }
+          ]
+        }
       },
       {
         "key": "Every prophet taught the same truth: worship Allah alone. A Muslim believes in all of them, loves all of them, and follows the last of them, the Prophet Muhammad."
@@ -114,40 +207,60 @@
     ],
     "ar": [
       {
-        "p": "أنت تعرف النبي محمدًا صلى الله عليه وسلم رسولًا جاءك بالقرآن، لكنه لم يكن أول الأنبياء. فقد أرسل الله قبله أنبياء كثيرين يدعون الناس إليه. وفي هذه المرحلة ستتعرف على بعضهم، وترى لماذا يحب المسلم الأنبياء جميعًا."
+        "p": "أرسل الله قبل النبي محمد صلى الله عليه وسلم أنبياء كثيرين يدعون الناس إليه."
       },
       {
         "h": "الإيمان بهم جميعًا"
       },
       {
-        "p": "الإيمان برسل الله ركن من أركان الإيمان، والمسلم لا يختار منهم من يشاء ويترك غيره. قال الله تعالى في وصف المؤمنين:"
+        "p": "الإيمان برسل الله ركن من أركان الإيمان، والمسلم لا يختار منهم من يشاء ويترك غيره."
       },
       {
         "quote": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ",
         "cite": "سورة البقرة: 285"
       },
       {
-        "p": "ومعنى «لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ»: أن المؤمنين لا يؤمنون ببعض الرسل وينكرون بعضهم، بل يؤمنون بهم جميعًا. وأمر الله المؤمنين كذلك أن يؤمنوا بالكتب التي أنزلها قبل القرآن:"
+        "p": "ومعنى «لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ»: أن المؤمنين يؤمنون بهم جميعًا. فحين تحب موسى أو عيسى عليهما السلام وتعظّمهما، فأنت لا تخرج عن الإسلام، بل تعمل به."
       },
       {
-        "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ",
-        "cite": "سورة النساء: 136"
-      },
-      {
-        "p": "فحين تحب موسى أو عيسى عليهما السلام وتعظّمهما، فأنت لا تخرج عن الإسلام، بل تعمل به."
+        "more": {
+          "title": "الكتب قبل القرآن",
+          "blocks": [
+            {
+              "p": "وأمر الله المؤمنين كذلك أن يؤمنوا بالكتب التي أنزلها قبل القرآن:"
+            },
+            {
+              "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ",
+              "cite": "سورة النساء: 136"
+            }
+          ]
+        }
       },
       {
         "h": "النبي والرسول"
       },
       {
-        "p": "في العربية كلمتان: **النبي** و**الرسول**، وقد جمعهما القرآن في وصف موسى عليه السلام فقال: «وَكَانَ رَسُولًۭا نَّبِيًّۭا» (مريم: 51). ويذكر العلماء عادةً أن كل رسول نبي، وليس كل نبي رسولًا. ولا يلزمك أن تحفظ هذه التقسيمات، فالمهم أن تؤمن بهم جميعًا وتوقّرهم."
+        "p": "في العربية كلمتان: **النبي** و**الرسول**. ويذكر العلماء عادةً أن كل رسول نبي، وليس كل نبي رسولًا."
       },
       {
-        "p": "وكم كان عددهم؟ أكثر مما نعرف، فقد قال الله تعالى لنبيه صلى الله عليه وسلم:"
+        "p": "ولا يلزمك أن تحفظ هذه التقسيمات، فالمهم أن تؤمن بهم جميعًا وتوقّرهم."
       },
       {
-        "quote": "وَلَقَدْ أَرْسَلْنَا رُسُلًۭا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ",
-        "cite": "سورة غافر: 78"
+        "more": {
+          "title": "المزيد عن النبي والرسول",
+          "blocks": [
+            {
+              "p": "وقد جمعهما القرآن في وصف موسى عليه السلام فقال: «وَكَانَ رَسُولًۭا نَّبِيًّۭا» (مريم: 51)."
+            },
+            {
+              "p": "وكم كان عددهم؟ أكثر مما نعرف، فقد قال الله تعالى لنبيه صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "وَلَقَدْ أَرْسَلْنَا رُسُلًۭا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ",
+              "cite": "سورة غافر: 78"
+            }
+          ]
+        }
       },
       {
         "h": "الأنبياء المذكورون بأسمائهم في القرآن"
@@ -156,34 +269,100 @@
         "p": "يعدّ العلماء عادةً خمسة وعشرين نبيًّا ورسولًا ذُكروا بأسمائهم في القرآن، وهذه مواضع ذكرهم:"
       },
       {
-        "ul": [
-          "في موضع واحد ذكر الله ثمانية عشر منهم: إبراهيم، وإسحاق، ويعقوب، ونوحًا، وداود، وسليمان، وأيوب، ويوسف، وموسى، وهارون، وزكريا، ويحيى، وعيسى، وإلياس، وإسماعيل، واليسع، ويونس، ولوطًا، ثم قال عنهم: «أُو۟لَٰٓئِكَ ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ» (الأنعام: 83 إلى 89).",
-          "آدم أبو البشر، الذي اصطفاه الله (آل عمران: 33)، وقد أخبر النبي صلى الله عليه وسلم أنه كان نبيًّا.",
-          "إدريس، الذي قال الله عنه: «إِنَّهُۥ كَانَ صِدِّيقًۭا نَّبِيًّۭا» (مريم: 56).",
-          "هود وصالح وشعيب، أُرسل كل واحد منهم إلى قومه بالدعوة نفسها: «يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ» (الأعراف: 65 و73 و85).",
-          "ذو الكفل، الذي ذكره الله مع إسماعيل وإدريس فقال: «كُلٌّۭ مِّنَ ٱلصَّٰبِرِينَ» (الأنبياء: 85). وقد تكلّم العلماء: هل كان نبيًّا أم رجلًا صالحًا؟ وفي الحالين أثنى عليه القرآن.",
-          "محمد صلى الله عليه وسلم، «رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ» (الأحزاب: 40)."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "users",
+              "label": "ثمانية عشر معًا",
+              "text": "ذُكروا في موضع واحد (الأنعام: 83 إلى 89)"
+            },
+            {
+              "icon": "leaf",
+              "label": "آدم",
+              "text": "أبو البشر، اصطفاه الله (آل عمران: 33)"
+            },
+            {
+              "icon": "star",
+              "label": "إدريس",
+              "text": "«إِنَّهُۥ كَانَ صِدِّيقًۭا نَّبِيًّۭا» (مريم: 56)"
+            },
+            {
+              "icon": "mountain",
+              "label": "هود وصالح وشعيب",
+              "text": "أُرسل كل واحد منهم إلى قومه (الأعراف: 65 و73 و85)"
+            },
+            {
+              "icon": "heart",
+              "label": "ذو الكفل",
+              "text": "«كُلٌّۭ مِّنَ ٱلصَّٰبِرِينَ» (الأنبياء: 85)"
+            },
+            {
+              "icon": "book",
+              "label": "محمد",
+              "text": "«رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ» (الأحزاب: 40)"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "التفاصيل كاملة",
+          "blocks": [
+            {
+              "ul": [
+                "في موضع واحد ذكر الله ثمانية عشر منهم: إبراهيم، وإسحاق، ويعقوب، ونوحًا، وداود، وسليمان، وأيوب، ويوسف، وموسى، وهارون، وزكريا، ويحيى، وعيسى، وإلياس، وإسماعيل، واليسع، ويونس، ولوطًا، ثم قال عنهم: «أُو۟لَٰٓئِكَ ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ» (الأنعام: 83 إلى 89).",
+                "آدم أبو البشر، الذي اصطفاه الله (آل عمران: 33)، وقد أخبر النبي صلى الله عليه وسلم أنه كان نبيًّا.",
+                "إدريس، الذي قال الله عنه: «إِنَّهُۥ كَانَ صِدِّيقًۭا نَّبِيًّۭا» (مريم: 56).",
+                "هود وصالح وشعيب، أُرسل كل واحد منهم إلى قومه بالدعوة نفسها: «يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ» (الأعراف: 65 و73 و85).",
+                "ذو الكفل، الذي ذكره الله مع إسماعيل وإدريس فقال: «كُلٌّۭ مِّنَ ٱلصَّٰبِرِينَ» (الأنبياء: 85). وقد تكلّم العلماء: هل كان نبيًّا أم رجلًا صالحًا؟ وفي الحالين أثنى عليه القرآن.",
+                "محمد صلى الله عليه وسلم، «رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ» (الأحزاب: 40)."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "رسالة واحدة"
       },
       {
-        "p": "عاش الأنبياء في بلاد مختلفة وأزمنة مختلفة، لكنهم دعوا جميعًا إلى أمر واحد:"
+        "p": "عاشوا في بلاد مختلفة وأزمنة مختلفة، لكنهم دعوا جميعًا إلى أمر واحد:"
       },
       {
         "quote": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
         "cite": "سورة الأنبياء: 25"
       },
       {
-        "p": "أي: لا معبود بحق إلا الله، فأخلصوا العبادة له وحده. أما تفاصيل الشرائع فقد تختلف، قال تعالى: «لِكُلٍّۢ جَعَلْنَا مِنكُمْ شِرْعَةًۭ وَمِنْهَاجًۭا» (المائدة: 48). لكن الأصل لم يتغير قط، وهو عبادة الله وحده. وقد صوّر النبي صلى الله عليه وسلم ذلك بصورة من حياة الأسرة فقال:"
+        "compare": {
+          "first": {
+            "title": "ما اختلف",
+            "items": [
+              "تفاصيل الشرائع (المائدة: 48)"
+            ]
+          },
+          "second": {
+            "title": "ما لم يتغير",
+            "items": [
+              "عبادة الله وحده"
+            ]
+          }
+        }
       },
       {
-        "quote": "وَالأَنْبِيَاءُ إِخْوَةٌ لِعَلاَّتٍ، أُمَّهَاتُهُمْ شَتَّى، وَدِينُهُمْ وَاحِدٌ",
-        "cite": "صحيح البخاري 3443، وصحيح مسلم 2365"
-      },
-      {
-        "p": "والإخوة لعلّات هم الإخوة من أب واحد وأمهات مختلفات، كما قال: «أُمَّهَاتُهُمْ شَتَّى». فالأنبياء يجمعهم دين واحد هو عبادة الله وحده، وإن اختلفت تفاصيل شرائعهم."
+        "more": {
+          "title": "الأنبياء إخوة",
+          "blocks": [
+            {
+              "p": "وقد صوّر النبي صلى الله عليه وسلم ذلك بصورة من حياة الأسرة فقال:"
+            },
+            {
+              "quote": "وَالأَنْبِيَاءُ إِخْوَةٌ لِعَلاَّتٍ، أُمَّهَاتُهُمْ شَتَّى، وَدِينُهُمْ وَاحِدٌ",
+              "cite": "صحيح البخاري 3443، وصحيح مسلم 2365"
+            },
+            {
+              "p": "والإخوة لعلّات هم الإخوة من أب واحد وأمهات مختلفات. فالأنبياء يجمعهم دين واحد هو عبادة الله وحده."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -201,14 +380,21 @@
         "h": "خاتم الأنبياء"
       },
       {
-        "p": "وخُتمت سلسلة الأنبياء بمحمد صلى الله عليه وسلم، قال الله تعالى:"
+        "p": "وخُتمت سلسلة الأنبياء بمحمد صلى الله عليه وسلم. وقال أهل التفسير: فلا نبوة بعده إلى يوم القيامة."
       },
       {
-        "quote": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍۢ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ",
-        "cite": "سورة الأحزاب: 40"
+        "p": "أرسله الله إلى الناس كافة (سبأ: 28). واتباعه هو طريقك إلى اتباع الأنبياء جميعًا، لأنه جاء بالرسالة نفسها في صورتها الأخيرة."
       },
       {
-        "p": "قال أهل التفسير: فلا نبوة بعده إلى يوم القيامة. ورسالته ليست لقوم دون قوم، بل أرسله الله إلى الناس كافة (سبأ: 28). ولهذا فإن اتباعه اليوم هو طريقك إلى اتباع الأنبياء جميعًا، لأنه جاء بالرسالة نفسها التي جاؤوا بها، في صورتها الأخيرة."
+        "more": {
+          "title": "الآية",
+          "blocks": [
+            {
+              "quote": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍۢ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ",
+              "cite": "سورة الأحزاب: 40"
+            }
+          ]
+        }
       },
       {
         "key": "دعا الأنبياء جميعًا إلى حقيقة واحدة: عبادة الله وحده. والمسلم يؤمن بهم جميعًا، ويحبهم جميعًا، ويتّبع آخرهم، محمدًا صلى الله عليه وسلم."
@@ -219,76 +405,162 @@
     ],
     "es": [
       {
-        "p": "Ya conoces al Profeta Muhammad, la paz sea con él, como el mensajero que te trajo el Corán. Pero él no fue el primero. Mucho antes que él, Allah (la palabra árabe para Dios, el Dios Único) envió a muchos profetas para guiar a la gente hacia Él. En esta etapa conocerás a algunos de ellos y verás por qué un musulmán los ama a todos."
+        "p": "Mucho antes del Profeta Muhammad, la paz sea con él, Allah envió a muchos profetas para guiar a la gente hacia Él."
       },
       {
         "h": "Creer en todos ellos"
       },
       {
-        "p": "Creer en los mensajeros de Allah es uno de los pilares de la fe, y el musulmán no elige a unos y deja a otros. El Corán describe así a los creyentes (en las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah):"
+        "p": "Creer en los mensajeros de Allah es uno de los pilares de la fe, y el musulmán no elige a unos y deja a otros."
       },
       {
         "quote": "El Mensajero y sus seguidores creen en lo que le fue revelado por su Señor [al Mensajero]. Todos creen en Dios, en Sus ángeles, en Sus Libros y en Sus Mensajeros [diciendo:] \"No hacemos diferencia entre ninguno de Sus Mensajeros\".",
         "cite": "Corán 2:285"
       },
       {
-        "p": "*No hacemos diferencia* significa que los creyentes no aceptan a unos mensajeros y rechazan a otros. Los aceptan a todos como verdaderos mensajeros de Allah. Allah también pide a los creyentes que crean en las escrituras que reveló antes del Corán:"
+        "p": "*No hacemos diferencia* significa que los creyentes aceptan a todos como verdaderos mensajeros. Así que amar y honrar a Musa (Moisés) o a Isa (Jesús), la paz sea con ellos, no es salirse del islam. Es practicarlo. (En las citas del Corán, la traducción de Isa García usa «Dios» para referirse a Allah.)"
       },
       {
-        "quote": "¡Oh, creyentes! Crean en Dios, en Su Mensajero, en el Libro que fue revelado a Su Mensajero y en los Libros que fueron revelados en el pasado.",
-        "cite": "Corán 4:136"
-      },
-      {
-        "p": "Así que cuando amas y honras a Musa (Moisés) o a Isa (Jesús), la paz sea con ellos, no te estás saliendo del islam. Lo estás practicando."
+        "more": {
+          "title": "Las escrituras anteriores al Corán",
+          "blocks": [
+            {
+              "p": "Allah también pide a los creyentes que crean en las escrituras que reveló antes del Corán:"
+            },
+            {
+              "quote": "¡Oh, creyentes! Crean en Dios, en Su Mensajero, en el Libro que fue revelado a Su Mensajero y en los Libros que fueron revelados en el pasado.",
+              "cite": "Corán 4:136"
+            }
+          ]
+        }
       },
       {
         "h": "Profetas y mensajeros"
       },
       {
-        "p": "En árabe hay dos palabras. Un **nabi** es un profeta y un **rasul** es un mensajero. El Corán usa las dos, y describe a Musa con ambas a la vez: fue \"Profeta y Mensajero\" (Corán 19:51). Los sabios suelen explicar que todo mensajero es también profeta, pero no todo profeta es mensajero. No necesitas clasificarlos. Lo importante es que creas en todos ellos y los honres."
+        "p": "Un **nabi** es un profeta y un **rasul** es un mensajero. Los sabios suelen explicar que todo mensajero es también profeta, pero no todo profeta es mensajero."
       },
       {
-        "p": "¿Cuántos fueron? Más de los que conocemos. Allah le dijo al Profeta Muhammad:"
+        "p": "No necesitas clasificarlos. Lo importante es que creas en todos ellos y los honres."
       },
       {
-        "quote": "Envié otros Mensajeros antes de ti, de algunos de ellos te he relatado su historia, y de otros no te relaté su historia.",
-        "cite": "Corán 40:78"
+        "more": {
+          "title": "Más sobre profetas y mensajeros",
+          "blocks": [
+            {
+              "p": "El Corán usa las dos palabras, y describe a Musa con ambas a la vez: fue \"Profeta y Mensajero\" (Corán 19:51)."
+            },
+            {
+              "p": "¿Cuántos fueron? Más de los que conocemos. Allah le dijo al Profeta Muhammad:"
+            },
+            {
+              "quote": "Envié otros Mensajeros antes de ti, de algunos de ellos te he relatado su historia, y de otros no te relaté su historia.",
+              "cite": "Corán 40:78"
+            }
+          ]
+        }
       },
       {
         "h": "Los profetas nombrados en el Corán"
       },
       {
-        "p": "Los sabios suelen contar 25 profetas y mensajeros mencionados por su nombre en el Corán. Aquí están, con un lugar donde se nombra a cada uno:"
+        "p": "Los sabios suelen contar 25 profetas y mensajeros nombrados en el Corán. Aquí hay un lugar donde se nombra a cada uno:"
       },
       {
-        "ul": [
-          "En un solo pasaje, Allah nombra juntos a dieciocho de ellos: Ibrahim (Abraham), Ishaq (Isaac), Yaqub (Jacob), Nuh (Noé), Dawud (David), Sulayman (Salomón), Ayyub (Job), Yusuf (José), Musa (Moisés), Harun (Aarón), Zakariya (Zacarías), Yahya (Juan), Isa (Jesús), Ilyas (Elías), Ismail (Ismael), Al-Yasa (Eliseo), Yunus (Jonás) y Lut (Lot). Luego dice de ellos: \"A ellos les revelé los Libros y los agracié con la sabiduría y la profecía.\" (Corán 6:83-89).",
-          "Adán, el primer ser humano. El Corán dice que Allah lo escogió (Corán 3:33), y el Profeta Muhammad confirmó que Adán fue un profeta.",
-          "Idris, de quien el Corán dice: \"Fue un hombre veraz, y Profeta.\" (Corán 19:56).",
-          "Hud, Salih y Shu'ayb, enviados cada uno a su pueblo con las mismas palabras: \"¡Oh, pueblo mío! Adoren a Dios, pues no existe otra divinidad salvo Él.\" (Corán 7:65, 7:73, 7:85).",
-          "Dhul-Kifl, elogiado junto con Ismail e Idris porque \"fueron muy pacientes\" (Corán 21:85). Los sabios han debatido si fue un profeta o un hombre justo; en cualquier caso, el Corán lo honra.",
-          "Muhammad, \"el Mensajero de Dios y el sello de los Profetas\" (Corán 33:40)."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "users",
+              "label": "Dieciocho juntos",
+              "text": "Nombrados en un solo pasaje (Corán 6:83-89)"
+            },
+            {
+              "icon": "leaf",
+              "label": "Adán",
+              "text": "El primer ser humano, a quien Allah escogió (Corán 3:33)"
+            },
+            {
+              "icon": "star",
+              "label": "Idris",
+              "text": "\"Fue un hombre veraz, y Profeta.\" (Corán 19:56)"
+            },
+            {
+              "icon": "mountain",
+              "label": "Hud, Salih y Shu'ayb",
+              "text": "Enviados cada uno a su pueblo (Corán 7:65, 7:73, 7:85)"
+            },
+            {
+              "icon": "heart",
+              "label": "Dhul-Kifl",
+              "text": "Elogiado porque \"fueron muy pacientes\" (Corán 21:85)"
+            },
+            {
+              "icon": "book",
+              "label": "Muhammad",
+              "text": "\"el sello de los Profetas\" (Corán 33:40)"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Los detalles completos",
+          "blocks": [
+            {
+              "ul": [
+                "En un solo pasaje, Allah nombra juntos a dieciocho de ellos: Ibrahim (Abraham), Ishaq (Isaac), Yaqub (Jacob), Nuh (Noé), Dawud (David), Sulayman (Salomón), Ayyub (Job), Yusuf (José), Musa (Moisés), Harun (Aarón), Zakariya (Zacarías), Yahya (Juan), Isa (Jesús), Ilyas (Elías), Ismail (Ismael), Al-Yasa (Eliseo), Yunus (Jonás) y Lut (Lot). Luego dice de ellos: \"A ellos les revelé los Libros y los agracié con la sabiduría y la profecía.\" (Corán 6:83-89).",
+                "Adán, el primer ser humano. El Corán dice que Allah lo escogió (Corán 3:33), y el Profeta Muhammad confirmó que Adán fue un profeta.",
+                "Idris, de quien el Corán dice: \"Fue un hombre veraz, y Profeta.\" (Corán 19:56).",
+                "Hud, Salih y Shu'ayb, enviados cada uno a su pueblo con las mismas palabras: \"¡Oh, pueblo mío! Adoren a Dios, pues no existe otra divinidad salvo Él.\" (Corán 7:65, 7:73, 7:85).",
+                "Dhul-Kifl, elogiado junto con Ismail e Idris porque \"fueron muy pacientes\" (Corán 21:85). Los sabios han debatido si fue un profeta o un hombre justo; en cualquier caso, el Corán lo honra.",
+                "Muhammad, \"el Mensajero de Dios y el sello de los Profetas\" (Corán 33:40)."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "Un solo mensaje"
       },
       {
-        "p": "Los profetas vivieron en tierras y épocas distintas, pero todos llamaron a lo mismo:"
+        "p": "Vivieron en tierras y épocas distintas, pero todos llamaron a lo mismo:"
       },
       {
         "quote": "No envié en el pasado a ningún Mensajero, excepto que recibiera la misma revelación que tú: \"Nada ni nadie merece ser adorado excepto Yo, ¡Adórenme solo a Mí!\"",
         "cite": "Corán 21:25"
       },
       {
-        "p": "Los detalles de sus leyes podían ser diferentes. Allah dice: \"A cada [comunidad religiosa] le he dado una legislación y una metodología [norma].\" (Corán 5:48). Pero lo esencial nunca cambió: adorar solo a Allah. El Profeta Muhammad lo explicó con una imagen de la vida familiar:"
+        "compare": {
+          "first": {
+            "title": "Lo que cambió",
+            "items": [
+              "Los detalles de sus leyes (Corán 5:48)"
+            ]
+          },
+          "second": {
+            "title": "Lo que nunca cambió",
+            "items": [
+              "Adorar solo a Allah"
+            ]
+          }
+        }
       },
       {
-        "quote": "Los profetas son hermanos de padre: sus madres son distintas, pero su religión es una sola.",
-        "cite": "Sahih al-Bujari 3443 y Sahih Muslim 2365 (traducción del significado)"
-      },
-      {
-        "p": "Los hermanos que tienen el mismo padre y madres distintas comparten lo más importante. De la misma forma, los profetas comparten una sola religión, la adoración de Allah solo, aunque los detalles de sus leyes fueran diferentes."
+        "more": {
+          "title": "Los profetas son hermanos",
+          "blocks": [
+            {
+              "p": "El Profeta Muhammad lo explicó con una imagen de la vida familiar:"
+            },
+            {
+              "quote": "Los profetas son hermanos de padre: sus madres son distintas, pero su religión es una sola.",
+              "cite": "Sahih al-Bujari 3443 y Sahih Muslim 2365 (traducción del significado)"
+            },
+            {
+              "p": "Los hermanos que tienen el mismo padre y madres distintas comparten lo más importante. De la misma forma, los profetas comparten una sola religión, la adoración de Allah solo."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -306,14 +578,21 @@
         "h": "El último de los profetas"
       },
       {
-        "p": "La cadena de los profetas terminó con el Profeta Muhammad:"
+        "p": "La cadena de los profetas terminó con el Profeta Muhammad. Los sabios del tafsir (la explicación del Corán) explican que no habrá ningún profeta después de él hasta el Día del Juicio."
       },
       {
-        "quote": "Mujámmad no es el padre de ninguno de sus hombres, sino que es el Mensajero de Dios y el sello de los Profetas.",
-        "cite": "Corán 33:40"
+        "p": "Allah lo envió a toda la humanidad (Corán 34:28). Seguirlo a él es la manera de seguir a todos los profetas: trajo el mismo mensaje, en su forma final."
       },
       {
-        "p": "Los sabios del tafsir (la explicación del Corán) explican que no habrá ningún profeta después de él hasta el Día del Juicio. Su mensaje no es solo para un pueblo: Allah lo envió a toda la humanidad (Corán 34:28). Por eso hoy, seguirlo a él es la manera de seguir a todos los profetas. Él trajo el mismo mensaje que ellos, en su forma final."
+        "more": {
+          "title": "El versículo",
+          "blocks": [
+            {
+              "quote": "Mujámmad no es el padre de ninguno de sus hombres, sino que es el Mensajero de Dios y el sello de los Profetas.",
+              "cite": "Corán 33:40"
+            }
+          ]
+        }
       },
       {
         "key": "Todos los profetas enseñaron la misma verdad: adorar solo a Allah. El musulmán cree en todos ellos, los ama a todos y sigue al último de ellos, el Profeta Muhammad."
@@ -393,5 +672,22 @@
       "url": "https://quran.com/34/28"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=VxuZSt_3fB0",
+      "title": {
+        "en": "Stories of the prophets: introduction",
+        "ar": "قصص الأنبياء: مقدمة",
+        "es": "Historias de los profetas: introducción"
+      },
+      "by": {
+        "en": "Mufti Ismail Menk",
+        "ar": "المفتي إسماعيل منك",
+        "es": "Mufti Ismail Menk"
+      },
+      "seconds": 2334,
+      "series": "https://www.youtube.com/playlist?list=PLqicGmhT6Md1YuSfLR6S_01fQiVX92s3x"
+    }
+  ]
 }

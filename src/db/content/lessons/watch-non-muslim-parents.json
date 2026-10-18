@@ -1,0 +1,41 @@
+{
+  "slug": "watch-non-muslim-parents",
+  "minutes": 1,
+  "title": {
+    "en": "When your parents are not Muslim",
+    "ar": "إذا كان والداك غير مسلمَين",
+    "es": "Cuando tus padres no son musulmanes"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Short advice from Mufti Menk for Muslims whose parents are not Muslim."
+      }
+    ],
+    "ar": [
+      {
+        "p": "نصيحة قصيرة من المفتي إسماعيل منك لمن كان والداه غير مسلمَين."
+      }
+    ],
+    "es": [
+      {
+        "p": "Un breve consejo de Mufti Menk para quienes tienen padres que no son musulmanes."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=KWt0TzhFfpE",
+    "title": {
+      "en": "When your parents are not Muslim",
+      "ar": "إذا كان والداك غير مسلمَين",
+      "es": "Cuando tus padres no son musulmanes"
+    },
+    "by": {
+      "en": "Mufti Ismail Menk",
+      "ar": "المفتي إسماعيل منك",
+      "es": "Mufti Ismail Menk"
+    },
+    "seconds": 61
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useReducer, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight, Check, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -9,6 +9,7 @@ import { Notice } from "@/components/primer/Notice";
 import { Illustration } from "@/components/primer/Illustration";
 import { ProgressCells } from "@/components/primer/ProgressCells";
 import { localized, STAGE_STYLES, type LocalizedText, type StageKey } from "@/lib/stages";
+import { track } from "@/lib/analytics";
 
 export interface CheckQuestion {
   question: string;
@@ -80,19 +81,25 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
   const [summary, setSummary] = useState<Summary | null>(null);
   const [saved, setSaved] = useState(false);
   const [announcement, setAnnouncement] = useState("");
-  const [focusTarget, setFocusTarget] = useState<FocusTarget | null>(null);
+  const focusTargetRef = useRef<FocusTarget | null>(null);
+  const [, requestFocus] = useReducer((n: number) => n + 1, 0);
+  function setFocusTarget(target: FocusTarget) {
+    focusTargetRef.current = target;
+    requestFocus();
+  }
 
   const questionRef = useRef<HTMLHeadingElement>(null);
   const actionsRef = useRef<HTMLDivElement>(null);
   const summaryRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
+    const focusTarget = focusTargetRef.current;
     if (!focusTarget) return;
+    focusTargetRef.current = null;
     if (focusTarget === "question") questionRef.current?.focus();
     if (focusTarget === "summary") summaryRef.current?.focus();
     if (focusTarget === "actions") actionsRef.current?.querySelector<HTMLElement>("button, a")?.focus();
-    setFocusTarget(null);
-  }, [focusTarget]);
+  });
 
   const question = questions[current];
   const verdict = verdicts[current];
@@ -170,6 +177,11 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
       } else {
         data = await postJson(scoreUrl, { answers });
       }
+      track("knowledge_check_completed", {
+        lesson: slug,
+        score: data.correctCount,
+        total: data.totalQuestions,
+      });
       setSummary({
         correctCount: data.correctCount,
         totalQuestions: data.totalQuestions,

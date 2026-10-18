@@ -31,8 +31,9 @@ export function QuickCheckBlock({ question, options, correctIndex, explanation }
   }
 
   return (
-    <div>
-      <p id={questionId} className="font-semibold text-ink text-pretty">
+    <div className="rounded-[var(--radius-cell)] border border-rule bg-surface px-5 py-5 shadow-soft sm:px-6 sm:py-6">
+      <p className="text-meta font-semibold text-ink-3">{t("quickLabel")}</p>
+      <p id={questionId} className="mt-1.5 font-semibold text-ink text-pretty">
         {question}
       </p>
       <div role="group" aria-labelledby={questionId} className="mt-5 flex flex-col gap-3">

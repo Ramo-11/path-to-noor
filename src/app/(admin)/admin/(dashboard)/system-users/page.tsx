@@ -375,8 +375,12 @@ export default function SystemUsersPage() {
   const [deleteTarget, setDeleteTarget] = useState<SystemUser | null>(null);
   const [deleting, setDeleting] = useState(false);
 
-  function fetchUsers() {
+  function refreshUsers() {
     setLoading(true);
+    fetchUsers();
+  }
+
+  function fetchUsers() {
     fetch("/api/admin/users?roleFilter=admins_only")
       .then((res) => res.json())
       .then((data) => {
@@ -406,7 +410,7 @@ export default function SystemUsersPage() {
         return;
       }
 
-      fetchUsers();
+      refreshUsers();
       router.refresh();
     } catch {
       alert("Failed to delete user");
@@ -543,14 +547,14 @@ export default function SystemUsersPage() {
       <CreateModal
         open={createOpen}
         onClose={() => setCreateOpen(false)}
-        onCreated={fetchUsers}
+        onCreated={refreshUsers}
       />
 
       {editUser && (
         <EditModal
           user={editUser}
           onClose={() => setEditUser(null)}
-          onUpdated={fetchUsers}
+          onUpdated={refreshUsers}
         />
       )}
 

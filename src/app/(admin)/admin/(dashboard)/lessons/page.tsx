@@ -76,11 +76,11 @@ export default async function LessonsPage({
   const { data, pagination } = await getLessons(params);
 
   const serialized: LessonRow[] = data.map((l) => ({
-    _id: (l as any)._id.toString(),
-    titleEn: (l as any).title?.en || "",
-    titleAr: (l as any).title?.ar || "",
-    estimatedMinutes: (l as any).estimatedMinutes || 0,
-    published: (l as any).published || false,
+    _id: l._id.toString(),
+    titleEn: l.title?.en || "",
+    titleAr: l.title?.ar || "",
+    estimatedMinutes: l.estimatedMinutes || 0,
+    published: l.published || false,
   }));
 
   return (

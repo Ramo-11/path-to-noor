@@ -4,7 +4,7 @@ import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
 import { Lesson } from "@/db/models/Lesson";
 import { Quiz } from "@/db/models/Quiz";
-import { getClientIp, rateLimit } from "@/lib/rate-limit";
+import { getClientIp, rateLimitShared } from "@/lib/rate-limit";
 import { lessonAccess } from "@/components/lesson/lesson-access";
 import { answersFit, scoreQuiz } from "@/components/lesson/check-scoring";
 
@@ -13,7 +13,7 @@ const scoreSchema = z.object({
 });
 
 export async function POST(request: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
-  const limit = rateLimit(`quiz-score:${getClientIp(request.headers)}`, 120, 10 * 60 * 1000);
+  const limit = await rateLimitShared(`quiz-score:${getClientIp(request.headers)}`, 120, 10 * 60 * 1000);
   if (!limit.success) {
     return NextResponse.json({ error: "Too many requests. Please wait a moment." }, { status: 429 });
   }

@@ -1,5 +1,5 @@
-import { auth } from "@/lib/auth-config";
 import { redirect } from "next/navigation";
+import { getCurrentAdmin } from "@/lib/admin-auth";
 import { DashboardShell } from "./DashboardShell";
 
 export default async function DashboardLayout({
@@ -7,22 +7,16 @@ export default async function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const session = await auth();
+  const admin = await getCurrentAdmin();
 
-  if (!session?.user) {
-    redirect("/admin/login");
-  }
-
-  const isAdmin =
-    session.user.role === "admin" || session.user.role === "super_admin";
-  if (!isAdmin) {
+  if (!admin) {
     redirect("/admin/login");
   }
 
   return (
     <DashboardShell
-      userName={session.user.name || "Admin"}
-      userRole={session.user.role}
+      userName={admin.user.name || "Admin"}
+      userRole={admin.user.role}
     >
       {children}
     </DashboardShell>

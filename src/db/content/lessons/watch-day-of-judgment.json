@@ -1,0 +1,41 @@
+{
+  "slug": "watch-day-of-judgment",
+  "minutes": 23,
+  "title": {
+    "en": "The Day of Judgment and its signs",
+    "ar": "يوم القيامة وعلاماته",
+    "es": "El Día del Juicio y sus señales"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Yasir Qadhi describes the signs of the Day of Judgment and the events of that day."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يصف د. ياسر قاضي علامات يوم القيامة وما يقع فيه من أحداث."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Yasir Qadhi describe las señales del Día del Juicio y lo que ocurrirá ese día."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=RflrdrZ5NR0",
+    "title": {
+      "en": "The Day of Judgment and its signs",
+      "ar": "يوم القيامة وعلاماته",
+      "es": "El Día del Juicio y sus señales"
+    },
+    "by": {
+      "en": "Dr. Yasir Qadhi",
+      "ar": "د. ياسر قاضي",
+      "es": "Dr. Yasir Qadhi"
+    },
+    "seconds": 1363
+  }
+}

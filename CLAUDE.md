@@ -22,7 +22,7 @@ Trilingual (English/Arabic/Spanish) guided learning platform for new Muslims. St
 - `useTranslations()` (client), `getTranslations()` (server)
 - Locale-aware nav via `@/i18n/navigation` (Link, redirect, usePathname, useRouter)
 
-### Middleware
+### Proxy (middleware)
 - `/admin/*`, `/api/*` -> pass through
 - Everything else -> next-intl locale routing
 
@@ -42,7 +42,7 @@ Public routes allow unauthenticated browsing. Auth required for progress, bookma
 - `src/app/api/`: route handlers grouped as auth, admin, user, public, contact
 - `src/components/`: ui/, layout/, shared/, admin/
 - `src/db/models/`: one file per model
-- `src/i18n/` (routing.ts, request.ts, navigation.ts), `src/messages/`, `src/middleware.ts`
+- `src/i18n/` (routing.ts, request.ts, navigation.ts), `src/messages/`, `src/proxy.ts` (Next 16 name for middleware)
 
 ## Data Models
 - **User**: role, preferredLanguage, progress [{lessonId, completedAt}], bookmarks, optional `placement { stage, answers, takenAt }` from the level check
@@ -59,20 +59,26 @@ Public routes allow unauthenticated browsing. Auth required for progress, bookma
 - **RTL**: Use logical properties (`ps-`, `pe-`, `ms-`, `me-`, `start`, `end`) instead of `pl-`, `pr-`, `left`, `right`
 - **Admin pages**: Use regular `next/link` (no i18n needed)
 
+## Religious Content
+- Contested questions present the majority view of scholars, with a note at the bottom that scholars differ and this is the majority view. Establish the majority from a source that names it (qaf.ai first; IslamWeb, IslamQA, AMJA work too). With no evidenced majority, say so and give the cautious view. Consensus rulings get no "scholars differ" note.
+- Hadith: sahih or hasan only; if any recognized grader calls it weak, leave it out. Fetch every verse and hadith from a source, never from memory, check with an independent verifier, and log items for scholar review in `docs/content-review.md`. Same standard as `resources/guides/khutbah.md`.
+
 ## Learner Experience
 - Vocabulary shown to learners: Paths have Steps (the `Module` model) which have Lessons; Library (the `Topic` model); Knowledge check (the `Quiz` model); Saved (bookmarks); My journey (`/journey`); Talk to a mentor (`/mentor`). Old routes redirect in `next.config.ts`.
 - Level check at `/start`: scoring in `src/lib/placement.ts` (the server recomputes on save); guests keep the result in localStorage (`bd.placement`), `PlacementSync` copies it to the account after sign-in.
 - Path outlines, recommendations, and learner state: `src/lib/learning.ts` (server) and `src/lib/learning-types.ts` (client-safe types plus `pickRecommendedPath`).
-- Lesson content renders on the server through `src/components/lesson/LessonContent.tsx`; interactive blocks (`phraseCard`, `stepList`, `quickCheck`, `keyPoint`) are defined in `src/lib/lesson-blocks.ts` and edited in the admin TipTap editor.
+- Lesson content renders on the server through `src/components/lesson/LessonContent.tsx`; interactive blocks (`phraseCard`, `stepList`, `quickCheck`, `keyPoint`, plus the visual blocks `breakdown`, `compare`, `flow`, `timeline`, `facts`, `scenario`, and the collapsible `more`) are defined in `src/lib/lesson-blocks.ts`, rendered from `src/components/lesson/blocks/`, and edited in the admin TipTap editor. Lesson JSON shapes are checked by the importer.
+- Audio: `phrase.audio` (and `breakdown.audio`) holds one path or a list played in order. Quran recitation is Mishary Alafasy from everyayah.com at `public/audio/quran/SSSAAA.mp3`, only on cards holding complete ayahs. Other phrases are ElevenLabs voice Chaouki (`eleven_v3`, Arabic) at `public/audio/phrases/<lesson-slug>-<n>.mp3`, each checked by transcribing it back. Partial Quran verses get no audio (no AI voice on Quran). `--strict-audio` on the importer fails on a missing file. New phrase audio: load the ElevenLabs key (`~/codespace/sahab/.secrets/elevenlabs.env`), then `python3 scripts/lesson-audio.py list`, `quran` (downloads recitation), and `generate <paths to skip>` (skip partial Quran verses), which writes the files and the `audio` fields and prints a transcription match score per clip.
 - `npm run migrate:stages` maps legacy `difficulty` to `stage`; run once per database.
 
 ## Design System
 - Direction "A day of light" (2026-09-24, replaced "The First Primer"): the three stages are times of day, dawn coral (`stage1`), daylight green (`stage2`), evening indigo (`stage3`); deep blue `primary` pill buttons; gold `accent` for small highlights; soft tinted panels (`PageBanner`, `.glow-*`), `.card` with hairline border plus soft shadow. Tokens and utilities in `src/app/globals.css`; primitives in `src/components/primer/`. Full record in `DESIGN.md`.
 - Illustrations: `public/illustrations/<name>.webp` plus `-sm.webp`, mapped to places by `src/lib/illustrations.ts` (`STAGE_ART`, `pathArt`, `libraryArt`, `artTone`); prompts and the re-encode recipe in `docs/illustrations.md`. New paths and subjects fall back to shared art until given their own entry.
-- Copy rule: short. One sentence leads, nothing said twice, long optional detail behind `<details>`. Never reword lesson content, Quran, hadith, or legal text.
+- Copy rule: short. One sentence leads, nothing said twice, long optional detail behind a `more` block. Lessons favor visual blocks over paragraphs (Omar, 2026-10-17). Quran and hadith quotes and their citations are never reworded; lesson prose may be trimmed and restructured without changing any ruling.
+- No colored side-stripe accents on cards, quotes, or panels anywhere (Omar called them AI slop).
 - Fonts: Readex Pro (Latin and Arabic UI), Amiri (Arabic phrases).
 - App icons come from `resources/app-icons` using `docs/brand/mark.svg`; the generator does not detect this repo's nested root layout, so copy its outputs to `src/app/` by hand.
 - Admin panel keeps its older slate/primary styling.
 
 ## Admin Panel
-Sidebar: Dashboard, Topics, Learning Paths, Modules, Lessons, Quizzes, Stories, Mentorship, Users, System Users (super_admin only). See `src/components/admin/AdminSidebar.tsx`.
+Sidebar: Dashboard, Topics, Learning Paths, Modules, Lessons, Quizzes, Stories, Mentorship, Reports (learner lesson feedback), Users, System Users (super_admin only). See `src/components/admin/AdminSidebar.tsx`.

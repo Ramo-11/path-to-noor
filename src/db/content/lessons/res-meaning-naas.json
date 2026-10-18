@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-naas",
-  "minutes": 9,
+  "minutes": 4,
   "title": {
     "en": "The meaning of Surah An-Nas",
     "ar": "معاني سورة الناس",
@@ -9,29 +9,28 @@
   "body": {
     "en": [
       {
-        "p": "Surah An-Nas is the last surah of the Quran, and it closes the Quran with a request for protection. In Al-Falaq you asked for protection from harms around you. In An-Nas you ask for protection from something quieter: the whispers that try to reach your heart."
+        "p": "Surah An-Nas closes the Quran with a request for protection. In Al-Falaq you asked for protection from harms around you. Here you ask for protection from something quieter: the whispers that try to reach your heart."
       },
       {
         "h": "Verse by verse"
       },
       {
-        "p": "The English under each verse is the Saheeh International translation of the meaning. The explanations follow *Al-Tafsir al-Muyassar*, a short and widely used Arabic commentary."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
           "transliteration": "Qul a'oodhu / bi rabbin-naas",
-          "meaning": "Say, \"I seek refuge in the Lord of mankind,"
+          "meaning": "Say, \"I seek refuge in the Lord of mankind,",
+          "audio": "/audio/quran/114001.mp3"
         }
       },
       {
-        "p": "You seek refuge in Allah (the Arabic word for God, the One God) as the Lord of people, the One who alone is able to push away the harm of the whisperer."
+        "p": "You seek refuge in Allah (the Arabic word for God, the One God) as the Lord of people, the only One able to push away the harm of the whisperer."
       },
       {
         "phrase": {
           "arabic": "مَلِكِ ٱلنَّاسِ",
           "transliteration": "Malikin-naas",
-          "meaning": "The Sovereign of mankind."
+          "meaning": "The Sovereign of mankind.",
+          "audio": "/audio/quran/114002.mp3"
         }
       },
       {
@@ -41,27 +40,54 @@
         "phrase": {
           "arabic": "إِلَٰهِ ٱلنَّاسِ",
           "transliteration": "Ilaahin-naas",
-          "meaning": "The God of mankind,"
+          "meaning": "The God of mankind,",
+          "audio": "/audio/quran/114003.mp3"
         }
       },
       {
-        "p": "He is the God of people, the only one truly worthy of worship. Notice that you call on Allah with three titles, Lord, King and God, before you even say what you are seeking refuge from. You begin by remembering who you are turning to."
+        "p": "He is the God of people, the only one truly worthy of worship."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbi",
+              "meaning": "Lord"
+            },
+            {
+              "arabic": "مَلِكِ",
+              "transliteration": "Malik",
+              "meaning": "King"
+            },
+            {
+              "arabic": "إِلَٰهِ",
+              "transliteration": "Ilaah",
+              "meaning": "God"
+            }
+          ]
+        }
+      },
+      {
+        "p": "You call on Allah by three titles before you say what you seek refuge from. You begin by remembering who you are turning to."
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
           "transliteration": "Min sharril-waswaasil / khannaas",
-          "meaning": "From the evil of the retreating whisperer"
+          "meaning": "From the evil of the retreating whisperer",
+          "audio": "/audio/quran/114004.mp3"
         }
       },
       {
-        "p": "The whisperer is Satan (*Shaytan* in Arabic), who whispers when a person is heedless and forgets Allah. *Al-khannaas* means the one who retreats: he pulls back and hides when Allah is remembered."
+        "p": "The whisperer is Satan (*Shaytan* in Arabic), who whispers when a person forgets Allah. *Al-khannaas* means the one who retreats: he pulls back and hides when Allah is remembered."
       },
       {
         "phrase": {
           "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
           "transliteration": "Alladhee yuwaswisu / fee sudoorin-naas",
-          "meaning": "Who whispers [evil] into the breasts of mankind"
+          "meaning": "Who whispers [evil] into the breasts of mankind",
+          "audio": "/audio/quran/114005.mp3"
         }
       },
       {
@@ -71,68 +97,113 @@
         "phrase": {
           "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
           "transliteration": "Minal-jinnati wan-naas",
-          "meaning": "From among the jinn and mankind.\""
+          "meaning": "From among the jinn and mankind.\"",
+          "audio": "/audio/quran/114006.mp3"
         }
       },
       {
-        "p": "Whisperers come from among the jinn (a creation of Allah that we cannot see) and from among people too. Satan himself is from the jinn, and a person can also whisper harmful ideas into your ear."
+        "p": "Whisperers come from among the jinn (a creation of Allah that we cannot see) and from among people too."
       },
       {
         "h": "When whispers come"
       },
       {
-        "p": "Many new Muslims are troubled by sudden thoughts: doubts, bad ideas, or questions that feel frightening. If this happens to you, you are not alone, and the Prophet Muhammad, peace be upon him, gave calm and clear guidance. Abu Hurayrah, may Allah be pleased with him, reported that he said:"
+        "p": "Many new Muslims are troubled by sudden thoughts: doubts, bad ideas, or questions that feel frightening. You are not alone. Abu Hurayrah, may Allah be pleased with him, reported that the Prophet Muhammad, peace be upon him, said:"
       },
       {
         "quote": "Satan comes to one of you and says, 'Who created such and such, and who created such and such', until he says: 'Who created your Lord?' If a person experiences this, he should seek refuge with Allah and desist from that.",
         "cite": "Sahih al-Bukhari 3276 and Sahih Muslim 134"
       },
       {
-        "p": "So you do not have to argue with the whisper. Seek refuge in Allah, stop following the thought, and turn your attention to something else. A short phrase the Prophet taught for seeking refuge is:"
+        "flow": {
+          "title": "When a whisper comes",
+          "steps": [
+            {
+              "label": "Do not argue",
+              "text": "You do not have to argue with the whisper."
+            },
+            {
+              "label": "Seek refuge",
+              "text": "Seek refuge in Allah."
+            },
+            {
+              "label": "Stop",
+              "text": "Stop following the thought."
+            },
+            {
+              "label": "Turn away",
+              "text": "Turn your attention to something else."
+            }
+          ]
+        }
+      },
+      {
+        "p": "A short phrase the Prophet taught for seeking refuge is:"
       },
       {
         "phrase": {
           "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ",
           "transliteration": "A'oodhu billaahi minash-shaytaan",
-          "meaning": "I seek refuge with Allah from the devil"
+          "meaning": "I seek refuge with Allah from the devil",
+          "audio": "/audio/phrases/res-meaning-naas-1.mp3"
         }
       },
       {
-        "p": "Abu Hurayrah also reported that the Prophet said:"
+        "p": "A thought that passes through your mind is not held against you. What counts is what you choose to do and say. If whispers keep coming back and weigh on you, it can help to talk to a mentor or the imam of your local masjid."
       },
       {
-        "quote": "Allah has forgiven my Ummah for the thoughts that come to their minds, unless they act upon them or utter them.",
-        "cite": "Sahih al-Bukhari 5269 and Sahih Muslim 127"
-      },
-      {
-        "p": "*Ummah* means the Muslim community, and that includes you. A thought that passes through your mind is not held against you. What counts is what you choose to do and say. If whispers keep coming back and weigh on you, it can help to talk to a mentor or the imam of your local masjid."
+        "more": {
+          "title": "Thoughts you do not act on",
+          "blocks": [
+            {
+              "p": "Abu Hurayrah also reported that the Prophet said:"
+            },
+            {
+              "quote": "Allah has forgiven my Ummah for the thoughts that come to their minds, unless they act upon them or utter them.",
+              "cite": "Sahih al-Bukhari 5269 and Sahih Muslim 127"
+            },
+            {
+              "p": "*Ummah* means the Muslim community, and that includes you."
+            }
+          ]
+        }
       },
       {
         "h": "A gentle routine for the three surahs"
       },
       {
-        "p": "You now know Al-Ikhlas, Al-Falaq and An-Nas. Here is a simple way to keep them in your day, based on what the Prophet did and taught. Start with one part, and add the others when it feels natural."
+        "p": "Here is a simple way to keep the three surahs in your day, based on what the Prophet did and taught. Start with one part."
       },
       {
         "steps": {
           "title": "Daily routine with the three surahs",
           "steps": [
-            "In the morning: recite Al-Ikhlas, Al-Falaq and An-Nas, three times each.",
-            "In the evening: recite the same three surahs, three times each.",
+            "Morning: recite Al-Ikhlas, Al-Falaq and An-Nas, three times each.",
+            "Evening: the same three surahs, three times each.",
             "After each prayer: recite Al-Falaq and An-Nas.",
-            "Before you sleep: cup your palms together, blow lightly into them, recite the three surahs, then wipe your hands over your head, face and as much of your body as you can reach. Do this three times.",
-            "Whenever a whisper troubles you: seek refuge in Allah, and turn your attention to something else."
+            "Before you sleep: cup your palms, blow lightly into them, recite the three surahs, then wipe your hands over your head, face and as much of your body as you can reach. Three times.",
+            "When a whisper troubles you: seek refuge in Allah, and turn your attention to something else."
           ]
         }
       },
       {
-        "p": "If you miss a day, simply pick it up again the next. These surahs are yours now, and they will be there whenever you need them."
+        "p": "If you miss a day, simply pick it up again the next."
       },
       {
         "key": "When a whisper comes, you do not have to argue with it. Seek refuge in Allah and move on: the whisperer retreats when Allah is remembered."
       },
       {
-        "p": "You have completed this step: you can recite three surahs of the Quran and you know what they mean. Take the short knowledge check below to review what you learned."
+        "p": "You have completed this step: you can recite three surahs and you know what they mean. Take the short knowledge check below."
+      },
+      {
+        "more": {
+          "title": "About the translation",
+          "blocks": [
+            {
+              "p": "The English under each verse is the Saheeh International translation of the meaning. The explanations follow *Al-Tafsir al-Muyassar*, a short and widely used Arabic commentary."
+            }
+          ]
+        }
       }
     ],
     "ar": [
@@ -143,13 +214,11 @@
         "h": "الآيات آية آية"
       },
       {
-        "p": "نعتمد في شرح الآيات على «التفسير الميسر»، وهو تفسير مختصر سهل العبارة واسع الانتشار."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/114001.mp3"
         }
       },
       {
@@ -159,7 +228,8 @@
         "phrase": {
           "arabic": "مَلِكِ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/114002.mp3"
         }
       },
       {
@@ -169,17 +239,43 @@
         "phrase": {
           "arabic": "إِلَٰهِ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/114003.mp3"
         }
       },
       {
-        "p": "وهو إله الناس، الذي لا معبود بحق سواه. ولاحظ أنك تدعو الله بثلاثة أوصاف، الرب والملك والإله، قبل أن تذكر ما تستعيذ منه. فأنت تبدأ بتذكّر من تلجأ إليه."
+        "p": "وهو إله الناس، الذي لا معبود بحق سواه."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "",
+              "meaning": "رب"
+            },
+            {
+              "arabic": "مَلِكِ",
+              "transliteration": "",
+              "meaning": "ملك"
+            },
+            {
+              "arabic": "إِلَٰهِ",
+              "transliteration": "",
+              "meaning": "إله"
+            }
+          ]
+        }
+      },
+      {
+        "p": "ولاحظ أنك تدعو الله بثلاثة أوصاف، الرب والملك والإله، قبل أن تذكر ما تستعيذ منه. فأنت تبدأ بتذكّر من تلجأ إليه."
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/114004.mp3"
         }
       },
       {
@@ -189,7 +285,8 @@
         "phrase": {
           "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/114005.mp3"
         }
       },
       {
@@ -199,47 +296,82 @@
         "phrase": {
           "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
           "transliteration": "",
-          "meaning": ""
+          "meaning": "",
+          "audio": "/audio/quran/114006.mp3"
         }
       },
       {
-        "p": "والموسوسون يكونون من الجن، وهم خلق من خلق الله لا نراهم، ويكونون من الناس أيضا. فإبليس نفسه من الجن، وقد يوسوس إليك إنسان بفكرة ضارة كذلك."
+        "p": "والموسوسون يكونون من الجن، وهم خلق من خلق الله لا نراهم، ويكونون من الناس أيضا."
       },
       {
         "h": "حين تأتي الوساوس"
       },
       {
-        "p": "كثير من المسلمين الجدد تزعجهم أفكار مفاجئة: شكوك، أو خواطر سيئة، أو أسئلة مخيفة. فإن حدث لك ذلك فلست وحدك، وقد أرشد النبي محمد صلى الله عليه وسلم إلى علاج هادئ واضح. عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال:"
+        "p": "كثير من المسلمين الجدد تزعجهم أفكار مفاجئة: شكوك، أو خواطر سيئة، أو أسئلة مخيفة. فإن حدث لك ذلك فلست وحدك. عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال:"
       },
       {
         "quote": "«يَأْتِي الشَّيْطَانُ أَحَدَكُمْ فَيَقُولُ: مَنْ خَلَقَ كَذَا؟ مَنْ خَلَقَ كَذَا؟ حَتَّى يَقُولَ: مَنْ خَلَقَ رَبَّكَ؟ فَإِذَا بَلَغَهُ فَلْيَسْتَعِذْ بِاللهِ وَلْيَنْتَهِ»",
         "cite": "صحيح البخاري 3276 وصحيح مسلم 134"
       },
       {
-        "p": "فلا يلزمك أن تجادل الوسوسة. استعذ بالله، وتوقف عن الاسترسال مع الخاطر، واصرف انتباهك إلى شيء آخر. ومن الكلمات التي علّمها النبي صلى الله عليه وسلم للاستعاذة:"
+        "flow": {
+          "title": "حين تأتيك وسوسة",
+          "steps": [
+            {
+              "label": "لا تجادل",
+              "text": "لا يلزمك أن تجادل الوسوسة."
+            },
+            {
+              "label": "استعذ",
+              "text": "استعذ بالله."
+            },
+            {
+              "label": "توقف",
+              "text": "توقف عن الاسترسال مع الخاطر."
+            },
+            {
+              "label": "اصرف انتباهك",
+              "text": "اصرف انتباهك إلى شيء آخر."
+            }
+          ]
+        }
+      },
+      {
+        "p": "ومن الكلمات التي علّمها النبي صلى الله عليه وسلم للاستعاذة:"
       },
       {
         "phrase": {
           "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ",
           "transliteration": "",
-          "meaning": "ألتجئ إلى الله وأعتصم به من الشيطان."
+          "meaning": "ألتجئ إلى الله وأعتصم به من الشيطان.",
+          "audio": "/audio/phrases/res-meaning-naas-1.mp3"
         }
       },
       {
-        "p": "وعن أبي هريرة رضي الله عنه أيضا أن النبي صلى الله عليه وسلم قال:"
+        "p": "فالخاطر الذي يمر بذهنك لا تؤاخذ عليه، وإنما العبرة بما تختار أن تفعله وتقوله. وإن تكررت الوساوس وأثقلت عليك، فقد يفيدك أن تتحدث إلى مرشد أو إلى إمام المسجد القريب منك."
       },
       {
-        "quote": "«إِنَّ اللَّهَ تَجَاوَزَ عَنْ أُمَّتِي مَا حَدَّثَتْ بِهِ أَنْفُسَهَا، مَا لَمْ تَعْمَلْ أَوْ تَتَكَلَّمْ»",
-        "cite": "صحيح البخاري 5269 وصحيح مسلم 127"
-      },
-      {
-        "p": "وأنت من هذه الأمة. فالخاطر الذي يمر بذهنك لا تؤاخذ عليه، وإنما العبرة بما تختار أن تفعله وتقوله. وإن تكررت الوساوس وأثقلت عليك، فقد يفيدك أن تتحدث إلى مرشد أو إلى إمام المسجد القريب منك."
+        "more": {
+          "title": "أفكار لا تعمل بها",
+          "blocks": [
+            {
+              "p": "وعن أبي هريرة رضي الله عنه أيضا أن النبي صلى الله عليه وسلم قال:"
+            },
+            {
+              "quote": "«إِنَّ اللَّهَ تَجَاوَزَ عَنْ أُمَّتِي مَا حَدَّثَتْ بِهِ أَنْفُسَهَا، مَا لَمْ تَعْمَلْ أَوْ تَتَكَلَّمْ»",
+              "cite": "صحيح البخاري 5269 وصحيح مسلم 127"
+            },
+            {
+              "p": "وأنت من هذه الأمة."
+            }
+          ]
+        }
       },
       {
         "h": "برنامج لطيف للسور الثلاث"
       },
       {
-        "p": "أنت تعرف الآن سورة الإخلاص والفلق والناس. وهذه طريقة بسيطة تجعلها جزءا من يومك، مبنية على ما كان النبي صلى الله عليه وسلم يفعله ويعلّمه. ابدأ بجزء واحد، وأضف الباقي حين تشعر أن ذلك صار طبيعيا."
+        "p": "هذه طريقة بسيطة تجعل السور الثلاث جزءا من يومك، مبنية على ما كان النبي صلى الله عليه وسلم يفعله ويعلّمه. ابدأ بجزء واحد."
       },
       {
         "steps": {
@@ -254,30 +386,38 @@
         }
       },
       {
-        "p": "وإن فاتك يوم فعد إليها في اليوم التالي ببساطة. هذه السور صارت لك الآن، وستكون حاضرة كلما احتجت إليها."
+        "p": "وإن فاتك يوم فعد إليها في اليوم التالي ببساطة."
       },
       {
         "key": "حين تأتيك الوسوسة لا يلزمك أن تجادلها. استعذ بالله وامض في شأنك، فالوسواس يخنس عند ذكر الله."
       },
       {
-        "p": "لقد أتممت هذه المرحلة: صرت تحفظ ثلاث سور من القرآن وتعرف معانيها. خذ اختبار المعرفة القصير أدناه لتراجع ما تعلمته."
+        "p": "لقد أتممت هذه المرحلة: صرت تحفظ ثلاث سور من القرآن وتعرف معانيها. خذ اختبار المعرفة القصير أدناه."
+      },
+      {
+        "more": {
+          "title": "عن الشرح",
+          "blocks": [
+            {
+              "p": "نعتمد في شرح الآيات على «التفسير الميسر»، وهو تفسير مختصر سهل العبارة واسع الانتشار."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "La sura An-Nas es la última sura del Corán, y cierra el Corán con una petición de protección. En Al-Falaq pediste protección de los males que te rodean. En An-Nas pides protección de algo más silencioso: los susurros que intentan llegar a tu corazón."
+        "p": "La sura An-Nas cierra el Corán con una petición de protección. En Al-Falaq pediste protección de los males que te rodean. Aquí pides protección de algo más silencioso: los susurros que intentan llegar a tu corazón."
       },
       {
         "h": "Aleya por aleya"
       },
       {
-        "p": "El texto en español debajo de cada aleya es la traducción del significado de Isa García. Las explicaciones siguen *Al-Tafsir al-Muyassar*, un comentario del Corán en árabe, breve y muy utilizado."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
           "transliteration": "Qul a'uudhu / bi rabbin-naas",
-          "meaning": "Di: \"Me refugio en el Señor de los seres humanos,"
+          "meaning": "Di: \"Me refugio en el Señor de los seres humanos,",
+          "audio": "/audio/quran/114001.mp3"
         }
       },
       {
@@ -287,7 +427,8 @@
         "phrase": {
           "arabic": "مَلِكِ ٱلنَّاسِ",
           "transliteration": "Malikin-naas",
-          "meaning": "en el Rey Soberano de los seres humanos,"
+          "meaning": "en el Rey Soberano de los seres humanos,",
+          "audio": "/audio/quran/114002.mp3"
         }
       },
       {
@@ -297,17 +438,43 @@
         "phrase": {
           "arabic": "إِلَٰهِ ٱلنَّاسِ",
           "transliteration": "Ilaahin-naas",
-          "meaning": "en el [único] Dios de los seres humanos,"
+          "meaning": "en el [único] Dios de los seres humanos,",
+          "audio": "/audio/quran/114003.mp3"
         }
       },
       {
-        "p": "Él es el Dios de la gente, el único que de verdad merece ser adorado. Fíjate en que invocas a Allah con tres títulos, Señor, Rey y Dios, antes de decir siquiera de qué te refugias. Empiezas recordando a quién acudes."
+        "p": "Él es el Dios de la gente, el único que de verdad merece ser adorado."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbi",
+              "meaning": "Señor"
+            },
+            {
+              "arabic": "مَلِكِ",
+              "transliteration": "Malik",
+              "meaning": "Rey"
+            },
+            {
+              "arabic": "إِلَٰهِ",
+              "transliteration": "Ilaah",
+              "meaning": "Dios"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Invocas a Allah con tres títulos antes de decir siquiera de qué te refugias. Empiezas recordando a quién acudes."
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
           "transliteration": "Min sharril-waswaasil / jannaas",
-          "meaning": "de la maldad del [demonio] susurrador que huye [cuando el nombre de Dios es mencionado],"
+          "meaning": "de la maldad del [demonio] susurrador que huye [cuando el nombre de Dios es mencionado],",
+          "audio": "/audio/quran/114004.mp3"
         }
       },
       {
@@ -317,7 +484,8 @@
         "phrase": {
           "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
           "transliteration": "Al-ladhii yuwaswisu / fii suduurin-naas",
-          "meaning": "que susurra en los corazones de los seres humanos,"
+          "meaning": "que susurra en los corazones de los seres humanos,",
+          "audio": "/audio/quran/114005.mp3"
         }
       },
       {
@@ -327,47 +495,82 @@
         "phrase": {
           "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
           "transliteration": "Minal-yinnati wan-naas",
-          "meaning": "y existe entre los yinnes y entre los seres humanos\"."
+          "meaning": "y existe entre los yinnes y entre los seres humanos\".",
+          "audio": "/audio/quran/114006.mp3"
         }
       },
       {
-        "p": "Los susurradores pueden ser de los yinn (una creación de Allah que no podemos ver) y también de entre las personas. El propio Satanás es de los yinn, y una persona también puede susurrarte ideas dañinas al oído."
+        "p": "Los susurradores pueden ser de los yinn (una creación de Allah que no podemos ver) y también de entre las personas."
       },
       {
         "h": "Cuando llegan los susurros"
       },
       {
-        "p": "A muchos nuevos musulmanes les inquietan pensamientos repentinos: dudas, malas ideas o preguntas que asustan. Si te pasa, no estás solo, y el Profeta Muhammad, la paz sea con él, dio una guía tranquila y clara. Abu Huraira, que Allah esté complacido con él, narró que dijo:"
+        "p": "A muchos nuevos musulmanes les inquietan pensamientos repentinos: dudas, malas ideas o preguntas que asustan. Si te pasa, no estás solo. Abu Huraira, que Allah esté complacido con él, narró que el Profeta dijo:"
       },
       {
         "quote": "Satanás viene a uno de ustedes y le dice: ¿Quién creó tal cosa? ¿Quién creó tal otra?, hasta que le dice: ¿Quién creó a tu Señor? Cuando llegue a eso, que busque refugio en Allah y se detenga.",
         "cite": "Sahih al-Bujari 3276 y Sahih Muslim 134"
       },
       {
-        "p": "Así que no tienes que discutir con el susurro. Refúgiate en Allah, deja de seguir el pensamiento y dirige tu atención a otra cosa. Una frase breve que enseñó el Profeta para buscar refugio es:"
+        "flow": {
+          "title": "Cuando llega un susurro",
+          "steps": [
+            {
+              "label": "No discutas",
+              "text": "No tienes que discutir con el susurro."
+            },
+            {
+              "label": "Refúgiate",
+              "text": "Refúgiate en Allah."
+            },
+            {
+              "label": "Detente",
+              "text": "Deja de seguir el pensamiento."
+            },
+            {
+              "label": "Aparta la atención",
+              "text": "Dirige tu atención a otra cosa."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Una frase breve que enseñó el Profeta para buscar refugio es:"
       },
       {
         "phrase": {
           "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ",
           "transliteration": "A'uudhu bil-laahi minash-shaitaan",
-          "meaning": "Me refugio en Allah de Satanás."
+          "meaning": "Me refugio en Allah de Satanás.",
+          "audio": "/audio/phrases/res-meaning-naas-1.mp3"
         }
       },
       {
-        "p": "Abu Huraira también narró que el Profeta dijo:"
+        "p": "Un pensamiento que pasa por tu mente no se cuenta en tu contra. Lo que cuenta es lo que eliges hacer y decir. Si los susurros vuelven una y otra vez y te pesan, puede ayudarte hablar con un mentor o con el imam de tu mezquita local."
       },
       {
-        "quote": "Allah ha perdonado a mi comunidad lo que pasa por sus mentes, mientras no lo pongan en práctica ni lo digan.",
-        "cite": "Sahih al-Bujari 5269 y Sahih Muslim 127"
-      },
-      {
-        "p": "La comunidad (*Ummah*) de la que habla te incluye a ti. Un pensamiento que pasa por tu mente no se cuenta en tu contra. Lo que cuenta es lo que eliges hacer y decir. Si los susurros vuelven una y otra vez y te pesan, puede ayudarte hablar con un mentor o con el imam de tu mezquita local."
+        "more": {
+          "title": "Pensamientos que no pones en práctica",
+          "blocks": [
+            {
+              "p": "Abu Huraira también narró que el Profeta dijo:"
+            },
+            {
+              "quote": "Allah ha perdonado a mi comunidad lo que pasa por sus mentes, mientras no lo pongan en práctica ni lo digan.",
+              "cite": "Sahih al-Bujari 5269 y Sahih Muslim 127"
+            },
+            {
+              "p": "La comunidad (*Ummah*) de la que habla te incluye a ti."
+            }
+          ]
+        }
       },
       {
         "h": "Una rutina sencilla para las tres suras"
       },
       {
-        "p": "Ya conoces Al-Ijlás, Al-Falaq y An-Nas. Esta es una forma sencilla de mantenerlas en tu día, basada en lo que el Profeta hacía y enseñaba. Empieza con una parte y añade las demás cuando te resulte natural."
+        "p": "Esta es una forma sencilla de mantener las tres suras en tu día, basada en lo que el Profeta hacía y enseñaba. Empieza con una parte."
       },
       {
         "steps": {
@@ -382,13 +585,23 @@
         }
       },
       {
-        "p": "Si un día se te pasa, simplemente retómalo al día siguiente. Estas suras ya son tuyas y estarán ahí siempre que las necesites."
+        "p": "Si un día se te pasa, simplemente retómalo al día siguiente."
       },
       {
         "key": "Cuando llegue un susurro, no tienes que discutir con él. Refúgiate en Allah y sigue adelante: el susurrador se retira cuando se recuerda a Allah."
       },
       {
-        "p": "Has completado esta etapa: puedes recitar tres suras del Corán y sabes lo que significan. Haz la breve prueba de conocimientos de abajo para repasar lo que aprendiste."
+        "p": "Has completado esta etapa: puedes recitar tres suras del Corán y sabes lo que significan. Haz la breve prueba de conocimientos de abajo."
+      },
+      {
+        "more": {
+          "title": "Sobre la traducción",
+          "blocks": [
+            {
+              "p": "El texto en español debajo de cada aleya es la traducción del significado de Isa García. Las explicaciones siguen *Al-Tafsir al-Muyassar*, un comentario del Corán en árabe, breve y muy utilizado."
+            }
+          ]
+        }
       }
     ]
   },

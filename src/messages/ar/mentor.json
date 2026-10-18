@@ -36,5 +36,10 @@
   "noMentees": "لا يوجد متعلمون بعد",
   "noMenteesBody": "سيظهر هنا كل من يعيّنه فريقنا لك.",
   "assignedOn": "تم التعيين في {date}",
-  "menteesLoadError": "تعذّر تحميل قائمة المتعلمين. حاول مرة أخرى."
+  "menteesLoadError": "تعذّر تحميل قائمة المتعلمين. حاول مرة أخرى.",
+  "errorEmailUnverified": "من فضلك أكّد بريدك الإلكتروني قبل أن تطلب مرشدًا.",
+  "errorEmailUnverifiedLink": "اذهب إلى الإعدادات",
+  "errorAlreadyRequested": "لديك طلب مرشد بالفعل.",
+  "errorRevertOnly": "طلبات المرشدين مخصصة للمسلمين الجدد.",
+  "errorInvalid": "تحقّق من رسالتك وحاول مرة أخرى."
 }

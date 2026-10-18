@@ -25,22 +25,32 @@ export function MenteeList() {
   const [phase, setPhase] = useState<Phase>("loading");
   const [mentees, setMentees] = useState<Mentee[]>([]);
 
-  async function load() {
+  const [attempt, setAttempt] = useState(0);
+
+  function load() {
     setPhase("loading");
-    try {
-      const res = await fetch("/api/user/my-mentees");
-      if (!res.ok) throw new Error("failed");
-      const data = await res.json();
-      setMentees(data.data ?? []);
-      setPhase("ready");
-    } catch {
-      setPhase("error");
-    }
+    setAttempt((n) => n + 1);
   }
 
   useEffect(() => {
-    load();
-  }, []);
+    let cancelled = false;
+    fetch("/api/user/my-mentees")
+      .then((res) => {
+        if (!res.ok) throw new Error("failed");
+        return res.json();
+      })
+      .then((data) => {
+        if (cancelled) return;
+        setMentees(data.data ?? []);
+        setPhase("ready");
+      })
+      .catch(() => {
+        if (!cancelled) setPhase("error");
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [attempt]);
 
   if (phase === "loading") {
     return (

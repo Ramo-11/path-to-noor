@@ -1,0 +1,41 @@
+{
+  "slug": "watch-jinn",
+  "minutes": 114,
+  "title": {
+    "en": "The jinn in the Quran and Sunnah",
+    "ar": "الجن في القرآن والسنة",
+    "es": "Los yinn en el Corán y la Sunnah"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A detailed lecture by Dr. Yasir Qadhi on what the Quran and Sunnah teach about the jinn."
+      }
+    ],
+    "ar": [
+      {
+        "p": "محاضرة مفصّلة للدكتور ياسر قاضي عمّا جاء في القرآن والسنة عن الجن."
+      }
+    ],
+    "es": [
+      {
+        "p": "Una conferencia detallada del Dr. Yasir Qadhi sobre lo que enseñan el Corán y la Sunnah acerca de los yinn."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=ZzhSwxJQAFU",
+    "title": {
+      "en": "The jinn in the Quran and Sunnah",
+      "ar": "الجن في القرآن والسنة",
+      "es": "Los yinn en el Corán y la Sunnah"
+    },
+    "by": {
+      "en": "Dr. Yasir Qadhi",
+      "ar": "د. ياسر قاضي",
+      "es": "Dr. Yasir Qadhi"
+    },
+    "seconds": 6846
+  }
+}

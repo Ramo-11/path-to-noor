@@ -1,6 +1,6 @@
 {
   "slug": "quran-daily-habit",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "Building a daily Quran habit",
     "ar": "عادة يومية مع القرآن",
@@ -9,7 +9,7 @@
   "body": {
     "en": [
       {
-        "p": "You now know where the Quran came from, how to start reading it, and two passages that Muslims recite every night. The last step is the one that makes all of this last: a small daily habit. Not a big plan that falls apart after a week, but something gentle you can keep for life."
+        "p": "The step that makes all of this last is a small daily habit you can keep for life, not a big plan that falls apart after a week."
       },
       {
         "h": "Small and steady"
@@ -21,11 +21,25 @@
         "phrase": {
           "arabic": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ تَعَالَى أَدْوَمُهَا وَإِنْ قَلَّ",
           "transliteration": "Ahabbul-a'maali ilal-laahi ta'aalaa adwamuhaa wa in qall",
-          "meaning": "The acts most pleasing to Allah are those which are done continuously, even if they are small."
+          "meaning": "The acts most pleasing to Allah are those which are done continuously, even if they are small.",
+          "audio": "/audio/phrases/quran-daily-habit-1.mp3"
         }
       },
       {
-        "p": "Aisha, may Allah be pleased with her, who reported this hadith, would keep up any good deed once she started it. Ten minutes with the Quran every day, kept up for months, will carry you much further than one long session followed by weeks of nothing."
+        "compare": {
+          "first": {
+            "title": "Ten minutes every day",
+            "items": [
+              "Kept up for months, it carries you much further."
+            ]
+          },
+          "second": {
+            "title": "One long session",
+            "items": [
+              "Followed by weeks of nothing, it carries you less far."
+            ]
+          }
+        }
       },
       {
         "h": "Recite slowly"
@@ -38,7 +52,7 @@
         "cite": "Quran 73:4 (Saheeh International translation of the meaning)"
       },
       {
-        "p": "\"Measured recitation\" (*tartil*) means reciting calmly and without rushing, pronouncing the letters clearly and pausing in the right places. For you, this means quality over speed. Five verses read slowly, with their meaning, are a beautiful practice."
+        "p": "*Tartil* (\"measured recitation\") means reciting calmly, pronouncing the letters clearly and pausing in the right places. Five verses read slowly, with their meaning, are a beautiful practice."
       },
       {
         "h": "Listening counts too"
@@ -51,37 +65,47 @@
         "cite": "Quran 7:204 (Saheeh International translation of the meaning)"
       },
       {
-        "p": "Listen to a clear, trusted reciter while you commute, cook, or rest. Following the text with your eyes while you listen trains your ear and your reading at the same time."
+        "p": "Listen to a trusted reciter while you commute, cook, or rest, and follow the text with your eyes."
       },
       {
         "h": "Tie it to a prayer"
       },
       {
-        "p": "The easiest way to remember a new habit is to attach it to something you already do. You already pray five times a day. Choose one prayer, for example Fajr (the dawn prayer) or Isha (the night prayer), and give the Quran ten minutes right after it."
+        "p": "Attach the habit to something you already do. Choose one prayer, for example Fajr (the dawn prayer) or Isha (the night prayer), and give the Quran ten minutes right after it."
       },
       {
         "steps": {
           "title": "A 10-minute daily Quran routine",
           "steps": [
-            "Right after your chosen prayer, stay seated in your place.",
-            "Say *a'oodhu billaahi minash-shaytaanir-rajeem* (I seek refuge in Allah from Satan, the accursed), as you learned earlier in this step.",
-            "Listen to a short passage from a trusted reciter while following the text (about 2 minutes).",
-            "Recite the same verses yourself, slowly, even if you stumble (about 3 minutes).",
-            "Read the meaning of those verses in your language (about 3 minutes).",
-            "Choose one idea to think about today, and make a short dua (about 2 minutes).",
-            "Mark where you stopped, so you know where to begin tomorrow."
+            "Right after your chosen prayer, stay seated.",
+            "Say *a'oodhu billaahi minash-shaytaanir-rajeem* (I seek refuge in Allah from Satan, the accursed).",
+            "Listen to a short passage while following the text (about 2 minutes).",
+            "Recite the same verses slowly, even if you stumble (about 3 minutes).",
+            "Read their meaning in your language (about 3 minutes).",
+            "Pick one idea to think about, and make a short dua (about 2 minutes).",
+            "Mark where you stopped, for tomorrow."
           ]
         }
       },
       {
-        "p": "Once you have memorized something, such as Ayat al-Kursi, keep reviewing it. The Prophet said:"
+        "p": "Once you have memorized something, such as Ayat al-Kursi, keep reviewing it."
       },
       {
-        "quote": "Keep on reciting this Qur'an, for by the One in Whose Hand my soul is, the Qur'an slips away from memory faster than camels escaping their tying ropes.",
-        "cite": "Sahih al-Bukhari 5033 and Sahih Muslim 791 (agreed upon)"
+        "more": {
+          "title": "Why keep reviewing",
+          "blocks": [
+            {
+              "p": "The Prophet said:"
+            },
+            {
+              "quote": "Keep on reciting this Qur'an, for by the One in Whose Hand my soul is, the Qur'an slips away from memory faster than camels escaping their tying ropes.",
+              "cite": "Sahih al-Bukhari 5033 and Sahih Muslim 791 (agreed upon)"
+            }
+          ]
+        }
       },
       {
-        "p": "If you miss a day, do not give up and do not be hard on yourself. Simply come back the next day and continue from where you stopped. A habit is built by returning, not by never missing."
+        "p": "If you miss a day, do not give up. Come back the next day and continue from where you stopped. A habit is built by returning, not by never missing."
       },
       {
         "quick": {
@@ -99,12 +123,12 @@
         "key": "A small daily habit, tied to a prayer and kept up gently, is the heart of a lifelong bond with the Quran."
       },
       {
-        "p": "You have finished this step. Check what you have learned below, and then continue to the next step: the life of the Prophet Muhammad, peace be upon him."
+        "p": "You have finished this step. Check what you have learned below, then continue to the next step: the life of the Prophet Muhammad, peace be upon him."
       }
     ],
     "ar": [
       {
-        "p": "عرفت الآن من أين جاء القرآن، وكيف تبدأ قراءته، ومقطعين يقرؤهما المسلمون كل ليلة. والخطوة الأخيرة هي التي تجعل كل ذلك يدوم: عادة يومية صغيرة. لا خطة كبيرة تنهار بعد أسبوع، بل شيء هادئ تستطيع أن تحافظ عليه طوال حياتك."
+        "p": "الخطوة التي تجعل كل ذلك يدوم عادة يومية صغيرة تحافظ عليها طوال حياتك، لا خطة كبيرة تنهار بعد أسبوع."
       },
       {
         "h": "قليل دائم"
@@ -116,11 +140,25 @@
         "phrase": {
           "arabic": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ تَعَالَى أَدْوَمُهَا وَإِنْ قَلَّ",
           "transliteration": "Ahabbul-a'maali ilal-laahi ta'aalaa adwamuhaa wa in qall",
-          "meaning": "أحبّ الأعمال إلى الله ما داوم عليه صاحبه واستمر فيه، ولو كان قليلًا."
+          "meaning": "أحبّ الأعمال إلى الله ما داوم عليه صاحبه واستمر فيه، ولو كان قليلًا.",
+          "audio": "/audio/phrases/quran-daily-habit-1.mp3"
         }
       },
       {
-        "p": "وكانت عائشة رضي الله عنها، راوية هذا الحديث، إذا عملت عملًا صالحًا لزمته. فعشر دقائق مع القرآن كل يوم، تحافظ عليها شهورًا، تبلغ بك أبعد بكثير من جلسة طويلة يعقبها انقطاع أسابيع."
+        "compare": {
+          "first": {
+            "title": "عشر دقائق كل يوم",
+            "items": [
+              "إن حافظت عليها شهورًا بلغت بك أبعد بكثير."
+            ]
+          },
+          "second": {
+            "title": "جلسة طويلة واحدة",
+            "items": [
+              "يعقبها انقطاع أسابيع."
+            ]
+          }
+        }
       },
       {
         "h": "اقرأ بتمهّل"
@@ -133,7 +171,7 @@
         "cite": "سورة المزمل، الآية 4"
       },
       {
-        "p": "والترتيل أن تقرأ القرآن بتؤدة وتمهّل، مبيّنًا الحروف والوقوف. والمعنى لك: الجودة قبل السرعة، وخمس آيات تقرؤها بتمهّل وتفهم معناها عبادة جميلة."
+        "p": "والترتيل أن تقرأ القرآن بتؤدة وتمهّل، مبيّنًا الحروف والوقوف. وخمس آيات تقرؤها بتمهّل وتفهم معناها عبادة جميلة."
       },
       {
         "h": "الاستماع أيضًا"
@@ -146,37 +184,47 @@
         "cite": "سورة الأعراف، الآية 204"
       },
       {
-        "p": "أي استمعوا له وأنصتوا لتعقلوه، رجاء أن يرحمكم الله به. فاستمع إلى قارئ متقن في طريقك أو أثناء عملك في البيت أو في راحتك، وتابع النص بعينيك وأنت تستمع، فتتدرّب أذنك وقراءتك معًا."
+        "p": "استمع إلى قارئ متقن في طريقك أو أثناء عملك في البيت أو في راحتك، وتابع النص بعينيك."
       },
       {
         "h": "اربطها بصلاة"
       },
       {
-        "p": "أسهل طريقة لتذكّر عادة جديدة أن تربطها بشيء تفعله أصلًا، وأنت تصلي خمس مرات في اليوم. اختر صلاة واحدة، كالفجر أو العشاء، وخصّص للقرآن عشر دقائق بعدها مباشرة."
+        "p": "اربط العادة بشيء تفعله أصلًا. اختر صلاة واحدة، كالفجر أو العشاء، وخصّص للقرآن عشر دقائق بعدها مباشرة."
       },
       {
         "steps": {
           "title": "ورد يومي مع القرآن في عشر دقائق",
           "steps": [
             "بعد الصلاة التي اخترتها مباشرة، ابقَ جالسًا في مكانك.",
-            "قل: أعوذ بالله من الشيطان الرجيم، كما تعلّمت في هذه الخطوة.",
-            "استمع إلى مقطع قصير من قارئ متقن وأنت تتابع النص (نحو دقيقتين).",
-            "اقرأ الآيات نفسها بنفسك بتمهّل، ولو تعثّرت (نحو ثلاث دقائق).",
+            "قل: أعوذ بالله من الشيطان الرجيم.",
+            "استمع إلى مقطع قصير وأنت تتابع النص (نحو دقيقتين).",
+            "اقرأ الآيات نفسها بتمهّل، ولو تعثّرت (نحو ثلاث دقائق).",
             "اقرأ تفسيرًا ميسّرًا لهذه الآيات (نحو ثلاث دقائق).",
-            "اختر فكرة واحدة تتأملها اليوم، وادعُ بدعاء قصير (نحو دقيقتين).",
+            "اختر فكرة واحدة تتأملها، وادعُ بدعاء قصير (نحو دقيقتين).",
             "ضع علامة حيث توقفت، لتعرف من أين تبدأ غدًا."
           ]
         }
       },
       {
-        "p": "وإذا حفظت شيئًا، كآية الكرسي، فتعاهده بالمراجعة، قال النبي صلى الله عليه وسلم:"
+        "p": "وإذا حفظت شيئًا، كآية الكرسي، فتعاهده بالمراجعة."
       },
       {
-        "quote": "تَعَاهَدُوا هَذَا الْقُرْآنَ، فَوَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ لَهُوَ أَشَدُّ تَفَلُّتًا مِنَ الْإِبِلِ فِي عُقُلِهَا",
-        "cite": "صحيح البخاري 5033، وصحيح مسلم 791 (متفق عليه)"
+        "more": {
+          "title": "لماذا تراجع",
+          "blocks": [
+            {
+              "p": "قال النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "تَعَاهَدُوا هَذَا الْقُرْآنَ، فَوَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ لَهُوَ أَشَدُّ تَفَلُّتًا مِنَ الْإِبِلِ فِي عُقُلِهَا",
+              "cite": "صحيح البخاري 5033، وصحيح مسلم 791 (متفق عليه)"
+            }
+          ]
+        }
       },
       {
-        "p": "وإذا فاتك يوم فلا تستسلم ولا تقسُ على نفسك، بل عد في اليوم التالي وأكمل من حيث توقفت. فالعادة تُبنى بالرجوع، لا بعدم الانقطاع أبدًا."
+        "p": "وإذا فاتك يوم فلا تستسلم، بل عد في اليوم التالي وأكمل من حيث توقفت. فالعادة تُبنى بالرجوع، لا بعدم الانقطاع أبدًا."
       },
       {
         "quick": {
@@ -199,7 +247,7 @@
     ],
     "es": [
       {
-        "p": "Ya sabes de dónde vino el Corán, cómo empezar a leerlo y dos pasajes que los musulmanes recitan cada noche. El último paso es el que hace que todo esto dure: un pequeño hábito diario. No un gran plan que se derrumba después de una semana, sino algo sereno que puedas mantener toda la vida."
+        "p": "El paso que hace que todo esto dure es un pequeño hábito diario que puedas mantener toda la vida, no un gran plan que se derrumba después de una semana."
       },
       {
         "h": "Poco y constante"
@@ -211,11 +259,25 @@
         "phrase": {
           "arabic": "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ تَعَالَى أَدْوَمُهَا وَإِنْ قَلَّ",
           "transliteration": "Ahabbul-a'maali ilal-laahi ta'aalaa adwamuhaa wa in qall",
-          "meaning": "Las obras más amadas por Allah son las más constantes, aunque sean pocas."
+          "meaning": "Las obras más amadas por Allah son las más constantes, aunque sean pocas.",
+          "audio": "/audio/phrases/quran-daily-habit-1.mp3"
         }
       },
       {
-        "p": "Aisha, que Allah esté complacido con ella, quien transmitió este hadiz, mantenía cualquier buena obra una vez que la empezaba. Diez minutos con el Corán cada día, mantenidos durante meses, te llevarán mucho más lejos que una sesión larga seguida de semanas sin nada."
+        "compare": {
+          "first": {
+            "title": "Diez minutos cada día",
+            "items": [
+              "Mantenidos durante meses, te llevan mucho más lejos."
+            ]
+          },
+          "second": {
+            "title": "Una sesión larga",
+            "items": [
+              "Seguida de semanas sin nada, te lleva menos lejos."
+            ]
+          }
+        }
       },
       {
         "h": "Recita despacio"
@@ -228,7 +290,7 @@
         "cite": "Corán 73:4 (traducción del significado de Isa García)"
       },
       {
-        "p": "La recitación pausada (*tartil*) significa recitar con calma y sin prisa, pronunciando las letras con claridad y haciendo las pausas en su lugar. Para ti, esto significa calidad antes que velocidad. Cinco aleyas leídas despacio, con su significado, son una práctica hermosa."
+        "p": "La recitación pausada (*tartil*) significa recitar con calma, pronunciando las letras con claridad y haciendo las pausas en su lugar. Cinco aleyas leídas despacio, con su significado, son una práctica hermosa."
       },
       {
         "h": "Escuchar también cuenta"
@@ -241,37 +303,47 @@
         "cite": "Corán 7:204 (traducción del significado de Isa García)"
       },
       {
-        "p": "Escucha a un recitador claro y confiable mientras viajas, cocinas o descansas. Seguir el texto con la vista mientras escuchas entrena tu oído y tu lectura al mismo tiempo."
+        "p": "Escucha a un recitador confiable mientras viajas, cocinas o descansas, y sigue el texto con la vista."
       },
       {
         "h": "Únelo a una oración"
       },
       {
-        "p": "La forma más fácil de recordar un hábito nuevo es unirlo a algo que ya haces. Ya rezas cinco veces al día. Elige una oración, por ejemplo el Fayr (la oración del alba) o el Isha (la oración de la noche), y dale al Corán diez minutos justo después."
+        "p": "Une el hábito a algo que ya haces. Elige una oración, por ejemplo el Fayr (la oración del alba) o el Isha (la oración de la noche), y dale al Corán diez minutos justo después."
       },
       {
         "steps": {
           "title": "Una rutina diaria de 10 minutos con el Corán",
           "steps": [
-            "Justo después de la oración que elegiste, quédate sentado en tu lugar.",
-            "Di *a'oodhu billaahi minash-shaytaanir-rajeem* (me refugio en Allah de Satanás, el maldito), como aprendiste en este paso.",
-            "Escucha un pasaje corto de un recitador confiable mientras sigues el texto (unos 2 minutos).",
-            "Recita tú mismo esas aleyas, despacio, aunque tropieces (unos 3 minutos).",
-            "Lee el significado de esas aleyas en tu idioma (unos 3 minutos).",
-            "Elige una idea para pensar hoy y haz una dua breve (unos 2 minutos).",
-            "Marca dónde te detuviste, para saber dónde empezar mañana."
+            "Justo después de la oración que elegiste, quédate sentado.",
+            "Di *a'oodhu billaahi minash-shaytaanir-rajeem* (me refugio en Allah de Satanás, el maldito).",
+            "Escucha un pasaje corto mientras sigues el texto (unos 2 minutos).",
+            "Recita esas aleyas, despacio, aunque tropieces (unos 3 minutos).",
+            "Lee su significado en tu idioma (unos 3 minutos).",
+            "Elige una idea para pensar y haz una dua breve (unos 2 minutos).",
+            "Marca dónde te detuviste, para mañana."
           ]
         }
       },
       {
-        "p": "Cuando memorices algo, como Ayat al-Kursi, sigue repasándolo. El Profeta dijo:"
+        "p": "Cuando memorices algo, como Ayat al-Kursi, sigue repasándolo."
       },
       {
-        "quote": "Comprométanse con la recitación de este Corán, pues, por Aquel en cuya mano está el alma de Muhammad, se escapa más fácilmente que el camello de su atadura",
-        "cite": "Sahih al-Bujari 5033 y Sahih Muslim 791 (registrado por ambos)"
+        "more": {
+          "title": "Por qué seguir repasando",
+          "blocks": [
+            {
+              "p": "El Profeta dijo:"
+            },
+            {
+              "quote": "Comprométanse con la recitación de este Corán, pues, por Aquel en cuya mano está el alma de Muhammad, se escapa más fácilmente que el camello de su atadura",
+              "cite": "Sahih al-Bujari 5033 y Sahih Muslim 791 (registrado por ambos)"
+            }
+          ]
+        }
       },
       {
-        "p": "Si un día no lo haces, no te rindas y no seas duro contigo mismo. Simplemente vuelve al día siguiente y continúa desde donde te quedaste. Un hábito se construye volviendo, no por no fallar nunca."
+        "p": "Si un día no lo haces, no te rindas. Vuelve al día siguiente y continúa desde donde te quedaste. Un hábito se construye volviendo, no por no fallar nunca."
       },
       {
         "quick": {
@@ -466,6 +538,22 @@
         "ar": "قال النبي صلى الله عليه وسلم إن من قرأهما في ليلة كفتاه، والليل يبدأ من غروب الشمس.",
         "es": "El Profeta dijo que a quien las recita de noche le son suficientes, y la noche comienza con la puesta del sol."
       }
+    }
+  ],
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=35xP0j0Toz8",
+      "title": {
+        "en": "How to study the Quran",
+        "ar": "كيف تدرس القرآن",
+        "es": "Cómo estudiar el Corán"
+      },
+      "by": {
+        "en": "Nouman Ali Khan, Bayyinah",
+        "ar": "نعمان علي خان، Bayyinah",
+        "es": "Nouman Ali Khan, Bayyinah"
+      },
+      "seconds": 702
     }
   ]
 }

@@ -47,7 +47,7 @@ export async function PUT(request: NextRequest) {
   }
 
   try {
-    const parsed = updateProfileSchema.safeParse(await request.json());
+    const parsed = updateProfileSchema.safeParse(await request.json().catch(() => null));
     if (!parsed.success) {
       return NextResponse.json({ error: "invalid_input" }, { status: 400 });
     }

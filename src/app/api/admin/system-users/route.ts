@@ -3,38 +3,25 @@ import bcrypt from "bcrypt";
 import { requireSuperAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { createSystemUserSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   const auth = await requireSuperAdmin();
   if (!isAdminSession(auth)) return auth;
 
   try {
-    const { name, email, password, role } = await request.json();
-
-    if (!name || !email || !password) {
+    const parsed = createSystemUserSchema.safeParse(await request.json().catch(() => null));
+    if (!parsed.success) {
       return NextResponse.json(
-        { error: "Name, email, and password are required" },
+        { error: parsed.error.issues[0]?.message || "Invalid system user data" },
         { status: 400 }
       );
     }
-
-    if (password.length < 8) {
-      return NextResponse.json(
-        { error: "Password must be at least 8 characters" },
-        { status: 400 }
-      );
-    }
-
-    if (!["admin", "super_admin"].includes(role)) {
-      return NextResponse.json(
-        { error: "Role must be admin or super_admin" },
-        { status: 400 }
-      );
-    }
+    const { name, email, password, role } = parsed.data;
 
     await connectDB();
 
-    const existing = await User.findOne({ email: email.toLowerCase() });
+    const existing = await User.findOne({ email });
     if (existing) {
       return NextResponse.json(
         { error: "An account with this email already exists" },
@@ -45,12 +32,13 @@ export async function POST(request: NextRequest) {
     const hashedPassword = await bcrypt.hash(password, 12);
 
     const user = await User.create({
-      name: name.trim(),
-      email: email.toLowerCase().trim(),
+      name: name,
+      email: email,
       password: hashedPassword,
       role,
       isActive: true,
       preferredLanguage: "en",
+      emailVerified: new Date(),
     });
 
     return NextResponse.json(

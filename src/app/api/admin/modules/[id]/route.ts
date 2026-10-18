@@ -16,11 +16,11 @@ export async function GET(
 
   try {
     await connectDB();
-    const module = await Module.findById(id).populate("topics", "name slug");
-    if (!module) {
+    const moduleDoc = await Module.findById(id).populate("topics", "name slug");
+    if (!moduleDoc) {
       return NextResponse.json({ error: "Module not found" }, { status: 404 });
     }
-    return NextResponse.json({ data: module });
+    return NextResponse.json({ data: moduleDoc });
   } catch (error) {
     console.error(`[API] GET /admin/modules/${id} error:`, error);
     return NextResponse.json({ error: "Failed to fetch module" }, { status: 500 });
@@ -96,8 +96,8 @@ export async function DELETE(
   try {
     await connectDB();
 
-    const module = await Module.findById(id);
-    if (!module) {
+    const moduleDoc = await Module.findById(id);
+    if (!moduleDoc) {
       return NextResponse.json({ error: "Module not found" }, { status: 404 });
     }
 

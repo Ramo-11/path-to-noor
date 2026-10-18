@@ -1,0 +1,41 @@
+{
+  "slug": "watch-fasting-rules",
+  "minutes": 16,
+  "title": {
+    "en": "Fasting in Ramadan: the rules",
+    "ar": "صيام رمضان: الأحكام",
+    "es": "El ayuno de Ramadán: las normas"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Ustadh Hussain Sattar explains the rules of fasting in Ramadan and the lessons behind them."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يشرح الأستاذ حسين ستار أحكام صيام رمضان والدروس المستفادة منه."
+      }
+    ],
+    "es": [
+      {
+        "p": "El ustadh Hussain Sattar explica las normas del ayuno de Ramadán y las lecciones que encierra."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=J-FmSL7v2ZY",
+    "title": {
+      "en": "Fasting in Ramadan: the rules",
+      "ar": "صيام رمضان: الأحكام",
+      "es": "El ayuno de Ramadán: las normas"
+    },
+    "by": {
+      "en": "Ustadh Hussain Sattar, Al Rahmah Masjid",
+      "ar": "الأستاذ حسين ستار، مسجد الرحمة",
+      "es": "Ustadh Hussain Sattar, Al Rahmah Masjid"
+    },
+    "seconds": 989
+  }
+}

@@ -25,6 +25,10 @@ export const MESSAGE_NAMESPACES = [
   "contact",
   "legal",
   "system",
+  "verifyEmail",
+  "feedback",
+  "search",
+  "install",
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

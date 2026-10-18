@@ -34,7 +34,7 @@ const columns: Column<UserRow>[] = [
     key: "userType",
     header: "Type",
     render: (item) => {
-      if (!item.userType) return <span className="text-xs text-slate-400">—</span>;
+      if (!item.userType) return <span className="text-xs text-slate-400">None</span>;
       const colors = item.userType === "revert"
         ? "bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-400"
         : "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400";
@@ -93,7 +93,7 @@ export default async function UsersPage({
     _id: u._id.toString(),
     name: u.name,
     email: u.email,
-    userType: (u as any).userType,
+    userType: u.userType,
     isActive: u.isActive,
     preferredLanguage: u.preferredLanguage,
     createdAt: u.createdAt?.toISOString?.() || String(u.createdAt),

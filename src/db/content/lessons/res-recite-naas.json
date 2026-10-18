@@ -1,6 +1,6 @@
 {
   "slug": "res-recite-naas",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "How to recite Surah An-Nas",
     "ar": "كيف تقرأ سورة الناس",
@@ -9,29 +9,65 @@
   "body": {
     "en": [
       {
-        "p": "Surah An-Nas is the 114th and final chapter of the Quran. It has six short verses, and like Al-Falaq it is a request for the protection of Allah (the Arabic word for God, the One God). *An-Nas* means mankind, or people."
+        "p": "Surah An-Nas is the 114th and final chapter of the Quran. In its six short verses, like Al-Falaq, you ask for the protection of Allah. *An-Nas* means mankind, or people."
       },
       {
-        "p": "Al-Falaq and An-Nas are known together as **al-Mu'awwidhatayn**, the two surahs of seeking refuge. 'Uqbah ibn 'Amir, may Allah be pleased with him, reported that the Prophet Muhammad, peace be upon him, told him that verses had been revealed to him the like of which had never been seen, and that they were al-Mu'awwidhatayn."
+        "p": "Al-Falaq and An-Nas are known together as **al-Mu'awwidhatayn**, the two surahs of seeking refuge."
+      },
+      {
+        "more": {
+          "title": "A special gift",
+          "blocks": [
+            {
+              "p": "'Uqbah ibn 'Amir, may Allah be pleased with him, reported that the Prophet Muhammad, peace be upon him, told him that verses had been revealed to him the like of which had never been seen, and that they were al-Mu'awwidhatayn."
+            }
+          ]
+        }
       },
       {
         "h": "Before you start"
       },
       {
-        "p": "By now you know the method: listen, repeat, and add one verse at a time. Keep your listening companion close, a recording by any well-known reciter (the Quran.com page in the sources below has audio). If a sound does not come out right yet, keep going. Learning slowly is normal, and the Prophet said that the one who recites the Quran with difficulty, stumbling over it, has two rewards."
+        "p": "You know the method: listen, repeat, and add one verse at a time. If a sound does not come out right yet, keep going. Learning slowly is normal, and the Prophet said that the one who recites the Quran with difficulty, stumbling over it, has two rewards."
       },
       {
         "h": "Sounds to listen for"
       },
       {
-        "ul": [
-          "Every verse ends with the sound *naas*. When you stop on it, you can stretch the *aa* a little longer.",
-          "The doubled *nn* in *an-naas* is said with a light hum through the nose. Reciters call this *ghunnah*. Hold it for a moment.",
-          "The *kh* in *khannaas* is the rough throat sound you met in Al-Falaq.",
-          "The *s* in *sudoor* is a heavy s, said deeper in the mouth than an English s.",
-          "The *j* in *jinnati* is as in \"jam\".",
-          "*dh* in *Alladhee* is the soft \"th\" in \"this\"."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "naas",
+              "text": "Every verse ends with it. When you stop on it, you can stretch the aa a little longer."
+            },
+            {
+              "icon": "droplet",
+              "label": "nn",
+              "text": "The doubled nn in an-naas is said with a light hum through the nose. Reciters call this ghunnah. Hold it for a moment."
+            },
+            {
+              "icon": "message",
+              "label": "kh",
+              "text": "The rough throat sound you met in Al-Falaq, as in khannaas."
+            },
+            {
+              "icon": "sparkles",
+              "label": "s",
+              "text": "The s in sudoor is a heavy s, said deeper in the mouth than an English s."
+            },
+            {
+              "icon": "check",
+              "label": "j",
+              "text": "As in \"jam\", in jinnati."
+            },
+            {
+              "icon": "clock",
+              "label": "dh",
+              "text": "The soft \"th\" in \"this\", in Alladhee."
+            }
+          ]
+        }
       },
       {
         "h": "The opening: the basmala"
@@ -40,90 +76,117 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "Bismil-laahir / rahmaanir / raheem",
-          "meaning": "In the name of Allah, the Entirely Merciful, the Especially Merciful."
+          "meaning": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "The six verses"
       },
       {
-        "p": "The English under each verse is the Saheeh International translation of its meaning. The next lesson explains each verse."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
           "transliteration": "Qul a'oodhu / bi rabbin-naas",
-          "meaning": "Say, \"I seek refuge in the Lord of mankind,"
+          "meaning": "Say, \"I seek refuge in the Lord of mankind,",
+          "audio": "/audio/quran/114001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مَلِكِ ٱلنَّاسِ",
           "transliteration": "Malikin-naas",
-          "meaning": "The Sovereign of mankind."
+          "meaning": "The Sovereign of mankind.",
+          "audio": "/audio/quran/114002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "إِلَٰهِ ٱلنَّاسِ",
           "transliteration": "Ilaahin-naas",
-          "meaning": "The God of mankind,"
+          "meaning": "The God of mankind,",
+          "audio": "/audio/quran/114003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
           "transliteration": "Min sharril-waswaasil / khannaas",
-          "meaning": "From the evil of the retreating whisperer"
+          "meaning": "From the evil of the retreating whisperer",
+          "audio": "/audio/quran/114004.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
           "transliteration": "Alladhee yuwaswisu / fee sudoorin-naas",
-          "meaning": "Who whispers [evil] into the breasts of mankind"
+          "meaning": "Who whispers [evil] into the breasts of mankind",
+          "audio": "/audio/quran/114005.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
           "transliteration": "Minal-jinnati wan-naas",
-          "meaning": "From among the jinn and mankind.\""
+          "meaning": "From among the jinn and mankind.\"",
+          "audio": "/audio/quran/114006.mp3"
         }
       },
       {
-        "p": "Verses 1 to 3 follow a gentle pattern: *rabbin-naas*, *malikin-naas*, *ilaahin-naas*. Learn them as one group, and half the surah is done."
+        "p": "Verses 1 to 3 follow a gentle pattern: Lord, King, God. Learn them as one group, and half the surah is done."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbin",
+              "meaning": "Lord"
+            },
+            {
+              "arabic": "مَلِكِ",
+              "transliteration": "Malikin",
+              "meaning": "King"
+            },
+            {
+              "arabic": "إِلَٰهِ",
+              "transliteration": "Ilaahin",
+              "meaning": "God"
+            }
+          ]
+        }
       },
       {
         "steps": {
           "title": "Practice: learn it piece by piece",
           "steps": [
             "Listen to the whole surah once while following the transliteration.",
-            "Learn verses 1 to 3 as one group: rabbin-naas, malikin-naas, ilaahin-naas.",
+            "Learn verses 1 to 3 as one group.",
             "Add verse 4, then say verses 1 to 4 together.",
-            "Add verses 5 and 6, one at a time.",
-            "Recite the whole surah from the basmala to the end.",
-            "Now recite all three surahs in order: Al-Ikhlas, Al-Falaq, An-Nas.",
-            "Tomorrow, recite all three again before doing anything new."
+            "Add verses 5 and 6, one at a time, then recite the whole surah from the basmala.",
+            "Recite all three surahs in order: Al-Ikhlas, Al-Falaq, An-Nas. Tomorrow, recite all three again before doing anything new."
           ]
         }
       },
       {
-        "h": "If you get stuck"
-      },
-      {
-        "ul": [
-          "Mixing up verses 1 to 3? Remember the order Lord, King, God: *rabb*, *malik*, *ilaah*.",
-          "Verse 4 feels long? Say it in two halves: *min sharril-waswaasil*, then *khannaas*. Join them once each half feels easy.",
-          "Record yourself on your phone and compare it with the reciter. You will hear small differences more easily than while you are speaking.",
-          "Forgot a word? Look at the transliteration and carry on. Memory grows through repetition, not perfection."
-        ]
+        "more": {
+          "title": "If you get stuck",
+          "blocks": [
+            {
+              "ul": [
+                "Mixing up verses 1 to 3? Remember the order Lord, King, God: *rabb*, *malik*, *ilaah*.",
+                "Verse 4 feels long? Say it in two halves: *min sharril-waswaasil*, then *khannaas*. Join them once each half feels easy.",
+                "Record yourself on your phone and compare it with the reciter. You will hear small differences more easily than while you are speaking.",
+                "Forgot a word? Look at the transliteration and carry on. Memory grows through repetition, not perfection."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "Reciting it in your prayer"
       },
       {
-        "p": "Like the other two, An-Nas can be recited after Al-Fatiha in the first two rak'ahs (units) of your prayer, following the Prophet's practice of reciting Al-Fatiha and then another surah. You now have three surahs to choose from."
+        "p": "Like the other two, An-Nas can be recited after Al-Fatiha in the first two rak'ahs (units) of your prayer, following the Prophet's practice of reciting Al-Fatiha and then another surah."
       },
       {
         "quick": {
@@ -149,25 +212,57 @@
         "p": "سورة الناس هي السورة رقم 114 وآخر سور القرآن. آياتها ست قصيرات، وهي مثل سورة الفلق طلب للحماية من الله."
       },
       {
-        "p": "تُسمى سورتا الفلق والناس معا **المعوّذتين**. وقد أخبر النبي محمد صلى الله عليه وسلم عقبة بن عامر رضي الله عنه أنه أُنزلت عليه آيات لم يُر مثلهن قط، وهي المعوذتان."
+        "p": "تُسمى سورتا الفلق والناس معا **المعوّذتين**."
+      },
+      {
+        "more": {
+          "title": "هدية خاصة",
+          "blocks": [
+            {
+              "p": "وقد أخبر النبي محمد صلى الله عليه وسلم عقبة بن عامر رضي الله عنه أنه أُنزلت عليه آيات لم يُر مثلهن قط، وهي المعوذتان."
+            }
+          ]
+        }
       },
       {
         "h": "قبل أن تبدأ"
       },
       {
-        "p": "أنت تعرف الطريقة الآن: استمع، وردّد، وأضف آية واحدة في كل مرة. اجعل رفيقك في الاستماع قريبا منك، تلاوة أي قارئ معروف (في صفحة Quran.com المذكورة في المصادر تلاوة صوتية). وإن لم يخرج صوت ما كما ينبغي بعد، فاستمر. التعلم البطيء أمر طبيعي، وقد أخبر النبي صلى الله عليه وسلم أن الذي يقرأ القرآن ويتتعتع فيه وهو عليه شاق له أجران."
+        "p": "أنت تعرف الطريقة الآن: استمع، وردّد، وأضف آية واحدة في كل مرة. وإن لم يخرج صوت ما كما ينبغي بعد، فاستمر. التعلم البطيء أمر طبيعي، وقد أخبر النبي صلى الله عليه وسلم أن الذي يقرأ القرآن ويتتعتع فيه وهو عليه شاق له أجران."
       },
       {
         "h": "علامات تساعدك على القراءة"
       },
       {
-        "ul": [
-          "كل آيات السورة تنتهي بمقطع «ـنَّاسْ»، فإذا وقفت عليه جاز لك أن تمد الألف أطول قليلا من المد العادي.",
-          "النون المشددة في «ٱلنَّاسِ» و«ٱلْجِنَّةِ» تُنطق بغنّة، وهي صوت خفيف يخرج من الأنف، بمقدار حركتين.",
-          "همزة الوصل في أول «ٱلَّذِى» تُنطق همزة مفتوحة إذا بدأت بها الآية.",
-          "في «ٱلْوَسْوَاسِ ٱلْخَنَّاسِ» تصل الكلمتين، فتسقط همزة الوصل في الكلمة الثانية.",
-          "الياء في «فِى» تُمد هنا لأن الحرف الذي بعدها متحرك."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "نهاية الآيات",
+              "text": "كل آيات السورة تنتهي بمقطع «ـنَّاسْ»، فإذا وقفت عليه جاز لك أن تمد الألف أطول قليلا من المد العادي."
+            },
+            {
+              "icon": "droplet",
+              "label": "الغنّة",
+              "text": "النون المشددة في «ٱلنَّاسِ» و«ٱلْجِنَّةِ» تُنطق بغنّة، وهي صوت خفيف يخرج من الأنف، بمقدار حركتين."
+            },
+            {
+              "icon": "message",
+              "label": "همزة الوصل",
+              "text": "همزة الوصل في أول «ٱلَّذِى» تُنطق همزة مفتوحة إذا بدأت بها الآية."
+            },
+            {
+              "icon": "sparkles",
+              "label": "وصل الكلمتين",
+              "text": "في «ٱلْوَسْوَاسِ ٱلْخَنَّاسِ» تصل الكلمتين، فتسقط همزة الوصل في الكلمة الثانية."
+            },
+            {
+              "icon": "check",
+              "label": "الياء",
+              "text": "الياء في «فِى» تُمد هنا لأن الحرف الذي بعدها متحرك."
+            }
+          ]
+        }
       },
       {
         "h": "البداية: البسملة"
@@ -176,59 +271,84 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "",
-          "meaning": "أبدأ باسم الله مستعينا به، وهو الرحمن الذي وسعت رحمته الخلق كلهم، الرحيم بالمؤمنين."
+          "meaning": "أبدأ باسم الله مستعينا به، وهو الرحمن الذي وسعت رحمته الخلق كلهم، الرحيم بالمؤمنين.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "الآيات الست"
       },
       {
-        "p": "هذه هي السورة آية آية، ومع كل آية معنى مختصر، وفي الدرس القادم شرح أوفى."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": "قل: ألتجئ وأعتصم برب الناس."
+          "meaning": "قل: ألتجئ وأعتصم برب الناس.",
+          "audio": "/audio/quran/114001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مَلِكِ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": "ملك الناس المتصرف في كل شؤونهم."
+          "meaning": "ملك الناس المتصرف في كل شؤونهم.",
+          "audio": "/audio/quran/114002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "إِلَٰهِ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": "إله الناس الذي لا معبود بحق سواه."
+          "meaning": "إله الناس الذي لا معبود بحق سواه.",
+          "audio": "/audio/quran/114003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
           "transliteration": "",
-          "meaning": "من شر الشيطان الذي يوسوس، ويختفي عند ذكر الله."
+          "meaning": "من شر الشيطان الذي يوسوس، ويختفي عند ذكر الله.",
+          "audio": "/audio/quran/114004.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
           "transliteration": "",
-          "meaning": "الذي يلقي الشر والشكوك في صدور الناس."
+          "meaning": "الذي يلقي الشر والشكوك في صدور الناس.",
+          "audio": "/audio/quran/114005.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
           "transliteration": "",
-          "meaning": "من شياطين الجن والإنس."
+          "meaning": "من شياطين الجن والإنس.",
+          "audio": "/audio/quran/114006.mp3"
         }
       },
       {
-        "p": "الآيات من الأولى إلى الثالثة على نسق واحد لطيف: «بِرَبِّ ٱلنَّاسِ»، «مَلِكِ ٱلنَّاسِ»، «إِلَٰهِ ٱلنَّاسِ». احفظها مجموعة واحدة، فيكون نصف السورة قد تم."
+        "p": "الآيات من الأولى إلى الثالثة على نسق واحد لطيف. احفظها مجموعة واحدة، فيكون نصف السورة قد تم."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbin",
+              "meaning": "رب"
+            },
+            {
+              "arabic": "مَلِكِ",
+              "transliteration": "Malikin",
+              "meaning": "ملك"
+            },
+            {
+              "arabic": "إِلَٰهِ",
+              "transliteration": "Ilaahin",
+              "meaning": "إله"
+            }
+          ]
+        }
       },
       {
         "steps": {
@@ -237,29 +357,31 @@
             "استمع إلى السورة كاملة مرة واحدة وأنت تتابع النص.",
             "احفظ الآيات من الأولى إلى الثالثة مجموعة واحدة.",
             "أضف الآية الرابعة، ثم اقرأ الآيات من الأولى إلى الرابعة.",
-            "أضف الآيتين الخامسة والسادسة، كل واحدة وحدها.",
-            "اقرأ السورة كاملة من البسملة إلى آخرها.",
-            "اقرأ الآن السور الثلاث بالترتيب: الإخلاص، ثم الفلق، ثم الناس.",
-            "اقرأ السور الثلاث مرة أخرى غدا قبل أن تبدأ بشيء جديد."
+            "أضف الآيتين الخامسة والسادسة، كل واحدة وحدها، ثم اقرأ السورة كاملة من البسملة.",
+            "اقرأ السور الثلاث بالترتيب: الإخلاص، ثم الفلق، ثم الناس. واقرأها مرة أخرى غدا قبل أن تبدأ بشيء جديد."
           ]
         }
       },
       {
-        "h": "إذا تعثرت"
-      },
-      {
-        "ul": [
-          "تخلط بين الآيات الثلاث الأولى؟ تذكّر الترتيب: الرب، ثم الملك، ثم الإله.",
-          "تجد الآية الرابعة طويلة؟ اقرأها على نصفين: «مِن شَرِّ ٱلْوَسْوَاسِ» ثم «ٱلْخَنَّاسِ»، واجمعهما حين يسهل عليك كل نصف.",
-          "سجّل صوتك بهاتفك وقارنه بتلاوة القارئ، فستسمع الفروق الصغيرة أوضح مما تسمعها وأنت تقرأ.",
-          "نسيت كلمة؟ انظر في النص وأكمل. الحفظ ينمو بالتكرار لا بالكمال."
-        ]
+        "more": {
+          "title": "إذا تعثرت",
+          "blocks": [
+            {
+              "ul": [
+                "تخلط بين الآيات الثلاث الأولى؟ تذكّر الترتيب: الرب، ثم الملك، ثم الإله.",
+                "تجد الآية الرابعة طويلة؟ اقرأها على نصفين: «مِن شَرِّ ٱلْوَسْوَاسِ» ثم «ٱلْخَنَّاسِ»، واجمعهما حين يسهل عليك كل نصف.",
+                "سجّل صوتك بهاتفك وقارنه بتلاوة القارئ، فستسمع الفروق الصغيرة أوضح مما تسمعها وأنت تقرأ.",
+                "نسيت كلمة؟ انظر في النص وأكمل. الحفظ ينمو بالتكرار لا بالكمال."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "قراءتها في صلاتك"
       },
       {
-        "p": "مثل السورتين السابقتين، تستطيع أن تقرأ سورة الناس بعد الفاتحة في الركعتين الأوليين من صلاتك، اتباعا لما كان يفعله النبي صلى الله عليه وسلم من قراءة الفاتحة ثم سورة. وصار لديك الآن ثلاث سور تختار منها."
+        "p": "مثل السورتين السابقتين، تستطيع أن تقرأ سورة الناس بعد الفاتحة في الركعتين الأوليين من صلاتك، اتباعا لما كان يفعله النبي صلى الله عليه وسلم من قراءة الفاتحة ثم سورة."
       },
       {
         "quick": {
@@ -282,30 +404,65 @@
     ],
     "es": [
       {
-        "p": "La sura An-Nas es el capítulo 114 y el último del Corán. Tiene seis aleyas cortas y, como Al-Falaq, es una petición de protección a Allah (la palabra árabe para Dios, el Dios Único). *An-Nas* significa la humanidad, o la gente."
+        "p": "La sura An-Nas es el capítulo 114 y el último del Corán. En sus seis aleyas cortas, como en Al-Falaq, pides la protección de Allah. *An-Nas* significa la humanidad, o la gente."
       },
       {
-        "p": "A Al-Falaq y An-Nas juntas se les llama **al-Mu'awwidhatayn**, las dos suras de buscar refugio. Uqba ibn Amir, que Allah esté complacido con él, narró que el Profeta Muhammad, la paz sea con él, le dijo que le habían sido reveladas aleyas como nunca se habían visto otras iguales, y que eran al-Mu'awwidhatayn."
+        "p": "A Al-Falaq y An-Nas juntas se les llama **al-Mu'awwidhatayn**, las dos suras de buscar refugio."
+      },
+      {
+        "more": {
+          "title": "Un regalo especial",
+          "blocks": [
+            {
+              "p": "Uqba ibn Amir, que Allah esté complacido con él, narró que el Profeta Muhammad, la paz sea con él, le dijo que le habían sido reveladas aleyas como nunca se habían visto otras iguales, y que eran al-Mu'awwidhatayn."
+            }
+          ]
+        }
       },
       {
         "h": "Antes de empezar"
       },
       {
-        "p": "Ya conoces el método: escuchar, repetir y añadir una aleya cada vez. Ten cerca tu compañero de escucha, una grabación de cualquier recitador reconocido (la página de Quran.com en las fuentes tiene audio). Si algún sonido todavía no te sale bien, sigue adelante. Aprender despacio es normal, y el Profeta dijo que quien recita el Corán con dificultad, tropezando en él, tiene una recompensa doble."
+        "p": "Ya conoces el método: escuchar, repetir y añadir una aleya cada vez. Si algún sonido todavía no te sale bien, sigue adelante. Aprender despacio es normal, y el Profeta dijo que quien recita el Corán con dificultad, tropezando en él, tiene una recompensa doble."
       },
       {
         "h": "Sonidos a los que prestar atención"
       },
       {
-        "ul": [
-          "Cada aleya termina con el sonido *naas*. Cuando te detengas en él, puedes alargar un poco más la *aa*.",
-          "La *nn* doble de *an-naas* se dice con un ligero zumbido por la nariz. Los recitadores lo llaman *ghunnah*. Sostenlo un momento.",
-          "La *j* de *jannaas* es el sonido áspero de garganta que conociste en Al-Falaq.",
-          "La *s* de *suduur* es una s pesada, pronunciada más al fondo de la boca.",
-          "La *y* de *yinnati* suena fuerte, como la j inglesa de \"jam\".",
-          "La *dh* de *Al-ladhii* suena como la d suave de \"nada\".",
-          "La *h* siempre se pronuncia, suave y aspirada."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "naas",
+              "text": "Cada aleya termina con este sonido. Cuando te detengas en él, puedes alargar un poco más la aa."
+            },
+            {
+              "icon": "droplet",
+              "label": "nn",
+              "text": "La nn doble de an-naas se dice con un ligero zumbido por la nariz. Los recitadores lo llaman ghunnah. Sostenlo un momento."
+            },
+            {
+              "icon": "message",
+              "label": "j",
+              "text": "La j de jannaas es el sonido áspero de garganta que conociste en Al-Falaq."
+            },
+            {
+              "icon": "sparkles",
+              "label": "s",
+              "text": "La s de suduur es una s pesada, pronunciada más al fondo de la boca."
+            },
+            {
+              "icon": "check",
+              "label": "y",
+              "text": "La y de yinnati suena fuerte, como la j inglesa de \"jam\"."
+            },
+            {
+              "icon": "clock",
+              "label": "dh y h",
+              "text": "La dh de Al-ladhii suena como la d suave de \"nada\". La h siempre se pronuncia, suave y aspirada."
+            }
+          ]
+        }
       },
       {
         "h": "El comienzo: la basmala"
@@ -314,90 +471,117 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "Bismil-laahir / rahmaanir / rahiim",
-          "meaning": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes."
+          "meaning": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "Las seis aleyas"
       },
       {
-        "p": "El texto en español debajo de cada aleya es la traducción del significado de Isa García. La próxima lección explica cada aleya."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
           "transliteration": "Qul a'uudhu / bi rabbin-naas",
-          "meaning": "Di: \"Me refugio en el Señor de los seres humanos,"
+          "meaning": "Di: \"Me refugio en el Señor de los seres humanos,",
+          "audio": "/audio/quran/114001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مَلِكِ ٱلنَّاسِ",
           "transliteration": "Malikin-naas",
-          "meaning": "en el Rey Soberano de los seres humanos,"
+          "meaning": "en el Rey Soberano de los seres humanos,",
+          "audio": "/audio/quran/114002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "إِلَٰهِ ٱلنَّاسِ",
           "transliteration": "Ilaahin-naas",
-          "meaning": "en el [único] Dios de los seres humanos,"
+          "meaning": "en el [único] Dios de los seres humanos,",
+          "audio": "/audio/quran/114003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
           "transliteration": "Min sharril-waswaasil / jannaas",
-          "meaning": "de la maldad del [demonio] susurrador que huye [cuando el nombre de Dios es mencionado],"
+          "meaning": "de la maldad del [demonio] susurrador que huye [cuando el nombre de Dios es mencionado],",
+          "audio": "/audio/quran/114004.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
           "transliteration": "Al-ladhii yuwaswisu / fii suduurin-naas",
-          "meaning": "que susurra en los corazones de los seres humanos,"
+          "meaning": "que susurra en los corazones de los seres humanos,",
+          "audio": "/audio/quran/114005.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
           "transliteration": "Minal-yinnati wan-naas",
-          "meaning": "y existe entre los yinnes y entre los seres humanos\"."
+          "meaning": "y existe entre los yinnes y entre los seres humanos\".",
+          "audio": "/audio/quran/114006.mp3"
         }
       },
       {
-        "p": "Las aleyas 1 a 3 siguen un patrón suave: *rabbin-naas*, *malikin-naas*, *ilaahin-naas*. Apréndelas como un solo grupo y tendrás la mitad de la sura."
+        "p": "Las aleyas 1 a 3 siguen un patrón suave: Señor, Rey, Dios. Apréndelas como un solo grupo y tendrás la mitad de la sura."
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "بِرَبِّ",
+              "transliteration": "bi rabbin",
+              "meaning": "Señor"
+            },
+            {
+              "arabic": "مَلِكِ",
+              "transliteration": "Malikin",
+              "meaning": "Rey"
+            },
+            {
+              "arabic": "إِلَٰهِ",
+              "transliteration": "Ilaahin",
+              "meaning": "Dios"
+            }
+          ]
+        }
       },
       {
         "steps": {
           "title": "Práctica: apréndela poco a poco",
           "steps": [
             "Escucha la sura completa una vez mientras sigues la transliteración.",
-            "Aprende las aleyas 1 a 3 como un solo grupo: rabbin-naas, malikin-naas, ilaahin-naas.",
+            "Aprende las aleyas 1 a 3 como un solo grupo.",
             "Añade la aleya 4 y di juntas las aleyas 1 a 4.",
-            "Añade las aleyas 5 y 6, una por una.",
-            "Recita la sura completa desde la basmala hasta el final.",
-            "Ahora recita las tres suras en orden: Al-Ijlás, Al-Falaq, An-Nas.",
-            "Mañana, recita las tres otra vez antes de hacer algo nuevo."
+            "Añade las aleyas 5 y 6, una por una, y luego recita la sura completa desde la basmala.",
+            "Recita las tres suras en orden: Al-Ijlás, Al-Falaq, An-Nas. Mañana, recita las tres otra vez antes de hacer algo nuevo."
           ]
         }
       },
       {
-        "h": "Si te atascas"
-      },
-      {
-        "ul": [
-          "¿Confundes las aleyas 1 a 3? Recuerda el orden Señor, Rey, Dios: *rabb*, *malik*, *ilaah*.",
-          "¿La aleya 4 se te hace larga? Dila en dos mitades: *min sharril-waswaasil*, y luego *jannaas*. Únelas cuando cada mitad te resulte fácil.",
-          "Grábate con el teléfono y compárate con el recitador. Oirás las pequeñas diferencias con más facilidad que mientras hablas.",
-          "¿Se te olvidó una palabra? Mira la transliteración y sigue. La memoria crece con la repetición, no con la perfección."
-        ]
+        "more": {
+          "title": "Si te atascas",
+          "blocks": [
+            {
+              "ul": [
+                "¿Confundes las aleyas 1 a 3? Recuerda el orden Señor, Rey, Dios: *rabb*, *malik*, *ilaah*.",
+                "¿La aleya 4 se te hace larga? Dila en dos mitades: *min sharril-waswaasil*, y luego *jannaas*. Únelas cuando cada mitad te resulte fácil.",
+                "Grábate con el teléfono y compárate con el recitador. Oirás las pequeñas diferencias con más facilidad que mientras hablas.",
+                "¿Se te olvidó una palabra? Mira la transliteración y sigue. La memoria crece con la repetición, no con la perfección."
+              ]
+            }
+          ]
+        }
       },
       {
         "h": "Recitarla en tu oración"
       },
       {
-        "p": "Como las otras dos, puedes recitar An-Nas después de Al-Fátiha en las dos primeras rak'as (unidades) de tu oración, siguiendo la práctica del Profeta de recitar Al-Fátiha y luego otra sura. Ahora tienes tres suras para elegir."
+        "p": "Como las otras dos, puedes recitar An-Nas después de Al-Fátiha en las dos primeras rak'as (unidades) de tu oración, siguiendo la práctica del Profeta de recitar Al-Fátiha y luego otra sura."
       },
       {
         "quick": {

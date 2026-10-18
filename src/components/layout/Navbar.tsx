@@ -2,12 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import NextLink from "next/link";
 import { useSession, signOut } from "next-auth/react";
 import { Link, usePathname } from "@/i18n/navigation";
-import { Bookmark, Handshake, LogOut, Settings, Shield, User } from "lucide-react";
+import { Bookmark, Handshake, LogOut, Search, Settings, Shield, User } from "lucide-react";
 import { Button } from "@/components/primer/Button";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
 import { BrandMark } from "@/components/layout/BrandMark";
+import { useMounted } from "@/lib/use-mounted";
+import { clearOfflinePages } from "@/components/pwa/offline-cache";
 
 const NAV_LINKS = [
   { href: "/paths", key: "paths" },
@@ -36,13 +39,9 @@ export function Navbar() {
   const locale = useLocale() as (typeof LOCALES)[number];
   const pathname = usePathname();
   const { data: session, status } = useSession();
-  const [mounted, setMounted] = useState(false);
+  const mounted = useMounted();
   const [langOpen, setLangOpen] = useState(false);
   const [accountOpen, setAccountOpen] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -71,10 +70,10 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-40 h-16 border-b border-rule bg-page">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <div className="flex h-full items-center gap-8">
-          <Link href="/" className="flex items-center gap-2.5 whitespace-nowrap text-[19px] font-semibold text-ink">
+        <div className="flex h-full items-center gap-4 md:gap-6 lg:gap-8">
+          <Link href="/" className="flex min-h-11 items-center gap-2.5 whitespace-nowrap text-[19px] font-semibold text-ink">
             <BrandMark />
-            {t("wordmark")}
+            <span className="max-sm:sr-only">{t("wordmark")}</span>
           </Link>
 
           <div className="hidden h-full items-center gap-1 md:flex">
@@ -85,7 +84,7 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   aria-current={active ? "page" : undefined}
-                  className={`flex h-9 items-center rounded-full px-3.5 text-[0.9375rem] font-medium transition-colors duration-150 ${
+                  className={`flex h-11 items-center rounded-full px-4 text-[0.9375rem] font-medium transition-colors duration-150 ${
                     active
                       ? "bg-primary-tint text-primary"
                       : "text-ink-2 hover:bg-wash hover:text-ink"
@@ -98,7 +97,15 @@ export function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center gap-1 sm:gap-2">
+        <div className="flex items-center gap-0.5 sm:gap-1">
+          <Link
+            href="/search"
+            aria-label={t("search")}
+            className="inline-flex size-11 shrink-0 items-center justify-center rounded-full text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
+          >
+            <Search className="size-5" strokeWidth={1.75} aria-hidden="true" />
+          </Link>
+
           <div className="relative">
             <button
               type="button"
@@ -109,7 +116,7 @@ export function Navbar() {
               aria-label={t("languageMenu")}
               aria-haspopup="menu"
               aria-expanded={langOpen}
-              className="inline-flex h-10 min-w-10 items-center justify-center rounded-full px-2.5 text-[0.8125rem] font-semibold tabular text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
+              className="inline-flex size-11 items-center justify-center rounded-full text-[0.8125rem] font-semibold tabular text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
             >
               {LOCALE_CODES[locale] ?? locale.toUpperCase()}
             </button>
@@ -133,7 +140,7 @@ export function Navbar() {
                       locale={l}
                       onClick={() => setLangOpen(false)}
                       aria-current={l === locale ? "true" : undefined}
-                      className={`block rounded-[var(--radius-control)] px-3 py-2 text-[0.9375rem] transition-colors duration-150 ${
+                      className={`flex min-h-11 items-center rounded-[var(--radius-control)] px-3 text-[0.9375rem] transition-colors duration-150 ${
                         l === locale ? "bg-primary-tint font-medium text-primary" : "text-ink-2 hover:bg-wash hover:text-ink"
                       }`}
                     >
@@ -151,12 +158,12 @@ export function Navbar() {
           />
 
           {isLoading ? (
-            <div className="h-9 w-24 animate-pulse rounded-full bg-wash" aria-hidden="true" />
+            <div className="h-11 w-24 animate-pulse rounded-full bg-wash" aria-hidden="true" />
           ) : isLoggedIn ? (
             <>
               <Link
                 href="/journey"
-                className="hidden h-9 items-center rounded-full px-3.5 text-[0.9375rem] font-medium text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink md:inline-flex"
+                className="hidden h-11 items-center whitespace-nowrap rounded-full px-4 text-[0.9375rem] font-medium text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink md:inline-flex"
               >
                 {t("myJourney")}
               </Link>
@@ -171,7 +178,7 @@ export function Navbar() {
                   aria-label={t("accountMenu")}
                   aria-haspopup="menu"
                   aria-expanded={accountOpen}
-                  className="inline-flex h-10 items-center gap-2 rounded-full px-1.5 text-[0.9375rem] font-medium text-ink transition-colors duration-150 hover:bg-wash lg:pe-3"
+                  className="inline-flex h-11 items-center gap-2 rounded-full px-1.5 text-[0.9375rem] font-medium text-ink transition-colors duration-150 hover:bg-wash lg:pe-3"
                 >
                   <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-[0.8125rem] font-semibold text-on-primary">
                     {initial}
@@ -206,22 +213,24 @@ export function Navbar() {
                         </Link>
                       ))}
                       {isAdmin ? (
-                        <a
+                        <NextLink
                           role="menuitem"
                           href="/admin"
+                          prefetch={false}
                           className="flex items-center gap-3 rounded-[var(--radius-control)] px-3 py-2.5 text-[0.9375rem] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
                         >
                           <Shield className="size-4 shrink-0" strokeWidth={1.75} aria-hidden="true" />
                           {t("adminPortal")}
-                        </a>
+                        </NextLink>
                       ) : null}
                       <div className="my-1.5 border-t border-rule" />
                       <button
                         type="button"
                         role="menuitem"
-                        onClick={() => {
+                        onClick={async () => {
                           setAccountOpen(false);
-                          signOut({ callbackUrl: `/${locale}` });
+                          await clearOfflinePages();
+                          await signOut({ callbackUrl: `/${locale}` });
                         }}
                         className="flex w-full items-center gap-3 rounded-[var(--radius-control)] px-3 py-2.5 text-start text-[0.9375rem] text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
                       >
@@ -235,10 +244,13 @@ export function Navbar() {
             </>
           ) : (
             <>
-              <Button href="/login" variant="quiet" size="md">
+              <Link
+                href="/login"
+                className="inline-flex h-11 items-center whitespace-nowrap rounded-full px-3 text-[0.9375rem] font-medium text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink sm:px-4"
+              >
                 {t("signIn")}
-              </Button>
-              <span className="hidden lg:inline-flex">
+              </Link>
+              <span className="ms-2 hidden lg:inline-flex">
                 <Button href="/start" variant="primary" size="md">
                   {t("findStart")}
                 </Button>

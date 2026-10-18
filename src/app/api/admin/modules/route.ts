@@ -63,10 +63,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const module = await Module.create(result.data);
+    const moduleDoc = await Module.create(result.data);
 
     return NextResponse.json(
-      { data: module, message: "Module created successfully" },
+      { data: moduleDoc, message: "Module created successfully" },
       { status: 201 }
     );
   } catch (error) {

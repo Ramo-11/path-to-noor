@@ -1,6 +1,6 @@
 {
   "slug": "hadith-what-is-sunnah",
-  "minutes": 7,
+  "minutes": 3,
   "title": {
     "en": "What are the Sunnah and hadith?",
     "ar": "ما السنة وما الحديث؟",
@@ -9,16 +9,57 @@
   "body": {
     "en": [
       {
-        "p": "You pray five times a day, but the Quran does not describe every movement of the prayer. So how do Muslims know how to pray? From the Sunnah. In this step you will learn what the Sunnah is, how Muslims know which reports about the Prophet Muhammad, peace be upon him, are reliable, and five short sayings of his to live by."
+        "p": "The Quran does not describe every movement of the prayer, so how do Muslims know how to pray? From the Sunnah."
       },
       {
         "h": "Two words: Sunnah and hadith"
       },
       {
-        "p": "**Sunnah** means *way* or *path*. It is the way of the Prophet: what he said, what he did, and what he approved of when others did it in front of him. A **hadith** (plural *ahadith*) is a report that tells us something from the Sunnah: a saying of the Prophet, an action of his, or something he approved. Each hadith comes with the chain of people who passed it on, followed by the text itself. You will learn more about both in the next lesson."
+        "p": "**Sunnah** means *way* or *path*. It is the way of the Prophet Muhammad, peace be upon him."
       },
       {
-        "p": "You will also hear *sunnah* used in a second, narrower way. In discussions of Islamic law, \"sunnah\" often means an act that is recommended but not required, such as extra voluntary prayers. When someone says \"that is sunnah\", they usually mean it is a good deed that brings reward, not an obligation."
+        "facts": {
+          "items": [
+            {
+              "icon": "message",
+              "label": "What he said",
+              "text": "His sayings"
+            },
+            {
+              "icon": "hands",
+              "label": "What he did",
+              "text": "His actions"
+            },
+            {
+              "icon": "check",
+              "label": "What he approved",
+              "text": "What others did in front of him"
+            }
+          ]
+        }
+      },
+      {
+        "p": "A **hadith** (plural *ahadith*) is a report that tells us something from the Sunnah. Each comes with the chain of people who passed it on, followed by the text itself."
+      },
+      {
+        "p": "You will also hear *sunnah* in a second, narrower way:"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "The Prophet's way",
+            "items": [
+              "What he said, did, and approved"
+            ]
+          },
+          "second": {
+            "title": "In Islamic law",
+            "items": [
+              "An act that is recommended but not required, such as extra voluntary prayers",
+              "Saying \"that is sunnah\" usually means a good deed that brings reward, not an obligation"
+            ]
+          }
+        }
       },
       {
         "h": "Why the Sunnah matters"
@@ -31,44 +72,90 @@
         "cite": "Quran 59:7 (Saheeh International translation)"
       },
       {
-        "p": "Take it, and refrain from what he has forbidden you. Scholars of tafsir (explanation of the Quran) note that this verse is a foundation for following the Sunnah in all its forms: what the Prophet said, did, and approved. Allah also says: \"He who obeys the Messenger has obeyed Allah\" (Quran 4:80). And the Prophet did not only deliver words. He showed how to live them:"
+        "p": "Scholars of tafsir (explanation of the Quran) note that this verse is a foundation for following the Sunnah in all its forms. And the Prophet did not only deliver words. He showed how to live them:"
       },
       {
         "quote": "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day and [who] remembers Allah often.",
         "cite": "Quran 33:21 (Saheeh International translation)"
       },
       {
-        "p": "An *excellent pattern* means a model to follow: in worship, in character, in family life, and in how to treat people. The Quran also says that the Prophet did not speak from his own desires: \"It is not but a revelation revealed\" (Quran 53:4). Scholars of tafsir explain that this includes both the Quran and the Sunnah."
+        "p": "An *excellent pattern* means a model to follow: in worship, in character, in family life, and in how to treat people."
+      },
+      {
+        "more": {
+          "title": "More from the Quran",
+          "blocks": [
+            {
+              "p": "Allah also says: \"He who obeys the Messenger has obeyed Allah\" (Quran 4:80)."
+            },
+            {
+              "p": "The Quran also says that the Prophet did not speak from his own desires: \"It is not but a revelation revealed\" (Quran 53:4). Scholars of tafsir explain that this includes both the Quran and the Sunnah."
+            }
+          ]
+        }
       },
       {
         "h": "How the Quran and the Sunnah fit together"
       },
       {
-        "p": "Allah sent the Prophet to explain the Quran:"
+        "p": "Allah sent the Prophet to explain the Quran. The Quran gives the foundations, and the Sunnah shows how to live them."
       },
       {
-        "quote": "And We revealed to you the message that you may make clear to the people what was sent down to them and that they might give thought.",
-        "cite": "Quran 16:44 (Saheeh International translation)"
+        "compare": {
+          "first": {
+            "title": "The Quran commands",
+            "items": [
+              "Prayer, many times",
+              "Zakah, the obligatory charity",
+              "Hajj, the pilgrimage"
+            ]
+          },
+          "second": {
+            "title": "The Sunnah shows",
+            "items": [
+              "How many units each prayer has, what to recite, and how to bow and prostrate",
+              "How much is due and on what kinds of wealth",
+              "Each of its steps"
+            ]
+          }
+        }
       },
       {
-        "p": "The Quran gives the foundations, and the Sunnah shows how to live them:"
+        "more": {
+          "title": "More on how they fit",
+          "blocks": [
+            {
+              "quote": "And We revealed to you the message that you may make clear to the people what was sent down to them and that they might give thought.",
+              "cite": "Quran 16:44 (Saheeh International translation)"
+            },
+            {
+              "p": "The Prophet said: \"Pray as you have seen me praying\" (Sahih al-Bukhari 631)."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "The Quran commands prayer many times. The Sunnah shows how many units each prayer has, what to recite, and how to bow and prostrate. The Prophet said: \"Pray as you have seen me praying\" (Sahih al-Bukhari 631).",
-          "The Quran commands zakah, the obligatory charity. The Sunnah explains how much is due and on what kinds of wealth.",
-          "The Quran commands Hajj, the pilgrimage. The Sunnah shows each of its steps."
-        ]
+        "p": "Some people today say that the Quran alone is enough and the hadith are not needed. The Prophet warned about this."
       },
       {
-        "p": "Some people today say that the Quran alone is enough and the hadith are not needed. The Prophet warned about this. He described a man reclining on his couch who hears a hadith and says, in effect, that the Book of Allah is enough, and then the Prophet said:"
+        "p": "If you meet this idea online, remember that the Quran itself tells you to follow the Messenger."
       },
       {
-        "quote": "Indeed, whatever the Messenger of Allah made unlawful, it is the same as what Allah made unlawful.",
-        "cite": "Sunan Abi Dawud 4604, Jami' at-Tirmidhi 2664, and Sunan Ibn Majah 12 (graded sahih)"
-      },
-      {
-        "p": "If you meet this idea online, remember that the Quran itself tells you to follow the Messenger. Following the Sunnah is part of following the Quran."
+        "more": {
+          "title": "The Prophet's warning",
+          "blocks": [
+            {
+              "p": "He described a man reclining on his couch who hears a hadith and says, in effect, that the Book of Allah is enough. Then the Prophet said:"
+            },
+            {
+              "quote": "Indeed, whatever the Messenger of Allah made unlawful, it is the same as what Allah made unlawful.",
+              "cite": "Sunan Abi Dawud 4604, Jami' at-Tirmidhi 2664, and Sunan Ibn Majah 12 (graded sahih)"
+            },
+            {
+              "p": "Following the Sunnah is part of following the Quran."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -91,16 +178,57 @@
     ],
     "ar": [
       {
-        "p": "أنت تصلي خمس مرات في اليوم، لكن القرآن لم يصف كل حركة من حركات الصلاة، فكيف عرف المسلمون كيف يصلّون؟ من السنة. وفي هذه المرحلة تتعلم ما السنة، وكيف يعرف المسلمون ما يصح من الأخبار عن النبي محمد صلى الله عليه وسلم، ثم خمسة أحاديث قصيرة تعيش بها."
+        "p": "القرآن لم يصف كل حركة من حركات الصلاة، فكيف عرف المسلمون كيف يصلّون؟ من السنة."
       },
       {
         "h": "كلمتان: السنة والحديث"
       },
       {
-        "p": "**السنة** في اللغة: الطريقة والسيرة. والمقصود بها طريقة النبي صلى الله عليه وسلم: ما قاله، وما فعله، وما أقرّه حين فُعل أمامه. و**الحديث** هو الخبر الذي ينقل إلينا شيئًا من السنة: قولًا للنبي صلى الله عليه وسلم، أو فعلًا، أو تقريرًا. ولكل حديث سلسلة من الرواة نقلوه، ثم النص نفسه، وستعرف عنهما المزيد في الدرس القادم."
+        "p": "**السنة** في اللغة: الطريقة والسيرة. والمقصود بها طريقة النبي محمد صلى الله عليه وسلم."
       },
       {
-        "p": "وستسمع كلمة «سنة» بمعنى ثانٍ أضيق: ففي كلام الفقهاء تعني «السنة» غالبًا العمل المستحب غير الواجب، كصلاة النوافل. فإذا قال لك أحد «هذا سنة»، فالمقصود غالبًا أنه عمل صالح يُثاب فاعله، وليس فرضًا."
+        "facts": {
+          "items": [
+            {
+              "icon": "message",
+              "label": "ما قاله",
+              "text": "أقواله"
+            },
+            {
+              "icon": "hands",
+              "label": "ما فعله",
+              "text": "أفعاله"
+            },
+            {
+              "icon": "check",
+              "label": "ما أقرّه",
+              "text": "ما فُعل أمامه"
+            }
+          ]
+        }
+      },
+      {
+        "p": "و**الحديث** هو الخبر الذي ينقل إلينا شيئًا من السنة. ولكل حديث سلسلة من الرواة نقلوه، ثم النص نفسه."
+      },
+      {
+        "p": "وستسمع كلمة «سنة» بمعنى ثانٍ أضيق:"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "طريقة النبي صلى الله عليه وسلم",
+            "items": [
+              "ما قاله وما فعله وما أقرّه"
+            ]
+          },
+          "second": {
+            "title": "في كلام الفقهاء",
+            "items": [
+              "العمل المستحب غير الواجب، كصلاة النوافل",
+              "فإذا قيل «هذا سنة» فالمقصود غالبًا أنه عمل صالح يُثاب فاعله، وليس فرضًا"
+            ]
+          }
+        }
       },
       {
         "h": "لماذا السنة مهمة؟"
@@ -113,44 +241,90 @@
         "cite": "سورة الحشر: 7"
       },
       {
-        "p": "قال أهل التفسير: والآية أصل في وجوب العمل بالسنة: قولًا أو فعلًا أو تقريرًا. وقال تعالى: «مَّن يُطِعِ ٱلرَّسُولَ فَقَدْ أَطَاعَ ٱللَّهَ» (النساء: 80). ولم يكن النبي صلى الله عليه وسلم مبلّغًا للكلمات فقط، بل أرانا كيف نعيش بها:"
+        "p": "قال أهل التفسير: والآية أصل في وجوب العمل بالسنة: قولًا أو فعلًا أو تقريرًا. ولم يكن النبي صلى الله عليه وسلم مبلّغًا للكلمات فقط، بل أرانا كيف نعيش بها:"
       },
       {
         "quote": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌۭ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًۭا",
         "cite": "سورة الأحزاب: 21"
       },
       {
-        "p": "و«الأسوة الحسنة» هي القدوة التي تُتّبع: في العبادة، وفي الأخلاق، وفي الأسرة، وفي معاملة الناس. وأخبر القرآن أن النبي صلى الله عليه وسلم لا ينطق عن هواه: «إِنْ هُوَ إِلَّا وَحْىٌۭ يُوحَىٰ» (النجم: 4)، وقد بيّن أهل التفسير أن ذلك يشمل القرآن والسنة معًا."
+        "p": "و«الأسوة الحسنة» هي القدوة التي تُتّبع: في العبادة، وفي الأخلاق، وفي الأسرة، وفي معاملة الناس."
+      },
+      {
+        "more": {
+          "title": "المزيد من القرآن",
+          "blocks": [
+            {
+              "p": "وقال تعالى: «مَّن يُطِعِ ٱلرَّسُولَ فَقَدْ أَطَاعَ ٱللَّهَ» (النساء: 80)."
+            },
+            {
+              "p": "وأخبر القرآن أن النبي صلى الله عليه وسلم لا ينطق عن هواه: «إِنْ هُوَ إِلَّا وَحْىٌۭ يُوحَىٰ» (النجم: 4)، وقد بيّن أهل التفسير أن ذلك يشمل القرآن والسنة معًا."
+            }
+          ]
+        }
       },
       {
         "h": "كيف يتكامل القرآن والسنة؟"
       },
       {
-        "p": "أرسل الله النبي صلى الله عليه وسلم ليبيّن القرآن للناس:"
+        "p": "أرسل الله النبي صلى الله عليه وسلم ليبيّن القرآن للناس. فالقرآن يضع الأسس، والسنة تبيّن كيف نعمل بها."
       },
       {
-        "quote": "وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ",
-        "cite": "سورة النحل: 44"
+        "compare": {
+          "first": {
+            "title": "القرآن يأمر",
+            "items": [
+              "بالصلاة في مواضع كثيرة",
+              "بالزكاة",
+              "بالحج"
+            ]
+          },
+          "second": {
+            "title": "والسنة تبيّن",
+            "items": [
+              "عدد ركعات كل صلاة، وما يُقرأ فيها، وكيف يكون الركوع والسجود",
+              "مقدارها وفي أي الأموال تجب",
+              "مناسكه خطوة بخطوة"
+            ]
+          }
+        }
       },
       {
-        "p": "فالقرآن يضع الأسس، والسنة تبيّن كيف نعمل بها:"
+        "more": {
+          "title": "المزيد عن تكاملهما",
+          "blocks": [
+            {
+              "quote": "وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ",
+              "cite": "سورة النحل: 44"
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم: «وَصَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي» (صحيح البخاري 631)."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "أمر القرآن بالصلاة في مواضع كثيرة، وبيّنت السنة عدد ركعات كل صلاة، وما يُقرأ فيها، وكيف يكون الركوع والسجود. وقال النبي صلى الله عليه وسلم: «وَصَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي» (صحيح البخاري 631).",
-          "أمر القرآن بالزكاة، وبيّنت السنة مقدارها وفي أي الأموال تجب.",
-          "أمر القرآن بالحج، وبيّنت السنة مناسكه خطوة بخطوة."
-        ]
+        "p": "ويقول بعض الناس اليوم إن القرآن وحده يكفي ولا حاجة إلى الحديث، وقد حذّر النبي صلى الله عليه وسلم من ذلك."
       },
       {
-        "p": "ويقول بعض الناس اليوم إن القرآن وحده يكفي ولا حاجة إلى الحديث، وقد حذّر النبي صلى الله عليه وسلم من ذلك، فوصف رجلًا متكئًا على أريكته يبلغه الحديث فيقول: بيننا وبينكم كتاب الله، ثم قال:"
+        "p": "فإن صادفت هذه الفكرة على الإنترنت، فتذكّر أن القرآن نفسه يأمرك باتباع الرسول صلى الله عليه وسلم."
       },
       {
-        "quote": "وَإِنَّ مَا حَرَّمَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ كَمَا حَرَّمَ اللهُ",
-        "cite": "سنن أبي داود 4604، وجامع الترمذي 2664، وسنن ابن ماجه 12، وهو صحيح"
-      },
-      {
-        "p": "فإن صادفت هذه الفكرة على الإنترنت، فتذكّر أن القرآن نفسه يأمرك باتباع الرسول صلى الله عليه وسلم، فاتباع السنة جزء من اتباع القرآن."
+        "more": {
+          "title": "تحذير النبي صلى الله عليه وسلم",
+          "blocks": [
+            {
+              "p": "وصف رجلًا متكئًا على أريكته يبلغه الحديث فيقول: بيننا وبينكم كتاب الله، ثم قال:"
+            },
+            {
+              "quote": "وَإِنَّ مَا حَرَّمَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ كَمَا حَرَّمَ اللهُ",
+              "cite": "سنن أبي داود 4604، وجامع الترمذي 2664، وسنن ابن ماجه 12، وهو صحيح"
+            },
+            {
+              "p": "فاتباع السنة جزء من اتباع القرآن."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -173,16 +347,57 @@
     ],
     "es": [
       {
-        "p": "Rezas cinco veces al día, pero el Corán no describe cada movimiento de la oración. Entonces, ¿cómo saben los musulmanes cómo rezar? Por la Sunnah. En esta etapa aprenderás qué es la Sunnah, cómo saben los musulmanes qué relatos sobre el Profeta Muhammad, la paz sea con él, son fiables, y cinco dichos breves suyos para vivir cada día."
+        "p": "El Corán no describe cada movimiento de la oración, así que, ¿cómo saben los musulmanes cómo rezar? Por la Sunnah."
       },
       {
         "h": "Dos palabras: Sunnah y hadiz"
       },
       {
-        "p": "**Sunnah** significa *camino* o *manera*. Es la manera de actuar del Profeta: lo que dijo, lo que hizo y lo que aprobó cuando otros lo hacían delante de él. Un **hadiz** (en plural, *ahadiz*) es un relato que nos transmite algo de la Sunnah: un dicho del Profeta, una acción suya o algo que aprobó. Cada hadiz viene con la cadena de personas que lo transmitieron, seguida del texto. Aprenderás más sobre ambas partes en la próxima lección."
+        "p": "**Sunnah** significa *camino* o *manera*. Es la manera de actuar del Profeta Muhammad, la paz sea con él."
       },
       {
-        "p": "También oirás *sunnah* con un segundo sentido, más limitado. En temas de ley islámica, \"sunnah\" suele significar un acto recomendado pero no obligatorio, como las oraciones voluntarias. Cuando alguien dice \"eso es sunnah\", normalmente quiere decir que es una buena obra que trae recompensa, no una obligación."
+        "facts": {
+          "items": [
+            {
+              "icon": "message",
+              "label": "Lo que dijo",
+              "text": "Sus dichos"
+            },
+            {
+              "icon": "hands",
+              "label": "Lo que hizo",
+              "text": "Sus acciones"
+            },
+            {
+              "icon": "check",
+              "label": "Lo que aprobó",
+              "text": "Lo que otros hacían delante de él"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Un **hadiz** (en plural, *ahadiz*) es un relato que nos transmite algo de la Sunnah. Cada hadiz viene con la cadena de personas que lo transmitieron, seguida del texto."
+      },
+      {
+        "p": "También oirás *sunnah* con un segundo sentido, más limitado:"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "La manera del Profeta",
+            "items": [
+              "Lo que dijo, hizo y aprobó"
+            ]
+          },
+          "second": {
+            "title": "En la ley islámica",
+            "items": [
+              "Un acto recomendado pero no obligatorio, como las oraciones voluntarias",
+              "Decir \"eso es sunnah\" normalmente quiere decir que es una buena obra que trae recompensa, no una obligación"
+            ]
+          }
+        }
       },
       {
         "h": "Por qué importa la Sunnah"
@@ -195,44 +410,90 @@
         "cite": "Corán 59:7"
       },
       {
-        "p": "Los sabios del tafsir (la explicación del Corán) señalan que esta aleya es una base para seguir la Sunnah en todas sus formas: lo que el Profeta dijo, hizo y aprobó. Allah también dice: \"Quien obedezca al Mensajero obedece a Dios.\" (Corán 4:80). Y el Profeta no solo transmitió palabras. Mostró cómo vivirlas:"
+        "p": "Los sabios del tafsir (la explicación del Corán) señalan que esta aleya es una base para seguir la Sunnah en todas sus formas. Y el Profeta no solo transmitió palabras. Mostró cómo vivirlas:"
       },
       {
         "quote": "En el Mensajero de Dios hay un bello ejemplo para quienes tienen esperanza en Dios, [anhelan ser recompensados] en el Día del Juicio y recuerdan frecuentemente a Dios.",
         "cite": "Corán 33:21"
       },
       {
-        "p": "Un *bello ejemplo* es un modelo a seguir: en la adoración, en el carácter, en la vida familiar y en el trato con la gente. El Corán también dice que el Profeta no hablaba según sus deseos: \"Él solo trasmite lo que le ha sido revelado.\" (Corán 53:4). Los sabios del tafsir explican que esto incluye tanto el Corán como la Sunnah."
+        "p": "Un *bello ejemplo* es un modelo a seguir: en la adoración, en el carácter, en la vida familiar y en el trato con la gente."
+      },
+      {
+        "more": {
+          "title": "Más del Corán",
+          "blocks": [
+            {
+              "p": "Allah también dice: \"Quien obedezca al Mensajero obedece a Dios.\" (Corán 4:80)."
+            },
+            {
+              "p": "El Corán también dice que el Profeta no hablaba según sus deseos: \"Él solo trasmite lo que le ha sido revelado.\" (Corán 53:4). Los sabios del tafsir explican que esto incluye tanto el Corán como la Sunnah."
+            }
+          ]
+        }
       },
       {
         "h": "Cómo se complementan el Corán y la Sunnah"
       },
       {
-        "p": "Allah envió al Profeta para explicar el Corán:"
+        "p": "Allah envió al Profeta para explicar el Corán. El Corán da los fundamentos, y la Sunnah muestra cómo vivirlos."
       },
       {
-        "quote": "Y a ti [¡oh, Mujámmad!] te he revelado el conocimiento [de la Sunnah] para que expliques a la gente la revelación [el Corán] que habían recibido, para que así reflexionen.",
-        "cite": "Corán 16:44"
+        "compare": {
+          "first": {
+            "title": "El Corán ordena",
+            "items": [
+              "La oración, muchas veces",
+              "El zakat, la caridad obligatoria",
+              "El Hayy, la peregrinación"
+            ]
+          },
+          "second": {
+            "title": "La Sunnah muestra",
+            "items": [
+              "Cuántas unidades tiene cada oración, qué se recita y cómo inclinarse y postrarse",
+              "Cuánto se debe pagar y sobre qué bienes",
+              "Cada uno de sus pasos"
+            ]
+          }
+        }
       },
       {
-        "p": "El Corán da los fundamentos, y la Sunnah muestra cómo vivirlos:"
+        "more": {
+          "title": "Más sobre cómo se complementan",
+          "blocks": [
+            {
+              "quote": "Y a ti [¡oh, Mujámmad!] te he revelado el conocimiento [de la Sunnah] para que expliques a la gente la revelación [el Corán] que habían recibido, para que así reflexionen.",
+              "cite": "Corán 16:44"
+            },
+            {
+              "p": "El Profeta dijo: \"Recen como me han visto rezar\" (Sahih al-Bujari 631)."
+            }
+          ]
+        }
       },
       {
-        "ul": [
-          "El Corán ordena la oración muchas veces. La Sunnah muestra cuántas unidades tiene cada oración, qué se recita y cómo inclinarse y postrarse. El Profeta dijo: \"Recen como me han visto rezar\" (Sahih al-Bujari 631).",
-          "El Corán ordena el zakat, la caridad obligatoria. La Sunnah explica cuánto se debe pagar y sobre qué bienes.",
-          "El Corán ordena el Hayy, la peregrinación. La Sunnah muestra cada uno de sus pasos."
-        ]
+        "p": "Hoy algunas personas dicen que basta con el Corán y que los hadices no hacen falta. El Profeta advirtió sobre esto."
       },
       {
-        "p": "Hoy algunas personas dicen que basta con el Corán y que los hadices no hacen falta. El Profeta advirtió sobre esto. Describió a un hombre recostado en su diván que, al llegarle un hadiz, dice en esencia que el Libro de Allah es suficiente, y luego el Profeta dijo:"
+        "p": "Si encuentras esta idea en internet, recuerda que el mismo Corán te pide seguir al Mensajero."
       },
       {
-        "quote": "Ciertamente, lo que el Mensajero de Allah ha prohibido es como lo que Allah ha prohibido.",
-        "cite": "Sunan Abi Dawud 4604, Yami' at-Tirmidhi 2664 y Sunan Ibn Mayah 12 (clasificado como sahih; traducción del significado)"
-      },
-      {
-        "p": "Si encuentras esta idea en internet, recuerda que el mismo Corán te pide seguir al Mensajero. Seguir la Sunnah es parte de seguir el Corán."
+        "more": {
+          "title": "La advertencia del Profeta",
+          "blocks": [
+            {
+              "p": "Describió a un hombre recostado en su diván que, al llegarle un hadiz, dice en esencia que el Libro de Allah es suficiente, y luego el Profeta dijo:"
+            },
+            {
+              "quote": "Ciertamente, lo que el Mensajero de Allah ha prohibido es como lo que Allah ha prohibido.",
+              "cite": "Sunan Abi Dawud 4604, Yami' at-Tirmidhi 2664 y Sunan Ibn Mayah 12 (clasificado como sahih; traducción del significado)"
+            },
+            {
+              "p": "Seguir la Sunnah es parte de seguir el Corán."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -284,5 +545,21 @@
       "url": "https://hadeethenc.com/en/browse/hadith/65005"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=PmZCl7cC4F0",
+      "title": {
+        "en": "Why following the Sunnah matters",
+        "ar": "أهمية اتباع السنة",
+        "es": "La importancia de seguir la Sunnah"
+      },
+      "by": {
+        "en": "Dr. Yasir Qadhi",
+        "ar": "د. ياسر قاضي",
+        "es": "Dr. Yasir Qadhi"
+      },
+      "seconds": 204
+    }
+  ]
 }

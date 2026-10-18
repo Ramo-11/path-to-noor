@@ -1,0 +1,41 @@
+{
+  "slug": "watch-hajj-guide",
+  "minutes": 29,
+  "title": {
+    "en": "Hajj, step by step",
+    "ar": "الحج خطوة بخطوة",
+    "es": "El Hajj paso a paso"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A complete step-by-step guide to performing Hajj."
+      }
+    ],
+    "ar": [
+      {
+        "p": "دليل كامل خطوة بخطوة لأداء الحج."
+      }
+    ],
+    "es": [
+      {
+        "p": "Una guía completa, paso a paso, para realizar el Hajj."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=iyOF_9cjGa0",
+    "title": {
+      "en": "Hajj, step by step",
+      "ar": "الحج خطوة بخطوة",
+      "es": "El Hajj paso a paso"
+    },
+    "by": {
+      "en": "Sahal Umrah",
+      "ar": "Sahal Umrah",
+      "es": "Sahal Umrah"
+    },
+    "seconds": 1721
+  }
+}

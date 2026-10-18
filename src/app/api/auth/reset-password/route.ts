@@ -3,27 +3,25 @@ import crypto from "crypto";
 import bcrypt from "bcrypt";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
-import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { rateLimitShared, getClientIp } from "@/lib/rate-limit";
 import { resetPasswordSchema } from "@/lib/validations";
 
 export async function POST(request: NextRequest) {
   try {
     const ip = getClientIp(request.headers);
-    const limit = rateLimit(`reset-password:${ip}`, 5, 15 * 60 * 1000); // 5 attempts per 15 min
+    const limit = await rateLimitShared(`reset-password:${ip}`, 5, 15 * 60 * 1000);
     if (!limit.success) {
       return NextResponse.json(
-        { error: "Too many attempts. Please try again later." },
+        { error: "Too many attempts. Please try again later.", code: "rate_limited" },
         { status: 429 }
       );
     }
 
-    const parsed = resetPasswordSchema.safeParse(await request.json());
+    const parsed = resetPasswordSchema.safeParse(await request.json().catch(() => null));
     if (!parsed.success) {
-      const fieldErrors = parsed.error.flatten().fieldErrors;
-      const firstError =
-        Object.values(fieldErrors).flat().find(Boolean) ||
-        "Invalid reset request";
-      return NextResponse.json({ error: firstError }, { status: 400 });
+      const issue = parsed.error.issues[0];
+      const code = issue?.path[0] === "password" ? "weak_password" : "invalid_token";
+      return NextResponse.json({ error: issue?.message || "Invalid reset request", code }, { status: 400 });
     }
     const { token, password } = parsed.data;
 
@@ -41,7 +39,7 @@ export async function POST(request: NextRequest) {
 
     if (!user) {
       return NextResponse.json(
-        { error: "Invalid or expired reset token" },
+        { error: "Invalid or expired reset token", code: "invalid_token" },
         { status: 400 }
       );
     }
@@ -49,6 +47,9 @@ export async function POST(request: NextRequest) {
     user.password = await bcrypt.hash(password, 12);
     user.resetToken = undefined;
     user.resetTokenExpiry = undefined;
+    user.emailVerifyToken = undefined;
+    user.emailVerifyExpiry = undefined;
+    if (!user.emailVerified) user.emailVerified = new Date();
     await user.save();
 
     return NextResponse.json({
@@ -57,7 +58,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error("[API] POST /auth/reset-password error:", error);
     return NextResponse.json(
-      { error: "Failed to reset password" },
+      { error: "Failed to reset password", code: "server_error" },
       { status: 500 }
     );
   }

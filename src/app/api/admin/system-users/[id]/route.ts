@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireSuperAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
+import { updateSystemUserSchema } from "@/lib/validations";
 
 export async function PUT(
   request: NextRequest,
@@ -13,15 +14,18 @@ export async function PUT(
   const { id } = await params;
 
   try {
-    const body = await request.json();
-    const { name, role, isActive } = body;
+    if (!/^[0-9a-fA-F]{24}$/.test(id)) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    }
 
-    if (role && !["admin", "super_admin"].includes(role)) {
+    const parsed = updateSystemUserSchema.safeParse(await request.json().catch(() => null));
+    if (!parsed.success) {
       return NextResponse.json(
-        { error: "Role must be admin or super_admin" },
+        { error: parsed.error.issues[0]?.message || "Invalid system user data" },
         { status: 400 }
       );
     }
+    const { name, role, isActive } = parsed.data;
 
     // Prevent super admin from changing their own role
     if (role && id === auth.user.id) {
@@ -55,7 +59,7 @@ export async function PUT(
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const update: Record<string, any> = {};
-    if (name !== undefined) update.name = name.trim();
+    if (name !== undefined) update.name = name;
     if (role !== undefined) update.role = role;
     if (isActive !== undefined) update.isActive = isActive;
 
@@ -86,6 +90,10 @@ export async function DELETE(
   if (!isAdminSession(auth)) return auth;
 
   const { id } = await params;
+
+  if (!/^[0-9a-fA-F]{24}$/.test(id)) {
+    return NextResponse.json({ error: "User not found" }, { status: 404 });
+  }
 
   try {
     // Prevent deleting yourself

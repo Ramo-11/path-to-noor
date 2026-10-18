@@ -1,6 +1,6 @@
 {
   "slug": "res-daily-prayer-count",
-  "minutes": 7,
+  "minutes": 4,
   "title": {
     "en": "The five daily prayers",
     "ar": "الصلوات الخمس في اليوم والليلة",
@@ -9,10 +9,7 @@
   "body": {
     "en": [
       {
-        "p": "The Islamic prayer is called *salah*. It is a short, set way of standing before Allah, the Arabic word for God, the One God. Allah asks every Muslim to pray five times in each day and night. This lesson shows you the names of the five prayers, roughly when each one happens, and how long each one is."
-      },
-      {
-        "p": "A man named Dimam ibn Tha'labah (may Allah be pleased with him) once came to the Prophet Muhammad, peace be upon him, and asked him whether Allah had commanded that we pray five prayers in a day and night. The Prophet answered: \"By Allah, yes.\" (Sahih al-Bukhari 63)"
+        "p": "The Islamic prayer is called *salah*: a short, set way of standing before Allah, the Arabic word for God, the One God. Allah asks every Muslim to pray five times in each day and night."
       },
       {
         "quote": "Indeed, prayer has been decreed upon the believers a decree of specified times.",
@@ -22,53 +19,62 @@
         "h": "The five prayers and their times"
       },
       {
-        "p": "Each prayer has a window of time, set by the movement of the sun, and you can pray at any point inside that window. The Prophet described these windows in an authentic hadith, a recorded saying of the Prophet (Sahih Muslim 612). In simple terms:"
+        "p": "Each prayer has a window of time, set by the movement of the sun, and you can pray at any point inside that window (Sahih Muslim 612)."
       },
       {
-        "ul": [
-          "**Fajr** (the dawn prayer): from the first light of dawn until sunrise.",
-          "**Dhuhr** (the midday prayer): from just after midday, when the sun has passed its highest point, until Asr time begins.",
-          "**Asr** (the afternoon prayer): later in the afternoon. The Prophet taught that it should be prayed before the sun turns yellow.",
-          "**Maghrib** (the sunset prayer): just after sunset, until the twilight has faded from the sky.",
-          "**Isha** (the night prayer): once night has come. The Prophet taught that its time lasts until the middle of the night."
-        ]
+        "p": "Each prayer is made of units called *rak'ahs*. In one rak'ah you stand, bow, and then prostrate twice with your forehead on the ground. The obligatory (*fard*) part of each prayer has a set number of rak'ahs."
       },
       {
-        "p": "The Prophet also told us that the angel Jibril (Gabriel), peace be upon him, came down and led him in the five prayers, and he counted them on his fingers (Sahih al-Bukhari 3221 and Sahih Muslim 610)."
-      },
-      {
-        "h": "How long is each prayer?"
-      },
-      {
-        "p": "Each prayer is made of units called *rak'ahs* (one unit is a *rak'ah*). In one rak'ah you stand, bow, and then prostrate twice with your forehead on the ground. The obligatory (*fard*) part of each prayer has a set number of rak'ahs:"
-      },
-      {
-        "ul": [
-          "Fajr: 2 rak'ahs",
-          "Dhuhr: 4 rak'ahs",
-          "Asr: 4 rak'ahs",
-          "Maghrib: 3 rak'ahs",
-          "Isha: 4 rak'ahs"
-        ]
+        "facts": {
+          "title": "Today's five prayers",
+          "items": [
+            {
+              "icon": "sparkles",
+              "label": "Fajr",
+              "text": "2 rak'ahs. From the first light of dawn until sunrise."
+            },
+            {
+              "icon": "sun",
+              "label": "Dhuhr",
+              "text": "4 rak'ahs. From just after midday, when the sun has passed its highest point, until Asr time begins."
+            },
+            {
+              "icon": "clock",
+              "label": "Asr",
+              "text": "4 rak'ahs. Later in the afternoon. The Prophet taught that it should be prayed before the sun turns yellow."
+            },
+            {
+              "icon": "star",
+              "label": "Maghrib",
+              "text": "3 rak'ahs. Just after sunset, until the twilight has faded from the sky."
+            },
+            {
+              "icon": "moon",
+              "label": "Isha",
+              "text": "4 rak'ahs. Once night has come. The Prophet taught that its time lasts until the middle of the night."
+            }
+          ]
+        }
       },
       {
         "p": "That is 17 rak'ahs in a whole day, and most prayers take only a few minutes."
       },
       {
-        "p": "Where do these numbers come from? Aisha (may Allah be pleased with her), the wife of the Prophet, explained that the prayer was first made obligatory as two rak'ahs each, and that later the prayers of people at home (not traveling) were increased (Sahih al-Bukhari 350 and Sahih Muslim 685). Ibn Abbas (may Allah be pleased with him) said that Allah made the prayer four rak'ahs for those at home and two for travelers (Sahih Muslim 687). Scholars explain that Fajr stayed at two and that Maghrib is three, and Ibn Umar (may Allah be pleased with him) reported the Prophet praying Maghrib as three rak'ahs (Sahih Muslim 1288). Muslims everywhere have prayed these same numbers from the Prophet's time until today, and scholars agree on them."
-      },
-      {
         "p": "When you travel, the four-rak'ah prayers can be shortened to two. You will learn the details of this later."
       },
       {
-        "steps": {
-          "title": "Today's five prayers",
-          "steps": [
-            "Fajr: 2 rak'ahs, between dawn and sunrise",
-            "Dhuhr: 4 rak'ahs, after midday",
-            "Asr: 4 rak'ahs, in the afternoon",
-            "Maghrib: 3 rak'ahs, just after sunset",
-            "Isha: 4 rak'ahs, at night"
+        "more": {
+          "title": "Where these numbers come from",
+          "blocks": [
+            {
+              "p": "A man named Dimam ibn Tha'labah (may Allah be pleased with him) once came to the Prophet Muhammad, peace be upon him, and asked him whether Allah had commanded that we pray five prayers in a day and night. The Prophet answered: \"By Allah, yes.\" (Sahih al-Bukhari 63)"
+            },
+            {
+              "p": "The Prophet also told us that the angel Jibril (Gabriel), peace be upon him, came down and led him in the five prayers, and he counted them on his fingers (Sahih al-Bukhari 3221 and Sahih Muslim 610)."
+            },
+            {
+              "p": "Where do these numbers come from? Aisha (may Allah be pleased with her), the wife of the Prophet, explained that the prayer was first made obligatory as two rak'ahs each, and that later the prayers of people at home (not traveling) were increased (Sahih al-Bukhari 350 and Sahih Muslim 685). Ibn Abbas (may Allah be pleased with him) said that Allah made the prayer four rak'ahs for those at home and two for travelers (Sahih Muslim 687). Scholars explain that Fajr stayed at two and that Maghrib is three, and Ibn Umar (may Allah be pleased with him) reported the Prophet praying Maghrib as three rak'ahs (Sahih Muslim 1288). Muslims everywhere have prayed these same numbers from the Prophet's time until today, and scholars agree on them."
+            }
           ]
         }
       },
@@ -76,14 +82,28 @@
         "h": "Finding the prayer times where you live"
       },
       {
-        "p": "Because the times follow the sun, they change a little every day and they are different in every city. You do not need to work them out yourself:"
+        "p": "Because the times follow the sun, they change a little every day and they are different in every city. You do not need to work them out yourself."
       },
       {
-        "ul": [
-          "Ask your local masjid (mosque) for its timetable. Many masjids share a monthly timetable on paper or online.",
-          "Use a prayer times app or website and set your city or location. If it asks you to choose a calculation method, choose the one your local masjid uses.",
-          "While you get used to the rhythm, you can set a gentle reminder on your phone for each prayer."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "users",
+              "label": "Your masjid",
+              "text": "Ask your local masjid (mosque) for its timetable. Many share a monthly one on paper or online."
+            },
+            {
+              "icon": "globe",
+              "label": "An app or website",
+              "text": "Set your city or location. If it asks for a calculation method, choose the one your local masjid uses."
+            },
+            {
+              "icon": "clock",
+              "label": "A reminder",
+              "text": "While you get used to the rhythm, set a gentle reminder on your phone for each prayer."
+            }
+          ]
+        }
       },
       {
         "p": "Remember that the time on a timetable is the start of the window. If Dhuhr begins at 1:05, you can pray it at any point before Asr begins."
@@ -92,7 +112,10 @@
         "h": "If you are just starting"
       },
       {
-        "p": "If this feels like a lot, that is completely normal. Every Muslim once had to learn the prayer for the first time. Start with what you can: learn the times, learn the movements, and pray with the words you know so far. Add a little more each day. The next lessons, and the videos in the \"Prayer video resources\" step, will walk you through it."
+        "p": "If this feels like a lot, that is completely normal. Every Muslim once had to learn the prayer for the first time."
+      },
+      {
+        "p": "Start with what you can: learn the times, learn the movements, and pray with the words you know so far. Add a little more each day. The next lessons, and the videos in the \"Prayer video resources\" step, will walk you through it."
       },
       {
         "quote": "Allah does not charge a soul except [with that within] its capacity.",
@@ -122,69 +145,72 @@
     ],
     "ar": [
       {
-        "p": "الصلاة في الإسلام وقفةٌ قصيرة منظَّمة بين يدي الله تعالى، وقد فرض الله على كل مسلم خمس صلوات في كل يوم وليلة. في هذا الدرس تتعرّف على أسماء الصلوات الخمس، ومتى يكون وقت كل صلاة على وجه التقريب، وكم ركعةً في كل واحدة منها."
-      },
-      {
-        "p": "جاء رجلٌ اسمه ضِمام بن ثعلبة رضي الله عنه إلى النبي محمد صلى الله عليه وسلم يسأله عن الإسلام، فكان مما سأله: «آلله أمرك أن نصلي الصلوات الخمس في اليوم والليلة؟» فقال النبي صلى الله عليه وسلم: «اللهم نعم» (صحيح البخاري 63)."
+        "p": "الصلاة في الإسلام وقفةٌ قصيرة منظَّمة بين يدي الله تعالى، وقد فرض الله على كل مسلم خمس صلوات في كل يوم وليلة."
       },
       {
         "quote": "إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًۭا مَّوْقُوتًۭا",
         "cite": "سورة النساء: 103"
       },
       {
-        "p": "أي إن الصلاة فريضة على المؤمنين، ولها أوقات معلومة حدّدها الشرع."
-      },
-      {
         "h": "الصلوات الخمس وأوقاتها"
       },
       {
-        "p": "لكل صلاة وقتٌ يبدأ وينتهي بحسب حركة الشمس، ويصح أن تصليها في أي جزء من هذا الوقت. وقد بيّن النبي صلى الله عليه وسلم هذه الأوقات في حديث صحيح (صحيح مسلم 612)، وهذه خلاصتها بعبارة سهلة:"
-      },
-      {
-        "ul": [
-          "**الفجر**: من طلوع الفجر، أي أول ضوء يظهر في الأفق، إلى طلوع الشمس.",
-          "**الظهر**: من بعد منتصف النهار، حين تميل الشمس عن وسط السماء، إلى أن يدخل وقت العصر.",
-          "**العصر**: في آخر النهار، وقد علّمنا النبي صلى الله عليه وسلم أن نصليها قبل أن تصفرّ الشمس.",
-          "**المغرب**: بعد غروب الشمس مباشرة، إلى أن يغيب الشفق، وهو بقية الضوء في الأفق.",
-          "**العشاء**: إذا دخل الليل، وقد علّمنا النبي صلى الله عليه وسلم أن وقتها يمتد إلى نصف الليل."
-        ]
-      },
-      {
-        "p": "وأخبرنا النبي صلى الله عليه وسلم أن جبريل عليه السلام نزل فصلّى به الصلوات الخمس، وكان يعدّها بأصابعه (صحيح البخاري 3221 وصحيح مسلم 610)."
-      },
-      {
-        "h": "كم ركعة في كل صلاة؟"
+        "p": "لكل صلاة وقتٌ يبدأ وينتهي بحسب حركة الشمس، ويصح أن تصليها في أي جزء من هذا الوقت (صحيح مسلم 612)."
       },
       {
         "p": "تتكوّن كل صلاة من وحدات تُسمّى **الركعات**، والركعة الواحدة فيها قيامٌ وركوع وسجدتان. وعدد ركعات الفريضة ثابت في كل صلاة:"
       },
       {
-        "ul": [
-          "الفجر: ركعتان",
-          "الظهر: أربع ركعات",
-          "العصر: أربع ركعات",
-          "المغرب: ثلاث ركعات",
-          "العشاء: أربع ركعات"
-        ]
+        "facts": {
+          "title": "صلوات اليوم الخمس",
+          "items": [
+            {
+              "icon": "sparkles",
+              "label": "الفجر",
+              "text": "ركعتان. من طلوع الفجر، أي أول ضوء يظهر في الأفق، إلى طلوع الشمس."
+            },
+            {
+              "icon": "sun",
+              "label": "الظهر",
+              "text": "أربع ركعات. من بعد منتصف النهار، حين تميل الشمس عن وسط السماء، إلى أن يدخل وقت العصر."
+            },
+            {
+              "icon": "clock",
+              "label": "العصر",
+              "text": "أربع ركعات. في آخر النهار، وقد علّمنا النبي صلى الله عليه وسلم أن نصليها قبل أن تصفرّ الشمس."
+            },
+            {
+              "icon": "star",
+              "label": "المغرب",
+              "text": "ثلاث ركعات. بعد غروب الشمس مباشرة، إلى أن يغيب الشفق، وهو بقية الضوء في الأفق."
+            },
+            {
+              "icon": "moon",
+              "label": "العشاء",
+              "text": "أربع ركعات. إذا دخل الليل، وقد علّمنا النبي صلى الله عليه وسلم أن وقتها يمتد إلى نصف الليل."
+            }
+          ]
+        }
       },
       {
         "p": "فمجموعها سبع عشرة ركعة في اليوم كله، وأكثر هذه الصلوات لا يستغرق إلا دقائق معدودة."
       },
       {
-        "p": "ومن أين جاءت هذه الأعداد؟ قالت أم المؤمنين عائشة رضي الله عنها: «فرض الله الصلاة حين فرضها ركعتين ركعتين، في الحضر والسفر، فأقرت صلاة السفر، وزيد في صلاة الحضر» (صحيح البخاري 350 وصحيح مسلم 685). وقال ابن عباس رضي الله عنهما: «فرض الله الصلاة على لسان نبيكم صلى الله عليه وسلم في الحضر أربعًا، وفي السفر ركعتين» (صحيح مسلم 687). وبيّن العلماء أن صلاة الفجر بقيت ركعتين، وأن المغرب ثلاث ركعات، وقد روى ابن عمر رضي الله عنهما أن النبي صلى الله عليه وسلم صلّى المغرب ثلاثًا (صحيح مسلم 1288). وعلى هذه الأعداد صلّى المسلمون جيلًا بعد جيل منذ عهد النبي صلى الله عليه وسلم إلى اليوم، وهي محل اتفاق بين العلماء."
-      },
-      {
         "p": "وفي السفر تُقصر الصلاة الرباعية إلى ركعتين، وستتعلم تفاصيل ذلك لاحقًا إن شاء الله."
       },
       {
-        "steps": {
-          "title": "صلوات اليوم الخمس",
-          "steps": [
-            "الفجر: ركعتان، بين طلوع الفجر وطلوع الشمس",
-            "الظهر: أربع ركعات، بعد منتصف النهار",
-            "العصر: أربع ركعات، في آخر النهار",
-            "المغرب: ثلاث ركعات، بعد غروب الشمس",
-            "العشاء: أربع ركعات، في الليل"
+        "more": {
+          "title": "من أين جاءت هذه الأعداد؟",
+          "blocks": [
+            {
+              "p": "جاء رجلٌ اسمه ضِمام بن ثعلبة رضي الله عنه إلى النبي محمد صلى الله عليه وسلم يسأله عن الإسلام، فكان مما سأله: «آلله أمرك أن نصلي الصلوات الخمس في اليوم والليلة؟» فقال النبي صلى الله عليه وسلم: «اللهم نعم» (صحيح البخاري 63)."
+            },
+            {
+              "p": "وأخبرنا النبي صلى الله عليه وسلم أن جبريل عليه السلام نزل فصلّى به الصلوات الخمس، وكان يعدّها بأصابعه (صحيح البخاري 3221 وصحيح مسلم 610)."
+            },
+            {
+              "p": "ومن أين جاءت هذه الأعداد؟ قالت أم المؤمنين عائشة رضي الله عنها: «فرض الله الصلاة حين فرضها ركعتين ركعتين، في الحضر والسفر، فأقرت صلاة السفر، وزيد في صلاة الحضر» (صحيح البخاري 350 وصحيح مسلم 685). وقال ابن عباس رضي الله عنهما: «فرض الله الصلاة على لسان نبيكم صلى الله عليه وسلم في الحضر أربعًا، وفي السفر ركعتين» (صحيح مسلم 687). وبيّن العلماء أن صلاة الفجر بقيت ركعتين، وأن المغرب ثلاث ركعات، وقد روى ابن عمر رضي الله عنهما أن النبي صلى الله عليه وسلم صلّى المغرب ثلاثًا (صحيح مسلم 1288). وعلى هذه الأعداد صلّى المسلمون جيلًا بعد جيل منذ عهد النبي صلى الله عليه وسلم إلى اليوم، وهي محل اتفاق بين العلماء."
+            }
           ]
         }
       },
@@ -192,14 +218,28 @@
         "h": "كيف تعرف مواقيت الصلاة في مدينتك؟"
       },
       {
-        "p": "لأن المواقيت مرتبطة بالشمس، فهي تتغيّر قليلًا كل يوم، وتختلف من مدينة إلى أخرى. ولا تحتاج إلى حسابها بنفسك:"
+        "p": "لأن المواقيت مرتبطة بالشمس، فهي تتغيّر قليلًا كل يوم، وتختلف من مدينة إلى أخرى. ولا تحتاج إلى حسابها بنفسك."
       },
       {
-        "ul": [
-          "اسأل المسجد القريب منك عن جدول المواقيت، فكثير من المساجد تنشر جدولًا شهريًا مطبوعًا أو على الإنترنت.",
-          "استخدم تطبيقًا أو موقعًا لمواقيت الصلاة، وحدّد مدينتك أو موقعك. وإذا طلب منك اختيار طريقة الحساب، فاختر الطريقة التي يعتمدها مسجدك.",
-          "يمكنك أن تضبط تنبيهًا هادئًا على هاتفك لكل صلاة حتى تعتاد على إيقاعها."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "users",
+              "label": "مسجدك",
+              "text": "اسأل المسجد القريب منك عن جدول المواقيت، فكثير من المساجد تنشر جدولًا شهريًا مطبوعًا أو على الإنترنت."
+            },
+            {
+              "icon": "globe",
+              "label": "تطبيق أو موقع",
+              "text": "حدّد مدينتك أو موقعك. وإذا طلب منك اختيار طريقة الحساب، فاختر الطريقة التي يعتمدها مسجدك."
+            },
+            {
+              "icon": "clock",
+              "label": "تنبيه",
+              "text": "اضبط تنبيهًا هادئًا على هاتفك لكل صلاة حتى تعتاد على إيقاعها."
+            }
+          ]
+        }
       },
       {
         "p": "وتذكّر أن الوقت المكتوب في الجدول هو بداية وقت الصلاة، فإذا كان الظهر يبدأ الساعة 1:05 مثلًا، فلك أن تصليه في أي لحظة قبل دخول وقت العصر."
@@ -208,14 +248,14 @@
         "h": "إذا كنت في بداية الطريق"
       },
       {
-        "p": "إن شعرت أن هذا كثير، فهذا شعور طبيعي تمامًا، فكل مسلم تعلّم الصلاة يومًا ما لأول مرة. ابدأ بما تستطيع: تعلّم المواقيت، ثم الحركات، وصلِّ بما تحفظه من الأذكار حتى الآن، وزد قليلًا كل يوم. وستأخذ بيدك الدروس القادمة، ومقاطع الفيديو في خطوة «فيديوهات تعليم الصلاة»."
+        "p": "إن شعرت أن هذا كثير، فهذا شعور طبيعي تمامًا، فكل مسلم تعلّم الصلاة يومًا ما لأول مرة."
+      },
+      {
+        "p": "ابدأ بما تستطيع: تعلّم المواقيت، ثم الحركات، وصلِّ بما تحفظه من الأذكار حتى الآن، وزد قليلًا كل يوم. وستأخذ بيدك الدروس القادمة، ومقاطع الفيديو في خطوة «فيديوهات تعليم الصلاة»."
       },
       {
         "quote": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
         "cite": "سورة البقرة: 286"
-      },
-      {
-        "p": "أي إن دين الله يسر، ولا يطلب الله من عباده ما لا يطيقون."
       },
       {
         "p": "وإذا نمت عن صلاة أو نسيتها، فلا تحزن ولا تظن أنك فشلت، فقد قال النبي صلى الله عليه وسلم: «مَنْ نَسِيَ صَلَاةً فَلْيُصَلِّ إِذَا ذَكَرَهَا» (صحيح البخاري 597 وصحيح مسلم 684)، وفي رواية مسلم ذكر النوم عنها أيضًا. فصلِّها حين تذكرها، وامضِ في طريقك."
@@ -241,10 +281,7 @@
     ],
     "es": [
       {
-        "p": "La oración islámica se llama *salat*. Es una forma breve y establecida de presentarse ante Allah, la palabra árabe para Dios, el Dios Único. Allah pide a cada musulmán que rece cinco veces cada día y cada noche. En esta lección verás los nombres de las cinco oraciones, aproximadamente cuándo se hace cada una y cuánto dura cada una."
-      },
-      {
-        "p": "Un hombre llamado Dimam ibn Za'laba (que Allah esté complacido con él) vino una vez al Profeta Muhammad, la paz sea con él, y le preguntó si Allah había ordenado que hiciéramos cinco oraciones en el día y la noche. El Profeta respondió: «Por Allah, sí» (Sahih al-Bujari 63)."
+        "p": "La oración islámica se llama *salat*: una forma breve y establecida de presentarse ante Allah, la palabra árabe para Dios, el Dios Único. Allah pide a cada musulmán que rece cinco veces cada día y cada noche."
       },
       {
         "quote": "La oración ha sido prescrita a los creyentes para ser realizada en horarios específicos.",
@@ -254,53 +291,62 @@
         "h": "Las cinco oraciones y sus horarios"
       },
       {
-        "p": "Cada oración tiene un período de tiempo marcado por el movimiento del sol, y puedes rezarla en cualquier momento dentro de ese período. El Profeta describió estos períodos en un hadiz auténtico, es decir, un dicho registrado del Profeta (Sahih Muslim 612). En palabras sencillas:"
+        "p": "Cada oración tiene un período de tiempo marcado por el movimiento del sol, y puedes rezarla en cualquier momento dentro de ese período (Sahih Muslim 612)."
       },
       {
-        "ul": [
-          "**Fayr** (la oración del alba): desde la primera luz del amanecer hasta la salida del sol.",
-          "**Duhr** (la oración del mediodía): desde poco después del mediodía, cuando el sol ha pasado su punto más alto, hasta que empieza el tiempo del Asr.",
-          "**Asr** (la oración de la tarde): más tarde, por la tarde. El Profeta enseñó que se debe rezar antes de que el sol se ponga amarillo.",
-          "**Magrib** (la oración del atardecer): justo después de la puesta del sol, hasta que desaparece el crepúsculo.",
-          "**Isha** (la oración de la noche): cuando ya ha llegado la noche. El Profeta enseñó que su tiempo dura hasta la mitad de la noche."
-        ]
+        "p": "Cada oración se compone de unidades llamadas *rak'at* (una unidad es una *rak'a*). En una rak'a te pones de pie, te inclinas y luego te postras dos veces con la frente en el suelo. La parte obligatoria (*fard*) de cada oración tiene un número fijo de rak'at."
       },
       {
-        "p": "El Profeta también nos contó que el ángel Yibril (Gabriel), la paz sea con él, descendió y lo dirigió en las cinco oraciones, y él las contaba con los dedos (Sahih al-Bujari 3221 y Sahih Muslim 610)."
-      },
-      {
-        "h": "¿Cuánto dura cada oración?"
-      },
-      {
-        "p": "Cada oración se compone de unidades llamadas *rak'at* (una unidad es una *rak'a*). En una rak'a te pones de pie, te inclinas y luego te postras dos veces con la frente en el suelo. La parte obligatoria (*fard*) de cada oración tiene un número fijo de rak'at:"
-      },
-      {
-        "ul": [
-          "Fayr: 2 rak'at",
-          "Duhr: 4 rak'at",
-          "Asr: 4 rak'at",
-          "Magrib: 3 rak'at",
-          "Isha: 4 rak'at"
-        ]
+        "facts": {
+          "title": "Las cinco oraciones de hoy",
+          "items": [
+            {
+              "icon": "sparkles",
+              "label": "Fayr",
+              "text": "2 rak'at. Desde la primera luz del amanecer hasta la salida del sol."
+            },
+            {
+              "icon": "sun",
+              "label": "Duhr",
+              "text": "4 rak'at. Desde poco después del mediodía, cuando el sol ha pasado su punto más alto, hasta que empieza el tiempo del Asr."
+            },
+            {
+              "icon": "clock",
+              "label": "Asr",
+              "text": "4 rak'at. Más tarde, por la tarde. El Profeta enseñó que se debe rezar antes de que el sol se ponga amarillo."
+            },
+            {
+              "icon": "star",
+              "label": "Magrib",
+              "text": "3 rak'at. Justo después de la puesta del sol, hasta que desaparece el crepúsculo."
+            },
+            {
+              "icon": "moon",
+              "label": "Isha",
+              "text": "4 rak'at. Cuando ya ha llegado la noche. El Profeta enseñó que su tiempo dura hasta la mitad de la noche."
+            }
+          ]
+        }
       },
       {
         "p": "En total son 17 rak'at al día, y la mayoría de las oraciones dura solo unos minutos."
       },
       {
-        "p": "¿De dónde vienen estos números? Aisha (que Allah esté complacido con ella), la esposa del Profeta, explicó que la oración se prescribió al principio con dos rak'at cada una, y que después se aumentaron las oraciones de quien está en su lugar de residencia, es decir, sin viajar (Sahih al-Bujari 350 y Sahih Muslim 685). Ibn Abbas (que Allah esté complacido con él) dijo que Allah prescribió la oración con cuatro rak'at para quien está en su residencia y dos para el viajero (Sahih Muslim 687). Los sabios explican que el Fayr se quedó en dos y que el Magrib tiene tres, e Ibn Umar (que Allah esté complacido con él) relató que el Profeta rezó el Magrib con tres rak'at (Sahih Muslim 1288). Los musulmanes de todo el mundo han rezado estos mismos números desde la época del Profeta hasta hoy, y los sabios están de acuerdo en ellos."
-      },
-      {
         "p": "Cuando viajas, las oraciones de cuatro rak'at se pueden acortar a dos. Aprenderás los detalles más adelante."
       },
       {
-        "steps": {
-          "title": "Las cinco oraciones de hoy",
-          "steps": [
-            "Fayr: 2 rak'at, entre el alba y la salida del sol",
-            "Duhr: 4 rak'at, después del mediodía",
-            "Asr: 4 rak'at, por la tarde",
-            "Magrib: 3 rak'at, justo después de la puesta del sol",
-            "Isha: 4 rak'at, por la noche"
+        "more": {
+          "title": "De dónde vienen estos números",
+          "blocks": [
+            {
+              "p": "Un hombre llamado Dimam ibn Za'laba (que Allah esté complacido con él) vino una vez al Profeta Muhammad, la paz sea con él, y le preguntó si Allah había ordenado que hiciéramos cinco oraciones en el día y la noche. El Profeta respondió: «Por Allah, sí» (Sahih al-Bujari 63)."
+            },
+            {
+              "p": "El Profeta también nos contó que el ángel Yibril (Gabriel), la paz sea con él, descendió y lo dirigió en las cinco oraciones, y él las contaba con los dedos (Sahih al-Bujari 3221 y Sahih Muslim 610)."
+            },
+            {
+              "p": "¿De dónde vienen estos números? Aisha (que Allah esté complacido con ella), la esposa del Profeta, explicó que la oración se prescribió al principio con dos rak'at cada una, y que después se aumentaron las oraciones de quien está en su lugar de residencia, es decir, sin viajar (Sahih al-Bujari 350 y Sahih Muslim 685). Ibn Abbas (que Allah esté complacido con él) dijo que Allah prescribió la oración con cuatro rak'at para quien está en su residencia y dos para el viajero (Sahih Muslim 687). Los sabios explican que el Fayr se quedó en dos y que el Magrib tiene tres, e Ibn Umar (que Allah esté complacido con él) relató que el Profeta rezó el Magrib con tres rak'at (Sahih Muslim 1288). Los musulmanes de todo el mundo han rezado estos mismos números desde la época del Profeta hasta hoy, y los sabios están de acuerdo en ellos."
+            }
           ]
         }
       },
@@ -308,14 +354,28 @@
         "h": "Cómo encontrar los horarios de oración donde vives"
       },
       {
-        "p": "Como los horarios siguen al sol, cambian un poco cada día y son distintos en cada ciudad. No necesitas calcularlos tú:"
+        "p": "Como los horarios siguen al sol, cambian un poco cada día y son distintos en cada ciudad. No necesitas calcularlos tú."
       },
       {
-        "ul": [
-          "Pide el calendario de horarios a tu mezquita local. Muchas mezquitas comparten un calendario mensual en papel o en internet.",
-          "Usa una aplicación o una página web de horarios de oración e indica tu ciudad o ubicación. Si te pide elegir un método de cálculo, elige el que usa tu mezquita.",
-          "Mientras te acostumbras al ritmo, puedes poner un recordatorio suave en tu teléfono para cada oración."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "users",
+              "label": "Tu mezquita",
+              "text": "Pide el calendario de horarios a tu mezquita local. Muchas comparten uno mensual en papel o en internet."
+            },
+            {
+              "icon": "globe",
+              "label": "Una aplicación o página web",
+              "text": "Indica tu ciudad o ubicación. Si te pide elegir un método de cálculo, elige el que usa tu mezquita."
+            },
+            {
+              "icon": "clock",
+              "label": "Un recordatorio",
+              "text": "Mientras te acostumbras al ritmo, pon un recordatorio suave en tu teléfono para cada oración."
+            }
+          ]
+        }
       },
       {
         "p": "Recuerda que la hora del calendario es el comienzo del período. Si el Duhr empieza a la 1:05, puedes rezarlo en cualquier momento antes de que empiece el Asr."
@@ -324,7 +384,10 @@
         "h": "Si estás empezando"
       },
       {
-        "p": "Si esto te parece mucho, es completamente normal. Todo musulmán tuvo que aprender la oración por primera vez. Empieza con lo que puedas: aprende los horarios, aprende los movimientos y reza con las palabras que ya sabes. Añade un poco cada día. Las próximas lecciones, y los videos del paso «Recursos de video para la oración», te irán guiando."
+        "p": "Si esto te parece mucho, es completamente normal. Todo musulmán tuvo que aprender la oración por primera vez."
+      },
+      {
+        "p": "Empieza con lo que puedas: aprende los horarios, aprende los movimientos y reza con las palabras que ya sabes. Añade un poco cada día. Las próximas lecciones, y los videos del paso «Recursos de video para la oración», te irán guiando."
       },
       {
         "quote": "Dios no exige a nadie por encima de sus posibilidades",
@@ -394,5 +457,21 @@
       "url": "https://hadeethenc.com/en/browse/hadith/65088"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=arG1L_d0tW0",
+      "title": {
+        "en": "The rak'ahs of each daily prayer at a glance",
+        "ar": "عدد ركعات كل صلاة في لمحة",
+        "es": "Las rak'ahs de cada oración de un vistazo"
+      },
+      "by": {
+        "en": "Umar Motivation",
+        "ar": "Umar Motivation",
+        "es": "Umar Motivation"
+      },
+      "seconds": 5
+    }
+  ]
 }

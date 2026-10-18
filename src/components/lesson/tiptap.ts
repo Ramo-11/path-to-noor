@@ -1,8 +1,15 @@
 import {
+  normalizeBreakdown,
+  normalizeCompare,
+  normalizeFacts,
+  normalizeFlow,
   normalizeKeyPoint,
+  normalizeMore,
   normalizePhraseCard,
   normalizeQuickCheck,
+  normalizeScenario,
   normalizeStepList,
+  normalizeTimeline,
   type LessonBlockType,
 } from "@/lib/lesson-blocks";
 
@@ -45,6 +52,13 @@ const BLOCK_NORMALIZERS: Record<LessonBlockType, (attrs: unknown) => unknown> = 
   stepList: normalizeStepList,
   quickCheck: normalizeQuickCheck,
   keyPoint: normalizeKeyPoint,
+  breakdown: normalizeBreakdown,
+  compare: normalizeCompare,
+  flow: normalizeFlow,
+  timeline: normalizeTimeline,
+  facts: normalizeFacts,
+  scenario: normalizeScenario,
+  moreBlock: normalizeMore,
 };
 
 export function asNode(value: unknown): TipTapNode | null {
@@ -148,6 +162,7 @@ export function hasRenderableContent(value: unknown): boolean {
   if (node.type === "image") return safeImageSrc(node.attrs?.src) !== null;
   if (node.type === "youtube") return youtubeEmbedUrl(node.attrs?.src) !== null;
   if (node.type === "horizontalRule" || node.type === "hardBreak") return false;
+  if (node.type === "moreBlock") return childNodes(node).some(hasRenderableContent);
   if (isLessonBlock(node.type)) return BLOCK_NORMALIZERS[node.type](node.attrs) !== null;
   return childNodes(node).some(hasRenderableContent);
 }

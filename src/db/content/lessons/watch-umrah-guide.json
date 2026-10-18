@@ -1,0 +1,41 @@
+{
+  "slug": "watch-umrah-guide",
+  "minutes": 15,
+  "title": {
+    "en": "Umrah, step by step",
+    "ar": "العمرة خطوة بخطوة",
+    "es": "La Umrah paso a paso"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A complete step-by-step guide to performing Umrah."
+      }
+    ],
+    "ar": [
+      {
+        "p": "دليل كامل خطوة بخطوة لأداء العمرة."
+      }
+    ],
+    "es": [
+      {
+        "p": "Una guía completa, paso a paso, para realizar la Umrah."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=z4OkHqu1KsA",
+    "title": {
+      "en": "Umrah, step by step",
+      "ar": "العمرة خطوة بخطوة",
+      "es": "La Umrah paso a paso"
+    },
+    "by": {
+      "en": "Sahal Umrah",
+      "ar": "Sahal Umrah",
+      "es": "Sahal Umrah"
+    },
+    "seconds": 900
+  }
+}

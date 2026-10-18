@@ -1,6 +1,6 @@
 {
   "slug": "seerah-hijrah",
-  "minutes": 9,
+  "minutes": 3,
   "title": {
     "en": "The hijrah: migration to Madinah",
     "ar": "الهجرة إلى المدينة",
@@ -9,33 +9,47 @@
   "body": {
     "en": [
       {
-        "p": "The word **hijrah** means migration. In Islamic history it means the journey of the Prophet Muhammad, peace be upon him, from Makkah to Madinah in 622 CE, thirteen years after the first revelation. It was such a turning point that the companions counted the years of the Islamic calendar from his arrival in Madinah (Sahih al-Bukhari 3934)."
+        "p": "The **hijrah**, the Prophet's migration from Makkah to Madinah in 622 CE, was so decisive that the companions counted the Islamic calendar from it (Sahih al-Bukhari 3934)."
       },
       {
-        "h": "A new home prepared"
-      },
-      {
-        "p": "In Makkah the persecution kept growing. Meanwhile, people from the town of Yathrib, later called Madinah, met the Prophet during the pilgrimage season, accepted Islam, and promised to protect him. The Muslims of Makkah began to migrate there quietly, leaving their homes and property behind."
+        "timeline": {
+          "title": "The journey",
+          "events": [
+            {
+              "when": "In Makkah",
+              "text": "People from Yathrib, later called Madinah, accepted Islam and promised to protect him."
+            },
+            {
+              "when": "Quietly",
+              "text": "The Muslims of Makkah began to migrate there, leaving their homes behind."
+            },
+            {
+              "when": "The cave",
+              "text": "The Prophet left with **Abu Bakr**, may Allah be pleased with him, and they hid three nights in a cave on Mount Thawr (Sahih al-Bukhari 3905)."
+            },
+            {
+              "when": "Quba",
+              "text": "He stayed a little more than ten nights at Quba and founded its mosque."
+            },
+            {
+              "when": "Madinah",
+              "text": "He rode into the city, with people walking alongside him (Sahih al-Bukhari 3906)."
+            }
+          ]
+        }
       },
       {
         "h": "Two in the cave"
       },
       {
-        "p": "Then the Prophet left Makkah with **Abu Bakr**, may Allah be pleased with him. Abu Bakr's family prepared food for the journey, and his daughter Asma, may Allah be pleased with her, tied the bag closed with a piece torn from her own waistband. The two hid in a cave on Mount Thawr, near Makkah, for three nights (Sahih al-Bukhari 3905)."
-      },
-      {
-        "p": "The men of Quraysh searched for them and came right up to the cave. Abu Bakr later said: \"O Messenger of Allah, if one of them looked below his feet, he would see us.\" The Prophet replied:"
+        "p": "The men of Quraysh came right up to the cave. Abu Bakr said: \"O Messenger of Allah, if one of them looked below his feet, he would see us.\" The Prophet replied:"
       },
       {
         "quote": "O Abu Bakr, what do you think of two persons, the third of whom is Allah?",
         "cite": "Sahih al-Bukhari 3653 and Sahih Muslim 2381 (agreed upon)"
       },
       {
-        "p": "Allah mentions this moment in the Quran, describing the Prophet and Abu Bakr:"
-      },
-      {
-        "quote": "when they were in the cave and he said to his companion, \"Do not grieve; indeed Allah is with us.\" And Allah sent down his tranquillity upon him and supported him with angels you did not see",
-        "cite": "Quran 9:40 (part of the verse; Saheeh International translation of the meaning)"
+        "p": "Allah mentions this moment in the Quran:"
       },
       {
         "phrase": {
@@ -45,36 +59,45 @@
         }
       },
       {
-        "p": "Scholars explain that \"Allah is with us\" means He was with them with His help and support. Whatever you face as a new Muslim, these words are yours too."
-      },
-      {
-        "h": "Arrival in Madinah"
-      },
-      {
-        "p": "The Prophet first stayed a little more than ten nights with the clan of Banu Amr ibn Awf, at Quba on the edge of Madinah, where he founded the mosque of Quba. Then he rode into the city, with people walking alongside him (Sahih al-Bukhari 3906). Anas ibn Malik, may Allah be pleased with him, who was a boy at the time, remembered it this way:"
-      },
-      {
-        "quote": "On the day the Messenger of Allah (may Allah's peace and blessings be upon him) entered Madīnah, everything therein became illuminated.",
-        "cite": "Sunan al-Tirmidhi 3618 (sahih, al-Albani)"
+        "p": "Whatever you face as a new Muslim, these words are yours too."
       },
       {
         "h": "Building the mosque"
       },
       {
-        "p": "One of the first things he did in Madinah was build a mosque, which is today the Prophet's Mosque. The Prophet did not just give orders: he carried bricks himself alongside his companions (Sahih al-Bukhari 3906). Its wall facing the qiblah (the direction of prayer) was made of palm trunks (Sahih al-Bukhari 428). This simple building became the heart of the community: a place for prayer, learning, and gathering."
+        "p": "He built a mosque, today the Prophet's Mosque, and carried bricks himself alongside his companions (Sahih al-Bukhari 3906). It became the heart of the community."
       },
       {
         "h": "Brothers in faith"
       },
       {
-        "p": "The emigrants from Makkah, the **Muhajirun**, had left almost everything behind. The Muslims of Madinah, the **Ansar** (the helpers), welcomed them, and the Prophet paired emigrants and helpers as brothers. Abd al-Rahman ibn Awf, may Allah be pleased with him, was paired with Sa'd ibn al-Rabi', may Allah be pleased with him, who offered to give him half of his wealth. Abd al-Rahman replied that he did not need it and asked where the market was, and he began to trade (Sahih al-Bukhari 2048). Allah praised the Ansar:"
+        "compare": {
+          "first": {
+            "title": "The Muhajirun",
+            "items": [
+              "The emigrants from Makkah",
+              "They had left almost everything behind"
+            ]
+          },
+          "second": {
+            "title": "The Ansar",
+            "items": [
+              "The helpers of Madinah",
+              "They welcomed the emigrants",
+              "The Prophet paired each emigrant with a helper as brothers"
+            ]
+          }
+        }
+      },
+      {
+        "p": "Allah praised the Ansar:"
       },
       {
         "quote": "They love those who emigrated to them and find not any want in their breasts of what the emigrants were given but give [them] preference over themselves, even though they are in privation.",
         "cite": "Quran 59:9 (part of the verse; Saheeh International translation of the meaning)"
       },
       {
-        "p": "Many new Muslims find their own version of this brotherhood and sisterhood today: a friend at the masjid, a mentor, a family that welcomes you. You are part of the same community."
+        "p": "Many new Muslims find their own version of this brotherhood and sisterhood today: a friend at the masjid, a mentor, a family that welcomes you."
       },
       {
         "quick": {
@@ -93,37 +116,87 @@
       },
       {
         "p": "Next: life in Madinah, the conquest of Makkah, the farewell pilgrimage, and the Prophet's passing."
+      },
+      {
+        "more": {
+          "title": "Verses and stories",
+          "blocks": [
+            {
+              "p": "The Quran describes the Prophet and Abu Bakr in the cave:"
+            },
+            {
+              "quote": "when they were in the cave and he said to his companion, \"Do not grieve; indeed Allah is with us.\" And Allah sent down his tranquillity upon him and supported him with angels you did not see",
+              "cite": "Quran 9:40 (part of the verse; Saheeh International translation of the meaning)"
+            },
+            {
+              "p": "Scholars explain that \"Allah is with us\" means He was with them with His help and support."
+            },
+            {
+              "p": "Anas ibn Malik, may Allah be pleased with him, who was a boy at the time, remembered the day the Prophet entered Madinah:"
+            },
+            {
+              "quote": "On the day the Messenger of Allah (may Allah's peace and blessings be upon him) entered Madīnah, everything therein became illuminated.",
+              "cite": "Sunan al-Tirmidhi 3618 (sahih, al-Albani)"
+            },
+            {
+              "p": "The wall of the mosque facing the qiblah (the direction of prayer) was made of palm trunks (Sahih al-Bukhari 428)."
+            },
+            {
+              "p": "Abd al-Rahman ibn Awf, may Allah be pleased with him, was paired with Sa'd ibn al-Rabi', may Allah be pleased with him, who offered to give him half of his wealth. Abd al-Rahman replied that he did not need it and asked where the market was, and he began to trade (Sahih al-Bukhari 2048)."
+            },
+            {
+              "p": "Abu Bakr's daughter Asma, may Allah be pleased with her, tied the food bag closed with a piece torn from her own waistband."
+            },
+            {
+              "p": "The word hijrah means migration. It came thirteen years after the first revelation."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "**الهجرة** في التاريخ الإسلامي هي انتقال النبي محمد صلى الله عليه وسلم من مكة إلى المدينة سنة 622 للميلاد، بعد ثلاث عشرة سنة من نزول الوحي. وكانت حدثًا فاصلًا حتى إن الصحابة أرّخوا بها، فجعلوا بداية التقويم الإسلامي من مقدمه المدينة (صحيح البخاري 3934)."
+        "p": "**الهجرة** هي انتقال النبي صلى الله عليه وسلم من مكة إلى المدينة سنة 622 للميلاد، وكانت حدثًا فاصلًا حتى أرّخ بها الصحابة التقويم الإسلامي (صحيح البخاري 3934)."
       },
       {
-        "h": "موطن جديد يُهيَّأ"
-      },
-      {
-        "p": "اشتدّ الأذى في مكة، وفي الوقت نفسه لقي النبيَّ صلى الله عليه وسلم في موسم الحج أناسٌ من يثرب، التي سُمّيت بعد ذلك المدينة، فأسلموا وعاهدوه على نصرته. فبدأ المسلمون في مكة يهاجرون إليها سرًّا، تاركين بيوتهم وأموالهم."
+        "timeline": {
+          "title": "الرحلة",
+          "events": [
+            {
+              "when": "في مكة",
+              "text": "أسلم أناس من يثرب، التي سُمّيت بعد ذلك المدينة، وعاهدوه على نصرته."
+            },
+            {
+              "when": "سرًّا",
+              "text": "بدأ المسلمون في مكة يهاجرون إلى المدينة، تاركين بيوتهم وأموالهم."
+            },
+            {
+              "when": "الغار",
+              "text": "خرج النبي صلى الله عليه وسلم ومعه **أبو بكر الصديق** رضي الله عنه، واختبآ ثلاث ليال في غار في جبل ثور (صحيح البخاري 3905)."
+            },
+            {
+              "when": "قباء",
+              "text": "نزل في بني عمرو بن عوف في قباء بضع عشرة ليلة، وأسّس فيها مسجد قباء."
+            },
+            {
+              "when": "المدينة",
+              "text": "ركب راحلته إلى المدينة والناس يمشون معه (صحيح البخاري 3906)."
+            }
+          ]
+        }
       },
       {
         "h": "ثاني اثنين في الغار"
       },
       {
-        "p": "ثم خرج النبي صلى الله عليه وسلم من مكة ومعه **أبو بكر الصديق** رضي الله عنه، وجهّز لهما أهل أبي بكر الزاد، فقطعت أسماء بنت أبي بكر رضي الله عنهما قطعة من نطاقها فربطت بها فم الجراب، ثم اختبآ في غار في جبل ثور قرب مكة ثلاث ليال (صحيح البخاري 3905)."
-      },
-      {
-        "p": "وخرجت قريش تطلبهما حتى وقفوا عند الغار، قال أبو بكر: يا رسول الله، لو أن أحدهم نظر إلى قدميه لأبصرنا، فقال النبي صلى الله عليه وسلم:"
+        "p": "ووقف رجال قريش عند الغار، قال أبو بكر: يا رسول الله، لو أن أحدهم نظر إلى قدميه لأبصرنا، فقال النبي صلى الله عليه وسلم:"
       },
       {
         "quote": "يَا أَبَا بَكْرٍ، مَا ظَنُّكَ بِاثْنَيْنِ اللهُ ثَالِثُهُمَا",
         "cite": "صحيح البخاري 3653، وصحيح مسلم 2381 (متفق عليه)"
       },
       {
-        "p": "وقد ذكر الله هذا الموقف في القرآن فقال:"
-      },
-      {
-        "quote": "إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍۢ لَّمْ تَرَوْهَا",
-        "cite": "سورة التوبة، من الآية 40"
+        "p": "وقد ذكر الله هذا الموقف في القرآن:"
       },
       {
         "phrase": {
@@ -133,36 +206,45 @@
         }
       },
       {
-        "p": "أي حين كانا في غار ثور، قال النبي صلى الله عليه وسلم لصاحبه لما رأى خوفه عليه: لا تحزن إن الله معنا بنصره وتأييده، فأنزل الله الطمأنينة في قلبه، وأعانه بجنود لم يرها أحد من البشر وهم الملائكة. ومهما واجهت وأنت مسلم جديد، فهذه الكلمات لك أيضًا."
-      },
-      {
-        "h": "الوصول إلى المدينة"
-      },
-      {
-        "p": "نزل النبي صلى الله عليه وسلم أولًا في بني عمرو بن عوف في قباء على أطراف المدينة بضع عشرة ليلة، وأسّس فيها مسجد قباء، ثم ركب راحلته إلى المدينة والناس يمشون معه (صحيح البخاري 3906). وقد وصف أنس بن مالك رضي الله عنه ذلك اليوم، وكان غلامًا صغيرًا، فقال:"
-      },
-      {
-        "quote": "لمَّا كان اليوم الذي دَخَل فيه رسول الله صلى الله عليه وسلم المدينةَ أضاءَ منها كلُّ شيء",
-        "cite": "سنن الترمذي 3618 (صحّحه الألباني)"
+        "p": "ومهما واجهت وأنت مسلم جديد، فهذه الكلمات لك أيضًا."
       },
       {
         "h": "بناء المسجد"
       },
       {
-        "p": "من أول ما فعله في المدينة أن بنى المسجد، وهو اليوم المسجد النبوي. ولم يكتفِ بالأمر، بل كان ينقل اللّبِن بنفسه مع أصحابه (صحيح البخاري 3906)، وجعلوا جذوع النخل في جدار القبلة (صحيح البخاري 428). وصار هذا البناء البسيط قلب المجتمع: مكانًا للصلاة والتعلّم والاجتماع."
+        "p": "بنى المسجد، وهو اليوم المسجد النبوي، وكان ينقل اللّبِن بنفسه مع أصحابه (صحيح البخاري 3906). وصار قلب المجتمع."
       },
       {
         "h": "إخوة في الإيمان"
       },
       {
-        "p": "ترك **المهاجرون** القادمون من مكة كل شيء تقريبًا، فاستقبلهم مسلمو المدينة، وهم **الأنصار**، وآخى النبي صلى الله عليه وسلم بين المهاجرين والأنصار. فآخى بين عبد الرحمن بن عوف وسعد بن الربيع رضي الله عنهما، فعرض سعد أن يقاسمه نصف ماله، فقال عبد الرحمن إنه لا حاجة له في ذلك، وسأل عن السوق، فبدأ يتاجر (صحيح البخاري 2048). وقد أثنى الله على الأنصار فقال:"
+        "compare": {
+          "first": {
+            "title": "المهاجرون",
+            "items": [
+              "القادمون من مكة",
+              "تركوا كل شيء تقريبًا"
+            ]
+          },
+          "second": {
+            "title": "الأنصار",
+            "items": [
+              "أهل المدينة المناصرون",
+              "استقبلوا المهاجرين",
+              "وآخى النبي صلى الله عليه وسلم بين كل مهاجر وأنصاري"
+            ]
+          }
+        }
+      },
+      {
+        "p": "وقد أثنى الله على الأنصار فقال:"
       },
       {
         "quote": "يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ حَاجَةًۭ مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
         "cite": "سورة الحشر، من الآية 9"
       },
       {
-        "p": "أي يحبون المهاجرين ويواسونهم بأموالهم، ولا يجدون في أنفسهم حسدًا لهم، ويقدّمونهم على أنفسهم ولو كان بهم فقر. وكثير من المسلمين الجدد يجدون اليوم صورة من هذه الأخوّة: صديقًا في المسجد، أو مرشدًا، أو أسرة تستقبلهم. وأنت جزء من هذا المجتمع نفسه."
+        "p": "وكثير من المسلمين الجدد يجدون اليوم صورة من هذه الأخوّة: صديقًا في المسجد، أو مرشدًا، أو أسرة تستقبلهم."
       },
       {
         "quick": {
@@ -181,37 +263,90 @@
       },
       {
         "p": "في الدرس القادم: الحياة في المدينة، وفتح مكة، وحجة الوداع، ووفاة النبي صلى الله عليه وسلم."
+      },
+      {
+        "more": {
+          "title": "آيات وقصص",
+          "blocks": [
+            {
+              "p": "وصف القرآن النبي صلى الله عليه وسلم وصاحبه في الغار:"
+            },
+            {
+              "quote": "إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍۢ لَّمْ تَرَوْهَا",
+              "cite": "سورة التوبة، من الآية 40"
+            },
+            {
+              "p": "أي حين كانا في غار ثور، قال النبي صلى الله عليه وسلم لصاحبه لما رأى خوفه عليه: لا تحزن إن الله معنا بنصره وتأييده، فأنزل الله الطمأنينة في قلبه، وأعانه بجنود لم يرها أحد من البشر وهم الملائكة."
+            },
+            {
+              "p": "ووصف أنس بن مالك رضي الله عنه، وكان غلامًا صغيرًا، يوم دخول النبي المدينة فقال:"
+            },
+            {
+              "quote": "لمَّا كان اليوم الذي دَخَل فيه رسول الله صلى الله عليه وسلم المدينةَ أضاءَ منها كلُّ شيء",
+              "cite": "سنن الترمذي 3618 (صحّحه الألباني)"
+            },
+            {
+              "p": "وجعلوا جذوع النخل في جدار القبلة (صحيح البخاري 428)."
+            },
+            {
+              "p": "آخى النبي بين عبد الرحمن بن عوف وسعد بن الربيع رضي الله عنهما، فعرض سعد أن يقاسمه نصف ماله، فقال عبد الرحمن إنه لا حاجة له في ذلك، وسأل عن السوق، فبدأ يتاجر (صحيح البخاري 2048)."
+            },
+            {
+              "p": "أي يحبون المهاجرين ويواسونهم بأموالهم، ولا يجدون في أنفسهم حسدًا لهم، ويقدّمونهم على أنفسهم ولو كان بهم فقر."
+            },
+            {
+              "p": "وقطعت أسماء بنت أبي بكر رضي الله عنهما قطعة من نطاقها فربطت بها فم الجراب."
+            },
+            {
+              "p": "وجاءت الهجرة بعد ثلاث عشرة سنة من نزول الوحي."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "La palabra **hiyra** (hégira) significa emigración. En la historia islámica se refiere al viaje del Profeta Muhammad, la paz sea con él, de La Meca a Medina en el año 622, trece años después de la primera revelación. Fue un momento tan decisivo que los compañeros empezaron a contar los años del calendario islámico desde su llegada a Medina (Sahih al-Bujari 3934)."
+        "p": "La **hiyra** (hégira), la emigración del Profeta de La Meca a Medina en el año 622, fue tan decisiva que los compañeros contaron desde ella el calendario islámico (Sahih al-Bujari 3934)."
       },
       {
-        "h": "Un nuevo hogar preparado"
-      },
-      {
-        "p": "En La Meca la persecución seguía creciendo. Mientras tanto, gente de la ciudad de Yazrib, que después se llamó Medina, conoció al Profeta durante la temporada de peregrinación, aceptó el Islam y prometió protegerlo. Los musulmanes de La Meca empezaron a emigrar allí en silencio, dejando atrás sus casas y sus bienes."
+        "timeline": {
+          "title": "El viaje",
+          "events": [
+            {
+              "when": "En La Meca",
+              "text": "Gente de Yazrib, que después se llamó Medina, aceptó el Islam y prometió protegerlo."
+            },
+            {
+              "when": "En silencio",
+              "text": "Los musulmanes de La Meca empezaron a emigrar a Medina, dejando atrás sus casas y sus bienes."
+            },
+            {
+              "when": "La cueva",
+              "text": "El Profeta salió con **Abu Bakr**, que Allah esté complacido con él, y se escondieron tres noches en una cueva del monte Zaur (Sahih al-Bujari 3905)."
+            },
+            {
+              "when": "Quba",
+              "text": "Se quedó algo más de diez noches en Quba y fundó su mezquita."
+            },
+            {
+              "when": "Medina",
+              "text": "Entró en la ciudad montado, con la gente caminando a su lado (Sahih al-Bujari 3906)."
+            }
+          ]
+        }
       },
       {
         "h": "Dos en la cueva"
       },
       {
-        "p": "Luego el Profeta salió de La Meca con **Abu Bakr**, que Allah esté complacido con él. La familia de Abu Bakr preparó comida para el viaje, y su hija Asma, que Allah esté complacido con ella, cerró la bolsa con un trozo que cortó de su propio cinturón. Los dos se escondieron tres noches en una cueva del monte Zaur, cerca de La Meca (Sahih al-Bujari 3905)."
-      },
-      {
-        "p": "Los hombres de Quraish los buscaron y llegaron hasta la cueva. Abu Bakr contó después: «Oh Mensajero de Allah, si uno de ellos mirara bajo sus pies, nos vería». El Profeta respondió:"
+        "p": "Los hombres de Quraish llegaron hasta la cueva. Abu Bakr dijo: «Oh Mensajero de Allah, si uno de ellos mirara bajo sus pies, nos vería». El Profeta respondió:"
       },
       {
         "quote": "Oh Abu Bakr, ¿qué piensas de dos cuyo tercero es Allah?",
         "cite": "Sahih al-Bujari 3653 y Sahih Muslim 2381 (registrado por ambos)"
       },
       {
-        "p": "Allah menciona este momento en el Corán, describiendo al Profeta y a Abu Bakr (esta traducción usa la palabra «Dios» para Allah):"
-      },
-      {
-        "quote": "cuando estando en la caverna con su compañero [Abu Bakr], le dijo: \"No te entristezcas, pues Dios está con nosotros\". Entonces, Dios hizo descender Su sosiego sobre él [Abu Bakr], los socorrió con un ejército [de ángeles] que ellos no veían",
-        "cite": "Corán 9:40 (parte de la aleya; traducción del significado de Isa García)"
+        "p": "Allah menciona este momento en el Corán:"
       },
       {
         "phrase": {
@@ -221,36 +356,45 @@
         }
       },
       {
-        "p": "Los sabios explican que «Allah está con nosotros» significa que estaba con ellos con Su ayuda y Su apoyo. Sea lo que sea que enfrentes como nuevo musulmán, estas palabras también son tuyas."
-      },
-      {
-        "h": "La llegada a Medina"
-      },
-      {
-        "p": "El Profeta se quedó primero algo más de diez noches con el clan de Banu Amr ibn Awf, en Quba, a las afueras de Medina, donde fundó la mezquita de Quba. Luego entró en la ciudad montado, con la gente caminando a su lado (Sahih al-Bujari 3906). Anas ibn Malik, que Allah esté complacido con él, que entonces era un niño, lo recordaba así:"
-      },
-      {
-        "quote": "El día en que el Mensajero de Allah entró en Medina, todo en ella se iluminó.",
-        "cite": "Sunan at-Tirmidi 3618 (auténtico según al-Albani)"
+        "p": "Sea lo que sea que enfrentes como nuevo musulmán, estas palabras también son tuyas."
       },
       {
         "h": "La construcción de la mezquita"
       },
       {
-        "p": "Una de las primeras cosas que hizo en Medina fue construir una mezquita, que hoy es la Mezquita del Profeta. El Profeta no se limitó a dar órdenes: cargó ladrillos él mismo junto a sus compañeros (Sahih al-Bujari 3906). Su muro orientado a la qibla (la dirección de la oración) se hizo con troncos de palmera (Sahih al-Bujari 428). Este edificio sencillo se convirtió en el corazón de la comunidad: un lugar para rezar, aprender y reunirse."
+        "p": "Construyó una mezquita, hoy la Mezquita del Profeta, y cargó ladrillos él mismo junto a sus compañeros (Sahih al-Bujari 3906). Se convirtió en el corazón de la comunidad."
       },
       {
         "h": "Hermanos en la fe"
       },
       {
-        "p": "Los emigrantes de La Meca, los **Muhayirun**, lo habían dejado casi todo. Los musulmanes de Medina, los **Ansar** (los auxiliadores), los recibieron, y el Profeta hermanó a emigrantes y auxiliadores. Abd al-Rahman ibn Awf, que Allah esté complacido con él, fue hermanado con Sa'd ibn al-Rabi', que Allah esté complacido con él, quien le ofreció la mitad de sus bienes. Abd al-Rahman respondió que no lo necesitaba y preguntó dónde estaba el mercado, y empezó a comerciar (Sahih al-Bujari 2048). Allah elogió a los Ansar:"
+        "compare": {
+          "first": {
+            "title": "Los Muhayirun",
+            "items": [
+              "Los emigrantes de La Meca",
+              "Lo habían dejado casi todo"
+            ]
+          },
+          "second": {
+            "title": "Los Ansar",
+            "items": [
+              "Los auxiliadores de Medina",
+              "Recibieron a los emigrantes",
+              "El Profeta hermanó a cada emigrante con un auxiliador"
+            ]
+          }
+        }
+      },
+      {
+        "p": "Allah elogió a los Ansar:"
       },
       {
         "quote": "aman a los que emigraron, no sienten envidia alguna en sus corazones por lo que se les ha dado y los prefieren a sí mismos aunque estén en extrema necesidad.",
         "cite": "Corán 59:9 (parte de la aleya; traducción del significado de Isa García)"
       },
       {
-        "p": "Muchos nuevos musulmanes encuentran hoy su propia versión de esta hermandad: un amigo en la mezquita, un mentor, una familia que los recibe. Tú eres parte de la misma comunidad."
+        "p": "Muchos nuevos musulmanes encuentran hoy su propia versión de esta hermandad: un amigo en la mezquita, un mentor, una familia que los recibe."
       },
       {
         "quick": {
@@ -269,6 +413,42 @@
       },
       {
         "p": "A continuación: la vida en Medina, la conquista de La Meca, la peregrinación de despedida y el fallecimiento del Profeta."
+      },
+      {
+        "more": {
+          "title": "Versículos e historias",
+          "blocks": [
+            {
+              "p": "El Corán describe al Profeta y a Abu Bakr en la cueva (esta traducción usa la palabra «Dios» para Allah):"
+            },
+            {
+              "quote": "cuando estando en la caverna con su compañero [Abu Bakr], le dijo: \"No te entristezcas, pues Dios está con nosotros\". Entonces, Dios hizo descender Su sosiego sobre él [Abu Bakr], los socorrió con un ejército [de ángeles] que ellos no veían",
+              "cite": "Corán 9:40 (parte de la aleya; traducción del significado de Isa García)"
+            },
+            {
+              "p": "Los sabios explican que «Allah está con nosotros» significa que estaba con ellos con Su ayuda y Su apoyo."
+            },
+            {
+              "p": "Anas ibn Malik, que Allah esté complacido con él, que entonces era un niño, recordaba el día en que el Profeta entró en Medina:"
+            },
+            {
+              "quote": "El día en que el Mensajero de Allah entró en Medina, todo en ella se iluminó.",
+              "cite": "Sunan at-Tirmidi 3618 (auténtico según al-Albani)"
+            },
+            {
+              "p": "El muro de la mezquita orientado a la qibla (la dirección de la oración) se hizo con troncos de palmera (Sahih al-Bujari 428)."
+            },
+            {
+              "p": "Abd al-Rahman ibn Awf, que Allah esté complacido con él, fue hermanado con Sa'd ibn al-Rabi', que Allah esté complacido con él, quien le ofreció la mitad de sus bienes. Abd al-Rahman respondió que no lo necesitaba y preguntó dónde estaba el mercado, y empezó a comerciar (Sahih al-Bujari 2048)."
+            },
+            {
+              "p": "Asma, la hija de Abu Bakr, que Allah esté complacido con ella, cerró la bolsa de comida con un trozo que cortó de su propio cinturón."
+            },
+            {
+              "p": "La palabra hiyra significa emigración. Ocurrió trece años después de la primera revelación."
+            }
+          ]
+        }
       }
     ]
   },

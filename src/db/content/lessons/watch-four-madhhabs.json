@@ -1,0 +1,41 @@
+{
+  "slug": "watch-four-madhhabs",
+  "minutes": 7,
+  "title": {
+    "en": "Which madhhab should you follow?",
+    "ar": "أي مذهب تتّبع؟",
+    "es": "¿Qué madhab deberías seguir?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Yasir Qadhi explains the four schools, Hanafi, Shafi'i, Maliki, and Hanbali, and answers which one you should follow."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يشرح د. ياسر قاضي المذاهب الأربعة: الحنفي والشافعي والمالكي والحنبلي، ويجيب عن سؤال: أيّها تتّبع؟"
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Yasir Qadhi explica las cuatro escuelas, hanafí, shafií, malikí y hanbalí, y responde cuál deberías seguir."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=ChnF5WbCn40",
+    "title": {
+      "en": "Which madhhab should you follow?",
+      "ar": "أي مذهب تتّبع؟",
+      "es": "¿Qué madhab deberías seguir?"
+    },
+    "by": {
+      "en": "Dr. Yasir Qadhi",
+      "ar": "د. ياسر قاضي",
+      "es": "Dr. Yasir Qadhi"
+    },
+    "seconds": 415
+  }
+}

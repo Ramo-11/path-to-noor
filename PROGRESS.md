@@ -2,7 +2,7 @@
 
 Trilingual (EN/AR/ES) guided learning platform for new Muslims. Runs on Render. Learner-facing name is Basmet Dawah.
 
-Snapshot: 2026-09-24.
+Snapshot: 2026-10-18.
 
 ## Done
 
@@ -35,8 +35,20 @@ Why: Omar found the ink-on-white primer text heavy and depressing in light mode.
 - (done) Every learner page restyled and its copy cut in EN/AR/ES: home, level check, paths, path, lesson reader and blocks, knowledge check, library, saved, journey, mentor, contact, auth, settings, legal, error, not found, loading.
 - (done) App icons and web manifest; unknown URLs now reach the designed not found page; non-YouTube lesson videos (Facebook links) show a "watch the video" card instead of nothing.
 - (done) Verified: type check, production build, screenshots desktop and mobile, light and dark, Arabic, signed in; independent finish review.
-- (pending) Commit and deploy (not done; waiting for Omar).
-- (pending) Remove `src/components/placement/StageStrip.tsx` and `StageFill.tsx`, now unused.
+- (done) Committed as "update design" (67d5839) and pushed to master on 2026-09-24; unused `StageStrip`/`StageFill` removed.
+
+## Video curriculum (2026-10-17)
+- (done) Omar's 61-video curriculum sheet added to the live site: 25 videos in a "Watch" section of the matching lessons, 32 new video lessons in seven new steps across "Living as a Muslim" and "Growing Deeper in Faith". Imported to production; source files in `src/db/content/`, the importer now supports `video` and `watch`.
+- (pending) Replacement for "Why your dua may feel unanswered" (removed from YouTube), if Omar picks one.
+
+## Launch readiness (2026-10-17)
+- (done) Lessons: all 67 teaching lessons rewritten shorter and visual in EN/AR/ES with seven new blocks (word tiles, compare, flow, timeline, fact cards, conversation, collapsible "more"); Listen button with 1x/1.5x/2x speed; Quran recitation (Alafasy) on complete-ayah cards and ElevenLabs voice (Chaouki) on 77 other phrases.
+- (done) Security: packages patched (npm audit clean), email verification, admin role re-check from the database, CSP with nonce, Cloudflare-aware client IP and Mongo-backed rate limits, open redirect fix, escaped emails, no account enumeration, successful sign-in clears the failed-attempt count.
+- (done) Bugs: real 404 status, atomic progress/bookmark/quiz writes, localized errors, locale-aware reset links, local dates, importer step moves, sitemap lessons, lint.
+- (done) Features: GA4 events, share button and link preview images, lesson feedback and admin Reports, delete account and download data, lesson search, install to home screen with offline reading.
+- (done) Verified on a throwaway local database: every lesson in EN/AR/ES, auth, account, learning, admin, and phone layouts.
+- (pending) Push, then import the new lessons into production (`NODE_ENV=production npm run import:content -- --strict-audio`) right after the deploy, since the old code cannot render the new blocks.
+- (pending) A native Arabic speaker listens to the AI phrase audio once; scholar points in `docs/content-review.md`.
 
 ## Content rules (Omar, 2026-09-24)
 

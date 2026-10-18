@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth-config";
 import { connectDB } from "@/db/connection";
+import { Types } from "mongoose";
 import { User } from "@/db/models/User";
 
 export async function GET() {
@@ -39,8 +40,9 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { topicId } = await request.json();
-    if (!topicId) {
+    const body = await request.json().catch(() => null);
+    const topicId = body?.topicId;
+    if (typeof topicId !== "string" || !Types.ObjectId.isValid(topicId)) {
       return NextResponse.json(
         { error: "topicId is required" },
         { status: 400 }
@@ -48,18 +50,12 @@ export async function POST(request: NextRequest) {
     }
 
     await connectDB();
-    const user = await User.findById(session.user.id);
-    if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
-    }
-
-    const alreadyCompleted = user.completedTopics.some(
-      (ct) => ct.topicId.toString() === topicId
+    const result = await User.updateOne(
+      { _id: session.user.id, "completedTopics.topicId": { $ne: new Types.ObjectId(topicId) } },
+      { $push: { completedTopics: { topicId, completedAt: new Date() } } }
     );
-
-    if (!alreadyCompleted) {
-      user.completedTopics.push({ topicId, completedAt: new Date() });
-      await user.save();
+    if (result.matchedCount === 0 && !(await User.exists({ _id: session.user.id }))) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
     }
 
     return NextResponse.json({ message: "Topic marked as complete" });
@@ -79,8 +75,9 @@ export async function DELETE(request: NextRequest) {
   }
 
   try {
-    const { topicId } = await request.json();
-    if (!topicId) {
+    const body = await request.json().catch(() => null);
+    const topicId = body?.topicId;
+    if (typeof topicId !== "string" || !Types.ObjectId.isValid(topicId)) {
       return NextResponse.json(
         { error: "topicId is required" },
         { status: 400 }

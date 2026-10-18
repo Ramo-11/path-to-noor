@@ -1,6 +1,6 @@
 {
   "slug": "res-recite-ikhlaas",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "How to recite Surah Al-Ikhlas",
     "ar": "كيف تقرأ سورة الإخلاص",
@@ -9,19 +9,19 @@
   "body": {
     "en": [
       {
-        "p": "Surah Al-Ikhlas is the 112th chapter of the Quran, and one of the first that many Muslims learn by heart. It has only four short verses, it is easy to carry with you, and you can recite it in your prayers. In this lesson you will learn to say it, one small piece at a time."
+        "p": "Surah Al-Ikhlas is the 112th chapter of the Quran. It has only four short verses, so it is easy to learn by heart."
       },
       {
-        "p": "A few words first. A **surah** is a chapter of the Quran, and an **ayah** is one of its verses. **Allah** is the Arabic word for God, the One God. *Al-Ikhlas* means sincerity, or pure devotion."
+        "p": "A **surah** is a chapter of the Quran, and an **ayah** is one of its verses. *Al-Ikhlas* means sincerity, or pure devotion."
       },
       {
         "h": "Before you start"
       },
       {
-        "p": "The Quran is recited in Arabic. If you cannot read Arabic yet, that is completely normal. Under each verse below you will find a **transliteration** (the Arabic sounds written in English letters) and a translation of the meaning. The transliteration is a bridge: it lets you start today while your Arabic grows."
+        "p": "The Quran is recited in Arabic. If you cannot read it yet, that is completely normal. Under each verse you will find a **transliteration** (the Arabic sounds written in English letters). It is a bridge while your Arabic grows."
       },
       {
-        "p": "Listening helps more than anything else. Play a recording of this surah by any well-known reciter, for example the audio on the Quran.com page linked in the sources below. Listen to one verse, pause, say it yourself, and repeat."
+        "p": "Listening helps most. Play a recording by a well-known reciter, listen to one verse, pause, say it yourself, and repeat."
       },
       {
         "p": "If it feels slow or clumsy, you are in good company. Aisha, may Allah be pleased with her, reported that the Prophet Muhammad, peace be upon him, said:"
@@ -37,13 +37,35 @@
         "h": "How to read the transliteration"
       },
       {
-        "ul": [
-          "Doubled vowels are long sounds: *aa* as in \"father\", *ee* as in \"see\", *oo* as in \"moon\". Hold them a little longer.",
-          "*q* is like a k, said further back in the throat.",
-          "The *h* in *ahad* is a breathy h from deep in the throat, like breathing on a window to fog it.",
-          "The slash (/) marks a good place to take a small breath while you are learning.",
-          "At the end of each verse, stop and let the last letter rest without a vowel: say *ahad*, not *ahadun*."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "aa, ee, oo",
+              "text": "Long sounds, as in father, see, moon. Hold them a little longer."
+            },
+            {
+              "icon": "message",
+              "label": "q",
+              "text": "Like a k, said further back in the throat."
+            },
+            {
+              "icon": "droplet",
+              "label": "h",
+              "text": "In ahad, a breathy h from deep in the throat, like fogging a window."
+            },
+            {
+              "icon": "clock",
+              "label": "/",
+              "text": "A good place to take a small breath while you learn."
+            },
+            {
+              "icon": "check",
+              "label": "Verse end",
+              "text": "Stop and let the last letter rest: say ahad, not ahadun."
+            }
+          ]
+        }
       },
       {
         "h": "The opening: the basmala"
@@ -55,41 +77,43 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "Bismil-laahir / rahmaanir / raheem",
-          "meaning": "In the name of Allah, the Entirely Merciful, the Especially Merciful."
+          "meaning": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "The four verses"
       },
       {
-        "p": "Here is the surah, verse by verse. The English under each verse is the Saheeh International translation of its meaning. The next lesson looks at what each verse means."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
           "transliteration": "Qul huwal-laahu ahad",
-          "meaning": "Say, \"He is Allah, [who is] One,"
+          "meaning": "Say, \"He is Allah, [who is] One,",
+          "audio": "/audio/quran/112001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "ٱللَّهُ ٱلصَّمَدُ",
           "transliteration": "Allaahus-samad",
-          "meaning": "Allah, the Eternal Refuge."
+          "meaning": "Allah, the Eternal Refuge.",
+          "audio": "/audio/quran/112002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
           "transliteration": "Lam yalid / wa lam yoolad",
-          "meaning": "He neither begets nor is born,"
+          "meaning": "He neither begets nor is born,",
+          "audio": "/audio/quran/112003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
           "transliteration": "Wa lam yakul-lahoo / kufuwan ahad",
-          "meaning": "Nor is there to Him any equivalent.\""
+          "meaning": "Nor is there to Him any equivalent.\"",
+          "audio": "/audio/quran/112004.mp3"
         }
       },
       {
@@ -101,25 +125,49 @@
           "steps": [
             "Listen to the whole surah once while following the transliteration.",
             "Say the basmala slowly, three times.",
-            "Listen to verse 1, then say it yourself three times.",
-            "Do the same with verse 2, then say verses 1 and 2 together.",
-            "Add verse 3, then say verses 1 to 3 together.",
-            "Add verse 4, then recite the whole surah from the basmala to the end.",
+            "Listen to verse 1, then say it yourself three times. Do the same with verse 2, then say both together.",
+            "Add verse 3, then verse 4, each time saying everything so far from the start.",
             "Recite it once more tomorrow before you learn anything new."
           ]
         }
       },
       {
-        "p": "It is fine if this takes a few days. Short, regular practice works better than one long session."
+        "p": "Short, regular practice works better than one long session. It is fine if this takes a few days."
       },
       {
         "h": "Reciting it in your prayer"
       },
       {
-        "p": "Once you can say Al-Ikhlas, you can use it in your prayer (*salah*). Abu Qatada, may Allah be pleased with him, reported that the Prophet used to recite Al-Fatiha followed by another surah in the first two *rak'ahs* (units) of the midday prayer (*Zuhr*), and Al-Fatiha alone in the last two, and that he did the same in the afternoon (*Asr*) and dawn (*Fajr*) prayers."
+        "flow": {
+          "title": "In your prayer",
+          "steps": [
+            {
+              "label": "Al-Fatiha",
+              "text": "Finish it in the first or second rak'ah."
+            },
+            {
+              "label": "Al-Ikhlas",
+              "text": "Then recite Al-Ikhlas."
+            },
+            {
+              "label": "Continue",
+              "text": "Carry on with your prayer as usual."
+            }
+          ]
+        }
       },
       {
-        "p": "You can follow this practice with Al-Ikhlas: after you finish Al-Fatiha in the first or second rak'ah, recite Al-Ikhlas, then continue your prayer as usual. The Prophet himself recited it in prayer. Abu Hurayrah, may Allah be pleased with him, reported that he recited it, together with Surah Al-Kafirun, in the two voluntary rak'ahs before the dawn prayer."
+        "more": {
+          "title": "The Prophet's practice",
+          "blocks": [
+            {
+              "p": "Once you can say Al-Ikhlas, you can use it in your prayer (*salah*). Abu Qatada, may Allah be pleased with him, reported that the Prophet used to recite Al-Fatiha followed by another surah in the first two *rak'ahs* (units) of the midday prayer (*Zuhr*), and Al-Fatiha alone in the last two, and that he did the same in the afternoon (*Asr*) and dawn (*Fajr*) prayers."
+            },
+            {
+              "p": "The Prophet himself recited it in prayer. Abu Hurayrah, may Allah be pleased with him, reported that he recited it, together with Surah Al-Kafirun, in the two voluntary rak'ahs before the dawn prayer."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -142,7 +190,7 @@
     ],
     "ar": [
       {
-        "p": "سورة الإخلاص هي السورة رقم 112 في ترتيب المصحف، ومن أوائل السور التي يحفظها كثير من المسلمين. آياتها أربع قصيرات، يسهل حملها في ذاكرتك، وتستطيع أن تقرأها في صلاتك. في هذا الدرس ستتعلم قراءتها جزءا جزءا."
+        "p": "سورة الإخلاص هي السورة رقم 112 في المصحف، وآياتها أربع قصيرات يسهل حفظها."
       },
       {
         "p": "تذكير سريع: **السورة** قطعة من القرآن لها بداية ونهاية، و**الآية** جملة من جملها. و«الإخلاص» معناه صفاء القصد وخلوص العبادة لله وحده."
@@ -151,10 +199,10 @@
         "h": "قبل أن تبدأ"
       },
       {
-        "p": "إن كنت تقرأ العربية فلديك بداية ممتازة، لكن رسم المصحف (الطريقة التي كُتب بها القرآن) فيه علامات صغيرة قد تكون جديدة عليك، وستجد شرحها في هذا الدرس. وإن كانت قراءتك بطيئة فهذا أمر طبيعي تماما."
+        "p": "إن كنت تقرأ العربية فلديك بداية ممتازة، لكن رسم المصحف فيه علامات صغيرة قد تكون جديدة عليك، وستجد شرحها في هذا الدرس. وإن كانت قراءتك بطيئة فهذا طبيعي تماما."
       },
       {
-        "p": "الاستماع أكبر عون لك. استمع إلى السورة بصوت أي قارئ معروف، ومن ذلك التلاوة الصوتية في صفحة Quran.com المذكورة في المصادر أسفل الدرس. استمع إلى الآية، ثم توقف وردّدها، ثم أعد."
+        "p": "الاستماع أكبر عون لك. استمع إلى الآية بصوت قارئ معروف، ثم توقف وردّدها، ثم أعد."
       },
       {
         "p": "وإن شعرت بالبطء أو التعثر فأنت في صحبة طيبة. عن عائشة رضي الله عنها أن النبي محمدا صلى الله عليه وسلم قال:"
@@ -170,13 +218,35 @@
         "h": "علامات تساعدك على القراءة"
       },
       {
-        "ul": [
-          "الألف التي فوقها علامة صغيرة (ٱ) همزة وصل: لا تُنطق إذا وصلت الكلمة بما قبلها، فتصل «هُوَ» بـ«ٱللَّهُ» دون أن تنطق الهمزة.",
-          "الألف الصغيرة فوق الحرف، كما في «ٱلرَّحْمَٰنِ»، تُقرأ ألفا ممدودة.",
-          "الواو الصغيرة بعد الهاء في «لَّهُۥ» تعني أن تمد ضمة الهاء قليلا.",
-          "حروف المد تُمد بمقدار حركتين تقريبا، أي أطول قليلا من الحركة العادية.",
-          "عند نهاية كل آية قف وسكّن الحرف الأخير: تقول «أَحَدْ» لا «أَحَدٌ»."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "message",
+              "label": "همزة الوصل",
+              "text": "الألف التي فوقها علامة (ٱ) لا تُنطق إذا وصلت الكلمة بما قبلها: تصل «هُوَ» بـ«ٱللَّهُ»."
+            },
+            {
+              "icon": "sparkles",
+              "label": "الألف الصغيرة",
+              "text": "فوق الحرف، كما في «ٱلرَّحْمَٰنِ»، وتُقرأ ألفا ممدودة."
+            },
+            {
+              "icon": "ear",
+              "label": "الواو الصغيرة",
+              "text": "بعد الهاء في «لَّهُۥ»: مدّ ضمة الهاء قليلا."
+            },
+            {
+              "icon": "clock",
+              "label": "المد",
+              "text": "تُمد حروف المد بمقدار حركتين تقريبا، أي أطول قليلا من الحركة العادية."
+            },
+            {
+              "icon": "check",
+              "label": "نهاية الآية",
+              "text": "قف وسكّن الحرف الأخير: تقول «أَحَدْ» لا «أَحَدٌ»."
+            }
+          ]
+        }
       },
       {
         "h": "البداية: البسملة"
@@ -188,41 +258,43 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "",
-          "meaning": "أبدأ باسم الله مستعينا به، وهو الرحمن الذي وسعت رحمته الخلق كلهم، الرحيم بالمؤمنين."
+          "meaning": "أبدأ باسم الله مستعينا به، وهو الرحمن الذي وسعت رحمته الخلق كلهم، الرحيم بالمؤمنين.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "الآيات الأربع"
       },
       {
-        "p": "هذه هي السورة آية آية، ومع كل آية معنى مختصر. وفي الدرس القادم نقف عند معانيها بتفصيل أكبر."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
           "transliteration": "",
-          "meaning": "قل: هو الله الواحد المتفرد، لا يشاركه أحد في ألوهيته وربوبيته وأسمائه وصفاته."
+          "meaning": "قل: هو الله الواحد المتفرد، لا يشاركه أحد في ألوهيته وربوبيته وأسمائه وصفاته.",
+          "audio": "/audio/quran/112001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "ٱللَّهُ ٱلصَّمَدُ",
           "transliteration": "",
-          "meaning": "الله وحده الذي يقصده الخلق في حاجاتهم ورغباتهم."
+          "meaning": "الله وحده الذي يقصده الخلق في حاجاتهم ورغباتهم.",
+          "audio": "/audio/quran/112002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
           "transliteration": "",
-          "meaning": "ليس له ولد ولا والد."
+          "meaning": "ليس له ولد ولا والد.",
+          "audio": "/audio/quran/112003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
           "transliteration": "",
-          "meaning": "ولا يماثله ولا يشابهه أحد من خلقه."
+          "meaning": "ولا يماثله ولا يشابهه أحد من خلقه.",
+          "audio": "/audio/quran/112004.mp3"
         }
       },
       {
@@ -234,25 +306,49 @@
           "steps": [
             "استمع إلى السورة كاملة مرة واحدة وأنت تتابع النص.",
             "اقرأ البسملة ببطء ثلاث مرات.",
-            "استمع إلى الآية الأولى، ثم ردّدها بنفسك ثلاث مرات.",
-            "افعل مثل ذلك مع الآية الثانية، ثم اقرأ الآيتين معا.",
-            "أضف الآية الثالثة، ثم اقرأ الآيات من الأولى إلى الثالثة.",
-            "أضف الآية الرابعة، ثم اقرأ السورة كاملة من البسملة إلى آخرها.",
+            "استمع إلى الآية الأولى وردّدها ثلاث مرات، وافعل مثل ذلك مع الثانية، ثم اقرأ الآيتين معا.",
+            "أضف الآية الثالثة ثم الرابعة، وفي كل مرة اقرأ ما حفظته من البداية.",
             "اقرأها مرة أخرى غدا قبل أن تتعلم شيئا جديدا."
           ]
         }
       },
       {
-        "p": "لا بأس إن استغرق ذلك بضعة أيام، فالتمرين القصير المنتظم أنفع من جلسة واحدة طويلة."
+        "p": "التمرين القصير المنتظم أنفع من جلسة واحدة طويلة، ولا بأس إن استغرق ذلك بضعة أيام."
       },
       {
         "h": "قراءتها في صلاتك"
       },
       {
-        "p": "حين تحفظ سورة الإخلاص تستطيع أن تقرأها في صلاتك. عن أبي قتادة رضي الله عنه أن النبي صلى الله عليه وسلم كان يقرأ في الركعتين الأوليين من صلاة الظهر بالفاتحة وسورة، وفي الركعتين الأخريين بالفاتحة وحدها، وأنه كان يفعل كذلك في العصر والصبح."
+        "flow": {
+          "title": "في صلاتك",
+          "steps": [
+            {
+              "label": "الفاتحة",
+              "text": "أنهِها في الركعة الأولى أو الثانية."
+            },
+            {
+              "label": "الإخلاص",
+              "text": "ثم اقرأ سورة الإخلاص."
+            },
+            {
+              "label": "أكمل",
+              "text": "ثم تابع صلاتك كالمعتاد."
+            }
+          ]
+        }
       },
       {
-        "p": "وتستطيع أن تتبع هذه السنة مع سورة الإخلاص: بعد أن تنتهي من الفاتحة في الركعة الأولى أو الثانية، اقرأ سورة الإخلاص، ثم أكمل صلاتك كالمعتاد. وقد قرأها النبي صلى الله عليه وسلم نفسه في الصلاة، فعن أبي هريرة رضي الله عنه أنه قرأها مع سورة الكافرون في ركعتي سنة الفجر."
+        "more": {
+          "title": "هدي النبي صلى الله عليه وسلم",
+          "blocks": [
+            {
+              "p": "حين تحفظ سورة الإخلاص تستطيع أن تقرأها في صلاتك. عن أبي قتادة رضي الله عنه أن النبي صلى الله عليه وسلم كان يقرأ في الركعتين الأوليين من صلاة الظهر بالفاتحة وسورة، وفي الركعتين الأخريين بالفاتحة وحدها، وأنه كان يفعل كذلك في العصر والصبح."
+            },
+            {
+              "p": "وقد قرأها النبي صلى الله عليه وسلم نفسه في الصلاة، فعن أبي هريرة رضي الله عنه أنه قرأها مع سورة الكافرون في ركعتي سنة الفجر."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -275,19 +371,19 @@
     ],
     "es": [
       {
-        "p": "La sura Al-Ijlás es el capítulo 112 del Corán y una de las primeras que muchos musulmanes aprenden de memoria. Tiene solo cuatro aleyas cortas, es fácil de llevar contigo y puedes recitarla en tus oraciones. En esta lección aprenderás a decirla, poco a poco."
+        "p": "La sura Al-Ijlás es el capítulo 112 del Corán. Tiene solo cuatro aleyas cortas, así que es fácil aprenderla de memoria."
       },
       {
-        "p": "Primero, algunas palabras. Una **sura** es un capítulo del Corán y una **aleya** (*ayah*) es uno de sus versículos. **Allah** es la palabra árabe para Dios, el Dios Único. *Al-Ijlás* significa sinceridad, o devoción pura."
+        "p": "Una **sura** es un capítulo del Corán y una **aleya** (*ayah*) es uno de sus versículos. *Al-Ijlás* significa sinceridad, o devoción pura."
       },
       {
         "h": "Antes de empezar"
       },
       {
-        "p": "El Corán se recita en árabe. Si todavía no sabes leer árabe, es completamente normal. Debajo de cada aleya encontrarás una **transliteración** (los sonidos del árabe escritos con letras latinas) y una traducción del significado. La transliteración es un puente: te permite empezar hoy mientras tu árabe crece."
+        "p": "El Corán se recita en árabe. Si todavía no sabes leer árabe, es completamente normal. Debajo de cada aleya encontrarás una **transliteración** (los sonidos del árabe escritos con letras latinas). Es un puente mientras tu árabe crece."
       },
       {
-        "p": "Escuchar ayuda más que cualquier otra cosa. Pon una grabación de esta sura recitada por cualquier recitador reconocido, por ejemplo el audio de la página de Quran.com que aparece en las fuentes al final. Escucha una aleya, haz una pausa, repítela tú y vuelve a empezar."
+        "p": "Escuchar ayuda más que nada. Pon una grabación de un recitador reconocido, escucha una aleya, haz una pausa, repítela tú y vuelve a empezar."
       },
       {
         "p": "Si te sientes lento o torpe, estás en buena compañía. Aisha, que Allah esté complacido con ella, narró que el Profeta Muhammad, la paz sea con él, dijo:"
@@ -303,14 +399,40 @@
         "h": "Cómo leer la transliteración"
       },
       {
-        "ul": [
-          "Las vocales dobles (*aa*, *ii*, *uu*) son largas: alárgalas un poco.",
-          "La *q* es como una k, pronunciada más atrás, en la garganta.",
-          "La *h* siempre se pronuncia. En *ahad* es una h suave y aspirada que sale de la garganta, como cuando echas vaho sobre un cristal.",
-          "Escribimos *Al-laahu* y *huwal-laahu* con la l separada para que pronuncies una l doble, no el sonido de la ll española.",
-          "La barra (/) marca un buen lugar para tomar aire mientras aprendes.",
-          "Al final de cada aleya, detente y deja la última letra sin vocal: di *ahad*, no *ahadun*."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "aa, ii, uu",
+              "text": "Vocales largas: alárgalas un poco."
+            },
+            {
+              "icon": "message",
+              "label": "q",
+              "text": "Como una k, pronunciada más atrás, en la garganta."
+            },
+            {
+              "icon": "droplet",
+              "label": "h",
+              "text": "Siempre se pronuncia. En ahad es suave y aspirada, como cuando echas vaho sobre un cristal."
+            },
+            {
+              "icon": "sparkles",
+              "label": "l doble",
+              "text": "Escribimos Al-laahu y huwal-laahu con la l separada para que pronuncies una l doble, no la ll española."
+            },
+            {
+              "icon": "clock",
+              "label": "/",
+              "text": "Un buen lugar para tomar aire mientras aprendes."
+            },
+            {
+              "icon": "check",
+              "label": "Fin de aleya",
+              "text": "Detente y deja la última letra sin vocal: di ahad, no ahadun."
+            }
+          ]
+        }
       },
       {
         "h": "El comienzo: la basmala"
@@ -322,41 +444,43 @@
         "phrase": {
           "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
           "transliteration": "Bismil-laahir / rahmaanir / rahiim",
-          "meaning": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes."
+          "meaning": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes.",
+          "audio": "/audio/quran/001001.mp3"
         }
       },
       {
         "h": "Las cuatro aleyas"
       },
       {
-        "p": "Aquí tienes la sura, aleya por aleya. El texto en español debajo de cada aleya es la traducción del significado de Isa García. En la próxima lección verás qué significa cada aleya."
-      },
-      {
         "phrase": {
           "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
           "transliteration": "Qul huwal-laahu ahad",
-          "meaning": "Di: \"Él es Allah, Uno."
+          "meaning": "Di: \"Él es Allah, Uno.",
+          "audio": "/audio/quran/112001.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "ٱللَّهُ ٱلصَّمَدُ",
           "transliteration": "Al-laahus-samad",
-          "meaning": "Allah es el Absoluto."
+          "meaning": "Allah es el Absoluto.",
+          "audio": "/audio/quran/112002.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
           "transliteration": "Lam yalid / wa lam yuulad",
-          "meaning": "No engendró ni fue engendrado."
+          "meaning": "No engendró ni fue engendrado.",
+          "audio": "/audio/quran/112003.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
           "transliteration": "Wa lam yakul-lahuu / kufuwan ahad",
-          "meaning": "Y no hay nada ni nadie que sea semejante a Él\"."
+          "meaning": "Y no hay nada ni nadie que sea semejante a Él\".",
+          "audio": "/audio/quran/112004.mp3"
         }
       },
       {
@@ -368,25 +492,49 @@
           "steps": [
             "Escucha la sura completa una vez mientras sigues la transliteración.",
             "Di la basmala despacio, tres veces.",
-            "Escucha la aleya 1 y luego repítela tú tres veces.",
-            "Haz lo mismo con la aleya 2 y después di juntas las aleyas 1 y 2.",
-            "Añade la aleya 3 y di juntas las aleyas 1 a 3.",
-            "Añade la aleya 4 y recita la sura completa, desde la basmala hasta el final.",
+            "Escucha la aleya 1 y repítela tres veces. Haz lo mismo con la aleya 2 y di juntas las dos.",
+            "Añade la aleya 3 y luego la 4, diciendo cada vez todo desde el principio.",
             "Recítala otra vez mañana antes de aprender algo nuevo."
           ]
         }
       },
       {
-        "p": "No pasa nada si esto te lleva unos días. Practicar poco y con regularidad funciona mejor que una sola sesión larga."
+        "p": "Practicar poco y con regularidad funciona mejor que una sola sesión larga. No pasa nada si te lleva unos días."
       },
       {
         "h": "Recitarla en tu oración"
       },
       {
-        "p": "Cuando ya puedas decir Al-Ijlás, puedes usarla en tu oración (*salah*). Abu Qatada, que Allah esté complacido con él, narró que el Profeta recitaba Al-Fátiha y después otra sura en las dos primeras *rak'as* (unidades) de la oración del mediodía (*Dhuhr*), y solo Al-Fátiha en las dos últimas, y que hacía lo mismo en la oración de la tarde (*Asr*) y en la del alba (*Fayr*)."
+        "flow": {
+          "title": "En tu oración",
+          "steps": [
+            {
+              "label": "Al-Fátiha",
+              "text": "Termínala en la primera o en la segunda rak'a."
+            },
+            {
+              "label": "Al-Ijlás",
+              "text": "Después recita Al-Ijlás."
+            },
+            {
+              "label": "Continúa",
+              "text": "Sigue tu oración como siempre."
+            }
+          ]
+        }
       },
       {
-        "p": "Puedes seguir esta práctica con Al-Ijlás: cuando termines Al-Fátiha en la primera o en la segunda rak'a, recita Al-Ijlás y continúa tu oración como siempre. El propio Profeta la recitó en la oración. Abu Huraira, que Allah esté complacido con él, narró que la recitó, junto con la sura Al-Kafirún, en las dos rak'as voluntarias antes de la oración del alba."
+        "more": {
+          "title": "La práctica del Profeta",
+          "blocks": [
+            {
+              "p": "Cuando ya puedas decir Al-Ijlás, puedes usarla en tu oración (*salah*). Abu Qatada, que Allah esté complacido con él, narró que el Profeta recitaba Al-Fátiha y después otra sura en las dos primeras *rak'as* (unidades) de la oración del mediodía (*Dhuhr*), y solo Al-Fátiha en las dos últimas, y que hacía lo mismo en la oración de la tarde (*Asr*) y en la del alba (*Fayr*)."
+            },
+            {
+              "p": "El propio Profeta la recitó en la oración. Abu Huraira, que Allah esté complacido con él, narró que la recitó, junto con la sura Al-Kafirún, en las dos rak'as voluntarias antes de la oración del alba."
+            }
+          ]
+        }
       },
       {
         "quick": {

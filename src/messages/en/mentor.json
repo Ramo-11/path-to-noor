@@ -36,5 +36,10 @@
   "noMentees": "No mentees yet",
   "noMenteesBody": "You'll see mentees here once our team matches one with you.",
   "assignedOn": "Matched {date}",
-  "menteesLoadError": "We could not load your mentees. Try again."
+  "menteesLoadError": "We could not load your mentees. Try again.",
+  "errorEmailUnverified": "Please confirm your email address before you ask for a mentor.",
+  "errorEmailUnverifiedLink": "Go to settings",
+  "errorAlreadyRequested": "You already have a mentor request.",
+  "errorRevertOnly": "Mentor requests are for new Muslims.",
+  "errorInvalid": "Please check your message and try again."
 }

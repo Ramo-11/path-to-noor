@@ -1,0 +1,41 @@
+{
+  "slug": "watch-marriage",
+  "minutes": 47,
+  "title": {
+    "en": "Marriage and relationships, part 1",
+    "ar": "الزواج والعلاقات، الجزء الأول",
+    "es": "El matrimonio y las relaciones, parte 1"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The first part of a three-part series by Mufti Menk on marriage and relationships in Islam."
+      }
+    ],
+    "ar": [
+      {
+        "p": "الجزء الأول من سلسلة من ثلاثة أجزاء للمفتي إسماعيل منك عن الزواج والعلاقات في الإسلام."
+      }
+    ],
+    "es": [
+      {
+        "p": "La primera parte de una serie de tres de Mufti Menk sobre el matrimonio y las relaciones en el Islam."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=JEi4FwFvFUg",
+    "title": {
+      "en": "Marriage and relationships, part 1",
+      "ar": "الزواج والعلاقات، الجزء الأول",
+      "es": "El matrimonio y las relaciones, parte 1"
+    },
+    "by": {
+      "en": "Mufti Ismail Menk",
+      "ar": "المفتي إسماعيل منك",
+      "es": "Mufti Ismail Menk"
+    },
+    "seconds": 2818
+  }
+}

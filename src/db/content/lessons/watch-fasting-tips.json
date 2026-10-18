@@ -1,0 +1,41 @@
+{
+  "slug": "watch-fasting-tips",
+  "minutes": 17,
+  "title": {
+    "en": "Practical tips for your first Ramadan",
+    "ar": "نصائح عملية لرمضانك الأول",
+    "es": "Consejos prácticos para tu primer Ramadán"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Ten practical tips for fasting, shared with new Muslims in mind."
+      }
+    ],
+    "ar": [
+      {
+        "p": "عشر نصائح عملية للصيام، موجّهة إلى المسلمين الجدد خاصة."
+      }
+    ],
+    "es": [
+      {
+        "p": "Diez consejos prácticos para ayunar, pensados para los nuevos musulmanes."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=S-9VmTflfkU",
+    "title": {
+      "en": "Practical tips for your first Ramadan",
+      "ar": "نصائح عملية لرمضانك الأول",
+      "es": "Consejos prácticos para tu primer Ramadán"
+    },
+    "by": {
+      "en": "Ellie Quinn Belhaj",
+      "ar": "إيلي كوين بلحاج",
+      "es": "Ellie Quinn Belhaj"
+    },
+    "seconds": 1039
+  }
+}

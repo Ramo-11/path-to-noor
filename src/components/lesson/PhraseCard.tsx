@@ -1,7 +1,8 @@
 import { useTranslations } from "next-intl";
 import type { PhraseCardAttrs } from "@/lib/lesson-blocks";
+import { AudioButton } from "./blocks/AudioButton";
 
-export function PhraseCard({ arabic, transliteration, meaning }: PhraseCardAttrs) {
+export function PhraseCard({ arabic, transliteration, meaning, audio, lessonSlug }: PhraseCardAttrs & { lessonSlug: string }) {
   const t = useTranslations("blocks");
   const hasDetails = transliteration.trim().length > 0 || meaning.trim().length > 0;
 
@@ -33,6 +34,7 @@ export function PhraseCard({ arabic, transliteration, meaning }: PhraseCardAttrs
           ) : null}
         </div>
       ) : null}
+      {audio.length > 0 ? <AudioButton clips={audio} lessonSlug={lessonSlug} className="mt-6 flex justify-center" /> : null}
     </div>
   );
 }

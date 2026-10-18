@@ -1,6 +1,6 @@
 {
   "slug": "companions-bilal",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Bilal ibn Rabah: dignity and belonging",
     "ar": "بلال بن رباح رضي الله عنه: الكرامة والانتماء",
@@ -9,42 +9,57 @@
   "body": {
     "en": [
       {
-        "p": "Bilal ibn Rabah, may Allah be pleased with him, was an enslaved man in Makkah whose family came from Abyssinia (today's Ethiopia). In the eyes of Makkah's powerful families he counted for nothing. In Islam he became one of the most beloved companions of the Prophet Muhammad, peace be upon him, and the voice that called the Muslims to prayer. If you have ever felt like an outsider, his story is for you."
+        "p": "Bilal ibn Rabah, may Allah be pleased with him, counted for nothing to Makkah's powerful families, and became the voice that called Muslims to prayer."
+      },
+      {
+        "timeline": {
+          "title": "His story",
+          "events": [
+            {
+              "when": "In Makkah",
+              "text": "An enslaved man whose family came from Abyssinia (today's Ethiopia)."
+            },
+            {
+              "when": "Tortured for his faith",
+              "text": "He kept saying one word: *Ahad*."
+            },
+            {
+              "when": "Freed",
+              "text": "Abu Bakr freed him."
+            },
+            {
+              "when": "In Madinah",
+              "text": "He became the first muezzin in Islam."
+            },
+            {
+              "when": "One dawn",
+              "text": "The Prophet heard his footsteps in Paradise."
+            }
+          ]
+        }
       },
       {
         "h": "\"Ahad, Ahad\""
       },
       {
-        "p": "The companion Abdullah ibn Mas'ud, may Allah be pleased with him, reported that the first seven people to declare their Islam openly were the Prophet, Abu Bakr, Ammar and his mother Sumayyah, Suhayb, Bilal, and al-Miqdad. The Prophet was protected by his uncle, and Abu Bakr by his clan. The others were seized, made to wear iron armor, and left in the burning sun. Bilal's own people handed him over to young boys, who dragged him through the streets of Makkah, and all the while he kept saying the same word (Sunan Ibn Majah 150, graded hasan):"
+        "p": "Bilal's own people handed him to young boys, who dragged him through the streets of Makkah, and all the while he kept saying the same word (Sunan Ibn Majah 150, graded hasan):"
       },
       {
         "phrase": {
           "arabic": "أَحَدٌ أَحَدٌ",
           "transliteration": "Ahad, Ahad",
-          "meaning": "One, One: Allah is One."
+          "meaning": "One, One: Allah is One.",
+          "audio": "/audio/phrases/companions-bilal-1.mp3"
         }
       },
       {
-        "p": "He had no power, no wealth, and no family to protect him. The one thing he held on to was that Allah is One. It is the same word, *ahad*, that you recite in Surah Al-Ikhlas (Quran 112:1)."
+        "p": "He had no power, no wealth, and no family. The one thing he held on to was that Allah is One. It is the same word, *ahad*, that you recite in Surah Al-Ikhlas (Quran 112:1)."
       },
       {
         "h": "Freed and honored"
       },
       {
-        "p": "Abu Bakr, may Allah be pleased with him, freed Bilal from slavery. Years later, Umar, may Allah be pleased with him, a noble of Quraysh and the future caliph, used to say: \"Abu Bakr is our chief, and he manumitted our chief\", meaning Bilal (Sahih al-Bukhari 3754). The Arabic word Umar used is *sayyiduna*, our master. The man once treated as property was called \"our master\" by Umar ibn al-Khattab."
-      },
-      {
-        "h": "The voice of the adhan"
-      },
-      {
-        "p": "In Madinah, the Muslims needed a way to call people to prayer. The companion Abdullah ibn Zayd, may Allah be pleased with him, saw the words of the adhan (the call to prayer) in a dream and told the Prophet, who said:"
-      },
-      {
-        "quote": "Indeed, it is a true dream, Allah Willing! Go and teach these words to Bilāl, and let him make the call to prayer with them, as his voice is more melodious than yours.",
-        "cite": "Sunan Abi Dawud 499 (hasan sahih, al-Albani)"
-      },
-      {
-        "p": "So Bilal became the first muezzin (the one who calls the adhan) in Islam. The call he gave still rings out from masjids around the world, five times a day."
+        "p": "Years later, Umar, may Allah be pleased with him, used to say: \"Abu Bakr is our chief, and he manumitted our chief\", meaning Bilal (Sahih al-Bukhari 3754)."
       },
       {
         "h": "Footsteps in Paradise"
@@ -57,7 +72,7 @@
         "cite": "Sahih al-Bukhari 1149 and Sahih Muslim 2458"
       },
       {
-        "p": "Bilal answered that the deed he hoped for most was a simple one: whenever he made wudu (ablution), at any hour of the day or night, he prayed with it whatever he was able to pray. Scholars explain from this hadith that it is recommended to pray after making wudu."
+        "p": "Bilal's deed was simple: whenever he made wudu (ablution), he prayed with it whatever he was able to pray. Scholars say it is recommended to pray after making wudu."
       },
       {
         "steps": {
@@ -80,33 +95,87 @@
         "cite": "Quran 49:13 (Saheeh International translation)"
       },
       {
-        "p": "And the Prophet said: \"Indeed, Allah does not look at your appearance and wealth, but He looks at your hearts and deeds.\" (Sahih Muslim 2564)."
-      },
-      {
-        "p": "Bilal had no powerful tribe, no money, and no status. Islam gave him a family: companions who called him master, and a Prophet who heard his footsteps in Paradise. If you are new to Islam, far from your family, or feel different from the people around you, know this: you belong here too."
+        "p": "Bilal had no powerful tribe, no money, and no status. Islam gave him a family, and you belong here too."
       },
       {
         "key": "In Islam your worth is not your color, your past, or your family's status. It is your heart and your deeds, and the door is open to you just as it was to Bilal."
       },
       {
-        "p": "You have finished the step on the companions. Try the questions below, and then move on to the Sunnah: how Muslims learn from the words and example of the Prophet."
+        "p": "You have finished the step on the companions. Try the questions below, then move on to the Sunnah."
+      },
+      {
+        "more": {
+          "title": "More from his story",
+          "blocks": [
+            {
+              "p": "Bilal was one of the first seven to declare Islam openly, according to Abdullah ibn Mas'ud, may Allah be pleased with him: the Prophet, Abu Bakr, Ammar and his mother Sumayyah, Suhayb, Bilal, and al-Miqdad. The Prophet was protected by his uncle, and Abu Bakr by his clan. The others were seized, made to wear iron armor, and left in the burning sun."
+            },
+            {
+              "p": "Umar was a noble of Quraysh and the future caliph. The Arabic word he used is *sayyiduna*, our master. The man once treated as property was called \"our master\" by Umar ibn al-Khattab."
+            },
+            {
+              "p": "In Madinah, the Muslims needed a way to call people to prayer. The companion Abdullah ibn Zayd, may Allah be pleased with him, saw the words of the adhan (the call to prayer) in a dream and told the Prophet, who said:"
+            },
+            {
+              "quote": "Indeed, it is a true dream, Allah Willing! Go and teach these words to Bilāl, and let him make the call to prayer with them, as his voice is more melodious than yours.",
+              "cite": "Sunan Abi Dawud 499 (hasan sahih, al-Albani)"
+            },
+            {
+              "p": "So Bilal became the first muezzin (the one who calls the adhan). The call he gave still rings out from masjids around the world, five times a day."
+            },
+            {
+              "p": "And the Prophet said: \"Indeed, Allah does not look at your appearance and wealth, but He looks at your hearts and deeds.\" (Sahih Muslim 2564)."
+            },
+            {
+              "p": "Islam gave him companions who called him master, and a Prophet who heard his footsteps in Paradise. If you are new to Islam, far from your family, or feel different from the people around you, you belong here too."
+            }
+          ]
+        }
       }
     ],
     "ar": [
       {
-        "p": "بلال بن رباح رضي الله عنه كان عبدًا مملوكًا في مكة، من أصل حبشي. وفي نظر سادة مكة لم يكن له أي قدر، لكنه صار في الإسلام من أحب الصحابة إلى النبي محمد صلى الله عليه وسلم، وصار الصوت الذي يدعو المسلمين إلى الصلاة. فإن شعرت يومًا أنك غريب، فقصته لك."
+        "p": "بلال بن رباح رضي الله عنه لم يكن له قدر في نظر سادة مكة، لكنه صار الصوت الذي يدعو المسلمين إلى الصلاة."
+      },
+      {
+        "timeline": {
+          "title": "قصته",
+          "events": [
+            {
+              "when": "في مكة",
+              "text": "عبد مملوك من أصل حبشي."
+            },
+            {
+              "when": "عُذّب في الله",
+              "text": "وكان يردد كلمة واحدة: «أَحَدٌ»."
+            },
+            {
+              "when": "حريته",
+              "text": "أعتقه أبو بكر رضي الله عنه."
+            },
+            {
+              "when": "في المدينة",
+              "text": "صار أول مؤذن في الإسلام."
+            },
+            {
+              "when": "عند الفجر",
+              "text": "سمع النبي صلى الله عليه وسلم خُطاه في الجنة."
+            }
+          ]
+        }
       },
       {
         "h": "«أَحَدٌ أَحَدٌ»"
       },
       {
-        "p": "روى الصحابي عبد الله بن مسعود رضي الله عنه أن أول من أظهر إسلامه سبعة: رسول الله صلى الله عليه وسلم، وأبو بكر، وعمار وأمه سمية، وصهيب، وبلال، والمقداد. فأما رسول الله صلى الله عليه وسلم فمنعه الله بعمه أبي طالب، وأما أبو بكر فمنعه الله بقومه، وأما سائرهم فأخذهم المشركون وألبسوهم أدراع الحديد وتركوهم في حرّ الشمس. وأسلم قومُ بلالٍ بلالًا إلى الصبيان، فجعلوا يطوفون به في شعاب مكة، وهو يردد كلمة واحدة (سنن ابن ماجه 150، وهو حسن):"
+        "p": "أسلم قومُ بلالٍ بلالًا إلى الصبيان، فجعلوا يطوفون به في شعاب مكة، وهو يردد كلمة واحدة (سنن ابن ماجه 150، وهو حسن):"
       },
       {
         "phrase": {
           "arabic": "أَحَدٌ أَحَدٌ",
           "transliteration": "Ahad, Ahad",
-          "meaning": "الله واحد، الله واحد."
+          "meaning": "الله واحد، الله واحد.",
+          "audio": "/audio/phrases/companions-bilal-1.mp3"
         }
       },
       {
@@ -116,20 +185,7 @@
         "h": "حرية وكرامة"
       },
       {
-        "p": "أعتق أبو بكر رضي الله عنه بلالًا، وبعد سنين كان عمر رضي الله عنه، وهو من أشراف قريش والخليفة فيما بعد، يقول: «أَبُو بَكْرٍ سَيِّدُنَا، وَأَعْتَقَ سَيِّدَنَا»، يعني بلالًا (صحيح البخاري 3754). فالرجل الذي كان يُعامَل كأنه متاع، صار عمر بن الخطاب يقول عنه: «سيدنا»."
-      },
-      {
-        "h": "صوت الأذان"
-      },
-      {
-        "p": "لما احتاج المسلمون في المدينة إلى وسيلة يدعون بها الناس إلى الصلاة، رأى الصحابي عبد الله بن زيد رضي الله عنه كلمات الأذان في المنام، فأخبر النبي صلى الله عليه وسلم فقال:"
-      },
-      {
-        "quote": "إِنَّهَا لَرُؤْيَا حَقٌّ إِنْ شَاءَ اللَّهُ، فَقُمْ مَعَ بِلَالٍ فَأَلْقِ عَلَيْهِ مَا رَأَيْتَ، فَلْيُؤَذِّنْ بِهِ، فإنه أَنْدَى صوتا منك",
-        "cite": "سنن أبي داود 499، وقال الألباني: حسن صحيح"
-      },
-      {
-        "p": "فكان بلال أول مؤذن في الإسلام، وما زال النداء الذي رفعه يتردد من المساجد في أنحاء العالم خمس مرات كل يوم."
+        "p": "وبعد سنين كان عمر رضي الله عنه يقول: «أَبُو بَكْرٍ سَيِّدُنَا، وَأَعْتَقَ سَيِّدَنَا»، يعني بلالًا (صحيح البخاري 3754)."
       },
       {
         "h": "خُطى في الجنة"
@@ -142,7 +198,7 @@
         "cite": "صحيح البخاري 1149، وصحيح مسلم 2458"
       },
       {
-        "p": "فأجاب بلال بأن أرجى عمل عمله عمل بسيط: أنه ما توضأ في ساعة من ليل أو نهار إلا صلّى بذلك الوضوء ما كُتب له أن يصلي. وقد استنبط العلماء من هذا الحديث استحباب الصلاة بعد كل وضوء."
+        "p": "كان عمله بسيطًا: ما توضأ إلا صلّى بذلك الوضوء ما كُتب له أن يصلي. وقد استنبط العلماء من هذا الحديث استحباب الصلاة بعد كل وضوء."
       },
       {
         "steps": {
@@ -165,33 +221,87 @@
         "cite": "سورة الحجرات: 13"
       },
       {
-        "p": "وقال النبي صلى الله عليه وسلم: «إِنَّ اللهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ» (صحيح مسلم 2564)."
-      },
-      {
-        "p": "لم يكن لبلال قبيلة قوية ولا مال ولا جاه، فأعطاه الإسلام أسرة: صحابة يقولون عنه «سيدنا»، ونبيًّا سمع خُطاه في الجنة. فإن كنت جديدًا على الإسلام، أو بعيدًا عن أهلك، أو تشعر أنك مختلف عمّن حولك، فاعلم أن لك هنا مكانًا أنت أيضًا."
+        "p": "لم يكن لبلال قبيلة قوية ولا مال ولا جاه، فأعطاه الإسلام أسرة، ولك هنا مكان أنت أيضًا."
       },
       {
         "key": "قيمتك في الإسلام ليست في لونك، ولا في ماضيك، ولا في مكانة أسرتك، بل في قلبك وعملك، والباب مفتوح لك كما فُتح لبلال."
       },
       {
-        "p": "لقد أتممت مرحلة الصحابة. جرّب الأسئلة التالية، ثم انتقل إلى السنة: كيف يتعلم المسلمون من أقوال النبي صلى الله عليه وسلم وسيرته."
+        "p": "أتممت مرحلة الصحابة. جرّب الأسئلة التالية، ثم انتقل إلى السنة."
+      },
+      {
+        "more": {
+          "title": "المزيد من قصته",
+          "blocks": [
+            {
+              "p": "روى الصحابي عبد الله بن مسعود رضي الله عنه أن أول من أظهر إسلامه سبعة: رسول الله صلى الله عليه وسلم، وأبو بكر، وعمار وأمه سمية، وصهيب، وبلال، والمقداد. فأما رسول الله صلى الله عليه وسلم فمنعه الله بعمه أبي طالب، وأما أبو بكر فمنعه الله بقومه، وأما سائرهم فأخذهم المشركون وألبسوهم أدراع الحديد وتركوهم في حرّ الشمس."
+            },
+            {
+              "p": "وكان عمر من أشراف قريش والخليفة فيما بعد. فالرجل الذي كان يُعامَل كأنه متاع، صار عمر بن الخطاب يقول عنه: «سيدنا»."
+            },
+            {
+              "p": "لما احتاج المسلمون في المدينة إلى وسيلة يدعون بها الناس إلى الصلاة، رأى الصحابي عبد الله بن زيد رضي الله عنه كلمات الأذان في المنام، فأخبر النبي صلى الله عليه وسلم فقال:"
+            },
+            {
+              "quote": "إِنَّهَا لَرُؤْيَا حَقٌّ إِنْ شَاءَ اللَّهُ، فَقُمْ مَعَ بِلَالٍ فَأَلْقِ عَلَيْهِ مَا رَأَيْتَ، فَلْيُؤَذِّنْ بِهِ، فإنه أَنْدَى صوتا منك",
+              "cite": "سنن أبي داود 499، وقال الألباني: حسن صحيح"
+            },
+            {
+              "p": "فكان بلال أول مؤذن في الإسلام، وما زال النداء الذي رفعه يتردد من المساجد في أنحاء العالم خمس مرات كل يوم."
+            },
+            {
+              "p": "وقال النبي صلى الله عليه وسلم: «إِنَّ اللهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ» (صحيح مسلم 2564)."
+            },
+            {
+              "p": "أعطاه الإسلام صحابة يقولون عنه «سيدنا»، ونبيًّا سمع خُطاه في الجنة. فإن كنت جديدًا على الإسلام، أو بعيدًا عن أهلك، أو تشعر أنك مختلف عمّن حولك، فاعلم أن لك هنا مكانًا أنت أيضًا."
+            }
+          ]
+        }
       }
     ],
     "es": [
       {
-        "p": "Bilal ibn Rabah, que Allah esté complacido con él, era un hombre esclavizado en La Meca, de familia abisinia (la actual Etiopía). A los ojos de las familias poderosas de La Meca no valía nada. En el islam llegó a ser uno de los compañeros más queridos del Profeta Muhammad, la paz sea con él, y la voz que llamaba a los musulmanes a la oración. Si alguna vez te has sentido un extraño, su historia es para ti."
+        "p": "Bilal ibn Rabah, que Allah esté complacido con él, no valía nada a los ojos de las familias poderosas de La Meca, y llegó a ser la voz que llamaba a los musulmanes a la oración."
+      },
+      {
+        "timeline": {
+          "title": "Su historia",
+          "events": [
+            {
+              "when": "En La Meca",
+              "text": "Un hombre esclavizado de familia abisinia (la actual Etiopía)."
+            },
+            {
+              "when": "Torturado por su fe",
+              "text": "No dejaba de repetir una palabra: *Ahad*."
+            },
+            {
+              "when": "Liberado",
+              "text": "Abu Bakr lo liberó."
+            },
+            {
+              "when": "En Medina",
+              "text": "Fue el primer almuédano del islam."
+            },
+            {
+              "when": "Un amanecer",
+              "text": "El Profeta oyó sus pasos en el Paraíso."
+            }
+          ]
+        }
       },
       {
         "h": "\"Ahad, Ahad\""
       },
       {
-        "p": "El compañero Abdullah ibn Masud, que Allah esté complacido con él, contó que las primeras siete personas en declarar abiertamente su islam fueron el Profeta, Abu Bakr, Ammar y su madre Sumayya, Suhaib, Bilal y al-Miqdad. Al Profeta lo protegió su tío, y a Abu Bakr su clan. A los demás los apresaron, les pusieron cotas de hierro y los dejaron bajo el sol ardiente. La propia gente de Bilal lo entregó a unos muchachos que lo arrastraban por las calles de La Meca, y él no dejaba de repetir la misma palabra (Sunan Ibn Mayah 150, grado *hasan*):"
+        "p": "La propia gente de Bilal lo entregó a unos muchachos que lo arrastraban por las calles de La Meca, y él no dejaba de repetir la misma palabra (Sunan Ibn Mayah 150, grado *hasan*):"
       },
       {
         "phrase": {
           "arabic": "أَحَدٌ أَحَدٌ",
           "transliteration": "Ahad, Ahad",
-          "meaning": "Uno, Uno: Allah es Uno."
+          "meaning": "Uno, Uno: Allah es Uno.",
+          "audio": "/audio/phrases/companions-bilal-1.mp3"
         }
       },
       {
@@ -201,20 +311,7 @@
         "h": "Liberado y honrado"
       },
       {
-        "p": "Abu Bakr, que Allah esté complacido con él, liberó a Bilal de la esclavitud. Años después, Úmar, que Allah esté complacido con él, un noble de Quraish y futuro califa, solía decir: \"Abu Bakr es nuestro señor, y liberó a nuestro señor\", refiriéndose a Bilal (Sahih al-Bujari 3754). La palabra árabe que usó Úmar es *sayyiduna*, nuestro señor. El hombre al que antes trataban como una propiedad era llamado \"nuestro señor\" por Úmar ibn al-Jattab."
-      },
-      {
-        "h": "La voz del adhan"
-      },
-      {
-        "p": "En Medina, los musulmanes necesitaban una forma de llamar a la gente a la oración. El compañero Abdullah ibn Zaid, que Allah esté complacido con él, vio en un sueño las palabras del adhan (el llamado a la oración) y se lo contó al Profeta, que dijo:"
-      },
-      {
-        "quote": "Ciertamente es una visión verídica, in sha Allah, así que ve donde Bilal y cuéntale lo que has visto. Y que haga el adan así, pues el tiene una voz mejor que la tuya",
-        "cite": "Sunan Abi Dawud 499 (hasan sahih según al-Albani)"
-      },
-      {
-        "p": "Así, Bilal fue el primer almuédano (el que hace el adhan) del islam. El llamado que él hizo sigue resonando desde las mezquitas de todo el mundo cinco veces al día."
+        "p": "Años después, Úmar, que Allah esté complacido con él, solía decir: \"Abu Bakr es nuestro señor, y liberó a nuestro señor\", refiriéndose a Bilal (Sahih al-Bujari 3754)."
       },
       {
         "h": "Pasos en el Paraíso"
@@ -227,7 +324,7 @@
         "cite": "Sahih al-Bujari 1149 y Sahih Muslim 2458 (traducción del significado)"
       },
       {
-        "p": "Bilal respondió que la obra de la que más esperaba era sencilla: cada vez que hacía el wudu (la ablución), a cualquier hora del día o de la noche, rezaba con él lo que podía. Los sabios explican a partir de este hadiz que es recomendable rezar después de hacer el wudu."
+        "p": "La obra de Bilal era sencilla: cada vez que hacía el wudu (la ablución), rezaba con él lo que podía. Los sabios dicen que es recomendable rezar después de hacer el wudu."
       },
       {
         "steps": {
@@ -250,16 +347,42 @@
         "cite": "Corán 49:13"
       },
       {
-        "p": "Y el Profeta dijo: \"Ciertamente, Allah no mira vuestras imágenes ni vuestras riquezas, sino que mira vuestros corazones y vuestros actos\" (Sahih Muslim 2564)."
-      },
-      {
-        "p": "Bilal no tenía una tribu poderosa, ni dinero, ni posición. El islam le dio una familia: compañeros que lo llamaban señor y un Profeta que oyó sus pasos en el Paraíso. Si eres nuevo en el islam, estás lejos de tu familia o te sientes diferente de quienes te rodean, debes saber esto: tú también perteneces aquí."
+        "p": "Bilal no tenía una tribu poderosa, ni dinero, ni posición. El islam le dio una familia, y tú también perteneces aquí."
       },
       {
         "key": "En el islam tu valor no está en tu color, ni en tu pasado, ni en la posición de tu familia. Está en tu corazón y en tus obras, y la puerta está abierta para ti igual que lo estuvo para Bilal."
       },
       {
-        "p": "Has terminado la etapa de los compañeros. Responde las preguntas de abajo y después pasa a la Sunnah: cómo aprenden los musulmanes de las palabras y el ejemplo del Profeta."
+        "p": "Has terminado la etapa de los compañeros. Responde las preguntas de abajo y después pasa a la Sunnah."
+      },
+      {
+        "more": {
+          "title": "Más de su historia",
+          "blocks": [
+            {
+              "p": "Según Abdullah ibn Masud, que Allah esté complacido con él, Bilal fue de los primeros siete en declarar abiertamente su islam: el Profeta, Abu Bakr, Ammar y su madre Sumayya, Suhaib, Bilal y al-Miqdad. Al Profeta lo protegió su tío y a Abu Bakr su clan. A los demás los apresaron, les pusieron cotas de hierro y los dejaron bajo el sol ardiente."
+            },
+            {
+              "p": "Úmar era un noble de Quraish y futuro califa. La palabra árabe que usó es *sayyiduna*, nuestro señor. El hombre al que antes trataban como una propiedad era llamado \"nuestro señor\" por Úmar ibn al-Jattab."
+            },
+            {
+              "p": "En Medina, los musulmanes necesitaban una forma de llamar a la gente a la oración. El compañero Abdullah ibn Zaid, que Allah esté complacido con él, vio en un sueño las palabras del adhan (el llamado a la oración) y se lo contó al Profeta, que dijo:"
+            },
+            {
+              "quote": "Ciertamente es una visión verídica, in sha Allah, así que ve donde Bilal y cuéntale lo que has visto. Y que haga el adan así, pues el tiene una voz mejor que la tuya",
+              "cite": "Sunan Abi Dawud 499 (hasan sahih según al-Albani)"
+            },
+            {
+              "p": "Así, Bilal fue el primer almuédano (el que hace el adhan). El llamado que él hizo sigue resonando desde las mezquitas de todo el mundo cinco veces al día."
+            },
+            {
+              "p": "Y el Profeta dijo: \"Ciertamente, Allah no mira vuestras imágenes ni vuestras riquezas, sino que mira vuestros corazones y vuestros actos\" (Sahih Muslim 2564)."
+            },
+            {
+              "p": "El islam le dio compañeros que lo llamaban señor y un Profeta que oyó sus pasos en el Paraíso. Si eres nuevo en el islam, estás lejos de tu familia o te sientes diferente de quienes te rodean, tú también perteneces aquí."
+            }
+          ]
+        }
       }
     ]
   },

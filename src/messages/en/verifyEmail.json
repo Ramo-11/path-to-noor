@@ -1,0 +1,22 @@
+{
+  "bannerMessage": "Please confirm your email. We sent you a link.",
+  "bannerSent": "Link sent. Check your email.",
+  "bannerError": "We could not send the link. Please try again later.",
+  "resend": "Send the link again",
+  "sending": "Sending",
+  "verifying": "Confirming your email",
+  "verifyingDescription": "One moment.",
+  "successTitle": "Email confirmed",
+  "successDescription": "Thank you. Your email is now confirmed.",
+  "continue": "Continue",
+  "expiredTitle": "This link has expired",
+  "expiredDescription": "Ask for a new link and we will send it right away.",
+  "invalidTitle": "This link is not valid",
+  "invalidDescription": "The link may be incomplete or already replaced. Ask for a new one.",
+  "errorTitle": "We could not confirm your email",
+  "errorDescription": "Something went wrong. Please try again in a few minutes.",
+  "resent": "A new link is on its way. Check your email.",
+  "resendError": "We could not send the link. Please try again later.",
+  "signInToResend": "Sign in first, then ask for a new link.",
+  "goToSignIn": "Go to sign in"
+}

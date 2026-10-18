@@ -57,8 +57,8 @@ export default function EditModulePage({
             published: m.published || false,
           });
           // Extract topic IDs from populated or raw array
-          const topicIds = (m.topics || []).map((t: any) =>
-            typeof t === "string" ? t : t._id?.toString() || t.toString()
+          const topicIds = (m.topics || []).map((t: string | { _id?: { toString(): string } }) =>
+            typeof t === "string" ? t : t._id?.toString() || String(t)
           );
           setSelectedTopics(topicIds);
         }

@@ -10,6 +10,8 @@ import { Notice } from "@/components/primer/Notice";
 import { AuthShell } from "@/components/auth/AuthShell";
 import { GoogleButton } from "@/components/auth/GoogleButton";
 import { AuthDivider } from "@/components/auth/AuthDivider";
+import { authErrorKey } from "@/components/auth/auth-errors";
+import { track } from "@/lib/analytics";
 
 export default function RegisterPage() {
   const t = useTranslations("auth");
@@ -21,6 +23,8 @@ export default function RegisterPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [done, setDone] = useState(false);
+  const [signedIn, setSignedIn] = useState(false);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -31,38 +35,47 @@ export default function RegisterPage() {
       const res = await fetch("/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({ name, email, password, locale }),
       });
 
-      if (res.status === 409) {
-        setError(t("errorEmailExists"));
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        setError(t(`errors.${authErrorKey(data.code, res.status)}`));
         setLoading(false);
         return;
       }
 
-      if (!res.ok) {
-        const data = await res.json();
-        setError(data.error || t("errorDefault"));
-        setLoading(false);
-        return;
-      }
+      track("sign_up", { method: "email" });
 
       const signInResult = await signIn("credentials", {
         email,
         password,
         redirect: false,
       });
-
-      if (signInResult?.error) {
-        router.replace("/login");
-        return;
-      }
-
-      router.replace("/onboarding");
+      setSignedIn(!signInResult?.error);
+      setDone(true);
+      setLoading(false);
     } catch {
       setError(t("errorDefault"));
       setLoading(false);
     }
+  }
+
+  if (done) {
+    return (
+      <AuthShell mobileArt={false}>
+        <h1 className="text-heading font-semibold text-balance">{t("checkEmailTitle")}</h1>
+        <p className="mt-2 text-ink-2 text-pretty">{t("checkEmailDescription")}</p>
+        <div className="mt-6">
+          <Button
+            size="lg"
+            onClick={() => router.replace(signedIn ? "/onboarding" : "/login")}
+          >
+            {t("continue")}
+          </Button>
+        </div>
+      </AuthShell>
+    );
   }
 
   return (
@@ -136,7 +149,7 @@ export default function RegisterPage() {
         {t("alreadyHaveAccount")}{" "}
         <Link
           href="/login"
-          className="text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
+          className="inline-flex min-h-11 items-center text-ink underline decoration-rule-strong underline-offset-[0.25em] hover:decoration-ink"
         >
           {t("signIn")}
         </Link>

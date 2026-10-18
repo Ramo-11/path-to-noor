@@ -1,0 +1,41 @@
+{
+  "slug": "watch-qadar",
+  "minutes": 11,
+  "title": {
+    "en": "Divine decree: where was I before I was born?",
+    "ar": "القدر: أين كنت قبل أن أولد؟",
+    "es": "El decreto divino: ¿dónde estaba antes de nacer?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The first episode of Dr. Omar Suleiman's series on qadar, divine decree."
+      }
+    ],
+    "ar": [
+      {
+        "p": "الحلقة الأولى من سلسلة د. عمر سليمان عن القدر."
+      }
+    ],
+    "es": [
+      {
+        "p": "El primer episodio de la serie del Dr. Omar Suleiman sobre el qadar, el decreto divino."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=uzE5j2qkFA0",
+    "title": {
+      "en": "Divine decree: where was I before I was born?",
+      "ar": "القدر: أين كنت قبل أن أولد؟",
+      "es": "El decreto divino: ¿dónde estaba antes de nacer?"
+    },
+    "by": {
+      "en": "Dr. Omar Suleiman, Yaqeen Institute",
+      "ar": "د. عمر سليمان، معهد يقين",
+      "es": "Dr. Omar Suleiman, Yaqeen Institute"
+    },
+    "seconds": 634
+  }
+}

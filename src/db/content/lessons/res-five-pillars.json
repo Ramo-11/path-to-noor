@@ -1,6 +1,6 @@
 {
   "slug": "res-five-pillars",
-  "minutes": 6,
+  "minutes": 4,
   "title": {
     "en": "The five pillars of Islam",
     "ar": "أركان الإسلام الخمسة",
@@ -9,13 +9,17 @@
   "body": {
     "en": [
       {
-        "p": "The pillars of faith are what you believe. The five pillars of Islam are what you do: the main acts of worship that hold up a Muslim's life, the way pillars hold up a building. The Prophet Muhammad, peace be upon him, summed them up in a short hadith that begins with these words:"
+        "p": "The pillars of faith are what you believe. The five pillars of Islam are what you do: the main acts of worship that hold up a Muslim's life, the way pillars hold up a building."
+      },
+      {
+        "p": "The Prophet Muhammad, peace be upon him, summed them up in a short hadith that begins with these words:"
       },
       {
         "phrase": {
           "arabic": "بُنِيَ الْإِسْلَامُ عَلَى خَمْسٍ",
           "transliteration": "Buniyal-Islamu ala khams",
-          "meaning": "Islam is built on five."
+          "meaning": "Islam is built on five.",
+          "audio": "/audio/phrases/res-five-pillars-1.mp3"
         }
       },
       {
@@ -23,43 +27,86 @@
         "cite": "Sahih al-Bukhari 8 and Sahih Muslim 16 (agreed upon)"
       },
       {
-        "p": "You met the same five in the hadith of Jibril earlier in this step. When Jibril asked about Islam, the Prophet named these five acts, with fasting before Hajj (Sahih Muslim 8). Authentic narrations mention the last two in either order. This lesson follows the order of the hadith of Jibril."
+        "more": {
+          "title": "The same five in the hadith of Jibril",
+          "blocks": [
+            {
+              "p": "You met the same five in the hadith of Jibril earlier in this step. When Jibril asked about Islam, the Prophet named these five acts, with fasting before Hajj (Sahih Muslim 8). Authentic narrations mention the last two in either order. This lesson follows the order of the hadith of Jibril."
+            }
+          ]
+        }
       },
       {
         "h": "The five pillars"
       },
       {
-        "ol": [
-          "**Shahada** (*ash-shahadah*): declaring that there is no god but Allah and that Muhammad is His Messenger. You have already done this, and you learned its words and meaning earlier in this step.",
-          "**Prayer** (*as-salah*): five prayers every day and night, each at its set time.",
-          "**Zakah** (*az-zakah*): a yearly share of savings that have reached a set minimum, given to people in need.",
-          "**Fasting Ramadan** (*sawm Ramadan*): during the month of Ramadan, no food, no drink, and no marital relations from dawn until sunset (Quran 2:187).",
-          "**Hajj** (*al-hajj*): the pilgrimage to the Kaaba, the House of Allah in Makkah, for those who are able to make the journey."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Shahada",
+              "text": "Declaring that there is no god but Allah and that Muhammad is His Messenger. You have already said it, and you repeat it in every prayer."
+            },
+            {
+              "icon": "hands",
+              "label": "Prayer",
+              "text": "Five prayers every day and night, each at its set time."
+            },
+            {
+              "icon": "gift",
+              "label": "Zakah",
+              "text": "A yearly share of savings, given to people in need. Only if your savings reach the set minimum."
+            },
+            {
+              "icon": "moon",
+              "label": "Fasting Ramadan",
+              "text": "No food, no drink, and no marital relations from dawn until sunset, for the month of Ramadan (Quran 2:187)."
+            },
+            {
+              "icon": "compass",
+              "label": "Hajj",
+              "text": "The pilgrimage to the Kaaba in Makkah, once in a lifetime, for those who are able."
+            }
+          ]
+        }
       },
       {
-        "p": "Notice the word the Prophet used for prayer: *iqam as-salah*, establishing the prayer. It means praying properly, the way he taught, and keeping it up. The Quran uses the same words: \"And establish prayer and give zakah\" (Quran 2:43)."
+        "p": "Seen this way, the pillars are lighter than they sound."
       },
       {
-        "h": "How often each pillar comes"
-      },
-      {
-        "ul": [
-          "**Shahada:** you have said it, and you repeat it in every prayer.",
-          "**Prayer:** five times every day and night.",
-          "**Zakah:** once a year, and only if your savings reach the minimum amount.",
-          "**Fasting:** one month each year, the month of Ramadan.",
-          "**Hajj:** once in a lifetime, if you are able."
-        ]
-      },
-      {
-        "p": "Seen this way, the pillars are lighter than they sound. The next lesson explains each one, with its evidence, and how to grow into it."
+        "more": {
+          "title": "Establishing the prayer",
+          "blocks": [
+            {
+              "p": "Notice the word the Prophet used for prayer: *iqam as-salah*, establishing the prayer. It means praying properly, the way he taught, and keeping it up. The Quran uses the same words: \"And establish prayer and give zakah\" (Quran 2:43)."
+            }
+          ]
+        }
       },
       {
         "h": "Islam, iman, and ihsan"
       },
       {
-        "p": "The hadith of Jibril has a third level. After Islam (what you do) and iman (what you believe), Jibril asked about *ihsan*, excellence in worship. The Prophet said:"
+        "flow": {
+          "title": "The hadith of Jibril has three levels",
+          "steps": [
+            {
+              "label": "Islam",
+              "text": "What you do."
+            },
+            {
+              "label": "Iman",
+              "text": "What you believe."
+            },
+            {
+              "label": "Ihsan",
+              "text": "Excellence in worship."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Jibril asked about *ihsan*. The Prophet said:"
       },
       {
         "quote": "It is to worship Allah as if you see Him, for if you do not see Him, He sees you.",
@@ -106,13 +153,17 @@
     ],
     "ar": [
       {
-        "p": "أركان الإيمان هي ما تعتقده بقلبك، وأركان الإسلام الخمسة هي ما تعمله: العبادات الكبرى التي تقوم عليها حياة المسلم كما يقوم البناء على أعمدته. وقد جمعها النبي محمد صلى الله عليه وسلم في حديث قصير أوله:"
+        "p": "أركان الإيمان هي ما تعتقده بقلبك، وأركان الإسلام الخمسة هي ما تعمله: العبادات الكبرى التي تقوم عليها حياة المسلم كما يقوم البناء على أعمدته."
+      },
+      {
+        "p": "وقد جمعها النبي محمد صلى الله عليه وسلم في حديث قصير أوله:"
       },
       {
         "phrase": {
           "arabic": "بُنِيَ الْإِسْلَامُ عَلَى خَمْسٍ",
           "transliteration": "Buniyal-Islamu ala khams",
-          "meaning": "الإسلام بناءٌ قائم على خمسة أركان."
+          "meaning": "الإسلام بناءٌ قائم على خمسة أركان.",
+          "audio": "/audio/phrases/res-five-pillars-1.mp3"
         }
       },
       {
@@ -120,43 +171,86 @@
         "cite": "متفق عليه: صحيح البخاري 8، وصحيح مسلم 16"
       },
       {
-        "p": "وقد مرّت بك هذه الخمسة في حديث جبريل في درس سابق من هذه الخطوة، فحين سأل جبريل عن الإسلام ذكرها النبي صلى الله عليه وسلم، وقدّم الصوم على الحج، وقال في آخرها: «وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلًا» (صحيح مسلم 8). وقد جاء ذكر الركنين الأخيرين في الروايات الصحيحة بالترتيبين، ويتبع هذا الدرس ترتيب حديث جبريل."
+        "more": {
+          "title": "الخمسة نفسها في حديث جبريل",
+          "blocks": [
+            {
+              "p": "وقد مرّت بك هذه الخمسة في حديث جبريل في درس سابق من هذه الخطوة، فحين سأل جبريل عن الإسلام ذكرها النبي صلى الله عليه وسلم، وقدّم الصوم على الحج، وقال في آخرها: «وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلًا» (صحيح مسلم 8). وقد جاء ذكر الركنين الأخيرين في الروايات الصحيحة بالترتيبين، ويتبع هذا الدرس ترتيب حديث جبريل."
+            }
+          ]
+        }
       },
       {
         "h": "أركان الإسلام الخمسة"
       },
       {
-        "ol": [
-          "**الشهادتان**: شهادة أن لا إله إلا الله وأن محمدا رسول الله. وقد نطقت بهما، وتعلمت لفظهما ومعناهما في هذه الخطوة.",
-          "**إقام الصلاة**: «خَمْسَ صَلَوَاتٍ فِي كُلِّ يَوْمٍ وَلَيْلَةٍ» كما في الحديث، كل صلاة في وقتها.",
-          "**إيتاء الزكاة**: حقٌّ يُخرج كل عام من المال إذا بلغ قدرا معلوما، ويُعطى لأهل الحاجة.",
-          "**صوم رمضان**: الإمساك عن الطعام والشراب والجماع من طلوع الفجر إلى غروب الشمس في شهر رمضان (سورة البقرة، الآية 187).",
-          "**حج البيت**: قصد الكعبة المشرّفة في مكة لأداء المناسك، لمن استطاع إليه سبيلا."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "الشهادتان",
+              "text": "شهادة أن لا إله إلا الله وأن محمدا رسول الله. وقد نطقت بهما، وتردّدهما في كل صلاة."
+            },
+            {
+              "icon": "hands",
+              "label": "الصلاة",
+              "text": "خمس صلوات في كل يوم وليلة، كل صلاة في وقتها."
+            },
+            {
+              "icon": "gift",
+              "label": "الزكاة",
+              "text": "حقٌّ يُخرج كل عام من المال لأهل الحاجة، إذا بلغ مالك النصاب."
+            },
+            {
+              "icon": "moon",
+              "label": "صوم رمضان",
+              "text": "الإمساك عن الطعام والشراب والجماع من طلوع الفجر إلى غروب الشمس في شهر رمضان (سورة البقرة، الآية 187)."
+            },
+            {
+              "icon": "compass",
+              "label": "الحج",
+              "text": "قصد الكعبة المشرّفة في مكة، مرة في العمر، لمن استطاع إليه سبيلا."
+            }
+          ]
+        }
       },
       {
-        "p": "وتأمّل لفظ «إقام الصلاة»: أي أداؤها على الوجه الصحيح كما علّمنا النبي صلى الله عليه وسلم، والمحافظة عليها. وبهذا اللفظ جاء القرآن: «وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ» (سورة البقرة، الآية 43)."
+        "p": "وإذا نظرت إليها على هذا النحو وجدتها أيسر مما تبدو."
       },
       {
-        "h": "متى يأتي كل ركن؟"
-      },
-      {
-        "ul": [
-          "**الشهادتان:** نطقت بهما، وتردّدهما في كل صلاة.",
-          "**الصلاة:** خمس مرات في كل يوم وليلة.",
-          "**الزكاة:** مرة في العام، إذا بلغ مالك النصاب.",
-          "**الصوم:** شهر واحد في العام، هو شهر رمضان.",
-          "**الحج:** مرة في العمر، لمن استطاع."
-        ]
-      },
-      {
-        "p": "وإذا نظرت إليها على هذا النحو وجدتها أيسر مما تبدو. وفي الدرس القادم بيان كل ركن بدليله، وكيف تنمو فيه."
+        "more": {
+          "title": "إقام الصلاة",
+          "blocks": [
+            {
+              "p": "وتأمّل لفظ «إقام الصلاة»: أي أداؤها على الوجه الصحيح كما علّمنا النبي صلى الله عليه وسلم، والمحافظة عليها. وبهذا اللفظ جاء القرآن: «وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ» (سورة البقرة، الآية 43)."
+            }
+          ]
+        }
       },
       {
         "h": "الإسلام والإيمان والإحسان"
       },
       {
-        "p": "في حديث جبريل مرتبة ثالثة. فبعد الإسلام (ما تعمله) والإيمان (ما تعتقده)، سأل جبريل عن الإحسان، فقال النبي صلى الله عليه وسلم:"
+        "flow": {
+          "title": "في حديث جبريل ثلاث مراتب",
+          "steps": [
+            {
+              "label": "الإسلام",
+              "text": "ما تعمله."
+            },
+            {
+              "label": "الإيمان",
+              "text": "ما تعتقده."
+            },
+            {
+              "label": "الإحسان",
+              "text": "الإتقان في العبادة."
+            }
+          ]
+        }
+      },
+      {
+        "p": "وسأل جبريل عن الإحسان، فقال النبي صلى الله عليه وسلم:"
       },
       {
         "quote": "أَنْ تَعْبُدَ اللهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ",
@@ -203,13 +297,17 @@
     ],
     "es": [
       {
-        "p": "Los pilares de la fe son lo que crees. Los cinco pilares del islam son lo que haces: los principales actos de adoración que sostienen la vida de un musulmán, como las columnas sostienen un edificio. El Profeta Muhammad, la paz sea con él, los resumió en un breve hadiz que empieza con estas palabras:"
+        "p": "Los pilares de la fe son lo que crees. Los cinco pilares del islam son lo que haces: los principales actos de adoración que sostienen la vida de un musulmán, como las columnas sostienen un edificio."
+      },
+      {
+        "p": "El Profeta Muhammad, la paz sea con él, los resumió en un breve hadiz que empieza con estas palabras:"
       },
       {
         "phrase": {
           "arabic": "بُنِيَ الْإِسْلَامُ عَلَى خَمْسٍ",
           "transliteration": "Buniyal-Islamu ala khams",
-          "meaning": "El islam está construido sobre cinco."
+          "meaning": "El islam está construido sobre cinco.",
+          "audio": "/audio/phrases/res-five-pillars-1.mp3"
         }
       },
       {
@@ -217,43 +315,86 @@
         "cite": "Sahih al-Bujari 8 y Sahih Muslim 16"
       },
       {
-        "p": "Ya conociste estos mismos cinco en el hadiz de Jibril, antes en este paso. Cuando Jibril preguntó por el islam, el Profeta nombró estos cinco actos, con el ayuno antes del Hajj (Sahih Muslim 8). Las narraciones auténticas mencionan los dos últimos en ambos órdenes. Esta lección sigue el orden del hadiz de Jibril."
+        "more": {
+          "title": "Los mismos cinco en el hadiz de Jibril",
+          "blocks": [
+            {
+              "p": "Ya conociste estos mismos cinco en el hadiz de Jibril, antes en este paso. Cuando Jibril preguntó por el islam, el Profeta nombró estos cinco actos, con el ayuno antes del Hajj (Sahih Muslim 8). Las narraciones auténticas mencionan los dos últimos en ambos órdenes. Esta lección sigue el orden del hadiz de Jibril."
+            }
+          ]
+        }
       },
       {
         "h": "Los cinco pilares"
       },
       {
-        "ol": [
-          "**Shahada** (*ash-shahadah*): declarar que no hay dios sino Allah y que Muhammad es Su Mensajero. Ya lo hiciste, y en este paso aprendiste sus palabras y su significado.",
-          "**Oración** (*as-salah*): cinco oraciones cada día y cada noche, cada una en su momento establecido.",
-          "**Zakat** (*az-zakah*, también llamado azaque): una parte anual de los ahorros que han alcanzado un mínimo establecido, que se entrega a personas necesitadas.",
-          "**Ayuno de ramadán** (*sawm Ramadan*): durante el mes de ramadán, no comer, no beber y no tener relaciones maritales desde el alba hasta la puesta del sol (Corán 2:187).",
-          "**Hajj** (*al-hajj*): la peregrinación a la Kaaba, la Casa de Allah en La Meca, para quienes pueden hacer el viaje."
-        ]
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Shahada",
+              "text": "Declarar que no hay dios sino Allah y que Muhammad es Su Mensajero. Ya la dijiste, y la repites en cada oración."
+            },
+            {
+              "icon": "hands",
+              "label": "Oración",
+              "text": "Cinco oraciones cada día y cada noche, cada una en su momento establecido."
+            },
+            {
+              "icon": "gift",
+              "label": "Zakat",
+              "text": "Una parte anual de los ahorros, que se entrega a personas necesitadas. Solo si tus ahorros alcanzan el mínimo establecido."
+            },
+            {
+              "icon": "moon",
+              "label": "Ayuno de ramadán",
+              "text": "No comer, no beber y no tener relaciones maritales desde el alba hasta la puesta del sol, durante el mes de ramadán (Corán 2:187)."
+            },
+            {
+              "icon": "compass",
+              "label": "Hajj",
+              "text": "La peregrinación a la Kaaba en La Meca, una vez en la vida, para quienes pueden hacer el viaje."
+            }
+          ]
+        }
       },
       {
-        "p": "Fíjate en la palabra que usó el Profeta para la oración: *iqam as-salah*, establecer la oración. Significa rezar correctamente, como él enseñó, y mantenerla con constancia. El Corán usa las mismas palabras: «Cumplan con la oración, paguen el zakat» (Corán 2:43)."
+        "p": "Vistos así, los pilares son más ligeros de lo que parecen."
       },
       {
-        "h": "Con qué frecuencia llega cada pilar"
-      },
-      {
-        "ul": [
-          "**Shahada:** ya la dijiste, y la repites en cada oración.",
-          "**Oración:** cinco veces cada día y cada noche.",
-          "**Zakat:** una vez al año, y solo si tus ahorros alcanzan la cantidad mínima.",
-          "**Ayuno:** un mes cada año, el mes de ramadán.",
-          "**Hajj:** una vez en la vida, si puedes."
-        ]
-      },
-      {
-        "p": "Vistos así, los pilares son más ligeros de lo que parecen. La próxima lección explica cada uno, con su evidencia, y cómo crecer en él."
+        "more": {
+          "title": "Establecer la oración",
+          "blocks": [
+            {
+              "p": "Fíjate en la palabra que usó el Profeta para la oración: *iqam as-salah*, establecer la oración. Significa rezar correctamente, como él enseñó, y mantenerla con constancia. El Corán usa las mismas palabras: «Cumplan con la oración, paguen el zakat» (Corán 2:43)."
+            }
+          ]
+        }
       },
       {
         "h": "Islam, iman e ihsan"
       },
       {
-        "p": "El hadiz de Jibril tiene un tercer nivel. Después del islam (lo que haces) y el iman (lo que crees), Jibril preguntó por el *ihsan*, la excelencia en la adoración. El Profeta dijo:"
+        "flow": {
+          "title": "El hadiz de Jibril tiene tres niveles",
+          "steps": [
+            {
+              "label": "Islam",
+              "text": "Lo que haces."
+            },
+            {
+              "label": "Iman",
+              "text": "Lo que crees."
+            },
+            {
+              "label": "Ihsan",
+              "text": "La excelencia en la adoración."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Jibril preguntó por el *ihsan*. El Profeta dijo:"
       },
       {
         "quote": "Es que adores a Allah como si lo vieras, pues, si tú no lo ves, realmente Él te ve",
@@ -329,5 +470,21 @@
       "url": "https://sunnah.com/abudawud:1721"
     }
   ],
-  "differenceNote": false
+  "differenceNote": false,
+  "watch": [
+    {
+      "url": "https://www.youtube.com/watch?v=8rXJTZEtf0I",
+      "title": {
+        "en": "The five pillars of Islam and the six pillars of faith",
+        "ar": "أركان الإسلام الخمسة وأركان الإيمان الستة",
+        "es": "Los cinco pilares del Islam y los seis pilares de la fe"
+      },
+      "by": {
+        "en": "Arief Bin Ali",
+        "ar": "عارف بن علي",
+        "es": "Arief Bin Ali"
+      },
+      "seconds": 198
+    }
+  ]
 }

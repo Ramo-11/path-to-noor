@@ -2,7 +2,7 @@
 
 import { useState, useEffect, FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, GripVertical, Plus, X } from "lucide-react";
+import { ArrowLeft, GripVertical, X } from "lucide-react";
 import Link from "next/link";
 import { ImageUpload } from "@/components/admin/ImageUpload";
 import { OutcomesEditor, type OutcomeRow } from "@/components/admin/OutcomesEditor";

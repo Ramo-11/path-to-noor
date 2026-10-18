@@ -1,6 +1,6 @@
 {
   "slug": "hadith-five-to-live-by",
-  "minutes": 8,
+  "minutes": 4,
   "title": {
     "en": "Five hadith to live by",
     "ar": "خمسة أحاديث تعيش بها",
@@ -9,7 +9,33 @@
   "body": {
     "en": [
       {
-        "p": "Here are five short, authentic sayings of the Prophet Muhammad, peace be upon him. Each is only a line long, yet each carries a great deal of meaning. For every hadith you will find the Arabic, its meaning, and what it asks of you. You do not need to learn them all at once. Take one a week."
+        "p": "Here are five short, authentic sayings of the Prophet Muhammad, peace be upon him. Take one a week."
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Intention"
+            },
+            {
+              "icon": "shield",
+              "label": "A safe tongue and hand"
+            },
+            {
+              "icon": "users",
+              "label": "Love for others"
+            },
+            {
+              "icon": "message",
+              "label": "Good words"
+            },
+            {
+              "icon": "hands",
+              "label": "Mercy"
+            }
+          ]
+        }
       },
       {
         "h": "1. Actions are by intentions"
@@ -18,11 +44,25 @@
         "phrase": {
           "arabic": "إنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
           "transliteration": "Innamal-a'malu bin-niyyat, wa innama li-kullimri'in ma nawa",
-          "meaning": "Verily, the reward of deeds depends on intentions, and each person will be rewarded according to what he intended."
+          "meaning": "Verily, the reward of deeds depends on intentions, and each person will be rewarded according to what he intended.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-1.mp3"
         }
       },
       {
-        "p": "Narrated by Umar ibn al-Khattab, may Allah be pleased with him, this is the first hadith in Sahih al-Bukhari (Sahih al-Bukhari 1 and Sahih Muslim 1907). The same action can be worship or not, depending on why you do it. Scholars explain that even ordinary things, like eating and drinking, earn reward when you do them to draw close to Allah."
+        "p": "Narrated by Umar ibn al-Khattab, may Allah be pleased with him: the first hadith in Sahih al-Bukhari (Sahih al-Bukhari 1 and Sahih Muslim 1907)."
+      },
+      {
+        "p": "The same action can be worship or not, depending on why you do it."
+      },
+      {
+        "more": {
+          "title": "What scholars explain",
+          "blocks": [
+            {
+              "p": "Even ordinary things, like eating and drinking, earn reward when you do them to draw close to Allah."
+            }
+          ]
+        }
       },
       {
         "h": "2. Others are safe from your tongue and hand"
@@ -31,11 +71,25 @@
         "phrase": {
           "arabic": "المُسْلِمُ مَنْ سَلِمَ المُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
           "transliteration": "Al-muslimu man salimal-muslimuna min lisanihi wa yadih",
-          "meaning": "A Muslim is the one from whose tongue and hand Muslims are safe."
+          "meaning": "A Muslim is the one from whose tongue and hand Muslims are safe.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-2.mp3"
         }
       },
       {
-        "p": "(Sahih al-Bukhari 10 and Sahih Muslim 40.) Your Islam shows in how people feel around you. Scholars explain that the tongue and the hand are named because most harm comes through them: words that insult or backbite, and hands that hurt or take what is not yours. A person's Islam is complete only when they do not harm others, in word or in deed."
+        "p": "(Sahih al-Bukhari 10 and Sahih Muslim 40.) Your Islam shows in how people feel around you."
+      },
+      {
+        "p": "A person's Islam is complete only when they do not harm others, in word or in deed."
+      },
+      {
+        "more": {
+          "title": "Why the tongue and the hand?",
+          "blocks": [
+            {
+              "p": "Scholars explain that the tongue and the hand are named because most harm comes through them: words that insult or backbite, and hands that hurt or take what is not yours."
+            }
+          ]
+        }
       },
       {
         "h": "3. Love for others what you love for yourself"
@@ -44,11 +98,15 @@
         "phrase": {
           "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ، حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
           "transliteration": "La yu'minu ahadukum hatta yuhibba li-akhihi ma yuhibbu li-nafsih",
-          "meaning": "None of you believes until he loves for his brother what he loves for himself."
+          "meaning": "None of you believes until he loves for his brother what he loves for himself.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-3.mp3"
         }
       },
       {
-        "p": "(Sahih al-Bukhari 13 and Sahih Muslim 45.) Scholars explain that *believes* here means complete faith. It means being glad when good reaches someone else, and wanting for them the same good you want for yourself, in faith and in this life."
+        "p": "(Sahih al-Bukhari 13 and Sahih Muslim 45.) Scholars explain that *believes* here means complete faith."
+      },
+      {
+        "p": "It means being glad when good reaches someone else, and wanting for them the same good you want for yourself, in faith and in this life."
       },
       {
         "h": "4. Speak good or stay silent"
@@ -57,11 +115,25 @@
         "phrase": {
           "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
           "transliteration": "Man kana yu'minu billahi wal-yawmil-akhiri fal-yaqul khayran aw li-yasmut",
-          "meaning": "Whoever believes in Allah and the Last Day should say what is good or keep silent."
+          "meaning": "Whoever believes in Allah and the Last Day should say what is good or keep silent.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-4.mp3"
         }
       },
       {
-        "p": "(Sahih al-Bukhari 6018 and Sahih Muslim 47.) The same hadith goes on to tell believers to honor their neighbors and their guests. Before you speak, ask yourself one question: is this good? If it is, say it. If it is not, silence is better."
+        "p": "(Sahih al-Bukhari 6018 and Sahih Muslim 47.) Before you speak, ask yourself one question: is this good?"
+      },
+      {
+        "p": "If it is, say it. If it is not, silence is better."
+      },
+      {
+        "more": {
+          "title": "The rest of the hadith",
+          "blocks": [
+            {
+              "p": "The same hadith goes on to tell believers to honor their neighbors and their guests."
+            }
+          ]
+        }
       },
       {
         "h": "5. Show mercy"
@@ -70,11 +142,18 @@
         "phrase": {
           "arabic": "الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ ارْحَمُوا مَنْ فِي الأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ",
           "transliteration": "Ar-rahimuna yarhamuhumur-Rahman. Irhamu man fil-ardi yarhamkum man fis-sama'",
-          "meaning": "The merciful are shown mercy by the Most Merciful. Be merciful to those on the earth, and the One above the heavens will have mercy on you."
+          "meaning": "The merciful are shown mercy by the Most Merciful. Be merciful to those on the earth, and the One above the heavens will have mercy on you.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-5.mp3"
         }
       },
       {
-        "p": "(Jami' at-Tirmidhi 1924. Al-Tirmidhi graded it hasan sahih, and al-Albani graded it sahih.) As scholars explain, this mercy reaches everyone on earth: people, animals, birds, and every other creature. The way you treat others is the way you hope Allah will treat you."
+        "p": "(Jami' at-Tirmidhi 1924. Al-Tirmidhi graded it hasan sahih, and al-Albani graded it sahih.)"
+      },
+      {
+        "p": "As scholars explain, this mercy reaches everyone on earth: people, animals, birds, and every other creature."
+      },
+      {
+        "p": "The way you treat others is the way you hope Allah will treat you."
       },
       {
         "steps": {
@@ -97,7 +176,33 @@
     ],
     "ar": [
       {
-        "p": "هذه خمسة أحاديث صحيحة قصيرة من كلام النبي محمد صلى الله عليه وسلم، كل واحد منها سطر واحد، لكنه يحمل معاني كثيرة. وستجد مع كل حديث نصه العربي، ومعناه، وما يطلبه منك. ولا يلزمك أن تحفظها كلها مرة واحدة، فخذ حديثًا كل أسبوع."
+        "p": "هذه خمسة أحاديث صحيحة قصيرة من كلام النبي محمد صلى الله عليه وسلم. فخذ حديثًا كل أسبوع."
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "النية"
+            },
+            {
+              "icon": "shield",
+              "label": "لسان ويد لا يؤذيان"
+            },
+            {
+              "icon": "users",
+              "label": "حب الخير للناس"
+            },
+            {
+              "icon": "message",
+              "label": "الكلمة الطيبة"
+            },
+            {
+              "icon": "hands",
+              "label": "الرحمة"
+            }
+          ]
+        }
       },
       {
         "h": "1. إنما الأعمال بالنيات"
@@ -106,11 +211,25 @@
         "phrase": {
           "arabic": "إنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
           "transliteration": "Innamal-a'malu bin-niyyat, wa innama li-kullimri'in ma nawa",
-          "meaning": "الأعمال تُعتبر بنيّاتها، ولكل إنسان جزاء ما نواه."
+          "meaning": "الأعمال تُعتبر بنيّاتها، ولكل إنسان جزاء ما نواه.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-1.mp3"
         }
       },
       {
-        "p": "رواه عمر بن الخطاب رضي الله عنه، وهو أول حديث في صحيح البخاري (صحيح البخاري 1، وصحيح مسلم 1907). فالعمل الواحد قد يكون عبادة أو لا يكون، بحسب نيتك فيه. وقد بيّن العلماء أن الأعمال العادية، كالأكل والشرب، يُؤجر عليها صاحبها إذا نوى بها التقرب إلى الله."
+        "p": "رواه عمر بن الخطاب رضي الله عنه، وهو أول حديث في صحيح البخاري (صحيح البخاري 1، وصحيح مسلم 1907)."
+      },
+      {
+        "p": "فالعمل الواحد قد يكون عبادة أو لا يكون، بحسب نيتك فيه."
+      },
+      {
+        "more": {
+          "title": "ما بيّنه العلماء",
+          "blocks": [
+            {
+              "p": "وقد بيّن العلماء أن الأعمال العادية، كالأكل والشرب، يُؤجر عليها صاحبها إذا نوى بها التقرب إلى الله."
+            }
+          ]
+        }
       },
       {
         "h": "2. أن يسلم الناس من لسانك ويدك"
@@ -119,11 +238,25 @@
         "phrase": {
           "arabic": "المُسْلِمُ مَنْ سَلِمَ المُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
           "transliteration": "Al-muslimu man salimal-muslimuna min lisanihi wa yadih",
-          "meaning": "المسلم الحق من لا يؤذي المسلمين بلسانه ولا بيده."
+          "meaning": "المسلم الحق من لا يؤذي المسلمين بلسانه ولا بيده.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-2.mp3"
         }
       },
       {
-        "p": "(صحيح البخاري 10، وصحيح مسلم 40). يظهر إسلامك في شعور الناس من حولك. وقد بيّن العلماء أن اللسان واليد خُصّا بالذكر لأن أكثر الأذى يأتي منهما: كلمات تسبّ أو تغتاب، وأيدٍ تعتدي أو تأخذ ما ليس لها. ولا يكمل إسلام المرء حتى لا يؤذي غيره بقول ولا فعل."
+        "p": "(صحيح البخاري 10، وصحيح مسلم 40). يظهر إسلامك في شعور الناس من حولك."
+      },
+      {
+        "p": "ولا يكمل إسلام المرء حتى لا يؤذي غيره بقول ولا فعل."
+      },
+      {
+        "more": {
+          "title": "لماذا اللسان واليد؟",
+          "blocks": [
+            {
+              "p": "وقد بيّن العلماء أن اللسان واليد خُصّا بالذكر لأن أكثر الأذى يأتي منهما: كلمات تسبّ أو تغتاب، وأيدٍ تعتدي أو تأخذ ما ليس لها."
+            }
+          ]
+        }
       },
       {
         "h": "3. أن تحب لغيرك ما تحب لنفسك"
@@ -132,11 +265,15 @@
         "phrase": {
           "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ، حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
           "transliteration": "La yu'minu ahadukum hatta yuhibba li-akhihi ma yuhibbu li-nafsih",
-          "meaning": "لا يكمل إيمان أحدكم حتى يحب لأخيه من الخير ما يحبه لنفسه."
+          "meaning": "لا يكمل إيمان أحدكم حتى يحب لأخيه من الخير ما يحبه لنفسه.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-3.mp3"
         }
       },
       {
-        "p": "(صحيح البخاري 13، وصحيح مسلم 45). قال العلماء: المقصود هنا الإيمان الكامل. ومعناه أن تفرح حين يصل الخير إلى غيرك، وأن تريد له من خير الدين والدنيا ما تريده لنفسك."
+        "p": "(صحيح البخاري 13، وصحيح مسلم 45). قال العلماء: المقصود هنا الإيمان الكامل."
+      },
+      {
+        "p": "ومعناه أن تفرح حين يصل الخير إلى غيرك، وأن تريد له من خير الدين والدنيا ما تريده لنفسك."
       },
       {
         "h": "4. قل خيرًا أو اصمت"
@@ -145,11 +282,25 @@
         "phrase": {
           "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
           "transliteration": "Man kana yu'minu billahi wal-yawmil-akhiri fal-yaqul khayran aw li-yasmut",
-          "meaning": "من كان مؤمنًا بالله واليوم الآخر فليتكلم بالخير، وإلا فليسكت."
+          "meaning": "من كان مؤمنًا بالله واليوم الآخر فليتكلم بالخير، وإلا فليسكت.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-4.mp3"
         }
       },
       {
-        "p": "(صحيح البخاري 6018، وصحيح مسلم 47). وفي الحديث نفسه أمرٌ بإكرام الجار والضيف. فقبل أن تتكلم اسأل نفسك سؤالًا واحدًا: هل هذا خير؟ إن كان خيرًا فقُله، وإلا فالصمت أفضل."
+        "p": "(صحيح البخاري 6018، وصحيح مسلم 47). قبل أن تتكلم اسأل نفسك سؤالًا واحدًا: هل هذا خير؟"
+      },
+      {
+        "p": "إن كان خيرًا فقُله، وإلا فالصمت أفضل."
+      },
+      {
+        "more": {
+          "title": "بقية الحديث",
+          "blocks": [
+            {
+              "p": "وفي الحديث نفسه أمرٌ بإكرام الجار والضيف."
+            }
+          ]
+        }
       },
       {
         "h": "5. ارحم تُرحم"
@@ -158,11 +309,18 @@
         "phrase": {
           "arabic": "الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ ارْحَمُوا مَنْ فِي الأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ",
           "transliteration": "Ar-rahimuna yarhamuhumur-Rahman. Irhamu man fil-ardi yarhamkum man fis-sama'",
-          "meaning": "من يرحم الناس يرحمه الرحمن، فارحموا من في الأرض يرحمكم الله الذي في السماء."
+          "meaning": "من يرحم الناس يرحمه الرحمن، فارحموا من في الأرض يرحمكم الله الذي في السماء.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-5.mp3"
         }
       },
       {
-        "p": "(جامع الترمذي 1924، وقال الترمذي: حسن صحيح، وصححه الألباني). وهذه الرحمة تشمل كل من في الأرض كما بيّن العلماء: الناس، والحيوان، والطير، وسائر المخلوقات. فكما تعامل الخلق ترجو أن يعاملك الله."
+        "p": "(جامع الترمذي 1924، وقال الترمذي: حسن صحيح، وصححه الألباني)."
+      },
+      {
+        "p": "وهذه الرحمة تشمل كل من في الأرض كما بيّن العلماء: الناس، والحيوان، والطير، وسائر المخلوقات."
+      },
+      {
+        "p": "فكما تعامل الخلق ترجو أن يعاملك الله."
       },
       {
         "steps": {
@@ -185,7 +343,33 @@
     ],
     "es": [
       {
-        "p": "Aquí tienes cinco dichos breves y auténticos del Profeta Muhammad, la paz sea con él. Cada uno ocupa una sola línea, pero contiene muchísimo significado. Para cada hadiz encontrarás el árabe, su significado y lo que te pide. No necesitas aprenderlos todos a la vez. Toma uno por semana."
+        "p": "Aquí tienes cinco dichos breves y auténticos del Profeta Muhammad, la paz sea con él. Toma uno por semana."
+      },
+      {
+        "facts": {
+          "items": [
+            {
+              "icon": "heart",
+              "label": "La intención"
+            },
+            {
+              "icon": "shield",
+              "label": "Lengua y mano que no dañan"
+            },
+            {
+              "icon": "users",
+              "label": "Querer el bien para otros"
+            },
+            {
+              "icon": "message",
+              "label": "Palabras buenas"
+            },
+            {
+              "icon": "hands",
+              "label": "La misericordia"
+            }
+          ]
+        }
       },
       {
         "h": "1. Las obras dependen de las intenciones"
@@ -194,11 +378,25 @@
         "phrase": {
           "arabic": "إنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
           "transliteration": "Innamal-a'malu bin-niyyat, wa innama li-kullimri'in ma nawa",
-          "meaning": "Las obras dependen de las intenciones, y cada persona será recompensada según su intención."
+          "meaning": "Las obras dependen de las intenciones, y cada persona será recompensada según su intención.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-1.mp3"
         }
       },
       {
-        "p": "Narrado por Úmar ibn al-Jattab, que Allah esté complacido con él, es el primer hadiz de Sahih al-Bujari (Sahih al-Bujari 1 y Sahih Muslim 1907). Una misma acción puede ser adoración o no, según el motivo por el que la haces. Los sabios explican que incluso las cosas cotidianas, como comer y beber, traen recompensa cuando las haces para acercarte a Allah."
+        "p": "Narrado por Úmar ibn al-Jattab, que Allah esté complacido con él: es el primer hadiz de Sahih al-Bujari (Sahih al-Bujari 1 y Sahih Muslim 1907)."
+      },
+      {
+        "p": "Una misma acción puede ser adoración o no, según el motivo por el que la haces."
+      },
+      {
+        "more": {
+          "title": "Lo que explican los sabios",
+          "blocks": [
+            {
+              "p": "Incluso las cosas cotidianas, como comer y beber, traen recompensa cuando las haces para acercarte a Allah."
+            }
+          ]
+        }
       },
       {
         "h": "2. Que los demás estén a salvo de tu lengua y de tu mano"
@@ -207,11 +405,25 @@
         "phrase": {
           "arabic": "المُسْلِمُ مَنْ سَلِمَ المُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
           "transliteration": "Al-muslimu man salimal-muslimuna min lisanihi wa yadih",
-          "meaning": "El musulmán es aquel de quien están a salvo los demás musulmanes de su lengua y de su mano."
+          "meaning": "El musulmán es aquel de quien están a salvo los demás musulmanes de su lengua y de su mano.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-2.mp3"
         }
       },
       {
-        "p": "(Sahih al-Bujari 10 y Sahih Muslim 40.) Tu islam se nota en cómo se sienten las personas a tu alrededor. Los sabios explican que se mencionan la lengua y la mano porque de ellas viene la mayor parte del daño: palabras que insultan o critican a espaldas, y manos que lastiman o toman lo ajeno. El islam de una persona solo es completo cuando no hace daño a los demás, ni de palabra ni de obra."
+        "p": "(Sahih al-Bujari 10 y Sahih Muslim 40.) Tu islam se nota en cómo se sienten las personas a tu alrededor."
+      },
+      {
+        "p": "El islam de una persona solo es completo cuando no hace daño a los demás, ni de palabra ni de obra."
+      },
+      {
+        "more": {
+          "title": "¿Por qué la lengua y la mano?",
+          "blocks": [
+            {
+              "p": "Los sabios explican que se mencionan la lengua y la mano porque de ellas viene la mayor parte del daño: palabras que insultan o critican a espaldas, y manos que lastiman o toman lo ajeno."
+            }
+          ]
+        }
       },
       {
         "h": "3. Quiere para los demás lo que quieres para ti"
@@ -220,11 +432,15 @@
         "phrase": {
           "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ، حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
           "transliteration": "La yu'minu ahadukum hatta yuhibba li-akhihi ma yuhibbu li-nafsih",
-          "meaning": "Ninguno de ustedes cree hasta que quiera para su hermano lo que quiere para sí mismo."
+          "meaning": "Ninguno de ustedes cree hasta que quiera para su hermano lo que quiere para sí mismo.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-3.mp3"
         }
       },
       {
-        "p": "(Sahih al-Bujari 13 y Sahih Muslim 45.) Los sabios explican que *cree* aquí significa la fe completa. Significa alegrarte cuando el bien le llega a otra persona, y desear para ella el mismo bien que deseas para ti, en la fe y en esta vida."
+        "p": "(Sahih al-Bujari 13 y Sahih Muslim 45.) Los sabios explican que *cree* aquí significa la fe completa."
+      },
+      {
+        "p": "Significa alegrarte cuando el bien le llega a otra persona, y desear para ella el mismo bien que deseas para ti, en la fe y en esta vida."
       },
       {
         "h": "4. Di algo bueno o guarda silencio"
@@ -233,11 +449,25 @@
         "phrase": {
           "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
           "transliteration": "Man kana yu'minu billahi wal-yawmil-akhiri fal-yaqul khayran aw li-yasmut",
-          "meaning": "Quien crea en Allah y en el Último Día, que diga algo bueno o que se calle."
+          "meaning": "Quien crea en Allah y en el Último Día, que diga algo bueno o que se calle.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-4.mp3"
         }
       },
       {
-        "p": "(Sahih al-Bujari 6018 y Sahih Muslim 47.) El mismo hadiz pide también honrar al vecino y al huésped. Antes de hablar, hazte una sola pregunta: ¿esto es bueno? Si lo es, dilo. Si no lo es, el silencio es mejor."
+        "p": "(Sahih al-Bujari 6018 y Sahih Muslim 47.) Antes de hablar, hazte una sola pregunta: ¿esto es bueno?"
+      },
+      {
+        "p": "Si lo es, dilo. Si no lo es, el silencio es mejor."
+      },
+      {
+        "more": {
+          "title": "El resto del hadiz",
+          "blocks": [
+            {
+              "p": "El mismo hadiz pide también honrar al vecino y al huésped."
+            }
+          ]
+        }
       },
       {
         "h": "5. Ten misericordia"
@@ -246,11 +476,18 @@
         "phrase": {
           "arabic": "الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ ارْحَمُوا مَنْ فِي الأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ",
           "transliteration": "Ar-rahimuna yarhamuhumur-Rahman. Irhamu man fil-ardi yarhamkum man fis-sama'",
-          "meaning": "Los misericordiosos reciben la misericordia del Misericordioso. Tengan misericordia de quienes están en la tierra, y Aquel que está sobre el cielo tendrá misericordia de ustedes."
+          "meaning": "Los misericordiosos reciben la misericordia del Misericordioso. Tengan misericordia de quienes están en la tierra, y Aquel que está sobre el cielo tendrá misericordia de ustedes.",
+          "audio": "/audio/phrases/hadith-five-to-live-by-5.mp3"
         }
       },
       {
-        "p": "(Yami' at-Tirmidhi 1924. At-Tirmidhi lo clasificó como hasan sahih, y al-Albani como sahih.) Como explican los sabios, esta misericordia alcanza a todos en la tierra: personas, animales, aves y cualquier otra criatura. La forma en que tratas a los demás es la forma en que esperas que Allah te trate."
+        "p": "(Yami' at-Tirmidhi 1924. At-Tirmidhi lo clasificó como hasan sahih, y al-Albani como sahih.)"
+      },
+      {
+        "p": "Como explican los sabios, esta misericordia alcanza a todos en la tierra: personas, animales, aves y cualquier otra criatura."
+      },
+      {
+        "p": "La forma en que tratas a los demás es la forma en que esperas que Allah te trate."
       },
       {
         "steps": {

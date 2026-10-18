@@ -1,6 +1,6 @@
 {
   "slug": "res-meaning-allahu-akbar",
-  "minutes": 7,
+  "minutes": 2,
   "title": {
     "en": "Allahu akbar: Allah is greater",
     "ar": "الله أكبر: معناها ومواضعها",
@@ -9,73 +9,154 @@
   "body": {
     "en": [
       {
-        "p": "*Allahu akbar* is the phrase you will say most often as a Muslim. It opens every prayer, it rings out in the call to prayer, and it belongs in ordinary moments of daily life too. In this lesson you will learn what it really means and where you will use it."
+        "p": "*Allahu akbar* is the phrase you will say most often as a Muslim."
       },
       {
         "phrase": {
           "arabic": "اللهُ أَكْبَرُ",
           "transliteration": "Allahu akbar",
-          "meaning": "Allah is greater (greater than everything)"
+          "meaning": "Allah is greater (greater than everything)",
+          "audio": "/audio/phrases/res-meaning-allahu-akbar-1.mp3"
         }
       },
       {
         "h": "What it really means"
       },
       {
-        "p": "It is often translated as \"God is great\". That is true, but it misses something. *Kabir* means great. *Akbar* is the stronger form: greater, or greatest. So *Allahu akbar* means Allah is greater, greater than anything you could compare Him with."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "اللهُ",
+              "transliteration": "Allahu",
+              "meaning": "Allah"
+            },
+            {
+              "arabic": "أَكْبَرُ",
+              "transliteration": "Akbar",
+              "meaning": "greater"
+            }
+          ],
+          "result": "Allah is greater than everything"
+        }
       },
       {
-        "p": "Scholars explain it this way: \"He is more Sublime, Greater, and more Powerful than everything.\" When you say it, whatever is in front of you finds its proper size. A worry, a deadline, a fear, even a joy: Allah is greater than all of it."
+        "p": "It is often translated as \"God is great\". That is true, but it misses something. *Akbar* is the stronger form: greater, or greatest."
       },
       {
-        "p": "You may have heard this phrase mostly in news reports. For Muslims it is first of all a phrase of worship, said calmly many times in every prayer. Allah says to the Prophet in the Quran:"
+        "p": "When you say it, whatever is in front of you finds its proper size. A worry, a deadline, a fear, even a joy: Allah is greater than all of it."
       },
       {
-        "quote": "And your Lord glorify",
-        "cite": "Quran 74:3 (Saheeh International translation)"
+        "more": {
+          "title": "From the Quran",
+          "blocks": [
+            {
+              "p": "Scholars explain it this way: \"He is more Sublime, Greater, and more Powerful than everything.\""
+            },
+            {
+              "p": "You may have heard this phrase mostly in news reports. For Muslims it is first of all a phrase of worship, said calmly many times in every prayer. Allah says to the Prophet in the Quran:"
+            },
+            {
+              "quote": "And your Lord glorify",
+              "cite": "Quran 74:3 (Saheeh International translation)"
+            },
+            {
+              "p": "The Arabic word for glorify here, *kabbir*, comes from the same root as *akbar*: proclaim that your Lord is greater."
+            }
+          ]
+        }
       },
       {
-        "p": "The Arabic word for glorify here, *kabbir*, comes from the same root as *akbar*: proclaim that your Lord is greater."
+        "h": "Where you will say it"
       },
       {
-        "h": "In the call to prayer"
-      },
-      {
-        "p": "The call to prayer (*adhan*) begins with *Allahu akbar* and returns to it near the end. The Prophet Muhammad, peace be upon him, taught that when you hear the caller (*muezzin*) say *Allahu akbar, Allahu akbar*, you say it after him (Sahih Muslim 385)."
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "Call to prayer",
+              "text": "It begins with it. Say it after the caller."
+            },
+            {
+              "icon": "hands",
+              "label": "Every prayer",
+              "text": "It opens the prayer, and you say it many times."
+            },
+            {
+              "icon": "mountain",
+              "label": "Going uphill",
+              "text": "Allahu akbar going up, Subhan Allah coming down."
+            },
+            {
+              "icon": "check",
+              "label": "After prayer",
+              "text": "33 times, with Subhan Allah and Alhamdulillah."
+            },
+            {
+              "icon": "clock",
+              "label": "Any time",
+              "text": "One of the four most beloved phrases to Allah."
+            }
+          ]
+        }
       },
       {
         "h": "In every prayer"
       },
       {
-        "p": "Your prayer begins with *Allahu akbar*. The Prophet's wife Aisha (may Allah be pleased with her) said that he \"used to start the prayer with the Takbīr\" (Sahih Muslim 498). *Takbir* means saying *Allahu akbar*. The companion Abu Hurayrah (may Allah be pleased with him) described how the Prophet said it again and again as he moved through the prayer (Sahih al-Bukhari 789 and Sahih Muslim 392):"
+        "p": "The Prophet said it again and again as he moved through the prayer (Sahih al-Bukhari 789 and Sahih Muslim 392). You do not need to memorize every position today."
       },
       {
-        "ul": [
-          "When he stood to begin the prayer",
-          "When he bowed",
-          "When he went down into prostration",
-          "When he raised his head from prostration",
-          "When he stood up after sitting at the end of two units (*rak'ahs*)"
-        ]
+        "flow": {
+          "title": "He said it:",
+          "steps": [
+            {
+              "label": "Begin",
+              "text": "When he stood to begin the prayer"
+            },
+            {
+              "label": "Bow",
+              "text": "When he bowed"
+            },
+            {
+              "label": "Go down",
+              "text": "When he went down into prostration"
+            },
+            {
+              "label": "Rise",
+              "text": "When he raised his head from prostration"
+            },
+            {
+              "label": "Stand",
+              "text": "When he stood up after sitting at the end of two units (rak'ahs)"
+            }
+          ]
+        }
       },
       {
-        "p": "So you will say it many times in each prayer. You do not need to memorize every position today. Your prayer lessons will walk you through them step by step."
-      },
-      {
-        "h": "In daily life"
-      },
-      {
-        "p": "**Going uphill.** The companions said *Allahu akbar* when they went up and *Subhan Allah* when they came down (Sahih al-Bukhari 2993). A man about to travel asked the Prophet for advice, and he said:"
-      },
-      {
-        "quote": "Fear Allah and say 'Allah is the Greatest' upon every elevated place.",
-        "cite": "Sunan al-Tirmidhi 3445 (hasan)"
-      },
-      {
-        "p": "**After prayer.** Say it 33 times, alongside *Subhan Allah* and *Alhamdulillah* (Sahih Muslim 597)."
-      },
-      {
-        "p": "**Any time at all.** The Prophet named four phrases as the most beloved speech to Allah: *Subhan Allah*, *Alhamdulillah*, *La ilaha illallah* (there is no god but Allah), and *Allahu akbar*, and he said it does not matter which one you start with (Sahih Muslim 2137)."
+        "more": {
+          "title": "Details and sources",
+          "blocks": [
+            {
+              "p": "The call to prayer (*adhan*) begins with *Allahu akbar* and returns to it near the end. The Prophet Muhammad, peace be upon him, taught that when you hear the caller (*muezzin*) say *Allahu akbar, Allahu akbar*, you say it after him (Sahih Muslim 385)."
+            },
+            {
+              "p": "The Prophet's wife Aisha (may Allah be pleased with her) said that he \"used to start the prayer with the Takbīr\" (Sahih Muslim 498). *Takbir* means saying *Allahu akbar*."
+            },
+            {
+              "p": "**Going uphill.** The companions said *Allahu akbar* when they went up and *Subhan Allah* when they came down (Sahih al-Bukhari 2993). A man about to travel asked the Prophet for advice, and he said:"
+            },
+            {
+              "quote": "Fear Allah and say 'Allah is the Greatest' upon every elevated place.",
+              "cite": "Sunan al-Tirmidhi 3445 (hasan)"
+            },
+            {
+              "p": "**After prayer.** Say it 33 times, alongside *Subhan Allah* and *Alhamdulillah* (Sahih Muslim 597)."
+            },
+            {
+              "p": "**Any time at all.** The Prophet named four phrases as the most beloved speech to Allah: *Subhan Allah*, *Alhamdulillah*, *La ilaha illallah* (there is no god but Allah), and *Allahu akbar*, and he said it does not matter which one you start with (Sahih Muslim 2137)."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -98,80 +179,161 @@
     ],
     "ar": [
       {
-        "p": "«الله أكبر» هي العبارة التي ستقولها أكثر من غيرها بصفتك مسلما. بها تبدأ كل صلاة، وتتردد في الأذان، ولها مكان في لحظات الحياة اليومية أيضا. في هذا الدرس تتعرف على معناها الحقيقي ومواضعها."
+        "p": "«الله أكبر» هي العبارة التي ستقولها أكثر من غيرها بصفتك مسلما."
       },
       {
         "phrase": {
           "arabic": "اللهُ أَكْبَرُ",
           "transliteration": "Allahu akbar",
-          "meaning": "الله أعظم وأجلّ من كل شيء"
+          "meaning": "الله أعظم وأجلّ من كل شيء",
+          "audio": "/audio/phrases/res-meaning-allahu-akbar-1.mp3"
         }
       },
       {
         "h": "معناها الحقيقي"
       },
       {
-        "p": "كثيرا ما تُترجم إلى الإنجليزية بعبارة «God is great» أي: الله عظيم. وهذا صحيح، لكنه ينقصه شيء. فكلمة «أكبر» اسم تفضيل، تعني أنه سبحانه أكبر من كل ما سواه، لا مجرد أنه كبير."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "اللهُ",
+              "transliteration": "Allahu",
+              "meaning": "الله"
+            },
+            {
+              "arabic": "أَكْبَرُ",
+              "transliteration": "Akbar",
+              "meaning": "أكبر"
+            }
+          ],
+          "result": "الله أكبر من كل شيء"
+        }
       },
       {
-        "p": "وقد بيّن العلماء معناها بقولهم: «أي أنه سبحانه أعظم وأجل وأكبر من كل شيء». فحين تقولها يأخذ كل ما أمامك حجمه الحقيقي: الهمّ، والعمل، والخوف، وحتى الفرح. الله أكبر من ذلك كله."
+        "p": "كثيرا ما تُترجم بعبارة «God is great» أي: الله عظيم. وهذا صحيح، لكنه ينقصه شيء. فكلمة «أكبر» اسم تفضيل، تعني أنه سبحانه أكبر من كل ما سواه، لا مجرد أنه كبير."
       },
       {
-        "p": "وربما سمع بعض الناس هذه العبارة في نشرات الأخبار فقط، لكنها عند المسلمين قبل كل شيء عبارة عبادة، يقولونها بسكينة مرات كثيرة في كل صلاة. وقد قال الله لنبيه صلى الله عليه وسلم:"
+        "p": "فحين تقولها يأخذ كل ما أمامك حجمه الحقيقي: الهمّ، والعمل، والخوف، وحتى الفرح. الله أكبر من ذلك كله."
       },
       {
-        "quote": "وَرَبَّكَ فَكَبِّرْ",
-        "cite": "سورة المدثر، الآية 3"
+        "more": {
+          "title": "من القرآن",
+          "blocks": [
+            {
+              "p": "وقد بيّن العلماء معناها بقولهم: «أي أنه سبحانه أعظم وأجل وأكبر من كل شيء»."
+            },
+            {
+              "p": "وربما سمع بعض الناس هذه العبارة في نشرات الأخبار فقط، لكنها عند المسلمين قبل كل شيء عبارة عبادة، يقولونها بسكينة مرات كثيرة في كل صلاة. وقد قال الله لنبيه صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "وَرَبَّكَ فَكَبِّرْ",
+              "cite": "سورة المدثر، الآية 3"
+            },
+            {
+              "p": "أي: خُصَّ ربك وحده بالتعظيم. و«كبّر» من الجذر نفسه الذي جاءت منه «أكبر»."
+            }
+          ]
+        }
       },
       {
-        "p": "أي: خُصَّ ربك وحده بالتعظيم. و«كبّر» من الجذر نفسه الذي جاءت منه «أكبر»."
+        "h": "أين تقولها"
       },
       {
-        "h": "في الأذان"
-      },
-      {
-        "p": "يبدأ الأذان بـ«الله أكبر» ويعود إليها قرب نهايته. وعلّم النبي محمد صلى الله عليه وسلم أنك إذا سمعت المؤذن يقول: «الله أكبر، الله أكبر» تقولها بعده (صحيح مسلم 385)."
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "في الأذان",
+              "text": "يبدأ بها. وتقولها بعد المؤذن."
+            },
+            {
+              "icon": "hands",
+              "label": "في كل صلاة",
+              "text": "تفتتح بها الصلاة، وتقولها مرات كثيرة."
+            },
+            {
+              "icon": "mountain",
+              "label": "عند الصعود",
+              "text": "الله أكبر عند الصعود، وسبحان الله عند النزول."
+            },
+            {
+              "icon": "check",
+              "label": "بعد الصلاة",
+              "text": "ثلاثا وثلاثين مرة، مع سبحان الله والحمد لله."
+            },
+            {
+              "icon": "clock",
+              "label": "في كل وقت",
+              "text": "من أحب الكلام إلى الله."
+            }
+          ]
+        }
       },
       {
         "h": "في كل صلاة"
       },
       {
-        "p": "تبدأ صلاتك بـ«الله أكبر». قالت أم المؤمنين عائشة رضي الله عنها: «كان رسول الله صلى الله عليه وسلم يَسْتَفْتِحُ الصلاةَ بالتكبير» (صحيح مسلم 498). والتكبير هو قول «الله أكبر». ووصف أبو هريرة رضي الله عنه كيف كان النبي صلى الله عليه وسلم يكبّر مرة بعد مرة في أثناء الصلاة (صحيح البخاري 789، وصحيح مسلم 392):"
+        "p": "كان النبي صلى الله عليه وسلم يكبّر مرة بعد مرة في أثناء الصلاة (صحيح البخاري 789، وصحيح مسلم 392). ولا تحتاج إلى حفظ كل المواضع اليوم."
       },
       {
-        "ul": [
-          "حين يقوم إلى الصلاة",
-          "حين يركع",
-          "حين يهوي إلى السجود",
-          "حين يرفع رأسه من السجود",
-          "حين يقوم من الجلوس بعد الركعتين"
-        ]
+        "flow": {
+          "title": "كان يقولها:",
+          "steps": [
+            {
+              "label": "البداية",
+              "text": "حين يقوم إلى الصلاة"
+            },
+            {
+              "label": "الركوع",
+              "text": "حين يركع"
+            },
+            {
+              "label": "السجود",
+              "text": "حين يهوي إلى السجود"
+            },
+            {
+              "label": "الرفع",
+              "text": "حين يرفع رأسه من السجود"
+            },
+            {
+              "label": "القيام",
+              "text": "حين يقوم من الجلوس بعد الركعتين"
+            }
+          ]
+        }
       },
       {
-        "p": "فستقولها مرات كثيرة في كل صلاة. ولا تحتاج إلى حفظ كل المواضع اليوم، فدروس الصلاة ستأخذ بيدك خطوة خطوة."
-      },
-      {
-        "h": "في الحياة اليومية"
-      },
-      {
-        "p": "**عند الصعود.** كان الصحابة يكبّرون إذا صعدوا، ويسبّحون إذا نزلوا (صحيح البخاري 2993). وجاء رجل يريد السفر يطلب من النبي صلى الله عليه وسلم وصية، فقال له:"
-      },
-      {
-        "quote": "عليك بتقوى الله، والتَّكبير على كلِّ شَرَفٍ",
-        "cite": "سنن الترمذي 3445 (حسن)"
-      },
-      {
-        "p": "والشَّرَف هو المكان المرتفع."
-      },
-      {
-        "p": "**بعد الصلاة.** قلها ثلاثا وثلاثين مرة مع «سبحان الله» و«الحمد لله» (صحيح مسلم 597)."
-      },
-      {
-        "p": "**في كل وقت.** قال النبي صلى الله عليه وسلم:"
-      },
-      {
-        "quote": "أَحَبُّ الْكَلَامِ إِلَى اللهِ أَرْبَعٌ: سُبْحَانَ اللهِ، وَالْحَمْدُ لِلهِ، وَلَا إِلَهَ إِلَّا اللهُ، وَاللهُ أَكْبَرُ، لَا يَضُرُّكَ بِأَيِّهِنَّ بَدَأْتَ",
-        "cite": "صحيح مسلم 2137"
+        "more": {
+          "title": "التفاصيل والمصادر",
+          "blocks": [
+            {
+              "p": "يبدأ الأذان بـ«الله أكبر» ويعود إليها قرب نهايته. وعلّم النبي محمد صلى الله عليه وسلم أنك إذا سمعت المؤذن يقول: «الله أكبر، الله أكبر» تقولها بعده (صحيح مسلم 385)."
+            },
+            {
+              "p": "قالت أم المؤمنين عائشة رضي الله عنها: «كان رسول الله صلى الله عليه وسلم يَسْتَفْتِحُ الصلاةَ بالتكبير» (صحيح مسلم 498). والتكبير هو قول «الله أكبر»."
+            },
+            {
+              "p": "**عند الصعود.** كان الصحابة يكبّرون إذا صعدوا، ويسبّحون إذا نزلوا (صحيح البخاري 2993). وجاء رجل يريد السفر يطلب من النبي صلى الله عليه وسلم وصية، فقال له:"
+            },
+            {
+              "quote": "عليك بتقوى الله، والتَّكبير على كلِّ شَرَفٍ",
+              "cite": "سنن الترمذي 3445 (حسن)"
+            },
+            {
+              "p": "والشَّرَف هو المكان المرتفع."
+            },
+            {
+              "p": "**بعد الصلاة.** قلها ثلاثا وثلاثين مرة مع «سبحان الله» و«الحمد لله» (صحيح مسلم 597)."
+            },
+            {
+              "p": "**في كل وقت.** قال النبي صلى الله عليه وسلم:"
+            },
+            {
+              "quote": "أَحَبُّ الْكَلَامِ إِلَى اللهِ أَرْبَعٌ: سُبْحَانَ اللهِ، وَالْحَمْدُ لِلهِ، وَلَا إِلَهَ إِلَّا اللهُ، وَاللهُ أَكْبَرُ، لَا يَضُرُّكَ بِأَيِّهِنَّ بَدَأْتَ",
+              "cite": "صحيح مسلم 2137"
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -194,73 +356,154 @@
     ],
     "es": [
       {
-        "p": "*Allahu akbar* es la frase que más dirás como musulmán. Abre cada oración, resuena en el llamado a la oración y también tiene su lugar en los momentos comunes del día. En esta lección aprenderás lo que realmente significa y dónde la usarás."
+        "p": "*Allahu akbar* es la frase que más dirás como musulmán."
       },
       {
         "phrase": {
           "arabic": "اللهُ أَكْبَرُ",
           "transliteration": "Allahu akbar",
-          "meaning": "Allah es más grande (más grande que todo)"
+          "meaning": "Allah es más grande (más grande que todo)",
+          "audio": "/audio/phrases/res-meaning-allahu-akbar-1.mp3"
         }
       },
       {
         "h": "Lo que realmente significa"
       },
       {
-        "p": "Muchas veces se traduce como \"Dios es grande\". Es cierto, pero le falta algo. *Kabir* significa grande. *Akbar* es la forma más fuerte: más grande, o el más grande. Así que *Allahu akbar* significa que Allah es más grande, más grande que cualquier cosa con la que se le pueda comparar."
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "اللهُ",
+              "transliteration": "Allahu",
+              "meaning": "Allah"
+            },
+            {
+              "arabic": "أَكْبَرُ",
+              "transliteration": "Akbar",
+              "meaning": "más grande"
+            }
+          ],
+          "result": "Allah es más grande que todo"
+        }
       },
       {
-        "p": "Los sabios lo explican así: Allah es el más exaltado, grande y honorable de todas las cosas. Cuando la dices, todo lo que tienes delante toma su tamaño real. Una preocupación, una fecha límite, un miedo, incluso una alegría: Allah es más grande que todo eso."
+        "p": "Muchas veces se traduce como \"Dios es grande\". Es cierto, pero le falta algo. *Akbar* es la forma más fuerte: más grande, o el más grande."
       },
       {
-        "p": "Quizás has oído esta frase sobre todo en las noticias. Para los musulmanes es ante todo una frase de adoración, que se dice con calma muchas veces en cada oración. Allah le dice al Profeta en el Corán:"
+        "p": "Cuando la dices, todo lo que tienes delante toma su tamaño real. Una preocupación, una fecha límite, un miedo, incluso una alegría: Allah es más grande que todo eso."
       },
       {
-        "quote": "Proclama la grandeza de tu Señor,",
-        "cite": "Corán 74:3 (traducción de Isa García)"
+        "more": {
+          "title": "Del Corán",
+          "blocks": [
+            {
+              "p": "Los sabios lo explican así: Allah es el más exaltado, grande y honorable de todas las cosas."
+            },
+            {
+              "p": "Quizás has oído esta frase sobre todo en las noticias. Para los musulmanes es ante todo una frase de adoración, que se dice con calma muchas veces en cada oración. Allah le dice al Profeta en el Corán:"
+            },
+            {
+              "quote": "Proclama la grandeza de tu Señor,",
+              "cite": "Corán 74:3 (traducción de Isa García)"
+            },
+            {
+              "p": "En esta traducción, Señor se refiere a Allah. La palabra árabe que se usa aquí, *kabbir*, viene de la misma raíz que *akbar*: proclama que tu Señor es más grande."
+            }
+          ]
+        }
       },
       {
-        "p": "En esta traducción, Señor se refiere a Allah. La palabra árabe que se usa aquí, *kabbir*, viene de la misma raíz que *akbar*: proclama que tu Señor es más grande."
+        "h": "Dónde la dirás"
       },
       {
-        "h": "En el llamado a la oración"
-      },
-      {
-        "p": "El llamado a la oración (*adhan*) empieza con *Allahu akbar* y vuelve a ella cerca del final. El Profeta Muhammad, la paz sea con él, enseñó que cuando oyes al que llama (*muecín*) decir *Allahu akbar, Allahu akbar*, la dices después de él (Sahih Muslim 385)."
+        "facts": {
+          "items": [
+            {
+              "icon": "ear",
+              "label": "Llamado a la oración",
+              "text": "Empieza con ella. Dila después del que llama."
+            },
+            {
+              "icon": "hands",
+              "label": "Cada oración",
+              "text": "Abre la oración y la dices muchas veces."
+            },
+            {
+              "icon": "mountain",
+              "label": "Al subir",
+              "text": "Allahu akbar al subir, Subhan Allah al bajar."
+            },
+            {
+              "icon": "check",
+              "label": "Después de la oración",
+              "text": "33 veces, con Subhan Allah y Alhamdulillah."
+            },
+            {
+              "icon": "clock",
+              "label": "En cualquier momento",
+              "text": "Una de las cuatro frases más queridas por Allah."
+            }
+          ]
+        }
       },
       {
         "h": "En cada oración"
       },
       {
-        "p": "Tu oración empieza con *Allahu akbar*. Aisha, la esposa del Profeta (que Allah esté complacido con ella), contó que él \"comenzaba su oración con el takbir\" (Sahih Muslim 498). *Takbir* significa decir *Allahu akbar*. El compañero Abu Huraira (que Allah esté complacido con él) describió cómo el Profeta la decía una y otra vez a lo largo de la oración (Sahih al-Bujari 789 y Sahih Muslim 392):"
+        "p": "El Profeta la decía una y otra vez a lo largo de la oración (Sahih al-Bujari 789 y Sahih Muslim 392). No necesitas memorizar cada posición hoy."
       },
       {
-        "ul": [
-          "Al ponerse de pie para empezar la oración",
-          "Al inclinarse",
-          "Al bajar a la postración",
-          "Al levantar la cabeza de la postración",
-          "Al levantarse después de sentarse al final de dos unidades (*rak'as*)"
-        ]
+        "flow": {
+          "title": "La decía:",
+          "steps": [
+            {
+              "label": "Inicio",
+              "text": "Al ponerse de pie para empezar la oración"
+            },
+            {
+              "label": "Inclinación",
+              "text": "Al inclinarse"
+            },
+            {
+              "label": "Bajada",
+              "text": "Al bajar a la postración"
+            },
+            {
+              "label": "Subida",
+              "text": "Al levantar la cabeza de la postración"
+            },
+            {
+              "label": "De pie",
+              "text": "Al levantarse después de sentarse al final de dos unidades (rak'as)"
+            }
+          ]
+        }
       },
       {
-        "p": "Así que la dirás muchas veces en cada oración. No necesitas memorizar cada posición hoy. Tus lecciones sobre la oración te guiarán paso a paso."
-      },
-      {
-        "h": "En la vida diaria"
-      },
-      {
-        "p": "**Al subir.** Los compañeros decían *Allahu akbar* al subir y *Subhan Allah* al bajar (Sahih al-Bujari 2993). Un hombre que iba a viajar le pidió consejo al Profeta, y él le dijo:"
-      },
-      {
-        "quote": "Debes tener temor de Allah y hacer takbir en cada sitio elevado.",
-        "cite": "Sunan at-Tirmidi 3445 (hasan)"
-      },
-      {
-        "p": "**Después de la oración.** Dila 33 veces, junto con *Subhan Allah* y *Alhamdulillah* (Sahih Muslim 597)."
-      },
-      {
-        "p": "**En cualquier momento.** El Profeta nombró cuatro frases como las más queridas por Allah: *Subhan Allah*, *Alhamdulillah*, *La ilaha illallah* (no hay más divinidad que Allah) y *Allahu akbar*, y dijo que no importa con cuál empieces (Sahih Muslim 2137)."
+        "more": {
+          "title": "Detalles y fuentes",
+          "blocks": [
+            {
+              "p": "El llamado a la oración (*adhan*) empieza con *Allahu akbar* y vuelve a ella cerca del final. El Profeta Muhammad, la paz sea con él, enseñó que cuando oyes al que llama (*muecín*) decir *Allahu akbar, Allahu akbar*, la dices después de él (Sahih Muslim 385)."
+            },
+            {
+              "p": "Aisha, la esposa del Profeta (que Allah esté complacido con ella), contó que él \"comenzaba su oración con el takbir\" (Sahih Muslim 498). *Takbir* significa decir *Allahu akbar*."
+            },
+            {
+              "p": "**Al subir.** Los compañeros decían *Allahu akbar* al subir y *Subhan Allah* al bajar (Sahih al-Bujari 2993). Un hombre que iba a viajar le pidió consejo al Profeta, y él le dijo:"
+            },
+            {
+              "quote": "Debes tener temor de Allah y hacer takbir en cada sitio elevado.",
+              "cite": "Sunan at-Tirmidi 3445 (hasan)"
+            },
+            {
+              "p": "**Después de la oración.** Dila 33 veces, junto con *Subhan Allah* y *Alhamdulillah* (Sahih Muslim 597)."
+            },
+            {
+              "p": "**En cualquier momento.** El Profeta nombró cuatro frases como las más queridas por Allah: *Subhan Allah*, *Alhamdulillah*, *La ilaha illallah* (no hay más divinidad que Allah) y *Allahu akbar*, y dijo que no importa con cuál empieces (Sahih Muslim 2137)."
+            }
+          ]
+        }
       },
       {
         "quick": {

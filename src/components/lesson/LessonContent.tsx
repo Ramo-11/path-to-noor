@@ -2,10 +2,17 @@ import { ChevronDown } from "lucide-react";
 import { Fragment, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import {
+  normalizeBreakdown,
+  normalizeCompare,
+  normalizeFacts,
+  normalizeFlow,
   normalizeKeyPoint,
+  normalizeMore,
   normalizePhraseCard,
   normalizeQuickCheck,
+  normalizeScenario,
   normalizeStepList,
+  normalizeTimeline,
 } from "@/lib/lesson-blocks";
 import {
   asNode,
@@ -25,6 +32,13 @@ import { PhraseCard } from "./PhraseCard";
 import { KeyPoint } from "./KeyPoint";
 import { StepListBlock } from "./StepListBlock";
 import { QuickCheckBlock } from "./QuickCheckBlock";
+import { BreakdownBlock } from "./blocks/BreakdownBlock";
+import { CompareBlock } from "./blocks/CompareBlock";
+import { FlowBlock } from "./blocks/FlowBlock";
+import { TimelineBlock } from "./blocks/TimelineBlock";
+import { FactsBlock } from "./blocks/FactsBlock";
+import { ScenarioBlock } from "./blocks/ScenarioBlock";
+import { MoreBlock } from "./blocks/MoreBlock";
 
 interface RenderContext {
   slug: string;
@@ -189,15 +203,15 @@ function renderBlock(node: TipTapNode, ctx: RenderContext): ReactNode {
     case "phraseCard": {
       const attrs = normalizePhraseCard(node.attrs);
       return attrs ? (
-        <div className="py-3">
-          <PhraseCard {...attrs} />
+        <div className="lesson-block py-3">
+          <PhraseCard {...attrs} lessonSlug={ctx.slug} />
         </div>
       ) : null;
     }
     case "stepList": {
       const attrs = normalizeStepList(node.attrs);
       return attrs ? (
-        <div className="py-3">
+        <div className="lesson-block py-3">
           <StepListBlock {...attrs} storageKey={`bd.steps.${ctx.slug}.${index}`} />
         </div>
       ) : null;
@@ -205,7 +219,7 @@ function renderBlock(node: TipTapNode, ctx: RenderContext): ReactNode {
     case "quickCheck": {
       const attrs = normalizeQuickCheck(node.attrs);
       return attrs ? (
-        <div className="py-3">
+        <div className="lesson-block py-3">
           <QuickCheckBlock {...attrs} />
         </div>
       ) : null;
@@ -213,10 +227,67 @@ function renderBlock(node: TipTapNode, ctx: RenderContext): ReactNode {
     case "keyPoint": {
       const attrs = normalizeKeyPoint(node.attrs);
       return attrs ? (
-        <div className="py-3">
+        <div className="lesson-block py-3">
           <KeyPoint {...attrs} />
         </div>
       ) : null;
+    }
+    case "breakdown": {
+      const attrs = normalizeBreakdown(node.attrs);
+      return attrs ? (
+        <div className="lesson-block py-3">
+          <BreakdownBlock {...attrs} lessonSlug={ctx.slug} />
+        </div>
+      ) : null;
+    }
+    case "compare": {
+      const attrs = normalizeCompare(node.attrs);
+      return attrs ? (
+        <div className="lesson-block py-3">
+          <CompareBlock {...attrs} />
+        </div>
+      ) : null;
+    }
+    case "flow": {
+      const attrs = normalizeFlow(node.attrs);
+      return attrs ? (
+        <div className="lesson-block py-3">
+          <FlowBlock {...attrs} />
+        </div>
+      ) : null;
+    }
+    case "timeline": {
+      const attrs = normalizeTimeline(node.attrs);
+      return attrs ? (
+        <div className="lesson-block py-3">
+          <TimelineBlock {...attrs} />
+        </div>
+      ) : null;
+    }
+    case "facts": {
+      const attrs = normalizeFacts(node.attrs);
+      return attrs ? (
+        <div className="lesson-block py-3">
+          <FactsBlock {...attrs} />
+        </div>
+      ) : null;
+    }
+    case "scenario": {
+      const attrs = normalizeScenario(node.attrs);
+      return attrs ? (
+        <div className="lesson-block py-3">
+          <ScenarioBlock {...attrs} />
+        </div>
+      ) : null;
+    }
+    case "moreBlock": {
+      if (!hasRenderableContent(node)) return null;
+      const { title } = normalizeMore(node.attrs);
+      return (
+        <div className="py-3">
+          <MoreBlock title={title}>{renderChildren(node, ctx)}</MoreBlock>
+        </div>
+      );
     }
     default:
       return null;

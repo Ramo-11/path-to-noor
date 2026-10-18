@@ -1,15 +1,17 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { TextField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
 import { AuthShell } from "@/components/auth/AuthShell";
+import { authErrorKey } from "@/components/auth/auth-errors";
 
 export default function ForgotPasswordPage() {
   const t = useTranslations("forgotPassword");
   const tAuth = useTranslations("auth");
+  const locale = useLocale();
 
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
@@ -25,12 +27,12 @@ export default function ForgotPasswordPage() {
       const res = await fetch("/api/auth/forgot-password", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, locale }),
       });
 
       if (!res.ok) {
-        const data = await res.json();
-        setError(data.error || t("error"));
+        const data = await res.json().catch(() => ({}));
+        setError(t(`errors.${authErrorKey(data.code, res.status)}`));
         setLoading(false);
         return;
       }

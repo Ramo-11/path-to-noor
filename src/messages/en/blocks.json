@@ -17,5 +17,14 @@
   "tryAgain": "Try again",
   "remember": "Remember",
   "sourcesCount": "Sources ({count})",
-  "watchOn": "Watch the video on {site}"
+  "watchOn": "Watch the video on {site}",
+  "quickLabel": "Quick check",
+  "listen": "Listen",
+  "stop": "Stop",
+  "audioLoading": "Loading audio",
+  "audioError": "Audio did not load. Tap to try again.",
+  "breakdownLabel": "Word by word",
+  "scenarioYou": "You say",
+  "scenarioThem": "They say",
+  "speedLabel": "Playback speed {rate}. Tap to change."
 }

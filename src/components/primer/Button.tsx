@@ -32,7 +32,7 @@ const variants: Record<Variant, string> = {
   secondary:
     "bg-surface text-ink border border-rule shadow-soft hover:border-rule-strong hover:bg-wash active:translate-y-px",
   quiet:
-    "bg-transparent text-primary border border-transparent underline decoration-primary/30 underline-offset-[0.25em] hover:decoration-primary px-0!",
+    "bg-transparent text-primary border border-transparent underline decoration-primary/40 decoration-1 underline-offset-[0.3em] hover:text-primary-hover hover:decoration-primary px-1! -mx-1",
   danger:
     "bg-surface text-danger border border-danger/50 hover:bg-danger-tint",
 };

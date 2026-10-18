@@ -1,10 +1,14 @@
 "use client";
 
+import { Suspense } from "react";
 import { usePathname } from "@/i18n/navigation";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { isTabBarHidden } from "@/components/layout/tab-bar-visibility";
+import { InstallPrompt } from "@/components/pwa/InstallPrompt";
+import { ServiceWorkerRegister } from "@/components/pwa/ServiceWorkerRegister";
+import { AccountDeletedNotice } from "@/components/settings/AccountDeletedNotice";
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -13,6 +17,9 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Navbar />
+      <Suspense fallback={null}>
+        <AccountDeletedNotice />
+      </Suspense>
       <main
         id="main"
         className={
@@ -25,6 +32,8 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       </main>
       <Footer />
       {showTabBar ? <MobileTabBar /> : null}
+      <InstallPrompt />
+      <ServiceWorkerRegister />
     </>
   );
 }

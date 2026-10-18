@@ -78,9 +78,14 @@ export const ICON_OPTIONS: { name: string; icon: LucideIcon; label: string }[] =
 ];
 
 /** Map icon name string to its Lucide component */
-export function getIconByName(name: string): LucideIcon | null {
+export function NamedIcon({ name, className }: { name: string; className?: string }) {
   const found = ICON_OPTIONS.find((o) => o.name === name);
-  return found?.icon || null;
+  if (!found) return null;
+  return <found.icon className={className} />;
+}
+
+export function hasIcon(name: string): boolean {
+  return ICON_OPTIONS.some((o) => o.name === name);
 }
 
 interface IconPickerProps {
@@ -122,7 +127,7 @@ export function IconPicker({ value, onChange }: IconPickerProps) {
       )
     : ICON_OPTIONS;
 
-  const SelectedIcon = value ? getIconByName(value) : null;
+  const hasSelectedIcon = value ? hasIcon(value) : false;
 
   return (
     <div ref={containerRef} className="relative">
@@ -136,10 +141,10 @@ export function IconPicker({ value, onChange }: IconPickerProps) {
         className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors text-sm"
       >
         <span className="flex items-center gap-2.5">
-          {SelectedIcon ? (
+          {hasSelectedIcon ? (
             <>
               <span className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-primary-50 dark:bg-primary-900/30 text-primary-600">
-                <SelectedIcon className="h-4 w-4" />
+                <NamedIcon name={value} className="h-4 w-4" />
               </span>
               <span>{ICON_OPTIONS.find((o) => o.name === value)?.label || value}</span>
             </>

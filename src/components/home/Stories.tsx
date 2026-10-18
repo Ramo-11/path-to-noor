@@ -45,7 +45,7 @@ function StoryCell({
               className="object-cover"
             />
           ) : null}
-          <span className="absolute start-4 bottom-4 inline-flex min-h-10 items-center gap-2 rounded-full bg-primary px-4 text-meta font-medium text-on-primary shadow-soft transition-colors duration-150 group-hover:bg-primary-hover">
+          <span className="absolute start-4 bottom-4 inline-flex min-h-11 items-center gap-2 rounded-full bg-primary px-4 text-[0.875rem] font-medium text-on-primary shadow-soft transition-colors duration-150 group-hover:bg-primary-hover">
             <Play aria-hidden="true" strokeWidth={2} className="size-4" fill="currentColor" />
             {t("play")}
           </span>

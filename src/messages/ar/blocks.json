@@ -17,5 +17,14 @@
   "tryAgain": "حاول مرة أخرى",
   "remember": "تذكّر",
   "sourcesCount": "المصادر ({count})",
-  "watchOn": "شاهد الفيديو على {site}"
+  "watchOn": "شاهد الفيديو على {site}",
+  "quickLabel": "تحقق سريع",
+  "listen": "استمع",
+  "stop": "إيقاف",
+  "audioLoading": "جارٍ تحميل الصوت",
+  "audioError": "تعذر تحميل الصوت. اضغط للمحاولة مرة أخرى.",
+  "breakdownLabel": "كلمة بكلمة",
+  "scenarioYou": "تقول أنت",
+  "scenarioThem": "يقول الآخر",
+  "speedLabel": "سرعة التشغيل {rate}. اضغط لتغييرها."
 }

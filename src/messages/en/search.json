@@ -1,0 +1,18 @@
+{
+  "title": "Search lessons",
+  "lead": "Find a lesson by its title or what it covers.",
+  "label": "Search lessons",
+  "placeholder": "Search lessons",
+  "clear": "Clear search",
+  "hint": "Type at least 2 letters to search.",
+  "searching": "Searching",
+  "count": "Results: {count}",
+  "minutes": "{count} min",
+  "signInToRead": "Sign in to read",
+  "emptyTitle": "No lessons match",
+  "emptyBody": "Try a different word, or browse the paths.",
+  "browsePaths": "Browse paths",
+  "errorTitle": "We could not search just now",
+  "errorBody": "Check your connection and try again.",
+  "retry": "Try again"
+}

@@ -1,6 +1,6 @@
 {
   "slug": "res-recite-tahiyyaat",
-  "minutes": 8,
+  "minutes": 3,
   "title": {
     "en": "How to recite the tashahhud (at-tahiyyat)",
     "ar": "كيف تقرأ التشهد (التحيات)",
@@ -9,20 +9,37 @@
   "body": {
     "en": [
       {
-        "p": "Near the end of every prayer, you sit and say a short passage called the **tashahhud** (the testimony). It is also called *at-tahiyyat* (the greetings), after its first words. In the final sitting, you follow it with the **salawat**: a prayer asking Allah to bless the Prophet Muhammad, peace be upon him. This lesson breaks both into small parts so you can learn them one piece at a time."
+        "p": "Near the end of every prayer, you sit and say the **tashahhud** (the testimony, also called *at-tahiyyat*, the greetings). In the final sitting, you follow it with the **salawat**: a prayer asking Allah to bless the Prophet Muhammad, peace be upon him."
       },
       {
-        "p": "The Prophet taught these words with great care. His companion Abdullah ibn Mas'ud, may Allah be pleased with him, said that the Prophet taught him the tashahhud while holding Ibn Mas'ud's hand between his own two hands, just as he would teach him a surah of the Quran (Bukhari and Muslim)."
+        "more": {
+          "title": "How the Prophet taught it",
+          "blocks": [
+            {
+              "p": "The Prophet taught these words with great care. His companion Abdullah ibn Mas'ud, may Allah be pleased with him, said that the Prophet taught him the tashahhud while holding Ibn Mas'ud's hand between his own two hands, just as he would teach him a surah of the Quran (Bukhari and Muslim)."
+            }
+          ]
+        }
       },
       {
         "h": "When you say it"
       },
       {
-        "ul": [
-          "**In every prayer**, you sit after the last prostration of the last unit (*rak'ah*). This is the final sitting, and you say the tashahhud there.",
-          "**In prayers of three or four units** (Dhuhr, Asr, Maghrib, and Isha), you also sit after the second unit. This is the first sitting. You say the tashahhud, then stand up for the next unit.",
-          "**In a two-unit prayer** such as Fajr, there is only one sitting: the final one."
-        ]
+        "compare": {
+          "first": {
+            "title": "Two units, such as Fajr",
+            "items": [
+              "One sitting only: the final one. You say the tashahhud there."
+            ]
+          },
+          "second": {
+            "title": "Three or four units (Dhuhr, Asr, Maghrib, Isha)",
+            "items": [
+              "First sitting, after the second unit: say the tashahhud, then stand for the next unit.",
+              "Final sitting, after the last prostration of the last unit: say the tashahhud."
+            ]
+          }
+        }
       },
       {
         "p": "Most scholars teach that in the first sitting you say the tashahhud only, then stand. The Shafi'i school also recommends adding the salawat there. In the final sitting, scholars agree that the salawat comes after the tashahhud. If you are unsure, follow what your local masjid teaches."
@@ -37,31 +54,71 @@
         "phrase": {
           "arabic": "التَّحِيَّاتُ لِلَّهِ، وَالصَّلَوَاتُ وَالطَّيِّبَاتُ",
           "transliteration": "At-tahiyyatu lillahi, was-salawatu wat-tayyibat",
-          "meaning": "All greetings of honor are for Allah, and all prayers, and all good things."
+          "meaning": "All greetings of honor are for Allah, and all prayers, and all good things.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-1.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
           "transliteration": "As-salamu alayka ayyuhan-nabiyyu wa rahmatullahi wa barakatuh",
-          "meaning": "Peace be upon you, O Prophet, and the mercy of Allah and His blessings."
+          "meaning": "Peace be upon you, O Prophet, and the mercy of Allah and His blessings.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-2.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
           "transliteration": "As-salamu alayna wa ala ibadillahis-salihin",
-          "meaning": "Peace be upon us and upon the righteous servants of Allah."
+          "meaning": "Peace be upon us and upon the righteous servants of Allah.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-3.mp3"
         }
       },
       {
-        "p": "The Prophet said that when you say this line, it reaches every righteous servant of Allah in the heavens and on earth (Bukhari and Muslim). In one sentence, you ask for peace for yourself and for every righteous servant of Allah, in the heavens and on earth."
+        "p": "The Prophet said that when you say this line, it reaches every righteous servant of Allah in the heavens and on earth (Bukhari and Muslim)."
       },
       {
         "phrase": {
           "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلَّا اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
           "transliteration": "Ashhadu an la ilaha illallah, wa ashhadu anna Muhammadan abduhu wa rasuluh",
-          "meaning": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and His Messenger."
+          "meaning": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and His Messenger.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-4.mp3"
+        }
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "أَشْهَدُ",
+              "transliteration": "Ashhadu",
+              "meaning": "I bear witness"
+            },
+            {
+              "arabic": "أَنْ",
+              "transliteration": "an",
+              "meaning": "that"
+            },
+            {
+              "arabic": "لاَ",
+              "transliteration": "la",
+              "meaning": "no"
+            },
+            {
+              "arabic": "إِلَهَ",
+              "transliteration": "ilaha",
+              "meaning": "god"
+            },
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "illa",
+              "meaning": "but"
+            },
+            {
+              "arabic": "اللَّهُ",
+              "transliteration": "Allah",
+              "meaning": "Allah"
+            }
+          ]
         }
       },
       {
@@ -77,38 +134,72 @@
         "phrase": {
           "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ",
           "transliteration": "Allahumma salli ala Muhammad, wa ala ali Muhammad",
-          "meaning": "O Allah, send Your grace and honor on Muhammad and on the family of Muhammad,"
+          "meaning": "O Allah, send Your grace and honor on Muhammad and on the family of Muhammad,",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-5.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
           "transliteration": "kama sallayta ala Ibrahima wa ala ali Ibrahim, innaka hamidun majid",
-          "meaning": "as You sent Your grace on Ibrahim and on the family of Ibrahim. You are truly Praiseworthy and Glorious."
+          "meaning": "as You sent Your grace on Ibrahim and on the family of Ibrahim. You are truly Praiseworthy and Glorious.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-6.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ",
           "transliteration": "Allahumma barik ala Muhammad, wa ala ali Muhammad",
-          "meaning": "O Allah, bless Muhammad and the family of Muhammad,"
+          "meaning": "O Allah, bless Muhammad and the family of Muhammad,",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-7.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ، وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
           "transliteration": "kama barakta ala Ibrahima wa ala ali Ibrahim, innaka hamidun majid",
-          "meaning": "as You blessed Ibrahim and the family of Ibrahim. You are truly Praiseworthy and Glorious."
+          "meaning": "as You blessed Ibrahim and the family of Ibrahim. You are truly Praiseworthy and Glorious.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-8.mp3"
         }
       },
       {
-        "p": "After this, the Prophet said you may choose any supplication (*dua*) you like (Bukhari and Muslim). Then you end the prayer with the taslim, which you will practice in the next lesson."
+        "flow": {
+          "title": "In the final sitting",
+          "steps": [
+            {
+              "label": "Tashahhud",
+              "text": "The words above."
+            },
+            {
+              "label": "Salawat",
+              "text": "Ask Allah to bless the Prophet."
+            },
+            {
+              "label": "Your dua",
+              "text": "The Prophet said you may choose any supplication (*dua*) you like (Bukhari and Muslim)."
+            },
+            {
+              "label": "Taslim",
+              "text": "You end the prayer with it. You will practice it in the next lesson."
+            }
+          ]
+        }
       },
       {
         "h": "Other correct wordings"
       },
       {
-        "p": "The Prophet taught more than one wording of the tashahhud. For example, his companion Ibn Abbas, may Allah be pleased with him, reported a version that begins *at-tahiyyatul-mubarakat* (Muslim). Scholars explain that any wording authentically reported from the Prophet is valid, and the salawat also has another authentic wording that is very close to this one. So if your local masjid teaches a slightly different version, you are not doing anything wrong. Learn one well, and say it with care."
+        "p": "The Prophet taught more than one wording of the tashahhud, and scholars explain that any wording authentically reported from him is valid. If your local masjid teaches a slightly different version, you are not doing anything wrong. Learn one well, and say it with care."
+      },
+      {
+        "more": {
+          "title": "An example",
+          "blocks": [
+            {
+              "p": "His companion Ibn Abbas, may Allah be pleased with him, reported a version that begins *at-tahiyyatul-mubarakat* (Muslim). The salawat also has another authentic wording that is very close to this one."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -126,25 +217,42 @@
         "key": "The tashahhud is said in every sitting of the prayer. In the final sitting, the salawat on the Prophet comes right after it."
       },
       {
-        "p": "Go gently with these words. Learning one card a day is real progress. In the next lesson, you will put everything together and walk through a complete two-unit prayer, step by step."
+        "p": "Learning one card a day is real progress. In the next lesson, you will walk through a complete two-unit prayer, step by step."
       }
     ],
     "ar": [
       {
-        "p": "في آخر كل صلاة تجلس وتقرأ ذكرًا قصيرًا اسمه **التشهد**، ويُسمّى أيضًا **التحيات** لأنه يبدأ بهذه الكلمة. وفي الجلسة الأخيرة تُتبعه بـ**الصلاة على النبي** محمد صلى الله عليه وسلم، وهي دعاء تسأل فيه الله أن يُثني على نبيه ويبارك عليه. يقسّم هذا الدرس الذكرين إلى أجزاء صغيرة لتحفظهما جزءًا بعد جزء."
+        "p": "في آخر كل صلاة تجلس وتقرأ ذكرًا قصيرًا اسمه **التشهد**، ويُسمّى أيضًا **التحيات**. وفي الجلسة الأخيرة تُتبعه بـ**الصلاة على النبي** محمد صلى الله عليه وسلم، وهي دعاء تسأل فيه الله أن يُثني على نبيه ويبارك عليه."
       },
       {
-        "p": "وقد علّم النبي صلى الله عليه وسلم هذه الكلمات بعناية كبيرة؛ فقد أخبر الصحابي عبد الله بن مسعود رضي الله عنه أن النبي علّمه التشهد وكفُّه بين كفَّيه، كما كان يعلّمه السورة من القرآن (رواه البخاري ومسلم)."
+        "more": {
+          "title": "كيف علّم النبي صلى الله عليه وسلم التشهد",
+          "blocks": [
+            {
+              "p": "وقد علّم النبي صلى الله عليه وسلم هذه الكلمات بعناية كبيرة؛ فقد أخبر الصحابي عبد الله بن مسعود رضي الله عنه أن النبي علّمه التشهد وكفُّه بين كفَّيه، كما كان يعلّمه السورة من القرآن (رواه البخاري ومسلم)."
+            }
+          ]
+        }
       },
       {
         "h": "متى تقرأ التشهد"
       },
       {
-        "ul": [
-          "**في كل صلاة** تجلس بعد السجدة الأخيرة من الركعة الأخيرة، وهذه هي الجلسة الأخيرة، وفيها تقرأ التشهد.",
-          "**في الصلاة الثلاثية والرباعية** (الظهر والعصر والمغرب والعشاء) تجلس أيضًا بعد الركعة الثانية، وهذا هو التشهد الأول: تقرؤه ثم تقوم للركعة التالية.",
-          "**في الصلاة الثنائية** مثل الفجر ليس فيها إلا جلسة واحدة، هي الجلسة الأخيرة."
-        ]
+        "compare": {
+          "first": {
+            "title": "الصلاة الثنائية، مثل الفجر",
+            "items": [
+              "جلسة واحدة فقط، هي الجلسة الأخيرة، وفيها تقرأ التشهد."
+            ]
+          },
+          "second": {
+            "title": "الصلاة الثلاثية والرباعية (الظهر والعصر والمغرب والعشاء)",
+            "items": [
+              "التشهد الأول بعد الركعة الثانية: تقرؤه ثم تقوم للركعة التالية.",
+              "الجلسة الأخيرة بعد السجدة الأخيرة من الركعة الأخيرة: تقرأ فيها التشهد."
+            ]
+          }
+        }
       },
       {
         "p": "ويرى جمهور العلماء أنك تقتصر في التشهد الأول على التشهد ثم تقوم، ويستحب الشافعية أن تضيف إليه الصلاة على النبي. أما في الجلسة الأخيرة فالعلماء متفقون على أن الصلاة على النبي تأتي بعد التشهد. وإن لم تكن متأكدًا فاتبع ما يعلّمه مسجدك."
@@ -159,31 +267,71 @@
         "phrase": {
           "arabic": "التَّحِيَّاتُ لِلَّهِ، وَالصَّلَوَاتُ وَالطَّيِّبَاتُ",
           "transliteration": "",
-          "meaning": "كل ألفاظ التعظيم لله، وكذلك الصلوات كلها، وكل طيب من القول والعمل."
+          "meaning": "كل ألفاظ التعظيم لله، وكذلك الصلوات كلها، وكل طيب من القول والعمل.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-1.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
           "transliteration": "",
-          "meaning": "دعاء للنبي صلى الله عليه وسلم بالسلامة من كل سوء، وبالرحمة والبركة من الله."
+          "meaning": "دعاء للنبي صلى الله عليه وسلم بالسلامة من كل سوء، وبالرحمة والبركة من الله.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-2.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
           "transliteration": "",
-          "meaning": "دعاء بالسلامة لنفسك ولكل عبد صالح من عباد الله."
+          "meaning": "دعاء بالسلامة لنفسك ولكل عبد صالح من عباد الله.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-3.mp3"
         }
       },
       {
-        "p": "وأخبر النبي صلى الله عليه وسلم أنك إذا قلت هذه الجملة أصابت كل عبد لله صالح في السماء والأرض (رواه البخاري ومسلم). فبجملة واحدة تدعو بالسلامة لنفسك ولكل عبد صالح في السماوات والأرض."
+        "p": "وأخبر النبي صلى الله عليه وسلم أنك إذا قلت هذه الجملة أصابت كل عبد لله صالح في السماء والأرض (رواه البخاري ومسلم)."
       },
       {
         "phrase": {
           "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلَّا اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
           "transliteration": "",
-          "meaning": "أُقرّ وأعترف بأنه لا معبود بحق إلا الله، وأن محمدًا عبده ورسوله."
+          "meaning": "أُقرّ وأعترف بأنه لا معبود بحق إلا الله، وأن محمدًا عبده ورسوله.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-4.mp3"
+        }
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "أَشْهَدُ",
+              "transliteration": "",
+              "meaning": "أشهد"
+            },
+            {
+              "arabic": "أَنْ",
+              "transliteration": "",
+              "meaning": "أنّ"
+            },
+            {
+              "arabic": "لاَ",
+              "transliteration": "",
+              "meaning": "لا"
+            },
+            {
+              "arabic": "إِلَهَ",
+              "transliteration": "",
+              "meaning": "معبود"
+            },
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "",
+              "meaning": "إلا"
+            },
+            {
+              "arabic": "اللَّهُ",
+              "transliteration": "",
+              "meaning": "الله"
+            }
+          ]
         }
       },
       {
@@ -199,38 +347,72 @@
         "phrase": {
           "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ",
           "transliteration": "",
-          "meaning": "اللهم أثنِ على محمد وعلى آله وارفع ذكرهم،"
+          "meaning": "اللهم أثنِ على محمد وعلى آله وارفع ذكرهم،",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-5.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
           "transliteration": "",
-          "meaning": "كما أثنيت على إبراهيم وعلى آله؛ فأنت المحمود في صفاتك وأفعالك، الواسع المجد والكرم."
+          "meaning": "كما أثنيت على إبراهيم وعلى آله؛ فأنت المحمود في صفاتك وأفعالك، الواسع المجد والكرم.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-6.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ",
           "transliteration": "",
-          "meaning": "اللهم زِد محمدًا وآله من الخير وأدِمه عليهم،"
+          "meaning": "اللهم زِد محمدًا وآله من الخير وأدِمه عليهم،",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-7.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ، وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
           "transliteration": "",
-          "meaning": "كما باركت على إبراهيم وعلى آله؛ فأنت المحمود المجيد."
+          "meaning": "كما باركت على إبراهيم وعلى آله؛ فأنت المحمود المجيد.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-8.mp3"
         }
       },
       {
-        "p": "وبعد ذلك أخبر النبي صلى الله عليه وسلم أنك تختار من الدعاء ما شئت (رواه البخاري ومسلم). ثم تختم الصلاة بالتسليم، وستتدرب عليه في الدرس القادم."
+        "flow": {
+          "title": "في الجلسة الأخيرة",
+          "steps": [
+            {
+              "label": "التشهد",
+              "text": "الألفاظ السابقة."
+            },
+            {
+              "label": "الصلاة على النبي",
+              "text": "تسأل الله أن يُثني على نبيه ويبارك عليه."
+            },
+            {
+              "label": "دعاؤك",
+              "text": "أخبر النبي صلى الله عليه وسلم أنك تختار من الدعاء ما شئت (رواه البخاري ومسلم)."
+            },
+            {
+              "label": "التسليم",
+              "text": "به تختم الصلاة، وستتدرب عليه في الدرس القادم."
+            }
+          ]
+        }
       },
       {
         "h": "صيغ أخرى صحيحة"
       },
       {
-        "p": "علّم النبي صلى الله عليه وسلم أكثر من صيغة للتشهد؛ فمثلًا روى ابن عباس رضي الله عنهما صيغة تبدأ بـ«التحيات المباركات» (رواه مسلم). ويبيّن العلماء أن كل صيغة صحّت عن النبي صلى الله عليه وسلم تجزئ، وللصلاة على النبي كذلك صيغة صحيحة أخرى قريبة جدًا من هذه. فإذا علّمك مسجدك صيغة مختلفة قليلًا فلست مخطئًا. احفظ صيغة واحدة جيدًا، وقلها بحضور قلب."
+        "p": "علّم النبي صلى الله عليه وسلم أكثر من صيغة للتشهد، ويبيّن العلماء أن كل صيغة صحّت عنه تجزئ. فإذا علّمك مسجدك صيغة مختلفة قليلًا فلست مخطئًا. احفظ صيغة واحدة جيدًا، وقلها بحضور قلب."
+      },
+      {
+        "more": {
+          "title": "مثال",
+          "blocks": [
+            {
+              "p": "فمثلًا روى ابن عباس رضي الله عنهما صيغة تبدأ بـ«التحيات المباركات» (رواه مسلم). وللصلاة على النبي كذلك صيغة صحيحة أخرى قريبة جدًا من هذه."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -248,25 +430,42 @@
         "key": "التشهد يُقرأ في كل جلسة تشهد في الصلاة، وفي الجلسة الأخيرة تأتي بعده مباشرة الصلاة على النبي صلى الله عليه وسلم."
       },
       {
-        "p": "تمهّل مع هذه الكلمات؛ فحفظ بطاقة واحدة كل يوم تقدّم حقيقي. وفي الدرس القادم ستجمع كل ما تعلمته، وتمضي خطوة خطوة في صلاة كاملة من ركعتين."
+        "p": "حفظ بطاقة واحدة كل يوم تقدّم حقيقي. وفي الدرس القادم ستمضي خطوة خطوة في صلاة كاملة من ركعتين."
       }
     ],
     "es": [
       {
-        "p": "Cerca del final de cada oración te sientas y dices un pasaje breve llamado **tashahhud** (el testimonio). También se le llama *at-tahiyyat* (los saludos), por sus primeras palabras. En la sentada final, lo sigues con la **salawat**: una súplica en la que pides a Allah que bendiga al Profeta Muhammad, la paz sea con él. Esta lección divide ambos textos en partes pequeñas para que los aprendas poco a poco."
+        "p": "Cerca del final de cada oración te sientas y dices el **tashahhud** (el testimonio, también llamado *at-tahiyyat*, los saludos). En la sentada final, lo sigues con la **salawat**: una súplica en la que pides a Allah que bendiga al Profeta Muhammad, la paz sea con él."
       },
       {
-        "p": "El Profeta enseñó estas palabras con mucho cuidado. Su compañero Abdullah ibn Mas'ud, que Allah esté complacido con él, contó que el Profeta le enseñó el tashahhud sosteniendo su mano entre las suyas, tal como le enseñaba una sura del Corán (Bujari y Muslim)."
+        "more": {
+          "title": "Cómo lo enseñó el Profeta",
+          "blocks": [
+            {
+              "p": "El Profeta enseñó estas palabras con mucho cuidado. Su compañero Abdullah ibn Mas'ud, que Allah esté complacido con él, contó que el Profeta le enseñó el tashahhud sosteniendo su mano entre las suyas, tal como le enseñaba una sura del Corán (Bujari y Muslim)."
+            }
+          ]
+        }
       },
       {
         "h": "Cuándo se dice"
       },
       {
-        "ul": [
-          "**En toda oración** te sientas después de la última postración de la última unidad (*rak'a*). Esa es la sentada final, y en ella dices el tashahhud.",
-          "**En las oraciones de tres o cuatro unidades** (Duhr, Asr, Magrib e Isha) también te sientas después de la segunda unidad. Es la primera sentada: dices el tashahhud y luego te levantas para la siguiente unidad.",
-          "**En una oración de dos unidades**, como Fayr, solo hay una sentada: la final."
-        ]
+        "compare": {
+          "first": {
+            "title": "Dos unidades, como Fayr",
+            "items": [
+              "Una sola sentada: la final. En ella dices el tashahhud."
+            ]
+          },
+          "second": {
+            "title": "Tres o cuatro unidades (Duhr, Asr, Magrib, Isha)",
+            "items": [
+              "Primera sentada, después de la segunda unidad: dices el tashahhud y te levantas para la siguiente unidad.",
+              "Sentada final, después de la última postración de la última unidad: dices el tashahhud."
+            ]
+          }
+        }
       },
       {
         "p": "La mayoría de los sabios enseña que en la primera sentada dices solo el tashahhud y luego te levantas. La escuela shafi'i recomienda además añadir allí la salawat. En la sentada final, los sabios coinciden en que la salawat va después del tashahhud. Si tienes dudas, sigue lo que enseña tu mezquita local."
@@ -281,31 +480,71 @@
         "phrase": {
           "arabic": "التَّحِيَّاتُ لِلَّهِ، وَالصَّلَوَاتُ وَالطَّيِّبَاتُ",
           "transliteration": "At-tahiyyatu lil-lahi, was-salawatu wat-tayyibat",
-          "meaning": "Todos los saludos de honor son para Allah, y también todas las oraciones y todas las cosas buenas."
+          "meaning": "Todos los saludos de honor son para Allah, y también todas las oraciones y todas las cosas buenas.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-1.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
           "transliteration": "As-salamu alayka ayyuhan-nabiyyu wa rahmatul-lahi wa barakatuh",
-          "meaning": "La paz sea contigo, oh Profeta, y la misericordia de Allah y Sus bendiciones."
+          "meaning": "La paz sea contigo, oh Profeta, y la misericordia de Allah y Sus bendiciones.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-2.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
           "transliteration": "As-salamu alayna wa ala ibadil-lahis-salihin",
-          "meaning": "La paz sea con nosotros y con los siervos virtuosos de Allah."
+          "meaning": "La paz sea con nosotros y con los siervos virtuosos de Allah.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-3.mp3"
         }
       },
       {
-        "p": "El Profeta dijo que, cuando dices esta frase, llega a todo siervo virtuoso de Allah en el cielo y en la tierra (Bujari y Muslim). Con una sola frase pides paz para ti y para cada siervo virtuoso de Allah, en los cielos y en la tierra."
+        "p": "El Profeta dijo que, cuando dices esta frase, llega a todo siervo virtuoso de Allah en el cielo y en la tierra (Bujari y Muslim)."
       },
       {
         "phrase": {
           "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلَّا اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
           "transliteration": "Ashhadu an la ilaha il-lal-lah, wa ashhadu anna Muhammadan abduhu wa rasuluh",
-          "meaning": "Atestiguo que no hay más dios que Allah, y atestiguo que Muhammad es Su siervo y Su Mensajero."
+          "meaning": "Atestiguo que no hay más dios que Allah, y atestiguo que Muhammad es Su siervo y Su Mensajero.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-4.mp3"
+        }
+      },
+      {
+        "breakdown": {
+          "parts": [
+            {
+              "arabic": "أَشْهَدُ",
+              "transliteration": "Ashhadu",
+              "meaning": "atestiguo"
+            },
+            {
+              "arabic": "أَنْ",
+              "transliteration": "an",
+              "meaning": "que"
+            },
+            {
+              "arabic": "لاَ",
+              "transliteration": "la",
+              "meaning": "no"
+            },
+            {
+              "arabic": "إِلَهَ",
+              "transliteration": "ilaha",
+              "meaning": "dios"
+            },
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "illa",
+              "meaning": "sino"
+            },
+            {
+              "arabic": "اللَّهُ",
+              "transliteration": "Allah",
+              "meaning": "Allah"
+            }
+          ]
         }
       },
       {
@@ -321,38 +560,72 @@
         "phrase": {
           "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ",
           "transliteration": "Al-lahumma salli ala Muhammad, wa ala ali Muhammad",
-          "meaning": "Oh Allah, concede Tu gracia y Tu honra a Muhammad y a la familia de Muhammad,"
+          "meaning": "Oh Allah, concede Tu gracia y Tu honra a Muhammad y a la familia de Muhammad,",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-5.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
           "transliteration": "kama sallayta ala Ibrahima wa ala ali Ibrahim, innaka hamidun mayid",
-          "meaning": "como se la concediste a Ibrahim y a la familia de Ibrahim. Ciertamente Tú eres Digno de alabanza, Glorioso."
+          "meaning": "como se la concediste a Ibrahim y a la familia de Ibrahim. Ciertamente Tú eres Digno de alabanza, Glorioso.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-6.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ",
           "transliteration": "Al-lahumma barik ala Muhammad, wa ala ali Muhammad",
-          "meaning": "Oh Allah, bendice a Muhammad y a la familia de Muhammad,"
+          "meaning": "Oh Allah, bendice a Muhammad y a la familia de Muhammad,",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-7.mp3"
         }
       },
       {
         "phrase": {
           "arabic": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ، وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
           "transliteration": "kama barakta ala Ibrahima wa ala ali Ibrahim, innaka hamidun mayid",
-          "meaning": "como bendijiste a Ibrahim y a la familia de Ibrahim. Ciertamente Tú eres Digno de alabanza, Glorioso."
+          "meaning": "como bendijiste a Ibrahim y a la familia de Ibrahim. Ciertamente Tú eres Digno de alabanza, Glorioso.",
+          "audio": "/audio/phrases/res-recite-tahiyyaat-8.mp3"
         }
       },
       {
-        "p": "Después de esto, el Profeta dijo que puedes elegir la súplica (*du'a*) que quieras (Bujari y Muslim). Luego terminas la oración con el taslim, que practicarás en la próxima lección."
+        "flow": {
+          "title": "En la sentada final",
+          "steps": [
+            {
+              "label": "Tashahhud",
+              "text": "Las palabras anteriores."
+            },
+            {
+              "label": "Salawat",
+              "text": "Pides a Allah que bendiga al Profeta."
+            },
+            {
+              "label": "Tu súplica",
+              "text": "El Profeta dijo que puedes elegir la súplica (*du'a*) que quieras (Bujari y Muslim)."
+            },
+            {
+              "label": "Taslim",
+              "text": "Con él terminas la oración. Lo practicarás en la próxima lección."
+            }
+          ]
+        }
       },
       {
         "h": "Otras formas correctas"
       },
       {
-        "p": "El Profeta enseñó más de una forma del tashahhud. Por ejemplo, su compañero Ibn Abbas, que Allah esté complacido con él, transmitió una versión que empieza con *at-tahiyyatul-mubarakat* (Muslim). Los sabios explican que toda forma transmitida de manera auténtica del Profeta es válida, y la salawat también tiene otra redacción auténtica muy parecida a esta. Así que, si en tu mezquita enseñan una versión un poco distinta, no estás haciendo nada mal. Aprende una bien y dila con atención."
+        "p": "El Profeta enseñó más de una forma del tashahhud, y los sabios explican que toda forma transmitida de manera auténtica de él es válida. Si en tu mezquita enseñan una versión un poco distinta, no estás haciendo nada mal. Aprende una bien y dila con atención."
+      },
+      {
+        "more": {
+          "title": "Un ejemplo",
+          "blocks": [
+            {
+              "p": "Su compañero Ibn Abbas, que Allah esté complacido con él, transmitió una versión que empieza con *at-tahiyyatul-mubarakat* (Muslim). La salawat también tiene otra redacción auténtica muy parecida a esta."
+            }
+          ]
+        }
       },
       {
         "quick": {
@@ -370,7 +643,7 @@
         "key": "El tashahhud se dice en cada sentada de la oración. En la sentada final, la salawat por el Profeta va justo después."
       },
       {
-        "p": "Ve con calma con estas palabras. Aprender una tarjeta al día ya es un avance real. En la próxima lección unirás todo y recorrerás, paso a paso, una oración completa de dos unidades."
+        "p": "Aprender una tarjeta al día ya es un avance real. En la próxima lección recorrerás, paso a paso, una oración completa de dos unidades."
       }
     ]
   },

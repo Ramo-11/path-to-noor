@@ -5,6 +5,7 @@ declare module "next-auth" {
     role?: string;
     userType?: string;
     preferredLanguage?: string;
+    emailIsVerified?: boolean;
   }
 
   interface Session {
@@ -16,6 +17,7 @@ declare module "next-auth" {
       role: string;
       userType?: string;
       preferredLanguage: string;
+      emailVerified: boolean;
     };
   }
 }
@@ -25,5 +27,8 @@ declare module "next-auth/jwt" {
     role?: string;
     userType?: string;
     preferredLanguage?: string;
+    verified?: boolean;
+    isActive?: boolean;
+    checkedAt?: number;
   }
 }

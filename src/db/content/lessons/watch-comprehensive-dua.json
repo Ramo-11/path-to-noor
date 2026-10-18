@@ -1,0 +1,41 @@
+{
+  "slug": "watch-comprehensive-dua",
+  "minutes": 15,
+  "title": {
+    "en": "The most comprehensive dua",
+    "ar": "أجمع دعاء",
+    "es": "La dua más completa"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Dr. Omar Suleiman explains one of the most comprehensive supplications narrated from the Prophet, peace be upon him."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يشرح د. عمر سليمان واحدًا من أجمع الأدعية المأثورة عن النبي صلى الله عليه وسلم."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Dr. Omar Suleiman explica una de las súplicas más completas transmitidas del Profeta, la paz sea con él."
+      }
+    ]
+  },
+  "sources": [],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=Po1G9Pr-O9E",
+    "title": {
+      "en": "The most comprehensive dua",
+      "ar": "أجمع دعاء",
+      "es": "La dua más completa"
+    },
+    "by": {
+      "en": "Dr. Omar Suleiman, Yaqeen Institute",
+      "ar": "د. عمر سليمان، معهد يقين",
+      "es": "Dr. Omar Suleiman, Yaqeen Institute"
+    },
+    "seconds": 895
+  }
+}

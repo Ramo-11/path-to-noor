@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Node, mergeAttributes, NodeViewWrapper, ReactNodeViewRenderer, type ReactNodeViewProps } from "@tiptap/react";
-import { normalizePhraseCard, type PhraseCardAttrs } from "@/lib/lesson-blocks";
+import { normalizeAudio, normalizePhraseCard, type PhraseCardAttrs } from "@/lib/lesson-blocks";
 import { blockInputClass, blockLabelClass, blockPanelClass, FieldError, BlockFormActions, BlockPreviewShell, blockShellClass } from "./shared";
 
 export const PhraseCardNode = Node.create({
@@ -28,6 +28,17 @@ export const PhraseCardNode = Node.create({
         default: "",
         parseHTML: (el) => el.getAttribute("data-meaning") || "",
         renderHTML: (attrs) => ({ "data-meaning": attrs.meaning || "" }),
+      },
+      audio: {
+        default: [],
+        parseHTML: (el) => {
+          try {
+            return normalizeAudio(JSON.parse(el.getAttribute("data-audio") || "[]"));
+          } catch {
+            return [];
+          }
+        },
+        renderHTML: (attrs) => ({ "data-audio": JSON.stringify(attrs.audio || []) }),
       },
     };
   },
@@ -59,11 +70,18 @@ export function PhraseCardForm({
   const [arabic, setArabic] = useState(initial.arabic);
   const [transliteration, setTransliteration] = useState(initial.transliteration);
   const [meaning, setMeaning] = useState(initial.meaning);
+  const [audio, setAudio] = useState((initial.audio ?? []).join(", "));
   const [error, setError] = useState("");
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const normalized = normalizePhraseCard({ arabic, transliteration, meaning });
+    const entries = audio.split(",").map((item) => item.trim()).filter(Boolean);
+    const clips = normalizeAudio(entries);
+    if (clips.length !== entries.length) {
+      setError("Audio paths must look like /audio/name.mp3.");
+      return;
+    }
+    const normalized = normalizePhraseCard({ arabic, transliteration, meaning, audio: clips });
     if (!normalized) {
       setError("Add the Arabic phrase before saving.");
       return;
@@ -101,6 +119,16 @@ export function PhraseCardForm({
           type="text"
           value={meaning}
           onChange={(e) => setMeaning(e.target.value)}
+          className={blockInputClass}
+        />
+      </div>
+      <div>
+        <label className={blockLabelClass}>Audio paths (optional, comma separated)</label>
+        <input
+          type="text"
+          value={audio}
+          onChange={(e) => setAudio(e.target.value)}
+          placeholder="/audio/quran/001001.mp3"
           className={blockInputClass}
         />
       </div>

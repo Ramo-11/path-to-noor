@@ -192,7 +192,7 @@ export function BilingualEditor({
               <div className="text-xs font-medium text-slate-400 dark:text-slate-500 uppercase tracking-wider">
                 Live Preview
               </div>
-              <div className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" title="Synced — updates as you type" />
+              <div className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" title="Synced, updates as you type" />
             </div>
             <div
               dir={activeTab === "ar" ? "rtl" : "ltr"}

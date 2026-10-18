@@ -56,7 +56,7 @@ async function main() {
         {
           $push: {
             lessons: { lessonId: lesson._id, order: currentMax + 1 },
-          } as any,
+          } as never,
         }
       );
 
