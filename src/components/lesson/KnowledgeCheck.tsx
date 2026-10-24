@@ -7,8 +7,9 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { Notice } from "@/components/primer/Notice";
 import { Illustration } from "@/components/primer/Illustration";
-import { ProgressCells } from "@/components/primer/ProgressCells";
-import { localized, STAGE_STYLES, type LocalizedText, type StageKey } from "@/lib/stages";
+import { PathProgress } from "@/components/paths/PathProgress";
+import { localized, type LocalizedText, type StageKey } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 import { track } from "@/lib/analytics";
 
 export interface CheckQuestion {
@@ -35,7 +36,7 @@ interface KnowledgeCheckProps {
   questions: CheckQuestion[];
   signedIn: boolean;
   upNext: { slug: string; title: string } | null;
-  path: { slug: string; title: string; stage: StageKey } | null;
+  path: { slug: string; title: string; stage: StageKey | null } | null;
 }
 
 type ErrorKind = "check" | "finish" | "save" | "changed";
@@ -70,8 +71,8 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
   const questionHeadingId = useId();
   const total = questions.length;
   const scoreUrl = `/api/public/quiz/${encodeURIComponent(slug)}/score`;
-  const stage: StageKey = path?.stage ?? "beginning";
-  const stageStyle = STAGE_STYLES[stage];
+  const stage: StageKey | null = path?.stage ?? null;
+  const stageStyle = toneStyle(stage);
 
   const [current, setCurrent] = useState(0);
   const [choices, setChoices] = useState<Array<number | null>>(() => questions.map(() => null));
@@ -371,7 +372,7 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
     <div className="mt-10 sm:mt-12">
       {total > 1 ? (
         <div className="flex flex-col gap-4">
-          <ProgressCells
+          <PathProgress
             done={answeredCount}
             total={total}
             stage={stage}

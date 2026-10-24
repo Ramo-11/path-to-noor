@@ -114,9 +114,15 @@ interface StepEntry {
   lessons?: string[];
 }
 
+type PathTrack = "curious" | "new" | "muslim";
+
+const PATH_TRACKS: PathTrack[] = ["curious", "new", "muslim"];
+const PATH_STAGES = ["beginning", "foundations", "deeper"] as const;
+
 interface PathFile {
   slug: string;
-  stage?: "beginning" | "foundations" | "deeper";
+  tracks?: PathTrack[];
+  stage?: (typeof PATH_STAGES)[number];
   order?: number;
   title?: Localized;
   description?: Localized;
@@ -125,6 +131,30 @@ interface PathFile {
 }
 
 type TipTapNode = Record<string, unknown>;
+
+function pathTracks(pathFile: PathFile): PathTrack[] {
+  if (pathFile.tracks === undefined) return ["new"];
+  if (!Array.isArray(pathFile.tracks) || pathFile.tracks.length === 0) {
+    fail(`${pathFile.slug}: tracks must be a non-empty list`);
+  }
+  for (const track of pathFile.tracks) {
+    if (!PATH_TRACKS.includes(track)) fail(`${pathFile.slug}: unknown track ${String(track)}`);
+  }
+  return PATH_TRACKS.filter((track) => pathFile.tracks!.includes(track));
+}
+
+function storedTracks(value: unknown): PathTrack[] {
+  if (!Array.isArray(value)) return ["new"];
+  const tracks = PATH_TRACKS.filter((track) => value.includes(track));
+  return tracks.length > 0 ? tracks : ["new"];
+}
+
+function validatePathFile(pathFile: PathFile): void {
+  pathTracks(pathFile);
+  if (pathFile.stage !== undefined && !PATH_STAGES.includes(pathFile.stage)) {
+    fail(`${pathFile.slug}: unknown stage ${String(pathFile.stage)}`);
+  }
+}
 
 function fail(message: string): never {
   throw new Error(message);
@@ -404,6 +434,7 @@ async function main() {
   const lessonBySlug = new Map(lessons.map((lesson) => [lesson.slug, lesson]));
 
   for (const pathFile of paths) {
+    validatePathFile(pathFile);
     for (const step of pathFile.steps ?? []) {
       for (const slug of step.lessons ?? []) {
         if (!lessonBySlug.has(slug)) fail(`${pathFile.slug}/${step.slug}: no lesson file for ${slug}`);
@@ -537,13 +568,21 @@ async function main() {
     }
 
     const existing = await pathsCol.findOne({ slug: pathFile.slug });
+    const tracks = pathFile.tracks !== undefined ? pathTracks(pathFile) : storedTracks(existing?.tracks);
+    const staged = tracks.includes("new");
+    if (staged && !pathFile.stage && !(existing && PATH_STAGES.includes(existing.stage))) {
+      fail(`${pathFile.slug}: paths in the "new" track need a stage`);
+    }
     const set: Record<string, unknown> = { updatedAt: now };
+    const unset: Record<string, 1> = {};
+    if (pathFile.tracks || !existing) set.tracks = tracks;
     if (pathFile.title) set.title = requireLocalized(pathFile.title, `${pathFile.slug} title`);
     if (pathFile.description) set.description = requireLocalized(pathFile.description, `${pathFile.slug} description`);
     if (pathFile.outcomes) {
       set.outcomes = pathFile.outcomes.map((outcome, i) => requireLocalized(outcome, `${pathFile.slug} outcome ${i + 1}`));
     }
-    if (pathFile.stage) set.stage = pathFile.stage;
+    if (staged && pathFile.stage) set.stage = pathFile.stage;
+    if (!staged) unset.stage = 1;
     if (typeof pathFile.order === "number") set.order = pathFile.order;
 
     const stepModules = await Promise.all(
@@ -555,9 +594,11 @@ async function main() {
 
     if (existing) {
       if (stepModules.length > 0) set.modules = stepModules;
-      await pathsCol.updateOne({ _id: existing._id }, { $set: set });
+      const update: Record<string, unknown> = { $set: set };
+      if (Object.keys(unset).length > 0) update.$unset = unset;
+      await pathsCol.updateOne({ _id: existing._id }, update);
     } else {
-      if (!pathFile.title || !pathFile.description || !pathFile.stage) fail(`New path ${pathFile.slug} needs title, description, stage`);
+      if (!pathFile.title || !pathFile.description) fail(`New path ${pathFile.slug} needs title and description`);
       await pathsCol.insertOne({
         slug: pathFile.slug,
         thumbnail: "",

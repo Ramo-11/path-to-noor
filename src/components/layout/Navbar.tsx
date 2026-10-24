@@ -5,30 +5,20 @@ import { useLocale, useTranslations } from "next-intl";
 import NextLink from "next/link";
 import { useSession, signOut } from "next-auth/react";
 import { Link, usePathname } from "@/i18n/navigation";
-import { Bookmark, Handshake, LogOut, Search, Settings, Shield, User } from "lucide-react";
+import { Bookmark, Handshake, LogOut, Mail, Search, Settings, Shield, User } from "lucide-react";
 import { Button } from "@/components/primer/Button";
-import { ThemeToggle } from "@/components/layout/ThemeToggle";
+import { PreferencesMenu } from "@/components/layout/PreferencesMenu";
 import { BrandMark } from "@/components/layout/BrandMark";
 import { useMounted } from "@/lib/use-mounted";
 import { clearOfflinePages } from "@/components/pwa/offline-cache";
+import { useTrackAction } from "@/components/tracks/useTrackAction";
 
 const NAV_LINKS = [
   { href: "/paths", key: "paths" },
   { href: "/library", key: "library" },
   { href: "/mentor", key: "mentor" },
+  { href: "/contact", key: "contact" },
 ] as const;
-
-const LOCALES = ["en", "ar", "es"] as const;
-const LOCALE_CODES: Record<(typeof LOCALES)[number], string> = {
-  en: "EN",
-  ar: "AR",
-  es: "ES",
-};
-const LOCALE_NAMES: Record<(typeof LOCALES)[number], string> = {
-  en: "English",
-  ar: "العربية",
-  es: "Español",
-};
 
 function isActive(pathname: string, href: string) {
   return pathname === href || pathname.startsWith(`${href}/`);
@@ -36,17 +26,16 @@ function isActive(pathname: string, href: string) {
 
 export function Navbar() {
   const t = useTranslations("nav");
-  const locale = useLocale() as (typeof LOCALES)[number];
+  const locale = useLocale();
   const pathname = usePathname();
   const { data: session, status } = useSession();
   const mounted = useMounted();
-  const [langOpen, setLangOpen] = useState(false);
+  const primary = useTrackAction();
   const [accountOpen, setAccountOpen] = useState(false);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       if (event.key !== "Escape") return;
-      setLangOpen(false);
       setAccountOpen(false);
     }
     document.addEventListener("keydown", onKeyDown);
@@ -65,10 +54,11 @@ export function Navbar() {
     { href: "/saved", label: t("saved"), Icon: Bookmark },
     { href: "/settings", label: t("settings"), Icon: Settings },
     { href: "/mentor", label: t("talkToMentor"), Icon: Handshake },
+    { href: "/contact", label: t("contact"), Icon: Mail },
   ];
 
   return (
-    <nav className="sticky top-0 z-40 h-16 border-b border-rule bg-page">
+    <nav className="sticky top-0 z-40 h-16 border-b border-rule bg-page/85 backdrop-blur-md supports-[backdrop-filter]:bg-page/75">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex h-full items-center gap-4 md:gap-6 lg:gap-8">
           <Link href="/" className="flex min-h-11 items-center gap-2.5 whitespace-nowrap text-[19px] font-semibold text-ink">
@@ -84,9 +74,9 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   aria-current={active ? "page" : undefined}
-                  className={`flex h-11 items-center rounded-full px-4 text-[0.9375rem] font-medium transition-colors duration-150 ${
+                  className={`flex h-10 items-center rounded-full px-3.5 text-[0.9375rem] font-medium transition-colors duration-150 ${
                     active
-                      ? "bg-primary-tint text-primary"
+                      ? "bg-wash text-ink"
                       : "text-ink-2 hover:bg-wash hover:text-ink"
                   }`}
                 >
@@ -101,61 +91,12 @@ export function Navbar() {
           <Link
             href="/search"
             aria-label={t("search")}
-            className="inline-flex size-11 shrink-0 items-center justify-center rounded-full text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
+            className="inline-flex size-10 shrink-0 items-center justify-center rounded-full text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink active:bg-wash/70"
           >
             <Search className="size-5" strokeWidth={1.75} aria-hidden="true" />
           </Link>
 
-          <div className="relative">
-            <button
-              type="button"
-              onClick={() => {
-                setLangOpen((v) => !v);
-                setAccountOpen(false);
-              }}
-              aria-label={t("languageMenu")}
-              aria-haspopup="menu"
-              aria-expanded={langOpen}
-              className="inline-flex size-11 items-center justify-center rounded-full text-[0.8125rem] font-semibold tabular text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink"
-            >
-              {LOCALE_CODES[locale] ?? locale.toUpperCase()}
-            </button>
-            {langOpen ? (
-              <>
-                <div
-                  className="fixed inset-0 z-30"
-                  onClick={() => setLangOpen(false)}
-                  aria-hidden="true"
-                />
-                <div
-                  role="menu"
-                  aria-label={t("languageMenu")}
-                  className="absolute end-0 top-full z-40 mt-2 w-40 rounded-[var(--radius-cell)] border border-rule bg-surface p-1.5 shadow-lift"
-                >
-                  {LOCALES.map((l) => (
-                    <Link
-                      key={l}
-                      role="menuitem"
-                      href={pathname}
-                      locale={l}
-                      onClick={() => setLangOpen(false)}
-                      aria-current={l === locale ? "true" : undefined}
-                      className={`flex min-h-11 items-center rounded-[var(--radius-control)] px-3 text-[0.9375rem] transition-colors duration-150 ${
-                        l === locale ? "bg-primary-tint font-medium text-primary" : "text-ink-2 hover:bg-wash hover:text-ink"
-                      }`}
-                    >
-                      {LOCALE_NAMES[l]}
-                    </Link>
-                  ))}
-                </div>
-              </>
-            ) : null}
-          </div>
-
-          <ThemeToggle
-            darkLabel={t("switchToDarkMode")}
-            lightLabel={t("switchToLightMode")}
-          />
+          <PreferencesMenu />
 
           {isLoading ? (
             <div className="h-11 w-24 animate-pulse rounded-full bg-wash" aria-hidden="true" />
@@ -173,12 +114,11 @@ export function Navbar() {
                   type="button"
                   onClick={() => {
                     setAccountOpen((v) => !v);
-                    setLangOpen(false);
-                  }}
+                                }}
                   aria-label={t("accountMenu")}
                   aria-haspopup="menu"
                   aria-expanded={accountOpen}
-                  className="inline-flex h-11 items-center gap-2 rounded-full px-1.5 text-[0.9375rem] font-medium text-ink transition-colors duration-150 hover:bg-wash lg:pe-3"
+                  className="inline-flex h-10 items-center gap-2 rounded-full px-1 text-[0.9375rem] font-medium text-ink transition-colors duration-150 hover:bg-wash lg:pe-3"
                 >
                   <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-[0.8125rem] font-semibold text-on-primary">
                     {initial}
@@ -246,13 +186,13 @@ export function Navbar() {
             <>
               <Link
                 href="/login"
-                className="inline-flex h-11 items-center whitespace-nowrap rounded-full px-3 text-[0.9375rem] font-medium text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink sm:px-4"
+                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-3 text-[0.9375rem] font-medium text-ink-2 transition-colors duration-150 hover:bg-wash hover:text-ink sm:px-4"
               >
                 {t("signIn")}
               </Link>
-              <span className="ms-2 hidden lg:inline-flex">
-                <Button href="/start" variant="primary" size="md">
-                  {t("findStart")}
+              <span className="ms-1.5 hidden lg:inline-flex">
+                <Button href={primary.href} variant="primary" size="md">
+                  {t(`primary.${primary.track ?? "none"}`)}
                 </Button>
               </span>
             </>

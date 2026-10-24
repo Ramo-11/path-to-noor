@@ -7,6 +7,8 @@ import { TextField } from "@/components/primer/TextField";
 import { Notice } from "@/components/primer/Notice";
 import { AuthShell } from "@/components/auth/AuthShell";
 import { authErrorKey } from "@/components/auth/auth-errors";
+import { Turnstile, turnstileEnabled } from "@/components/auth/Turnstile";
+import { Honeypot, useFormStart } from "@/components/auth/BotFields";
 
 export default function ForgotPasswordPage() {
   const t = useTranslations("forgotPassword");
@@ -17,6 +19,10 @@ export default function ForgotPasswordPage() {
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState("");
+  const [website, setWebsite] = useState("");
+  const [token, setToken] = useState<string | null>(null);
+  const [resetKey, setResetKey] = useState(0);
+  const startedAt = useFormStart();
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -27,13 +33,14 @@ export default function ForgotPasswordPage() {
       const res = await fetch("/api/auth/forgot-password", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, locale }),
+        body: JSON.stringify({ email, locale, website, formStartedAt: startedAt.read(), turnstileToken: token }),
       });
 
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
         setError(t(`errors.${authErrorKey(data.code, res.status)}`));
         setLoading(false);
+        setResetKey((n) => n + 1);
         return;
       }
 
@@ -69,6 +76,7 @@ export default function ForgotPasswordPage() {
       <p className="mt-2 text-ink-2 text-pretty">{t("description")}</p>
 
       <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-5" noValidate>
+        <Honeypot value={website} onChange={setWebsite} />
         <TextField
           label={tAuth("email")}
           type="email"
@@ -80,9 +88,11 @@ export default function ForgotPasswordPage() {
           onChange={(e) => setEmail(e.target.value)}
         />
 
+        <Turnstile onToken={setToken} resetKey={resetKey} />
+
         {error ? <Notice tone="error">{error}</Notice> : null}
 
-        <Button type="submit" size="lg" fullWidth loading={loading}>
+        <Button type="submit" size="lg" fullWidth loading={loading} disabled={turnstileEnabled && !token}>
           {t("submit")}
         </Button>
       </form>

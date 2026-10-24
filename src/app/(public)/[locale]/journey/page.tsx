@@ -11,6 +11,7 @@ import { EmptyState } from "@/components/primer/EmptyState";
 import { Notice } from "@/components/primer/Notice";
 import { PageBanner, type BannerTone } from "@/components/primer/PageBanner";
 import { StageBlock } from "@/components/journey/StageBlock";
+import { TrackPrimaryLink } from "@/components/tracks/TrackPrimaryLink";
 import { ContinueBlock } from "@/components/journey/ContinueBlock";
 import { PathRows } from "@/components/journey/PathRows";
 import { RecentRows, type RecentItem } from "@/components/journey/RecentRows";
@@ -109,9 +110,7 @@ export default async function JourneyPage({
               <Button href="/register" variant="secondary">
                 {t("createAccount")}
               </Button>
-              <Button href="/start" variant="quiet">
-                {t("findStart")}
-              </Button>
+              <TrackPrimaryLink />
             </div>
           }
         />
@@ -122,6 +121,7 @@ export default async function JourneyPage({
   const tStages = await getTranslations("stages");
   const tLearning = await getTranslations("learning");
   const tCommon = await getTranslations("common");
+  const tTracks = await getTranslations("tracks");
 
   let journey: Awaited<ReturnType<typeof loadJourney>> | null = null;
   try {
@@ -157,7 +157,7 @@ export default async function JourneyPage({
       <PageBanner title={t("greeting", { name: firstName })} art="journey" tone={bannerTone} />
 
       <div className="mt-8 grid gap-5 sm:mt-10 lg:grid-cols-2 lg:gap-6">
-        <StageBlock placement={state.placement} t={t} tStages={tStages} />
+        <StageBlock placement={state.placement} track={state.track} t={t} tStages={tStages} tTracks={tTracks} />
         <ContinueBlock state={state} locale={locale} t={t} tLearning={tLearning} tStages={tStages} />
       </div>
 
@@ -174,7 +174,13 @@ export default async function JourneyPage({
       </section>
 
       <section className="mt-10 sm:mt-14">
-        <QuickLinksRow savedCount={savedCount} quizCount={quizCount} mentorStatus={mentorStatus} t={t} />
+        <QuickLinksRow
+          savedCount={savedCount}
+          quizCount={quizCount}
+          mentorStatus={mentorStatus}
+          volunteer={state.track === "muslim"}
+          t={t}
+        />
       </section>
 
       <div className="mt-10 sm:mt-14">

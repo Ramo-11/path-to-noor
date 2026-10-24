@@ -3,6 +3,7 @@ import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { LearningPath } from "@/db/models/LearningPath";
 import { createLearningPathSchema, slugify } from "@/lib/validations";
+import { DEFAULT_PATH_TRACKS, pathTracksSchema } from "@/lib/tracks";
 
 export async function POST(request: NextRequest) {
   const auth = await requireAdmin();
@@ -19,9 +20,20 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const tracksResult =
+      body?.tracks === undefined
+        ? { success: true as const, data: [...DEFAULT_PATH_TRACKS] }
+        : pathTracksSchema.safeParse(body.tracks);
+    if (!tracksResult.success) {
+      return NextResponse.json(
+        { error: "Choose at least one track", details: { tracks: ["Choose at least one track"] } },
+        { status: 400 }
+      );
+    }
+    const tracks = tracksResult.data;
+
     await connectDB();
 
-    // Auto-generate slug from English title if not provided
     if (!result.data.slug) {
       result.data.slug = slugify(result.data.title.en);
     }
@@ -35,7 +47,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const learningPath = await LearningPath.create(result.data);
+    const { stage, ...rest } = result.data;
+    const learningPath = await LearningPath.create(
+      tracks.includes("new") ? { ...rest, stage, tracks } : { ...rest, tracks }
+    );
 
     return NextResponse.json(
       { data: learningPath, message: "Learning path created successfully" },

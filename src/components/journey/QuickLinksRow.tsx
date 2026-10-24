@@ -8,6 +8,7 @@ interface QuickLinksRowProps {
   savedCount: number;
   quizCount: number;
   mentorStatus: MentorStatus;
+  volunteer?: boolean;
   t: Translate;
 }
 
@@ -17,7 +18,8 @@ const mentorStatusKey: Record<MentorStatus, string> = {
   assigned: "mentorStatusMatched",
 };
 
-export function QuickLinksRow({ savedCount, quizCount, mentorStatus, t }: QuickLinksRowProps) {
+export function QuickLinksRow({ savedCount, quizCount, mentorStatus, volunteer = false, t }: QuickLinksRowProps) {
+  const offerVolunteer = volunteer && mentorStatus === "none";
   return (
     <div className="grid gap-4 sm:grid-cols-3">
       <Link href="/saved" className="card card-link flex items-center gap-3 p-5">
@@ -43,7 +45,7 @@ export function QuickLinksRow({ savedCount, quizCount, mentorStatus, t }: QuickL
         </span>
       </div>
 
-      <Link href="/mentor" className="card card-link flex items-center gap-3 p-5">
+      <Link href={offerVolunteer ? "/mentor/volunteer" : "/mentor"} className="card card-link flex items-center gap-3 p-5">
         <span
           aria-hidden="true"
           className="grid size-10 shrink-0 place-items-center rounded-full bg-accent-tint text-accent-text"
@@ -51,8 +53,10 @@ export function QuickLinksRow({ savedCount, quizCount, mentorStatus, t }: QuickL
           <MessagesSquare strokeWidth={1.75} className="size-5" />
         </span>
         <span className="min-w-0">
-          <span className="block font-medium text-ink">{t("talkToMentor")}</span>
-          <span className="text-meta text-ink-3">{t(mentorStatusKey[mentorStatus])}</span>
+          <span className="block font-medium text-ink">{t(offerVolunteer ? "volunteer" : "talkToMentor")}</span>
+          <span className="text-meta text-ink-3">
+            {offerVolunteer ? t("volunteerLine") : t(mentorStatusKey[mentorStatus])}
+          </span>
         </span>
       </Link>
     </div>

@@ -11,7 +11,18 @@ import { AuthShell } from "@/components/auth/AuthShell";
 import { GoogleButton } from "@/components/auth/GoogleButton";
 import { AuthDivider } from "@/components/auth/AuthDivider";
 import { authErrorKey } from "@/components/auth/auth-errors";
+import { Turnstile, turnstileEnabled } from "@/components/auth/Turnstile";
+import { Honeypot, useFormStart } from "@/components/auth/BotFields";
 import { track } from "@/lib/analytics";
+
+function readTrack(): string | undefined {
+  try {
+    const value = window.localStorage.getItem("bd.track");
+    return value === "curious" || value === "new" || value === "muslim" ? value : undefined;
+  } catch {
+    return undefined;
+  }
+}
 
 export default function RegisterPage() {
   const t = useTranslations("auth");
@@ -25,6 +36,10 @@ export default function RegisterPage() {
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
   const [signedIn, setSignedIn] = useState(false);
+  const [website, setWebsite] = useState("");
+  const [token, setToken] = useState<string | null>(null);
+  const [resetKey, setResetKey] = useState(0);
+  const startedAt = useFormStart();
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -35,13 +50,23 @@ export default function RegisterPage() {
       const res = await fetch("/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, password, locale }),
+        body: JSON.stringify({
+          name,
+          email,
+          password,
+          locale,
+          track: readTrack(),
+          website,
+          formStartedAt: startedAt.read(),
+          turnstileToken: token,
+        }),
       });
 
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
         setError(t(`errors.${authErrorKey(data.code, res.status)}`));
         setLoading(false);
+        setResetKey((n) => n + 1);
         return;
       }
 
@@ -90,6 +115,7 @@ export default function RegisterPage() {
       <AuthDivider />
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+        <Honeypot value={website} onChange={setWebsite} />
         <TextField
           label={t("name")}
           type="text"
@@ -138,9 +164,11 @@ export default function RegisterPage() {
           })}
         </p>
 
+        <Turnstile onToken={setToken} resetKey={resetKey} />
+
         {error ? <Notice tone="error">{error}</Notice> : null}
 
-        <Button type="submit" size="lg" fullWidth loading={loading}>
+        <Button type="submit" size="lg" fullWidth loading={loading} disabled={turnstileEnabled && !token}>
           {t("signUp")}
         </Button>
       </form>

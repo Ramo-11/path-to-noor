@@ -1,0 +1,56 @@
+{
+  "question": "Where are you today?",
+  "curious": {
+    "title": "Curious about Islam",
+    "line": "Simple answers to what Muslims believe and why.",
+    "seeAll": "See the whole path"
+  },
+  "new": {
+    "title": "New to Islam",
+    "line": "I took my shahada recently. Show me where to begin.",
+    "seeAll": "Find your starting point"
+  },
+  "muslim": {
+    "title": "Muslim, and want to learn more",
+    "line": "Go deeper, or learn to walk with someone new.",
+    "seeAll": "See both paths"
+  },
+  "changeWhere": "Change where you are",
+  "notYou": "Not quite you?",
+  "changeAction": "Change",
+  "changeError": "We could not change that right now. Please try again.",
+  "ask": "Have a question? Ask us",
+  "action": {
+    "start": "Start the first lesson",
+    "continue": "Continue",
+    "review": "Look back over the path"
+  },
+  "outline": {
+    "title": "What you will learn",
+    "counts": "{steps}, {lessons}",
+    "seePath": "See the whole path",
+    "current": "You are here: {status}",
+    "outcomes": "By the end you will be able to"
+  },
+  "preparing": {
+    "title": "This path is being prepared",
+    "sectionTitle": "Paths here are being prepared",
+    "body": "It will be ready soon. Until then, the Library is open for anything you want to learn.",
+    "library": "Open the Library",
+    "ask": "Have a question? Ask us"
+  },
+  "curiousPage": {
+    "metaTitle": "Curious about Islam",
+    "metaDescription": "Short, honest answers about what Muslims believe and why. Free lessons in English, Arabic, and Spanish.",
+    "lead": "Short, honest answers about what Muslims believe and why."
+  },
+  "muslimPage": {
+    "metaTitle": "Learn more about Islam",
+    "metaDescription": "Grow deeper in your faith, or learn to walk beside someone who is new to Islam. Free lessons in English, Arabic, and Spanish.",
+    "lead": "Grow in your own faith, or learn to walk beside someone new.",
+    "recommended": "Recommended",
+    "deeperTitle": "Growing Deeper in Faith",
+    "walkTitle": "Walk with a new Muslim",
+    "volunteer": "Volunteer as a mentor"
+  }
+}

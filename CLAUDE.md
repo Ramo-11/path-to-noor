@@ -1,7 +1,7 @@
 # Basmet Dawah
 
 ## About
-Trilingual (English/Arabic/Spanish) guided learning platform for new Muslims. Structured learning paths, topic-based browsing, lessons with TipTap rich content, quizzes, progress tracking, revert stories, mentorship matching, and full RTL support.
+Trilingual (English/Arabic/Spanish) guided learning platform for three audiences: people curious about Islam, new Muslims, and Muslims who want to learn more. Structured learning paths, topic-based browsing, lessons with TipTap rich content, quizzes, progress tracking, revert stories, mentorship matching, and full RTL support.
 
 ## Tech Stack
 - Next.js 16, TypeScript, Tailwind CSS v4, motion
@@ -45,14 +45,15 @@ Public routes allow unauthenticated browsing. Auth required for progress, bookma
 - `src/i18n/` (routing.ts, request.ts, navigation.ts), `src/messages/`, `src/proxy.ts` (Next 16 name for middleware)
 
 ## Data Models
-- **User**: role, preferredLanguage, progress [{lessonId, completedAt}], bookmarks, optional `placement { stage, answers, takenAt }` from the level check
+- **User**: role, preferredLanguage, progress [{lessonId, completedAt}], bookmarks, optional `placement { stage, answers, takenAt }` from the level check, optional `track` (`curious|new|muslim`), `userType` (`revert|mentor`; mentor only through an approved volunteer application)
 - **Topic**: hierarchical (parent self-ref), name/desc per-locale, slug, icon, order
 - **Module**: title/desc per-locale, topics [ref], lessons [{lessonId, order}]
 - **Lesson**: title/content per-locale (TipTap JSON as Mixed), type (article/video/quiz), estimatedMinutes
-- **LearningPath**: title/desc per-locale, `stage` (`beginning|foundations|deeper`), `order` within stage, `outcomes[]` per-locale, modules [{moduleId, order}]
+- **LearningPath**: title/desc per-locale, `tracks[]` (default `["new"]`), `stage` (`beginning|foundations|deeper`, only for paths in the `new` track), `order`, `outcomes[]` per-locale, modules [{moduleId, order}]
 - **Quiz**: per-lesson, questions with per-locale text + options + explanations
 - **Story**: revert story for the public site; personName/title/excerpt/content per-locale, optional video (youtube/upload), featured/published/order
 - **MentorRequest**: revertId (User ref), optional mentorId, status (pending/assigned/rejected), message, adminNote
+- **MentorApplication**: a Muslim volunteering as a mentor; status pending/approved/declined, approve sets `userType: "mentor"`
 
 ## Project-Specific Pitfalls
 - **next-intl**: Import Link from `@/i18n/navigation`, not `next/link`, in public pages
@@ -65,10 +66,12 @@ Public routes allow unauthenticated browsing. Auth required for progress, bookma
 
 ## Learner Experience
 - Vocabulary shown to learners: Paths have Steps (the `Module` model) which have Lessons; Library (the `Topic` model); Knowledge check (the `Quiz` model); Saved (bookmarks); My journey (`/journey`); Talk to a mentor (`/mentor`). Old routes redirect in `next.config.ts`.
+- Tracks (Omar, 2026-10-24): the home asks "Where are you today?" with three cards and nothing else in the hero. `curious` -> `/curious` (path `discover-islam`), `new` -> the level check `/start`, `muslim` -> `/muslim` (`growing-deeper`, `walk-with-a-new-muslim`, and the volunteer form `/mentor/volunteer`). Definitions in `src/lib/tracks.ts`; guests keep the choice in localStorage `bd.track`, `TrackSync` copies it to the account. Stage chips and stage colors show only on staged paths.
+- Public forms (register, contact, forgot password) go through `src/lib/bot-guard.ts`: honeypot, minimum fill time, and Cloudflare Turnstile when `TURNSTILE_SECRET_KEY` and `NEXT_PUBLIC_TURNSTILE_SITE_KEY` are both set.
 - Level check at `/start`: scoring in `src/lib/placement.ts` (the server recomputes on save); guests keep the result in localStorage (`bd.placement`), `PlacementSync` copies it to the account after sign-in.
 - Path outlines, recommendations, and learner state: `src/lib/learning.ts` (server) and `src/lib/learning-types.ts` (client-safe types plus `pickRecommendedPath`).
 - Lesson content renders on the server through `src/components/lesson/LessonContent.tsx`; interactive blocks (`phraseCard`, `stepList`, `quickCheck`, `keyPoint`, plus the visual blocks `breakdown`, `compare`, `flow`, `timeline`, `facts`, `scenario`, and the collapsible `more`) are defined in `src/lib/lesson-blocks.ts`, rendered from `src/components/lesson/blocks/`, and edited in the admin TipTap editor. Lesson JSON shapes are checked by the importer.
-- Audio: `phrase.audio` (and `breakdown.audio`) holds one path or a list played in order. Quran recitation is Mishary Alafasy from everyayah.com at `public/audio/quran/SSSAAA.mp3`, only on cards holding complete ayahs. Other phrases are ElevenLabs voice Chaouki (`eleven_v3`, Arabic) at `public/audio/phrases/<lesson-slug>-<n>.mp3`, each checked by transcribing it back. Partial Quran verses get no audio (no AI voice on Quran). `--strict-audio` on the importer fails on a missing file. New phrase audio: load the ElevenLabs key (`~/codespace/sahab/.secrets/elevenlabs.env`), then `python3 scripts/lesson-audio.py list`, `quran` (downloads recitation), and `generate <paths to skip>` (skip partial Quran verses), which writes the files and the `audio` fields and prints a transcription match score per clip.
+- Audio: `phrase.audio` (and `breakdown.audio`) holds one path or a list played in order. Quran recitation is Mishary Alafasy from everyayah.com at `public/audio/quran/SSSAAA.mp3`, only on cards holding complete ayahs. Other phrases are ElevenLabs voice Chaouki (`eleven_v3`, Arabic) at `public/audio/phrases/<lesson-slug>-<n>.mp3`, each checked by transcribing it back. Partial Quran verses get no audio (no AI voice on Quran). `--strict-audio` on the importer fails on a missing file. New phrase audio: load the ElevenLabs key (`~/codespace/sahab/.secrets/elevenlabs.env`), then `python3 scripts/lesson-audio.py list`, `quran` (downloads recitation), and `generate <paths to skip>` (skip partial Quran verses), which writes the files and the `audio` fields and prints a transcription match score per clip. Set Quran recitation `audio` fields by hand before `list`, since clip numbers shift; zsh does not split an unquoted `$var`, so pass skip paths as separate arguments or every listed phrase gets AI voice.
 - `npm run migrate:stages` maps legacy `difficulty` to `stage`; run once per database.
 
 ## Design System

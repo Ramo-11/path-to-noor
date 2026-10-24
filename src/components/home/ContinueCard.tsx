@@ -2,9 +2,9 @@ import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { Illustration } from "@/components/primer/Illustration";
-import { ProgressCells } from "@/components/primer/ProgressCells";
+import { PathProgress } from "@/components/paths/PathProgress";
 import { StageChip } from "@/components/primer/StageChip";
-import { pathArt } from "@/lib/illustrations";
+import { pathArtFor } from "@/lib/path-tone";
 import type { PathView } from "@/components/placement/recommendations";
 
 interface ContinueCardProps {
@@ -23,8 +23,10 @@ export function ContinueCard({ path, actionLabel, meta, note }: ContinueCardProp
   return (
     <article aria-labelledby="home-continue-title" className="card overflow-hidden shadow-lift">
       <div className="relative aspect-[16/8] overflow-hidden">
-        <StageChip stage={path.stage} className="absolute start-3 top-3 shadow-soft z-10" />
-        <Illustration name={pathArt(path.slug, path.stage)} sizes="(min-width: 1024px) 540px, 100vw" priority />
+        {path.stage ? (
+          <StageChip stage={path.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+        ) : null}
+        <Illustration name={pathArtFor(path.slug, path.stage)} sizes="(min-width: 1024px) 540px, 100vw" priority />
       </div>
       <div className="p-6 sm:p-8">
         <h2 id="home-continue-title" className="text-heading font-semibold text-balance">
@@ -37,7 +39,7 @@ export function ContinueCard({ path, actionLabel, meta, note }: ContinueCardProp
             path: path.title,
           })}
         </p>
-        <ProgressCells
+        <PathProgress
           done={path.completedLessons}
           total={path.totalLessons}
           stage={path.stage}

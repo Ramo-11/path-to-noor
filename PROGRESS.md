@@ -2,7 +2,7 @@
 
 Trilingual (EN/AR/ES) guided learning platform for new Muslims. Runs on Render. Learner-facing name is Basmet Dawah.
 
-Snapshot: 2026-10-18.
+Snapshot: 2026-10-24.
 
 ## Done
 
@@ -49,6 +49,17 @@ Why: Omar found the ink-on-white primer text heavy and depressing in light mode.
 - (done) Verified on a throwaway local database: every lesson in EN/AR/ES, auth, account, learning, admin, and phone layouts.
 - (pending) Push, then import the new lessons into production (`NODE_ENV=production npm run import:content -- --strict-audio`) right after the deploy, since the old code cannot render the new blocks.
 - (pending) A native Arabic speaker listens to the AI phrase audio once; scholar points in `docs/content-review.md`.
+
+## Three tracks (2026-10-24)
+Decision (Omar, 2026-10-24): the site serves three audiences, chosen with one question on the home page: curious about Islam, new to Islam, Muslim and want to learn more. Replaces the earlier "new Muslims only" decision.
+- (done) Home chooser, `/curious`, `/muslim`, track-aware nav, journey, paths, and onboarding; stage chips only on staged paths.
+- (done) Lessons: "Discover Islam" (9) and "Walk with a new Muslim" (6) in EN/AR/ES, independently re-checked; scholar points in `docs/content-review.md`.
+- (done) Volunteer mentor applications with admin approval; admin badge, attention card, and emails for mentor requests and applications.
+- (done) Spam protection on register, contact, and forgot password; admin Users shows unverified accounts with a bulk delete.
+- (done) Verified on a throwaway local database, desktop and phone, EN/AR/ES, light and dark.
+- (pending) Push, then `NODE_ENV=production npm run import:content -- --strict-audio` right after the deploy.
+- (pending) Omar: Turnstile site in Cloudflare, both keys in Render, redeploy. Then clear the existing spam accounts with the Users page bulk delete.
+- (pending) Legal pages still describe the site as for new Muslims.
 
 ## Content rules (Omar, 2026-09-24)
 

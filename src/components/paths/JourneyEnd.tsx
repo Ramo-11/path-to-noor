@@ -2,12 +2,12 @@ import { ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/primer/Button";
 import { Illustration } from "@/components/primer/Illustration";
-import { ProgressCells } from "@/components/primer/ProgressCells";
+import { PathProgress } from "@/components/paths/PathProgress";
 import { STAGES, type StageKey } from "@/lib/stages";
 
 interface JourneyEndProps {
   complete: boolean;
-  stage: StageKey;
+  stage: StageKey | null;
   title: string;
   totalLessons: number;
 }
@@ -16,7 +16,7 @@ export async function JourneyEnd({ complete, stage, title, totalLessons }: Journ
   const t = await getTranslations("paths");
   const tl = await getTranslations("learning");
   const ts = await getTranslations("stages");
-  const nextStage = STAGES[STAGES.indexOf(stage) + 1];
+  const nextStage = stage ? STAGES[STAGES.indexOf(stage) + 1] : undefined;
 
   return (
     <div className="grid grid-cols-[2.75rem_minmax(0,1fr)] gap-x-3 pt-16 sm:grid-cols-[5rem_minmax(0,1fr)] sm:gap-x-8 sm:pt-20">
@@ -30,7 +30,7 @@ export async function JourneyEnd({ complete, stage, title, totalLessons }: Journ
               <Illustration name="sprout" sizes="96px" />
             </div>
             <div className="min-w-0 flex-1">
-              <ProgressCells
+              <PathProgress
                 done={totalLessons}
                 total={totalLessons}
                 stage={stage}

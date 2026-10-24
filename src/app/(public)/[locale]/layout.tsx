@@ -7,6 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
 import { OnboardingRedirect } from "@/components/shared/OnboardingRedirect";
 import { PlacementSync } from "@/components/placement/PlacementSync";
+import { TrackSync } from "@/components/tracks/TrackSync";
 import { VerifyEmailBanner } from "@/components/auth/VerifyEmailBanner";
 import { SiteShell } from "@/components/layout/SiteShell";
 import { getSiteUrl } from "@/config/env";
@@ -27,7 +28,7 @@ const amiri = Amiri({
 });
 
 const siteDescription =
-  "A free, guided path for new Muslims. Find your starting point and learn step by step, in English, Arabic, and Spanish.";
+  "Learn Islam one clear step at a time. Free, short lessons for anyone curious, anyone new to Islam, and Muslims who want to learn more, in English, Arabic, and Spanish.";
 
 export const metadata: Metadata = {
   title: {
@@ -125,6 +126,7 @@ export default async function LocaleLayout({
         <SessionProvider>
           <NextIntlClientProvider messages={messages}>
             <PlacementSync />
+            <TrackSync />
             <OnboardingRedirect />
             <VerifyEmailBanner />
             <SiteShell>{children}</SiteShell>

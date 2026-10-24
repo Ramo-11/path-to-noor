@@ -14,23 +14,26 @@ export async function POST(request: NextRequest) {
     const body = await request.json().catch(() => null);
     const parsed = setUserTypeSchema.safeParse(body);
     if (!parsed.success) {
+      return NextResponse.json({ error: "Invalid user type" }, { status: 400 });
+    }
+
+    if (parsed.data.userType !== "revert") {
       return NextResponse.json(
-        { error: "Invalid user type" },
-        { status: 400 }
+        { error: "Mentors join by applying to volunteer." },
+        { status: 403 }
       );
     }
 
     await connectDB();
-    await User.findByIdAndUpdate(session.user.id, {
-      userType: parsed.data.userType,
-    });
+    await User.updateOne(
+      { _id: session.user.id, userType: null },
+      { $set: { userType: "revert" } },
+      { runValidators: true }
+    );
 
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("[API] POST /auth/set-user-type error:", error);
-    return NextResponse.json(
-      { error: "Failed to update user type" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to update user type" }, { status: 500 });
   }
 }

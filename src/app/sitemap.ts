@@ -4,7 +4,7 @@ import { connectDB } from "@/db/connection";
 import { Lesson } from "@/db/models/Lesson";
 import { getPublicTopics, getPublicLearningPaths } from "@/lib/data";
 
-const STATIC_ROUTES = ["", "/start", "/paths", "/library", "/mentor", "/contact", "/privacy", "/terms"];
+const STATIC_ROUTES = ["", "/curious", "/start", "/muslim", "/paths", "/library", "/mentor", "/contact", "/privacy", "/terms"];
 const LOCALES = ["en", "ar", "es"] as const;
 
 export const revalidate = 3600;

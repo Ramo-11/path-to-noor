@@ -7,8 +7,8 @@ import { connectDB } from "@/db/connection";
 import { Module } from "@/db/models/Module";
 import { User } from "@/db/models/User";
 import "@/db/models/Lesson";
+import { TrackPrimaryLink } from "@/components/tracks/TrackPrimaryLink";
 import { PageBanner } from "@/components/primer/PageBanner";
-import { Button } from "@/components/primer/Button";
 import { LibraryBrowser, type LibrarySubjectCard } from "@/components/library/LibraryBrowser";
 
 interface ModuleAudienceContext {
@@ -107,9 +107,7 @@ export default async function LibraryPage({
   return (
     <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
       <PageBanner title={t("title")} lead={t("lead")} art="lib-pillars" tone="dawn">
-        <Button href="/start" variant="quiet">
-          {t("findStart")}
-        </Button>
+        <TrackPrimaryLink />
       </PageBanner>
       <div className="pt-10 pb-16 sm:pt-12 sm:pb-24">
         <LibraryBrowser subjects={subjects} signedIn={Boolean(session?.user)} />

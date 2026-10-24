@@ -5,7 +5,8 @@ import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { track } from "@/lib/analytics";
-import { STAGE_STYLES, type StageKey } from "@/lib/stages";
+import { type StageKey } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 
 type SaveStatus = "idle" | "saving" | "error";
 
@@ -82,14 +83,14 @@ export function useLessonProgress(): LessonProgressValue {
 interface StepCellsProps {
   cells: Array<{ id: string; completed: boolean }>;
   currentId: string;
-  stage: StageKey;
+  stage: StageKey | null;
   className?: string;
 }
 
 export function StepCells({ cells, currentId, stage, className = "" }: StepCellsProps) {
   const t = useTranslations("lesson");
   const { done, justDone } = useLessonProgress();
-  const style = STAGE_STYLES[stage];
+  const style = toneStyle(stage);
   const total = cells.length;
   const filledCount = cells.filter((cell) => (cell.id === currentId ? done : cell.completed)).length;
   const segmented = total <= 24;

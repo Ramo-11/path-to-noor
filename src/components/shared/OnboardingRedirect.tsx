@@ -23,6 +23,7 @@ export function OnboardingRedirect() {
   const hasUser = Boolean(session?.user);
   const role = session?.user?.role;
   const userType = session?.user?.userType;
+  const track = session?.user?.track;
 
   useEffect(() => {
     if (status !== "authenticated") return;
@@ -35,11 +36,11 @@ export function OnboardingRedirect() {
       return;
     }
 
-    if (!userType && !redirectingRef.current) {
+    if (!userType && !track && !redirectingRef.current) {
       redirectingRef.current = true;
       router.replace("/onboarding");
     }
-  }, [status, hasUser, userType, role, pathname, router]);
+  }, [status, hasUser, userType, track, role, pathname, router]);
 
   return null;
 }

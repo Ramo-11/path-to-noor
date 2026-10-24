@@ -7,7 +7,8 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { Notice } from "@/components/primer/Notice";
 import { Illustration } from "@/components/primer/Illustration";
-import { STAGE_STYLES, type StageKey } from "@/lib/stages";
+import type { StageKey } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 import { StepCells, useLessonProgress } from "./LessonProgress";
 
 export interface FinishLesson {
@@ -99,7 +100,7 @@ export function LessonFinish({
   const milestoneId = useId();
   const doneHeading = useRef<HTMLHeadingElement>(null);
   const { done, justDone, status, markDone } = useLessonProgress();
-  const style = stage ? STAGE_STYLES[stage] : null;
+  const style = path ? toneStyle(stage) : null;
   const panelTint = style ? style.tint : "bg-stage1-tint";
 
   useEffect(() => {
@@ -212,7 +213,7 @@ export function LessonFinish({
           </span>
           {justDone ? t("doneTitle") : t("alreadyDone")}
         </h2>
-        {stage && cells.length > 0 ? (
+        {path && cells.length > 0 ? (
           <div className="mt-6">
             <p className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-meta">
               <span className="font-medium text-ink">{stepLine}</span>

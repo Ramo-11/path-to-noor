@@ -376,6 +376,153 @@ export async function sendMenteeNotificationEmail(
   }
 }
 
+const SITE_URL = "https://basmetdawah.org";
+
+function adminShell(title: string, rows: Array<[string, string]>, body: { label: string; text: string } | null, buttonLabel: string, url: string): string {
+  const rowHtml = rows
+    .map(
+      ([k, v]) => `
+          <tr>
+            <td style="color: #94a3b8; font-size: 13px; padding: 8px 0; vertical-align: top; width: 110px;">${escapeHtml(k)}</td>
+            <td style="color: #1e293b; font-size: 15px; padding: 8px 0;">${escapeHtml(v).replace(/\n/g, "<br>")}</td>
+          </tr>`
+    )
+    .join("");
+  const bodyHtml = body
+    ? `<div style="border-top: 1px solid #e2e8f0; padding-top: 20px;">
+          <p style="color: #94a3b8; font-size: 13px; margin: 0 0 8px;">${escapeHtml(body.label)}</p>
+          <p style="color: #475569; font-size: 15px; line-height: 1.6; margin: 0;">${escapeHtml(body.text).replace(/\n/g, "<br>")}</p>
+        </div>`
+    : "";
+  return `
+    <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 560px; margin: 0 auto; padding: 40px 20px;">
+      <div style="text-align: center; margin-bottom: 32px;">
+        <h1 style="color: #1E3A5F; font-size: 24px; margin: 0;">Basmet Dawah</h1>
+      </div>
+      <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px;">
+        <h2 style="color: #1e293b; font-size: 20px; margin: 0 0 16px;">${escapeHtml(title)}</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">${rowHtml}
+        </table>
+        ${bodyHtml}
+        <div style="text-align: center; margin: 32px 0 0;">
+          <a href="${escapeHtml(url)}" style="display: inline-block; background: #1E3A5F; color: #ffffff; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 15px;">
+            ${escapeHtml(buttonLabel)}
+          </a>
+        </div>
+      </div>
+      <p style="color: #94a3b8; font-size: 12px; text-align: center; margin-top: 24px;">
+        Basmet Dawah | Admin notice
+      </p>
+    </div>
+  `;
+}
+
+async function sendAdminNotice(label: string, subject: string, html: string): Promise<void> {
+  const resend = getResend();
+  if (!resend) {
+    console.warn(`[Email] Resend not configured. ${label}`);
+    return;
+  }
+  const { error } = await resend.emails.send({
+    from: fromAddress(),
+    to: "admin@basmetdawah.org",
+    subject,
+    html,
+  });
+  if (error) {
+    console.error(`[Email] Failed to send ${label}:`, error);
+  }
+}
+
+export async function sendAdminMentorRequestEmail(data: {
+  name: string;
+  email: string;
+  message?: string;
+}): Promise<void> {
+  try {
+    const html = adminShell(
+      "New mentor request",
+      [
+        ["From", data.name],
+        ["Email", data.email],
+      ],
+      data.message ? { label: "Message", text: data.message } : null,
+      "Open Mentorship",
+      `${SITE_URL}/admin/mentorship`
+    );
+    await sendAdminNotice("mentor request notice", "New mentor request | Basmet Dawah", html);
+  } catch (error) {
+    console.error("[Email] Mentor request notice failed:", error);
+  }
+}
+
+export async function sendAdminVolunteerEmail(data: {
+  name: string;
+  email: string;
+  gender: string;
+  languages: string;
+  availability: string;
+  about: string;
+}): Promise<void> {
+  try {
+    const html = adminShell(
+      "New volunteer mentor application",
+      [
+        ["From", data.name],
+        ["Email", data.email],
+        ["Gender", data.gender],
+        ["Languages", data.languages],
+        ["Availability", data.availability],
+      ],
+      { label: "Why they want to help", text: data.about },
+      "Review applications",
+      `${SITE_URL}/admin/mentorship`
+    );
+    await sendAdminNotice("volunteer application notice", "New volunteer mentor application | Basmet Dawah", html);
+  } catch (error) {
+    console.error("[Email] Volunteer notice failed:", error);
+  }
+}
+
+export async function sendMentorApprovedEmail(to: string, name: string, locale?: string): Promise<void> {
+  const l = asLocale(locale);
+  const text = {
+    en: {
+      subject: "You are now a mentor | Basmet Dawah",
+      title: "You are now a mentor",
+      body: "Thank you for offering your time. Your application is approved. When we match a new Muslim with you, we will email you and they will appear on your mentor page.",
+      button: "Open mentor page",
+    },
+    ar: {
+      subject: "أصبحت مرشدًا | بسمة دعوة",
+      title: "أصبحت مرشدًا",
+      body: "شكرًا لبذل وقتك. تمت الموافقة على طلبك. عندما نربطك بمسلم جديد سنراسلك وسيظهر في صفحة المرشد الخاصة بك.",
+      button: "فتح صفحة المرشد",
+    },
+    es: {
+      subject: "Ya eres mentor | Basmet Dawah",
+      title: "Ya eres mentor",
+      body: "Gracias por ofrecer tu tiempo. Tu solicitud fue aprobada. Cuando asignemos a un nuevo musulmán contigo, te escribiremos y aparecerá en tu página de mentor.",
+      button: "Abrir página de mentor",
+    },
+  }[l];
+  const html = actionEmail(
+    l,
+    { title: text.title, body: text.body, button: text.button, ignore: "" },
+    name,
+    `${SITE_URL}/${l}/mentor`
+  );
+  const resend = getResend();
+  if (!resend) {
+    console.warn("[Email] Resend not configured. Mentor approved email to:", to);
+    return;
+  }
+  const { error } = await resend.emails.send({ from: fromAddress(), to, subject: text.subject, html });
+  if (error) {
+    console.error("[Email] Failed to send mentor approved email:", error);
+  }
+}
+
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, "&amp;")

@@ -1,0 +1,56 @@
+{
+  "question": "¿Dónde estás hoy?",
+  "curious": {
+    "title": "Siento curiosidad por el islam",
+    "line": "Respuestas sencillas sobre lo que creen los musulmanes y por qué.",
+    "seeAll": "Ver el camino completo"
+  },
+  "new": {
+    "title": "Soy nuevo en el islam",
+    "line": "Pronuncié mi shahada hace poco. Muéstrame por dónde empezar.",
+    "seeAll": "Encuentra tu punto de partida"
+  },
+  "muslim": {
+    "title": "Soy musulmán y quiero aprender más",
+    "line": "Profundiza, o aprende a acompañar a alguien nuevo.",
+    "seeAll": "Ver los dos caminos"
+  },
+  "changeWhere": "Cambiar dónde estás",
+  "notYou": "¿No es tu caso?",
+  "changeAction": "Cambiar",
+  "changeError": "No pudimos hacer el cambio ahora. Inténtalo de nuevo.",
+  "ask": "¿Tienes una pregunta? Escríbenos",
+  "action": {
+    "start": "Empezar la primera lección",
+    "continue": "Continuar",
+    "review": "Repasar el camino"
+  },
+  "outline": {
+    "title": "Lo que vas a aprender",
+    "counts": "{steps}, {lessons}",
+    "seePath": "Ver el camino completo",
+    "current": "Estás aquí: {status}",
+    "outcomes": "Al terminar podrás"
+  },
+  "preparing": {
+    "title": "Este camino está en preparación",
+    "sectionTitle": "Los caminos de esta sección están en preparación",
+    "body": "Estará listo pronto. Mientras tanto, la Biblioteca está abierta para lo que quieras aprender.",
+    "library": "Abrir la Biblioteca",
+    "ask": "¿Tienes una pregunta? Escríbenos"
+  },
+  "curiousPage": {
+    "metaTitle": "Curiosidad por el islam",
+    "metaDescription": "Respuestas breves y honestas sobre lo que creen los musulmanes y por qué. Lecciones gratuitas en español, inglés y árabe.",
+    "lead": "Respuestas breves y honestas sobre lo que creen los musulmanes y por qué."
+  },
+  "muslimPage": {
+    "metaTitle": "Aprende más sobre el islam",
+    "metaDescription": "Profundiza en tu fe, o aprende a acompañar a alguien que acaba de abrazar el islam. Lecciones gratuitas en español, inglés y árabe.",
+    "lead": "Crece en tu propia fe, o aprende a acompañar a alguien nuevo.",
+    "recommended": "Recomendado",
+    "deeperTitle": "Profundizar en la fe",
+    "walkTitle": "Acompaña a un nuevo musulmán",
+    "volunteer": "Hazte mentor voluntario"
+  }
+}

@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import { AdminPageHeader } from "@/components/admin/AdminPageHeader";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
+import { VolunteersTab } from "./VolunteersTab";
 
 interface MentorOption {
   _id: string;
@@ -78,7 +79,8 @@ const statusConfig = {
 };
 
 export default function MentorshipPage() {
-  const [tab, setTab] = useState<"requests" | "assignments">("requests");
+  const [tab, setTab] = useState<"requests" | "assignments" | "volunteers">("requests");
+  const [pendingVolunteers, setPendingVolunteers] = useState(0);
   const [requests, setRequests] = useState<MentorRequest[]>([]);
   const [assignments, setAssignments] = useState<MentorAssignment[]>([]);
   const [mentors, setMentors] = useState<MentorOption[]>([]);
@@ -95,8 +97,25 @@ export default function MentorshipPage() {
   const pendingCount = requests.filter((r) => r.status === "pending").length;
 
   useEffect(() => {
-    loadData();
+    const timer = setTimeout(() => {
+      loadData();
+      loadVolunteerCount();
+      if (new URLSearchParams(window.location.search).get("tab") === "volunteers") {
+        setTab("volunteers");
+      }
+    }, 0);
+    return () => clearTimeout(timer);
   }, []);
+
+  async function loadVolunteerCount() {
+    try {
+      const res = await fetch("/api/admin/mentor-applications?status=pending");
+      const json = await res.json();
+      if (Array.isArray(json.data)) setPendingVolunteers(json.data.length);
+    } catch {
+      setPendingVolunteers(0);
+    }
+  }
 
   async function loadData() {
     setLoading(true);
@@ -282,7 +301,31 @@ export default function MentorshipPage() {
         >
           Assignments ({assignments.length})
         </button>
+        <button
+          onClick={() => setTab("volunteers")}
+          className={`px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 ${
+            tab === "volunteers"
+              ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm"
+              : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+          }`}
+        >
+          Volunteers
+          {pendingVolunteers > 0 && (
+            <span className="inline-flex items-center justify-center h-5 min-w-5 px-1.5 rounded-full bg-amber-500 text-white text-xs font-semibold">
+              {pendingVolunteers}
+            </span>
+          )}
+        </button>
       </div>
+
+      {tab === "volunteers" && (
+        <VolunteersTab
+          onChanged={() => {
+            loadVolunteerCount();
+            loadData();
+          }}
+        />
+      )}
 
       {/* Requests Tab */}
       {tab === "requests" && (

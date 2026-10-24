@@ -1,5 +1,6 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
 import { STAGES, type StageKey } from "@/lib/stages";
+import { TRACKS, type TrackKey } from "@/lib/tracks";
 
 export interface IUser extends Document {
   email: string;
@@ -8,6 +9,7 @@ export interface IUser extends Document {
   image?: string;
   role: "super_admin" | "admin" | "user";
   userType?: "revert" | "mentor";
+  track?: TrackKey;
   isActive: boolean;
   preferredLanguage: "en" | "ar" | "es";
   accounts?: Array<{
@@ -65,6 +67,11 @@ const UserSchema = new Schema<IUser>(
     userType: {
       type: String,
       enum: ["revert", "mentor"],
+      default: undefined,
+    },
+    track: {
+      type: String,
+      enum: TRACKS,
       default: undefined,
     },
     isActive: { type: Boolean, default: true },

@@ -41,5 +41,8 @@
   "errorEmailUnverifiedLink": "Go to settings",
   "errorAlreadyRequested": "You already have a mentor request.",
   "errorRevertOnly": "Mentor requests are for new Muslims.",
-  "errorInvalid": "Please check your message and try again."
+  "errorInvalid": "Please check your message and try again.",
+  "volunteerPromptTitle": "Mentoring is for new Muslims",
+  "volunteerPromptBody": "If you are a Muslim and would like to help someone new, you can volunteer as a mentor.",
+  "volunteerLink": "Volunteer as a mentor"
 }

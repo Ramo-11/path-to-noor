@@ -2,9 +2,9 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/primer/Button";
 import { Illustration } from "@/components/primer/Illustration";
 import { Notice } from "@/components/primer/Notice";
-import { ProgressCells } from "@/components/primer/ProgressCells";
+import { PathProgress } from "@/components/paths/PathProgress";
 import { StageChip } from "@/components/primer/StageChip";
-import { pathArt } from "@/lib/illustrations";
+import { pathArtFor } from "@/lib/path-tone";
 import { localized } from "@/lib/stages";
 import type { LearnerState } from "@/lib/learning-types";
 import type { Translate } from "./types";
@@ -31,9 +31,11 @@ export function ContinueBlock({ state, locale, t, tLearning, tStages }: Continue
     return (
       <article className="card flex h-full flex-col overflow-hidden shadow-lift">
         <div className="relative aspect-[16/8] overflow-hidden">
-          <StageChip stage={currentPath.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+          {currentPath.stage ? (
+            <StageChip stage={currentPath.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+          ) : null}
           <Illustration
-            name={pathArt(currentPath.slug, currentPath.stage)}
+            name={pathArtFor(currentPath.slug, currentPath.stage)}
             sizes="(min-width: 1024px) 540px, 100vw"
             priority
           />
@@ -50,7 +52,7 @@ export function ContinueBlock({ state, locale, t, tLearning, tStages }: Continue
             })}
           </p>
           <div className="mt-auto pt-6">
-            <ProgressCells
+            <PathProgress
               done={currentPath.completedLessons}
               total={currentPath.totalLessons}
               stage={currentPath.stage}
@@ -71,9 +73,11 @@ export function ContinueBlock({ state, locale, t, tLearning, tStages }: Continue
     return (
       <article className="card flex h-full flex-col overflow-hidden shadow-lift">
         <div className="relative aspect-[16/8] overflow-hidden">
-          <StageChip stage={recommendedPath.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+          {recommendedPath.stage ? (
+            <StageChip stage={recommendedPath.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+          ) : null}
           <Illustration
-            name={pathArt(recommendedPath.slug, recommendedPath.stage)}
+            name={pathArtFor(recommendedPath.slug, recommendedPath.stage)}
             sizes="(min-width: 1024px) 540px, 100vw"
           />
         </div>

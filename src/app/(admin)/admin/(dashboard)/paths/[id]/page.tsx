@@ -6,13 +6,9 @@ import { ArrowLeft, GripVertical, X } from "lucide-react";
 import Link from "next/link";
 import { ImageUpload } from "@/components/admin/ImageUpload";
 import { OutcomesEditor, type OutcomeRow } from "@/components/admin/OutcomesEditor";
-import { STAGES, STAGE_NUMBER, type StageKey } from "@/lib/stages";
-
-const STAGE_LABELS: Record<StageKey, string> = {
-  beginning: "Just beginning",
-  foundations: "Building the basics",
-  deeper: "Growing deeper",
-};
+import { isStageKey, type StageKey } from "@/lib/stages";
+import { normalizeTracks, type TrackKey } from "@/lib/tracks";
+import { TrackStageFields } from "../TrackStageFields";
 
 interface ModuleOption {
   _id: string;
@@ -34,6 +30,7 @@ export default function EditPathPage({
   const [selectedModuleIds, setSelectedModuleIds] = useState<string[]>([]);
   const [dragIndex, setDragIndex] = useState<number | null>(null);
   const [outcomes, setOutcomes] = useState<OutcomeRow[]>([]);
+  const [tracks, setTracks] = useState<TrackKey[]>(["new"]);
   const [form, setForm] = useState({
     titleEn: "",
     titleAr: "",
@@ -66,13 +63,14 @@ export default function EditPathPage({
             descriptionAr: p.description?.ar || "",
             descriptionEs: p.description?.es || "",
             thumbnail: p.thumbnail || "",
-            stage: p.stage || "beginning",
+            stage: isStageKey(p.stage) ? p.stage : "beginning",
             order: p.order || 1,
             estimatedHours: p.estimatedHours || 1,
             audience: p.audience || "all",
             guestAccessible: p.guestAccessible ?? true,
             published: p.published || false,
           });
+          setTracks(normalizeTracks(p.tracks));
           setOutcomes(
             (p.outcomes || []).map((o: { en?: string; ar?: string; es?: string }) => ({
               en: o.en || "",
@@ -146,6 +144,10 @@ export default function EditPathPage({
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setError("");
+    if (tracks.length === 0) {
+      setError("Choose at least one track.");
+      return;
+    }
     setLoading(true);
 
     try {
@@ -156,7 +158,8 @@ export default function EditPathPage({
           title: { en: form.titleEn, ar: form.titleAr, es: form.titleEs },
           description: { en: form.descriptionEn, ar: form.descriptionAr, es: form.descriptionEs },
           thumbnail: form.thumbnail || undefined,
-          stage: form.stage,
+          tracks,
+          stage: tracks.includes("new") ? form.stage : undefined,
           order: form.order,
           outcomes,
           estimatedHours: form.estimatedHours,
@@ -301,27 +304,19 @@ export default function EditPathPage({
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div>
-              <label htmlFor="stage" className={labelClass}>
-                Stage
-              </label>
-              <select
-                id="stage"
-                value={form.stage}
-                onChange={(e) => updateField("stage", e.target.value)}
-                className={inputClass}
-              >
-                {STAGES.map((stage) => (
-                  <option key={stage} value={stage}>
-                    Stage {STAGE_NUMBER[stage]}: {STAGE_LABELS[stage]}
-                  </option>
-                ))}
-              </select>
-            </div>
+          <TrackStageFields
+            tracks={tracks}
+            stage={form.stage}
+            onTracksChange={setTracks}
+            onStageChange={(stage) => updateField("stage", stage)}
+            inputClass={inputClass}
+            labelClass={labelClass}
+          />
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="order" className={labelClass}>
-                Order within stage
+                Order
               </label>
               <input
                 id="order"

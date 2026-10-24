@@ -1,11 +1,6 @@
 {
   "title": "Welcome to Basmet Dawah",
-  "lead": "Tell us which one describes you, so we can show you the right path.",
-  "legend": "Which one describes you?",
-  "revertTitle": "I am new to Islam",
-  "revertDescription": "A new Muslim learning the basics.",
-  "mentorTitle": "I want to help as a mentor",
-  "mentorDescription": "An experienced Muslim who volunteers.",
-  "continue": "Continue",
+  "lead": "One quick question, so we can show you the right place to start.",
+  "saving": "Getting things ready for you",
   "errorDefault": "Something went wrong. Please try again."
 }

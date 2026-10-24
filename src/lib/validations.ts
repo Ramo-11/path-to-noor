@@ -313,6 +313,7 @@ export const registerSchema = z.object({
   email: emailSchema,
   password: passwordSchema,
   userType: userTypeSchema.optional(),
+  track: z.enum(["curious", "new", "muslim"]).optional().catch(undefined),
   locale: localeSchema.optional().default("en"),
 });
 
@@ -354,14 +355,17 @@ export const changePasswordSchema = z.object({
   newPassword: passwordSchema,
 });
 
-export const contactSchema = z.object({
-  name: z.string().trim().min(1).max(100),
-  email: emailSchema,
-  subject: z.string().trim().min(1).max(200),
-  message: z.string().trim().min(1).max(5000),
-  website: z.string().optional().default(""),
-  formLoadedAt: z.number().optional(),
-});
+export const CONTACT_TOPICS = ["question", "mentor", "technical", "feedback", "other"] as const;
+
+export const contactSchema = z
+  .object({
+    name: z.string().trim().min(1).max(100),
+    email: emailSchema,
+    topic: z.enum(CONTACT_TOPICS),
+    subject: z.string().trim().max(120).optional().default(""),
+    message: z.string().trim().min(1).max(5000),
+  })
+  .refine((v) => v.topic !== "other" || v.subject.length > 0, { path: ["subject"] });
 
 export const bookmarkSchema = z.object({
   lessonId: objectIdString,

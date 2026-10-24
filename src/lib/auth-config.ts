@@ -5,6 +5,7 @@ import bcrypt from "bcrypt";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { clearRateLimit, rateLimitShared, getClientIp } from "@/lib/rate-limit";
+import { isTrackKey } from "@/lib/tracks";
 
 const LOGIN_WINDOW_MS = 15 * 60 * 1000;
 const LOGIN_MAX_ATTEMPTS_PER_ACCOUNT = 10;
@@ -56,6 +57,7 @@ const providers = [
         email: user.email,
         role: user.role,
         userType: user.userType || undefined,
+        track: user.track || undefined,
         preferredLanguage: user.preferredLanguage,
         emailIsVerified: Boolean(user.emailVerified),
       };
@@ -78,6 +80,7 @@ type FreshUser = {
   role: string;
   isActive: boolean;
   userType?: string;
+  track?: string;
   preferredLanguage: string;
   emailVerified?: Date | null;
 };
@@ -87,12 +90,13 @@ function applyFresh(token: import("next-auth/jwt").JWT, dbUser: FreshUser) {
   token.role = dbUser.role;
   token.isActive = dbUser.isActive;
   token.userType = dbUser.userType || undefined;
+  token.track = isTrackKey(dbUser.track) ? dbUser.track : undefined;
   token.preferredLanguage = dbUser.preferredLanguage;
   token.verified = Boolean(dbUser.emailVerified);
   token.checkedAt = Date.now();
 }
 
-const FRESH_FIELDS = "role isActive userType preferredLanguage emailVerified";
+const FRESH_FIELDS = "role isActive userType track preferredLanguage emailVerified";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   providers,
@@ -126,6 +130,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           token.role = user.role;
           token.id = user.id;
           token.userType = user.userType;
+          token.track = isTrackKey(user.track) ? user.track : undefined;
           token.preferredLanguage = user.preferredLanguage;
           token.verified = Boolean(user.emailIsVerified);
           token.isActive = true;
@@ -138,6 +143,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
       if (trigger === "update") {
         if (session?.userType) token.userType = session.userType;
+        if (session && typeof session === "object" && "track" in session) {
+          token.track = isTrackKey(session.track) ? session.track : undefined;
+        }
         if (session?.preferredLanguage) token.preferredLanguage = session.preferredLanguage;
         token.checkedAt = 0;
       }
@@ -163,6 +171,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         session.user.id = token.id as string;
         session.user.userType = token.userType as string | undefined;
         session.user.preferredLanguage = token.preferredLanguage as string;
+        session.user.track = isTrackKey(token.track) ? token.track : undefined;
         Object.assign(session.user, { emailVerified: Boolean(token.verified) });
       }
       return session;

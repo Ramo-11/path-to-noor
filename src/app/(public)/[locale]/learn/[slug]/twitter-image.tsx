@@ -18,6 +18,6 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
     locale,
     kind: "lesson",
     title: localized(lesson.title, locale),
-    stage: path?.stage,
+    stage: path?.stage ?? undefined,
   });
 }

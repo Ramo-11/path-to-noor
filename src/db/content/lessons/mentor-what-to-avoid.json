@@ -1,0 +1,290 @@
+{
+  "slug": "mentor-what-to-avoid",
+  "minutes": 4,
+  "title": {
+    "en": "What to avoid",
+    "ar": "ما ينبغي تجنّبه",
+    "es": "Qué evitar"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Good intentions can still push someone away. These habits are easy to fall into, especially if you grew up Muslim."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "Do",
+            "items": [
+              "Share one thing at a time",
+              "Say what is a ruling and what is a custom",
+              "Be gentle, and thank them for trying",
+              "Keep what they tell you private"
+            ]
+          },
+          "second": {
+            "title": "Avoid",
+            "items": [
+              "Giving a long list of rules at once",
+              "Presenting culture as religion",
+              "Harsh correction or shaming",
+              "Comparing them to other Muslims",
+              "Gossip about their story"
+            ]
+          }
+        }
+      },
+      {
+        "h": "Culture is not religion"
+      },
+      {
+        "p": "Food, clothes, language, and wedding customs from your family may be lovely, but they are not Islam. A new Muslim can stay who they are."
+      },
+      {
+        "scenario": {
+          "situation": "A mentor is tempted to correct their mentee's clothing.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "I am happy you are learning. Would it help to look at how others approach modest dress, whenever you feel ready?"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Name changes and dress are personal. Do not push them overnight. If they ask, help them ask a scholar."
+      },
+      {
+        "h": "Gentleness decorates"
+      },
+      {
+        "quote": "Verily, lenience is not found in anything but it adorns it, and it is not removed from anything but it makes it defective.",
+        "cite": "Sahih Muslim 2594"
+      },
+      {
+        "quick": {
+          "question": "A new Muslim keeps an old family dish for the holiday. What do you do?",
+          "options": [
+            "Tell them it is not Islamic",
+            "Ask a scholar if there is a real concern, and otherwise let it be",
+            "Compare it to how you celebrate"
+          ],
+          "correct": 1,
+          "explanation": "Food from a culture is not a ruling. Do not treat a custom as religion."
+        }
+      },
+      {
+        "key": "Go slowly, separate culture from religion, and let gentleness lead."
+      }
+    ],
+    "ar": [
+      {
+        "p": "قد تُبعد النية الطيبة صاحبها عن غيره. هذه عادات يسهل الوقوع فيها، خاصة لمن نشأ مسلمًا."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "افعل",
+            "items": [
+              "شارك أمرًا واحدًا في كل مرة",
+              "بيّن ما هو حكم وما هو عادة",
+              "كن لطيفًا واشكره على محاولته",
+              "احفظ ما يخبرك به سرًّا"
+            ]
+          },
+          "second": {
+            "title": "تجنّب",
+            "items": [
+              "إعطاءه قائمة طويلة من الأحكام دفعة واحدة",
+              "تقديم العادات الثقافية على أنها دين",
+              "التصحيح القاسي أو الإحراج",
+              "مقارنته بغيره من المسلمين",
+              "التحدث عن قصته مع الناس"
+            ]
+          }
+        }
+      },
+      {
+        "h": "العادات ليست دينًا"
+      },
+      {
+        "p": "قد تكون عادات أسرتك في الطعام واللباس واللغة والأعراس جميلة، لكنها ليست الإسلام. ويمكن للمسلم الجديد أن يبقى على هويته."
+      },
+      {
+        "scenario": {
+          "situation": "المرشد يريد أن يصحح لباس المسلم الجديد.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "يسعدني أنك تتعلم. هل يفيدك أن ننظر في كيفية التزام الآخرين باللباس المحتشم حين تشعر بالاستعداد؟"
+            }
+          ]
+        }
+      },
+      {
+        "p": "تغيير الاسم واللباس أمران شخصيان. لا تدفعه إليهما بين ليلة وضحاها. وإن سأل فساعده على سؤال عالم."
+      },
+      {
+        "h": "الرفق زينة"
+      },
+      {
+        "quote": "إِنَّ الرِّفْقَ لَا يَكُونُ فِي شَيْءٍ إِلَّا زَانَهُ، وَلَا يُنْزَعُ مِنْ شَيْءٍ إِلَّا شَانَهُ",
+        "cite": "صحيح مسلم 2594"
+      },
+      {
+        "quick": {
+          "question": "مسلم جديد يحتفظ بطبق أسري قديم في المناسبة. ماذا تفعل؟",
+          "options": [
+            "تقول له إنه ليس إسلاميًّا",
+            "تسأل عالمًا إن كان في الأمر إشكال حقيقي وإلا تتركه",
+            "تقارنه بطريقة احتفالك"
+          ],
+          "correct": 1,
+          "explanation": "طعام ثقافة ما ليس حكمًا شرعيًّا، فلا تعامل العادة كأنها دين."
+        }
+      },
+      {
+        "key": "تمهّل، وافصل بين العادة والدين، ودع الرفق يتقدّم."
+      }
+    ],
+    "es": [
+      {
+        "p": "Las buenas intenciones también pueden alejar a alguien. Estos hábitos son fáciles de adoptar, sobre todo si creciste siendo musulmán."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "Haz",
+            "items": [
+              "Comparte una cosa a la vez",
+              "Aclara qué es una norma y qué es una costumbre",
+              "Sé amable y agradéceles por intentarlo",
+              "Guarda en privado lo que te cuentan"
+            ]
+          },
+          "second": {
+            "title": "Evita",
+            "items": [
+              "Dar una lista larga de reglas de golpe",
+              "Presentar la cultura como si fuera religión",
+              "Corregir con dureza o avergonzar",
+              "Compararlos con otros musulmanes",
+              "Chismear sobre su historia"
+            ]
+          }
+        }
+      },
+      {
+        "h": "La cultura no es religión"
+      },
+      {
+        "p": "La comida, la ropa, el idioma y las bodas de tu familia pueden ser hermosos, pero no son el Islam. Un nuevo musulmán puede seguir siendo quien es."
+      },
+      {
+        "scenario": {
+          "situation": "Un mentor siente la tentación de corregir la ropa de su mentoreado.",
+          "lines": [
+            {
+              "from": "you",
+              "text": "Me alegra que estés aprendiendo. ¿Te ayudaría ver cómo otros entienden la vestimenta modesta cuando te sientas listo?"
+            }
+          ]
+        }
+      },
+      {
+        "p": "Cambiar de nombre y de vestimenta son decisiones personales. No los presiones de la noche a la mañana. Si preguntan, ayúdalos a consultar a un erudito."
+      },
+      {
+        "h": "La amabilidad embellece"
+      },
+      {
+        "quote": "Siempre que la amabilidad esté presente en un asunto, lo embellecerá; mientras que, si no está presente, lo deteriorará.",
+        "cite": "Sahih Muslim 2594"
+      },
+      {
+        "quick": {
+          "question": "Un nuevo musulmán sigue cocinando un plato familiar para la fiesta. ¿Qué haces?",
+          "options": [
+            "Les dices que no es islámico",
+            "Consultas a un erudito si hay una preocupación real; si no, lo dejas",
+            "Lo comparas con cómo celebras tú"
+          ],
+          "correct": 1,
+          "explanation": "La comida de una cultura no es una norma religiosa. No trates una costumbre como religión."
+        }
+      },
+      {
+        "key": "Ve despacio, separa cultura de religión y deja que la amabilidad guíe."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih Muslim 2594 (sahih)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5796"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "Which is culture, not religion?",
+        "ar": "أيّ هذه عادة ثقافية لا دين؟",
+        "es": "¿Qué es cultura y no religión?"
+      },
+      "options": [
+        {
+          "en": "Your family's wedding customs",
+          "ar": "عادات الأعراس في أسرتك",
+          "es": "Las costumbres de boda de tu familia"
+        },
+        {
+          "en": "Praying five times a day",
+          "ar": "الصلوات الخمس",
+          "es": "Orar cinco veces al día"
+        },
+        {
+          "en": "Fasting in Ramadan",
+          "ar": "صيام رمضان",
+          "es": "Ayunar en Ramadán"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Prayer and fasting are part of Islam. Family wedding customs are cultural.",
+        "ar": "الصلاة والصيام من الإسلام، أما عادات الأعراس فثقافية.",
+        "es": "La oración y el ayuno son parte del Islam. Las costumbres de boda son culturales."
+      }
+    },
+    {
+      "q": {
+        "en": "A new Muslim makes a mistake. What is best?",
+        "ar": "مسلم جديد أخطأ. ما الأفضل؟",
+        "es": "Un nuevo musulmán comete un error. ¿Qué es mejor?"
+      },
+      "options": [
+        {
+          "en": "Correct them kindly and in private",
+          "ar": "تصحح له بلطف وفي الخفاء",
+          "es": "Corregirlo con amabilidad y en privado"
+        },
+        {
+          "en": "Share it with others so they learn",
+          "ar": "تنشره حتى يتعلم غيره",
+          "es": "Contárselo a otros para que aprendan"
+        },
+        {
+          "en": "Say nothing forever",
+          "ar": "تسكت دائمًا",
+          "es": "No decir nada nunca"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Gentle, private correction protects trust and dignity.",
+        "ar": "التصحيح اللطيف الخفي يحفظ الثقة والكرامة.",
+        "es": "Una corrección amable y privada protege la confianza y la dignidad."
+      }
+    }
+  ]
+}

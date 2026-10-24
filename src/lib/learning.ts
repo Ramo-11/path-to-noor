@@ -5,9 +5,16 @@ import { LearningPath } from "@/db/models/LearningPath";
 import { Lesson } from "@/db/models/Lesson";
 import "@/db/models/Module";
 import { User } from "@/db/models/User";
-import { STAGES, isStageKey, type LocalizedText } from "@/lib/stages";
+import { STAGES, isStageKey, type LocalizedText, type StageKey } from "@/lib/stages";
+import {
+  TRACK_PATH_SLUGS,
+  isTrackKey,
+  normalizeTracks,
+  type TrackKey,
+} from "@/lib/tracks";
 import {
   pickRecommendedPath,
+  pickTrackPath,
   type AudienceContext,
   type LearnerState,
   type LessonOutline,
@@ -15,6 +22,7 @@ import {
   type PlacementSummary,
   type StageGroup,
   type StepOutline,
+  type TrackGroups,
 } from "@/lib/learning-types";
 
 export * from "@/lib/learning-types";
@@ -104,12 +112,20 @@ function buildOutline(path: any, completed: Set<string>): PathOutline {
     }
   }
 
+  const tracks = normalizeTracks(path.tracks);
+  const stage: StageKey | null = tracks.includes("new")
+    ? isStageKey(path.stage)
+      ? path.stage
+      : "beginning"
+    : null;
+
   return {
     id: path._id.toString(),
     slug: path.slug,
     title: toText(path.title),
     description: toText(path.description),
-    stage: isStageKey(path.stage) ? path.stage : "beginning",
+    stage,
+    tracks,
     order: typeof path.order === "number" ? path.order : 1,
     estimatedHours: path.estimatedHours || 0,
     outcomes: Array.isArray(path.outcomes)
@@ -126,10 +142,46 @@ function buildOutline(path: any, completed: Set<string>): PathOutline {
   };
 }
 
+function stageIndex(stage: StageKey | null): number {
+  return stage ? STAGES.indexOf(stage) : STAGES.length;
+}
+
 function sortOutlines(outlines: PathOutline[]): PathOutline[] {
   return [...outlines].sort(
-    (a, b) => STAGES.indexOf(a.stage) - STAGES.indexOf(b.stage) || a.order - b.order
+    (a, b) =>
+      Number(b.stage !== null) - Number(a.stage !== null) ||
+      stageIndex(a.stage) - stageIndex(b.stage) ||
+      a.order - b.order
   );
+}
+
+function bySlugOrder(outlines: PathOutline[], slugs: string[]): PathOutline[] {
+  return [...outlines].sort((a, b) => {
+    const ai = slugs.indexOf(a.slug);
+    const bi = slugs.indexOf(b.slug);
+    return (ai === -1 ? slugs.length : ai) - (bi === -1 ? slugs.length : bi) || a.order - b.order;
+  });
+}
+
+function groupByStage(outlines: PathOutline[]): StageGroup[] {
+  return STAGES.map((stage) => ({
+    stage,
+    paths: outlines.filter((p) => p.stage === stage),
+  }));
+}
+
+export function groupByTrack(outlines: PathOutline[]): TrackGroups {
+  return {
+    curious: bySlugOrder(
+      outlines.filter((p) => p.tracks.includes("curious")),
+      TRACK_PATH_SLUGS.curious
+    ),
+    new: groupByStage(outlines),
+    muslim: bySlugOrder(
+      outlines.filter((p) => p.tracks.includes("muslim")),
+      TRACK_PATH_SLUGS.muslim
+    ),
+  };
 }
 
 export async function getCompletedLessonIds(userId: string | undefined): Promise<Set<string>> {
@@ -154,11 +206,28 @@ export async function getPathsByStage(
   ctx: AudienceContext,
   completed: Set<string> = new Set()
 ): Promise<StageGroup[]> {
-  const outlines = await getPathOutlines(ctx, completed);
-  return STAGES.map((stage) => ({
-    stage,
-    paths: outlines.filter((p) => p.stage === stage),
-  }));
+  return groupByStage(await getPathOutlines(ctx, completed));
+}
+
+export async function getPathsByTrack(
+  ctx: AudienceContext,
+  completed: Set<string> = new Set()
+): Promise<TrackGroups> {
+  return groupByTrack(await getPathOutlines(ctx, completed));
+}
+
+export async function getTrackPathOutlines(
+  track: Exclude<TrackKey, "new">,
+  ctx: AudienceContext,
+  completed: Set<string> = new Set()
+): Promise<Array<{ slug: string; path: PathOutline | null }>> {
+  await connectDB();
+  const slugs = TRACK_PATH_SLUGS[track];
+  const paths = await LearningPath.find({ ...audienceFilter(ctx), slug: { $in: slugs } })
+    .populate(PATH_POPULATE)
+    .lean();
+  const outlines = paths.map((p) => buildOutline(p, completed));
+  return slugs.map((slug) => ({ slug, path: outlines.find((p) => p.slug === slug) ?? null }));
 }
 
 export async function getPathOutlineBySlug(
@@ -194,17 +263,19 @@ export async function getLearnerState(
   ctx: AudienceContext
 ): Promise<LearnerState> {
   let placement: PlacementSummary | null = null;
+  let track: TrackKey | null = null;
   let progress: Array<{ lessonId: string; completedAt: Date }> = [];
 
   if (userId) {
     await connectDB();
-    const user = await User.findById(userId).select("progress placement").lean();
+    const user = await User.findById(userId).select("progress placement track").lean();
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const u = user as any;
     progress = (u?.progress || []).map((p: { lessonId: unknown; completedAt: Date }) => ({
       lessonId: String(p.lessonId),
       completedAt: p.completedAt,
     }));
+    track = isTrackKey(u?.track) ? u.track : null;
     if (u?.placement && isStageKey(u.placement.stage)) {
       const answers =
         u.placement.answers instanceof Map
@@ -235,11 +306,15 @@ export async function getLearnerState(
     }
   }
 
-  const recommendation = placement
-    ? pickRecommendedPath(outlines, placement.stage)
-    : { path: null, isFallback: false };
+  const recommendation =
+    track === "curious" || track === "muslim"
+      ? { path: pickTrackPath(groupByTrack(outlines)[track]), isFallback: false }
+      : placement
+        ? pickRecommendedPath(outlines, placement.stage)
+        : { path: null, isFallback: false };
 
   return {
+    track,
     placement,
     completedLessonIds: [...completed],
     currentPath: currentPath ?? (recommendation.path && !recommendation.path.isComplete ? recommendation.path : null),

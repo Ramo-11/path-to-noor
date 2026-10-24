@@ -21,7 +21,7 @@ export interface PathView {
   slug: string;
   title: string;
   description: string;
-  stage: StageKey;
+  stage: StageKey | null;
   steps: StepView[];
   totalLessons: number;
   completedLessons: number;

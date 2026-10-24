@@ -1,0 +1,306 @@
+{
+  "slug": "mentor-common-struggles",
+  "minutes": 5,
+  "title": {
+    "en": "Common struggles",
+    "ar": "التحديات الشائعة",
+    "es": "Dificultades comunes"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Most new Muslims face some of the same hard things. Knowing them helps you notice and respond with care."
+      },
+      {
+        "facts": {
+          "title": "Five things to expect, and how to help",
+          "items": [
+            {
+              "icon": "users",
+              "label": "Family reactions",
+              "text": "Listen without taking sides. Encourage kindness and patience at home, and keep making dua for them."
+            },
+            {
+              "icon": "heart",
+              "label": "Loneliness",
+              "text": "Check in often. Invite them to something small and welcoming, like a coffee or a community gathering."
+            },
+            {
+              "icon": "moon",
+              "label": "Ramadan and holidays",
+              "text": "Be there with them. Share a meal, explain what you do, and let them ask about old family traditions."
+            },
+            {
+              "icon": "hands",
+              "label": "Learning prayer",
+              "text": "Start with one prayer. Pray near them if you can, and be patient with mistakes."
+            },
+            {
+              "icon": "compass",
+              "label": "Doubts",
+              "text": "Do not be alarmed. Doubts are human. Listen, then bring the question to a scholar if you cannot answer."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "A word on old traditions",
+          "blocks": [
+            {
+              "p": "Holidays and family events can be painful. Do not decide for them what to join or skip. Listen, and help them ask a scholar or imam what applies to their situation."
+            }
+          ]
+        }
+      },
+      {
+        "scenario": {
+          "situation": "A new Muslim tells you their mother is upset about their conversion.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "My mom barely talks to me now. I don't know what to do."
+            },
+            {
+              "from": "you",
+              "text": "That sounds heavy. I am here. Do you want to talk about it, or think of one kind thing to do for her?"
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "A new Muslim feels lonely. What helps most?",
+          "options": [
+            "Regular check-ins and a small, welcoming invitation",
+            "A long lecture on patience",
+            "Leaving them space until they ask"
+          ],
+          "correct": 0,
+          "explanation": "Loneliness eases when someone keeps showing up kindly."
+        }
+      },
+      {
+        "key": "Support looks like presence: listen, stay close, and bring hard questions to a scholar."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يواجه أكثر المسلمين الجدد صعوبات متشابهة. معرفتها تساعدك على الانتباه والاستجابة بلطف."
+      },
+      {
+        "facts": {
+          "title": "خمسة أمور متوقعة وكيف تساعد",
+          "items": [
+            {
+              "icon": "users",
+              "label": "ردود فعل الأسرة",
+              "text": "أصغِ دون أن تنحاز. شجّعه على اللطف والصبر في بيته، وادعُ له."
+            },
+            {
+              "icon": "heart",
+              "label": "الشعور بالوحدة",
+              "text": "تواصل معه كثيرًا. ادعه إلى لقاء صغير ودافئ كفنجان قهوة أو مناسبة في المجتمع."
+            },
+            {
+              "icon": "moon",
+              "label": "رمضان والأعياد",
+              "text": "كن بجانبه. شاركه إفطارًا واشرح ما تفعله ودعه يسأل عن تقاليد أسرته القديمة."
+            },
+            {
+              "icon": "hands",
+              "label": "تعلّم الصلاة",
+              "text": "ابدأ بصلاة واحدة. صلِّ قربه إن أمكن، واصبر على أخطائه."
+            },
+            {
+              "icon": "compass",
+              "label": "الشكوك",
+              "text": "لا تنزعج، فالشكوك أمر بشري. أصغِ، ثم اعرض السؤال على عالم إن لم تستطع الإجابة."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "كلمة عن التقاليد القديمة",
+          "blocks": [
+            {
+              "p": "قد تكون الأعياد ومناسبات الأسرة مؤلمة. لا تقرّر عنه ما يشارك فيه وما يتركه. أصغِ إليه وساعده على سؤال عالم أو إمام عمّا ينطبق على حاله."
+            }
+          ]
+        }
+      },
+      {
+        "scenario": {
+          "situation": "يخبرك مسلم جديد أن أمه منزعجة من إسلامه.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "أمي لا تكاد تكلمني الآن ولا أدري ما أفعل."
+            },
+            {
+              "from": "you",
+              "text": "يبدو هذا ثقيلًا. أنا معك. هل تريد أن نتحدث عنه، أم نفكر في عمل لطيف واحد تقدّمه لها؟"
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "مسلم جديد يشعر بالوحدة. ما الذي يفيده أكثر؟",
+          "options": [
+            "تواصل منتظم ودعوة صغيرة ودافئة",
+            "محاضرة طويلة عن الصبر",
+            "تركه حتى يطلب هو"
+          ],
+          "correct": 0,
+          "explanation": "تخفّ الوحدة حين يحضر أحد بلطف باستمرار."
+        }
+      },
+      {
+        "key": "الدعم هو الحضور: أصغِ، وكن قريبًا، واعرض الأسئلة الصعبة على عالم."
+      }
+    ],
+    "es": [
+      {
+        "p": "La mayoría de los nuevos musulmanes enfrenta dificultades parecidas. Conocerlas te ayuda a notarlas y responder con cuidado."
+      },
+      {
+        "facts": {
+          "title": "Cinco cosas que esperar y cómo ayudar",
+          "items": [
+            {
+              "icon": "users",
+              "label": "Reacciones de la familia",
+              "text": "Escucha sin tomar partido. Anima a la amabilidad y paciencia en casa, y haz dua por ellos."
+            },
+            {
+              "icon": "heart",
+              "label": "Soledad",
+              "text": "Escríbeles seguido. Invítalos a algo pequeño y acogedor, como un café o una reunión de la comunidad."
+            },
+            {
+              "icon": "moon",
+              "label": "Ramadán y fiestas",
+              "text": "Acompáñalos. Compartan una comida, explica lo que haces y deja que pregunten por las tradiciones familiares de antes."
+            },
+            {
+              "icon": "hands",
+              "label": "Aprender la oración",
+              "text": "Empiecen con una sola oración. Si puedes, ora cerca de ellos y ten paciencia con los errores."
+            },
+            {
+              "icon": "compass",
+              "label": "Dudas",
+              "text": "No te alarmes. Las dudas son humanas. Escucha y, si no puedes responder, lleva la pregunta a un erudito."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Una palabra sobre las tradiciones anteriores",
+          "blocks": [
+            {
+              "p": "Las fiestas y los eventos familiares pueden doler. No decidas por ellos en qué participar. Escucha y ayúdalos a preguntar a un erudito o imam qué aplica en su situación."
+            }
+          ]
+        }
+      },
+      {
+        "scenario": {
+          "situation": "Un nuevo musulmán te cuenta que su madre está molesta por su conversión.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "Mi mamá casi no me habla ahora. No sé qué hacer."
+            },
+            {
+              "from": "you",
+              "text": "Suena pesado. Estoy aquí. ¿Quieres hablar de ello o pensar en algo amable que puedas hacer por ella?"
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "Un nuevo musulmán se siente solo. ¿Qué ayuda más?",
+          "options": [
+            "Mensajes regulares y una invitación pequeña y acogedora",
+            "Una larga charla sobre la paciencia",
+            "Dejarlos hasta que pidan"
+          ],
+          "correct": 0,
+          "explanation": "La soledad se alivia cuando alguien se presenta con cariño de forma constante."
+        }
+      },
+      {
+        "key": "El apoyo es presencia: escucha, mantente cerca y lleva las preguntas difíciles a un erudito."
+      }
+    ]
+  },
+  "sources": [],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "A new Muslim shares a doubt. What is a good response?",
+        "ar": "يشاركك مسلم جديد شكًّا. ما الاستجابة الجيدة؟",
+        "es": "Un nuevo musulmán comparte una duda. ¿Cuál es una buena respuesta?"
+      },
+      "options": [
+        {
+          "en": "Listen calmly, and ask a scholar if you cannot answer",
+          "ar": "الإصغاء بهدوء وسؤال عالم إن لم تعرف الجواب",
+          "es": "Escuchar con calma y preguntar a un erudito si no sabes la respuesta"
+        },
+        {
+          "en": "Tell them doubting is wrong",
+          "ar": "أن تقول له إن الشك حرام",
+          "es": "Decirles que dudar está mal"
+        },
+        {
+          "en": "Change the subject",
+          "ar": "تغيير الموضوع",
+          "es": "Cambiar de tema"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Doubts are human. A calm ear and a trusted scholar help more than alarm.",
+        "ar": "الشكوك أمر بشري، والأذن الهادئة والعالم الموثوق أنفع من الفزع.",
+        "es": "Las dudas son humanas. Un oído tranquilo y un erudito de confianza ayudan más que la alarma."
+      }
+    },
+    {
+      "q": {
+        "en": "A new Muslim's family is upset. What should you do?",
+        "ar": "أسرة المسلم الجديد منزعجة. ماذا تفعل؟",
+        "es": "La familia de un nuevo musulmán está molesta. ¿Qué haces?"
+      },
+      "options": [
+        {
+          "en": "Tell them to cut contact",
+          "ar": "تطلب منه قطع الصلة",
+          "es": "Decirles que corten el contacto"
+        },
+        {
+          "en": "Listen, and encourage kindness and patience",
+          "ar": "تصغي وتشجّعه على اللطف والصبر",
+          "es": "Escuchar y animar a la amabilidad y paciencia"
+        },
+        {
+          "en": "Argue with the family for them",
+          "ar": "تجادل أسرته نيابة عنه",
+          "es": "Discutir con la familia por ellos"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "Staying kind at home is the best path, and a listening friend makes it easier.",
+        "ar": "البقاء لطيفًا في البيت أفضل طريق، وصديق مصغٍ يسهّل ذلك.",
+        "es": "Mantenerse amable en casa es el mejor camino, y un amigo que escucha lo facilita."
+      }
+    }
+  ]
+}

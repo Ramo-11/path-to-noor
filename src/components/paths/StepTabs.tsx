@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Check } from "lucide-react";
-import { STAGE_STYLES, type StageKey } from "@/lib/stages";
+import { type StageKey } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 
 export type StepState = "complete" | "current" | "upcoming" | "preparing";
 
@@ -18,7 +19,7 @@ export interface StepTab {
 
 interface StepTabsProps {
   tabs: StepTab[];
-  stage: StageKey;
+  stage: StageKey | null;
   label: string;
 }
 
@@ -53,7 +54,7 @@ function revealTab(container: HTMLElement, tab: HTMLElement, center: boolean) {
 export function StepTabs({ tabs, stage, label }: StepTabsProps) {
   const navRef = useRef<HTMLElement>(null);
   const [active, setActive] = useState<string | null>(null);
-  const style = STAGE_STYLES[stage];
+  const style = toneStyle(stage);
   const ids = tabs.map((tab) => tab.id).join(" ");
 
   const numeralStates: Record<Exclude<StepState, "complete">, string> = {

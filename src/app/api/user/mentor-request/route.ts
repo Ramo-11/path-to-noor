@@ -4,6 +4,7 @@ import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { MentorRequest } from "@/db/models/MentorRequest";
 import { mentorRequestCreateSchema } from "@/lib/validations";
+import { sendAdminMentorRequestEmail } from "@/lib/email";
 
 export async function GET() {
   const session = await auth();
@@ -46,12 +47,13 @@ export async function POST(request: NextRequest) {
   try {
     await connectDB();
 
-    const user = await User.findById(session.user.id).select("userType emailVerified").lean();
+    const user = await User.findById(session.user.id).select("name email userType track emailVerified").lean();
     if (!user) {
       return NextResponse.json({ error: "not_found" }, { status: 404 });
     }
 
-    if (user.userType !== "revert") {
+    const track = (user as { track?: string }).track;
+    if (user.userType === "mentor" || (user.userType !== "revert" && track !== "new")) {
       return NextResponse.json({ error: "revert_only" }, { status: 403 });
     }
 
@@ -70,6 +72,12 @@ export async function POST(request: NextRequest) {
 
     const mentorRequest = await MentorRequest.create({
       revertId: session.user.id,
+      message: parsed.data.message,
+    });
+
+    await sendAdminMentorRequestEmail({
+      name: user.name,
+      email: user.email,
       message: parsed.data.message,
     });
 

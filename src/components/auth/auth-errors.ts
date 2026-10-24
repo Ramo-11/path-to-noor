@@ -7,6 +7,7 @@ const KNOWN = new Set([
   "expired_token",
   "rate_limited",
   "server_error",
+  "verification_failed",
 ]);
 
 export function authErrorKey(code: unknown, status?: number): string {

@@ -36,3 +36,15 @@ All 67 teaching lessons were restructured in English, Arabic, and Spanish into s
 4. **`res-prayer-parts`**: several steps were merged; the "be at ease in each position" hadith moved into the closed section while the key point still refers to it.
 5. **Whole-verse cards** added for Ayat al-Kursi (2:255) and the end of Al-Baqarah (2:285, 2:286), joined from the existing split cards, to carry recitation audio.
 6. **Audio**: Quran recitation is Mishary Alafasy (everyayah.com). Dhikr, duas, and hadith phrases use an AI Arabic voice, checked by transcription; a native speaker should still listen to them once.
+
+## New tracks: Discover Islam and Walk with a new Muslim (2026-10-24)
+
+Two new paths in English, Arabic, and Spanish. "Discover Islam" (9 `discover-*` lessons) is for non-Muslims who are curious; "Walk with a new Muslim" (6 `mentor-*` lessons) prepares Muslims to volunteer as mentors. Each lesson was written by one agent and re-checked by a second, independent one: every Quran quote re-fetched from api.alquran.cloud, every hadith from hadeethenc.com (all graded sahih). Saheeh International's dashes became commas or the quote ends before the dash, as in earlier lessons. Al-Ikhlas and 1:5 carry Alafasy recitation; the shahada card uses the AI voice. Points worth a scholar's glance:
+
+1. **Shahada needs no witness** (`discover-becoming-muslim`): treated as consensus with no "scholars differ" note, based on IslamQA 49715 and SeekersGuidance.
+2. **Sins forgiven on entering Islam** (Muslim 121, `discover-becoming-muslim`): the lesson says sins before Islam are forgiven; whether to add that rights owed to people remain.
+3. **Khalid Yasin, "The Purpose of Life" part 1** (`discover-purpose-of-life`, youtube.com/watch?v=Zor1et-rT8c): speaker suitability; the talk itself was not reviewed.
+4. **Claims stated as Muslim belief without a verse**: earlier scriptures changed over time (`discover-one-message`); Arabic-speaking Christians also say "Allah", softened (`discover-meaning-of-islam`).
+5. **History and Quran facts without a fetched source**: the Prophet's dates (570, 595, 610, 622, 632, given as approximate), the compilation under Abu Bakr and Uthman paraphrased from Bukhari 4986/4987, longest and shortest surahs, "millions of huffaz", the Quran text matching worldwide apart from recognized readings.
+6. **Jesus and Mary** (`discover-jesus-in-islam`): the crucifixion (4:157) and divinity differences stated calmly with fetched verses; check the tone for Christian readers.
+7. **Mentor guidance** (`mentor-*`): same-gender one-to-one mentoring is presented as this site's practice, not a ruling; no fatwas, refer to a scholar; name and dress changes not rushed; holiday and family traditions deferred to a scholar or imam; general safety advice (emergency services, self-harm).

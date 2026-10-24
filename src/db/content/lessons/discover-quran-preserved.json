@@ -1,0 +1,422 @@
+{
+  "slug": "discover-quran-preserved",
+  "minutes": 5,
+  "title": {
+    "en": "How the Quran was kept safe",
+    "ar": "كيف حُفظ القرآن",
+    "es": "Cómo se conservó el Corán"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A fair question about any old book: is what we read today what was first said? Here is what Muslims point to."
+      },
+      {
+        "h": "Heart and page, from day one"
+      },
+      {
+        "facts": {
+          "title": "Two ways it was kept in the Prophet's lifetime",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Memorized",
+              "text": "He recited each new passage, and many companions learned it by heart."
+            },
+            {
+              "icon": "book",
+              "label": "Written",
+              "text": "Scribes, such as Zayd ibn Thabit, wrote it on parchment, bones and palm stalks."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Gathered into one book"
+      },
+      {
+        "timeline": {
+          "title": "After the Prophet",
+          "events": [
+            {
+              "when": "Under Abu Bakr",
+              "text": "After many who had memorized the Quran died in battle, the first caliph (leader), Abu Bakr, had Zayd gather everything into one set of pages, checked against what people knew by heart."
+            },
+            {
+              "when": "Under Uthman",
+              "text": "People in far regions were reading it in different ways. The third caliph, Uthman, had standard copies made from those pages and sent them to the main cities."
+            },
+            {
+              "when": "Today",
+              "text": "Muslims say every Quran printed now follows that same written text."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Sources inside Islam for this story",
+          "blocks": [
+            {
+              "p": "The account of Abu Bakr, Zayd and Uthman comes from Sahih al-Bukhari, a collection of reports that Muslims hold in very high regard. Its reports are linked at the bottom of this page."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Millions know it by heart"
+      },
+      {
+        "facts": {
+          "title": "Still passed on person to person",
+          "items": [
+            {
+              "icon": "users",
+              "label": "Hafiz",
+              "text": "A hafiz is someone who has memorized the whole Quran. There are millions, including children."
+            },
+            {
+              "icon": "ear",
+              "label": "A chain of teachers",
+              "text": "Muslims learn recitation by listening to a teacher, who learned from a teacher, back to the Prophet."
+            },
+            {
+              "icon": "globe",
+              "label": "One text",
+              "text": "Copies from different countries match, apart from a few recognized reading styles."
+            }
+          ]
+        }
+      },
+      {
+        "p": "The Quran also says of itself:"
+      },
+      {
+        "quote": "Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.",
+        "cite": "Quran 15:9 (Saheeh International translation)"
+      },
+      {
+        "h": "The challenge"
+      },
+      {
+        "p": "The Quran invites doubters to try something. Muslims see this as part of why they trust it."
+      },
+      {
+        "quote": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful.",
+        "cite": "Quran 2:23 (Saheeh International translation)"
+      },
+      {
+        "p": "Muslims point to the beauty of its Arabic, and say no one has produced a chapter like it. You can judge for yourself, and others will judge differently. You are free to read it and decide what you think."
+      },
+      {
+        "quick": {
+          "question": "What did the Muslims do under Uthman?",
+          "options": [
+            "Wrote the Quran for the first time",
+            "Made standard copies and sent them to the main cities",
+            "Added new chapters"
+          ],
+          "correct": 1,
+          "explanation": "The Quran was already memorized and written. Uthman had standard copies made from the gathered pages so everyone read the same text."
+        }
+      },
+      {
+        "key": "Muslims say the Quran was memorized and written from the start, gathered under Abu Bakr and copied under Uthman, and is still memorized by millions."
+      },
+      {
+        "p": "Next: if you ever feel ready, what becoming Muslim actually involves."
+      }
+    ],
+    "ar": [
+      {
+        "p": "سؤال مشروع عن أي كتاب قديم: هل ما نقرؤه اليوم هو ما قيل أولًا؟ هذا ما يشير إليه المسلمون."
+      },
+      {
+        "h": "في الصدور وفي الصحف منذ اليوم الأول"
+      },
+      {
+        "facts": {
+          "title": "طريقان لحفظه في حياة النبي صلى الله عليه وسلم",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "محفوظ",
+              "text": "كان يتلو كل ما ينزل، وحفظه كثير من الصحابة."
+            },
+            {
+              "icon": "book",
+              "label": "مكتوب",
+              "text": "كتبه كتّاب الوحي، مثل زيد بن ثابت، على الرقاع والعظام وجريد النخل."
+            }
+          ]
+        }
+      },
+      {
+        "h": "جمعه في كتاب واحد"
+      },
+      {
+        "timeline": {
+          "title": "بعد النبي صلى الله عليه وسلم",
+          "events": [
+            {
+              "when": "في عهد أبي بكر",
+              "text": "بعد أن استُشهد كثير من حفّاظ القرآن في المعارك، كلّف الخليفة الأول أبو بكر زيدًا بجمعه في صحف، مع مطابقته على ما في صدور الناس."
+            },
+            {
+              "when": "في عهد عثمان",
+              "text": "صار الناس في البلاد البعيدة يقرؤونه بوجوه مختلفة، فأمر الخليفة الثالث عثمان بنسخ مصاحف موحّدة من تلك الصحف وأرسلها إلى الأمصار."
+            },
+            {
+              "when": "اليوم",
+              "text": "يقول المسلمون إن كل مصحف يُطبع الآن يتبع ذلك النص المكتوب نفسه."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "مصدر هذه القصة في الإسلام",
+          "blocks": [
+            {
+              "p": "خبر أبي بكر وزيد وعثمان مذكور في صحيح البخاري، وهو كتاب أحاديث له مكانة عالية عند المسلمين. وروابط هذه الأخبار في أسفل الصفحة."
+            }
+          ]
+        }
+      },
+      {
+        "h": "ملايين يحفظونه"
+      },
+      {
+        "facts": {
+          "title": "ما زال ينتقل من شخص إلى شخص",
+          "items": [
+            {
+              "icon": "users",
+              "label": "الحافظ",
+              "text": "الحافظ هو من حفظ القرآن كله. وهم بالملايين، ومنهم أطفال."
+            },
+            {
+              "icon": "ear",
+              "label": "سلسلة من المعلمين",
+              "text": "يتعلم المسلمون التلاوة بالسماع من معلم تعلّم من معلم، وهكذا حتى النبي صلى الله عليه وسلم."
+            },
+            {
+              "icon": "globe",
+              "label": "نص واحد",
+              "text": "المصاحف في البلدان المختلفة متطابقة، إلا في أوجه قراءة قليلة معروفة."
+            }
+          ]
+        }
+      },
+      {
+        "p": "والقرآن يقول عن نفسه:"
+      },
+      {
+        "quote": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+        "cite": "سورة الحجر: 9"
+      },
+      {
+        "h": "التحدي"
+      },
+      {
+        "p": "يدعو القرآن المرتابين إلى أن يجرّبوا أمرًا، ويرى المسلمون أن هذا من أسباب ثقتهم به."
+      },
+      {
+        "quote": "وَإِن كُنتُمْ فِى رَيْبٍۢ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍۢ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+        "cite": "سورة البقرة: 23"
+      },
+      {
+        "p": "يشير المسلمون إلى جمال لغته العربية، ويقولون إن أحدًا لم يأت بسورة مثله. ولك أن تحكم بنفسك، وقد يحكم غيرك بغير ذلك. أنت حر في أن تقرأه وتكوّن رأيك."
+      },
+      {
+        "quick": {
+          "question": "ماذا فعل المسلمون في عهد عثمان؟",
+          "options": [
+            "كتبوا القرآن لأول مرة",
+            "نسخوا مصاحف موحّدة وأرسلوها إلى الأمصار",
+            "أضافوا سورًا جديدة"
+          ],
+          "correct": 1,
+          "explanation": "كان القرآن محفوظًا ومكتوبًا من قبل. ونسخ عثمان مصاحف موحّدة من الصحف المجموعة ليقرأ الجميع نصًا واحدًا."
+        }
+      },
+      {
+        "key": "يقول المسلمون إن القرآن حُفظ وكُتب منذ البداية، وجُمع في عهد أبي بكر، ونُسخ في عهد عثمان، وما زال يحفظه الملايين."
+      },
+      {
+        "p": "في الدرس التالي: إن شعرت يومًا أنك مستعد، فماذا يعني الدخول في الإسلام."
+      }
+    ],
+    "es": [
+      {
+        "p": "Es una pregunta justa sobre cualquier libro antiguo: ¿lo que leemos hoy es lo que se dijo al principio? Esto es lo que señalan los musulmanes."
+      },
+      {
+        "h": "En el corazón y en la página, desde el primer día"
+      },
+      {
+        "facts": {
+          "title": "Dos formas de conservarlo en vida del Profeta",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Memorizado",
+              "text": "Él recitaba cada pasaje nuevo y muchos compañeros lo aprendían de memoria."
+            },
+            {
+              "icon": "book",
+              "label": "Escrito",
+              "text": "Escribas como Zayd ibn Zabit lo escribían en pergamino, huesos y tallos de palmera."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Reunido en un solo libro"
+      },
+      {
+        "timeline": {
+          "title": "Después del Profeta",
+          "events": [
+            {
+              "when": "Con Abu Bakr",
+              "text": "Cuando murieron en batalla muchos que lo sabían de memoria, el primer califa (líder), Abu Bakr, encargó a Zaid reunirlo todo en un conjunto de hojas, comprobado con lo que la gente sabía de memoria."
+            },
+            {
+              "when": "Con Uzmán",
+              "text": "En regiones lejanas lo leían de formas distintas. El tercer califa, Uzmán, hizo copias estándar a partir de esas hojas y las envió a las ciudades principales."
+            },
+            {
+              "when": "Hoy",
+              "text": "Los musulmanes dicen que todo Corán impreso hoy sigue ese mismo texto escrito."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "De dónde viene este relato dentro del Islam",
+          "blocks": [
+            {
+              "p": "El relato de Abu Bakr, Zaid y Uzmán viene del Sahih al-Bujari, una colección de relatos que los musulmanes tienen en muy alta estima. Los relatos están enlazados al final de la página."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Millones lo saben de memoria"
+      },
+      {
+        "facts": {
+          "title": "Se sigue transmitiendo de persona a persona",
+          "items": [
+            {
+              "icon": "users",
+              "label": "Hafiz",
+              "text": "Un hafiz es quien ha memorizado todo el Corán. Hay millones, incluidos niños."
+            },
+            {
+              "icon": "ear",
+              "label": "Una cadena de maestros",
+              "text": "Los musulmanes aprenden la recitación escuchando a un maestro, que aprendió de otro, hasta llegar al Profeta."
+            },
+            {
+              "icon": "globe",
+              "label": "Un solo texto",
+              "text": "Los ejemplares de distintos países coinciden, salvo unas pocas formas de lectura reconocidas."
+            }
+          ]
+        }
+      },
+      {
+        "p": "El Corán dice de sí mismo:"
+      },
+      {
+        "quote": "Yo he revelado el Corán y Yo soy su custodio.",
+        "cite": "Corán 15:9 (traducción de Isa García)"
+      },
+      {
+        "h": "El desafío"
+      },
+      {
+        "p": "El Corán invita a quienes dudan a intentar algo. Los musulmanes ven esto como parte de por qué confían en él."
+      },
+      {
+        "quote": "Si dudan de lo que le he revelado a Mi siervo traigan un capítulo [del Corán] similar, y recurran para ello a quienes toman por socorredores en lugar de Dios, si es verdad lo que afirman.",
+        "cite": "Corán 2:23 (traducción de Isa García)"
+      },
+      {
+        "p": "Los musulmanes señalan la belleza de su árabe y dicen que nadie ha producido un capítulo igual. Tú puedes juzgar por ti mismo, y otros juzgarán distinto. Eres libre de leerlo y decidir qué piensas."
+      },
+      {
+        "quick": {
+          "question": "¿Qué hicieron los musulmanes con Uzmán?",
+          "options": [
+            "Escribieron el Corán por primera vez",
+            "Hicieron copias estándar y las enviaron a las ciudades principales",
+            "Añadieron capítulos nuevos"
+          ],
+          "correct": 1,
+          "explanation": "El Corán ya estaba memorizado y escrito. Uzmán hizo copias estándar de las hojas reunidas para que todos leyeran el mismo texto."
+        }
+      },
+      {
+        "key": "Los musulmanes dicen que el Corán se memorizó y se escribió desde el principio, se reunió con Abu Bakr, se copió con Uzmán y hoy lo memorizan millones."
+      },
+      {
+        "p": "A continuación: si algún día te sientes listo, qué implica hacerse musulmán."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 15:9 (Saheeh International translation)",
+      "url": "https://quran.com/15/9"
+    },
+    {
+      "label": "Quran 2:23 (Saheeh International translation)",
+      "url": "https://quran.com/2/23"
+    },
+    {
+      "label": "Sahih al-Bukhari 4986 (Zayd gathers the Quran)",
+      "url": "https://hadeethenc.com/en/browse/hadith/10574"
+    },
+    {
+      "label": "Sahih al-Bukhari 4987 (Uthman's copies)",
+      "url": "https://hadeethenc.com/en/browse/hadith/10575"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "Who had the Quran gathered into one set of pages after the Prophet died?",
+        "ar": "من أمر بجمع القرآن في صحف بعد وفاة النبي صلى الله عليه وسلم؟",
+        "es": "¿Quién hizo reunir el Corán en un conjunto de hojas tras la muerte del Profeta?"
+      },
+      "options": [
+        {
+          "en": "Abu Bakr, the first caliph",
+          "ar": "أبو بكر الصديق، الخليفة الأول",
+          "es": "Abu Bakr, el primer califa"
+        },
+        {
+          "en": "Nobody, it was already a printed book",
+          "ar": "لا أحد، فقد كان كتابًا مطبوعًا",
+          "es": "Nadie, ya era un libro impreso"
+        },
+        {
+          "en": "A later king, centuries afterward",
+          "ar": "ملك جاء بعد قرون",
+          "es": "Un rey posterior, siglos después"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Abu Bakr had Zayd ibn Thabit gather it. Later Uthman had standard copies made.",
+        "ar": "كلّف أبو بكر زيد بن ثابت بجمعه، ثم نسخ عثمان مصاحف موحّدة.",
+        "es": "Abu Bakr encargó a Zayd ibn Zabit reunirlo. Más tarde Uzmán hizo copias estándar."
+      }
+    }
+  ]
+}

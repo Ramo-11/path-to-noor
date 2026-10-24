@@ -9,13 +9,13 @@ const isDev = process.env.NODE_ENV !== "production";
 function buildCsp(nonce: string): string {
   const directives = [
     "default-src 'self'",
-    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://www.googletagmanager.com${isDev ? " 'unsafe-eval'" : ""}`,
+    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://www.googletagmanager.com https://challenges.cloudflare.com${isDev ? " 'unsafe-eval'" : ""}`,
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com",
     "font-src 'self' data:",
     "media-src 'self' blob: https://res.cloudinary.com",
-    "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com",
-    "frame-src https://www.youtube-nocookie.com https://www.youtube.com",
+    "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://challenges.cloudflare.com",
+    "frame-src https://www.youtube-nocookie.com https://www.youtube.com https://challenges.cloudflare.com",
     "worker-src 'self'",
     "manifest-src 'self'",
     "object-src 'none'",

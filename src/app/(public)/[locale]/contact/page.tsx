@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageBanner } from "@/components/primer/PageBanner";
@@ -29,7 +30,9 @@ export default async function ContactPage({
     <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
       <PageBanner title={t("title")} lead={t("lead")} art="lib-dawah" tone="dawn" />
       <div className="grid grid-cols-1 gap-12 pt-10 pb-24 lg:grid-cols-2 lg:gap-16">
-        <ContactForm />
+        <Suspense fallback={null}>
+          <ContactForm />
+        </Suspense>
         <ContactFaq />
       </div>
     </div>

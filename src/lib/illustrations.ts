@@ -1,4 +1,5 @@
 import type { StageKey } from "@/lib/stages";
+import type { TrackKey } from "@/lib/tracks";
 
 export const ILLUSTRATIONS = {
   "hero-dawn": { width: 1024, height: 768 },
@@ -34,6 +35,12 @@ export const STAGE_ART: Record<StageKey, IllustrationName> = {
   beginning: "stage-dawn",
   foundations: "stage-day",
   deeper: "stage-evening",
+};
+
+export const TRACK_ART: Record<TrackKey, IllustrationName> = {
+  curious: "lib-questions",
+  new: "stage-dawn",
+  muslim: "lib-quran",
 };
 
 const PATH_ART: Record<string, IllustrationName> = {

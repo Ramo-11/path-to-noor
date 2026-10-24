@@ -1,0 +1,299 @@
+{
+  "slug": "discover-purpose-of-life",
+  "minutes": 4,
+  "title": {
+    "en": "Why are we here?",
+    "ar": "لماذا نحن هنا؟",
+    "es": "¿Por qué estamos aquí?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Why am I here? Every person asks this at some point. Islam gives a clear answer, and it starts with a simple verse."
+      },
+      {
+        "quote": "And I did not create the jinn and mankind except to worship Me.",
+        "cite": "Quran 51:56 (Saheeh International translation)"
+      },
+      {
+        "p": "Worship here is wider than ritual. It means knowing God, being thankful, being honest in your work, and being kind to others, all for His sake."
+      },
+      {
+        "flow": {
+          "title": "Life in Islam",
+          "steps": [
+            {
+              "label": "Made",
+              "text": "God created you with care and on purpose."
+            },
+            {
+              "label": "Tested",
+              "text": "This life is a test of how you act, not a trap."
+            },
+            {
+              "label": "Free",
+              "text": "You choose what to believe and do."
+            },
+            {
+              "label": "Returned",
+              "text": "Everyone returns to God."
+            },
+            {
+              "label": "Judged with mercy",
+              "text": "God judges with justice and forgives much."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Life as a test"
+      },
+      {
+        "quote": "[He] who created death and life to test you [as to] which of you is best in deed, and He is the Exalted in Might, the Forgiving.",
+        "cite": "Quran 67:2 (Saheeh International translation)"
+      },
+      {
+        "p": "A test means your choices matter. It also means hardship has meaning, and nothing is wasted."
+      },
+      {
+        "h": "Accountability and hope"
+      },
+      {
+        "p": "You will answer for your life, and that is a comfort as well as a duty: no injustice goes unseen. Yet God's mercy is greater than our mistakes."
+      },
+      {
+        "h": "Watch"
+      },
+      {
+        "p": "Khalid Yasin gives a long talk on this question. It is optional and in English."
+      },
+      {
+        "key": "You were made on purpose, to know and serve God. Life is a test, you will return to Him, and His mercy is wide."
+      },
+      {
+        "p": "Next, you will meet the prophets God sent to guide people."
+      }
+    ],
+    "ar": [
+      {
+        "p": "لماذا أنا هنا؟ كل إنسان يسأل هذا السؤال يومًا ما. ويقدّم الإسلام إجابة واضحة تبدأ بآية بسيطة."
+      },
+      {
+        "quote": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+        "cite": "سورة الذاريات: 56"
+      },
+      {
+        "p": "العبادة هنا أوسع من الشعائر. إنها معرفة الله وشكره والصدق في العمل والإحسان إلى الناس، كل ذلك ابتغاء وجهه."
+      },
+      {
+        "flow": {
+          "title": "الحياة في الإسلام",
+          "steps": [
+            {
+              "label": "خُلقتَ",
+              "text": "خلقك الله بعناية ولحكمة."
+            },
+            {
+              "label": "تُختبر",
+              "text": "هذه الحياة اختبار لعملك، لا فخ."
+            },
+            {
+              "label": "حرّ",
+              "text": "تختار ما تؤمن به وما تفعله."
+            },
+            {
+              "label": "تعود",
+              "text": "يعود الجميع إلى الله."
+            },
+            {
+              "label": "تُحاسَب برحمة",
+              "text": "يحاسب الله بعدل ويغفر كثيرًا."
+            }
+          ]
+        }
+      },
+      {
+        "h": "الحياة اختبار"
+      },
+      {
+        "quote": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًۭا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ",
+        "cite": "سورة الملك: 2"
+      },
+      {
+        "p": "الاختبار يعني أن لخياراتك وزنًا. ويعني أيضًا أن للمشقة معنى، وأن شيئًا لا يضيع."
+      },
+      {
+        "h": "المحاسبة والأمل"
+      },
+      {
+        "p": "ستُسأل عن حياتك، وهذا عزاء كما هو مسؤولية: فلا ظلم يخفى. ومع ذلك فرحمة الله أوسع من أخطائنا."
+      },
+      {
+        "h": "شاهد"
+      },
+      {
+        "p": "يقدّم خالد ياسين محاضرة طويلة عن هذا السؤال. وهي اختيارية وباللغة الإنجليزية."
+      },
+      {
+        "key": "خُلقتَ لغاية: أن تعرف الله وتعبده. والحياة اختبار، وإليه المرجع، ورحمته واسعة."
+      },
+      {
+        "p": "بعد ذلك ستتعرّف على الأنبياء الذين أرسلهم الله لهداية الناس."
+      }
+    ],
+    "es": [
+      {
+        "p": "¿Por qué estoy aquí? Toda persona se lo pregunta alguna vez. El Islam da una respuesta clara que empieza con un versículo sencillo."
+      },
+      {
+        "quote": "No he creado a los yinnes y a los seres humanos sino para que Me adoren.",
+        "cite": "Corán 51:56 (traducción de Isa García)"
+      },
+      {
+        "p": "Adorar aquí es más amplio que el ritual. Es conocer a Dios, agradecerle, ser honesto en el trabajo y amable con los demás, todo por Su causa."
+      },
+      {
+        "flow": {
+          "title": "La vida en el Islam",
+          "steps": [
+            {
+              "label": "Creados",
+              "text": "Dios te creó con cuidado y con propósito."
+            },
+            {
+              "label": "Probados",
+              "text": "Esta vida es una prueba de cómo actúas, no una trampa."
+            },
+            {
+              "label": "Libres",
+              "text": "Eliges qué creer y qué hacer."
+            },
+            {
+              "label": "Regreso",
+              "text": "Todos regresan a Dios."
+            },
+            {
+              "label": "Juzgados con misericordia",
+              "text": "Dios juzga con justicia y perdona mucho."
+            }
+          ]
+        }
+      },
+      {
+        "h": "La vida como prueba"
+      },
+      {
+        "quote": "Él es Quien creó la muerte y la vida para probarlos y distinguir quién obra mejor. Él es el Poderoso, el Perdonador.",
+        "cite": "Corán 67:2 (traducción de Isa García)"
+      },
+      {
+        "p": "Una prueba significa que tus decisiones importan. También significa que las dificultades tienen sentido y nada se pierde."
+      },
+      {
+        "h": "Responsabilidad y esperanza"
+      },
+      {
+        "p": "Responderás por tu vida, y eso es un consuelo además de un deber: ninguna injusticia pasa inadvertida. Aun así, la misericordia de Dios es mayor que nuestros errores."
+      },
+      {
+        "h": "Mira"
+      },
+      {
+        "p": "Khalid Yasin da una charla larga sobre esta pregunta. Es opcional y está en inglés."
+      },
+      {
+        "key": "Fuiste creado con un propósito: conocer y servir a Dios. La vida es una prueba, volverás a Él y Su misericordia es amplia."
+      },
+      {
+        "p": "A continuación conocerás a los profetas que Dios envió para guiar a la gente."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 51:56 (Saheeh International translation)",
+      "url": "https://quran.com/51/56"
+    },
+    {
+      "label": "Quran 67:2 (Saheeh International translation)",
+      "url": "https://quran.com/67/2"
+    }
+  ],
+  "differenceNote": false,
+  "video": {
+    "url": "https://www.youtube.com/watch?v=Zor1et-rT8c",
+    "title": {
+      "en": "The Purpose of Life (Part 1 of 3)",
+      "ar": "الغاية من الحياة (الجزء 1 من 3)",
+      "es": "El propósito de la vida (Parte 1 de 3)"
+    },
+    "by": {
+      "en": "Khalid Yasin, One Islam Productions",
+      "ar": "خالد ياسين، One Islam Productions",
+      "es": "Khalid Yasin, One Islam Productions"
+    },
+    "seconds": 2887
+  },
+  "check": [
+    {
+      "q": {
+        "en": "According to the Quran, why did God create us?",
+        "ar": "وفق القرآن، لماذا خلقنا الله؟",
+        "es": "Según el Corán, ¿por qué nos creó Dios?"
+      },
+      "options": [
+        {
+          "en": "To know and worship Him",
+          "ar": "ليعرفوه ويعبدوه",
+          "es": "Para conocerlo y adorarlo"
+        },
+        {
+          "en": "As a punishment",
+          "ar": "عقوبة",
+          "es": "Como castigo"
+        },
+        {
+          "en": "By accident",
+          "ar": "بالصدفة",
+          "es": "Por casualidad"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Quran 51:56 says people were created to worship God, which includes being good to others.",
+        "ar": "تقول الآية 56 من سورة الذاريات إن الناس خُلقوا لعبادة الله، ومنها الإحسان إلى الناس.",
+        "es": "El Corán 51:56 dice que fuimos creados para adorar a Dios, lo que incluye ser buenos con los demás."
+      }
+    },
+    {
+      "q": {
+        "en": "How does Islam describe this life?",
+        "ar": "كيف يصف الإسلام هذه الحياة؟",
+        "es": "¿Cómo describe el Islam esta vida?"
+      },
+      "options": [
+        {
+          "en": "A test, with hope in God's mercy",
+          "ar": "اختبار مع رجاء في رحمة الله",
+          "es": "Una prueba, con esperanza en la misericordia de Dios"
+        },
+        {
+          "en": "A trap with no way out",
+          "ar": "فخ بلا مخرج",
+          "es": "Una trampa sin salida"
+        },
+        {
+          "en": "A game with no meaning",
+          "ar": "لعبة بلا معنى",
+          "es": "Un juego sin sentido"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Life is a test, but God is Forgiving and Merciful.",
+        "ar": "الحياة اختبار، والله غفور رحيم.",
+        "es": "La vida es una prueba, pero Dios es Perdonador y Misericordioso."
+      }
+    }
+  ]
+}

@@ -22,5 +22,25 @@
   "tabPaths": "Caminos",
   "tabLibrary": "Biblioteca",
   "tabJourney": "Mi recorrido",
-  "tabStart": "Empezar"
+  "tabStart": "Empezar",
+  "primary": {
+    "none": "Empezar",
+    "curious": "Conoce el islam",
+    "new": "Encuentra tu punto de partida",
+    "muslim": "Aprende más"
+  },
+  "tab": {
+    "none": "Empezar",
+    "curious": "Explorar",
+    "new": "Empezar",
+    "muslim": "Aprender"
+  },
+  "contact": "Contacto",
+  "preferences": "Idioma y apariencia",
+  "language": "Idioma",
+  "appearance": "Apariencia",
+  "themeLight": "Claro",
+  "themeDark": "Oscuro",
+  "themeSystem": "Sistema",
+  "mainNav": "Principal"
 }

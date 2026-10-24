@@ -1,17 +1,18 @@
 import { Check } from "lucide-react";
-import { STAGE_STYLES, localized, type LocalizedText, type StageKey } from "@/lib/stages";
+import { localized, type LocalizedText, type StageKey } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 
 interface OutcomesCardProps {
   title: string;
   outcomes: LocalizedText[];
-  stage: StageKey;
+  stage: StageKey | null;
   locale: string;
   className?: string;
 }
 
 export function OutcomesCard({ title, outcomes, stage, locale, className = "" }: OutcomesCardProps) {
   if (outcomes.length === 0) return null;
-  const style = STAGE_STYLES[stage];
+  const style = toneStyle(stage);
 
   return (
     <div className={`rounded-[var(--radius-cell)] ${style.tint} p-5 sm:p-7 ${className}`}>

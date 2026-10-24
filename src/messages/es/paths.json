@@ -1,8 +1,8 @@
 {
   "metaTitle": "Caminos",
-  "metaDescription": "Series cortas de lecciones, en el orden correcto, para cada etapa de tu camino en el islam. Empieza por el camino de tu etapa.",
+  "metaDescription": "Series cortas de lecciones en el orden correcto, para quien siente curiosidad por el islam, para quien acaba de abrazarlo y para musulmanes que quieren aprender más.",
   "title": "Caminos",
-  "lead": "Lecciones cortas y ordenadas para cada etapa. Empieza por la tuya.",
+  "lead": "Lecciones breves y ordenadas, empieces donde empieces.",
   "findStart": "Encuentra tu punto de partida",
   "retake": "Repetir las preguntas",
   "stageHeading": "Etapa {number}:",
@@ -31,5 +31,6 @@
   "nextStageLink": "Ver los caminos de {name}",
   "browseAll": "Ver todos los caminos",
   "notFoundTitle": "No encontramos este camino",
-  "notFoundBody": "Puede que se haya movido o que aún no esté publicado. Todos los caminos están en la página de caminos."
+  "notFoundBody": "Puede que se haya movido o que aún no esté publicado. Todos los caminos están en la página de caminos.",
+  "jumpTo": "Ir a una sección"
 }

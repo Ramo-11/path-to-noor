@@ -22,5 +22,25 @@
   "tabPaths": "Paths",
   "tabLibrary": "Library",
   "tabJourney": "My journey",
-  "tabStart": "Start"
+  "tabStart": "Start",
+  "primary": {
+    "none": "Get started",
+    "curious": "Explore Islam",
+    "new": "Find your starting point",
+    "muslim": "Learn more"
+  },
+  "tab": {
+    "none": "Start",
+    "curious": "Explore",
+    "new": "Start",
+    "muslim": "Learn"
+  },
+  "contact": "Contact",
+  "preferences": "Language and appearance",
+  "language": "Language",
+  "appearance": "Appearance",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+  "mainNav": "Main"
 }

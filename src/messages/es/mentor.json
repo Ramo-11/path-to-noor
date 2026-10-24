@@ -41,5 +41,8 @@
   "errorEmailUnverifiedLink": "Ir a ajustes",
   "errorAlreadyRequested": "Ya tienes una solicitud de mentor.",
   "errorRevertOnly": "Las solicitudes de mentor son para quienes acaban de llegar al Islam.",
-  "errorInvalid": "Revisa tu mensaje e inténtalo de nuevo."
+  "errorInvalid": "Revisa tu mensaje e inténtalo de nuevo.",
+  "volunteerPromptTitle": "La mentoría es para nuevos musulmanes",
+  "volunteerPromptBody": "Si eres musulmán y quieres ayudar a alguien nuevo, puedes ofrecerte como mentor.",
+  "volunteerLink": "Ofrécete como mentor"
 }

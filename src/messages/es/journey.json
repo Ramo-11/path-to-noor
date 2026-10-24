@@ -1,7 +1,7 @@
 {
   "greeting": "Bienvenido de nuevo, {name}.",
   "guestTitle": "Inicia sesión para ver tu camino",
-  "guestBody": "Crea una cuenta gratuita o inicia sesión para continuar donde lo dejaste y encontrar tu punto de partida.",
+  "guestBody": "Crea una cuenta gratuita o inicia sesión para seguir donde lo dejaste.",
   "signIn": "Iniciar sesión",
   "createAccount": "Crear una cuenta gratuita",
   "findStart": "Encuentra tu punto de partida",
@@ -21,5 +21,9 @@
   "mentorStatusNone": "Aún no solicitado",
   "mentorStatusRequested": "Solicitado",
   "mentorStatusMatched": "Asignado",
-  "settingsLink": "Configuración"
+  "volunteer": "Ofrécete como mentor",
+  "volunteerLine": "Ayuda a quien es nuevo en el Islam",
+  "settingsLink": "Configuración",
+  "chooseBody": "Cuéntanos dónde estás y te mostraremos un camino claro.",
+  "chooseAction": "Elige dónde estás"
 }

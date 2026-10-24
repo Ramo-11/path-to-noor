@@ -25,7 +25,7 @@ export async function LessonContextBar({ place, lessonId, saved, signedIn, signI
         <SaveToggle lessonId={lessonId} initialSaved={saved} signedIn={signedIn} signInHref={signInHref}>
           <nav aria-label={t("contextLabel")} className="min-w-0">
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
-              {path ? <StageChip stage={path.stage} /> : null}
+              {path?.stage ? <StageChip stage={path.stage} /> : null}
               {path ? (
                 <Link
                   href={`/paths/${path.slug}`}

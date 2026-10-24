@@ -1,8 +1,8 @@
 {
   "metaTitle": "Paths",
-  "metaDescription": "Short series of lessons in the right order for each stage of your journey in Islam. Start with the path for your stage.",
+  "metaDescription": "Short series of lessons in the right order, for anyone curious, anyone new to Islam, and Muslims who want to learn more.",
   "title": "Paths",
-  "lead": "Short, ordered lessons for every stage. Start with yours.",
+  "lead": "Short, ordered lessons, wherever you are starting from.",
   "findStart": "Find your starting point",
   "retake": "Retake the check",
   "stageHeading": "Stage {number}:",
@@ -31,5 +31,6 @@
   "nextStageLink": "See the paths for {name}",
   "browseAll": "Browse all paths",
   "notFoundTitle": "We could not find this path",
-  "notFoundBody": "It may have moved, or it is not published yet. Every path we have is on the paths page."
+  "notFoundBody": "It may have moved, or it is not published yet. Every path we have is on the paths page.",
+  "jumpTo": "Jump to a group"
 }

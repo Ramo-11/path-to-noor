@@ -4,6 +4,7 @@ declare module "next-auth" {
   interface User {
     role?: string;
     userType?: string;
+    track?: string;
     preferredLanguage?: string;
     emailIsVerified?: boolean;
   }
@@ -16,6 +17,7 @@ declare module "next-auth" {
       image?: string | null;
       role: string;
       userType?: string;
+    track?: string;
       preferredLanguage: string;
       emailVerified: boolean;
     };
@@ -26,6 +28,7 @@ declare module "next-auth/jwt" {
   interface JWT {
     role?: string;
     userType?: string;
+    track?: string;
     preferredLanguage?: string;
     verified?: boolean;
     isActive?: boolean;

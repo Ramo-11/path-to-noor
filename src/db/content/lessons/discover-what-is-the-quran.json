@@ -1,0 +1,637 @@
+{
+  "slug": "discover-what-is-the-quran",
+  "minutes": 5,
+  "title": {
+    "en": "What is the Quran?",
+    "ar": "ما القرآن؟",
+    "es": "¿Qué es el Corán?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The Quran is the book Muslims believe is the word of God. You do not need to believe that to read this lesson. It simply explains what the book is and how people read it."
+      },
+      {
+        "h": "Where it comes from"
+      },
+      {
+        "flow": {
+          "title": "How Muslims say it reached people",
+          "steps": [
+            {
+              "label": "God",
+              "text": "God, the Creator, speaks His words."
+            },
+            {
+              "label": "Gabriel",
+              "text": "The angel Gabriel (Jibril) carries them."
+            },
+            {
+              "label": "Muhammad",
+              "text": "The Prophet Muhammad, peace be upon him, hears and recites them."
+            },
+            {
+              "label": "People",
+              "text": "He teaches them, and those around him learn and write them down."
+            }
+          ]
+        }
+      },
+      {
+        "p": "It did not come all at once. It came a few verses or a chapter at a time, over about 23 years, often as an answer to what was happening in his life."
+      },
+      {
+        "h": "How it is arranged"
+      },
+      {
+        "facts": {
+          "title": "The Quran at a glance",
+          "items": [
+            {
+              "icon": "book",
+              "label": "114 surahs",
+              "text": "A surah is a chapter. Some are long, some only three verses."
+            },
+            {
+              "icon": "message",
+              "label": "Verses",
+              "text": "Each surah is made of ayat (verses). Al-Baqarah is the longest, Al-Kawthar the shortest."
+            },
+            {
+              "icon": "compass",
+              "label": "Not a story in order",
+              "text": "It is not arranged by date or as one story. The surahs are mostly placed from longer to shorter."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Arabic and translations"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "The Quran",
+            "items": [
+              "The Arabic words as they were revealed",
+              "Muslims recite it in Arabic"
+            ]
+          },
+          "second": {
+            "title": "A translation",
+            "items": [
+              "A person's attempt to give the meaning in English",
+              "Helpful, but not the Quran itself"
+            ]
+          }
+        }
+      },
+      {
+        "p": "Arabic words often carry more than one shade of meaning, so every translation is a little different. This is why Muslims say a translation gives the meaning of the Quran, not the Quran itself."
+      },
+      {
+        "h": "A taste: Al-Fatiha"
+      },
+      {
+        "p": "Al-Fatiha (The Opening) is the first surah, only seven verses. Muslims recite it in every prayer. Here is its center."
+      },
+      {
+        "phrase": {
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "transliteration": "Iyyaka na'budu wa iyyaka nasta'in",
+          "meaning": "It is You we worship and You we ask for help.",
+          "audio": "/audio/quran/001005.mp3"
+        }
+      },
+      {
+        "more": {
+          "title": "Read all seven verses",
+          "blocks": [
+            {
+              "quote": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+              "cite": "Quran 1:1 (Saheeh International translation)"
+            },
+            {
+              "quote": "[All] praise is [due] to Allah, Lord of the worlds.",
+              "cite": "Quran 1:2 (Saheeh International translation)"
+            },
+            {
+              "quote": "The Entirely Merciful, the Especially Merciful,",
+              "cite": "Quran 1:3 (Saheeh International translation)"
+            },
+            {
+              "quote": "Sovereign of the Day of Recompense.",
+              "cite": "Quran 1:4 (Saheeh International translation)"
+            },
+            {
+              "quote": "It is You we worship and You we ask for help.",
+              "cite": "Quran 1:5 (Saheeh International translation)"
+            },
+            {
+              "quote": "Guide us to the straight path.",
+              "cite": "Quran 1:6 (Saheeh International translation)"
+            },
+            {
+              "quote": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+              "cite": "Quran 1:7 (Saheeh International translation)"
+            },
+            {
+              "p": "In short: it praises God, calls Him merciful, reminds us of a Day when everyone is answered for their life, and asks Him for guidance."
+            }
+          ]
+        }
+      },
+      {
+        "h": "How to start reading"
+      },
+      {
+        "steps": {
+          "title": "A gentle way in",
+          "steps": [
+            "Pick a respected English translation. Saheeh International is a common, plain one. Many editions put the Arabic beside it.",
+            "Begin with Al-Fatiha, then a few short surahs near the end of the book.",
+            "Read a little each day, such as one page. You do not need to start at page one and push through.",
+            "Pause on what you do not understand. Write your questions down.",
+            "You do not have to agree with anything. Reading is just reading."
+          ]
+        }
+      },
+      {
+        "p": "The Quran itself invites you to think about it:"
+      },
+      {
+        "quote": "Then do they not reflect upon the Qur'an? If it had been from [any] other than Allah, they would have found within it much contradiction.",
+        "cite": "Quran 4:82 (Saheeh International translation)"
+      },
+      {
+        "quick": {
+          "question": "What is an English translation of the Quran?",
+          "options": [
+            "The Quran itself, in English",
+            "A human attempt to give the meaning of the Arabic",
+            "A different book written by the translator"
+          ],
+          "correct": 1,
+          "explanation": "Muslims hold that the Quran is the Arabic words. A translation gives the meaning, which is why more than one exists."
+        }
+      },
+      {
+        "key": "The Quran has 114 surahs, was revealed in Arabic over about 23 years, and a translation gives its meaning, not the Quran itself."
+      },
+      {
+        "p": "Next, you will see how the Quran was kept safe from the Prophet's time to today."
+      }
+    ],
+    "ar": [
+      {
+        "p": "القرآن هو الكتاب الذي يؤمن المسلمون أنه كلام الله. لا يلزمك أن تؤمن بذلك لتقرأ هذا الدرس، فهو يشرح فقط ما هذا الكتاب وكيف يقرؤه الناس."
+      },
+      {
+        "h": "من أين جاء"
+      },
+      {
+        "flow": {
+          "title": "كيف وصل إلى الناس كما يقول المسلمون",
+          "steps": [
+            {
+              "label": "الله",
+              "text": "الخالق سبحانه يتكلم بكلامه."
+            },
+            {
+              "label": "جبريل",
+              "text": "الملَك جبريل عليه السلام ينقله."
+            },
+            {
+              "label": "محمد",
+              "text": "النبي محمد صلى الله عليه وسلم يسمعه ويتلوه."
+            },
+            {
+              "label": "الناس",
+              "text": "يعلّمه لمن حوله، فيحفظونه ويكتبونه."
+            }
+          ]
+        }
+      },
+      {
+        "p": "ولم ينزل دفعة واحدة، بل نزل آياتٍ أو سورةً بعد سورة على نحو ثلاث وعشرين سنة، وكثيرًا ما جاء جوابًا عمّا يجري في حياته."
+      },
+      {
+        "h": "كيف رُتّب"
+      },
+      {
+        "facts": {
+          "title": "القرآن في نظرة",
+          "items": [
+            {
+              "icon": "book",
+              "label": "114 سورة",
+              "text": "السورة هي الفصل. بعضها طويل وبعضها ثلاث آيات فقط."
+            },
+            {
+              "icon": "message",
+              "label": "الآيات",
+              "text": "تتكوّن كل سورة من آيات. أطولها سورة البقرة وأقصرها سورة الكوثر."
+            },
+            {
+              "icon": "compass",
+              "label": "ليس قصة متسلسلة",
+              "text": "لم يُرتَّب بحسب التاريخ ولا كقصة واحدة، وأغلب السور مرتبة من الأطول إلى الأقصر."
+            }
+          ]
+        }
+      },
+      {
+        "h": "العربية والترجمات"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "القرآن",
+            "items": [
+              "الألفاظ العربية كما نزلت",
+              "يتلوه المسلمون بالعربية"
+            ]
+          },
+          "second": {
+            "title": "الترجمة",
+            "items": [
+              "محاولة من إنسان لنقل المعنى إلى لغة أخرى",
+              "مفيدة، لكنها ليست القرآن نفسه"
+            ]
+          }
+        }
+      },
+      {
+        "p": "للكلمة العربية أحيانًا أكثر من ظلّ للمعنى، فتختلف الترجمات قليلًا. ولهذا يقول المسلمون إن الترجمة تنقل معاني القرآن لا القرآن نفسه."
+      },
+      {
+        "h": "لمحة: سورة الفاتحة"
+      },
+      {
+        "p": "الفاتحة هي السورة الأولى، وهي سبع آيات فقط، ويقرؤها المسلمون في كل صلاة. وهذا قلبها."
+      },
+      {
+        "phrase": {
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "transliteration": "Iyyaka na'budu wa iyyaka nasta'in",
+          "meaning": "إياك وحدك نعبد، وإياك وحدك نطلب العون.",
+          "audio": "/audio/quran/001005.mp3"
+        }
+      },
+      {
+        "more": {
+          "title": "اقرأ الآيات السبع",
+          "blocks": [
+            {
+              "quote": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "cite": "سورة الفاتحة: 1"
+            },
+            {
+              "quote": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+              "cite": "سورة الفاتحة: 2"
+            },
+            {
+              "quote": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "cite": "سورة الفاتحة: 3"
+            },
+            {
+              "quote": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+              "cite": "سورة الفاتحة: 4"
+            },
+            {
+              "quote": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "cite": "سورة الفاتحة: 5"
+            },
+            {
+              "quote": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+              "cite": "سورة الفاتحة: 6"
+            },
+            {
+              "quote": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+              "cite": "سورة الفاتحة: 7"
+            },
+            {
+              "p": "خلاصتها: ثناء على الله، وذكر لرحمته، وتذكير بيوم يُسأل فيه الجميع عن حياتهم، وطلب الهداية منه."
+            }
+          ]
+        }
+      },
+      {
+        "h": "كيف تبدأ القراءة"
+      },
+      {
+        "steps": {
+          "title": "بداية هادئة",
+          "steps": [
+            "اختر ترجمة موثوقة بلغتك. كثير من الطبعات تضع النص العربي بجانب الترجمة.",
+            "ابدأ بالفاتحة، ثم بعض السور القصيرة في آخر المصحف.",
+            "اقرأ قليلًا كل يوم، كصفحة واحدة. لا يلزمك أن تبدأ من الصفحة الأولى وتكمل دفعة واحدة.",
+            "قف عند ما لا تفهمه، واكتب أسئلتك.",
+            "لا يلزمك أن توافق على شيء. القراءة قراءة فقط."
+          ]
+        }
+      },
+      {
+        "p": "والقرآن نفسه يدعوك إلى التفكر فيه:"
+      },
+      {
+        "quote": "أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ ۚ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُوا۟ فِيهِ ٱخْتِلَٰفًۭا كَثِيرًۭا",
+        "cite": "سورة النساء: 82"
+      },
+      {
+        "quick": {
+          "question": "ما الترجمة الإنجليزية للقرآن؟",
+          "options": [
+            "هي القرآن نفسه بالإنجليزية",
+            "محاولة بشرية لنقل معنى العربية",
+            "كتاب آخر ألّفه المترجم"
+          ],
+          "correct": 1,
+          "explanation": "يرى المسلمون أن القرآن هو الألفاظ العربية. والترجمة تنقل المعنى، ولذلك توجد ترجمات متعددة."
+        }
+      },
+      {
+        "key": "للقرآن 114 سورة، نزل بالعربية على نحو ثلاث وعشرين سنة، والترجمة تنقل معناه لا القرآن نفسه."
+      },
+      {
+        "p": "في الدرس التالي سترى كيف حُفظ القرآن من زمن النبي حتى اليوم."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Corán es el libro que los musulmanes creen que es la palabra de Dios. No necesitas creerlo para leer esta lección. Solo explica qué es el libro y cómo lo lee la gente."
+      },
+      {
+        "h": "De dónde viene"
+      },
+      {
+        "flow": {
+          "title": "Cómo dicen los musulmanes que llegó a la gente",
+          "steps": [
+            {
+              "label": "Dios",
+              "text": "Dios, el Creador, dice Sus palabras."
+            },
+            {
+              "label": "Yibril",
+              "text": "El ángel Gabriel (Yibril) las lleva."
+            },
+            {
+              "label": "Muhammad",
+              "text": "El Profeta Muhammad, la paz sea con él, las oye y las recita."
+            },
+            {
+              "label": "La gente",
+              "text": "Él las enseña, y quienes lo rodeaban las aprenden y las escriben."
+            }
+          ]
+        }
+      },
+      {
+        "p": "No llegó de una vez. Llegó unos versículos o un capítulo a la vez, durante unos 23 años, muchas veces como respuesta a lo que ocurría en su vida."
+      },
+      {
+        "h": "Cómo está organizado"
+      },
+      {
+        "facts": {
+          "title": "El Corán de un vistazo",
+          "items": [
+            {
+              "icon": "book",
+              "label": "114 suras",
+              "text": "Una sura es un capítulo. Unas son largas y otras tienen solo tres versículos."
+            },
+            {
+              "icon": "message",
+              "label": "Versículos",
+              "text": "Cada sura está hecha de aleyas (versículos). Al-Baqara es la más larga y Al-Kauzar la más corta."
+            },
+            {
+              "icon": "compass",
+              "label": "No es una historia en orden",
+              "text": "No sigue el orden de las fechas ni es un solo relato. Las suras van, en su mayoría, de las más largas a las más cortas."
+            }
+          ]
+        }
+      },
+      {
+        "h": "El árabe y las traducciones"
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "El Corán",
+            "items": [
+              "Las palabras en árabe tal como fueron reveladas",
+              "Los musulmanes lo recitan en árabe"
+            ]
+          },
+          "second": {
+            "title": "Una traducción",
+            "items": [
+              "Un intento de una persona de dar el significado en español",
+              "Útil, pero no es el Corán mismo"
+            ]
+          }
+        }
+      },
+      {
+        "p": "Las palabras árabes suelen tener más de un matiz, así que cada traducción es un poco distinta. Por eso los musulmanes dicen que una traducción da el significado del Corán, no el Corán mismo."
+      },
+      {
+        "h": "Una muestra: Al-Fatiha"
+      },
+      {
+        "p": "Al-Fatiha (La Apertura) es la primera sura, de solo siete versículos. Los musulmanes la recitan en cada oración. Este es su centro."
+      },
+      {
+        "phrase": {
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "transliteration": "Iyyaka na'budu wa iyyaka nasta'in",
+          "meaning": "solo a Ti te adoramos y solo de Ti imploramos ayuda.",
+          "audio": "/audio/quran/001005.mp3"
+        }
+      },
+      {
+        "more": {
+          "title": "Lee los siete versículos",
+          "blocks": [
+            {
+              "quote": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes.",
+              "cite": "Corán 1:1 (traducción de Isa García)"
+            },
+            {
+              "quote": "Todas las alabanzas son para Dios, Señor de todo cuanto existe,",
+              "cite": "Corán 1:2 (traducción de Isa García)"
+            },
+            {
+              "quote": "el Compasivo, el Misericordioso.",
+              "cite": "Corán 1:3 (traducción de Isa García)"
+            },
+            {
+              "quote": "Soberano absoluto del Día del Juicio Final,",
+              "cite": "Corán 1:4 (traducción de Isa García)"
+            },
+            {
+              "quote": "solo a Ti te adoramos y solo de Ti imploramos ayuda.",
+              "cite": "Corán 1:5 (traducción de Isa García)"
+            },
+            {
+              "quote": "¡Guíanos por el camino recto!",
+              "cite": "Corán 1:6 (traducción de Isa García)"
+            },
+            {
+              "quote": "El camino de los que has colmado con Tus favores, no el de los que cayeron en Tu ira, ni el de los que se extraviaron.",
+              "cite": "Corán 1:7 (traducción de Isa García)"
+            },
+            {
+              "p": "En resumen: alaba a Dios, lo llama misericordioso, recuerda un Día en que todos responderán por su vida y le pide guía."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Cómo empezar a leer"
+      },
+      {
+        "steps": {
+          "title": "Una forma tranquila de entrar",
+          "steps": [
+            "Elige una traducción respetada al español. Muchas ediciones ponen el árabe al lado.",
+            "Empieza por Al-Fatiha y luego algunas suras cortas del final del libro.",
+            "Lee un poco cada día, por ejemplo una página. No hace falta empezar en la página uno y avanzar sin parar.",
+            "Detente en lo que no entiendas. Anota tus preguntas.",
+            "No tienes que estar de acuerdo con nada. Leer es solo leer."
+          ]
+        }
+      },
+      {
+        "p": "El propio Corán te invita a reflexionar sobre él:"
+      },
+      {
+        "quote": "¿Acaso no reflexionan en el Corán y sus significados? Si no procediera de Dios encontrarían en él numerosas contradicciones.",
+        "cite": "Corán 4:82 (traducción de Isa García)"
+      },
+      {
+        "quick": {
+          "question": "¿Qué es una traducción del Corán al español?",
+          "options": [
+            "El Corán mismo, en español",
+            "Un intento humano de dar el significado del árabe",
+            "Otro libro escrito por el traductor"
+          ],
+          "correct": 1,
+          "explanation": "Los musulmanes sostienen que el Corán son las palabras en árabe. Una traducción da el significado, y por eso existen varias."
+        }
+      },
+      {
+        "key": "El Corán tiene 114 suras, fue revelado en árabe durante unos 23 años, y una traducción da su significado, no el Corán mismo."
+      },
+      {
+        "p": "En la siguiente lección verás cómo se mantuvo a salvo el Corán desde la época del Profeta hasta hoy."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 1:1 (Saheeh International translation)",
+      "url": "https://quran.com/1/1"
+    },
+    {
+      "label": "Quran 1:2 (Saheeh International translation)",
+      "url": "https://quran.com/1/2"
+    },
+    {
+      "label": "Quran 1:3 (Saheeh International translation)",
+      "url": "https://quran.com/1/3"
+    },
+    {
+      "label": "Quran 1:4 (Saheeh International translation)",
+      "url": "https://quran.com/1/4"
+    },
+    {
+      "label": "Quran 1:5 (Saheeh International translation)",
+      "url": "https://quran.com/1/5"
+    },
+    {
+      "label": "Quran 1:6 (Saheeh International translation)",
+      "url": "https://quran.com/1/6"
+    },
+    {
+      "label": "Quran 1:7 (Saheeh International translation)",
+      "url": "https://quran.com/1/7"
+    },
+    {
+      "label": "Quran 4:82 (Saheeh International translation)",
+      "url": "https://quran.com/4/82"
+    },
+    {
+      "label": "Sahih al-Bukhari 3902 and Sahih Muslim 2351 (about 23 years of revelation)",
+      "url": "https://hadeethenc.com/en/browse/hadith/10975"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "How long did the revelation of the Quran take, according to Muslims?",
+        "ar": "كم استغرق نزول القرآن عند المسلمين؟",
+        "es": "¿Cuánto tardó la revelación del Corán, según los musulmanes?"
+      },
+      "options": [
+        {
+          "en": "One night",
+          "ar": "ليلة واحدة",
+          "es": "Una sola noche"
+        },
+        {
+          "en": "About 23 years",
+          "ar": "نحو ثلاث وعشرين سنة",
+          "es": "Unos 23 años"
+        },
+        {
+          "en": "About 3 years",
+          "ar": "نحو ثلاث سنوات",
+          "es": "Unos 3 años"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "It came little by little, a few verses or a chapter at a time, over about 23 years.",
+        "ar": "نزل شيئًا فشيئًا، آيات أو سورة في كل مرة، على نحو ثلاث وعشرين سنة.",
+        "es": "Llegó poco a poco, unos versículos o un capítulo a la vez, durante unos 23 años."
+      }
+    },
+    {
+      "q": {
+        "en": "How many surahs (chapters) does the Quran have?",
+        "ar": "كم عدد سور القرآن؟",
+        "es": "¿Cuántas suras (capítulos) tiene el Corán?"
+      },
+      "options": [
+        {
+          "en": "30",
+          "ar": "30",
+          "es": "30"
+        },
+        {
+          "en": "66",
+          "ar": "66",
+          "es": "66"
+        },
+        {
+          "en": "114",
+          "ar": "114",
+          "es": "114"
+        }
+      ],
+      "correct": 2,
+      "why": {
+        "en": "The Quran has 114 surahs, from the long Al-Baqarah to short ones of three verses.",
+        "ar": "للقرآن 114 سورة، من البقرة الطويلة إلى سور قصيرة من ثلاث آيات.",
+        "es": "El Corán tiene 114 suras, desde la larga Al-Baqara hasta otras de tres versículos."
+      }
+    }
+  ]
+}

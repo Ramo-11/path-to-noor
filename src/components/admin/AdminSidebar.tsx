@@ -19,7 +19,7 @@ import {
   Flag,
   type LucideIcon,
 } from "lucide-react";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 interface NavItem {
   href: string;
@@ -49,6 +49,35 @@ interface AdminSidebarProps {
 export function AdminSidebar({ userRole }: AdminSidebarProps) {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
+  const [waiting, setWaiting] = useState(0);
+
+  const loadWaiting = useCallback(async () => {
+    try {
+      const res = await fetch("/api/admin/attention", { cache: "no-store" });
+      if (!res.ok) return;
+      const json = await res.json();
+      if (typeof json?.data?.total === "number") setWaiting(json.data.total);
+    } catch {
+      return;
+    }
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(loadWaiting, 0);
+    return () => clearTimeout(timer);
+  }, [pathname, loadWaiting]);
+
+  useEffect(() => {
+    const tick = () => {
+      if (document.visibilityState === "visible") loadWaiting();
+    };
+    const timer = setInterval(tick, 60000);
+    document.addEventListener("visibilitychange", tick);
+    return () => {
+      clearInterval(timer);
+      document.removeEventListener("visibilitychange", tick);
+    };
+  }, [loadWaiting]);
 
   const filteredItems = navItems.filter(
     (item) => !item.superAdminOnly || userRole === "super_admin"
@@ -89,7 +118,7 @@ export function AdminSidebar({ userRole }: AdminSidebarProps) {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors ${
+              className={`relative flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors ${
                 isActive
                   ? "bg-primary-600 text-white"
                   : "text-slate-300 hover:bg-slate-800 hover:text-white"
@@ -98,6 +127,16 @@ export function AdminSidebar({ userRole }: AdminSidebarProps) {
             >
               <item.icon className="h-5 w-5 flex-shrink-0" />
               {!collapsed && <span>{item.label}</span>}
+              {item.href === "/admin/mentorship" && waiting > 0 && (
+                <span
+                  aria-label={`${waiting} waiting`}
+                  className={`${
+                    collapsed ? "absolute top-0.5 end-0.5" : "ms-auto"
+                  } inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-500 px-1.5 text-xs font-semibold text-white`}
+                >
+                  {waiting}
+                </span>
+              )}
             </Link>
           );
         })}

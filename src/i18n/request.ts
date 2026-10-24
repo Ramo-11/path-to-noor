@@ -29,6 +29,8 @@ export const MESSAGE_NAMESPACES = [
   "feedback",
   "search",
   "install",
+  "tracks",
+  "volunteer",
 ] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {

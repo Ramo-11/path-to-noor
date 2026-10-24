@@ -1,5 +1,6 @@
 {
   "slug": "growing-deeper",
+  "tracks": ["new", "muslim"],
   "stage": "deeper",
   "order": 1,
   "title": {

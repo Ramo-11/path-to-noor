@@ -1,0 +1,335 @@
+{
+  "slug": "mentor-first-conversations",
+  "minutes": 4,
+  "title": {
+    "en": "Your first conversations",
+    "ar": "محادثاتك الأولى",
+    "es": "Tus primeras conversaciones"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "The first chat sets the tone. Your goal is simple: help them feel heard and not alone."
+      },
+      {
+        "flow": {
+          "title": "A good first chat",
+          "steps": [
+            {
+              "label": "Greet",
+              "text": "Say salam, introduce yourself, and share a little about you."
+            },
+            {
+              "label": "Listen",
+              "text": "Let them tell their story at their own pace."
+            },
+            {
+              "label": "Ask",
+              "text": "What would help most right now?"
+            },
+            {
+              "label": "One step",
+              "text": "Choose one small thing for this week, and no more."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Ask before you explain"
+      },
+      {
+        "p": "Everyone arrives with different needs. One person wants help with prayer. Another wants someone to talk to about their family."
+      },
+      {
+        "scenario": {
+          "situation": "A new Muslim writes to you for the first time.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "I said my shahada a month ago. I don't know where to start."
+            },
+            {
+              "from": "you",
+              "text": "Welcome, and congratulations. I am glad you wrote. What feels hardest right now?"
+            },
+            {
+              "from": "them",
+              "text": "Prayer. I'm scared I'll do it wrong."
+            },
+            {
+              "from": "you",
+              "text": "That is normal. Let's pick just the first step, and I will walk with you."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Make it easy"
+      },
+      {
+        "p": "The Prophet, peace be upon him, said:"
+      },
+      {
+        "quote": "Make matters easy and do not make them difficult, and give people glad tidings and do not drive them away.",
+        "cite": "Sahih al-Bukhari 69 and Sahih Muslim 1734 (agreed upon)"
+      },
+      {
+        "p": "One small step this week is enough. Next week brings the next one."
+      },
+      {
+        "quick": {
+          "question": "A new Muslim says prayer feels overwhelming. What do you do first?",
+          "options": [
+            "Give them the full prayer schedule and rules",
+            "Listen, then choose one small step together",
+            "Tell them everyone struggles at first"
+          ],
+          "correct": 1,
+          "explanation": "Listening first shows care, and one small step keeps it light."
+        }
+      },
+      {
+        "key": "Listen first, ask what they need, and give one small step at a time."
+      }
+    ],
+    "ar": [
+      {
+        "p": "المحادثة الأولى ترسم الجو العام. هدفك بسيط: أن يشعر بأنه مسموع وليس وحده."
+      },
+      {
+        "flow": {
+          "title": "محادثة أولى جيدة",
+          "steps": [
+            {
+              "label": "سلّم",
+              "text": "ألقِ السلام وعرّف بنفسك وقل شيئًا قليلًا عنك."
+            },
+            {
+              "label": "أصغِ",
+              "text": "دعه يروي قصته بوتيرته."
+            },
+            {
+              "label": "اسأل",
+              "text": "ما الذي سيفيدك أكثر الآن؟"
+            },
+            {
+              "label": "خطوة واحدة",
+              "text": "اختر أمرًا صغيرًا واحدًا لهذا الأسبوع لا أكثر."
+            }
+          ]
+        }
+      },
+      {
+        "h": "اسأل قبل أن تشرح"
+      },
+      {
+        "p": "لكل إنسان حاجته. بعضهم يريد مساعدة في الصلاة، وبعضهم يريد من يحدّثه عن أهله."
+      },
+      {
+        "scenario": {
+          "situation": "مسلم جديد يكتب إليك لأول مرة.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "نطقت الشهادة قبل شهر ولا أعرف من أين أبدأ."
+            },
+            {
+              "from": "you",
+              "text": "أهلًا بك ومبارك لك. سعيد بأنك كتبت. ما الأصعب عليك الآن؟"
+            },
+            {
+              "from": "them",
+              "text": "الصلاة. أخاف أن أخطئ فيها."
+            },
+            {
+              "from": "you",
+              "text": "هذا طبيعي. دعنا نختار الخطوة الأولى فقط وسأكون معك."
+            }
+          ]
+        }
+      },
+      {
+        "h": "يسّر ولا تعسّر"
+      },
+      {
+        "p": "قال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "يَسِّرُوا وَلَا تُعَسِّرُوا، وَبَشِّرُوا وَلَا تُنَفِّرُوا",
+        "cite": "صحيح البخاري 69 وصحيح مسلم 1734 (متفق عليه)"
+      },
+      {
+        "p": "خطوة صغيرة هذا الأسبوع تكفي، وفي الأسبوع القادم الخطوة التي بعدها."
+      },
+      {
+        "quick": {
+          "question": "يقول مسلم جديد إن الصلاة تبدو ثقيلة عليه. ماذا تفعل أولًا؟",
+          "options": [
+            "تعطيه جدول الصلوات وأحكامها كاملة",
+            "تصغي إليه ثم تختاران خطوة صغيرة معًا",
+            "تقول له إن الجميع يتعب في البداية وتكتفي"
+          ],
+          "correct": 1,
+          "explanation": "الإصغاء أولًا يُظهر الاهتمام، والخطوة الصغيرة تُبقي الأمر خفيفًا."
+        }
+      },
+      {
+        "key": "أصغِ أولًا، واسأل عما يحتاجه، وأعطه خطوة صغيرة واحدة في كل مرة."
+      }
+    ],
+    "es": [
+      {
+        "p": "La primera charla marca el tono. Tu meta es simple: que se sientan escuchados y no solos."
+      },
+      {
+        "flow": {
+          "title": "Una buena primera charla",
+          "steps": [
+            {
+              "label": "Saluda",
+              "text": "Di salam, preséntate y cuenta un poco sobre ti."
+            },
+            {
+              "label": "Escucha",
+              "text": "Deja que cuenten su historia a su ritmo."
+            },
+            {
+              "label": "Pregunta",
+              "text": "¿Qué te ayudaría más ahora mismo?"
+            },
+            {
+              "label": "Un paso",
+              "text": "Elijan una sola cosa pequeña para esta semana, y nada más."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Pregunta antes de explicar"
+      },
+      {
+        "p": "Cada persona llega con necesidades distintas. Uno quiere ayuda con la oración. Otro quiere alguien con quien hablar de su familia."
+      },
+      {
+        "scenario": {
+          "situation": "Un nuevo musulmán te escribe por primera vez.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "Dije mi shahada hace un mes. No sé por dónde empezar."
+            },
+            {
+              "from": "you",
+              "text": "Bienvenido y felicidades. Me alegra que escribieras. ¿Qué es lo más difícil ahora?"
+            },
+            {
+              "from": "them",
+              "text": "La oración. Tengo miedo de hacerla mal."
+            },
+            {
+              "from": "you",
+              "text": "Es normal. Elijamos solo el primer paso, y yo te acompaño."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Hazlo fácil"
+      },
+      {
+        "p": "El Profeta, la paz sea con él, dijo:"
+      },
+      {
+        "quote": "Faciliten las cosas y no las dificulten. Sean portadores de buenas noticias y no de malas.",
+        "cite": "Sahih al-Bukhari 69 y Sahih Muslim 1734 (acordado)"
+      },
+      {
+        "p": "Un paso pequeño esta semana es suficiente. La próxima semana trae el siguiente."
+      },
+      {
+        "quick": {
+          "question": "Un nuevo musulmán dice que la oración le abruma. ¿Qué haces primero?",
+          "options": [
+            "Le das el horario y las reglas completas",
+            "Escuchas y luego eligen juntos un paso pequeño",
+            "Les dices que todos batallan al principio y ya"
+          ],
+          "correct": 1,
+          "explanation": "Escuchar primero muestra interés, y un paso pequeño lo mantiene ligero."
+        }
+      },
+      {
+        "key": "Escucha primero, pregunta qué necesitan y da un solo paso pequeño cada vez."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih al-Bukhari 69 and Sahih Muslim 1734 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5866"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What should come before explaining?",
+        "ar": "ما الذي يسبق الشرح؟",
+        "es": "¿Qué debe venir antes de explicar?"
+      },
+      "options": [
+        {
+          "en": "Listening and asking what they need",
+          "ar": "الإصغاء والسؤال عن حاجتهم",
+          "es": "Escuchar y preguntar qué necesitan"
+        },
+        {
+          "en": "Testing what they know",
+          "ar": "اختبار ما يعرفونه",
+          "es": "Evaluar lo que saben"
+        },
+        {
+          "en": "Sending a reading list",
+          "ar": "إرسال قائمة قراءة",
+          "es": "Enviar una lista de lectura"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Every person arrives with different needs, so ask first.",
+        "ar": "لكل شخص حاجاته، فاسأل أولًا.",
+        "es": "Cada persona llega con necesidades distintas, así que pregunta primero."
+      }
+    },
+    {
+      "q": {
+        "en": "What did the Prophet, peace be upon him, tell us about matters of religion with people?",
+        "ar": "ماذا قال النبي صلى الله عليه وسلم في التعامل مع الناس؟",
+        "es": "¿Qué nos dijo el Profeta, la paz sea con él, sobre tratar con la gente?"
+      },
+      "options": [
+        {
+          "en": "Make matters easy and do not drive people away",
+          "ar": "يسّروا ولا تعسّروا ولا تنفّروا",
+          "es": "Faciliten las cosas y no alejen a la gente"
+        },
+        {
+          "en": "Teach everything at once",
+          "ar": "علّموا كل شيء دفعة واحدة",
+          "es": "Enseñen todo de una vez"
+        },
+        {
+          "en": "Wait until they ask",
+          "ar": "انتظروا حتى يسألوا",
+          "es": "Esperen a que pregunten"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The hadith in Bukhari and Muslim tells us to make things easy and give glad tidings.",
+        "ar": "في الحديث المتفق عليه أمر بالتيسير والتبشير.",
+        "es": "El hadiz de Bukhari y Muslim nos dice que facilitemos y demos buenas noticias."
+      }
+    }
+  ]
+}

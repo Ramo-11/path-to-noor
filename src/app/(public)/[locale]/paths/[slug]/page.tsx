@@ -6,10 +6,10 @@ import { ArrowLeft, BookOpen, Clock, Layers } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { auth } from "@/lib/auth-config";
 import { getCompletedLessonIds, getPathOutlineBySlug } from "@/lib/learning";
-import { STAGE_STYLES, localized } from "@/lib/stages";
+import { localized } from "@/lib/stages";
+import { pathArtFor, toneStyle } from "@/lib/path-tone";
 import { Illustration } from "@/components/primer/Illustration";
 import { StageChip } from "@/components/primer/StageChip";
-import { pathArt } from "@/lib/illustrations";
 import { JourneyAction } from "@/components/paths/JourneyAction";
 import { JourneyEnd } from "@/components/paths/JourneyEnd";
 import { MetaChips } from "@/components/paths/MetaChips";
@@ -76,7 +76,7 @@ export default async function PathJourneyPage({ params }: { params: Params }) {
   const title = localized(path.title, locale);
   const description = localized(path.description, locale);
   const duration = pathDuration(path);
-  const stageStyle = STAGE_STYLES[path.stage];
+  const stageStyle = toneStyle(path.stage);
 
   const states: StepState[] = path.steps.map((step, index) => {
     if (step.isPreparing) return "preparing";
@@ -143,7 +143,7 @@ export default async function PathJourneyPage({ params }: { params: Params }) {
               <p className="mt-3 line-clamp-2 max-w-[52ch] text-lg text-ink-2 text-pretty">{description}</p>
             ) : null}
             <div className="mt-5 flex flex-wrap items-center gap-2">
-              <StageChip stage={path.stage} />
+              {path.stage ? <StageChip stage={path.stage} /> : null}
               <MetaChips
                 items={[
                   { icon: Layers, label: tl("stepCount", { count: path.steps.length }) },
@@ -169,7 +169,7 @@ export default async function PathJourneyPage({ params }: { params: Params }) {
           <div className="px-3 pb-3 md:py-3 md:ps-0">
             <div className="aspect-[16/9] overflow-hidden rounded-[calc(var(--radius-panel)-0.5rem)] md:aspect-auto md:h-full md:min-h-[16rem]">
               <Illustration
-                name={pathArt(path.slug, path.stage)}
+                name={pathArtFor(path.slug, path.stage)}
                 sizes="(min-width: 768px) 48vw, 100vw"
                 priority
               />

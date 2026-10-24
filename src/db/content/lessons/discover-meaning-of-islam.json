@@ -1,0 +1,533 @@
+{
+  "slug": "discover-meaning-of-islam",
+  "minutes": 5,
+  "title": {
+    "en": "What does Islam mean?",
+    "ar": "ما معنى الإسلام؟",
+    "es": "¿Qué significa Islam?"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Islam is a way of life built on one idea: trusting and following the One God who made you. This lesson gives you the whole picture in a few minutes."
+      },
+      {
+        "h": "What the words mean"
+      },
+      {
+        "facts": {
+          "title": "Three words",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Islam",
+              "text": "Submitting to God, and the peace that comes from it. It comes from the same Arabic root as the word for peace."
+            },
+            {
+              "icon": "users",
+              "label": "Muslim",
+              "text": "Someone who submits to God. It is a description, not a label of a tribe or a culture."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Allah",
+              "text": "The Arabic word for God. You will see more on this in the next lesson."
+            }
+          ]
+        }
+      },
+      {
+        "h": "The core in one picture"
+      },
+      {
+        "facts": {
+          "title": "What Islam asks of a person",
+          "items": [
+            {
+              "icon": "star",
+              "label": "Believe",
+              "text": "In one God, and in the messengers He sent to guide people."
+            },
+            {
+              "icon": "hands",
+              "label": "Worship",
+              "text": "Pray and turn to Him directly, with no middleman."
+            },
+            {
+              "icon": "heart",
+              "label": "Be good",
+              "text": "Honest, kind, and fair to everyone, because God sees all."
+            }
+          ]
+        }
+      },
+      {
+        "h": "A family of faiths"
+      },
+      {
+        "p": "Muslims do not see Islam as a brand new religion. They believe it is the same message that Abraham, Moses, and Jesus, peace be upon them, brought: worship the One God. Islam honors Jews and Christians as People of the Book, and the Quran tells Muslims to speak with them kindly."
+      },
+      {
+        "quote": "And do not argue with the People of the Scripture except in a way that is best, except for those who commit injustice among them, and say, \"We believe in that which has been revealed to us and revealed to you. And our God and your God is one; and we are Muslims [in submission] to Him.\"",
+        "cite": "Quran 29:46 (Saheeh International translation)"
+      },
+      {
+        "p": "Muslims and Christians still differ on some points, such as who Jesus is. You will look at that honestly in a later step."
+      },
+      {
+        "h": "Six beliefs and five practices"
+      },
+      {
+        "facts": {
+          "title": "The six beliefs",
+          "items": [
+            {
+              "icon": "star",
+              "label": "God",
+              "text": "There is only one."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Angels",
+              "text": "Beings made of light who serve God."
+            },
+            {
+              "icon": "book",
+              "label": "Books",
+              "text": "The scriptures God revealed, ending with the Quran."
+            },
+            {
+              "icon": "message",
+              "label": "Messengers",
+              "text": "The prophets, from Adam to Muhammad."
+            },
+            {
+              "icon": "scale",
+              "label": "Last Day",
+              "text": "Everyone returns to God and is judged fairly."
+            },
+            {
+              "icon": "compass",
+              "label": "Divine decree",
+              "text": "Nothing happens outside God's knowledge and plan."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "title": "The five pillars of practice",
+          "steps": [
+            {
+              "label": "Declaration of faith",
+              "text": "Say that there is no god but God and that Muhammad is His messenger."
+            },
+            {
+              "label": "Prayer",
+              "text": "Five short prayers a day."
+            },
+            {
+              "label": "Charity",
+              "text": "Give a small share of savings to those in need each year."
+            },
+            {
+              "label": "Fasting",
+              "text": "No food or drink from dawn to sunset in Ramadan."
+            },
+            {
+              "label": "Pilgrimage",
+              "text": "A journey to Makkah once in a lifetime, for those who are able."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Do you have to take it all on at once?",
+          "blocks": [
+            {
+              "p": "No. You are only exploring. Nobody asks you to believe or practice anything here. Take your time and ask any question that comes to mind."
+            }
+          ]
+        }
+      },
+      {
+        "key": "Islam means submitting to the One God who made you, and the peace that follows. It is the same call that Abraham, Moses, and Jesus brought."
+      },
+      {
+        "p": "Next, you will look at the heart of Islam: who God is."
+      }
+    ],
+    "ar": [
+      {
+        "p": "الإسلام طريق حياة قائم على فكرة واحدة: أن تثق بالإله الواحد الذي خلقك وتتبّع هديه. يعرض لك هذا الدرس الصورة كاملة في دقائق."
+      },
+      {
+        "h": "معنى الكلمات"
+      },
+      {
+        "facts": {
+          "title": "ثلاث كلمات",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "الإسلام",
+              "text": "الاستسلام لله، والسلام الذي ينشأ عنه. وهي من جذر الكلمة العربية نفسه الذي تأتي منه كلمة السلام."
+            },
+            {
+              "icon": "users",
+              "label": "المسلم",
+              "text": "من يستسلم لله. وصف لحاله، لا اسم لقبيلة أو ثقافة."
+            },
+            {
+              "icon": "sparkles",
+              "label": "الله",
+              "text": "هو اللفظ العربي للإله الواحد. ستجد تفصيل ذلك في الدرس التالي."
+            }
+          ]
+        }
+      },
+      {
+        "h": "الجوهر في صورة واحدة"
+      },
+      {
+        "facts": {
+          "title": "ماذا يطلب الإسلام من الإنسان",
+          "items": [
+            {
+              "icon": "star",
+              "label": "أن تؤمن",
+              "text": "بإله واحد، وبالرسل الذين أرسلهم لهداية الناس."
+            },
+            {
+              "icon": "hands",
+              "label": "أن تعبد",
+              "text": "تصلّي وتتوجّه إليه مباشرة دون وسيط."
+            },
+            {
+              "icon": "heart",
+              "label": "أن تحسن",
+              "text": "صادقًا رحيمًا عادلًا مع الجميع، لأن الله يرى كل شيء."
+            }
+          ]
+        }
+      },
+      {
+        "h": "أسرة من الديانات"
+      },
+      {
+        "p": "لا يرى المسلمون الإسلام دينًا جديدًا. بل يؤمنون بأنه الرسالة نفسها التي جاء بها إبراهيم وموسى وعيسى عليهم السلام: عبادة الله وحده. ويحترم الإسلام اليهود والنصارى بوصفهم أهل كتاب، ويأمر القرآن المسلمين بمخاطبتهم بالحسنى."
+      },
+      {
+        "quote": "۞ وَلَا تُجَٰدِلُوٓا۟ أَهْلَ ٱلْكِتَٰبِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ ۖ وَقُولُوٓا۟ ءَامَنَّا بِٱلَّذِىٓ أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَٰهُنَا وَإِلَٰهُكُمْ وَٰحِدٌۭ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+        "cite": "سورة العنكبوت: 46"
+      },
+      {
+        "p": "ويبقى بين المسلمين والنصارى اختلاف في بعض المسائل، كحقيقة المسيح عليه السلام. وستتناول ذلك بصدق في خطوة لاحقة."
+      },
+      {
+        "h": "ستة معتقدات وخمس ممارسات"
+      },
+      {
+        "facts": {
+          "title": "أركان الإيمان الستة",
+          "items": [
+            {
+              "icon": "star",
+              "label": "الله",
+              "text": "واحد لا شريك له."
+            },
+            {
+              "icon": "sparkles",
+              "label": "الملائكة",
+              "text": "مخلوقات من نور تطيع الله."
+            },
+            {
+              "icon": "book",
+              "label": "الكتب",
+              "text": "الكتب التي أنزلها الله، وخاتمتها القرآن."
+            },
+            {
+              "icon": "message",
+              "label": "الرسل",
+              "text": "الأنبياء من آدم إلى محمد."
+            },
+            {
+              "icon": "scale",
+              "label": "اليوم الآخر",
+              "text": "يرجع الجميع إلى الله ويُحاسَبون بعدل."
+            },
+            {
+              "icon": "compass",
+              "label": "القدر",
+              "text": "لا يقع شيء خارج علم الله وتقديره."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "title": "أركان الإسلام الخمسة",
+          "steps": [
+            {
+              "label": "الشهادتان",
+              "text": "أن تشهد أن لا إله إلا الله وأن محمدًا رسول الله."
+            },
+            {
+              "label": "الصلاة",
+              "text": "خمس صلوات قصيرة في اليوم."
+            },
+            {
+              "label": "الزكاة",
+              "text": "إخراج جزء يسير من المدخرات كل عام لمن يحتاج."
+            },
+            {
+              "label": "الصيام",
+              "text": "امتناع عن الطعام والشراب من الفجر إلى الغروب في رمضان."
+            },
+            {
+              "label": "الحج",
+              "text": "رحلة إلى مكة مرة في العمر لمن استطاع."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "هل عليك أن تلتزم بكل ذلك دفعة واحدة؟",
+          "blocks": [
+            {
+              "p": "لا. أنت هنا تستكشف فقط. لا يطلب منك أحد أن تؤمن أو تمارس شيئًا. خذ وقتك واسأل عمّا يخطر ببالك."
+            }
+          ]
+        }
+      },
+      {
+        "key": "الإسلام هو الاستسلام للإله الواحد الذي خلقك، والسلام الذي يعقبه. وهو الدعوة نفسها التي جاء بها إبراهيم وموسى وعيسى."
+      },
+      {
+        "p": "في الدرس التالي ستتعرّف على قلب الإسلام: من هو الله."
+      }
+    ],
+    "es": [
+      {
+        "p": "El Islam es una forma de vida basada en una sola idea: confiar en el Dios único que te creó y seguir Su guía. Esta lección te da el panorama completo en pocos minutos."
+      },
+      {
+        "h": "Qué significan las palabras"
+      },
+      {
+        "facts": {
+          "title": "Tres palabras",
+          "items": [
+            {
+              "icon": "heart",
+              "label": "Islam",
+              "text": "Entregarse a Dios y la paz que nace de ello. Viene de la misma raíz árabe que la palabra paz."
+            },
+            {
+              "icon": "users",
+              "label": "Musulmán",
+              "text": "Quien se entrega a Dios. Es una descripción, no el nombre de una tribu o una cultura."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Allah",
+              "text": "La palabra árabe para Dios. Lo verás con más detalle en la próxima lección."
+            }
+          ]
+        }
+      },
+      {
+        "h": "El núcleo en una imagen"
+      },
+      {
+        "facts": {
+          "title": "Qué pide el Islam a una persona",
+          "items": [
+            {
+              "icon": "star",
+              "label": "Creer",
+              "text": "En un solo Dios y en los mensajeros que envió para guiar a la gente."
+            },
+            {
+              "icon": "hands",
+              "label": "Adorar",
+              "text": "Orar y volverte a Él directamente, sin intermediarios."
+            },
+            {
+              "icon": "heart",
+              "label": "Ser bueno",
+              "text": "Honesto, amable y justo con todos, porque Dios lo ve todo."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Una familia de religiones"
+      },
+      {
+        "p": "Los musulmanes no ven el Islam como una religión nueva. Creen que es el mismo mensaje que trajeron Abraham, Moisés y Jesús, la paz sea con ellos: adorar al Dios único. El Islam honra a judíos y cristianos como Gente del Libro, y el Corán manda a los musulmanes hablarles con buenas maneras."
+      },
+      {
+        "quote": "Debatan con la Gente del Libro con buenas maneras, excepto con aquellos que cometen injusticias. Digan: \"Creemos en lo que nos ha sido revelado a nosotros así como en lo que les fue revelado a ustedes. El Dios de ustedes y nuestro Dios es uno, y a Él entregamos nuestra voluntad [como musulmanes]\".",
+        "cite": "Corán 29:46 (traducción de Isa García)"
+      },
+      {
+        "p": "Musulmanes y cristianos siguen difiriendo en algunos puntos, como quién es Jesús. Lo verás con honestidad en un paso posterior."
+      },
+      {
+        "h": "Seis creencias y cinco prácticas"
+      },
+      {
+        "facts": {
+          "title": "Las seis creencias",
+          "items": [
+            {
+              "icon": "star",
+              "label": "Dios",
+              "text": "Hay uno solo."
+            },
+            {
+              "icon": "sparkles",
+              "label": "Los ángeles",
+              "text": "Seres de luz que sirven a Dios."
+            },
+            {
+              "icon": "book",
+              "label": "Los libros",
+              "text": "Las escrituras que Dios reveló, hasta el Corán."
+            },
+            {
+              "icon": "message",
+              "label": "Los mensajeros",
+              "text": "Los profetas, de Adán a Muhammad."
+            },
+            {
+              "icon": "scale",
+              "label": "El Último Día",
+              "text": "Todos regresan a Dios y son juzgados con justicia."
+            },
+            {
+              "icon": "compass",
+              "label": "El decreto divino",
+              "text": "Nada ocurre fuera del conocimiento y plan de Dios."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "title": "Los cinco pilares de la práctica",
+          "steps": [
+            {
+              "label": "Declaración de fe",
+              "text": "Decir que no hay más dios que Dios y que Muhammad es Su mensajero."
+            },
+            {
+              "label": "La oración",
+              "text": "Cinco oraciones breves al día."
+            },
+            {
+              "label": "La caridad",
+              "text": "Dar cada año una pequeña parte de los ahorros a los necesitados."
+            },
+            {
+              "label": "El ayuno",
+              "text": "Sin comida ni bebida del amanecer al atardecer en Ramadán."
+            },
+            {
+              "label": "La peregrinación",
+              "text": "Un viaje a La Meca una vez en la vida, para quien pueda."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "¿Hay que asumirlo todo de golpe?",
+          "blocks": [
+            {
+              "p": "No. Solo estás explorando. Nadie te pide creer ni practicar nada aquí. Tómate tu tiempo y haz cualquier pregunta que tengas."
+            }
+          ]
+        }
+      },
+      {
+        "key": "El Islam es entregarse al Dios único que te creó, y la paz que sigue. Es el mismo llamado que trajeron Abraham, Moisés y Jesús."
+      },
+      {
+        "p": "A continuación verás el corazón del Islam: quién es Dios."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 29:46 (Saheeh International translation)",
+      "url": "https://quran.com/29/46"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What does the word Islam mean?",
+        "ar": "ما معنى كلمة الإسلام؟",
+        "es": "¿Qué significa la palabra Islam?"
+      },
+      "options": [
+        {
+          "en": "Submitting to God, and the peace that comes from it",
+          "ar": "الاستسلام لله والسلام الناشئ عنه",
+          "es": "Entregarse a Dios y la paz que nace de ello"
+        },
+        {
+          "en": "A new religion started in the 7th century",
+          "ar": "دين جديد بدأ في القرن السابع",
+          "es": "Una religión nueva iniciada en el siglo VII"
+        },
+        {
+          "en": "The name of a people",
+          "ar": "اسم شعب",
+          "es": "El nombre de un pueblo"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "It comes from the Arabic root for peace and surrender. A Muslim is simply someone who submits to God.",
+        "ar": "هي من جذر عربي يدل على السلام والاستسلام. والمسلم هو من يستسلم لله.",
+        "es": "Viene de la raíz árabe de paz y entrega. Un musulmán es simplemente quien se entrega a Dios."
+      }
+    },
+    {
+      "q": {
+        "en": "How do Muslims see Abraham, Moses, and Jesus?",
+        "ar": "كيف ينظر المسلمون إلى إبراهيم وموسى وعيسى؟",
+        "es": "¿Cómo ven los musulmanes a Abraham, Moisés y Jesús?"
+      },
+      "options": [
+        {
+          "en": "As prophets who brought the same message of One God",
+          "ar": "أنبياء جاؤوا بالرسالة نفسها: إله واحد",
+          "es": "Como profetas que trajeron el mismo mensaje del Dios único"
+        },
+        {
+          "en": "As people unrelated to Islam",
+          "ar": "أشخاص لا صلة لهم بالإسلام",
+          "es": "Como personas sin relación con el Islam"
+        },
+        {
+          "en": "As rivals of Muhammad",
+          "ar": "منافسون لمحمد",
+          "es": "Como rivales de Muhammad"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Muslims honor all of them as messengers of the One God.",
+        "ar": "يكرم المسلمون جميعهم رسلًا للإله الواحد.",
+        "es": "Los musulmanes honran a todos como mensajeros del Dios único."
+      }
+    }
+  ]
+}

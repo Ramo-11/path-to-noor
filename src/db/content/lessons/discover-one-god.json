@@ -1,0 +1,420 @@
+{
+  "slug": "discover-one-god",
+  "minutes": 5,
+  "title": {
+    "en": "One God",
+    "ar": "إله واحد",
+    "es": "Un solo Dios"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Everything in Islam starts with one belief: God is One. This is called tawhid. Four short verses of the Quran state it more clearly than any explanation."
+      },
+      {
+        "h": "Surah al-Ikhlas"
+      },
+      {
+        "phrase": {
+          "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "transliteration": "Qul huwal-laahu ahad",
+          "meaning": "Say, \"He is Allah, [who is] One,",
+          "audio": "/audio/quran/112001.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "transliteration": "Allaahus-samad",
+          "meaning": "Allah, the Eternal Refuge.",
+          "audio": "/audio/quran/112002.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "transliteration": "Lam yalid wa lam yoolad",
+          "meaning": "He neither begets nor is born,",
+          "audio": "/audio/quran/112003.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+          "transliteration": "Wa lam yakul-lahoo kufuwan ahad",
+          "meaning": "Nor is there to Him any equivalent.\"",
+          "audio": "/audio/quran/112004.mp3"
+        }
+      },
+      {
+        "facts": {
+          "title": "In plain words",
+          "items": [
+            {
+              "icon": "star",
+              "label": "One",
+              "text": "God is one, with no partners."
+            },
+            {
+              "icon": "shield",
+              "label": "Refuge",
+              "text": "Everyone turns to Him in need. He needs no one."
+            },
+            {
+              "icon": "ban",
+              "label": "Unlike us",
+              "text": "He has no parent, child, or equal."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Is Allah a different God?"
+      },
+      {
+        "p": "No. Allah is simply the Arabic word for God. Arabic-speaking Christians and Jews use it too, and Arabic Bibles use it for God. Muslims worship the God of Abraham, Moses, and Jesus."
+      },
+      {
+        "h": "A God of mercy"
+      },
+      {
+        "p": "Almost every chapter of the Quran opens with these words. Muslims say them before eating, starting a task, or beginning to read."
+      },
+      {
+        "quote": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+        "cite": "Quran 1:1 (Saheeh International translation)"
+      },
+      {
+        "quote": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.\"",
+        "cite": "Quran 39:53 (Saheeh International translation)"
+      },
+      {
+        "h": "No middleman"
+      },
+      {
+        "p": "In Islam you do not need a priest, a saint, or anyone else to reach God. You can speak to Him anywhere, in any language, at any time."
+      },
+      {
+        "quote": "And when My servants ask you, [O Muhammad], concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
+        "cite": "Quran 2:186 (Saheeh International translation)"
+      },
+      {
+        "more": {
+          "title": "The beautiful names of God",
+          "blocks": [
+            {
+              "p": "Muslims know God through many names that describe Him, such as the Merciful, the Forgiving, the Wise, and the Creator. Each is a way of knowing Him better. They are not separate gods."
+            }
+          ]
+        }
+      },
+      {
+        "key": "God is One, close, and merciful. You can turn to Him directly, with nothing between you."
+      },
+      {
+        "p": "Next, you will see why God made us."
+      }
+    ],
+    "ar": [
+      {
+        "p": "كل شيء في الإسلام يبدأ بعقيدة واحدة: الله واحد. وهذا هو التوحيد. وأربع آيات قصيرة من القرآن تقولها بوضوح يفوق أي شرح."
+      },
+      {
+        "h": "سورة الإخلاص"
+      },
+      {
+        "phrase": {
+          "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "transliteration": "",
+          "meaning": "",
+          "audio": "/audio/quran/112001.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "transliteration": "",
+          "meaning": "",
+          "audio": "/audio/quran/112002.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "transliteration": "",
+          "meaning": "",
+          "audio": "/audio/quran/112003.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+          "transliteration": "",
+          "meaning": "",
+          "audio": "/audio/quran/112004.mp3"
+        }
+      },
+      {
+        "facts": {
+          "title": "بكلمات بسيطة",
+          "items": [
+            {
+              "icon": "star",
+              "label": "واحد",
+              "text": "الله واحد لا شريك له."
+            },
+            {
+              "icon": "shield",
+              "label": "الملجأ",
+              "text": "يقصده الجميع في حاجاتهم وهو لا يحتاج أحدًا."
+            },
+            {
+              "icon": "ban",
+              "label": "لا يشبه خلقه",
+              "text": "ليس له والد ولا ولد ولا مثيل."
+            }
+          ]
+        }
+      },
+      {
+        "h": "هل الله إله مختلف؟"
+      },
+      {
+        "p": "لا. فـ«الله» هو اللفظ العربي للإله. ويستعمله النصارى واليهود الناطقون بالعربية أيضًا، وتستعمله الترجمات العربية للكتاب المقدس. والمسلمون يعبدون إله إبراهيم وموسى وعيسى."
+      },
+      {
+        "h": "إله رحيم"
+      },
+      {
+        "p": "تبدأ بهذه الكلمات جميع سور القرآن تقريبًا. ويقولها المسلمون قبل الطعام وقبل بدء العمل وقبل القراءة."
+      },
+      {
+        "quote": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "cite": "سورة الفاتحة: 1"
+      },
+      {
+        "quote": "۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+        "cite": "سورة الزمر: 53"
+      },
+      {
+        "h": "بلا وسيط"
+      },
+      {
+        "p": "في الإسلام لا تحتاج إلى كاهن ولا وليّ ولا غيرهما لتصل إلى الله. تستطيع أن تناجيه في أي مكان وبأي لغة وفي أي وقت."
+      },
+      {
+        "quote": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ",
+        "cite": "سورة البقرة: 186"
+      },
+      {
+        "more": {
+          "title": "أسماء الله الحسنى",
+          "blocks": [
+            {
+              "p": "يعرف المسلمون الله من خلال أسماء كثيرة تصفه، مثل الرحمن والغفور والحكيم والخالق. وكل اسم باب لمعرفته أكثر. وليست آلهة متعددة."
+            }
+          ]
+        }
+      },
+      {
+        "key": "الله واحد، قريب، رحيم. وتستطيع أن تتوجّه إليه مباشرة دون واسطة."
+      },
+      {
+        "p": "بعد ذلك ستعرف لماذا خلقنا الله."
+      }
+    ],
+    "es": [
+      {
+        "p": "Todo en el Islam parte de una creencia: Dios es uno. Eso se llama tawhid. Cuatro versículos breves del Corán lo dicen con más claridad que cualquier explicación."
+      },
+      {
+        "h": "La sura al-Ikhlas"
+      },
+      {
+        "phrase": {
+          "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "transliteration": "Qul huwal-laahu ahad",
+          "meaning": "Di: \"Él es Al-lah, Uno.",
+          "audio": "/audio/quran/112001.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "transliteration": "Allaahus-samad",
+          "meaning": "Al-lah es el Absoluto.",
+          "audio": "/audio/quran/112002.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "transliteration": "Lam yalid wa lam yoolad",
+          "meaning": "No engendró ni fue engendrado.",
+          "audio": "/audio/quran/112003.mp3"
+        }
+      },
+      {
+        "phrase": {
+          "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+          "transliteration": "Wa lam yakul-lahoo kufuwan ahad",
+          "meaning": "Y no hay nada ni nadie que sea semejante a Él\".",
+          "audio": "/audio/quran/112004.mp3"
+        }
+      },
+      {
+        "facts": {
+          "title": "En palabras simples",
+          "items": [
+            {
+              "icon": "star",
+              "label": "Uno",
+              "text": "Dios es uno, sin socios."
+            },
+            {
+              "icon": "shield",
+              "label": "Refugio",
+              "text": "Todos acuden a Él en su necesidad. Él no necesita a nadie."
+            },
+            {
+              "icon": "ban",
+              "label": "Distinto a nosotros",
+              "text": "No tiene padres, hijos ni igual."
+            }
+          ]
+        }
+      },
+      {
+        "h": "¿Es Allah un Dios diferente?"
+      },
+      {
+        "p": "No. Allah es simplemente la palabra árabe para Dios. Los cristianos y judíos de habla árabe también la usan, y las Biblias en árabe la emplean para decir Dios. Los musulmanes adoran al Dios de Abraham, Moisés y Jesús."
+      },
+      {
+        "h": "Un Dios de misericordia"
+      },
+      {
+        "p": "Casi todos los capítulos del Corán se abren con estas palabras. Los musulmanes las dicen antes de comer, de empezar una tarea o de leer."
+      },
+      {
+        "quote": "En el nombre de Dios, el Compasivo con toda la creación, el Misericordioso con los creyentes.",
+        "cite": "Corán 1:1 (traducción de Isa García)"
+      },
+      {
+        "quote": "Di: \"¡Oh, siervos míos que están sumidos en el pecado [perjudicándose a sí mismos]! No desesperen de la misericordia de Dios. Dios tiene poder para perdonar todos los pecados. Él es el Perdonador, el Misericordioso\".",
+        "cite": "Corán 39:53 (traducción de Isa García)"
+      },
+      {
+        "h": "Sin intermediarios"
+      },
+      {
+        "p": "En el Islam no necesitas un sacerdote, un santo ni nadie más para llegar a Dios. Puedes hablarle en cualquier lugar, en cualquier idioma y a cualquier hora."
+      },
+      {
+        "quote": "Y si Mis siervos te preguntan por Mí [¡oh, Mujámmad!, diles] que estoy cerca de ellos. Respondo la súplica de quien Me invoca. [Entonces] que me obedezcan y crean en Mí, que así se encaminarán.",
+        "cite": "Corán 2:186 (traducción de Isa García)"
+      },
+      {
+        "more": {
+          "title": "Los bellos nombres de Dios",
+          "blocks": [
+            {
+              "p": "Los musulmanes conocen a Dios por muchos nombres que lo describen, como el Misericordioso, el Perdonador, el Sabio y el Creador. Cada uno es una forma de conocerlo mejor. No son dioses distintos."
+            }
+          ]
+        }
+      },
+      {
+        "key": "Dios es uno, cercano y misericordioso. Puedes acudir a Él directamente, sin nada entre Él y tú."
+      },
+      {
+        "p": "A continuación verás por qué Dios nos creó."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 112:1 (Saheeh International translation)",
+      "url": "https://quran.com/112/1"
+    },
+    {
+      "label": "Quran 112:2-4 (Saheeh International translation)",
+      "url": "https://quran.com/112/2-4"
+    },
+    {
+      "label": "Quran 1:1 (Saheeh International translation)",
+      "url": "https://quran.com/1/1"
+    },
+    {
+      "label": "Quran 39:53 (Saheeh International translation)",
+      "url": "https://quran.com/39/53"
+    },
+    {
+      "label": "Quran 2:186 (Saheeh International translation)",
+      "url": "https://quran.com/2/186"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What does Allah mean?",
+        "ar": "ماذا تعني كلمة الله؟",
+        "es": "¿Qué significa Allah?"
+      },
+      "options": [
+        {
+          "en": "It is the Arabic word for God",
+          "ar": "هي اللفظ العربي للإله",
+          "es": "Es la palabra árabe para Dios"
+        },
+        {
+          "en": "A different god than the God of Abraham",
+          "ar": "إله غير إله إبراهيم",
+          "es": "Un dios distinto del Dios de Abraham"
+        },
+        {
+          "en": "The name of the Prophet",
+          "ar": "اسم النبي",
+          "es": "El nombre del Profeta"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Arab Christians and Jews also say Allah. Muslims worship the God of Abraham, Moses, and Jesus.",
+        "ar": "يقول النصارى واليهود العرب أيضًا «الله». والمسلمون يعبدون إله إبراهيم وموسى وعيسى.",
+        "es": "Los cristianos y judíos árabes también dicen Allah. Los musulmanes adoran al Dios de Abraham, Moisés y Jesús."
+      }
+    },
+    {
+      "q": {
+        "en": "In Islam, how do you reach God?",
+        "ar": "كيف تصل إلى الله في الإسلام؟",
+        "es": "En el Islam, ¿cómo llegas a Dios?"
+      },
+      "options": [
+        {
+          "en": "Directly, with no middleman",
+          "ar": "مباشرة دون وسيط",
+          "es": "Directamente, sin intermediarios"
+        },
+        {
+          "en": "Only through a priest",
+          "ar": "عبر كاهن فقط",
+          "es": "Solo a través de un sacerdote"
+        },
+        {
+          "en": "Only at one special building",
+          "ar": "في مبنى خاص فقط",
+          "es": "Solo en un edificio especial"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "God says He is near and answers those who call on Him.",
+        "ar": "يقول الله إنه قريب ويجيب من دعاه.",
+        "es": "Dios dice que está cerca y responde a quien lo invoca."
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "greeting": "أهلاً بعودتك، {name}.",
   "guestTitle": "سجّل الدخول لرؤية رحلتك",
-  "guestBody": "أنشئ حسابًا مجانيًا أو سجّل الدخول لمتابعة ما بدأته وتحديد نقطة انطلاقك.",
+  "guestBody": "أنشئ حسابا مجانيا أو سجّل الدخول لتتابع من حيث توقفت.",
   "signIn": "تسجيل الدخول",
   "createAccount": "إنشاء حساب مجاني",
   "findStart": "حدّد نقطة انطلاقك",
@@ -21,5 +21,9 @@
   "mentorStatusNone": "لم يُطلب بعد",
   "mentorStatusRequested": "تم الطلب",
   "mentorStatusMatched": "تم التوجيه",
-  "settingsLink": "الإعدادات"
+  "volunteer": "تطوّع كمرشد",
+  "volunteerLine": "ساعد من دخل الإسلام حديثًا",
+  "settingsLink": "الإعدادات",
+  "chooseBody": "أخبرنا أين أنت، ونريك مسارا واضحا.",
+  "chooseAction": "اختر أين أنت"
 }

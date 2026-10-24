@@ -1,0 +1,317 @@
+{
+  "slug": "mentor-what-a-mentor-does",
+  "minutes": 4,
+  "title": {
+    "en": "What a mentor does",
+    "ar": "ما الذي يفعله المرشد",
+    "es": "Qué hace un mentor"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "A new Muslim does not need a perfect teacher. They need a kind friend who has walked the road a little longer."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "A mentor is",
+            "items": [
+              "A friend who listens",
+              "A guide who points to good sources",
+              "Someone who shows up again and again"
+            ]
+          },
+          "second": {
+            "title": "A mentor is not",
+            "items": [
+              "A scholar who must answer everything",
+              "A judge of how well they are doing",
+              "In charge of their choices"
+            ]
+          }
+        }
+      },
+      {
+        "h": "The reward of guiding"
+      },
+      {
+        "p": "A man asked the Prophet, peace be upon him, for a mount. He had none to give, and another man offered to guide him to someone who did. The Prophet said:"
+      },
+      {
+        "quote": "Whoever guides to a good deed will get the same reward as the doer of that deed.",
+        "cite": "Sahih Muslim 1893"
+      },
+      {
+        "p": "You do not have to do everything yourself. Pointing someone to what is good already counts."
+      },
+      {
+        "h": "Be steady"
+      },
+      {
+        "p": "Small and regular beats big and rare. A short message every week means more than a long talk once."
+      },
+      {
+        "steps": {
+          "title": "A steady mentor",
+          "steps": [
+            "Agree on how often you will talk, and keep to it.",
+            "If you must miss a time, say so early and kindly.",
+            "Ask how they are before you ask about their prayer."
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Same-gender mentoring",
+          "blocks": [
+            {
+              "p": "On this site, one-to-one support is between people of the same gender. This keeps everyone comfortable and safe, and it is how the team matches mentors."
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "What is the main job of a mentor?",
+          "options": [
+            "Answer every religious question",
+            "Be a kind, steady friend and guide",
+            "Check that they are practicing correctly"
+          ],
+          "correct": 1,
+          "explanation": "A mentor walks beside someone. Answers come from reliable sources and scholars."
+        }
+      },
+      {
+        "key": "You are a friend and a guide, not a scholar. Be kind, be steady, and point to what is good."
+      }
+    ],
+    "ar": [
+      {
+        "p": "المسلم الجديد لا يحتاج إلى معلّم كامل. يحتاج إلى صديق طيب سبقه في الطريق بقليل."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "المرشد هو",
+            "items": [
+              "صديق يُصغي",
+              "دليل يشير إلى مصادر موثوقة",
+              "من يحضر مرة بعد مرة"
+            ]
+          },
+          "second": {
+            "title": "المرشد ليس",
+            "items": [
+              "عالمًا يجب أن يجيب عن كل شيء",
+              "قاضيًا يحكم على مستواهم",
+              "وصيًّا على قراراتهم"
+            ]
+          }
+        }
+      },
+      {
+        "h": "أجر الدلالة على الخير"
+      },
+      {
+        "p": "جاء رجل إلى النبي صلى الله عليه وسلم يطلب مركوبًا، فلم يكن عنده ما يعطيه، فقال رجل آخر إنه يدلّه على من يحمله. فقال النبي صلى الله عليه وسلم:"
+      },
+      {
+        "quote": "مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ",
+        "cite": "صحيح مسلم 1893"
+      },
+      {
+        "p": "لا يلزمك أن تفعل كل شيء بنفسك. فالدلالة على الخير لها أجرها."
+      },
+      {
+        "h": "كن ثابتًا"
+      },
+      {
+        "p": "القليل المنتظم خير من الكثير النادر. رسالة قصيرة كل أسبوع أنفع من حديث طويل مرة واحدة."
+      },
+      {
+        "steps": {
+          "title": "مرشد ثابت",
+          "steps": [
+            "اتفقا على عدد مرات التواصل والتزما به.",
+            "إن اضطررت إلى الغياب فأخبره مبكرًا وبلطف.",
+            "اسأل عن حاله قبل أن تسأل عن صلاته."
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "الإرشاد بين أبناء الجنس نفسه",
+          "blocks": [
+            {
+              "p": "في هذا الموقع يكون الدعم الفردي بين شخصين من الجنس نفسه. هذا يحفظ راحة الجميع وأمانهم، وعلى هذا الأساس يوفّق الفريق بين المرشدين."
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "ما المهمة الأساسية للمرشد؟",
+          "options": [
+            "الإجابة عن كل سؤال ديني",
+            "أن يكون صديقًا ودليلًا لطيفًا ثابتًا",
+            "التأكد من أنهم يطبّقون بشكل صحيح"
+          ],
+          "correct": 1,
+          "explanation": "المرشد يمشي بجانب غيره، والأجوبة تأتي من مصادر موثوقة ومن العلماء."
+        }
+      },
+      {
+        "key": "أنت صديق ودليل لا عالم. كن لطيفًا وثابتًا ودلّ على الخير."
+      }
+    ],
+    "es": [
+      {
+        "p": "Un nuevo musulmán no necesita un maestro perfecto. Necesita un amigo amable que ya recorrió un poco más el camino."
+      },
+      {
+        "compare": {
+          "first": {
+            "title": "Un mentor es",
+            "items": [
+              "Un amigo que escucha",
+              "Una guía que señala buenas fuentes",
+              "Alguien que está presente una y otra vez"
+            ]
+          },
+          "second": {
+            "title": "Un mentor no es",
+            "items": [
+              "Un erudito que debe responder todo",
+              "Un juez de cómo les va",
+              "Quien decide por ellos"
+            ]
+          }
+        }
+      },
+      {
+        "h": "La recompensa de guiar"
+      },
+      {
+        "p": "Un hombre le pidió una montura al Profeta, la paz sea con él. No tenía ninguna para darle, y otro hombre se ofreció a guiarlo hacia quien sí la tuviera. El Profeta dijo:"
+      },
+      {
+        "quote": "Quien guíe hacia una buena acción obtendrá una recompensa similar a la de quien la realiza.",
+        "cite": "Sahih Muslim 1893"
+      },
+      {
+        "p": "No tienes que hacerlo todo tú. Señalar a alguien lo que es bueno ya cuenta."
+      },
+      {
+        "h": "Sé constante"
+      },
+      {
+        "p": "Poco y constante vale más que mucho y rara vez. Un mensaje corto cada semana significa más que una charla larga una sola vez."
+      },
+      {
+        "steps": {
+          "title": "Un mentor constante",
+          "steps": [
+            "Acuerden cada cuánto hablarán y cúmplanlo.",
+            "Si no puedes asistir, avisa pronto y con amabilidad.",
+            "Pregunta cómo están antes de preguntar por su oración."
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Mentoría entre personas del mismo género",
+          "blocks": [
+            {
+              "p": "En este sitio, el apoyo individual es entre personas del mismo género. Así todos se sienten cómodos y seguros, y así empareja el equipo a los mentores."
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "¿Cuál es la tarea principal de un mentor?",
+          "options": [
+            "Responder toda pregunta religiosa",
+            "Ser un amigo y guía amable y constante",
+            "Comprobar que practican correctamente"
+          ],
+          "correct": 1,
+          "explanation": "Un mentor camina al lado de alguien. Las respuestas vienen de fuentes fiables y de eruditos."
+        }
+      },
+      {
+        "key": "Eres un amigo y una guía, no un erudito. Sé amable, sé constante y señala lo bueno."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih Muslim 1893 (sahih)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5354"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "According to the hadith, what does someone who guides to good receive?",
+        "ar": "بحسب الحديث، ماذا ينال من دلّ على خير؟",
+        "es": "Según el hadiz, ¿qué recibe quien guía hacia el bien?"
+      },
+      "options": [
+        {
+          "en": "Nothing, only the doer is rewarded",
+          "ar": "لا شيء، فالأجر لفاعله فقط",
+          "es": "Nada, solo el que lo hace es recompensado"
+        },
+        {
+          "en": "A reward like the doer's reward",
+          "ar": "أجرًا مثل أجر فاعله",
+          "es": "Una recompensa como la de quien lo realiza"
+        },
+        {
+          "en": "Only praise from people",
+          "ar": "ثناء الناس فقط",
+          "es": "Solo elogios de la gente"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "The Prophet, peace be upon him, said whoever guides to a good deed gets the same reward as the one who does it.",
+        "ar": "قال النبي صلى الله عليه وسلم: من دلّ على خير فله مثل أجر فاعله.",
+        "es": "El Profeta, la paz sea con él, dijo que quien guía hacia una buena acción recibe la misma recompensa que quien la realiza."
+      }
+    },
+    {
+      "q": {
+        "en": "Which is better for a new Muslim?",
+        "ar": "أيهما أفضل للمسلم الجديد؟",
+        "es": "¿Qué es mejor para un nuevo musulmán?"
+      },
+      "options": [
+        {
+          "en": "A short message every week",
+          "ar": "رسالة قصيرة كل أسبوع",
+          "es": "Un mensaje corto cada semana"
+        },
+        {
+          "en": "One long talk, then silence",
+          "ar": "حديث طويل مرة ثم صمت",
+          "es": "Una charla larga y luego silencio"
+        },
+        {
+          "en": "Contact only when they ask",
+          "ar": "التواصل عند طلبهم فقط",
+          "es": "Contacto solo cuando ellos pidan"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Steady contact builds trust. Small and regular is better than big and rare.",
+        "ar": "التواصل المنتظم يبني الثقة، والقليل المنتظم خير من الكثير النادر.",
+        "es": "El contacto constante crea confianza. Poco y regular es mejor que mucho y poco frecuente."
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "walk-with-a-new-muslim",
+  "tracks": [
+    "muslim"
+  ],
+  "order": 2,
+  "title": {
+    "en": "Walk with a new Muslim",
+    "ar": "السير مع مسلم جديد",
+    "es": "Acompaña a un nuevo musulmán"
+  },
+  "description": {
+    "en": "Prepare to be a kind, steady mentor to someone who just embraced Islam. You will learn what a mentor does, how to start, the struggles to expect, what to avoid, and when to ask for help, then apply to volunteer.",
+    "ar": "استعدّ لتكون مرشدًا لطيفًا وثابتًا لمن دخل الإسلام حديثًا. ستتعلم ما يفعله المرشد، وكيف تبدأ، والتحديات المتوقعة، وما يجب تجنبه، ومتى تطلب المساعدة، ثم تقدّم للتطوع.",
+    "es": "Prepárate para ser un mentor amable y constante de alguien que acaba de abrazar el Islam. Aprenderás qué hace un mentor, cómo empezar, las dificultades que esperar, qué evitar y cuándo pedir ayuda, y luego te ofrecerás como voluntario."
+  },
+  "outcomes": [
+    {
+      "en": "Explain what a mentor does and why guiding to good is rewarded",
+      "ar": "تشرح ما يفعله المرشد ولماذا يُؤجر الدالّ على الخير",
+      "es": "Explicar qué hace un mentor y por qué se recompensa guiar hacia el bien"
+    },
+    {
+      "en": "Hold a gentle first conversation and offer one small step",
+      "ar": "تجري محادثة أولى لطيفة وتقترح خطوة صغيرة",
+      "es": "Tener una primera charla amable y ofrecer un paso pequeño"
+    },
+    {
+      "en": "Recognize common struggles and respond with care",
+      "ar": "تتعرّف على التحديات الشائعة وتستجيب بلطف",
+      "es": "Reconocer las dificultades comunes y responder con cuidado"
+    },
+    {
+      "en": "Avoid overload, culture presented as religion, and harshness",
+      "ar": "تتجنب الإثقال وتقديم العادات على أنها دين والقسوة",
+      "es": "Evitar la sobrecarga, la cultura presentada como religión y la dureza"
+    },
+    {
+      "en": "Know when to say \"I will ask\" and when to call for help",
+      "ar": "تعرف متى تقول \"سأسأل\" ومتى تطلب العون",
+      "es": "Saber cuándo decir \"voy a preguntar\" y cuándo pedir ayuda"
+    },
+    {
+      "en": "Apply to volunteer as a mentor",
+      "ar": "تقدّم للتطوع كمرشد",
+      "es": "Ofrecerte como voluntario mentor"
+    }
+  ],
+  "steps": [
+    {
+      "slug": "mentor-role",
+      "title": {
+        "en": "A mentor's role",
+        "ar": "دور المرشد",
+        "es": "El papel del mentor"
+      },
+      "description": {
+        "en": "What a mentor does, and how to start your first conversations.",
+        "ar": "ما يفعله المرشد وكيف تبدأ محادثاتك الأولى.",
+        "es": "Qué hace un mentor y cómo empezar tus primeras conversaciones."
+      },
+      "topics": [
+        "res-dawah"
+      ],
+      "lessons": [
+        "mentor-what-a-mentor-does",
+        "mentor-first-conversations"
+      ]
+    },
+    {
+      "slug": "mentor-walking-alongside",
+      "title": {
+        "en": "Walking alongside",
+        "ar": "السير بجانبه",
+        "es": "Caminar a su lado"
+      },
+      "description": {
+        "en": "The struggles to expect, what to avoid, and when to ask for help.",
+        "ar": "التحديات المتوقعة وما يجب تجنبه ومتى تطلب المساعدة.",
+        "es": "Las dificultades que esperar, qué evitar y cuándo pedir ayuda."
+      },
+      "topics": [
+        "ethics-character",
+        "res-dawah"
+      ],
+      "lessons": [
+        "mentor-common-struggles",
+        "mentor-what-to-avoid",
+        "mentor-when-to-refer"
+      ]
+    },
+    {
+      "slug": "mentor-ready",
+      "title": {
+        "en": "Ready to help",
+        "ar": "مستعد للمساعدة",
+        "es": "Listo para ayudar"
+      },
+      "description": {
+        "en": "What the commitment looks like, how matching works, and how to apply.",
+        "ar": "ما يعنيه الالتزام وكيف يتم التوفيق وكيف تقدّم.",
+        "es": "Cómo es el compromiso, cómo funciona el emparejamiento y cómo solicitar."
+      },
+      "topics": [
+        "res-dawah"
+      ],
+      "lessons": [
+        "mentor-ready-to-volunteer"
+      ]
+    }
+  ]
+}

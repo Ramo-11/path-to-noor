@@ -6,24 +6,31 @@ import { useSession } from "next-auth/react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { BookOpen, Compass, House, Route, User } from "lucide-react";
 import { isTabBarHidden } from "@/components/layout/tab-bar-visibility";
+import { useTrackAction } from "@/components/tracks/useTrackAction";
 
 export function MobileTabBar() {
   const t = useTranslations("nav");
   const pathname = usePathname();
   const { data: session, status } = useSession();
   const mounted = useMounted();
+  const primary = useTrackAction();
 
   if (isTabBarHidden(pathname)) return null;
 
   const isLoggedIn = mounted && status === "authenticated" && !!session?.user;
 
   const tabs = [
-    { href: "/", label: t("tabHome"), Icon: House },
-    { href: "/paths", label: t("tabPaths"), Icon: Route },
-    { href: "/library", label: t("tabLibrary"), Icon: BookOpen },
+    { key: "home", href: "/", label: t("tabHome"), Icon: House },
+    { key: "paths", href: "/paths", label: t("tabPaths"), Icon: Route },
+    { key: "library", href: "/library", label: t("tabLibrary"), Icon: BookOpen },
     isLoggedIn
-      ? { href: "/journey", label: t("tabJourney"), Icon: User }
-      : { href: "/start", label: t("tabStart"), Icon: Compass },
+      ? { key: "journey", href: "/journey", label: t("tabJourney"), Icon: User }
+      : {
+          key: "start",
+          href: primary.href,
+          label: t(`tab.${primary.track ?? "none"}`),
+          Icon: Compass,
+        },
   ];
 
   return (
@@ -34,10 +41,12 @@ export function MobileTabBar() {
       <div className="grid h-16 grid-cols-4">
         {tabs.map((tab) => {
           const active =
-            tab.href === "/" ? pathname === "/" : pathname === tab.href || pathname.startsWith(`${tab.href}/`);
+            tab.href === "/"
+              ? tab.key === "home" && pathname === "/"
+              : pathname === tab.href || pathname.startsWith(`${tab.href}/`);
           return (
             <Link
-              key={tab.href}
+              key={tab.key}
               href={tab.href}
               aria-current={active ? "page" : undefined}
               className={`flex flex-col items-center justify-center gap-1 text-[0.8125rem] leading-none font-medium transition-colors duration-150 ${

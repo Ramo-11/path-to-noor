@@ -1,0 +1,374 @@
+{
+  "slug": "mentor-when-to-refer",
+  "minutes": 5,
+  "title": {
+    "en": "When to ask for help",
+    "ar": "متى تطلب المساعدة",
+    "es": "Cuándo pedir ayuda"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Good mentors know their limits. Knowing when to hand something on is part of caring well."
+      },
+      {
+        "h": "Questions beyond your knowledge"
+      },
+      {
+        "p": "Never guess about what Allah or the Prophet said. Allah says:"
+      },
+      {
+        "quote": "And do not pursue that of which you have no knowledge. Indeed, the hearing, the sight and the heart, about all those [one] will be questioned.",
+        "cite": "Quran 17:36 (translation of the meaning)"
+      },
+      {
+        "p": "Do not give fatwas. A mentor does not issue rulings."
+      },
+      {
+        "scenario": {
+          "situation": "Your mentee asks a question you cannot answer.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "Is it okay if I still go to my sister's wedding?"
+            },
+            {
+              "from": "you",
+              "text": "That is a good question, and I don't know. I will ask, and we can ask a scholar together."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "title": "How to refer",
+          "steps": [
+            {
+              "label": "Say it",
+              "text": "\"I don't know, but I will ask.\""
+            },
+            {
+              "label": "Ask",
+              "text": "A trusted scholar or your local imam."
+            },
+            {
+              "label": "Return",
+              "text": "Share the answer in their words, gently."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Safety comes first"
+      },
+      {
+        "facts": {
+          "title": "When to get professional help",
+          "items": [
+            {
+              "icon": "shield",
+              "label": "Danger",
+              "text": "If someone may be hurt, or talks about harming themselves, call your local emergency services right away."
+            },
+            {
+              "icon": "ban",
+              "label": "Abuse",
+              "text": "Do not handle it alone. Contact the proper authorities and the site team."
+            },
+            {
+              "icon": "heart",
+              "label": "Mental health",
+              "text": "Be kind and listen, then encourage them to see a doctor or counselor."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Privacy and trust"
+      },
+      {
+        "p": "What they tell you stays with you. Share it only when someone is in danger or the site team needs to know to keep them safe."
+      },
+      {
+        "quick": {
+          "question": "Your mentee asks a ruling you do not know. What do you say?",
+          "options": [
+            "Give your best guess",
+            "\"I don't know, but I will ask\"",
+            "Tell them to look it up online"
+          ],
+          "correct": 1,
+          "explanation": "Honesty protects them and you. Ask a scholar, then come back with the answer."
+        }
+      },
+      {
+        "key": "Never give fatwas. Say \"I will ask\", send safety concerns to emergency services and professionals, and keep their trust."
+      }
+    ],
+    "ar": [
+      {
+        "p": "المرشد الجيد يعرف حدوده، ومعرفة متى تُحيل الأمر إلى غيرك جزء من حسن الرعاية."
+      },
+      {
+        "h": "أسئلة فوق علمك"
+      },
+      {
+        "p": "لا تخمّن فيما قاله الله أو رسوله. يقول الله تعالى:"
+      },
+      {
+        "quote": "وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۚ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًۭا",
+        "cite": "القرآن الكريم 17:36"
+      },
+      {
+        "p": "لا تُصدر فتاوى. المرشد لا يحكم في المسائل الشرعية."
+      },
+      {
+        "scenario": {
+          "situation": "يسألك المسلم الجديد سؤالًا لا تعرف جوابه.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "هل يجوز أن أحضر عرس أختي؟"
+            },
+            {
+              "from": "you",
+              "text": "سؤال جيد ولا أعرف جوابه. سأسأل ويمكننا أن نسأل عالمًا معًا."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "title": "كيف تُحيل",
+          "steps": [
+            {
+              "label": "قلها",
+              "text": "\"لا أعلم، لكن سأسأل\""
+            },
+            {
+              "label": "اسأل",
+              "text": "عالمًا موثوقًا أو إمام مسجدك."
+            },
+            {
+              "label": "عُد",
+              "text": "انقل الجواب إليه بلطف وبعبارات يفهمها."
+            }
+          ]
+        }
+      },
+      {
+        "h": "السلامة أولًا"
+      },
+      {
+        "facts": {
+          "title": "متى تلجأ إلى مختصين",
+          "items": [
+            {
+              "icon": "shield",
+              "label": "الخطر",
+              "text": "إن كان أحد قد يتعرض للأذى، أو ذكر أنه يريد إيذاء نفسه، فاتصل بخدمات الطوارئ المحلية فورًا."
+            },
+            {
+              "icon": "ban",
+              "label": "الإساءة",
+              "text": "لا تتعامل معها وحدك. تواصل مع الجهات المختصة وفريق الموقع."
+            },
+            {
+              "icon": "heart",
+              "label": "الصحة النفسية",
+              "text": "كن لطيفًا وأصغِ، ثم شجّعه على مراجعة طبيب أو مستشار."
+            }
+          ]
+        }
+      },
+      {
+        "h": "الخصوصية والثقة"
+      },
+      {
+        "p": "ما يخبرك به يبقى عندك. لا تنقله إلا إذا كان أحد في خطر أو احتاج فريق الموقع إلى معرفته لحمايته."
+      },
+      {
+        "quick": {
+          "question": "يسألك المسلم الجديد عن حكم لا تعرفه. ماذا تقول؟",
+          "options": [
+            "تقدّم أفضل تخمين",
+            "\"لا أعلم، لكن سأسأل\"",
+            "تطلب منه البحث في الإنترنت"
+          ],
+          "correct": 1,
+          "explanation": "الصدق يحمي الطرفين. اسأل عالمًا ثم عُد بالجواب."
+        }
+      },
+      {
+        "key": "لا تُفتِ. قل \"سأسأل\"، وأحِل مسائل السلامة إلى الطوارئ والمختصين، واحفظ ثقتهم."
+      }
+    ],
+    "es": [
+      {
+        "p": "Los buenos mentores conocen sus límites. Saber cuándo pasar algo a otra persona es parte de cuidar bien."
+      },
+      {
+        "h": "Preguntas que superan tu conocimiento"
+      },
+      {
+        "p": "Nunca adivines lo que dijo Allah o el Profeta. Allah dice:"
+      },
+      {
+        "quote": "No hagan ni digan nada si no tienen conocimiento. Serán interrogados acerca de [lo que hayan hecho con] su oído, vista y corazón.",
+        "cite": "Corán 17:36 (traducción del significado)"
+      },
+      {
+        "p": "No des fatwas. Un mentor no emite dictámenes."
+      },
+      {
+        "scenario": {
+          "situation": "Tu mentoreado te hace una pregunta que no sabes responder.",
+          "lines": [
+            {
+              "from": "them",
+              "text": "¿Puedo ir a la boda de mi hermana?"
+            },
+            {
+              "from": "you",
+              "text": "Es una buena pregunta y no lo sé. Voy a preguntar, y podemos consultar juntos a un erudito."
+            }
+          ]
+        }
+      },
+      {
+        "flow": {
+          "title": "Cómo derivar",
+          "steps": [
+            {
+              "label": "Dilo",
+              "text": "\"No lo sé, pero voy a preguntar\""
+            },
+            {
+              "label": "Pregunta",
+              "text": "A un erudito de confianza o al imam de tu localidad."
+            },
+            {
+              "label": "Vuelve",
+              "text": "Comparte la respuesta con calma y con palabras que entiendan."
+            }
+          ]
+        }
+      },
+      {
+        "h": "La seguridad es lo primero"
+      },
+      {
+        "facts": {
+          "title": "Cuándo buscar ayuda profesional",
+          "items": [
+            {
+              "icon": "shield",
+              "label": "Peligro",
+              "text": "Si alguien puede salir lastimado, o habla de hacerse daño, llama de inmediato a los servicios de emergencia de tu localidad."
+            },
+            {
+              "icon": "ban",
+              "label": "Abuso",
+              "text": "No lo manejes solo. Contacta a las autoridades correspondientes y al equipo del sitio."
+            },
+            {
+              "icon": "heart",
+              "label": "Salud mental",
+              "text": "Sé amable y escucha, luego anímalos a ver a un médico o consejero."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Privacidad y confianza"
+      },
+      {
+        "p": "Lo que te cuentan queda contigo. Compártelo solo si alguien está en peligro o si el equipo del sitio necesita saberlo para protegerlos."
+      },
+      {
+        "quick": {
+          "question": "Tu mentoreado pregunta por una norma que no conoces. ¿Qué dices?",
+          "options": [
+            "Das tu mejor suposición",
+            "\"No lo sé, pero voy a preguntar\"",
+            "Les dices que lo busquen en internet"
+          ],
+          "correct": 1,
+          "explanation": "La honestidad los protege a los dos. Consulta a un erudito y vuelve con la respuesta."
+        }
+      },
+      {
+        "key": "Nunca des fatwas. Di \"voy a preguntar\", envía los temas de seguridad a emergencias y profesionales, y cuida su confianza."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 17:36 (Saheeh International and Isa Garcia translations)",
+      "url": "https://quran.com/17/36"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "Who should answer a hard ruling?",
+        "ar": "من يجيب عن مسألة شرعية صعبة؟",
+        "es": "¿Quién debe responder una pregunta difícil sobre una norma?"
+      },
+      "options": [
+        {
+          "en": "The mentor, to help quickly",
+          "ar": "المرشد ليساعد بسرعة",
+          "es": "El mentor, para ayudar rápido"
+        },
+        {
+          "en": "A scholar or imam",
+          "ar": "عالم أو إمام",
+          "es": "Un erudito o imam"
+        },
+        {
+          "en": "Whoever answers first online",
+          "ar": "من يجيب أولًا في الإنترنت",
+          "es": "Quien responda primero en internet"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "Rulings come from people with knowledge, not from guesses.",
+        "ar": "الأحكام تؤخذ من أهل العلم لا من التخمين.",
+        "es": "Las normas vienen de gente con conocimiento, no de suposiciones."
+      }
+    },
+    {
+      "q": {
+        "en": "Your mentee seems to be in danger. What do you do?",
+        "ar": "يبدو أن المسلم الجديد في خطر. ماذا تفعل؟",
+        "es": "Tu mentoreado parece estar en peligro. ¿Qué haces?"
+      },
+      "options": [
+        {
+          "en": "Call local emergency services",
+          "ar": "تتصل بخدمات الطوارئ المحلية",
+          "es": "Llamas a los servicios de emergencia locales"
+        },
+        {
+          "en": "Wait and see",
+          "ar": "تنتظر وترى",
+          "es": "Esperas y ves"
+        },
+        {
+          "en": "Handle it quietly alone",
+          "ar": "تتولاه وحدك بهدوء",
+          "es": "Lo manejas tú en silencio"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "A person's safety comes before everything else.",
+        "ar": "سلامة الإنسان قبل كل شيء.",
+        "es": "La seguridad de la persona va antes que todo."
+      }
+    }
+  ]
+}

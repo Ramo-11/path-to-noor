@@ -8,7 +8,7 @@ import { Illustration } from "@/components/primer/Illustration";
 import { Notice } from "@/components/primer/Notice";
 import { StageChip } from "@/components/primer/StageChip";
 import { useRouter } from "@/i18n/navigation";
-import { pathArt } from "@/lib/illustrations";
+import { pathArtFor } from "@/lib/path-tone";
 import type { StageKey } from "@/lib/stages";
 import type { Recommendation } from "./recommendations";
 
@@ -63,8 +63,10 @@ export function RecommendedPath({
   return (
     <div className="card overflow-hidden">
       <div className="relative aspect-[16/8] overflow-hidden">
-        <StageChip stage={path.stage} className="absolute start-3 top-3 shadow-soft z-10" />
-        <Illustration name={pathArt(path.slug, path.stage)} sizes="(min-width: 768px) 640px, 100vw" />
+        {path.stage ? (
+          <StageChip stage={path.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+        ) : null}
+        <Illustration name={pathArtFor(path.slug, path.stage)} sizes="(min-width: 768px) 640px, 100vw" />
       </div>
       <div className="p-6 sm:p-8">
         <h2 id="placement-path-title" className="text-heading font-semibold text-balance">

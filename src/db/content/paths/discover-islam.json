@@ -1,0 +1,132 @@
+{
+  "slug": "discover-islam",
+  "tracks": [
+    "curious"
+  ],
+  "order": 1,
+  "title": {
+    "en": "Discover Islam",
+    "ar": "اكتشف الإسلام",
+    "es": "Descubre el Islam"
+  },
+  "description": {
+    "en": "A calm, honest look at what Muslims believe and why, for anyone curious about Islam. There is no pressure and no assumed belief. Take each step at your own pace and ask any question.",
+    "ar": "نظرة هادئة وصادقة على ما يؤمن به المسلمون ولماذا، لكل من يتساءل عن الإسلام. بلا ضغط وبلا افتراض مسبق للإيمان. خذ كل خطوة بوتيرتك واسأل ما شئت.",
+    "es": "Una mirada serena y honesta a lo que creen los musulmanes y por qué, para quien siente curiosidad por el Islam. Sin presión y sin dar nada por creído. Avanza a tu ritmo y haz cualquier pregunta."
+  },
+  "outcomes": [
+    {
+      "en": "Explain in simple words what Islam and the word Muslim mean",
+      "ar": "تشرح بكلمات بسيطة معنى الإسلام وكلمة مسلم",
+      "es": "Explicar con palabras simples qué significan Islam y musulmán"
+    },
+    {
+      "en": "Understand what Muslims mean by one God, and why Allah is the same God of Abraham",
+      "ar": "تفهم ما يقصده المسلمون بالإله الواحد، ولماذا الله هو إله إبراهيم نفسه",
+      "es": "Entender qué quieren decir los musulmanes con un solo Dios, y por qué Allah es el mismo Dios de Abraham"
+    },
+    {
+      "en": "Know why Muslims believe we were created, and how they see life and hope",
+      "ar": "تعرف لماذا يؤمن المسلمون أننا خُلقنا، وكيف ينظرون إلى الحياة والأمل",
+      "es": "Saber por qué creen los musulmanes que fuimos creados y cómo ven la vida y la esperanza"
+    },
+    {
+      "en": "See how Muslims view the prophets, including Jesus and Muhammad, peace be upon them",
+      "ar": "ترى كيف ينظر المسلمون إلى الأنبياء، ومنهم عيسى ومحمد عليهما السلام",
+      "es": "Ver cómo ven los musulmanes a los profetas, incluidos Jesús y Muhammad, la paz sea con ellos"
+    },
+    {
+      "en": "Know what the Quran is and why Muslims trust it",
+      "ar": "تعرف ما القرآن ولماذا يثق به المسلمون",
+      "es": "Saber qué es el Corán y por qué confían en él"
+    },
+    {
+      "en": "Understand what becoming Muslim involves, with no pressure",
+      "ar": "تفهم ما يعنيه الدخول في الإسلام، دون أي ضغط",
+      "es": "Entender qué implica hacerse musulmán, sin presión"
+    }
+  ],
+  "steps": [
+    {
+      "slug": "discover-what-islam-is",
+      "title": {
+        "en": "What Islam is",
+        "ar": "ما هو الإسلام",
+        "es": "Qué es el Islam"
+      },
+      "description": {
+        "en": "The meaning of the word, the One God, and why we are here.",
+        "ar": "معنى الكلمة، والإله الواحد، ولماذا نحن هنا.",
+        "es": "El significado de la palabra, el Dios único y por qué estamos aquí."
+      },
+      "topics": [
+        "pillars-of-faith"
+      ],
+      "lessons": [
+        "discover-meaning-of-islam",
+        "discover-one-god",
+        "discover-purpose-of-life"
+      ]
+    },
+    {
+      "slug": "discover-prophets",
+      "title": {
+        "en": "The prophets",
+        "ar": "الأنبياء",
+        "es": "Los profetas"
+      },
+      "description": {
+        "en": "One message through many messengers, Jesus in Islam, and Muhammad.",
+        "ar": "رسالة واحدة عبر رسل كثيرين، وعيسى في الإسلام، ومحمد.",
+        "es": "Un solo mensaje con muchos mensajeros, Jesús en el Islam y Muhammad."
+      },
+      "topics": [
+        "res-prophets"
+      ],
+      "lessons": [
+        "discover-one-message",
+        "discover-jesus-in-islam",
+        "discover-muhammad"
+      ]
+    },
+    {
+      "slug": "discover-quran",
+      "title": {
+        "en": "The Quran",
+        "ar": "القرآن",
+        "es": "El Corán"
+      },
+      "description": {
+        "en": "What the Quran is and why Muslims trust that it is preserved.",
+        "ar": "ما القرآن، ولماذا يثق المسلمون بأنه محفوظ.",
+        "es": "Qué es el Corán y por qué los musulmanes confían en que está preservado."
+      },
+      "topics": [
+        "quran"
+      ],
+      "lessons": [
+        "discover-what-is-the-quran",
+        "discover-quran-preserved"
+      ]
+    },
+    {
+      "slug": "discover-next-step",
+      "title": {
+        "en": "If you feel ready",
+        "ar": "إن شعرت بالاستعداد",
+        "es": "Si te sientes listo"
+      },
+      "description": {
+        "en": "What becoming Muslim involves, in plain words and with no pressure.",
+        "ar": "ما يعنيه الدخول في الإسلام، بكلمات واضحة ودون ضغط.",
+        "es": "Qué implica hacerse musulmán, en palabras claras y sin presión."
+      },
+      "topics": [
+        "res-common-questions"
+      ],
+      "lessons": [
+        "discover-becoming-muslim"
+      ]
+    }
+  ]
+}

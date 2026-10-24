@@ -3,6 +3,8 @@ import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { LearningPath } from "@/db/models/LearningPath";
 import { updateLearningPathSchema } from "@/lib/validations";
+import { isStageKey } from "@/lib/stages";
+import { normalizeTracks, pathTracksSchema, type TrackKey } from "@/lib/tracks";
 
 export async function GET(
   _request: NextRequest,
@@ -46,11 +48,37 @@ export async function PUT(
       );
     }
 
+    let tracks: TrackKey[] | undefined;
+    if (body?.tracks !== undefined) {
+      const tracksResult = pathTracksSchema.safeParse(body.tracks);
+      if (!tracksResult.success) {
+        return NextResponse.json(
+          { error: "Choose at least one track", details: { tracks: ["Choose at least one track"] } },
+          { status: 400 }
+        );
+      }
+      tracks = tracksResult.data;
+    }
+
     await connectDB();
 
     const existing = await LearningPath.findById(id);
     if (!existing) {
       return NextResponse.json({ error: "Learning path not found" }, { status: 404 });
+    }
+
+    const set: Record<string, unknown> = { ...result.data };
+    const unset: Record<string, 1> = {};
+    const effectiveTracks = tracks ?? normalizeTracks(existing.tracks);
+    if (tracks) set.tracks = tracks;
+    if (!effectiveTracks.includes("new")) {
+      delete set.stage;
+      unset.stage = 1;
+    } else if (!set.stage && !isStageKey(existing.stage)) {
+      return NextResponse.json(
+        { error: "Choose a stage for paths in the New to Islam track", details: { stage: ["Required"] } },
+        { status: 400 }
+      );
     }
 
     // Check slug uniqueness if slug is being changed
@@ -66,7 +94,7 @@ export async function PUT(
 
     const updated = await LearningPath.findByIdAndUpdate(
       id,
-      { $set: result.data },
+      Object.keys(unset).length > 0 ? { $set: set, $unset: unset } : { $set: set },
       { new: true, runValidators: true }
     );
 

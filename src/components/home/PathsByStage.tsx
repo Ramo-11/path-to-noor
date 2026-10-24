@@ -2,12 +2,12 @@ import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { Illustration } from "@/components/primer/Illustration";
-import { ProgressCells } from "@/components/primer/ProgressCells";
+import { PathProgress } from "@/components/paths/PathProgress";
 import { StageChip } from "@/components/primer/StageChip";
 import { Link } from "@/i18n/navigation";
-import { pathArt } from "@/lib/illustrations";
+import { pathArtFor } from "@/lib/path-tone";
 import { localized } from "@/lib/stages";
-import type { PathOutline, StageGroup } from "@/lib/learning-types";
+import type { PathOutline } from "@/lib/learning-types";
 import { HomeSection } from "./HomeSection";
 
 function PathCard({ path, locale }: { path: PathOutline; locale: string }) {
@@ -26,9 +26,11 @@ function PathCard({ path, locale }: { path: PathOutline; locale: string }) {
     <li className="flex">
       <Link href={`/paths/${path.slug}`} className="card card-link group flex w-full flex-col overflow-hidden">
         <div className="relative aspect-[16/9] overflow-hidden">
-          <StageChip stage={path.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+          {path.stage ? (
+            <StageChip stage={path.stage} className="absolute start-3 top-3 shadow-soft z-10" />
+          ) : null}
           <Illustration
-            name={pathArt(path.slug, path.stage)}
+            name={pathArtFor(path.slug, path.stage)}
             sizes="(min-width: 768px) 33vw, 100vw"
             className="transition-transform duration-500 ease-[var(--ease-fill)] group-hover:scale-[1.03]"
           />
@@ -37,7 +39,7 @@ function PathCard({ path, locale }: { path: PathOutline; locale: string }) {
           <h3 className="text-xl leading-snug font-semibold text-balance">{localized(path.title, locale)}</h3>
           <div className="mt-auto pt-5">
             {path.isStarted && !path.isComplete ? (
-              <ProgressCells
+              <PathProgress
                 done={path.completedLessons}
                 total={path.totalLessons}
                 stage={path.stage}
@@ -66,9 +68,8 @@ function PathCard({ path, locale }: { path: PathOutline; locale: string }) {
   );
 }
 
-export function PathsByStage({ groups, locale }: { groups: StageGroup[]; locale: string }) {
+export function PathsByStage({ paths, locale }: { paths: PathOutline[]; locale: string }) {
   const t = useTranslations("home.paths");
-  const paths = groups.flatMap((group) => group.paths);
   if (paths.length === 0) return null;
 
   return (

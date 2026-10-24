@@ -1,7 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendContactFormEmail } from "@/lib/email";
 import { rateLimitShared, getClientIp } from "@/lib/rate-limit";
-import { contactSchema } from "@/lib/validations";
+import { checkBot } from "@/lib/bot-guard";
+import { contactSchema, CONTACT_TOPICS } from "@/lib/validations";
+
+const TOPIC_LABELS: Record<(typeof CONTACT_TOPICS)[number], string> = {
+  question: "Question",
+  mentor: "Mentor request",
+  technical: "Technical issue",
+  feedback: "Feedback or lesson correction",
+  other: "Other",
+};
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,19 +25,10 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "invalid_input" }, { status: 400 });
     }
 
-    // Honeypot — real users can't see this field; bots fill it.
-    if (typeof body?.website === "string" && body.website.trim() !== "") {
-      return NextResponse.json({ success: true });
-    }
-
-    // Min submit time — bots submit instantly.
-    if (typeof body?.formLoadedAt === "number") {
-      const elapsed = Date.now() - body.formLoadedAt;
-      if (elapsed < 3000 || elapsed > 24 * 60 * 60 * 1000) {
-        return NextResponse.json({ success: true });
-      }
-    } else {
-      return NextResponse.json({ success: true });
+    const verdict = await checkBot(body, request, "contact");
+    if (verdict === "bot") return NextResponse.json({ success: true });
+    if (verdict === "challenge_failed") {
+      return NextResponse.json({ error: "verification_failed" }, { status: 400 });
     }
 
     const parsed = contactSchema.safeParse(body);
@@ -38,9 +38,10 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
-    const { name, email, subject, message } = parsed.data;
+    const { name, email, subject, message, topic } = parsed.data;
+    const label = topic === "other" ? subject.replace(/[\r\n]+/g, " ") : TOPIC_LABELS[topic];
 
-    await sendContactFormEmail({ name, email, subject, message });
+    await sendContactFormEmail({ name, email, subject: label, message });
 
     return NextResponse.json({ success: true });
   } catch (error) {

@@ -4,6 +4,7 @@ import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { sendPasswordResetEmail } from "@/lib/email";
 import { rateLimitShared, getClientIp } from "@/lib/rate-limit";
+import { checkBot } from "@/lib/bot-guard";
 import { getSiteUrl } from "@/config/env";
 import { forgotPasswordSchema } from "@/lib/validations";
 
@@ -20,7 +21,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const parsed = forgotPasswordSchema.safeParse(await request.json().catch(() => null));
+    const body = await request.json().catch(() => null);
+    const verdict = await checkBot(body, request, "forgot-password");
+    if (verdict === "bot") return NextResponse.json({ message: GENERIC });
+    if (verdict === "challenge_failed") {
+      return NextResponse.json(
+        { error: "Verification failed", code: "verification_failed" },
+        { status: 400 }
+      );
+    }
+
+    const parsed = forgotPasswordSchema.safeParse(body);
     if (!parsed.success) {
       // Always return generic success to prevent enumeration
       return NextResponse.json({ message: GENERIC });

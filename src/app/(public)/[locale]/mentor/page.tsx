@@ -51,7 +51,9 @@ export default async function MentorPage({
     );
   }
 
-  if (userType === "revert") {
+  const track = (session.user as { track?: string }).track;
+
+  if (userType === "revert" || track === "new") {
     return (
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <PageBanner title={t("title")} lead={t("revertLead")} art="mentor" tone="evening" />
@@ -64,12 +66,13 @@ export default async function MentorPage({
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-      <PageBanner title={t("title")} art="mentor" tone="evening" />
+      <PageBanner title={t("title")} lead={t("guestLead")} art="mentor" tone="evening" />
       <div className="card mt-10 max-w-2xl">
-        <div className="flex flex-col items-start gap-4 px-6 py-10 sm:px-8">
-          <p className="text-ink-2">{t("onboardingPrompt")}</p>
-          <Button href="/onboarding" variant="primary">
-            {t("finishOnboarding")}
+        <div className="flex flex-col items-start gap-3 px-6 py-8 sm:px-8">
+          <h2 className="text-heading font-semibold">{t("volunteerPromptTitle")}</h2>
+          <p className="text-ink-2">{t("volunteerPromptBody")}</p>
+          <Button href="/mentor/volunteer" variant="secondary">
+            {t("volunteerLink")}
           </Button>
         </div>
       </div>

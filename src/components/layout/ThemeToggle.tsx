@@ -35,6 +35,31 @@ function applyTheme(dark: boolean) {
   document.documentElement.classList.toggle("dark", dark);
 }
 
+export type ThemeMode = "light" | "dark" | "system";
+
+function getMode(): ThemeMode {
+  const stored = localStorage.getItem("theme");
+  return stored === "dark" || stored === "light" ? stored : "system";
+}
+
+export function useThemeMode() {
+  const mode = useSyncExternalStore(subscribeTheme, getMode, () => "system" as ThemeMode);
+  const setMode = useCallback((next: ThemeMode) => {
+    if (next === "system") localStorage.removeItem("theme");
+    else localStorage.setItem("theme", next);
+    applyTheme(getStoredTheme());
+    window.dispatchEvent(new Event(THEME_EVENT));
+  }, []);
+  useEffect(() => {
+    applyTheme(getStoredTheme());
+    const media = window.matchMedia("(prefers-color-scheme: dark)");
+    const sync = () => applyTheme(getStoredTheme());
+    media.addEventListener("change", sync);
+    return () => media.removeEventListener("change", sync);
+  }, [mode]);
+  return [mode, setMode] as const;
+}
+
 export function ThemeToggle({
   darkLabel = "Switch to dark mode",
   lightLabel = "Switch to light mode",

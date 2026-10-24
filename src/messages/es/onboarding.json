@@ -1,11 +1,6 @@
 {
   "title": "Bienvenido a Basmet Dawah",
-  "lead": "Cuéntanos cuál te describe, para mostrarte el camino adecuado.",
-  "legend": "¿Cuál te describe?",
-  "revertTitle": "Soy nuevo en el Islam",
-  "revertDescription": "Un nuevo musulmán que aprende lo básico.",
-  "mentorTitle": "Quiero ayudar como mentor",
-  "mentorDescription": "Un musulmán con experiencia que es voluntario.",
-  "continue": "Continuar",
+  "lead": "Una pregunta rápida, para mostrarte el mejor lugar para empezar.",
+  "saving": "Preparando todo para ti",
   "errorDefault": "Algo salió mal. Por favor, intenta de nuevo."
 }

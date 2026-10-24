@@ -41,5 +41,8 @@
   "errorEmailUnverifiedLink": "اذهب إلى الإعدادات",
   "errorAlreadyRequested": "لديك طلب مرشد بالفعل.",
   "errorRevertOnly": "طلبات المرشدين مخصصة للمسلمين الجدد.",
-  "errorInvalid": "تحقّق من رسالتك وحاول مرة أخرى."
+  "errorInvalid": "تحقّق من رسالتك وحاول مرة أخرى.",
+  "volunteerPromptTitle": "الإرشاد للمسلمين الجدد",
+  "volunteerPromptBody": "إن كنت مسلمًا وتود مساعدة شخص جديد، يمكنك التطوع كمرشد.",
+  "volunteerLink": "تطوّع كمرشد"
 }

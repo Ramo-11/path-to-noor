@@ -34,7 +34,7 @@ export interface StepCell {
 }
 
 export interface LessonPlace {
-  path: { slug: string; title: string; stage: StageKey } | null;
+  path: { slug: string; title: string; stage: StageKey | null } | null;
   step: { number: number | null; title: string } | null;
   lessonNumber: number | null;
   lessonCount: number | null;

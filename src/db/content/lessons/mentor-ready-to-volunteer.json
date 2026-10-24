@@ -1,0 +1,336 @@
+{
+  "slug": "mentor-ready-to-volunteer",
+  "minutes": 4,
+  "title": {
+    "en": "Ready to help",
+    "ar": "مستعد للمساعدة",
+    "es": "Listo para ayudar"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "If you have read this far, you are likely ready. Here is what volunteering looks like."
+      },
+      {
+        "facts": {
+          "title": "What you are agreeing to",
+          "items": [
+            {
+              "icon": "clock",
+              "label": "Steady time",
+              "text": "Regular contact that fits your life. Agree on it with your mentee."
+            },
+            {
+              "icon": "users",
+              "label": "Same gender",
+              "text": "You will be matched with someone of the same gender."
+            },
+            {
+              "icon": "shield",
+              "label": "Privacy",
+              "text": "You keep what they share private, apart from safety."
+            },
+            {
+              "icon": "heart",
+              "label": "Kindness",
+              "text": "Gentle, patient, and honest about what you do not know."
+            }
+          ]
+        }
+      },
+      {
+        "h": "How matching works"
+      },
+      {
+        "flow": {
+          "title": "From application to your first chat",
+          "steps": [
+            {
+              "label": "Apply",
+              "text": "Fill in the form on the Volunteer as a mentor page."
+            },
+            {
+              "label": "Review",
+              "text": "An admin reviews your application."
+            },
+            {
+              "label": "Match",
+              "text": "An admin matches you with a new Muslim. You talk by email."
+            },
+            {
+              "label": "Begin",
+              "text": "Say salam, listen, and take one small step."
+            }
+          ]
+        }
+      },
+      {
+        "h": "How to apply"
+      },
+      {
+        "steps": {
+          "title": "Apply as a mentor",
+          "steps": [
+            "Sign in and confirm your email address.",
+            "Open \"Talk to a mentor\" and tap \"Volunteer as a mentor\".",
+            "Say why you want to help, share your background, languages, and when you are free, and read the guidelines.",
+            "Agree to the guidelines and tap \"Send my application\". An admin reviews it and emails you."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "Who matches mentors with new Muslims?",
+          "options": [
+            "The mentors choose",
+            "An admin reviews and matches",
+            "It is random"
+          ],
+          "correct": 1,
+          "explanation": "An admin reviews each application, then matches mentors with new Muslims."
+        }
+      },
+      {
+        "key": "Sign in, confirm your email, and tap \"Volunteer as a mentor\" on the \"Talk to a mentor\" page. An admin reviews it and takes it from there."
+      }
+    ],
+    "ar": [
+      {
+        "p": "إن وصلت إلى هنا فأنت على الأرجح مستعد. هذه صورة التطوع."
+      },
+      {
+        "facts": {
+          "title": "ما الذي تلتزم به",
+          "items": [
+            {
+              "icon": "clock",
+              "label": "وقت منتظم",
+              "text": "تواصل منتظم يناسب حياتك، تتفق عليه مع المسلم الجديد."
+            },
+            {
+              "icon": "users",
+              "label": "الجنس نفسه",
+              "text": "سيجري التوفيق بينك وبين شخص من الجنس نفسه."
+            },
+            {
+              "icon": "shield",
+              "label": "الخصوصية",
+              "text": "تحفظ ما يشاركه معك سرًّا إلا ما يتعلق بالسلامة."
+            },
+            {
+              "icon": "heart",
+              "label": "اللطف",
+              "text": "لطيف وصبور وصادق فيما لا تعلمه."
+            }
+          ]
+        }
+      },
+      {
+        "h": "كيف يتم التوفيق"
+      },
+      {
+        "flow": {
+          "title": "من التقديم إلى أول محادثة",
+          "steps": [
+            {
+              "label": "قدّم",
+              "text": "املأ النموذج في صفحة \"تطوّع كمرشد\"."
+            },
+            {
+              "label": "مراجعة",
+              "text": "يراجع أحد المشرفين طلبك."
+            },
+            {
+              "label": "توفيق",
+              "text": "يوفّق المشرف بينك وبين مسلم جديد، وتتواصلان عبر البريد الإلكتروني."
+            },
+            {
+              "label": "ابدأ",
+              "text": "ألقِ السلام وأصغِ وابدأ بخطوة صغيرة."
+            }
+          ]
+        }
+      },
+      {
+        "h": "كيف تقدّم"
+      },
+      {
+        "steps": {
+          "title": "التقديم كمرشد",
+          "steps": [
+            "سجّل الدخول وأكّد بريدك الإلكتروني.",
+            "افتح \"التحدث مع مرشد\" واضغط على \"تطوّع كمرشد\".",
+            "اذكر لماذا تريد المساعدة، وخلفيتك، واللغات التي تتقنها، ومتى تكون متاحًا، واقرأ الإرشادات.",
+            "وافق على الإرشادات واضغط على \"إرسال طلبي\". يراجعه مشرف ويراسلك."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "من يوفّق بين المرشدين والمسلمين الجدد؟",
+          "options": [
+            "المرشدون يختارون",
+            "مشرف يراجع ويوفّق",
+            "عشوائي"
+          ],
+          "correct": 1,
+          "explanation": "يراجع المشرف كل طلب ثم يوفّق بين المرشدين والمسلمين الجدد."
+        }
+      },
+      {
+        "key": "سجّل الدخول وأكّد بريدك واضغط على \"تطوّع كمرشد\" في صفحة \"تحدث مع مرشد\"، ثم يراجع مشرف طلبك ويتولى الباقي."
+      }
+    ],
+    "es": [
+      {
+        "p": "Si llegaste hasta aquí, probablemente estás listo. Así es ser voluntario."
+      },
+      {
+        "facts": {
+          "title": "A qué te comprometes",
+          "items": [
+            {
+              "icon": "clock",
+              "label": "Tiempo constante",
+              "text": "Contacto regular que se ajuste a tu vida. Lo acuerdas con tu mentoreado."
+            },
+            {
+              "icon": "users",
+              "label": "Mismo género",
+              "text": "Te emparejarán con alguien del mismo género."
+            },
+            {
+              "icon": "shield",
+              "label": "Privacidad",
+              "text": "Mantienes en privado lo que comparten, salvo por temas de seguridad."
+            },
+            {
+              "icon": "heart",
+              "label": "Amabilidad",
+              "text": "Amable, paciente y honesto sobre lo que no sabes."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Cómo funciona el emparejamiento"
+      },
+      {
+        "flow": {
+          "title": "De la solicitud a la primera charla",
+          "steps": [
+            {
+              "label": "Solicita",
+              "text": "Completa el formulario en la página Ofrécete como mentor."
+            },
+            {
+              "label": "Revisión",
+              "text": "Un administrador revisa tu solicitud."
+            },
+            {
+              "label": "Emparejamiento",
+              "text": "Un administrador te empareja con un nuevo musulmán. Hablan por correo."
+            },
+            {
+              "label": "Comienza",
+              "text": "Di salam, escucha y da un paso pequeño."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Cómo solicitar"
+      },
+      {
+        "steps": {
+          "title": "Solicitar como mentor",
+          "steps": [
+            "Inicia sesión y confirma tu correo.",
+            "Abre \"Habla con un mentor\" y toca \"Ofrécete como mentor\".",
+            "Cuenta por qué quieres ayudar, tu experiencia, los idiomas que hablas y cuándo estás disponible, y lee las pautas.",
+            "Acepta las pautas y toca \"Enviar mi solicitud\". Un administrador la revisa y te escribe."
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "¿Quién empareja a los mentores con nuevos musulmanes?",
+          "options": [
+            "Los mentores eligen",
+            "Un administrador revisa y empareja",
+            "Es al azar"
+          ],
+          "correct": 1,
+          "explanation": "Un administrador revisa cada solicitud y luego empareja a mentores con nuevos musulmanes."
+        }
+      },
+      {
+        "key": "Inicia sesión, confirma tu correo y toca \"Ofrécete como mentor\" en la página \"Habla con un mentor\". Un administrador la revisa y se encarga del resto."
+      }
+    ]
+  },
+  "sources": [],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "Where do you apply to volunteer?",
+        "ar": "أين تقدّم للتطوع؟",
+        "es": "¿Dónde te ofreces como voluntario?"
+      },
+      "options": [
+        {
+          "en": "By tapping \"Volunteer as a mentor\" on the Talk to a mentor page",
+          "ar": "بالضغط على \"تطوّع كمرشد\" في صفحة تحدث مع مرشد",
+          "es": "Tocando \"Ofrécete como mentor\" en la página Habla con un mentor"
+        },
+        {
+          "en": "By emailing a mentee",
+          "ar": "بمراسلة مسلم جديد",
+          "es": "Escribiendo a un mentoreado"
+        },
+        {
+          "en": "You cannot apply",
+          "ar": "لا يمكن التقديم",
+          "es": "No se puede solicitar"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The button is on the Talk to a mentor page. You need to be signed in with a confirmed email.",
+        "ar": "الزر موجود في صفحة تحدث مع مرشد، ويلزم تسجيل الدخول ببريد إلكتروني مؤكَّد.",
+        "es": "El botón está en la página Habla con un mentor. Necesitas haber iniciado sesión con un correo confirmado."
+      }
+    },
+    {
+      "q": {
+        "en": "What happens after you apply?",
+        "ar": "ماذا يحدث بعد التقديم؟",
+        "es": "¿Qué pasa después de solicitar?"
+      },
+      "options": [
+        {
+          "en": "An admin reviews your application and matches you",
+          "ar": "يراجع مشرف طلبك ويوفّق بينك وبين أحد",
+          "es": "Un administrador revisa tu solicitud y te empareja"
+        },
+        {
+          "en": "You start right away",
+          "ar": "تبدأ فورًا",
+          "es": "Empiezas de inmediato"
+        },
+        {
+          "en": "Nothing",
+          "ar": "لا شيء",
+          "es": "Nada"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "A person on the team looks at every application before matching.",
+        "ar": "يراجع أحد الفريق كل طلب قبل التوفيق.",
+        "es": "Alguien del equipo revisa cada solicitud antes de emparejar."
+      }
+    }
+  ]
+}

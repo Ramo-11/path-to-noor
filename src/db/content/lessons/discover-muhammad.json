@@ -1,0 +1,550 @@
+{
+  "slug": "discover-muhammad",
+  "minutes": 4,
+  "title": {
+    "en": "Who was Muhammad",
+    "ar": "من هو محمد",
+    "es": "Quién fue Muhammad"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Muhammad, peace be upon him, was born in Makkah around 570 CE. Muslims believe he is the last messenger of God."
+      },
+      {
+        "h": "Known as the Trustworthy"
+      },
+      {
+        "facts": {
+          "title": "Before he was a prophet",
+          "items": [
+            {
+              "icon": "home",
+              "label": "An orphan",
+              "text": "His father died before he was born and his mother when he was about six."
+            },
+            {
+              "icon": "leaf",
+              "label": "A shepherd",
+              "text": "As a young man he tended sheep, then worked in trade."
+            },
+            {
+              "icon": "shield",
+              "label": "Al-Amin",
+              "text": "People of Makkah called him al-Amin, the Trustworthy, and left their valuables with him."
+            },
+            {
+              "icon": "heart",
+              "label": "A family man",
+              "text": "At about 25 he married Khadijah, a respected businesswoman."
+            }
+          ]
+        }
+      },
+      {
+        "h": "The first revelation"
+      },
+      {
+        "p": "At about 40, he was praying alone in the Cave of Hira, a mountain cave near Makkah. Muslims believe the angel Gabriel came to him with the first words of the Quran:"
+      },
+      {
+        "quote": "Recite in the name of your Lord who created, created man from a clinging substance. Recite, and your Lord is the most Generous, who taught by the pen, taught man that which he knew not.",
+        "cite": "Quran 96:1-5 (Saheeh International translation)"
+      },
+      {
+        "flow": {
+          "title": "What happened next",
+          "steps": [
+            {
+              "label": "Fear",
+              "text": "He returned home trembling and said, \"Cover me!\""
+            },
+            {
+              "label": "Khadijah",
+              "text": "His wife comforted him with her trust in his character."
+            },
+            {
+              "label": "Waraqah",
+              "text": "Her cousin Waraqah, a Christian elder who knew the Scriptures, said this was the same angel who came to Moses."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Khadijah knew him best. She said:"
+      },
+      {
+        "quote": "No, by Allah, Allah will never fail you. Verily, you maintain kinship ties, help those in need, support the destitute, provide the guests with food and shelter, and assist those affected by calamities.",
+        "cite": "Sahih al-Bukhari 3 and Sahih Muslim 160 (agreed upon)"
+      },
+      {
+        "h": "A mercy to the worlds"
+      },
+      {
+        "quote": "And We have not sent you, [O Muhammad], except as a mercy to the worlds.",
+        "cite": "Quran 21:107 (Saheeh International translation)"
+      },
+      {
+        "p": "The Prophet taught kindness to children, family, neighbors, and animals, even toward those who harmed him."
+      },
+      {
+        "quote": "Whoever does not show mercy will not be shown mercy!",
+        "cite": "Sahih al-Bukhari 5997 and Sahih Muslim 2318 (agreed upon)"
+      },
+      {
+        "more": {
+          "title": "His character in the Quran",
+          "blocks": [
+            {
+              "quote": "And indeed, you are of a great moral character.",
+              "cite": "Quran 68:4 (Saheeh International translation)"
+            }
+          ]
+        }
+      },
+      {
+        "h": "The final messenger"
+      },
+      {
+        "p": "Muslims believe Muhammad did not start something new. He completed the line of prophets before him, and no prophet comes after him."
+      },
+      {
+        "quote": "Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and last of the prophets. And ever is Allah, of all things, Knowing.",
+        "cite": "Quran 33:40 (Saheeh International translation)"
+      },
+      {
+        "timeline": {
+          "title": "His life in short",
+          "events": [
+            {
+              "when": "About 570",
+              "text": "Born in Makkah."
+            },
+            {
+              "when": "About 595",
+              "text": "Married Khadijah."
+            },
+            {
+              "when": "About 610",
+              "text": "The first revelation in the Cave of Hira."
+            },
+            {
+              "when": "610 to 622",
+              "text": "He called people to worship God alone in Makkah, and many opposed him."
+            },
+            {
+              "when": "622",
+              "text": "Migrated to Madinah (the Hijrah), where the Muslim community was established."
+            },
+            {
+              "when": "632",
+              "text": "Passed away in Madinah."
+            }
+          ]
+        }
+      },
+      {
+        "key": "Muslims love Muhammad and follow his example, but they do not worship him. Worship is for God alone, the same message every prophet brought."
+      }
+    ],
+    "ar": [
+      {
+        "p": "وُلد محمد صلى الله عليه وسلم في مكة نحو سنة 570 ميلادية، ويؤمن المسلمون بأنه خاتم رسل الله."
+      },
+      {
+        "h": "عُرف بالأمين"
+      },
+      {
+        "facts": {
+          "title": "قبل أن يكون نبيًّا",
+          "items": [
+            {
+              "icon": "home",
+              "label": "يتيم",
+              "text": "مات أبوه قبل ولادته وماتت أمه وهو في السادسة تقريبًا."
+            },
+            {
+              "icon": "leaf",
+              "label": "راعي غنم",
+              "text": "رعى الغنم في شبابه ثم عمل بالتجارة."
+            },
+            {
+              "icon": "shield",
+              "label": "الأمين",
+              "text": "سمّاه أهل مكة الأمين، وكانوا يودعون عنده أماناتهم."
+            },
+            {
+              "icon": "heart",
+              "label": "رجل أسرة",
+              "text": "تزوج خديجة، سيدة الأعمال المحترمة، وعمره نحو 25 سنة."
+            }
+          ]
+        }
+      },
+      {
+        "h": "أول الوحي"
+      },
+      {
+        "p": "وهو في نحو الأربعين كان يتعبد وحده في غار حراء، وهو غار في جبل قرب مكة. ويؤمن المسلمون بأن الملَك جبريل جاءه بأول آيات القرآن:"
+      },
+      {
+        "quote": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+        "cite": "سورة العلق: 1-5"
+      },
+      {
+        "flow": {
+          "title": "ماذا حدث بعد ذلك",
+          "steps": [
+            {
+              "label": "الخوف",
+              "text": "عاد إلى بيته يرتجف وقال: «زمّلوني»."
+            },
+            {
+              "label": "خديجة",
+              "text": "طمأنته زوجته بثقتها في أخلاقه."
+            },
+            {
+              "label": "ورقة",
+              "text": "وقال ابن عمها ورقة، وهو شيخ نصراني يعرف الكتب، إن هذا هو الناموس الذي نزل على موسى."
+            }
+          ]
+        }
+      },
+      {
+        "p": "كانت خديجة أعرف الناس به، فقالت:"
+      },
+      {
+        "quote": "كَلَّا وَاللَّهِ مَا يُخْزِيكَ اللَّهُ أَبَدًا، إِنَّكَ لَتَصِلُ الرَّحِمَ، وَتَحْمِلُ الكَلَّ، وَتَكْسِبُ المَعْدُومَ، وَتَقْرِي الضَّيْفَ، وَتُعِينُ عَلَى نَوَائِبِ الحَقِّ",
+        "cite": "صحيح البخاري 3، وصحيح مسلم 160 (متفق عليه)"
+      },
+      {
+        "h": "رحمة للعالمين"
+      },
+      {
+        "quote": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ",
+        "cite": "سورة الأنبياء: 107"
+      },
+      {
+        "p": "وعلّم النبي الرحمة بالأطفال والأهل والجيران والحيوان، حتى مع من آذاه."
+      },
+      {
+        "quote": "مَنْ لَا يَرْحَم لَا يُرْحَمُ!",
+        "cite": "صحيح البخاري 5997، وصحيح مسلم 2318 (متفق عليه)"
+      },
+      {
+        "more": {
+          "title": "أخلاقه في القرآن",
+          "blocks": [
+            {
+              "quote": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍۢ",
+              "cite": "سورة القلم: 4"
+            }
+          ]
+        }
+      },
+      {
+        "h": "خاتم المرسلين"
+      },
+      {
+        "p": "يؤمن المسلمون بأن محمدًا لم يأتِ بشيء جديد، بل ختم سلسلة الأنبياء قبله، ولا نبي بعده."
+      },
+      {
+        "quote": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍۢ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ ۗ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًۭا",
+        "cite": "سورة الأحزاب: 40"
+      },
+      {
+        "timeline": {
+          "title": "حياته باختصار",
+          "events": [
+            {
+              "when": "نحو 570",
+              "text": "وُلد في مكة."
+            },
+            {
+              "when": "نحو 595",
+              "text": "تزوج خديجة."
+            },
+            {
+              "when": "نحو 610",
+              "text": "نزل الوحي الأول في غار حراء."
+            },
+            {
+              "when": "من 610 إلى 622",
+              "text": "دعا إلى عبادة الله وحده في مكة، وعارضه كثيرون."
+            },
+            {
+              "when": "622",
+              "text": "هاجر إلى المدينة، وأُقيم فيها مجتمع المسلمين."
+            },
+            {
+              "when": "632",
+              "text": "توفي في المدينة."
+            }
+          ]
+        }
+      },
+      {
+        "key": "يحب المسلمون محمدًا ويقتدون به، لكنهم لا يعبدونه. فالعبادة لله وحده، وهي الرسالة نفسها التي جاء بها كل نبي."
+      }
+    ],
+    "es": [
+      {
+        "p": "Muhammad, la paz y las bendiciones sean con él, nació en La Meca hacia el año 570 d. C. Los musulmanes creen que es el último mensajero de Dios."
+      },
+      {
+        "h": "Conocido como el Digno de Confianza"
+      },
+      {
+        "facts": {
+          "title": "Antes de ser profeta",
+          "items": [
+            {
+              "icon": "home",
+              "label": "Huérfano",
+              "text": "Su padre murió antes de que naciera y su madre cuando tenía unos seis años."
+            },
+            {
+              "icon": "leaf",
+              "label": "Pastor",
+              "text": "De joven cuidó ovejas y luego trabajó en el comercio."
+            },
+            {
+              "icon": "shield",
+              "label": "Al-Amin",
+              "text": "La gente de La Meca lo llamaba al-Amin, el Digno de Confianza, y dejaba sus pertenencias a su cuidado."
+            },
+            {
+              "icon": "heart",
+              "label": "Un hombre de familia",
+              "text": "A los 25 años aproximadamente se casó con Jadiya, una respetada comerciante."
+            }
+          ]
+        }
+      },
+      {
+        "h": "La primera revelación"
+      },
+      {
+        "p": "A los 40 años aproximadamente, estaba orando a solas en la cueva de Hira, una cueva en un monte cerca de La Meca. Los musulmanes creen que el ángel Gabriel vino a él con las primeras palabras del Corán:"
+      },
+      {
+        "quote": "¡Lee! [¡oh, Mujámmad!] En el nombre de tu Señor, Quien creó todas las cosas. Creó al hombre de una célula embrionaria. ¡Lee! Que tu Señor es el más Generoso. Enseñó la escritura con la pluma y le enseñó al hombre lo que este no sabía.",
+        "cite": "Corán 96:1-5 (traducción de Isa García)"
+      },
+      {
+        "flow": {
+          "title": "Lo que pasó después",
+          "steps": [
+            {
+              "label": "Miedo",
+              "text": "Volvió a casa temblando y dijo: \"¡Cúbranme!\""
+            },
+            {
+              "label": "Jadiya",
+              "text": "Su esposa lo tranquilizó con su confianza en su carácter."
+            },
+            {
+              "label": "Waraqa",
+              "text": "Su primo Waraqa, un anciano cristiano que conocía las Escrituras, dijo que era el mismo ángel que vino a Moisés."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Jadiya era quien mejor lo conocía. Ella dijo:"
+      },
+      {
+        "quote": "¡No, por Allah! Allah nunca te abandonará. Tú mantienes los lazos familiares, ayudas al necesitado, das a quien no tiene nada, recibes al huésped con generosidad y ayudas a quienes sufren desgracias.",
+        "cite": "Sahih al-Bujari 3 y Sahih Muslim 160 (registrado por ambos)"
+      },
+      {
+        "h": "Una misericordia para todos"
+      },
+      {
+        "quote": "No te he enviado [¡oh, Mujámmad!] sino como misericordia para todos los seres.",
+        "cite": "Corán 21:107 (traducción de Isa García)"
+      },
+      {
+        "p": "El Profeta enseñó bondad con los niños, la familia, los vecinos y los animales, incluso con quienes le hicieron daño."
+      },
+      {
+        "quote": "¡Quien no tiene compasión no será compadecido!",
+        "cite": "Sahih al-Bujari 5997 y Sahih Muslim 2318 (registrado por ambos)"
+      },
+      {
+        "more": {
+          "title": "Su carácter en el Corán",
+          "blocks": [
+            {
+              "quote": "Eres de una naturaleza y moral grandiosas.",
+              "cite": "Corán 68:4 (traducción de Isa García)"
+            }
+          ]
+        }
+      },
+      {
+        "h": "El último mensajero"
+      },
+      {
+        "p": "Los musulmanes creen que Muhammad no empezó algo nuevo. Completó la línea de profetas anteriores, y después de él no viene ningún otro."
+      },
+      {
+        "quote": "Mujámmad no es el padre de ninguno de sus hombres, sino que es el Mensajero de Dios y el sello de los Profetas. Dios lo sabe todo.",
+        "cite": "Corán 33:40 (traducción de Isa García)"
+      },
+      {
+        "timeline": {
+          "title": "Su vida en breve",
+          "events": [
+            {
+              "when": "Hacia 570",
+              "text": "Nació en La Meca."
+            },
+            {
+              "when": "Hacia 595",
+              "text": "Se casó con Jadiya."
+            },
+            {
+              "when": "Hacia 610",
+              "text": "Primera revelación en la cueva de Hira."
+            },
+            {
+              "when": "De 610 a 622",
+              "text": "Llamó a adorar solo a Dios en La Meca, y muchos se opusieron."
+            },
+            {
+              "when": "622",
+              "text": "Emigró a Medina (la Hégira), donde se formó la comunidad musulmana."
+            },
+            {
+              "when": "632",
+              "text": "Falleció en Medina."
+            }
+          ]
+        }
+      },
+      {
+        "key": "Los musulmanes aman a Muhammad y siguen su ejemplo, pero no lo adoran. La adoración es solo para Dios, el mismo mensaje que trajo cada profeta."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 96:1-5 (Saheeh International translation)",
+      "url": "https://quran.com/96/1-5"
+    },
+    {
+      "label": "Quran 21:107 (Saheeh International translation)",
+      "url": "https://quran.com/21/107"
+    },
+    {
+      "label": "Quran 68:4 (Saheeh International translation)",
+      "url": "https://quran.com/68/4"
+    },
+    {
+      "label": "Quran 33:40 (Saheeh International translation)",
+      "url": "https://quran.com/33/40"
+    },
+    {
+      "label": "Sahih al-Bukhari 3 and Sahih Muslim 160 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/66303"
+    },
+    {
+      "label": "Sahih al-Bukhari 5997 and Sahih Muslim 2318 (agreed upon)",
+      "url": "https://hadeethenc.com/en/browse/hadith/5440"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What was Muhammad known as before prophethood?",
+        "ar": "بماذا عُرف محمد قبل النبوة؟",
+        "es": "¿Cómo era conocido Muhammad antes de la profecía?"
+      },
+      "options": [
+        {
+          "en": "Al-Amin, the Trustworthy",
+          "ar": "الأمين",
+          "es": "Al-Amin, el Digno de Confianza"
+        },
+        {
+          "en": "A king",
+          "ar": "ملك",
+          "es": "Un rey"
+        },
+        {
+          "en": "A priest",
+          "ar": "كاهن",
+          "es": "Un sacerdote"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "Even people who later opposed him called him al-Amin. Before he was a prophet, his honesty was known to all.",
+        "ar": "حتى من عارضوه بعد ذلك سمّوه الأمين. فقد كانت أمانته معروفة للجميع قبل النبوة.",
+        "es": "Incluso quienes luego se opusieron a él lo llamaban al-Amin. Antes de ser profeta, su honradez era conocida por todos."
+      }
+    },
+    {
+      "q": {
+        "en": "Where did the first revelation come to him?",
+        "ar": "أين نزل عليه الوحي أول مرة؟",
+        "es": "¿Dónde le llegó la primera revelación?"
+      },
+      "options": [
+        {
+          "en": "In the Cave of Hira, near Makkah",
+          "ar": "في غار حراء قرب مكة",
+          "es": "En la cueva de Hira, cerca de La Meca"
+        },
+        {
+          "en": "In Jerusalem",
+          "ar": "في القدس",
+          "es": "En Jerusalén"
+        },
+        {
+          "en": "In a temple",
+          "ar": "في معبد",
+          "es": "En un templo"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The first words were \"Recite in the name of your Lord who created\" (Quran 96:1).",
+        "ar": "كانت أول الكلمات: «ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ» (العلق: 1).",
+        "es": "Las primeras palabras fueron \"¡Lee! En el nombre de tu Señor, Quien creó todas las cosas\" (Corán 96:1)."
+      }
+    },
+    {
+      "q": {
+        "en": "What do Muslims believe about Muhammad's place among the prophets?",
+        "ar": "ما مكانة محمد بين الأنبياء عند المسلمين؟",
+        "es": "¿Qué creen los musulmanes sobre el lugar de Muhammad entre los profetas?"
+      },
+      "options": [
+        {
+          "en": "He is the last of the prophets",
+          "ar": "هو آخر الأنبياء",
+          "es": "Es el último de los profetas"
+        },
+        {
+          "en": "He is the first prophet",
+          "ar": "هو أول الأنبياء",
+          "es": "Es el primer profeta"
+        },
+        {
+          "en": "He is divine and worshipped",
+          "ar": "هو إله يُعبد",
+          "es": "Es divino y se le adora"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The Quran calls him \"the Messenger of Allah and last of the prophets\" (Quran 33:40). Muslims honor him but worship only God.",
+        "ar": "يصفه القرآن بأنه «رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ» (الأحزاب: 40). ويكرمه المسلمون ولا يعبدون إلا الله.",
+        "es": "El Corán lo llama \"el Mensajero de Dios y el sello de los Profetas\" (Corán 33:40). Los musulmanes lo honran, pero adoran solo a Dios."
+      }
+    }
+  ]
+}

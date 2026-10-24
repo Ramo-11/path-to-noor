@@ -1,0 +1,517 @@
+{
+  "slug": "discover-one-message",
+  "minutes": 3,
+  "title": {
+    "en": "One message from Adam to Muhammad",
+    "ar": "رسالة واحدة من آدم إلى محمد",
+    "es": "Un solo mensaje, de Adán a Muhammad"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "Muslims believe every prophet brought the same core message: worship God alone."
+      },
+      {
+        "p": "In Islam, God sent messengers to every people, from Adam to Muhammad, peace be upon them all. Many of them are people you may already know."
+      },
+      {
+        "more": {
+          "title": "A note on words",
+          "blocks": [
+            {
+              "p": "Allah is the Arabic word for God. The Quran quotes below keep the word Allah."
+            }
+          ]
+        }
+      },
+      {
+        "h": "The same message"
+      },
+      {
+        "quote": "And We sent not before you any messenger except that We revealed to him that, \"There is no deity except Me, so worship Me.\"",
+        "cite": "Quran 21:25 (Saheeh International translation)"
+      },
+      {
+        "p": "Their laws could differ for different people and times. This message never did."
+      },
+      {
+        "h": "A chain of messengers"
+      },
+      {
+        "timeline": {
+          "title": "Some of the messengers",
+          "events": [
+            {
+              "when": "Adam",
+              "text": "The first human being and the first prophet."
+            },
+            {
+              "when": "Noah (Nuh)",
+              "text": "Called his people to God alone and built the ark."
+            },
+            {
+              "when": "Abraham (Ibrahim)",
+              "text": "Left the worship of idols and worshipped God alone. Father of the prophets Ishmael and Isaac."
+            },
+            {
+              "when": "Moses (Musa)",
+              "text": "Led the Children of Israel out of Egypt and received the Torah (Tawrah)."
+            },
+            {
+              "when": "David (Dawud)",
+              "text": "A king and a prophet. He was given the Psalms (Zabur)."
+            },
+            {
+              "when": "Jesus (Isa)",
+              "text": "The Messiah, born to Mary. He was given the Gospel (Injil)."
+            },
+            {
+              "when": "Muhammad",
+              "text": "The last messenger, given the Quran."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Where the Quran names them",
+          "blocks": [
+            {
+              "p": "The Quran lists many of these prophets together and mentions the book given to David:"
+            },
+            {
+              "quote": "Indeed, We have revealed to you, [O Muhammad], as We revealed to Noah and the prophets after him. And we revealed to Abraham, Ishmael, Isaac, Jacob, the Descendants, Jesus, Job, Jonah, Aaron, and Solomon, and to David We gave the book [of Psalms].",
+              "cite": "Quran 4:163 (Saheeh International translation)"
+            }
+          ]
+        }
+      },
+      {
+        "h": "Muslims believe in all of them"
+      },
+      {
+        "p": "A Muslim does not choose some prophets and leave out others. Believing in all of them is part of the faith. The Quran tells believers to say:"
+      },
+      {
+        "quote": "Say, [O believers], \"We have believed in Allah and what has been revealed to us and what has been revealed to Abraham and Ishmael and Isaac and Jacob and the Descendants and what was given to Moses and Jesus and what was given to the prophets from their Lord. We make no distinction between any of them, and we are Muslims [in submission] to Him.\"",
+        "cite": "Quran 2:136 (Saheeh International translation)"
+      },
+      {
+        "facts": {
+          "title": "Earlier scriptures Muslims honor",
+          "items": [
+            {
+              "icon": "book",
+              "label": "Torah",
+              "text": "Given to Moses"
+            },
+            {
+              "icon": "book",
+              "label": "Psalms",
+              "text": "Given to David"
+            },
+            {
+              "icon": "book",
+              "label": "Gospel",
+              "text": "Given to Jesus"
+            },
+            {
+              "icon": "book",
+              "label": "Quran",
+              "text": "Given to Muhammad"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "If it is the same message, why a Quran?",
+          "blocks": [
+            {
+              "p": "Muslims believe the earlier books were true revelation from God. They also believe that over time, human hands changed parts of the texts that exist today. So God sent the Quran to confirm what was true and to be kept safe for all people."
+            }
+          ]
+        }
+      },
+      {
+        "key": "Islam does not start a new religion. Muslims see it as the same call to worship God alone, from Adam to Muhammad."
+      },
+      {
+        "p": "You do not have to agree today. This lesson only shows what Muslims believe and why."
+      }
+    ],
+    "ar": [
+      {
+        "p": "يؤمن المسلمون بأن كل الأنبياء جاؤوا برسالة أساسية واحدة: عبادة الله وحده."
+      },
+      {
+        "p": "يؤمن المسلمون بأن الله أرسل رسلًا إلى كل الأمم، من آدم إلى محمد عليهم الصلاة والسلام. وكثير منهم أسماء ربما تعرفها من قبل."
+      },
+      {
+        "more": {
+          "title": "ملاحظة على الكلمات",
+          "blocks": [
+            {
+              "p": "«الله» هو اللفظ العربي للإله. وتبقى هذه الكلمة في الآيات أدناه."
+            }
+          ]
+        }
+      },
+      {
+        "h": "رسالة واحدة"
+      },
+      {
+        "quote": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+        "cite": "سورة الأنبياء: 25"
+      },
+      {
+        "p": "قد تختلف شرائعهم باختلاف الأقوام والأزمنة، لكن هذه الرسالة لم تتغير."
+      },
+      {
+        "h": "سلسلة من الرسل"
+      },
+      {
+        "timeline": {
+          "title": "بعض الرسل",
+          "events": [
+            {
+              "when": "آدم",
+              "text": "أول البشر وأول الأنبياء."
+            },
+            {
+              "when": "نوح",
+              "text": "دعا قومه إلى عبادة الله وحده وصنع السفينة."
+            },
+            {
+              "when": "إبراهيم",
+              "text": "ترك عبادة الأصنام وعبد الله وحده، وهو أبو النبيين إسماعيل وإسحاق."
+            },
+            {
+              "when": "موسى",
+              "text": "أخرج بني إسرائيل من مصر وأُنزلت عليه التوراة."
+            },
+            {
+              "when": "داود",
+              "text": "ملك ونبي، وأُعطي الزبور."
+            },
+            {
+              "when": "عيسى",
+              "text": "المسيح ابن مريم، وأُنزل عليه الإنجيل."
+            },
+            {
+              "when": "محمد",
+              "text": "خاتم المرسلين، وأُنزل عليه القرآن."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "أين ذكرهم القرآن",
+          "blocks": [
+            {
+              "p": "يذكر القرآن كثيرًا من هؤلاء الأنبياء معًا، ويذكر الكتاب الذي أُعطيه داود:"
+            },
+            {
+              "quote": "إِنَّآ أَوْحَيْنَآ إِلَيْكَ كَمَآ أَوْحَيْنَآ إِلَىٰ نُوحٍۢ وَٱلنَّبِيِّۦنَ مِنۢ بَعْدِهِۦ ۚ وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَٰرُونَ وَسُلَيْمَٰنَ ۚ وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا",
+              "cite": "سورة النساء: 163"
+            }
+          ]
+        }
+      },
+      {
+        "h": "يؤمن المسلمون بهم جميعًا"
+      },
+      {
+        "p": "لا يختار المسلم بعض الأنبياء ويترك بعضًا، فالإيمان بهم جميعًا جزء من الدين. ويأمر القرآن المؤمنين أن يقولوا:"
+      },
+      {
+        "quote": "قُولُوٓا۟ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَمَآ أُوتِىَ ٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+        "cite": "سورة البقرة: 136"
+      },
+      {
+        "facts": {
+          "title": "كتب سابقة يعظّمها المسلمون",
+          "items": [
+            {
+              "icon": "book",
+              "label": "التوراة",
+              "text": "أُنزلت على موسى"
+            },
+            {
+              "icon": "book",
+              "label": "الزبور",
+              "text": "أُعطيه داود"
+            },
+            {
+              "icon": "book",
+              "label": "الإنجيل",
+              "text": "أُنزل على عيسى"
+            },
+            {
+              "icon": "book",
+              "label": "القرآن",
+              "text": "أُنزل على محمد"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "إن كانت الرسالة واحدة فلماذا القرآن؟",
+          "blocks": [
+            {
+              "p": "يؤمن المسلمون بأن الكتب السابقة وحي حق من الله. ويؤمنون كذلك بأن أيدي البشر غيّرت مع الزمن في بعض النصوص الموجودة اليوم. فأنزل الله القرآن مصدّقًا لما فيه من الحق ومحفوظًا لجميع الناس."
+            }
+          ]
+        }
+      },
+      {
+        "key": "لا يرى المسلمون الإسلام دينًا جديدًا، بل هو الدعوة نفسها إلى عبادة الله وحده، من آدم إلى محمد."
+      },
+      {
+        "p": "ليس عليك أن توافق اليوم، فهذا الدرس يعرض فقط ما يؤمن به المسلمون ولماذا."
+      }
+    ],
+    "es": [
+      {
+        "p": "Los musulmanes creen que todos los profetas trajeron el mismo mensaje central: adorar solo a Dios."
+      },
+      {
+        "p": "En el Islam, Dios envió mensajeros a todos los pueblos, desde Adán hasta Muhammad, la paz sea con todos ellos. Muchos de ellos son nombres que quizá ya conoces."
+      },
+      {
+        "more": {
+          "title": "Una nota sobre las palabras",
+          "blocks": [
+            {
+              "p": "Allah es la palabra árabe para Dios. Las citas del Corán conservan la palabra Allah."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Un mismo mensaje"
+      },
+      {
+        "quote": "No envié en el pasado a ningún Mensajero, excepto que recibiera la misma revelación que tú: \"Nada ni nadie merece ser adorado excepto Yo, ¡Adórenme solo a Mí!\"",
+        "cite": "Corán 21:25 (traducción de Isa García)"
+      },
+      {
+        "p": "Sus leyes podían variar según el pueblo y la época. Este mensaje nunca cambió."
+      },
+      {
+        "h": "Una cadena de mensajeros"
+      },
+      {
+        "timeline": {
+          "title": "Algunos de los mensajeros",
+          "events": [
+            {
+              "when": "Adán",
+              "text": "El primer ser humano y el primer profeta."
+            },
+            {
+              "when": "Noé (Nuh)",
+              "text": "Llamó a su pueblo a adorar solo a Dios y construyó el arca."
+            },
+            {
+              "when": "Abraham (Ibrahim)",
+              "text": "Dejó la adoración de ídolos y adoró solo a Dios. Padre de los profetas Ismael e Isaac."
+            },
+            {
+              "when": "Moisés (Musa)",
+              "text": "Sacó a los hijos de Israel de Egipto y recibió la Torá (Tawrat)."
+            },
+            {
+              "when": "David (Dawud)",
+              "text": "Rey y profeta. Se le dieron los Salmos (Zabur)."
+            },
+            {
+              "when": "Jesús (Isa)",
+              "text": "El Mesías, hijo de María. Se le dio el Evangelio (Inyil)."
+            },
+            {
+              "when": "Muhammad",
+              "text": "El último mensajero, a quien se dio el Corán."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Dónde los nombra el Corán",
+          "blocks": [
+            {
+              "p": "El Corán menciona a muchos de estos profetas juntos y nombra el libro dado a David:"
+            },
+            {
+              "quote": "Te he descendido la revelación como lo hice con Noé y con los Profetas que le sucedieron, con Abraham, Ismael, Isaac, Jacob, las doce tribus, Jesús, Job, Jonás, Aarón y Salomón. A David le he revelado los Salmos.",
+              "cite": "Corán 4:163 (traducción de Isa García)"
+            }
+          ]
+        }
+      },
+      {
+        "h": "Los musulmanes creen en todos ellos"
+      },
+      {
+        "p": "Un musulmán no elige a unos profetas y deja a otros. Creer en todos ellos es parte de la fe. El Corán indica a los creyentes que digan:"
+      },
+      {
+        "quote": "Digan: \"Creemos en Dios, en lo que nos fue revelado a nosotros, en lo que fue revelado a Abraham, a Ismael, a Isaac, a Jacob y a las tribus, y en lo que Dios reveló a Moisés, a Jesús y a los demás Profetas. No discriminamos entre ellos, y entregamos a Dios nuestra voluntad [siendo musulmanes].",
+        "cite": "Corán 2:136 (traducción de Isa García)"
+      },
+      {
+        "facts": {
+          "title": "Escrituras anteriores que los musulmanes honran",
+          "items": [
+            {
+              "icon": "book",
+              "label": "Torá",
+              "text": "Dada a Moisés"
+            },
+            {
+              "icon": "book",
+              "label": "Salmos",
+              "text": "Dados a David"
+            },
+            {
+              "icon": "book",
+              "label": "Evangelio",
+              "text": "Dado a Jesús"
+            },
+            {
+              "icon": "book",
+              "label": "Corán",
+              "text": "Dado a Muhammad"
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Si el mensaje es el mismo, ¿por qué un Corán?",
+          "blocks": [
+            {
+              "p": "Los musulmanes creen que los libros anteriores fueron revelación verdadera de Dios. También creen que, con el tiempo, manos humanas cambiaron partes de los textos que existen hoy. Por eso Dios envió el Corán, para confirmar lo verdadero y quedar protegido para toda la humanidad."
+            }
+          ]
+        }
+      },
+      {
+        "key": "Los musulmanes no ven el Islam como una religión nueva, sino como el mismo llamado a adorar solo a Dios, de Adán a Muhammad."
+      },
+      {
+        "p": "No tienes que estar de acuerdo hoy. Esta lección solo muestra lo que creen los musulmanes y por qué."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Quran 21:25 (Saheeh International translation)",
+      "url": "https://quran.com/21/25"
+    },
+    {
+      "label": "Quran 4:163 (Saheeh International translation)",
+      "url": "https://quran.com/4/163"
+    },
+    {
+      "label": "Quran 2:136 (Saheeh International translation)",
+      "url": "https://quran.com/2/136"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What core message do Muslims say every prophet brought?",
+        "ar": "ما الرسالة الأساسية التي يقول المسلمون إن كل نبي جاء بها؟",
+        "es": "¿Qué mensaje central dicen los musulmanes que trajo cada profeta?"
+      },
+      "options": [
+        {
+          "en": "Worship God alone",
+          "ar": "عبادة الله وحده",
+          "es": "Adorar solo a Dios"
+        },
+        {
+          "en": "Each prophet brought a different god",
+          "ar": "جاء كل نبي بإله مختلف",
+          "es": "Cada profeta trajo un dios distinto"
+        },
+        {
+          "en": "Follow the traditions of your ancestors",
+          "ar": "اتباع ما كان عليه الآباء",
+          "es": "Seguir las tradiciones de los antepasados"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The Quran says God revealed to every messenger: \"There is no deity except Me, so worship Me.\" (Quran 21:25)",
+        "ar": "يقول القرآن إن الله أوحى إلى كل رسول: «لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ» (الأنبياء: 25).",
+        "es": "El Corán dice que Dios reveló a cada mensajero: \"Nada ni nadie merece ser adorado excepto Yo, ¡Adórenme solo a Mí!\" (Corán 21:25)."
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these prophets do Muslims believe in?",
+        "ar": "بأيٍّ من هؤلاء الأنبياء يؤمن المسلمون؟",
+        "es": "¿En cuáles de estos profetas creen los musulmanes?"
+      },
+      "options": [
+        {
+          "en": "Only Muhammad",
+          "ar": "محمد وحده",
+          "es": "Solo en Muhammad"
+        },
+        {
+          "en": "Noah, Abraham, Moses, David, Jesus and Muhammad",
+          "ar": "نوح وإبراهيم وموسى وداود وعيسى ومحمد",
+          "es": "Noé, Abraham, Moisés, David, Jesús y Muhammad"
+        },
+        {
+          "en": "Only the prophets after Jesus",
+          "ar": "الأنبياء بعد عيسى فقط",
+          "es": "Solo en los profetas posteriores a Jesús"
+        }
+      ],
+      "correct": 1,
+      "why": {
+        "en": "Believers say: \"We make no distinction between any of them.\" (Quran 2:136). Believing in all the prophets is part of the faith.",
+        "ar": "يقول المؤمنون: «لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّنْهُمْ» (البقرة: 136). والإيمان بجميع الأنبياء جزء من الدين.",
+        "es": "Los creyentes dicen: \"No discriminamos entre ellos\" (Corán 2:136). Creer en todos los profetas es parte de la fe."
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Zabur?",
+        "ar": "ما الزبور؟",
+        "es": "¿Qué es el Zabur?"
+      },
+      "options": [
+        {
+          "en": "The Psalms, given to David",
+          "ar": "كتاب داود، المسمى الزبور",
+          "es": "Los Salmos, dados a David"
+        },
+        {
+          "en": "The Gospel, given to Jesus",
+          "ar": "الإنجيل الذي أُنزل على عيسى",
+          "es": "El Evangelio, dado a Jesús"
+        },
+        {
+          "en": "The book given to Muhammad",
+          "ar": "الكتاب الذي أُنزل على محمد",
+          "es": "El libro dado a Muhammad"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "The Quran says: \"to David We gave the book [of Psalms]\" (Quran 4:163). Muslims call it the Zabur.",
+        "ar": "يقول القرآن: «وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا» (النساء: 163).",
+        "es": "El Corán dice: \"A David le he revelado los Salmos\" (Corán 4:163). Los musulmanes lo llaman Zabur."
+      }
+    }
+  ]
+}

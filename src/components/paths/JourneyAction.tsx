@@ -2,9 +2,10 @@ import { ArrowRight, Check } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
-import { ProgressCells } from "@/components/primer/ProgressCells";
+import { PathProgress } from "@/components/paths/PathProgress";
 import type { PathOutline } from "@/lib/learning-types";
-import { STAGE_STYLES, localized } from "@/lib/stages";
+import { localized } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 
 interface JourneyActionProps {
   path: PathOutline;
@@ -15,7 +16,7 @@ interface JourneyActionProps {
 export async function JourneyAction({ path, locale, signedIn }: JourneyActionProps) {
   const t = await getTranslations("paths");
   const tl = await getTranslations("learning");
-  const style = STAGE_STYLES[path.stage];
+  const style = toneStyle(path.stage);
   const started = signedIn && path.completedLessons > 0;
   const complete = signedIn && path.isComplete;
   const next = complete ? null : path.nextLesson;
@@ -43,7 +44,7 @@ export async function JourneyAction({ path, locale, signedIn }: JourneyActionPro
           <p aria-hidden="true" className="text-meta font-medium text-ink">
             {progressText}
           </p>
-          <ProgressCells
+          <PathProgress
             className="mt-2"
             done={path.completedLessons}
             total={path.totalLessons}

@@ -2,7 +2,8 @@ import { ArrowRight, Check, ChevronDown } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { StepOutline } from "@/lib/learning-types";
-import { STAGE_STYLES, localized, type StageKey } from "@/lib/stages";
+import { localized, type StageKey } from "@/lib/stages";
+import { toneStyle } from "@/lib/path-tone";
 import { MetaList } from "./MetaList";
 import { durationOf } from "./duration";
 import type { StepState } from "./StepTabs";
@@ -12,7 +13,7 @@ interface StepSectionProps {
   number: number;
   isLast: boolean;
   state: StepState;
-  stage: StageKey;
+  stage: StageKey | null;
   locale: string;
   signedIn: boolean;
   nextLessonId: string | null;
@@ -30,7 +31,7 @@ export async function StepSection({
 }: StepSectionProps) {
   const t = await getTranslations("paths");
   const tl = await getTranslations("learning");
-  const style = STAGE_STYLES[stage];
+  const style = toneStyle(stage);
   const titleId = `step-${number}-title`;
   const description = localized(step.description, locale);
   const duration = durationOf(step.totalMinutes);

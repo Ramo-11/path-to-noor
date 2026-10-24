@@ -1,7 +1,7 @@
 {
   "greeting": "Welcome back, {name}.",
   "guestTitle": "Sign in to see your journey",
-  "guestBody": "Create a free account or sign in to pick up where you left off and find your starting point.",
+  "guestBody": "Create a free account or sign in to pick up where you left off.",
   "signIn": "Sign in",
   "createAccount": "Create a free account",
   "findStart": "Find your starting point",
@@ -21,5 +21,9 @@
   "mentorStatusNone": "Not requested yet",
   "mentorStatusRequested": "Requested",
   "mentorStatusMatched": "Matched",
-  "settingsLink": "Settings"
+  "volunteer": "Volunteer as a mentor",
+  "volunteerLine": "Help someone new to Islam",
+  "settingsLink": "Settings",
+  "chooseBody": "Tell us where you are, and we will show you a clear path.",
+  "chooseAction": "Choose where you are"
 }

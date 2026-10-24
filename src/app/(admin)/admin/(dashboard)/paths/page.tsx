@@ -8,13 +8,15 @@ import { Pagination } from "@/components/admin/Pagination";
 import { StatusBadge } from "@/components/admin/StatusBadge";
 import { DataTable, type Column } from "@/components/admin/DataTable";
 import { PathDeleteButton } from "./PathDeleteButton";
-import { STAGE_NUMBER, STAGE_STYLES, type StageKey } from "@/lib/stages";
+import { STAGE_NUMBER, STAGE_STYLES, isStageKey, type StageKey } from "@/lib/stages";
+import { TRACK_LABELS, normalizeTracks, type TrackKey } from "@/lib/tracks";
 
 interface SerializedPath {
   _id: string;
   title: { en: string; ar: string; es: string };
   slug: string;
-  stage: StageKey;
+  stage: StageKey | null;
+  tracks: TrackKey[];
   order: number;
   estimatedHours: number;
   modules: Array<{ moduleId: string; order: number }>;
@@ -46,14 +48,23 @@ const columns: Column<SerializedPath>[] = [
   },
   {
     key: "stage",
-    header: "Stage",
+    header: "Tracks",
     render: (item) => (
-      <span
-        className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium ${STAGE_STYLES[item.stage].tint} ${STAGE_STYLES[item.stage].text}`}
-      >
-        Stage {STAGE_NUMBER[item.stage]}: {STAGE_LABELS[item.stage]}
-        <span className="text-[10px] opacity-70">#{item.order}</span>
-      </span>
+      <div className="flex flex-col items-start gap-1">
+        <span className="text-xs text-slate-600 dark:text-slate-400">
+          {item.tracks.map((track) => TRACK_LABELS[track]).join(", ")}
+        </span>
+        {item.stage ? (
+          <span
+            className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium ${STAGE_STYLES[item.stage].tint} ${STAGE_STYLES[item.stage].text}`}
+          >
+            Stage {STAGE_NUMBER[item.stage]}: {STAGE_LABELS[item.stage]}
+            <span className="text-[10px] opacity-70">#{item.order}</span>
+          </span>
+        ) : (
+          <span className="text-[10px] text-slate-500 dark:text-slate-400">#{item.order}</span>
+        )}
+      </div>
     ),
   },
   {
@@ -161,7 +172,8 @@ export default async function PathsPage({
       _id: path._id.toString(),
       title: path.title,
       slug: path.slug,
-      stage: path.stage,
+      tracks: normalizeTracks(path.tracks),
+      stage: normalizeTracks(path.tracks).includes("new") && isStageKey(path.stage) ? path.stage : null,
       order: path.order,
       estimatedHours: path.estimatedHours,
       modules: path.modules.map((m) => ({

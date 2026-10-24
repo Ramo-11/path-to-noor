@@ -1,18 +1,19 @@
 {
   "meta": {
-    "title": "Basmet Dawah: un camino guiado para nuevos musulmanes",
-    "description": "Responde seis preguntas breves para encontrar tu punto de partida y aprende el islam una lección corta a la vez, en el orden correcto. Gratis, en español, inglés y árabe."
+    "title": "Basmet Dawah: aprende el islam, un paso claro a la vez",
+    "description": "Lecciones breves y gratuitas sobre el islam para quien siente curiosidad, para quien acaba de abrazar el islam y para musulmanes que quieren aprender más. En español, inglés y árabe."
   },
   "hero": {
-    "titleLine1": "Pronunciaste tu shahada.",
-    "titleLine2": "Aquí empieza tu camino.",
-    "lead": "Seis preguntas sencillas y elegimos tu primera lección.",
+    "title": "Aprende el islam, un paso claro a la vez.",
+    "lead": "Lecciones breves y gratuitas, empieces donde empieces.",
     "start": "Encuentra tu punto de partida",
     "startMeta": "Un minuto aproximadamente",
     "continueWith": "Continuar con {title}",
-    "yourStartingPoint": "Tu punto de partida: Etapa {number}, {name}",
-    "browse": "Ver todos los caminos",
-    "stagesTitle": "¿Dónde estás ahora?"
+    "yourStartingPoint": "Tu punto de partida: Etapa {number}, {name}"
+  },
+  "newStart": {
+    "title": "Aquí empieza tu camino.",
+    "lead": "Seis preguntas sencillas y elegimos tu primera lección."
   },
   "welcome": {
     "greeting": "Hola de nuevo, {name}.",
@@ -35,12 +36,12 @@
   "how": {
     "title": "Cómo funciona",
     "one": {
-      "title": "Responde seis preguntas",
-      "body": "No hay respuestas incorrectas."
+      "title": "Cuéntanos dónde estás",
+      "body": "Una sola pregunta. No hay respuestas incorrectas."
     },
     "two": {
-      "title": "Recibe tu camino",
-      "body": "Elegido según donde estás ahora."
+      "title": "Sigue un camino claro",
+      "body": "Lecciones breves, en el orden correcto."
     },
     "three": {
       "title": "Aprende poco a poco",
@@ -48,17 +49,12 @@
     }
   },
   "paths": {
-    "title": "Caminos para cada etapa",
+    "title": "Explora los caminos",
     "counts": "{steps}, {lessons}",
     "preparing": "Lecciones en preparación",
     "progress": "{percent}% hecho",
     "done": "Terminado",
     "viewAll": "Ver todos los caminos"
-  },
-  "mentor": {
-    "title": "No tienes que hacerlo a solas",
-    "body": "Un mentor voluntario puede acompañarte. Pregunta lo que quieras, grande o pequeño.",
-    "action": "Hablar con un mentor"
   },
   "stories": {
     "title": "Historias de nuevos musulmanes",
@@ -68,8 +64,23 @@
     "videoTitle": "La historia de {name}",
     "close": "Cerrar video"
   },
-  "final": {
-    "title": "Empieza donde estás",
-    "body": "Un minuto. Tu primera lección te espera."
+  "help": {
+    "title": "Estamos aquí para ayudarte",
+    "question": {
+      "title": "¿Tienes una pregunta?",
+      "line": "Pregúntanos lo que quieras, grande o pequeño."
+    },
+    "contact": {
+      "title": "¿Quieres un mentor?",
+      "line": "Cuéntanos y buscaremos a alguien."
+    },
+    "request": {
+      "title": "¿Quieres un mentor?",
+      "line": "Pide a un voluntario que te acompañe."
+    },
+    "volunteer": {
+      "title": "¿Quieres ser mentor voluntario?",
+      "line": "Acompaña a alguien nuevo en el islam."
+    }
   }
 }

@@ -1,4 +1,5 @@
 import { STAGES, type LocalizedText, type StageKey } from "@/lib/stages";
+import type { TrackKey } from "@/lib/tracks";
 
 export interface AudienceContext {
   userType?: string;
@@ -30,7 +31,8 @@ export interface PathOutline {
   slug: string;
   title: LocalizedText;
   description: LocalizedText;
-  stage: StageKey;
+  stage: StageKey | null;
+  tracks: TrackKey[];
   order: number;
   estimatedHours: number;
   outcomes: LocalizedText[];
@@ -49,6 +51,12 @@ export interface StageGroup {
   paths: PathOutline[];
 }
 
+export interface TrackGroups {
+  curious: PathOutline[];
+  new: StageGroup[];
+  muslim: PathOutline[];
+}
+
 export interface PlacementSummary {
   stage: StageKey;
   answers: Record<string, string>;
@@ -56,6 +64,7 @@ export interface PlacementSummary {
 }
 
 export interface LearnerState {
+  track: TrackKey | null;
   placement: PlacementSummary | null;
   completedLessonIds: string[];
   currentPath: PathOutline | null;
@@ -81,3 +90,13 @@ export function pickRecommendedPath(
   return { path: null, isFallback: true };
 }
 
+
+export function pickTrackPath(outlines: PathOutline[]): PathOutline | null {
+  const ready = outlines.filter((p) => p.totalLessons > 0);
+  return (
+    ready.find((p) => p.isStarted && !p.isComplete) ??
+    ready.find((p) => !p.isComplete) ??
+    ready[0] ??
+    null
+  );
+}

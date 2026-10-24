@@ -1,0 +1,439 @@
+{
+  "slug": "discover-becoming-muslim",
+  "minutes": 4,
+  "title": {
+    "en": "If you feel ready",
+    "ar": "إن شعرت أنك مستعد",
+    "es": "Si te sientes listo"
+  },
+  "body": {
+    "en": [
+      {
+        "p": "This lesson is for anyone who feels ready, or is just wondering what it would involve. There is no pressure. You can close it and come back, or never come back."
+      },
+      {
+        "h": "What the shahada says"
+      },
+      {
+        "p": "Becoming Muslim is done by saying one sentence, the shahada (testimony of faith)."
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+          "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
+          "meaning": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.",
+          "audio": "/audio/phrases/discover-becoming-muslim-1.mp3"
+        }
+      },
+      {
+        "facts": {
+          "title": "Two parts",
+          "items": [
+            {
+              "icon": "star",
+              "label": "One God",
+              "text": "You worship the One God alone, the Creator."
+            },
+            {
+              "icon": "book",
+              "label": "His Messenger",
+              "text": "You accept Muhammad as the last prophet, who brought the Quran."
+            }
+          ]
+        }
+      },
+      {
+        "p": "What counts is that you mean it and understand it. Saying words you do not believe is not what Islam asks."
+      },
+      {
+        "h": "It is simple"
+      },
+      {
+        "facts": {
+          "title": "What it does not need",
+          "items": [
+            {
+              "icon": "home",
+              "label": "No special place",
+              "text": "You can say it anywhere, even alone."
+            },
+            {
+              "icon": "ban",
+              "label": "No ceremony",
+              "text": "No ritual, fee, paperwork or exam."
+            },
+            {
+              "icon": "users",
+              "label": "No required witness",
+              "text": "Scholars say Islam is between a person and God, and it does not depend on someone hearing you."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Why people still say it in front of others",
+          "blocks": [
+            {
+              "p": "Many Muslims suggest saying it aloud with others present, because it helps with practical matters: being recorded as Muslim, marriage, and funeral arrangements. They say this is good advice, but not a condition for your Islam to be valid. It is also fine to talk it over with someone first."
+            }
+          ]
+        }
+      },
+      {
+        "h": "A fresh start"
+      },
+      {
+        "p": "The Prophet Muhammad, peace be upon him, said this to Amr ibn al-As (may Allah be pleased with him), who feared his past would count against him:"
+      },
+      {
+        "quote": "Are you not aware that Islam wipes out all (sins) that preceded it, and that Hijrah wipes out all (sins) that preceded it, and that Hajj wipes out all (sins) that preceded it?",
+        "cite": "Sahih Muslim 121"
+      },
+      {
+        "p": "Muslims understand this to mean that sins committed before becoming Muslim are forgiven."
+      },
+      {
+        "h": "No rush"
+      },
+      {
+        "facts": {
+          "title": "What to remember",
+          "items": [
+            {
+              "icon": "clock",
+              "label": "Take your time",
+              "text": "Many people read and think for months or years."
+            },
+            {
+              "icon": "message",
+              "label": "Questions are welcome",
+              "text": "Nobody here will rush you or judge you."
+            },
+            {
+              "icon": "heart",
+              "label": "You can talk to someone",
+              "text": "Go to the \"Contact us\" page on this site, choose the topic \"Ask a question\", and a real person will reply."
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "What does the first half of the shahada say?",
+          "options": [
+            "There is no god but Allah",
+            "Muhammad was a great man",
+            "Pray five times a day"
+          ],
+          "correct": 0,
+          "explanation": "The first half says that no one else deserves worship except the One God. The second half says that Muhammad is His Messenger."
+        }
+      },
+      {
+        "key": "The shahada is one sentence you mean, with no ceremony required, and Islam does not need a witness to be valid. There is no rush."
+      }
+    ],
+    "ar": [
+      {
+        "p": "هذا الدرس لمن يشعر أنه مستعد، أو يتساءل فقط ماذا يتطلب الأمر. لا ضغط هنا. يمكنك أن تغلقه وتعود لاحقًا، أو لا تعود."
+      },
+      {
+        "h": "ماذا تقول الشهادة"
+      },
+      {
+        "p": "يدخل الإنسان في الإسلام بجملة واحدة هي الشهادة (شهادة التوحيد)."
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+          "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
+          "meaning": "أشهد أن لا معبود بحق إلا الله، وأشهد أن محمدًا رسول الله.",
+          "audio": "/audio/phrases/discover-becoming-muslim-1.mp3"
+        }
+      },
+      {
+        "facts": {
+          "title": "جزءان",
+          "items": [
+            {
+              "icon": "star",
+              "label": "إله واحد",
+              "text": "تعبد الله وحده، الخالق."
+            },
+            {
+              "icon": "book",
+              "label": "رسوله",
+              "text": "تؤمن بأن محمدًا خاتم الأنبياء، وأنه جاء بالقرآن."
+            }
+          ]
+        }
+      },
+      {
+        "p": "المهم أن تقولها عن فهم واقتناع. فالإسلام لا يطلب منك كلمات لا تؤمن بها."
+      },
+      {
+        "h": "الأمر بسيط"
+      },
+      {
+        "facts": {
+          "title": "ما لا يحتاجه",
+          "items": [
+            {
+              "icon": "home",
+              "label": "لا مكان خاص",
+              "text": "يمكنك أن تقولها في أي مكان، حتى وأنت وحدك."
+            },
+            {
+              "icon": "ban",
+              "label": "لا مراسم",
+              "text": "لا طقس ولا رسوم ولا أوراق ولا امتحان."
+            },
+            {
+              "icon": "users",
+              "label": "لا شاهد مشروط",
+              "text": "يقول العلماء إن الإسلام بين العبد وربه، ولا يتوقف على أن يسمعك أحد."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "لماذا يقولها كثيرون أمام الناس",
+          "blocks": [
+            {
+              "p": "يوصي كثير من المسلمين بالنطق بها أمام آخرين، لأن ذلك يفيد في أمور عملية: تسجيلك مسلمًا، والزواج، وترتيبات الجنازة. ويقولون إنه نصيحة حسنة، لكنه ليس شرطًا لصحة إسلامك. ولا بأس أن تتحدث مع أحد قبل ذلك."
+            }
+          ]
+        }
+      },
+      {
+        "h": "بداية جديدة"
+      },
+      {
+        "p": "قال النبي محمد صلى الله عليه وسلم هذا لعمرو بن العاص رضي الله عنه حين خشي أن يُحاسَب على ماضيه:"
+      },
+      {
+        "quote": "أما علمت أن الإسلام يهدم ما كان قبله، وأن الهجرة تهدم ما كان قبلها، وأن الحج يهدم ما كان قبله؟",
+        "cite": "صحيح مسلم 121"
+      },
+      {
+        "p": "ويفهم المسلمون من ذلك أن الذنوب التي سبقت الدخول في الإسلام تُغفر."
+      },
+      {
+        "h": "لا استعجال"
+      },
+      {
+        "facts": {
+          "title": "تذكّر",
+          "items": [
+            {
+              "icon": "clock",
+              "label": "خذ وقتك",
+              "text": "يقرأ كثيرون ويفكرون أشهرًا أو سنين."
+            },
+            {
+              "icon": "message",
+              "label": "الأسئلة مرحّب بها",
+              "text": "لن يستعجلك أحد هنا ولن يحكم عليك."
+            },
+            {
+              "icon": "heart",
+              "label": "يمكنك أن تتحدث مع أحد",
+              "text": "افتح صفحة «تواصل معنا» في هذا الموقع، واختر الموضوع «اطرح سؤالا»، وسيرد عليك شخص حقيقي."
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "ماذا يقول الجزء الأول من الشهادة؟",
+          "options": [
+            "لا معبود بحق إلا الله",
+            "محمد رجل عظيم",
+            "صلّ خمس مرات في اليوم"
+          ],
+          "correct": 0,
+          "explanation": "يقول الجزء الأول إن العبادة لا تكون إلا لله وحده. ويقول الجزء الثاني إن محمدًا رسوله."
+        }
+      },
+      {
+        "key": "الشهادة جملة واحدة تقولها عن اقتناع، ولا تحتاج إلى مراسم، ولا يشترط لصحة الإسلام وجود شاهد. ولا استعجال."
+      }
+    ],
+    "es": [
+      {
+        "p": "Esta lección es para quien siente que está listo, o solo se pregunta qué implicaría. No hay presión. Puedes cerrarla y volver, o no volver nunca."
+      },
+      {
+        "h": "Qué dice la shahada"
+      },
+      {
+        "p": "Uno se hace musulmán diciendo una sola frase, la shahada (testimonio de fe)."
+      },
+      {
+        "phrase": {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+          "transliteration": "Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah",
+          "meaning": "Doy testimonio de que no hay más dios que Allah, y doy testimonio de que Muhammad es el Mensajero de Allah.",
+          "audio": "/audio/phrases/discover-becoming-muslim-1.mp3"
+        }
+      },
+      {
+        "facts": {
+          "title": "Dos partes",
+          "items": [
+            {
+              "icon": "star",
+              "label": "Un solo Dios",
+              "text": "Adoras solo al Dios único, el Creador."
+            },
+            {
+              "icon": "book",
+              "label": "Su Mensajero",
+              "text": "Aceptas a Muhammad como el último profeta, quien trajo el Corán."
+            }
+          ]
+        }
+      },
+      {
+        "p": "Lo que cuenta es que lo digas con convicción y comprensión. El Islam no pide decir palabras en las que no crees."
+      },
+      {
+        "h": "Es sencillo"
+      },
+      {
+        "facts": {
+          "title": "Lo que no necesita",
+          "items": [
+            {
+              "icon": "home",
+              "label": "Ningún lugar especial",
+              "text": "Puedes decirla en cualquier sitio, incluso a solas."
+            },
+            {
+              "icon": "ban",
+              "label": "Ninguna ceremonia",
+              "text": "Sin ritual, pago, trámites ni examen."
+            },
+            {
+              "icon": "users",
+              "label": "Sin testigo obligatorio",
+              "text": "Los eruditos dicen que el Islam es entre la persona y Dios, y no depende de que alguien te escuche."
+            }
+          ]
+        }
+      },
+      {
+        "more": {
+          "title": "Por qué aun así muchos la dicen ante otros",
+          "blocks": [
+            {
+              "p": "Muchos musulmanes recomiendan decirla en voz alta con otras personas presentes, porque ayuda con asuntos prácticos: quedar registrado como musulmán, el matrimonio y los arreglos funerarios. Dicen que es un buen consejo, pero no una condición para que tu Islam sea válido. También está bien hablarlo antes con alguien."
+            }
+          ]
+        }
+      },
+      {
+        "h": "Un nuevo comienzo"
+      },
+      {
+        "p": "El Profeta Muhammad, la paz sea con él, dijo esto a Amr ibn al-As (que Dios esté complacido con él), quien temía que su pasado contara en su contra:"
+      },
+      {
+        "quote": "¿Acaso no sabes que el Islam elimina y deshace todo lo anterior. Y que la Hégira elimina lo anterior a ella. Y que la peregrinación deshace todo lo anterior?",
+        "cite": "Sahih Muslim 121"
+      },
+      {
+        "p": "Los musulmanes entienden que los pecados cometidos antes de hacerse musulmán quedan perdonados."
+      },
+      {
+        "h": "Sin prisa"
+      },
+      {
+        "facts": {
+          "title": "Recuerda",
+          "items": [
+            {
+              "icon": "clock",
+              "label": "Tómate tu tiempo",
+              "text": "Muchas personas leen y reflexionan durante meses o años."
+            },
+            {
+              "icon": "message",
+              "label": "Las preguntas son bienvenidas",
+              "text": "Aquí nadie te apurará ni te juzgará."
+            },
+            {
+              "icon": "heart",
+              "label": "Puedes hablar con alguien",
+              "text": "Ve a la página \"Contáctanos\" de este sitio, elige el tema \"Hacer una pregunta\" y una persona real te responderá."
+            }
+          ]
+        }
+      },
+      {
+        "quick": {
+          "question": "¿Qué dice la primera mitad de la shahada?",
+          "options": [
+            "No hay más dios que Allah",
+            "Muhammad fue un gran hombre",
+            "Reza cinco veces al día"
+          ],
+          "correct": 0,
+          "explanation": "La primera mitad dice que solo el Dios único merece ser adorado. La segunda dice que Muhammad es Su Mensajero."
+        }
+      },
+      {
+        "key": "La shahada es una frase que dices con convicción, sin ceremonia obligatoria, y el Islam no necesita un testigo para ser válido. No hay prisa."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Sahih Muslim 121 (Islam wipes out what came before it)",
+      "url": "https://hadeethenc.com/en/browse/hadith/3446"
+    },
+    {
+      "label": "IslamQA: Do you need witnesses to take shahadah?",
+      "url": "https://islamqa.info/en/answers/49715/do-you-need-witnesses-to-take-shahadah"
+    },
+    {
+      "label": "SeekersGuidance: Does saying the testification of faith suffice for becoming a Muslim?",
+      "url": "https://islamqa.org/shafii/seekersguidance-shafii/168946/does-saying-the-testification-of-faith-shahadah-suffice-for-becoming-a-muslim/"
+    }
+  ],
+  "differenceNote": false,
+  "check": [
+    {
+      "q": {
+        "en": "What does la ilaha illallah mean?",
+        "ar": "ما معنى «لا إله إلا الله»؟",
+        "es": "¿Qué significa la ilaha illallah?"
+      },
+      "options": [
+        {
+          "en": "There is no god but Allah",
+          "ar": "لا معبود بحق إلا الله",
+          "es": "No hay más dios que Allah"
+        },
+        {
+          "en": "Allah is the greatest",
+          "ar": "الله أكبر",
+          "es": "Allah es el más grande"
+        },
+        {
+          "en": "Muhammad is a prophet",
+          "ar": "محمد نبي",
+          "es": "Muhammad es un profeta"
+        }
+      ],
+      "correct": 0,
+      "why": {
+        "en": "It says worship belongs to the One God alone.",
+        "ar": "تعني أن العبادة لله وحده.",
+        "es": "Dice que la adoración pertenece solo al Dios único."
+      }
+    }
+  ]
+}

@@ -22,5 +22,25 @@
   "tabPaths": "المسارات",
   "tabLibrary": "المكتبة",
   "tabJourney": "رحلتي",
-  "tabStart": "ابدأ"
+  "tabStart": "ابدأ",
+  "primary": {
+    "none": "ابدأ الآن",
+    "curious": "تعرّف على الإسلام",
+    "new": "اعرف من أين تبدأ",
+    "muslim": "تعلّم المزيد"
+  },
+  "tab": {
+    "none": "ابدأ",
+    "curious": "تعرّف",
+    "new": "ابدأ",
+    "muslim": "تعلّم"
+  },
+  "contact": "اتصل بنا",
+  "preferences": "اللغة والمظهر",
+  "language": "اللغة",
+  "appearance": "المظهر",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "themeSystem": "النظام",
+  "mainNav": "الرئيسية"
 }

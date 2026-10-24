@@ -1,18 +1,19 @@
 {
   "meta": {
-    "title": "Basmet Dawah: a guided path for new Muslims",
-    "description": "Answer six short questions to find your starting point, then learn Islam one short lesson at a time, in the right order. Free, in English, Arabic, and Spanish."
+    "title": "Basmet Dawah: learn Islam, one clear step at a time",
+    "description": "Free, short lessons about Islam for anyone curious, anyone new to Islam, and Muslims who want to learn more. In English, Arabic, and Spanish."
   },
   "hero": {
-    "titleLine1": "You took your shahada.",
-    "titleLine2": "Here is where to begin.",
-    "lead": "Six gentle questions, then we choose your first lesson.",
+    "title": "Learn Islam, one clear step at a time.",
+    "lead": "Free, short lessons, wherever you are starting from.",
     "start": "Find your starting point",
     "startMeta": "About one minute",
     "continueWith": "Continue with {title}",
-    "yourStartingPoint": "Your starting point: Stage {number}, {name}",
-    "browse": "Browse all paths",
-    "stagesTitle": "Where are you right now?"
+    "yourStartingPoint": "Your starting point: Stage {number}, {name}"
+  },
+  "newStart": {
+    "title": "Here is where to begin.",
+    "lead": "Six gentle questions, then we choose your first lesson."
   },
   "welcome": {
     "greeting": "Welcome back, {name}.",
@@ -35,12 +36,12 @@
   "how": {
     "title": "How it works",
     "one": {
-      "title": "Answer six questions",
-      "body": "There are no wrong answers."
+      "title": "Tell us where you are",
+      "body": "One question. There are no wrong answers."
     },
     "two": {
-      "title": "Get your path",
-      "body": "Chosen for where you are now."
+      "title": "Follow a clear path",
+      "body": "Short lessons, in the right order."
     },
     "three": {
       "title": "Learn a little at a time",
@@ -48,17 +49,12 @@
     }
   },
   "paths": {
-    "title": "Paths for every stage",
+    "title": "Explore the paths",
     "counts": "{steps}, {lessons}",
     "preparing": "Lessons are being prepared",
     "progress": "{percent}% done",
     "done": "Finished",
     "viewAll": "See all paths"
-  },
-  "mentor": {
-    "title": "You are not alone",
-    "body": "A volunteer mentor can walk beside you. Ask anything, big or small.",
-    "action": "Talk to a mentor"
   },
   "stories": {
     "title": "Stories from new Muslims",
@@ -68,8 +64,23 @@
     "videoTitle": "The story of {name}",
     "close": "Close video"
   },
-  "final": {
-    "title": "Start where you are",
-    "body": "One minute. Your first lesson is waiting."
+  "help": {
+    "title": "We are here to help",
+    "question": {
+      "title": "Have a question?",
+      "line": "Ask us anything, big or small."
+    },
+    "contact": {
+      "title": "Want a mentor?",
+      "line": "Tell us and we will find someone."
+    },
+    "request": {
+      "title": "Want a mentor?",
+      "line": "Ask for a volunteer to walk with you."
+    },
+    "volunteer": {
+      "title": "Want to volunteer as a mentor?",
+      "line": "Walk beside someone new to Islam."
+    }
   }
 }
