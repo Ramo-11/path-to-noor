@@ -3,22 +3,37 @@ import { requireAdmin, isAdminSession } from "@/lib/admin-auth";
 import { connectDB } from "@/db/connection";
 import { User } from "@/db/models/User";
 import { MentorRequest } from "@/db/models/MentorRequest";
+import { MentorApplication } from "@/db/models/MentorApplication";
+import { VERIFICATION_LAUNCH } from "../_lib/shared";
 
 const MIN_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 
+const EMPTY = (field: string) => ({ $or: [{ [field]: { $exists: false } }, { [field]: { $size: 0 } }] });
+const ABSENT = (field: string) => ({ $or: [{ [field]: { $exists: false } }, { [field]: null }] });
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function buildFilter(): Promise<Record<string, any>> {
-  const requesters = await MentorRequest.distinct("revertId");
+  const [requesters, applicants] = await Promise.all([
+    MentorRequest.distinct("revertId"),
+    MentorApplication.distinct("userId"),
+  ]);
   return {
     role: "user",
     $and: [
-      { $or: [{ emailVerified: null }, { emailVerified: { $exists: false } }] },
-      { $or: [{ progress: { $exists: false } }, { progress: { $size: 0 } }] },
-      { $or: [{ bookmarks: { $exists: false } }, { bookmarks: { $size: 0 } }] },
+      ABSENT("emailVerified"),
+      ABSENT("lastLoginAt"),
+      ABSENT("userType"),
+      ABSENT("track"),
+      ABSENT("placement"),
+      ABSENT("assignedMentorId"),
+      EMPTY("progress"),
+      EMPTY("bookmarks"),
+      EMPTY("quizResults"),
+      EMPTY("completedTopics"),
     ],
-    createdAt: { $lt: new Date(Date.now() - MIN_AGE_MS) },
+    createdAt: { $gte: VERIFICATION_LAUNCH, $lt: new Date(Date.now() - MIN_AGE_MS) },
     password: { $exists: true, $nin: [null, ""] },
-    _id: { $nin: requesters },
+    _id: { $nin: [...requesters, ...applicants] },
   };
 }
 

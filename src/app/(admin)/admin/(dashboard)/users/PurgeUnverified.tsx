@@ -16,7 +16,7 @@ export function PurgeUnverified() {
       const res = await fetch("/api/admin/users/purge-unverified");
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error();
-      if (data.count === 0) setMessage("No unverified accounts older than 7 days.");
+      if (data.count === 0) setMessage("No likely spam signups found.");
       else setCount(data.count);
     } catch {
       setMessage("Could not check the count. Please try again.");
@@ -59,7 +59,7 @@ export function PurgeUnverified() {
         disabled={busy}
         className="px-3 py-2 text-sm font-medium rounded-lg border border-red-300 dark:border-red-800 text-red-700 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 disabled:opacity-50"
       >
-        Delete unverified older than 7 days
+        Delete likely spam signups
       </button>
       {message ? (
         <p role="status" className="mt-2 text-sm text-slate-600 dark:text-slate-400">
@@ -73,9 +73,10 @@ export function PurgeUnverified() {
           className="mt-3 max-w-lg rounded-xl border border-red-200 dark:border-red-900 bg-white dark:bg-slate-900 p-4"
         >
           <p id="purge-title" className="text-sm text-slate-900 dark:text-white">
-            This will permanently delete {count} unverified {count === 1 ? "account" : "accounts"} older than
-            7 days. Verified users, admins, and anyone with progress, saved lessons, or a mentor request are
-            never deleted.
+            This will permanently delete {count} unverified {count === 1 ? "account" : "accounts"} created
+            since email verification launched, more than 7 days ago, that never signed in and have no type,
+            track, progress, saved lessons, level check, mentor request, or volunteer application. Older
+            accounts, verified users, and admins are never deleted.
           </p>
           <div className="mt-3 flex gap-2">
             <button

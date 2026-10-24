@@ -24,6 +24,11 @@ interface Copy {
   verifyBody: string;
   verifyButton: string;
   verifyIgnore: string;
+  inviteSubject: string;
+  inviteTitle: string;
+  inviteBody: string;
+  inviteButton: string;
+  inviteIgnore: string;
   existsSubject: string;
   existsTitle: string;
   existsBody: string;
@@ -47,6 +52,12 @@ const COPY: Record<Locale, Copy> = {
       "Welcome to Basmet Dawah. Please confirm your email address with the button below. This link expires in 24 hours.",
     verifyButton: "Confirm email",
     verifyIgnore: "If you did not create an account, you can ignore this email.",
+    inviteSubject: "You have been invited | Basmet Dawah",
+    inviteTitle: "Your account is ready",
+    inviteBody:
+      "The Basmet Dawah team created an account for you. Choose your password with the button below to sign in. This link expires in 7 days.",
+    inviteButton: "Set your password",
+    inviteIgnore: "If you were not expecting this, you can ignore this email.",
     existsSubject: "You already have an account | Basmet Dawah",
     existsTitle: "You already have an account",
     existsBody:
@@ -69,6 +80,12 @@ const COPY: Record<Locale, Copy> = {
       "أهلًا بك في بسمة دعوة. أكّد عنوان بريدك الإلكتروني من الزر أدناه. ينتهي الرابط بعد 24 ساعة.",
     verifyButton: "تأكيد البريد",
     verifyIgnore: "إن لم تنشئ حسابًا فتجاهل هذه الرسالة.",
+    inviteSubject: "دعوة للانضمام | بسمة دعوة",
+    inviteTitle: "حسابك جاهز",
+    inviteBody:
+      "أنشأ فريق بسمة دعوة حسابًا لك. اختر كلمة المرور من الزر أدناه لتسجيل الدخول. ينتهي الرابط بعد 7 أيام.",
+    inviteButton: "تعيين كلمة المرور",
+    inviteIgnore: "إن لم تكن تتوقع هذه الرسالة فتجاهلها.",
     existsSubject: "لديك حساب بالفعل | بسمة دعوة",
     existsTitle: "لديك حساب بالفعل",
     existsBody:
@@ -91,6 +108,12 @@ const COPY: Record<Locale, Copy> = {
       "Te damos la bienvenida a Basmet Dawah. Confirma tu correo con el botón de abajo. El enlace vence en 24 horas.",
     verifyButton: "Confirmar correo",
     verifyIgnore: "Si no creaste una cuenta, puedes ignorar este correo.",
+    inviteSubject: "Te han invitado | Basmet Dawah",
+    inviteTitle: "Tu cuenta está lista",
+    inviteBody:
+      "El equipo de Basmet Dawah creó una cuenta para ti. Elige tu contraseña con el botón de abajo para iniciar sesión. El enlace vence en 7 días.",
+    inviteButton: "Elegir tu contraseña",
+    inviteIgnore: "Si no esperabas este correo, puedes ignorarlo.",
     existsSubject: "Ya tienes una cuenta | Basmet Dawah",
     existsTitle: "Ya tienes una cuenta",
     existsBody:
@@ -191,6 +214,23 @@ export async function sendVerificationEmail(
     verifyUrl
   );
   await deliver("verification email", to, c.verifySubject, html, verifyUrl);
+}
+
+export async function sendInvitationEmail(
+  to: string,
+  name: string,
+  setPasswordUrl: string,
+  locale?: string
+): Promise<void> {
+  const l = asLocale(locale);
+  const c = COPY[l];
+  const html = actionEmail(
+    l,
+    { title: c.inviteTitle, body: c.inviteBody, button: c.inviteButton, ignore: c.inviteIgnore },
+    name,
+    setPasswordUrl
+  );
+  await deliver("invitation email", to, c.inviteSubject, html, setPasswordUrl);
 }
 
 export async function sendAccountExistsEmail(

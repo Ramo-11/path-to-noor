@@ -7,103 +7,13 @@ import { AdminPageHeader } from "@/components/admin/AdminPageHeader";
 import { SearchBar } from "@/components/admin/SearchBar";
 import { Pagination } from "@/components/admin/Pagination";
 import { PurgeUnverified } from "./PurgeUnverified";
-import { DataTable, type Column } from "@/components/admin/DataTable";
-
-interface UserRow {
-  _id: string;
-  name: string;
-  email: string;
-  userType?: string;
-  track?: string;
-  verified: boolean;
-  isActive: boolean;
-  preferredLanguage: string;
-  createdAt: string;
-}
-
-const TRACK_LABELS: Record<string, string> = {
-  curious: "Curious",
-  new: "New to Islam",
-  muslim: "Muslim",
-};
+import { UsersTable } from "./UsersTable";
+import { VERIFICATION_LAUNCH } from "@/app/api/admin/users/_lib/shared";
+import type { UserRow } from "./types";
 
 function escapeRegex(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
-
-const columns: Column<UserRow>[] = [
-  {
-    key: "name",
-    header: "User",
-    render: (item) => (
-      <Link href={`/admin/users/${item._id}`} className="block group">
-        <p className="font-medium text-slate-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-          {item.name}
-        </p>
-        <p className="text-xs text-slate-500 dark:text-slate-400">{item.email}</p>
-      </Link>
-    ),
-  },
-  {
-    key: "userType",
-    header: "Type",
-    render: (item) => {
-      if (!item.userType) return <span className="text-xs text-slate-400">None</span>;
-      const colors = item.userType === "revert"
-        ? "bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-400"
-        : "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400";
-      return (
-        <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium capitalize ${colors}`}>
-          {item.userType === "revert" ? "New Muslim" : "Mentor"}
-        </span>
-      );
-    },
-  },
-  {
-    key: "track",
-    header: "Track",
-    render: (item) => (
-      <span className="text-sm text-slate-600 dark:text-slate-400">
-        {item.track ? TRACK_LABELS[item.track] ?? "None" : "None"}
-      </span>
-    ),
-  },
-  {
-    key: "language",
-    header: "Language",
-    render: (item) => (
-      <span className="text-sm text-slate-600 dark:text-slate-400 uppercase">
-        {item.preferredLanguage}
-      </span>
-    ),
-  },
-  {
-    key: "status",
-    header: "Status",
-    render: (item) => (
-      <span
-        className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
-          !item.isActive
-            ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
-            : !item.verified
-            ? "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400"
-            : "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400"
-        }`}
-      >
-        {!item.isActive ? "Inactive" : !item.verified ? "Unverified" : "Active"}
-      </span>
-    ),
-  },
-  {
-    key: "createdAt",
-    header: "Joined",
-    render: (item) => (
-      <span className="text-sm text-slate-500 dark:text-slate-400">
-        {new Date(item.createdAt).toLocaleDateString()}
-      </span>
-    ),
-  },
-];
 
 export default async function UsersPage({
   searchParams,
@@ -116,7 +26,10 @@ export default async function UsersPage({
   await connectDB();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const filter: Record<string, any> = { role: "user" };
-  if (unverifiedOnly) filter.$and = [{ $or: [{ emailVerified: null }, { emailVerified: { $exists: false } }] }];
+  if (unverifiedOnly) {
+    filter.$and = [{ $or: [{ emailVerified: null }, { emailVerified: { $exists: false } }] }];
+    filter.createdAt = { $gte: VERIFICATION_LAUNCH };
+  }
   if (params.search) {
     const escaped = escapeRegex(params.search);
     filter.$or = [
@@ -146,6 +59,7 @@ export default async function UsersPage({
     userType: u.userType,
     track: (u as { track?: string }).track,
     verified: Boolean(u.emailVerified),
+    legacy: !u.emailVerified && new Date(u.createdAt).getTime() < VERIFICATION_LAUNCH.getTime(),
     isActive: u.isActive,
     preferredLanguage: u.preferredLanguage,
     createdAt: u.createdAt?.toISOString?.() || String(u.createdAt),
@@ -155,10 +69,8 @@ export default async function UsersPage({
     <div>
       <AdminPageHeader
         title="Users"
-        description="Platform users and their activity"
+        description="Add, edit, and remove learners"
         icon={Users}
-        createHref=""
-        createLabel=""
       />
 
       <div className="mb-4 flex flex-wrap items-center gap-3">
@@ -176,19 +88,14 @@ export default async function UsersPage({
             aria-current={unverifiedOnly ? "page" : undefined}
             className={`px-3 py-2 rounded-lg border ${unverifiedOnly ? "border-primary-500 text-primary-700 dark:text-primary-400 font-medium" : "border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400"}`}
           >
-            Unverified
+            Unverified (new signups)
           </Link>
         </nav>
       </div>
 
       <PurgeUnverified />
 
-      <DataTable
-        columns={columns}
-        data={serialized}
-        keyField="_id"
-        emptyMessage="No users found"
-      />
+      <UsersTable rows={serialized} />
 
       <Pagination
         page={pagination.page}

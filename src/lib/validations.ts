@@ -284,6 +284,64 @@ export const updateUserSchema = z.object({
 
 export type UpdateUserInput = z.infer<typeof updateUserSchema>;
 
+const adminUserType = z.enum(["revert", "mentor"]).nullable();
+const adminUserTrack = z.enum(["curious", "new", "muslim"]).nullable();
+const adminUserName = z.string().trim().min(1, "Name is required").max(100, "Name is too long");
+const adminUserEmail = z
+  .string()
+  .trim()
+  .toLowerCase()
+  .min(3, "Email is required")
+  .max(254, "Email is too long")
+  .email("Enter a valid email address");
+
+export const adminCreateUserSchema = z
+  .object({
+    name: adminUserName,
+    email: adminUserEmail,
+    userType: adminUserType.default(null),
+    track: adminUserTrack.default(null),
+    preferredLanguage: z.enum(["en", "ar", "es"]).default("en"),
+    mode: z.enum(["invite", "password"]),
+    password: z.string().max(128, "Password is too long").optional(),
+  })
+  .strict()
+  .superRefine((value, ctx) => {
+    if (value.mode !== "password") return;
+    const result = z
+      .string()
+      .min(8, "Password must be at least 8 characters")
+      .regex(/[a-z]/, "Password must contain a lowercase letter")
+      .regex(/[A-Z]/, "Password must contain an uppercase letter")
+      .regex(/[0-9]/, "Password must contain a number")
+      .safeParse(value.password ?? "");
+    if (!result.success) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["password"],
+        message: result.error.issues[0]?.message ?? "Password is not strong enough",
+      });
+    }
+  });
+
+export const adminUpdateUserSchema = z
+  .object({
+    name: adminUserName.optional(),
+    email: adminUserEmail.optional(),
+    userType: adminUserType.optional(),
+    track: adminUserTrack.optional(),
+    preferredLanguage: z.enum(["en", "ar", "es"]).optional(),
+    isActive: z.boolean().optional(),
+    emailVerified: z.boolean().optional(),
+  })
+  .strict();
+
+export const adminBulkDeleteSchema = z
+  .object({
+    ids: z.array(objectIdString).min(1, "Select at least one user").max(200, "Select 200 users or fewer"),
+  })
+  .strict();
+
 // ---------------------------------------------------------------------------
 // Auth-related shared schemas
 // ---------------------------------------------------------------------------

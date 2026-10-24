@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 export interface Column<T> {
   key: string;
-  header: string;
+  header: ReactNode;
   render: (item: T) => ReactNode;
   className?: string;
 }
@@ -12,6 +12,7 @@ interface DataTableProps<T> {
   data: T[];
   keyField: string;
   emptyMessage?: string;
+  onRowClick?: (item: T) => void;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -20,6 +21,7 @@ export function DataTable<T extends Record<string, any>>({
   data,
   keyField,
   emptyMessage = "No items found",
+  onRowClick,
 }: DataTableProps<T>) {
   if (data.length === 0) {
     return (
@@ -51,7 +53,10 @@ export function DataTable<T extends Record<string, any>>({
             {data.map((item) => (
               <tr
                 key={String(item[keyField])}
-                className="hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors"
+                onClick={onRowClick ? () => onRowClick(item) : undefined}
+                className={`hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors ${
+                  onRowClick ? "cursor-pointer" : ""
+                }`}
               >
                 {columns.map((col) => (
                   <td

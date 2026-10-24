@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -20,6 +20,10 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { STAGE_NUMBER, isStageKey } from "@/lib/stages";
+import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
+import { adminCall } from "../api";
+import { UserFormDialog } from "../UserFormDialog";
+import { LANGUAGE_LABELS, TRACK_LABELS, TYPE_LABELS } from "../types";
 
 interface LessonProgress {
   _id: string;
@@ -76,7 +80,10 @@ interface UserDetail {
   image?: string;
   role: string;
   userType?: string;
+  track?: string;
   isActive: boolean;
+  emailVerified?: string | null;
+  placement?: { stage: string; takenAt: string };
   preferredLanguage: string;
   progress: Array<{
     lessonId: {
@@ -103,6 +110,8 @@ interface UserDetail {
 }
 
 interface UserDetailData {
+  mentorRequest: { status: string; createdAt: string; mentorId?: { name: string; email: string } | null } | null;
+  mentorApplication: { status: string; createdAt: string } | null;
   user: UserDetail;
   pathProgress: PathProgress[];
   allPathProgress: PathProgress[];
@@ -215,17 +224,48 @@ export default function UserDetailPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showAllPaths, setShowAllPaths] = useState(false);
+  const router = useRouter();
+  const [reloadKey, setReloadKey] = useState(0);
+  const [notice, setNotice] = useState<{ kind: "ok" | "error"; text: string } | null>(null);
+  const [busy, setBusy] = useState(false);
+  const [editOpen, setEditOpen] = useState(false);
+  const [confirm, setConfirm] = useState<"delete" | "deactivate" | null>(null);
 
   useEffect(() => {
     fetch(`/api/admin/users/${params.id}`)
       .then((res) => {
-        if (!res.ok) throw new Error("Failed to load user");
+        if (!res.ok) throw new Error(res.status === 404 ? "User not found" : "Failed to load user");
         return res.json();
       })
       .then((json) => setData(json.data))
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
-  }, [params.id]);
+  }, [params.id, reloadKey]);
+
+  async function act(action: () => ReturnType<typeof adminCall>, success: string, after?: () => void) {
+    setBusy(true);
+    setNotice(null);
+    const result = await action();
+    setBusy(false);
+    if (!result.ok) {
+      setNotice({ kind: "error", text: result.error ?? "Something went wrong. Please try again." });
+      return;
+    }
+    setNotice({ kind: "ok", text: result.message ?? success });
+    if (after) after();
+    else setReloadKey((k) => k + 1);
+  }
+
+  async function confirmed() {
+    const kind = confirm;
+    setConfirm(null);
+    const id = String(params.id);
+    if (kind === "delete") {
+      await act(() => adminCall(`/api/admin/users/${id}`, "DELETE"), "User deleted.", () => router.push("/admin/users"));
+    } else if (kind === "deactivate") {
+      await act(() => adminCall(`/api/admin/users/${id}`, "PATCH", { isActive: false }), "User deactivated.");
+    }
+  }
 
   if (loading) {
     return (
@@ -254,7 +294,31 @@ export default function UserDetailPage() {
     );
   }
 
-  const { user, pathProgress, allPathProgress } = data;
+  const { user, pathProgress, allPathProgress, mentorRequest, mentorApplication } = data;
+  const verified = Boolean(user.emailVerified);
+  const legacy = !verified && new Date(user.createdAt).getTime() < new Date("2026-10-17T00:00:00.000Z").getTime();
+  const verifiedLabel = verified ? "Verified" : legacy ? "Not verified (older account)" : "Unverified";
+  const requestLabels: Record<string, string> = { pending: "Pending", assigned: "Assigned", rejected: "Rejected" };
+  const applicationLabels: Record<string, string> = { pending: "Pending", approved: "Approved", declined: "Declined" };
+  const detailRows: Array<[string, string]> = [
+    ["Type", user.userType ? TYPE_LABELS[user.userType] ?? "None" : "None"],
+    ["Track", user.track ? TRACK_LABELS[user.track] ?? "None" : "None"],
+    ["Language", LANGUAGE_LABELS[user.preferredLanguage] ?? user.preferredLanguage],
+    ["Status", user.isActive ? "Active" : "Inactive"],
+    ["Email", verifiedLabel],
+    ["Joined", new Date(user.createdAt).toLocaleString()],
+    ["Last sign-in", user.lastLoginAt ? new Date(user.lastLoginAt).toLocaleString() : "Never"],
+    [
+      "Level check",
+      user.placement && isStageKey(user.placement.stage) ? `Stage ${STAGE_NUMBER[user.placement.stage]}` : "Not taken",
+    ],
+    ["Lessons completed", String(user.progress?.length || 0)],
+    ["Bookmarks", String(user.bookmarks?.length || 0)],
+    ["Mentor request", mentorRequest ? requestLabels[mentorRequest.status] ?? mentorRequest.status : "None"],
+    ["Volunteer application", mentorApplication ? applicationLabels[mentorApplication.status] ?? mentorApplication.status : "None"],
+  ];
+  const actionClass =
+    "px-3 py-2 text-sm font-medium rounded-lg border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 disabled:opacity-50";
   const displayPaths = showAllPaths ? allPathProgress : pathProgress;
 
   const recentCompletions = [...(user.progress || [])]
@@ -385,6 +449,116 @@ export default function UserDetailPage() {
           </div>
         </div>
       </div>
+
+      {notice ? (
+        <div
+          role={notice.kind === "error" ? "alert" : "status"}
+          className={`mb-4 px-4 py-3 rounded-lg text-sm ${
+            notice.kind === "error"
+              ? "bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400"
+              : "bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400"
+          }`}
+        >
+          {notice.text}
+        </div>
+      ) : null}
+
+      {user.role === "user" ? (
+        <div className="mb-4 flex flex-wrap gap-2">
+          <button type="button" disabled={busy} onClick={() => setEditOpen(true)} className={actionClass}>
+            Edit
+          </button>
+          {!verified ? (
+            <button
+              type="button"
+              disabled={busy}
+              onClick={() => act(() => adminCall(`/api/admin/users/${user._id}/verify`, "POST"), "Email marked as verified.")}
+              className={actionClass}
+            >
+              Mark email verified
+            </button>
+          ) : null}
+          <button
+            type="button"
+            disabled={busy}
+            onClick={() =>
+              user.isActive
+                ? setConfirm("deactivate")
+                : act(() => adminCall(`/api/admin/users/${user._id}`, "PATCH", { isActive: true }), "User activated.")
+            }
+            className={actionClass}
+          >
+            {user.isActive ? "Deactivate" : "Activate"}
+          </button>
+          <button
+            type="button"
+            disabled={busy}
+            onClick={() => act(() => adminCall(`/api/admin/users/${user._id}/reset`, "POST"), "Password reset email sent.")}
+            className={actionClass}
+          >
+            Send password reset
+          </button>
+          <button
+            type="button"
+            disabled={busy}
+            onClick={() => setConfirm("delete")}
+            className="px-3 py-2 text-sm font-medium rounded-lg border border-red-300 dark:border-red-800 text-red-700 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 disabled:opacity-50"
+          >
+            Delete
+          </button>
+        </div>
+      ) : null}
+
+      <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 mb-4">
+        <h2 className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Profile</h2>
+        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+          {detailRows.map(([label, value]) => (
+            <div key={label} className="flex justify-between gap-4 border-b border-slate-100 dark:border-slate-800 py-1.5">
+              <dt className="text-slate-500 dark:text-slate-400">{label}</dt>
+              <dd className="text-slate-900 dark:text-white text-right">{value}</dd>
+            </div>
+          ))}
+        </dl>
+        {mentorRequest?.mentorId ? (
+          <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
+            Mentor on the request: {mentorRequest.mentorId.name} ({mentorRequest.mentorId.email})
+          </p>
+        ) : null}
+      </div>
+
+      <UserFormDialog
+        open={editOpen}
+        user={{
+          _id: user._id,
+          name: user.name,
+          email: user.email,
+          userType: user.userType,
+          track: user.track,
+          preferredLanguage: user.preferredLanguage,
+          isActive: user.isActive,
+          verified,
+        }}
+        onClose={() => setEditOpen(false)}
+        onSaved={(text) => {
+          setEditOpen(false);
+          setNotice({ kind: "ok", text });
+          setReloadKey((k) => k + 1);
+        }}
+      />
+
+      <ConfirmDialog
+        open={confirm !== null}
+        title={confirm === "delete" ? "Delete user" : "Deactivate user"}
+        message={
+          confirm === "delete"
+            ? `Delete ${user.name}? Their account, progress, mentor requests, and volunteer applications are removed for good. This cannot be undone.`
+            : `${user.name} will no longer be able to sign in. You can activate them again at any time.`
+        }
+        confirmLabel={confirm === "delete" ? "Delete" : "Deactivate"}
+        variant={confirm === "delete" ? "danger" : "warning"}
+        onConfirm={confirmed}
+        onCancel={() => setConfirm(null)}
+      />
 
       {/* Mentor Assignment (for reverts) */}
       {user.userType === "revert" && user.assignedMentorId && (

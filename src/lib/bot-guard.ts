@@ -86,13 +86,8 @@ export function looksGibberish(rawName: string): boolean {
   const name = rawName.trim();
   if (name.length < 12 || /[\s\-'.]/.test(name)) return false;
   if (!/^[A-Za-z]+$/.test(name)) return false;
-  let upperAfterLower = 0;
-  for (let i = 1; i < name.length; i++) {
-    if (/[a-z]/.test(name[i - 1]) && /[A-Z]/.test(name[i])) upperAfterLower++;
-  }
-  const vowels = (name.match(/[aeiouAEIOU]/g) ?? []).length;
-  const ratio = vowels / name.length;
-  if (upperAfterLower >= 4) return true;
-  if (upperAfterLower >= 3 && ratio < 0.3) return true;
-  return false;
+  const body = name.replace(/^(Mc|Mac|De|La|O)(?=[A-Z])/, "");
+  const ordinaryCase = /^[A-Z]?[a-z]*$/.test(body) || /^[A-Z]+$/.test(body);
+  if (!ordinaryCase) return true;
+  return /[^aeiouyAEIOUY]{5,}/.test(name);
 }
