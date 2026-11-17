@@ -6,7 +6,14 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { Notice } from "@/components/primer/Notice";
 import { EmptyState } from "@/components/primer/EmptyState";
-import type { SavedLessonRow } from "./saved-types";
+
+export interface SavedLessonRow {
+  id: string;
+  slug: string;
+  title: string;
+  minutes: number;
+  context: { type: "path"; title: string; slug: string } | { type: "step"; title: string } | null;
+}
 
 interface PendingRemoval {
   lesson: SavedLessonRow;

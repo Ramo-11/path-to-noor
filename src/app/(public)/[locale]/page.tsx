@@ -1,28 +1,28 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
+import { auth } from "@/lib/auth-config";
 import { getPublicStories } from "@/lib/data";
 import {
+  getLearnerState,
   getPathsByTrack,
   pickTrackPath,
+  type LearnerState,
   type PathOutline,
   type TrackGroups,
 } from "@/lib/learning";
-import { routing } from "@/i18n/routing";
+import { sessionTrack } from "@/lib/tracks";
 import {
   buildRecommendations,
   buildStartCandidates,
   toPathView,
 } from "@/components/placement/recommendations";
-import { HomeHero, HomeMentor } from "@/components/home/HomePersonal";
-import { HomeHowItWorks, HomePaths } from "@/components/home/HomeMember";
+import { NewStartHero, ReadyHero, TrackReadyHero, WelcomeHero } from "@/components/home/Hero";
+import { GuestHero } from "@/components/home/GuestHero";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { MentorBlock } from "@/components/home/MentorBlock";
+import { PathsByStage } from "@/components/home/PathsByStage";
 import { Stories } from "@/components/home/Stories";
 import { toStoryView, type StoryView } from "@/components/home/story-view";
-
-export const revalidate = 300;
-
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -44,6 +44,11 @@ async function loadSafely<T>(label: string, task: () => Promise<T>, fallback: T)
   }
 }
 
+function firstNameOf(name: string | null | undefined): string | null {
+  const first = name?.trim().split(/\s+/)[0];
+  return first ? first : null;
+}
+
 function allOutlines(groups: TrackGroups | null): PathOutline[] {
   if (!groups) return [];
   const seen = new Map<string, PathOutline>();
@@ -55,10 +60,17 @@ function allOutlines(groups: TrackGroups | null): PathOutline[] {
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params;
-  setRequestLocale(locale);
+  const session = await auth();
+  const userId = session?.user?.id;
+  const ctx = { userType: session?.user?.userType, isGuest: !session?.user };
+
+  const state = userId
+    ? await loadSafely<LearnerState | null>("learner state", () => getLearnerState(userId, ctx), null)
+    : null;
+  const completed = new Set(state?.completedLessonIds ?? []);
 
   const [groups, storyRecords] = await Promise.all([
-    loadSafely<TrackGroups | null>("paths", () => getPathsByTrack({ isGuest: true }), null),
+    loadSafely<TrackGroups | null>("paths", () => getPathsByTrack(ctx, completed), null),
     loadSafely("stories", () => getPublicStories(6), []),
   ]);
 
@@ -74,12 +86,49 @@ export default async function HomePage({ params }: PageProps) {
     .map((story) => toStoryView(story, locale))
     .filter((story): story is StoryView => story !== null);
 
+  const firstName = firstNameOf(session?.user?.name);
+  const track = state?.track ?? sessionTrack(session?.user);
+  const current = state?.currentPath ?? null;
+  const recommended = state?.recommendedPath ?? null;
+
+  let hero: React.ReactNode;
+  if (current && current.isStarted && current.nextLesson) {
+    hero = (
+      <WelcomeHero
+        path={toPathView(current, locale)}
+        stage={state?.placement?.stage ?? null}
+        firstName={firstName}
+        showChange={track !== null}
+      />
+    );
+  } else if (track === "new") {
+    hero =
+      state?.placement && recommended && recommended.nextLesson && !recommended.isComplete ? (
+        <ReadyHero
+          path={toPathView(recommended, locale)}
+          stage={state.placement.stage}
+          isFallback={state.recommendedIsFallback}
+          firstName={firstName}
+        />
+      ) : (
+        <NewStartHero candidates={candidates} reflectStored={!state?.placement} />
+      );
+  } else if (track === "curious" || track === "muslim") {
+    hero = <TrackReadyHero track={track} path={views[track]} firstName={firstName} />;
+  } else {
+    hero = <GuestHero candidates={candidates} views={views} firstName={firstName} />;
+  }
+
+  const mentorChoice =
+    track === "muslim" ? "volunteer" : track === "new" && session?.user ? "request" : "contact";
+  const showMentor = session?.user?.userType !== "mentor";
+
   return (
     <>
-      <HomeHero candidates={candidates} views={views} />
-      <HomeHowItWorks />
-      <HomePaths paths={outlines} />
-      <HomeMentor />
+      {hero}
+      {current ? null : <HowItWorks />}
+      {outlines.length > 0 ? <PathsByStage paths={outlines} locale={locale} /> : null}
+      {showMentor ? <MentorBlock mentorChoice={mentorChoice} /> : null}
       <Stories stories={stories} />
     </>
   );

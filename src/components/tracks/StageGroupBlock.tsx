@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { StageMark } from "@/components/primer/StageMark";
 import { YourStageFlag } from "@/components/paths/YourStageFlag";
 import type { PathOutline } from "@/lib/learning-types";
@@ -13,9 +13,9 @@ interface StageGroupBlockProps {
   learnerStage: StageKey | null;
 }
 
-export function StageGroupBlock({ stage, paths, locale, signedIn, learnerStage }: StageGroupBlockProps) {
-  const t = useTranslations("paths");
-  const ts = useTranslations("stages");
+export async function StageGroupBlock({ stage, paths, locale, signedIn, learnerStage }: StageGroupBlockProps) {
+  const t = await getTranslations("paths");
+  const ts = await getTranslations("stages");
   const number = STAGE_NUMBER[stage];
   const titleId = `stage-${stage}-title`;
 

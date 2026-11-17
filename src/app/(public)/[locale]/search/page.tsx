@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { PageIntro } from "@/components/primer/PageIntro";
 import { Spinner } from "@/components/primer/Spinner";
 import { SearchView } from "@/components/search/SearchView";
@@ -15,13 +15,7 @@ export async function generateMetadata({
   return { title: t("title"), robots: { index: false } };
 }
 
-export default async function SearchPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+export default async function SearchPage() {
   const t = await getTranslations("search");
 
   return (

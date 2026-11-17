@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
+import { headers } from "next/headers";
 import { Readex_Pro, Amiri } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { SessionProvider } from "next-auth/react";
 import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
 import { OnboardingRedirect } from "@/components/shared/OnboardingRedirect";
@@ -91,15 +92,16 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
   const dir = locale === "ar" ? "rtl" : "ltr";
   const messages = await getMessages();
   const t = await getTranslations("nav");
+  const nonce = (await headers()).get("x-nonce") ?? undefined;
 
   return (
     <html lang={locale} dir={dir} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script
+          nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
@@ -109,11 +111,6 @@ export default async function LocaleLayout({
                 }
               })();
             `,
-          }}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `if(/(?:^|; )bd_auth=1/.test(document.cookie))document.documentElement.dataset.learner="in";`,
           }}
         />
       </head>

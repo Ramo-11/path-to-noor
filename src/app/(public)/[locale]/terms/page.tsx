@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { LegalLayout } from "@/components/legal/LegalLayout";
 
 export async function generateMetadata({
@@ -20,8 +20,7 @@ export default async function TermsOfServicePage({
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+  await params;
   const t = await getTranslations("legal");
 
   const sections = [

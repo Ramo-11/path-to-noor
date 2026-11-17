@@ -17,32 +17,8 @@ const securityHeaders = [
   },
 ];
 
-const isDev = process.env.NODE_ENV !== "production";
-
-const publicCsp = [
-  "default-src 'self'",
-  `script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://challenges.cloudflare.com${isDev ? " 'unsafe-eval'" : ""}`,
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com",
-  "font-src 'self' data:",
-  "media-src 'self' blob: https://res.cloudinary.com",
-  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://challenges.cloudflare.com",
-  "frame-src https://www.youtube-nocookie.com https://www.youtube.com https://challenges.cloudflare.com",
-  "worker-src 'self'",
-  "manifest-src 'self'",
-  "object-src 'none'",
-  "base-uri 'self'",
-  "form-action 'self' https://accounts.google.com",
-  "frame-ancestors 'none'",
-  ...(isDev ? [] : ["upgrade-insecure-requests"]),
-].join("; ");
-
 const nextConfig: NextConfig = {
   agentRules: false,
-  cacheMaxMemorySize: 0,
-  experimental: {
-    preloadEntriesOnStart: false,
-  },
   images: {
     remotePatterns: [
       {
@@ -79,10 +55,6 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         headers: securityHeaders,
-      },
-      {
-        source: "/((?!admin(?:/|$)).*)",
-        headers: [{ key: "Content-Security-Policy", value: publicCsp }],
       },
       {
         source: "/sw.js",

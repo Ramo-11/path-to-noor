@@ -1,1 +1,3 @@
-export type Translate = (key: string, values?: Record<string, string | number>) => string;
+import type { getTranslations } from "next-intl/server";
+
+export type Translate = Awaited<ReturnType<typeof getTranslations>>;

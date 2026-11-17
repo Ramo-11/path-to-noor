@@ -1,5 +1,5 @@
 import { ArrowRight, Check } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/primer/Button";
 import { PathProgress } from "@/components/paths/PathProgress";
@@ -13,9 +13,9 @@ interface JourneyActionProps {
   signedIn: boolean;
 }
 
-export function JourneyAction({ path, locale, signedIn }: JourneyActionProps) {
-  const t = useTranslations("paths");
-  const tl = useTranslations("learning");
+export async function JourneyAction({ path, locale, signedIn }: JourneyActionProps) {
+  const t = await getTranslations("paths");
+  const tl = await getTranslations("learning");
   const style = toneStyle(path.stage);
   const started = signedIn && path.completedLessons > 0;
   const complete = signedIn && path.isComplete;
