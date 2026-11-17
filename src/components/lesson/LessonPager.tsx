@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { STAGE_STYLES, type StageKey } from "@/lib/stages";
@@ -17,9 +17,9 @@ const HOVER_TINT: Record<StageKey, string> = {
   deeper: "hover:bg-stage3-tint",
 };
 
-export async function LessonPager({ previous, next, stage, className = "" }: LessonPagerProps) {
+export function LessonPager({ previous, next, stage, className = "" }: LessonPagerProps) {
+  const t = useTranslations("lesson");
   if (!previous && !next) return null;
-  const t = await getTranslations("lesson");
   const hoverTint = stage ? HOVER_TINT[stage] : "hover:bg-wash";
   const arrowColor = stage ? STAGE_STYLES[stage].text : "text-ink-3";
 

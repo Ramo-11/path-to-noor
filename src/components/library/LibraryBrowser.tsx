@@ -8,16 +8,7 @@ import { Illustration } from "@/components/primer/Illustration";
 import { EmptyState } from "@/components/primer/EmptyState";
 import { libraryArt } from "@/lib/illustrations";
 import { SubjectProgressBar } from "./SubjectProgressBar";
-
-export interface LibrarySubjectCard {
-  id: string;
-  slug: string;
-  name: string;
-  description: string;
-  lessonCount: number;
-  completedCount: number;
-  isLearned: boolean;
-}
+import type { LibrarySubjectCard } from "./library-types";
 
 interface LibraryBrowserProps {
   subjects: LibrarySubjectCard[];

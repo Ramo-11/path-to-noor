@@ -4,6 +4,7 @@ import { useId, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Bookmark } from "lucide-react";
 import { Button } from "@/components/primer/Button";
+import { refreshLearner } from "@/lib/use-learner";
 
 interface SaveToggleProps {
   lessonId: string;
@@ -38,6 +39,7 @@ export function SaveToggle({ lessonId, initialSaved, signedIn, signInHref, child
         body: JSON.stringify({ lessonId }),
       });
       if (!res.ok) throw new Error(`bookmarks ${res.status}`);
+      void refreshLearner();
     } catch {
       setSaved(!next);
       setFailed(true);

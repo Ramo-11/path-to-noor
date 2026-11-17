@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { StageChip } from "@/components/primer/StageChip";
 import type { LessonPlace } from "./lesson-context";
@@ -13,8 +13,8 @@ interface LessonContextBarProps {
   signInHref: string;
 }
 
-export async function LessonContextBar({ place, lessonId, saved, signedIn, signInHref }: LessonContextBarProps) {
-  const t = await getTranslations("lesson");
+export function LessonContextBar({ place, lessonId, saved, signedIn, signInHref }: LessonContextBarProps) {
+  const t = useTranslations("lesson");
   const { path, step } = place;
   const stepLine =
     step && step.number !== null ? t("stepLabel", { number: step.number, title: step.title }) : step?.title ?? "";

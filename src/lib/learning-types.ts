@@ -71,6 +71,7 @@ export interface LearnerState {
   recommendedPath: PathOutline | null;
   recommendedIsFallback: boolean;
   startedPaths: PathOutline[];
+  paths: PathOutline[];
 }
 
 export function pickRecommendedPath(

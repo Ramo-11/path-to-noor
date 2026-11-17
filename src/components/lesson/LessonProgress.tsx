@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
-import { useRouter } from "@/i18n/navigation";
+import { refreshLearner } from "@/lib/use-learner";
 import { track } from "@/lib/analytics";
 import { type StageKey } from "@/lib/stages";
 import { toneStyle } from "@/lib/path-tone";
@@ -34,11 +34,16 @@ export function LessonProgressProvider({ lessonId, lessonSlug, initialDone, chil
     started.current = analyticsKey;
     track("lesson_started", { lesson: analyticsKey });
   }, [analyticsKey]);
-  const router = useRouter();
   const [done, setDone] = useState(initialDone);
   const [justDone, setJustDone] = useState(false);
   const [status, setStatus] = useState<SaveStatus>("idle");
   const inFlight = useRef(false);
+
+  const [seenInitialDone, setSeenInitialDone] = useState(initialDone);
+  if (initialDone !== seenInitialDone) {
+    setSeenInitialDone(initialDone);
+    if (initialDone) setDone(true);
+  }
 
   const markDone = useCallback(async () => {
     if (done || inFlight.current) return;
@@ -59,7 +64,7 @@ export function LessonProgressProvider({ lessonId, lessonSlug, initialDone, chil
         const visits = Number.parseInt(window.localStorage.getItem("bd.visits") ?? "0", 10);
         if (!Number.isFinite(visits) || visits < 2) window.localStorage.setItem("bd.visits", "2");
       } catch {}
-      router.refresh();
+      void refreshLearner();
     } catch {
       setDone(false);
       setJustDone(false);
@@ -67,7 +72,7 @@ export function LessonProgressProvider({ lessonId, lessonSlug, initialDone, chil
     } finally {
       inFlight.current = false;
     }
-  }, [done, lessonId, router, analyticsKey]);
+  }, [done, lessonId, analyticsKey]);
 
   const value = useMemo(() => ({ done, justDone, status, markDone }), [done, justDone, status, markDone]);
 

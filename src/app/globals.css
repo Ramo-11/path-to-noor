@@ -560,3 +560,15 @@
   outline-offset: 2px;
   border-radius: 0.75rem;
 }
+
+[data-member-skeleton] {
+  display: none;
+}
+
+html[data-learner="in"] [data-member-skeleton] {
+  display: block;
+}
+
+html[data-learner="in"] [data-guest-only] {
+  display: none;
+}

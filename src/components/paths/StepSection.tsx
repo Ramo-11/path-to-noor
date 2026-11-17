@@ -1,5 +1,5 @@
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import type { StepOutline } from "@/lib/learning-types";
 import { localized, type StageKey } from "@/lib/stages";
@@ -19,7 +19,7 @@ interface StepSectionProps {
   nextLessonId: string | null;
 }
 
-export async function StepSection({
+export function StepSection({
   step,
   number,
   isLast,
@@ -29,8 +29,8 @@ export async function StepSection({
   signedIn,
   nextLessonId,
 }: StepSectionProps) {
-  const t = await getTranslations("paths");
-  const tl = await getTranslations("learning");
+  const t = useTranslations("paths");
+  const tl = useTranslations("learning");
   const style = toneStyle(stage);
   const titleId = `step-${number}-title`;
   const description = localized(step.description, locale);

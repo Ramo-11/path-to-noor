@@ -27,28 +27,56 @@ function buildCsp(nonce: string): string {
   return directives.join("; ");
 }
 
+const HIDDEN_PATH = /^\/\.(?!well-known(?:\/|$))/;
+const PROBE_DIR =
+  /^\/(?:wp-[\w-]+|wordpress|xmlrpc|vendor|phpunit|cgi-bin|actuator|_ignition|geoserver|phpmyadmin|@fs|@vite)(?:[/.]|$)/i;
+const PROBE_FILE =
+  /(?:\.(?:php\d?|aspx?|jsp|cgi|env(?:\.[\w.-]+)?|sql|ya?ml|ini|log|bak|old|save|swp|toml|conf|config|sh|ps1)|~)$/i;
+const ADMIN_PATH = /^\/admin(?:\/|$)/;
+const SESSION_COOKIE = /^(?:__Secure-)?(?:authjs|next-auth)\.session-token(?:\.\d+)?$/;
+const HINT_COOKIE = "bd_auth";
+const APP_PATH = /^\/(?!api(?:\/|$)|_next|_vercel)[^.]*$/;
+
 export default function proxy(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  if (HIDDEN_PATH.test(pathname) || PROBE_DIR.test(pathname) || PROBE_FILE.test(pathname)) {
+    return new NextResponse(null, { status: 404 });
+  }
+
+  if (!ADMIN_PATH.test(pathname) && !APP_PATH.test(pathname)) return NextResponse.next();
+
+  if (!ADMIN_PATH.test(pathname)) {
+    const response = intlMiddleware(request);
+    const hasSession = request.cookies.getAll().some(({ name }) => SESSION_COOKIE.test(name));
+    const hinted = request.cookies.get(HINT_COOKIE)?.value === "1";
+    if (hasSession && !hinted) {
+      response.cookies.set(HINT_COOKIE, "1", {
+        path: "/",
+        sameSite: "lax",
+        secure: !isDev,
+        maxAge: 60 * 60 * 24 * 30,
+      });
+    } else if (!hasSession && request.cookies.has(HINT_COOKIE)) {
+      response.cookies.delete(HINT_COOKIE);
+    }
+    return response;
+  }
+
   const nonce = btoa(crypto.randomUUID());
   const csp = buildCsp(nonce);
 
   const headers = new Headers(request.headers);
   headers.set("x-nonce", nonce);
   headers.set("content-security-policy", csp);
-  const forwarded = new NextRequest(request, { headers });
 
-  const { pathname } = request.nextUrl;
-
-  const response = pathname.startsWith("/admin")
-    ? NextResponse.next({ request: { headers } })
-    : intlMiddleware(forwarded);
-
+  const response = NextResponse.next({ request: { headers } });
   response.headers.set("Content-Security-Policy", csp);
   return response;
 }
 
 export const config = {
   matcher: [
-    "/admin/:path*",
-    "/((?!api|_next|_vercel|.*\\..*).*)",
+    "/((?!_next/static|_next/image).*)",
   ],
 };

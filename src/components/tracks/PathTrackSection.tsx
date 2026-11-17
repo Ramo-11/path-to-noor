@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import { Illustration } from "@/components/primer/Illustration";
 import { PathCard } from "@/components/paths/PathCard";
 import type { PathOutline } from "@/lib/learning-types";
@@ -24,8 +24,8 @@ export function PathGrid({ paths, locale }: { paths: PathOutline[]; locale: stri
   );
 }
 
-export async function PreparingRow({ title, body }: { title?: string; body?: string | null }) {
-  const t = await getTranslations("tracks.preparing");
+export function PreparingRow({ title, body }: { title?: string; body?: string | null }) {
+  const t = useTranslations("tracks.preparing");
   const text = body === undefined ? t("body") : body;
   return (
     <div className="card flex flex-col items-center gap-4 p-5 text-center sm:flex-row sm:p-6 sm:text-start">
@@ -40,8 +40,8 @@ export async function PreparingRow({ title, body }: { title?: string; body?: str
   );
 }
 
-export async function PathTrackSection({ track, locale, paths, action, children }: PathTrackSectionProps) {
-  const t = await getTranslations("tracks");
+export function PathTrackSection({ track, locale, paths, action, children }: PathTrackSectionProps) {
+  const t = useTranslations("tracks");
   const titleId = `track-${track}-title`;
 
   return (
