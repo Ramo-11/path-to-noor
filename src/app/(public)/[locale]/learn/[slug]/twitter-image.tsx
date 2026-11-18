@@ -6,6 +6,11 @@ import { localized } from "@/lib/stages";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
 export const alt = "Basmet Dawah";
+export const revalidate = 300;
+
+export function generateStaticParams() {
+  return [];
+}
 
 export default async function Image({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;

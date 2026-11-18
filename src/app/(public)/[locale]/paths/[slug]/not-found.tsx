@@ -1,3 +1,5 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { EmptyState } from "@/components/primer/EmptyState";

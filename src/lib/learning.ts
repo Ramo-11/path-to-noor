@@ -321,5 +321,6 @@ export async function getLearnerState(
     recommendedPath: recommendation.path,
     recommendedIsFallback: recommendation.isFallback,
     startedPaths: outlines.filter((p) => p.isStarted),
+    paths: outlines,
   };
 }

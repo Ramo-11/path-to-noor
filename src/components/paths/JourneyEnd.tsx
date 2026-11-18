@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/primer/Button";
 import { Illustration } from "@/components/primer/Illustration";
 import { PathProgress } from "@/components/paths/PathProgress";
@@ -12,10 +12,10 @@ interface JourneyEndProps {
   totalLessons: number;
 }
 
-export async function JourneyEnd({ complete, stage, title, totalLessons }: JourneyEndProps) {
-  const t = await getTranslations("paths");
-  const tl = await getTranslations("learning");
-  const ts = await getTranslations("stages");
+export function JourneyEnd({ complete, stage, title, totalLessons }: JourneyEndProps) {
+  const t = useTranslations("paths");
+  const tl = useTranslations("learning");
+  const ts = useTranslations("stages");
   const nextStage = stage ? STAGES[STAGES.indexOf(stage) + 1] : undefined;
 
   return (

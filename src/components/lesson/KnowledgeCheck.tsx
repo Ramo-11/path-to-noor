@@ -11,6 +11,7 @@ import { PathProgress } from "@/components/paths/PathProgress";
 import { localized, type LocalizedText, type StageKey } from "@/lib/stages";
 import { toneStyle } from "@/lib/path-tone";
 import { track } from "@/lib/analytics";
+import { refreshLearner } from "@/lib/use-learner";
 
 export interface CheckQuestion {
   question: string;
@@ -155,6 +156,7 @@ export function KnowledgeCheck({ slug, quizId, questions, signedIn, upNext, path
   async function saveResult(answers: number[]) {
     const data = await postJson("/api/user/quiz", { quizId, answers });
     setSaved(true);
+    void refreshLearner();
     return data;
   }
 

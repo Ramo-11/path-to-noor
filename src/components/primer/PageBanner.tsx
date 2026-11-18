@@ -30,7 +30,7 @@ export function PageBanner({ title, lead, art, tone = "neutral", children, title
           {title}
         </h1>
         {lead ? <p className="mt-3 max-w-[40ch] text-lg text-ink-2 text-pretty">{lead}</p> : null}
-        {children ? <div className="mt-7">{children}</div> : null}
+        {children ? <div className="mt-7 empty:hidden">{children}</div> : null}
       </div>
       <div className="px-3 pb-3 md:py-3 md:ps-0">
         <div className="aspect-[16/9] overflow-hidden rounded-[calc(var(--radius-panel)-0.5rem)] md:aspect-auto md:h-full md:min-h-[17rem]">
